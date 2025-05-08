@@ -19,14 +19,35 @@
 ## Features:
 ### UI
 * Library Restyle [WIP]
+### Style
+* Appearance (Light/Dark)
+* Source Color (Red/Blue/Green/Yellow)
+* Material Icons
+* Fonts (Default/Open Sans/Google Sans)
+### Toolbar
+* Title collapse
+* Icon change
+* Title change
+* Acount style
+### Community 
+* Avatar shape
+* Alternative online indicator
+### Library
+* What's New style
+* Game Icons shape
+* Achievements Icons shape
+* Hover animations
 ### Privacy
 * Account Name Hider
 * Account Balance Hider
+### Extra
+* More animations
+* Loading style
 
 ## Credits:
 ### Developer
 * [kuska1](https://github.com/kuska1)
-### Inspiration
+### Inspiration & Borrowed the Code
 * [NEVKO-UI](https://github.com/dotFelixan/NEVKO-UI)
 * [SpaceTheme](https://github.com/SpaceTheme/Steam)
 
