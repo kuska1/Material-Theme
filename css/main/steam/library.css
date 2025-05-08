@@ -430,6 +430,13 @@
 ._3fsjzvni7TQ1NphLHM_5r3, ._3zwBRDW1egliiT4pKYIXap, ._29bW1yCn25VTm4bFameBaV {
     text-shadow: unset;
 }
+/* Fix */
+._38t1mljBjmJfqjpVzMT1CG {
+    box-shadow: unset;
+}
+.fGDsmh9vz8h0RMEoRoAvF._3cX_vEKsN9S9EmR0O5w1Ol {
+    filter: blur(32px) brightness(0.6) saturate(0) opacity(0.3);
+}
 
 /* Misc Fixes */
 /* New To Library */
