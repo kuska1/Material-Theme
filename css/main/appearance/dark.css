@@ -1,0 +1,7 @@
+:root {
+    color-scheme: only dark !important;
+    --scheme-light: var(--OFF);
+    --scheme-dark: var(--ON);
+    --scheme-color: black;
+    --scheme-color-inverse: white;
+}

@@ -1,0 +1,57 @@
+/* Dialogs */
+/* https://m3.material.io/components/dialogs/overview */
+
+.zhaKeChn9HPNSMtk0ami_ ._3m0MnUo45wjLOfNLpZ-3KH, .zhaKeChn9HPNSMtk0ami_ ._1e6tjguQEHdYIehM9aRmO5, ._3v2Gg_GCpLHpHQDLFQ7cvI.hYVp3sXyS0uYfJnzVoK-m ._3f3VJUtyLXUf_JDFE-BaQ6 {
+    border: unset;
+    border-radius: var(--corner-radius-extra-small);
+}
+
+.ModalDialogPopup .DialogContent, .DialogContent, .DialogContentTransition  {
+    border-radius: var(--corner-radius-extra-large);
+}
+
+.DialogContent.CFTLX2wIKOK3hNV-fS7_V {
+    margin-top: 32px;
+    /* margin-right: 16px; */
+    padding: 12px 0px 0px 18px;
+    border-top-left-radius: var(--corner-radius-large);
+    border-top-right-radius: var(--corner-radius-large);
+    border-bottom-left-radius: var(--corner-radius-none);
+    border-bottom-right-radius: var(--corner-radius-none);
+}
+
+/* Header */
+.DesktopUI .CFTLX2wIKOK3hNV-fS7_V .DialogHeader {
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+/* Remove Dialog Line */
+div.ModalPosition_TopBar {
+    background: unset;
+}
+
+/* Remove Dialog Shadow */
+.DesktopUI .aFxOaYcllWYkCfVYQJFs0 {
+    mask-image: unset;
+    -webkit-mask-image: unset;
+    padding-top: unset;
+}
+
+/* Included */
+._3v2Gg_GCpLHpHQDLFQ7cvI.hYVp3sXyS0uYfJnzVoK-m ._3f3VJUtyLXUf_JDFE-BaQ6,
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3lj3-GDYOlcoIFB3fFo1ko {
+    border: unset;
+    border-radius: var(--corner-radius-small);
+    box-shadow: unset;
+}
+
+/* Margin Fix? */
+.DialogBody {
+    margin-bottom: 0px !important;
+}
+
+/* Modal */
+.ModalPosition_Content {
+    box-shadow: unset;
+}

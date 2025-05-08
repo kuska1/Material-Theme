@@ -1,0 +1,17 @@
+.nevko_tooltip {
+    position: absolute;
+    padding: 8px 12px;
+    border-radius: var(--corner-radius-extra-small);
+    font-size: var(--font-body-small-size);
+    font-weight: var(--font-body-small-weight);
+    max-width: 200px;
+    z-index: 9999;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    white-space: nowrap;
+}
+  
+.badge_nevko_user, .minibadge_nevko_user {
+    position: relative;
+}

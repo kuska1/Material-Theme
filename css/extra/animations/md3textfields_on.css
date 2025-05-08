@@ -1,0 +1,3 @@
+.DialogTextInputBase {
+    transition: var(--animation-basic-medium);
+}

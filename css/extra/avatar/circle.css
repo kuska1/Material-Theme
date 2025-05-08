@@ -1,0 +1,49 @@
+/* Community/Powered */
+.playerAvatar img, .friend_block_holder .friend_block_avatar img, .friend_activity .friend_block_avatar img {
+	border-radius: var(--corner-radius-full) !important;
+}
+.friendBlock .playerAvatar, .commentthread_comment_avatar {
+	border-radius: var(--corner-radius-full) !important;
+}
+/* Mini-Profile */
+.miniprofile_playersection .playersection_avatar img {
+	border-radius: var(--corner-radius-full) !important;
+}
+/* library */
+._1xTATKELHR-lRS_s3A4yzd ._36eQg-jp1ebbdaE6PBniHu, ._3h-QRJGxnVOIExtHD1R0f2 {
+    border-radius: var(--corner-radius-full) !important;
+}
+
+/* Disable Round Avatars with Cosmetic Border */
+/* Profile */
+.playerAvatarAutoSizeInner:has(.profile_avatar_frame) img {
+	border-radius: var(--corner-radius-small) !important;
+	/* outline: unset !important; */
+}
+/* Community/Powered */
+.miniprofile_playersection:has(.playersection_avatar_frame) .playersection_avatar img {
+	border-radius: var(--corner-radius-small) !important;
+	outline-width: 1px !important;
+}
+.playerAvatar:has(.profile_avatar_frame) img {
+	border-radius: var(--corner-radius-small) !important;
+	outline-width: 1px !important;
+}
+.playerAvatar .profile_avatar_frame > img {
+    outline: unset !important;
+}
+/* Library */
+._3h-QRJGxnVOIExtHD1R0f2:has(+ ._2nPONxDUmK4rQXzK4Y3vG2) {
+	border-radius: var(--corner-radius-small) !important;
+	/* outline: unset !important; */
+}
+.nibodjvvrm86uCfnnAn4g {
+	border-radius: var(--corner-radius-full) !important;
+}
+
+/* Account Menu BG */
+._3yD46y5pd3zOGR7CzKs0mC {
+	border-radius: var(--corner-radius-full) !important;
+    /* border-top-left-radius: var(--corner-radius-full) !important;
+    border-bottom-left-radius: var(--corner-radius-full) !important; */
+}

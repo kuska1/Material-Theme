@@ -1,0 +1,158 @@
+/* Cards */
+/* https://m3.material.io/components/cards/overview */
+
+/* General */
+._7EGqd8bdiXJBd2fj5Hh8r:first-child:last-child {
+    border-radius: var(--corner-radius-medium);
+}
+._7EGqd8bdiXJBd2fj5Hh8r.MYyvJ6lNQZtM4MHwS-Y3g, ._7EGqd8bdiXJBd2fj5Hh8r:hover {
+    box-shadow: unset;
+}
+._7EGqd8bdiXJBd2fj5Hh8r:first-child:not(:last-child) {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+._7EGqd8bdiXJBd2fj5Hh8r:not(:first-child):not(:last-child) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+._7EGqd8bdiXJBd2fj5Hh8r:last-child:not(:first-child)  {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+._1EntoGyxFp22pF4skClUbC {
+    gap: 6px;
+}
+
+/* Family Cards */
+/* ._2LyGIHuQ8SFKb5T262YUvg:first-child:last-child {
+    border-radius: var(--corner-radius-medium);
+} */
+._2LyGIHuQ8SFKb5T262YUvg:nth-child(2) {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+._2LyGIHuQ8SFKb5T262YUvg:not(:nth-child(2)):not(:last-of-type) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+._2LyGIHuQ8SFKb5T262YUvg:last-of-type {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+/* Fix */
+._2oSTSohQ1CZIgVn7E6_0Ft /* Link */{
+    width: 100%;
+}
+._3VzCnvA_1SxskuCqmZkkHA /* Adult / Child */ {
+    order: 2;
+    margin-right: 8px;
+}
+._2W_HQa5Rhf-hHITgV5H0bu /* Badge */ {
+    order: 1;
+}
+
+/* Millenium */
+.millenniumPluginField {
+    border-radius: var(--corner-radius-medium) !important;
+}
+.millenniumPluginField:nth-child(3):last-of-type {
+    border-top-left-radius: var(--corner-radius-medium) !important;
+    border-top-right-radius: var(--corner-radius-medium) !important;
+    border-bottom-left-radius: var(--corner-radius-medium) !important;
+    border-bottom-right-radius: var(--corner-radius-medium) !important;
+}
+.millenniumPluginField:nth-child(3) {
+    border-top-left-radius: var(--corner-radius-medium) !important;
+    border-top-right-radius: var(--corner-radius-medium) !important;
+    border-bottom-left-radius: var(--corner-radius-extra-small) !important;
+    border-bottom-right-radius: var(--corner-radius-extra-small) !important;
+}
+.millenniumPluginField :not(:first-of-type):not(:last-of-type) {
+    border-top-left-radius: var(--corner-radius-extra-small) !important;
+    border-top-right-radius: var(--corner-radius-extra-small) !important;
+    border-bottom-left-radius: var(--corner-radius-extra-small) !important;
+    border-bottom-right-radius: var(--corner-radius-extra-small) !important;
+}
+.millenniumPluginField:last-of-type:not(:first-of-type) {
+    border-top-left-radius: var(--corner-radius-extra-small) !important;
+    border-top-right-radius: var(--corner-radius-extra-small) !important;
+    border-bottom-left-radius: var(--corner-radius-medium) !important;
+    border-bottom-right-radius: var(--corner-radius-medium) !important;
+}
+
+/* Dropdown Cards */
+._21Uc0N6TIRIw4LIZzQnsdE {
+    border-top-left-radius: var(--corner-radius-medium) !important;
+    border-top-right-radius: var(--corner-radius-medium) !important;
+    border-bottom-left-radius: var(--corner-radius-medium) !important;
+    border-bottom-right-radius: var(--corner-radius-medium) !important;
+}
+._1u5y7VbwvOwncjMsMqnFUz {
+    box-shadow: unset;
+    border-bottom-left-radius: var(--corner-radius-medium) !important;
+    border-bottom-right-radius: var(--corner-radius-medium) !important;
+}
+
+/* Download Page */
+.DesktopUI .Oo5JPcEk_erKEYAzYp2nY {
+    border-radius: var(--corner-radius-medium);
+}
+.DesktopUI .Oo5JPcEk_erKEYAzYp2nY:first-child:not(:last-child) {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+.DesktopUI .Oo5JPcEk_erKEYAzYp2nY:not(:first-child):not(:last-child) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+.DesktopUI .Oo5JPcEk_erKEYAzYp2nY:last-child:not(:first-child)  {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+
+/* Choose preferred copy */
+._3NtZhwiPYTa9_A6u6hp8en:hover {
+    cursor: pointer;
+}
+._3NtZhwiPYTa9_A6u6hp8en:first-child:not(:last-child) {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+._3NtZhwiPYTa9_A6u6hp8en:not(:first-child):not(:last-child) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+._3NtZhwiPYTa9_A6u6hp8en:last-child:not(:first-child)  {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+
+/* Image */
+/* ._3Ehhd5MxErV_bXQE4qVhzB ._24_AuLm54JVe1Zc0AApCDR, .ZsU8nIIpj8MJn0vzMzSp1 ._24_AuLm54JVe1Zc0AApCDR {
+    border-radius: var(--corner-radius-medium);
+} */

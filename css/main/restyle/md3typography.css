@@ -1,0 +1,161 @@
+/* Typography */
+/* https://m3.material.io/styles/typography/overview */
+
+/* Header */
+.DialogHeader, .DesktopUI .CFTLX2wIKOK3hNV-fS7_V .DialogHeader, /* Modal */
+.DesktopUI .DialogHeader /* Confirmation */ { 
+    font-size: var(--font-title-large-size);
+    font-weight: var(--font-title-large-weight);
+}
+._2rjVTGz8aLvqOdz5v2gq5C /* Text On left Side */ {
+    font-size: var(--font-title-medium-size);
+    font-weight: var(--font-title-medium-weight);
+}
+/* Sub Header */
+.SettingsDialogSubHeader /* Modal */,
+.ModalPosition_Content, /* Modal Content */
+._3RNLmzBdpcg55exL2SwhT1 ._3K8Afwm4bvd9vSIzAz9siX ._1RfVQWVozb8NJ_wmCLAtxP, /* Your Family */
+._7EGqd8bdiXJBd2fj5Hh8r ._3HgL0eRQXwU6dIEXXK6qba ._1RUoX0kTOBfqpwCaBZGDLJ, /* Recording Tab Card Title */
+.DesktopUI ._2rK4YqGvSzXLj1bPZL8xMJ /* Taskbar Preferences */ {
+    font-size: var(--font-title-medium-size);
+    font-weight: var(--font-title-medium-weight);
+}
+._1RCWDLVLFja1TdD1P53BMq.DesktopUI, .DesktopUI ._1RCWDLVLFja1TdD1P53BMq, .RmxP90Yut4EIwychIEg51.DesktopUI /* Recording Tab Title */ {
+    font-size: var(--font-body-large-size);
+    font-weight: var(--font-body-large-weight);
+}
+/* Body */
+._3jMlJm4PQCA8SfNlUR99Fo.DesktopUI, .DesktopUI ._3jMlJm4PQCA8SfNlUR99Fo, /* Modal */
+.DesktopUI ._2NyRKE2oI1jbaiJwFLf7CY, /* Library Display */
+.DialogBodyText, /* Confirmation */
+._7EGqd8bdiXJBd2fj5Hh8r ._3HgL0eRQXwU6dIEXXK6qba ._2BdpWib8Zcj3QSkXzmGgIB, /* Recording Tab Card Text */
+._1ifM6luJEQ5H2O1Y3S6F_R /* Text After Switch */ {
+    font-size: var(--font-body-medium-size);
+    font-weight: var(--font-body-medium-weight);
+}
+/* Sub Body */
+._1W1to_azoBRG95oNAFpf9Q.DesktopUI, .DesktopUI ._1W1to_azoBRG95oNAFpf9Q, /* Modal / Under Text */
+._3qIXY674NedSZNa-CXtNlt /* Modal / After Text */
+._3w92Ej5Kq7nbt5WACQ6jwI.DesktopUI, .DesktopUI ._3w92Ej5Kq7nbt5WACQ6jwI /* Modal / Updates */ { 
+    font-size: var(--font-body-small-size);
+    font-weight: var(--font-body-small-weight);
+}
+/* Modal Under Text Fix */
+._1W1to_azoBRG95oNAFpf9Q {
+    margin-top: unset;
+    line-height: unset;
+}
+/* Links */
+.DialogBody a, /* Base */
+.DialogBody .RmxP90Yut4EIwychIEg51, .RmxP90Yut4EIwychIEg51, /* Report a bug */
+._3cowYQH1B8oj2_ls7YZ1aW ._2FSTgdJFSAvY-XzLYUOxnB ._1tCcOYs-0OsLRJmEPjYDTV, /* Learn more */
+._3yWMUlNE_QWYXXLYK4w1JH .Y3rOv1wCYOc9BotZgl4QG /* Updates */ {
+    font-weight: var(--font-label-medium-weight);
+}
+/* Family Text / Adult & Child */
+._3C9nRrwzQk9qHlJx6NaXDI {
+    font-size: var(--font-title-small-size);
+    font-weight: var(--font-title-small-weight);
+}
+
+
+/* --- TOOLBAR --- */
+
+._2UyOBeiSdBayaFdRa39N2O,
+._1Ky59qmywxOUtNcI1cgmkX ._2Lu3d-5qLmW4i19ysTt2jT:nth-of-type(1):not(svg)::after {
+    font-size: var(--font-label-medium-size);
+    font-weight: var(--font-label-medium-weight);
+}
+
+/* --- BOTTOMBAR --- */
+
+._2foCkpRXhqq0UGVE50BWqj ._3OhUxFVlQYr9W5ThxstR8k, /* Add Game */
+.ip-YZhijAMZcuRoXBGiye ._3wJnTtcTLEp0R7eQj_mK8Y, /* Download Status */
+._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k /* Friends */ {
+    font-size: var(--font-label-medium-size);
+    font-weight: var(--font-label-medium-weight);
+}
+
+
+
+/* --- NAVIGATION --- */
+
+._1-vlriAtKYDViAEunue4VO ._2PPbMrzl8PKBwpkjYs9b0i{
+    font-size: var(--font-label-large-size);
+    font-weight: var(--font-label-large-weight);
+}
+
+
+/* --- MENU --- */
+
+._3YelWui4gQvucX_bHwvl15, ._1rihlgVMF4Q_fFZDnXeVt5, ._5bG9Iwr014pu3H1SPRwYh {
+    font-size: var(--font-label-large-size);
+    font-weight: var(--font-label-large-weight);
+}
+
+
+/* --- BUTTONs --- */
+
+/* Buttons */
+button.DialogButton, .O_nD7TklmaIZ80TPx3rjt button.DialogButton, /* Modal */
+.DialogDropDown_CurrentDisplay /* Dropdown */ {
+    font-size: var(--font-body-medium-size);
+    font-weight: var(--font-body-medium-weight);
+}
+/* Segmented */
+.HijmccPB1BKyhOwhX1EVl {
+    font-size: var(--font-body-medium-size);
+    font-weight: var(--font-body-medium-weight);
+}
+/* Install button & etc */
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play {
+    font-size: var(--font-label-large-size);
+    font-weight: var(--font-label-large-weight);
+}
+/* FABs */
+._1J21tLst5SEhBPkVRT53UV div {
+    font-size: var(--font-label-large-size);
+    font-weight: var(--font-label-large-weight);
+}
+/* Root Library Play / Install / Etc */
+._3ydigb6zZAjJ0JCDgHwSYA ._33cnXIqTRgRr49_FNXIHj6 {
+    font-weight: var(--font-label-large-weight);
+}
+
+
+/* --- LIBRARY --- */
+
+/* Title */
+._2o5c89vAnrXN8C60QTSMqO ._2hfibYuzyMOQ0sj2egsHh0, /* What's New */
+._1YdRdM9TZ_3Xolwv9aVEv- .DialogDropDown_CurrentDisplay, /* Category */
+._2q70uOe6xM3-c5XIVfBLe6 ._2rqTSCLSSEycEiuCS_OkpX ._2oJt3qYLAqr6xMjnpmBFLN /* Collection */ {
+    font-size: var(--font-title-medium-size);
+    font-weight: var(--font-title-large-weight);
+}
+/* Description */
+._2rlKqvybYupc-uk64cdQ8D, /* What's New */
+._1esfEVxhqNfh8fzr_kEGKa ._1ANYFgwMyPpwJjIndAdGSr, /* Last Played */
+._1kdinbVqPuXSbJRQa_pAuw /* Players Like You */ {
+    font-size: var(--font-body-medium-size);
+    font-weight: var(--font-body-medium-weight);
+}
+/* Game Info Bar */
+._34lrt5-Fc3usZU6trA1P0- {
+    font-size: var(--font-body-medium-size);
+    font-weight: var(--font-body-medium-weight);
+}
+
+/* You've played this game for X */
+._2SAb6geDpe6toA1GaP0GjH ._2aeAnRfwltWfd9Hb9M_1uE .qX4kNo6O0M-mYntdErKSJ, /* Title */
+._2SAb6geDpe6toA1GaP0GjH .My1beniJXh9pXud8rxYLK, /* Description */
+._1kCN0pAntrcGCSmcc-vYdk /* Buttons */ {
+    font-size: var(--font-label-large-size);
+    font-weight: var(--font-label-large-weight);
+}
+
+/* Activity */
+._1Q2q_tQ9_Eq8YdEHNAHS3F,
+.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q {
+    font-size: var(--font-body-medium-size);
+    font-weight: var(--font-body-medium-weight);
+}

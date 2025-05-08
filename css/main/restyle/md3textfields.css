@@ -1,0 +1,22 @@
+/* Text Fields */
+/* https://m3.material.io/components/text-fields/overview */
+
+.DialogTextInputBase,
+._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X {
+    outline: 0px solid transparent;
+    box-shadow: unset;
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-none);
+    border-bottom-right-radius: var(--corner-radius-none);
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    font-family: unset;
+}
+.DialogTextInputBase:not(:disabled):hover {
+    outline: 0px solid transparent;
+}
+.DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within {
+    outline: 0px solid transparent;
+    box-shadow: unset;
+}

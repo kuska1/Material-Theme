@@ -1,0 +1,39 @@
+._11cYvnWDwOeGdlUpfGNlYt ._3CJctA7pLVdwHzNF5JmORE._1urF0O1V4DZOkjI28mDvRK {
+    padding: 16px 0 16px 24px;
+}
+
+._3YO5BpDmZERh_G8kaWbaSJ.Panel {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.B-vCdL38RiJlhfSRgZv78 {
+    display: none;
+}
+
+.aqYQCF7Ny9x3EKcjCOTRY {
+    order: 2;
+    margin-bottom: 0;
+}
+
+._3_xMyCJAh_Dv99KgZ54P3j {
+    position: unset;
+    margin: 0px 8px 2px 0px !important;
+    padding: 0;
+    background-color: transparent;
+}
+
+._17uEBe5Ri8TMsnfELvs8-N {
+    height: unset !important;
+}
+
+._1Gu1U2_kcg3AWLrXQgX5S6 div.DVBcpUzJ0x6kaRMfug0OJ {
+    padding: 8px !important;
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-variant);
+}
+.aqYQCF7Ny9x3EKcjCOTRY:hover ._1Gu1U2_kcg3AWLrXQgX5S6 div.DVBcpUzJ0x6kaRMfug0OJ {
+    cursor: pointer;
+    background: color-mix(in srgb, var(--md-sys-color-surface-variant), var(--md-sys-color-primary) var(--layer-action-active));
+}

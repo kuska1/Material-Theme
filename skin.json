@@ -1,0 +1,584 @@
+{
+    "name": "Material",
+    "author": "kuska1",
+    "description": "A theme based on Google's Material Design.",
+    "tags": ["monet", "material", "material you", "material design", "material 3"],
+    "version": "1.0.0",
+    "header_image": "https://github.com/kuska1/KOOL-UI-Theme/blob/main/github/s_library.jpg?raw=true",
+    "splash_image": "https://github.com/kuska1/KOOL-UI-Theme/blob/main/github/s_library.jpg?raw=true",
+
+    "github": {
+        "owner": "kuska1",
+        "repo_name": "Material-Theme"
+    },
+
+    "Steam-WebKit": "webkit.css",
+    "RootColors": "css/main/root.css",
+    "UseDefaultPatches": true,
+
+    "Conditions": {
+        "Developer's Website": { 
+            "description": "https://kuska1.github.io",
+            "default": "yes",
+            "tab": "Info",
+            "values": {
+                "yes": {},
+                "no": {}
+            }
+        },
+        "Appearance": { 
+            "description": "Choose light or dark mode.",
+            "default": "Dark",
+            "tab": "Style",
+            "values": {
+                "Light": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/appearance/light.css"
+                    }
+                },
+                "Dark": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/appearance/dark.css"
+                    }
+                }
+            }
+        },
+        "Color": { 
+            "description": "Choose source color.",
+            "default": "Blue",
+            "tab": "Style",
+            "values": {
+                "Red": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/colors/red.css"
+                    }
+                },
+                "Green": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/colors/green.css"
+                    }
+                },
+                "Blue": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/colors/blue.css"
+                    }
+                },
+                "Yellow": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/colors/yellow.css"
+                    }
+                }
+            }
+        },
+        "Icons": { 
+            "description": "Choose icons style.",
+            "default": "Rounded",
+            "tab": "Style",
+            "values": {
+                "Sharp": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/icons/sharp.css"
+                    }
+                },
+                "Rounded": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/icons/rounded.css"
+                    }
+                }
+            }
+        },
+        "Font": { 
+            "description": "Choose font.",
+            "default": "Open Sans",
+            "tab": "Style",
+            "values": {
+                "Default": {},
+                "Open Sans": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/fonts/opensans.css"
+                    }
+                },
+                "Google Sans": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/fonts/googlesans.css"
+                    }
+                },
+                "Line Font": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/fonts/linefont.css"
+                    }
+                }
+            }
+        },
+        "Toolbar Title": {
+            "description": "Choose visibility of title",
+            "default": "Default",
+            "tab": "Toolbar",
+            "values": {
+                "Default": {},
+                "Only Icon": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/steamIcon/onlyicon.css"
+                    }
+                },
+                "Only Text": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/steamIcon/onlytext.css"
+                    }
+                }
+            }
+        },
+        "Toolbar Icon": { 
+            "description": "Choose icon in toolbar.",
+            "default": "Material Design",
+            "tab": "Toolbar",
+            "values": {
+                "Steam": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/steamIcon/steam.css"
+                    }
+                },
+                "Material Design": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/steamIcon/materialdesign.css"
+                    }
+                },
+                "Android": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/steamIcon/android.css"
+                    }
+                },
+                "Google": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/steamIcon/google.css"
+                    }
+                },
+                "Appearance": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/steamIcon/appearance.css"
+                    }
+                },
+                "Color Scheme": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/steamIcon/colorscheme.css"
+                    }
+                }
+            }
+        },
+        "Toolbar Title Based on Icon": {
+            "description": "Choose \"Steam\" title to icon name.",
+            "default": "yes",
+            "tab": "Toolbar",
+            "values": {
+                "no": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/steamIcon/defaultitle.css"
+                    }
+                },
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/steamIcon/changetitle.css"
+                    }
+                }
+            }
+        },
+        "Toolbar Account": {
+            "description": "Choose toolbar account style.",
+            "default": "Default",
+            "tab": "Toolbar",
+            "values": {
+                "Default": {},
+                "Hide Avatar": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/account/avatarHide.css"
+                    }
+                },
+                "Hide Name": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/account/nameHide.css"
+                    }
+                }
+            }
+        },
+        "Avatar Appearance": { 
+            "description": "Choose avatar shape appearance.",
+            "default": "Circle",
+            "tab": "Community",
+            "values": {
+                "Square": {},
+                "Rounded Square": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/avatar/roundedSquare.css"
+                    }
+                },
+                "Circle": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/avatar/circle.css"
+                    }
+                }
+            }
+        },
+        "Online Indicator": { 
+            "description": "Choose online indicator.",
+            "default": "Alternative",
+            "tab": "Community",
+            "values": {
+                "Default": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/onlineIndicator/circle.css"
+                    }
+                },
+                "Alternative": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/onlineIndicator/alt.css"
+                    }
+                }
+            }
+        },
+        "What's New": {
+            "description": "Show/Compact/Hide What's New section.",
+            "default": "Compact",
+            "tab": "Library",
+            "values": {
+                "Show": {},
+                "Compact": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/whatsNew/compact.css"
+                    }
+                },
+                "Hide": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/whatsNew/hide.css"
+                    }
+                }
+            }
+        },
+        "Game Icons Shape": {
+            "description": "Choose shape of game icons.",
+            "default": "Circle",
+            "tab": "Library",
+            "values": {
+                "Square": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/gameIcons/common.css"
+                    }
+                },
+                "Rounded Square": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/gameIcons/roundedSquare.css"
+                    }
+                },
+                "Circle": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/gameIcons/circle.css"
+                    }
+                }
+            }
+        },
+        "Achievements Icons Shape": {
+            "description": "Choose shape of achievements icons.",
+            "default": "Circle",
+            "tab": "Library",
+            "values": {
+                "Square": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/achievementsIcons/common.css"
+                    }
+                },
+                "Rounded Square": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/achievementsIcons/roundedSquare.css"
+                    }
+                },
+                "Circle": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/achievementsIcons/circle.css"
+                    }
+                }
+            }
+        },
+        "Remove Shiny Effect": {
+            "description": "Remove shiny effect on game card hover.",
+            "default": "Yes",
+            "tab": "Library",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/noShiny.css"
+                    }
+                }
+            }
+        },
+        "Game Card Hover Animation": {
+            "description": "Change animation on game card hover.",
+            "default": "Default",
+            "tab": "Library",
+            "values": {
+                "None": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animNone.css"
+                    }
+                },
+                "Default": {},
+                "Image Scale": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animImgScale.css"
+                    }
+                },
+                "Card Scale": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animCardScale.css"
+                    }
+                },
+                "Little Rotate": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animLittleRotate.css"
+                    }
+                },
+                "Move Up": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animTopUp.css"
+                    }
+                },
+                "Move Down": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBottomDown.css"
+                    }
+                },
+                "Transform": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animTransform.css"
+                    }
+                },
+                "#@%**": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animFck.css"
+                    }
+                }
+            }
+        },
+        "Big Game Card Hover Animation": {
+            "description": "Change animation on big game card hover.",
+            "default": "Default",
+            "tab": "Library",
+            "values": {
+                "None": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigNone.css"
+                    }
+                },
+                "Default": {},
+                "Image Scale": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigImgScale.css"
+                    }
+                },
+                "Card Scale": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigCardScale.css"
+                    }
+                },
+                "Little Rotate": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigLittleRotate.css"
+                    }
+                },
+                "Move Up": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigTopUp.css"
+                    }
+                },
+                "Move Down": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigBottomDown.css"
+                    }
+                },
+                "Transform": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigTransform.css"
+                    }
+                },
+                "#@%**": { 
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigFck.css"
+                    }
+                }
+            }
+        },
+        "Account Balance near Account Name": {
+            "description": "Show/Blur/Hide account balance near account name.",
+            "default": "Blur",
+            "tab": "Privacy",
+            "values": {
+                "Show": {},
+                "Blur": {
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceBlur.css"
+					}
+				},
+                "Hide": { 
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceHide.css"
+					}
+				},
+                "Full Hide": {
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceFullHide.css"
+					}
+				}
+            }
+        },
+        " - Show balance after hover? ": {
+            "description": "Doesn't work with Full Hide.",
+            "default": "yes",
+            "tab": "Privacy",
+            "values": {
+                "yes": {
+				    "TargetCss": { 
+						"affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceAfterHover.css"
+					}
+				},
+                "no": {}
+            }
+        },
+        "Account Name in Menu": {
+            "description": "Show/Blur/Hide account name in account menu.",
+            "default": "Blur",
+            "tab": "Privacy",
+            "values": {
+                "Show": {},
+                "Blur": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountBlur.css"
+					}
+				},
+                "Hide": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountHide.css"
+					}
+				},
+                "Full Hide": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountFullHide.css"
+					}
+				}
+            }
+        },
+        " - Show Name after Hover?": {
+            "description": "Doesn't work with Full Hide.",
+            "default": "yes",
+            "tab": "Privacy",
+            "values": {
+                "yes": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountAfterHover.css"
+					}
+				},
+                "no": {}
+            }
+        },
+        "Account Balance in Menu": {
+            "description": "Show/Blur/Hide account balance in account menu.",
+            "default": "Blur",
+            "tab": "Privacy",
+            "values": {
+                "Show": {},
+                "Blur": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceBlur.css"
+					}
+				},
+                "Hide": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceHide.css"
+					}
+				},
+                "Full Hide": {
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceFullHide.css"
+					}
+				}
+            }
+        },
+        " - Show Balance after Hover?": {
+            "description": "Doesn't work with Full Hide.",
+            "default": "yes",
+            "tab": "Privacy",
+            "values": {
+                "yes": {				
+				    "TargetCss": {
+						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceAfterHover.css"
+					}
+				},
+                "no": {}
+            }
+        },
+        "Animations": { 
+            "description": "Choose type of animations.",
+            "default": "Enabled",
+            "tab": "Performance",
+            "values": {
+                "Disabled": {},
+                "Enabled": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/animations/enable.css"
+                    }
+                }
+            }
+        },
+        "Badges for Contributes": { 
+            "description": "Custom badges at user profiles near nickname.\n(Can't be disabled)",
+            "default": "Enabled",
+            "tab": "Extra",
+            "values": {
+                "Enabled": {}
+            }
+        },
+        "Loading Style": { 
+            "description": "Choose loading image.",
+            "default": "Material Design",
+            "tab": "Extra",
+            "values": {
+                "Default": {},
+                "Material Design": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/loading/materialdesign.css"
+                    }
+                },
+                "Color Scheme": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/loading/colorscheme.css"
+                    }
+                },
+                "Shapes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/loading/shapes.css"
+                    }
+                }
+            }
+        },
+        "Hide Scrollbar": { 
+            "description": "Hide scrollbar on pages.",
+            "default": "yes",
+            "tab": "Extra",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/scrollbar/hide.css"
+                    }
+                }
+            }
+        }
+    },
+    
+
+    "Patches": [
+        {
+            "MatchRegexString": "http.*steamcommunity.*(id|profiles).[^\/]+\/?$",
+            "TargetJs": "js/extra/badges/badges.js",
+            "TargetCss": "css/extra/badges/badges.css"
+        }
+    ]
+}

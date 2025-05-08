@@ -1,0 +1,96 @@
+@import url("md3segmentedbuttons.css");
+
+/* Button */
+/* https://m3.material.io/components/all-buttons */
+
+/* Basic Button */
+button.DialogButton, .O_nD7TklmaIZ80TPx3rjt button.DialogButton {
+    border-radius: var(--corner-radius-full);
+}
+button.DialogButton::before {
+    box-shadow: unset;
+}
+
+._9Ql-oVe_j8E-vsDdyVdWo {
+    outline-width: 2px;
+    outline-style: solid;
+}
+
+/* Click */
+button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, button.DialogButton:enabled:active.gpfocus {
+    box-shadow: unset;
+}
+
+/* Big Card Button */
+button.TEWmsM70ZLEOxLAjDMpcv.DialogButton {
+    border-radius: var(--corner-radius-medium);
+}
+button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
+    border-radius: var(--corner-radius-medium);
+}
+
+/* Dropdown Button */   
+.DialogDropDown, .DialogDropDown:hover {
+    box-shadow: unset;
+}
+._1ZS_xta5HMXzR8JgxDH6n7 ._2PF_m-I5yte3WnQhpcz8RC, /* Library */
+._3few7361SOf4k_YuKCmM62 .DialogDropDown {
+    border-radius: var(--corner-radius-small);
+}
+._30wJO3MC4x-I1OWpy1TAeE._DialogInputContainer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* Root */
+._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown, ._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogDropDown {
+    border-radius: var(--corner-radius-medium);
+}
+
+/* Primary & Secondary Button Swap */
+._DialogColLayout button.DialogButton.Primary {
+    order: 2;
+}
+._DialogColLayout button.DialogButton.Secondary {
+    order: 1;
+}
+
+/* More Button */
+._1WKUOT3FdB9-48MMP0Tz9l {
+    border-radius: var(--corner-radius-full);
+}
+
+/* Install button & etc */
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp,
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play {
+    box-shadow: unset;
+    border-radius: var(--corner-radius-none);
+}
+
+/* Library */
+/* Play / Install / etc button */
+._3ydigb6zZAjJ0JCDgHwSYA {
+    border-radius: var(--corner-radius-medium);
+}
+/* Update Button */
+._1hhB2Wf7iExA15zh_lDQ_y ._3ydigb6zZAjJ0JCDgHwSYA /* Base (L) */ {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi /* Dropdown (R) */ {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+
+/* Game Toolbar */
+._3qDWQGB0rtwM3qpXTb11Q- {
+    border-radius: var(--corner-radius-full);
+}
+
+/* Filter */
+._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer {
+    border-radius: var(--corner-radius-extra-small);
+}

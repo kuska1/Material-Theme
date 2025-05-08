@@ -1,0 +1,51 @@
+/* Slider */
+/* https://m3.material.io/components/sliders/overview */
+
+/* Track */
+._2_vG6TwMW2XtyLlTEaODH9 {
+    height: 14px;
+    border-radius: var(--corner-radius-full);
+    background-color: unset;
+}
+/* Active Track */
+._2_vG6TwMW2XtyLlTEaODH9::before {
+    border-radius: var(--corner-radius-full);
+    width: calc(var(--normalized-width-handle) - 9px);
+    border-top-left-radius: var(--corner-radius-full);
+    border-bottom-left-radius: var(--corner-radius-full);
+    border-top-right-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+}
+/* Inactive Track */
+._2_vG6TwMW2XtyLlTEaODH9::after {
+    content: "";
+    position: absolute;
+    --normalized-fill-start: calc( ( 100% ) * min( var( --normalized-slider-value ), var( --normalized-slider-origin ) ) );
+    --normalized-fill-end: calc( ( 100% - var( --slider-extra-notch-padding ) * 2 ) * max( var( --normalized-slider-value ), var( --normalized-slider-origin ) ) + var( --slider-extra-notch-padding ) );
+    --normalized-width-handle: calc( var( --normalized-fill-end ) - var( --normalized-fill-start ) );
+    left: calc(var(--normalized-width-handle) + 9px);
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: var(--corner-radius-small);
+    border-bottom-left-radius: var(--corner-radius-small);
+    border-top-right-radius: var(--corner-radius-full);
+    border-bottom-right-radius: var(--corner-radius-full);
+}
+
+/* Handle */
+._11PBfip2UlKlY3vWSz8PA4 {
+    border-radius: var(--corner-radius-full);
+    height: 42px;
+    width: var(--slider-handle-width);
+    margin-top: -8.8px;
+    box-shadow: unset;
+}
+/* Handle Callback */
+._1udlGGE4F5pggcpxovorUd {
+    --slider-handle-width: 6px;
+}
+._1udlGGE4F5pggcpxovorUd:has(._2_vG6TwMW2XtyLlTEaODH9:hover) {
+    --slider-handle-width: 4px;
+}

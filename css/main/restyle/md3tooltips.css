@@ -1,0 +1,9 @@
+/* Tooltips */
+/* https://m3.material.io/components/tooltips/overview */
+
+._2FxbHJzYoH024ko7zqcJOf, /* Base */
+._3XGRklQrZMakU2xaYB0cLD, /* Library */
+._2iiN7AYnLFTRFRiuipiYJz /* Friends */ {
+    border-radius: var(--corner-radius-extra-small);
+    box-shadow: unset;
+}

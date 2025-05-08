@@ -1,0 +1,10 @@
+/* Checkbox */
+/* https://m3.material.io/components/checkbox/overview */
+
+.DialogCheckbox.Active .SVGIcon_DialogCheck path {
+    stroke-dashoffset: 0 !important;
+}
+
+#svgid_53, #svgid_54 {
+    display: none;
+}

@@ -1,0 +1,90 @@
+
+/* Window Control */
+._39oUCO1OuizVPwcnnv88no .qP17eBPXkfezFfexZ4hC3 {
+    margin-top: 4px;
+    margin-right: 2px;
+}
+.DesktopUI .title-area .title-bar-actions {
+    margin-right: 4px;
+}
+.title-area .title-bar-actions {
+    gap: 7px;
+}
+.DesktopUI .title-area-icon, .title-area-icon {
+    border-radius: var(--corner-radius-full);
+    width: 24px;
+    height: 24px;
+}
+
+/* Remove Outlines */
+._3Z7VQ1IMk4E3HsHvrkLNgo, ._3vCzSrrXZzZjVJFZNg9SGu {
+    box-shadow: unset;
+    border: unset;
+}
+.RGNMWtyj73_-WdhflrmuY._3WJCt_OkjPA6npxOtguSt5 ._2CmrnGY-Amtd83ScJkFvx2 {
+    display: none;
+    box-shadow: unset;
+}
+
+/* STYLE 1 TEST */
+/* ._3Z3ohQ8-1NKnCZkbS6fvy {
+    position: absolute !important;
+    top: 23px !important;
+    left: 50% !important;
+    width: fit-content !important;
+    padding: 0 !important;
+    transform: translate(-50%, -50%) !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+} */
+
+
+/* STYLE 2 TEST */
+/* ._39oUCO1OuizVPwcnnv88no ._1-9sir4j_KQiMqdkZjQN0u {
+    position: absolute;
+    right: 0px;
+    top: 30px;
+} */
+
+
+/* Bottom */
+/* ._3vCzSrrXZzZjVJFZNg9SGu {
+    max-height: 0px;
+} */
+/* Add Game & Downloads & Friends n Chat */
+/* ._2foCkpRXhqq0UGVE50BWqj, .ip-YZhijAMZcuRoXBGiye, ._1TdaAqMFadi0UTqilrkelR {
+    border-radius: var(--corner-radius-large);
+    padding: 16px;
+    box-shadow: var(--elevated-shadow);
+}
+._2foCkpRXhqq0UGVE50BWqj:hover, .ip-YZhijAMZcuRoXBGiye:hover, ._1TdaAqMFadi0UTqilrkelR:hover {
+    box-shadow: var(--elevated-shadow-hover);
+}
+._2foCkpRXhqq0UGVE50BWqj, ._1TdaAqMFadi0UTqilrkelR {
+    gap: 12px;
+} */
+/* Add Game */
+/* ._2foCkpRXhqq0UGVE50BWqj {
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+} */
+/* Download Manager */
+/* .ip-YZhijAMZcuRoXBGiye {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15px;
+} */
+/* Friends n Chat */
+/* ._1TdaAqMFadi0UTqilrkelR {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+._1TdaAqMFadi0UTqilrkelR ._1KrJ3sFAqPBN9mfpaNTU5F {
+    order: 1;
+}
+._1TdaAqMFadi0UTqilrkelR ._3OhUxFVlQYr9W5ThxstR8k {
+    order: 2;
+} */

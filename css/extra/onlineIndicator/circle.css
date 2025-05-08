@@ -1,0 +1,65 @@
+/* Replace Online Icon */
+
+/* Mini-Profile */
+.miniprofile_playersection .playersection_avatar {
+	border: unset !important;
+}
+.miniprofile_playersection .playersection_avatar img {
+	outline: 2px solid;
+	transition: .35s linear;
+}
+.miniprofile_playersection .playersection_avatar.border_color_offline img {
+	outline-color: rgb(var(--indicator-offline));
+}
+.miniprofile_playersection .playersection_avatar.border_color_online img {
+	outline-color: rgb(var(--indicator-online));
+}
+.miniprofile_playersection .playersection_avatar.border_color_in-game img {
+	outline-color: rgb(var(--indicator-ingame));
+}
+
+/* Library */
+.nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
+.nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.right, 
+._3xUpb5DWXPFNcHHIcv-9pe {
+	visibility: hidden;
+}
+._3h-QRJGxnVOIExtHD1R0f2 {
+	outline: 1px solid;
+	transition: .35s linear;
+}
+/* Offline */
+._3h-QRJGxnVOIExtHD1R0f2 {
+	outline-color: rgb(var(--indicator-offline));
+}
+/* .nibodjvvrm86uCfnnAn4g {
+	background: rgb(var(--indicator-offline));
+} */
+/* Online */
+.online ._3h-QRJGxnVOIExtHD1R0f2 {
+	outline-color: rgb(var(--indicator-online));
+}
+/* .nibodjvvrm86uCfnnAn4g.online {
+	background: rgb(var(--indicator-online));
+} */
+/* Away */
+.awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
+	outline: 1px dashed rgb(var(--indicator-away));
+}
+/* .nibodjvvrm86uCfnnAn4g.awayOrSnooze{
+	background: rgb(var(--indicator-away));
+} */
+/* Ingame */
+.ingame ._3h-QRJGxnVOIExtHD1R0f2 {
+	outline-color: rgb(var(--indicator-ingame));
+}
+/* .nibodjvvrm86uCfnnAn4g.ingame {
+	background: rgb(var(--indicator-ingame));
+} */
+/* Ingame Away */
+.ingame.awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
+	outline: 1px dashed rgb(var(--indicator-ingame-away));
+}
+/* .nibodjvvrm86uCfnnAn4g.ingame.awayOrSnooze {
+	background: rgb(var(--indicator-ingame-away));
+} */

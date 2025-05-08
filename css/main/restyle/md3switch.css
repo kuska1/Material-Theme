@@ -1,0 +1,52 @@
+/* Switch */
+/* https://m3.material.io/components/switch/overview */
+
+/* Base */
+._1PQppcgkuXQAiFPar9AGi- /* Handle */ {
+    box-shadow: unset;
+}
+._9Ql-oVe_j8E-vsDdyVdWo {
+    outline-color: transparent;
+}
+
+
+/* Off */
+._9Ql-oVe_j8E-vsDdyVdWo.Focusable ._2bl0iQ9xigbq4Zd1NI6NZl::before {
+    transform: translateX(0px);
+    opacity: 0;
+}
+
+._9Ql-oVe_j8E-vsDdyVdWo.Focusable ._1PQppcgkuXQAiFPar9AGi- {
+    top: 5px;
+    bottom: 5px;
+    left: 6px;
+    width: 12px;
+}
+
+/* On */
+._9Ql-oVe_j8E-vsDdyVdWo.yLrDAetGoWx0GYqA6ShfS.Focusable ._2bl0iQ9xigbq4Zd1NI6NZl::before {
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+._9Ql-oVe_j8E-vsDdyVdWo.yLrDAetGoWx0GYqA6ShfS.Focusable ._1PQppcgkuXQAiFPar9AGi- {
+    /* top: 3px;
+    bottom: 3px;
+    left: 1.5px;
+    width: 16px; */
+    top: 3px;
+    bottom: 3px;
+    left: 1.5px;
+    width: 16px;
+}
+
+/* Hover */
+/* ._9Ql-oVe_j8E-vsDdyVdWo:not(.aIeh3X5T2M074RLW1qn6_):hover {
+    box-shadow: unset;
+} */
+/* ._9Ql-oVe_j8E-vsDdyVdWo:not(.aIeh3X5T2M074RLW1qn6_):hover ._1PQppcgkuXQAiFPar9AGi- {
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    width: 18px;
+} */

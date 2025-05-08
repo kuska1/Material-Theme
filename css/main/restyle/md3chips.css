@@ -1,0 +1,17 @@
+/* Chips */
+/* https://m3.material.io/components/chips/overview */
+
+.DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ, /* Root Game Actions (Library) */
+._1bIMOmWaxKrMdVMWU21ku /* Root Game Actions More Btn (Library) */ {
+    border-radius: var(--corner-radius-small);
+    border-width: 1px;
+    border-style: solid;
+    background: transparent;
+}
+.DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ /* Default */ {
+    padding: 4px 8px;
+}
+._1bIMOmWaxKrMdVMWU21ku /* More Btn */ {
+    padding-left: 4px;
+    padding-right: 4px;
+}
