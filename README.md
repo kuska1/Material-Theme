@@ -1,57 +1,27 @@
 <p align="center">
-    <a href="https://github.com/kuska1/KOOL-UI-Theme/">
+    <a href="https://github.com/kuska1/Material-Theme/">
         <picture>
-          <img src="https://github.com/kuska1/KOOL-UI-Theme/blob/main/github/logo.svg?raw=true" alt="KOOL-UI Logo" width="200">
+          <img src="https://github.com/kuska1/Material-Theme/blob/main/github/logo.svg?raw=true" alt="Material Logo" width="200">
         </picture>
     </a>
 </p>
 
 <div align="center">
 
-# KOOL-UI
-### Cool Theme for Steam (Millenium) with some Features.
+# Material
+### Theme for Steam (Millenium) based on Google's Material 3 Design with some Features.
 
 ## Screenshots
-![Library](https://github.com/kuska1/KOOL-UI-Theme/blob/main/github/s_library.jpg?raw=true)
+![Library](https://github.com/kuska1/Material-Theme/blob/main/github/s_library.jpg?raw=true)
 
 </div>
 
 ## Features:
 ### UI
 * Library Restyle [WIP]
-* Steampowered Restyle [WIP]
-* Steamcommunity Restyle [WIP]
-### General
-* Recolor to Accent Color
-* Header Line Remover
-* Gradient Background Header
-* Avatar Border Style
-* Avatar Indicator Style
-### Interface
-* Navigation Bar Items Style
-* Show/Hide Navigation Bar Arrows
-* Show/Hide Steam Title
-* Navigation Bar Items Hider
-### Library
-* Restyle What's New
-* Gradient Background on Hover
-* Shiny Effect Remover
-* Change Hover Animations
-### Browser
-* URL Position
-* URL Visibility
-* Page Animation on Load
 ### Privacy
 * Account Name Hider
 * Account Balance Hider
-* Account Details Hider
-
-## Todo:
-* Finish Restyle
-* Restyle Notifications
-* Restyle Overlay
-* Restyle Big Picture Mode
-* And more...
 
 ## Credits:
 ### Developer
