@@ -13,7 +13,6 @@
     },
 
     "Steam-WebKit": "webkit.css",
-    "RootColors": "css/main/root.css",
     "UseDefaultPatches": true,
 
     "Conditions": {
