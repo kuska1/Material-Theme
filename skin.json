@@ -16,15 +16,6 @@
     "UseDefaultPatches": true,
 
     "Conditions": {
-        "Developer's Website": { 
-            "description": "https://kuska1.github.io",
-            "default": "yes",
-            "tab": "Info",
-            "values": {
-                "yes": {},
-                "no": {}
-            }
-        },
         "Appearance": { 
             "description": "Choose light or dark mode.",
             "default": "Dark",
@@ -578,7 +569,15 @@
             "default": "Enabled",
             "tab": "Extra",
             "values": {
-                "Enabled": {}
+                "no": {},
+                "yes": {
+                    "TargetJs": {
+                        "affects": ["http.*steamcommunity.*(id|profiles).[^\/]+\/?$"], "src": "js/extra/badges/badges.js"
+                    },
+                    "TargetCss": {
+                        "affects": ["http.*steamcommunity.*(id|profiles).[^\/]+\/?$"], "src": "css/extra/badges/badges.css"
+                    }
+                }
             }
         },
         "Loading Style": { 
@@ -620,11 +619,5 @@
     },
     
 
-    "Patches": [
-        {
-            "MatchRegexString": "http.*steamcommunity.*(id|profiles).[^\/]+\/?$",
-            "TargetJs": "js/extra/badges/badges.js",
-            "TargetCss": "css/extra/badges/badges.css"
-        }
-    ]
+    "Patches": []
 }
