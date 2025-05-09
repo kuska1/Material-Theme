@@ -47,7 +47,8 @@
 
 ## TODO:
 ### UI
-* Store, Community, Download Manager Restyles
+* Store, Community, Download Manager restyles
+* Overlay, notification, etc restyle
 ### Style
 * Add dynamic color (custom)
 
