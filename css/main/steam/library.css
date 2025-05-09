@@ -1,4 +1,5 @@
-._3pXasCUulX4jjqO79s4q_F ._2MkHZqf7MrgW3f8qGHiI8Z {
+._3pXasCUulX4jjqO79s4q_F ._2MkHZqf7MrgW3f8qGHiI8Z,
+._3pXasCUulX4jjqO79s4q_F {
     display: none;
 }
 /* Divider */
@@ -437,6 +438,46 @@
 .fGDsmh9vz8h0RMEoRoAvF._3cX_vEKsN9S9EmR0O5w1Ol {
     filter: blur(32px) brightness(0.6) saturate(0) opacity(0.3);
 }
+/* Workshop */
+._176QJCynkEUSdR_-9btdAW {
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+._1W34WpqfvufNgueNdZozwC .gh2rjM-vD2oIms-jfWeCA {
+    border-radius: var(--corner-radius-small);
+}
+/* DLC */
+._2bF7XkQZA1M7jTj6txLFp- ._3SQn1_upOaYSAJAn2N4YKY {
+    box-shadow: unset;
+}
+._2bF7XkQZA1M7jTj6txLFp- .HAvWsE0-ycDj77SdyLXE-,
+._2bF7XkQZA1M7jTj6txLFp- ._3SQn1_upOaYSAJAn2N4YKY.ZsU8nIIpj8MJn0vzMzSp1 ._24_AuLm54JVe1Zc0AApCDR {
+    border-radius: var(--corner-radius-small);
+}
+/* Additional Content */
+._11iUUsCpGW7-08wUrrGpge,
+._3LAizMtUlmoLDISb1OIvn6 ._7zwZ-do4iycZzy-eZWv0Z.ZsU8nIIpj8MJn0vzMzSp1 ._24_AuLm54JVe1Zc0AApCDR {
+    border-radius: var(--corner-radius-small);
+}
+.LO26ZYaqzK4mqekirGHGI ._3ikOg0yRAOzUTlfwD9zrH- {
+    margin-top: 6px;
+    margin-left: 6px;
+    border-radius: var(--corner-radius-medium);
+}
+.LO26ZYaqzK4mqekirGHGI ._3ikOg0yRAOzUTlfwD9zrH- img {
+    box-shadow: unset;
+}
+/* Post Actions */
+._1yWgPveQ73QeYCdLcs6oFQ {
+    margin-top: 4px;
+}
+._1yWgPveQ73QeYCdLcs6oFQ ._161IKq84RwQO4abJSCqv7q, ._1yWgPveQ73QeYCdLcs6oFQ ._3i62HEXIhsNTd5-Z4uL3K, ._1yWgPveQ73QeYCdLcs6oFQ ._35yrbgVC5TQttl8IPVlKQB {
+    border-radius: var(--corner-radius-full);
+}
+/* Added to library */
+._1cr9sIuuS4nLKFLZ9EYN9Q.ZsU8nIIpj8MJn0vzMzSp1 ._24_AuLm54JVe1Zc0AApCDR {
+    border-radius: var(--corner-radius-small);
+}
 
 /* Misc Fixes */
 /* New To Library */
@@ -448,8 +489,12 @@
     top: -10px;
 }
 /* Avatar Bg Remove */
-._3h-QRJGxnVOIExtHD1R0f2 {
+._3h-QRJGxnVOIExtHD1R0f2,
+._1ABm6sfuqiZZDSL9z8mW1a,
+._2gISWIeEzZ9PNuAzVuMaWd ._1-H7tKj_QcGHLUbx5wVsGg,
+._2V2sHETNfa62yMoDwSF3_t {
     box-shadow: unset;
+    text-shadow: unset;
 }
 ._3dncOt2dhpnFYQn-WYQ3Mb ._2JYwpg3-WbCSXH-w5h-zL_ {
     box-shadow: unset;
@@ -471,4 +516,9 @@
 ._1KHOCigl8AaK2eHxQqPMlc {
     margin-top: -10px;
     margin-bottom: 10px;
+}
+/* Read More */
+._1W34WpqfvufNgueNdZozwC ._3DyemX0QGhW2mipZQwVfnS ._3Mq6sekyFK-ftT7QO56xSv .YE_jJPwp0fBbRm1vQHIIq {
+    padding: 4px 6px;
+    border-radius: var(--corner-radius-full);
 }

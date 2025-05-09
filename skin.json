@@ -75,11 +75,6 @@
             "default": "Rounded",
             "tab": "Style",
             "values": {
-                "Sharp": {
-                    "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/icons/sharp.css"
-                    }
-                },
                 "Rounded": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/extra/icons/rounded.css"
@@ -106,6 +101,23 @@
                 "Line Font": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/extra/fonts/linefont.css"
+                    }
+                }
+            }
+        },
+        "Online Indicator": {
+            "description": "Choose online indicator style.",
+            "default": "Alternative",
+            "tab": "Style",
+            "values": {
+                "Default": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/onlineIndicator/circle.css"
+                    }
+                },
+                "Alternative": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/onlineIndicator/alt.css"
                     }
                 }
             }
@@ -200,10 +212,10 @@
                 }
             }
         },
-        "Avatar Appearance": { 
-            "description": "Choose avatar shape appearance.",
+        "Profile Picture Shape": { 
+            "description": "Choose profile picture shape.",
             "default": "Circle",
-            "tab": "Community",
+            "tab": "Shapes",
             "values": {
                 "Square": {},
                 "Rounded Square": {
@@ -218,19 +230,46 @@
                 }
             }
         },
-        "Online Indicator": { 
-            "description": "Choose online indicator.",
-            "default": "Alternative",
-            "tab": "Community",
+        "Game Icons Shape": {
+            "description": "Choose shape of game icons.",
+            "default": "Circle",
+            "tab": "Shapes",
             "values": {
-                "Default": {
+                "Square": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/onlineIndicator/circle.css"
+                        "affects": [".*"], "src": "css/extra/gameIcons/common.css"
                     }
                 },
-                "Alternative": {
+                "Rounded Square": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/onlineIndicator/alt.css"
+                        "affects": [".*"], "src": "css/extra/gameIcons/roundedSquare.css"
+                    }
+                },
+                "Circle": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/gameIcons/circle.css"
+                    }
+                }
+            }
+        },
+        "Achievements Icons Shape": {
+            "description": "Choose shape of achievements icons.",
+            "default": "Circle",
+            "tab": "Shapes",
+            "values": {
+                "Square": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/achievementsIcons/square.css"
+                    }
+                },
+                "Rounded Square": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/achievementsIcons/roundedSquare.css"
+                    }
+                },
+                "Circle": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/achievementsIcons/circle.css"
                     }
                 }
             }
@@ -253,46 +292,15 @@
                 }
             }
         },
-        "Game Icons Shape": {
-            "description": "Choose shape of game icons.",
-            "default": "Circle",
+        "Rare Achievements based on Source Color": {
+            "description": "Rare Achievements outline color & effects based on Color Scheme.",
+            "default": "yes",
             "tab": "Library",
             "values": {
-                "Square": {
+                "no": {},
+                "yes": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/gameIcons/common.css"
-                    }
-                },
-                "Rounded Square": {
-                    "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/gameIcons/roundedSquare.css"
-                    }
-                },
-                "Circle": {
-                    "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/gameIcons/circle.css"
-                    }
-                }
-            }
-        },
-        "Achievements Icons Shape": {
-            "description": "Choose shape of achievements icons.",
-            "default": "Circle",
-            "tab": "Library",
-            "values": {
-                "Square": {
-                    "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/achievementsIcons/common.css"
-                    }
-                },
-                "Rounded Square": {
-                    "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/achievementsIcons/roundedSquare.css"
-                    }
-                },
-                "Circle": {
-                    "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/achievementsIcons/circle.css"
+                        "affects": [".*"], "src": "css/extra/achievementsIcons/rareSourceColor.css"
                     }
                 }
             }
