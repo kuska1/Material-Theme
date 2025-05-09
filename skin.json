@@ -564,9 +564,9 @@
                 }
             }
         },
-        "Badges for Contributes": { 
-            "description": "Custom badges at user profiles near nickname.\n(Can't be disabled)",
-            "default": "Enabled",
+        "Badges for Contributors": { 
+            "description": "Custom badges at user profiles near nickname.",
+            "default": "yes",
             "tab": "Extra",
             "values": {
                 "no": {},
