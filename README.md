@@ -45,6 +45,12 @@
 * More animations
 * Loading style
 
+## TODO:
+### UI
+* Store, Community, Download Manager Restyles
+### Style
+* Add dynamic color (custom)
+
 ## Credits:
 ### Developer
 * [kuska1](https://github.com/kuska1)
