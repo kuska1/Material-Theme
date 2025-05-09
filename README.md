@@ -24,18 +24,19 @@
 * Source Color (Red/Blue/Green/Yellow)
 * Material Icons
 * Fonts (Default/Open Sans/Google Sans)
+* Alternatie online indicator
 ### Toolbar
 * Title collapse
 * Icon change
 * Title change
-* Acount style
-### Community 
-* Avatar shape
-* Alternative online indicator
+* Acount button style
+* Toolbar buttons hider
+### Shapes 
+* Profile picture shape
+* Game icons shape
+* Achievements icons shape
 ### Library
 * What's New style
-* Game Icons shape
-* Achievements Icons shape
 * Hover animations
 ### Privacy
 * Account Name Hider

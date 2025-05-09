@@ -227,7 +227,7 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, /* Card Button */
 ._3epr8QYWw_FqFgMx38YEEm.DesktopUI, .DesktopUI ._3epr8QYWw_FqFgMx38YEEm, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, .BRmrC-jnwpXqye4oYB21C button.DialogButton,
 ._1WKUOT3FdB9-48MMP0Tz9l, /* More Button */
 ._3qDWQGB0rtwM3qpXTb11Q-, /* Game Opened Toolbar */
-._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU /* Game Properties Modal */  {
+._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU, ._3qDWQGB0rtwM3qpXTb11Q-.fyJia4DC2A-H5pIR9DD87 /* Game Properties Modal */  {
     color: var(--md-sys-color-on-primary);
     background: unset;
     background-color: var(--md-sys-color-primary);
@@ -351,7 +351,18 @@ button.DialogButton.Disabled:hover /* Basic */ {
     background: unset;
     background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
-
+/* Dropdown Arrow Button */
+._23SnllqT_AqZ1C_QHcNQ4Z ._3sz4Ldugm_cV_JaHOErVR8 {
+    background: transparent;
+}
+._23SnllqT_AqZ1C_QHcNQ4Z ._3sz4Ldugm_cV_JaHOErVR8:hover {
+    background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
+}
+._23SnllqT_AqZ1C_QHcNQ4Z ._3sz4Ldugm_cV_JaHOErVR8 polyline,
+._23SnllqT_AqZ1C_QHcNQ4Z ._3sz4Ldugm_cV_JaHOErVR8:hover polyline {
+    color: var(--md-sys-color-outline);
+    stroke: var(--md-sys-color-outline);
+}
 
 /* --- CARDS --- */
 
@@ -514,6 +525,15 @@ button.DialogButton.Disabled:hover /* Basic */ {
 ._3ca11X3AK6npLS3emMa5Lr._3i6PczGBBYzCDZXkCDbJAD {
     border-top-color: var(--md-sys-color-outline);
 }
+/* Shelfs */
+._23SnllqT_AqZ1C_QHcNQ4Z ._1PhK8scyztOxjJwWUpkiLJ {
+    background-color: color-mix(in srgb, transparent, var(--md-sys-color-outline) var(--layer-action-active));
+    /* background-color: var(--md-sys-color-outline-variant); */
+}
+._23SnllqT_AqZ1C_QHcNQ4Z ._1OGfHXv6ksR1Ub-OuLN2NB {
+    stroke: var(--md-sys-color-surface);
+    stroke: var(--md-sys-color-surface)
+}
 
 /* --- MENU --- */
 
@@ -627,8 +647,15 @@ button.DialogButton.Disabled:hover /* Basic */ {
     background-color: var(--md-sys-color-primary);
 }
 .RtSv39ZoBOySnb8XQ5hJf._3qhGkQ5qLVNQQ-J2-uPoHt ._34bQcTHo5QKzuujoEyU1tm {
-    fill: var(--md-sys-color-primary);
-    color: var(--md-sys-color-primary);
+    fill: var(--md-sys-color-outline);
+    color: var(--md-sys-color-outline);
+}
+.RtSv39ZoBOySnb8XQ5hJf._9YK5IY219Pm_F53DAxyYp:not(._1QQWjaXmb1eTHZpeIhQA_5):hover ._34bQcTHo5QKzuujoEyU1tm, .RtSv39ZoBOySnb8XQ5hJf._3qhGkQ5qLVNQQ-J2-uPoHt:not(._1QQWjaXmb1eTHZpeIhQA_5):hover ._34bQcTHo5QKzuujoEyU1tm {
+    fill: var(--md-sys-color-on-primary);
+    color: var(--md-sys-color-on-primary);
+}
+.RtSv39ZoBOySnb8XQ5hJf._9YK5IY219Pm_F53DAxyYp, .RtSv39ZoBOySnb8XQ5hJf._3qhGkQ5qLVNQQ-J2-uPoHt {
+    background: transparent;
 }
 
 
@@ -658,7 +685,9 @@ button.DialogButton.Disabled:hover /* Basic */ {
 /* -- TOOLBAR -- */
 
 /* Items */
-._2UyOBeiSdBayaFdRa39N2O /* Base */ {
+._2UyOBeiSdBayaFdRa39N2O, /* Base */
+._3LKQ3S_yqrebeNLF6aeiog, /* Big Picture */
+._5wILZhsLODVwGfcJ0hKmJ /* News */ {
     color: var(--md-sys-color-outline);
 }
 ._2UyOBeiSdBayaFdRa39N2O:hover:not(._2hcblpUHuN5CYOoq6eU2y0) /* Hover */ {
@@ -1374,6 +1403,28 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 /* Inactive Game Cards */
 ._1WsOngnf2RD4f5N-38rPLZ._1A6NCTdU46HX1K7YgrP5Wt ._2DUDvAhXoEOSsd8GTIsKLY, ._1WsOngnf2RD4f5N-38rPLZ._2ZOgNy8yeAD0UVe25xzl76 ._2DUDvAhXoEOSsd8GTIsKLY {
     background-color: var(--md-sys-color-outline-variant);
+}
+/* Players */
+._1GCZAht_W2I3Elndk5cU0-:hover {
+    background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
+}
+._1GCZAht_W2I3Elndk5cU0- ._1xGH4bGLz6sI7erzB8VWff {
+    color: var(--md-sys-color-outline) !important;
+}
+/* Shelf Arrow */
+._2kWWyBO7w_F76NB8sBw86c svg polyline, ._3uMa3icVa3JTCGQKPeUikO svg polyline {
+    stroke: var(--md-sys-color-outline);
+}
+/* Add Shelf */
+._3SkuN_ykQuWGF94fclHdhJ ._2aw5aUUo3lrK6wxJb4_ms5,
+._3SkuN_ykQuWGF94fclHdhJ svg line, ._3SkuN_ykQuWGF94fclHdhJ svg circle {
+    color: var(--md-sys-color-outline);
+    stroke: var(--md-sys-color-outline);
+}
+._3SkuN_ykQuWGF94fclHdhJ._3dQDoCmoAJqOiOK7oAJIKM ._2aw5aUUo3lrK6wxJb4_ms5,
+._3SkuN_ykQuWGF94fclHdhJ._3dQDoCmoAJqOiOK7oAJIKM svg line, ._3SkuN_ykQuWGF94fclHdhJ._3dQDoCmoAJqOiOK7oAJIKM svg circle {
+    color: var(--md-sys-color-on-surface);
+    stroke: var(--md-sys-color-on-surface);
 }
 
 /* -- BOTTOM BAR -- */

@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "A theme based on Google's Material Design.",
     "tags": ["monet", "material", "material you", "material design", "material 3"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "header_image": "https://github.com/kuska1/KOOL-UI-Theme/blob/main/github/s_library.jpg?raw=true",
     "splash_image": "https://github.com/kuska1/KOOL-UI-Theme/blob/main/github/s_library.jpg?raw=true",
 
@@ -210,6 +210,45 @@
                         "affects": [".*"], "src": "css/extra/account/nameHide.css"
                     }
                 }
+            }
+        },
+        "Hide News Button": {
+            "description": "Hide news button on toolbar.",
+            "default": "no",
+            "tab": "Toolbar",
+            "values": {
+                "no": {},
+                "yes": {
+				    "TargetCss": { 
+						"affects": ["^Steam$"], "src": "css/extra/toolbar/hideNews.css"
+					}
+				}
+            }
+        },
+        "Hide Notifications Button": { 
+            "description": "Hide notification button on toolbar.",
+            "default": "no",
+            "tab": "Toolbar",
+            "values": {
+                "no": {},
+                "yes": {
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/extra/toolbar/hideNotification.css"
+					}
+				}
+            }
+        },
+        "Hide Big Picture Mode Button": {
+            "description": "Hide big picture mode button on toolbar.",
+            "default": "yes",
+            "tab": "Toolbar",
+            "values": {
+                "no": {},
+                "yes": {
+				    "TargetCss": {
+						"affects": ["^Steam$"], "src": "css/extra/toolbar/hideBigPicture.css"
+					}
+				}
             }
         },
         "Profile Picture Shape": { 
