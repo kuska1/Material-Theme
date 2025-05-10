@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://github.com/kuska1/Material-Theme/">
         <picture>
-          <img src="https://github.com/kuska1/Material-Theme/blob/main/github/logo.svg?raw=true" alt="Material Logo" width="200">
+          <img src="https://github.com/kuska1/Material-Theme/blob/main/.github/logo.svg?raw=true" alt="Material Logo" width="200">
         </picture>
     </a>
 </p>
