@@ -29,7 +29,7 @@
 * Title collapse
 * Icon change
 * Title change
-* Acount button style
+* Account button style
 * Toolbar buttons hider
 ### Shapes 
 * Profile picture shape
