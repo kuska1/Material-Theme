@@ -34,10 +34,15 @@
             }
         },
         "Color": { 
-            "description": "Choose source color.",
+            "description": "Choose source color.\nCustom Color Tutorial: https://github.com/kuska1/Material-Theme/css/main/colors/CUSTOMCOLOR.md",
             "default": "Blue",
             "tab": "Style",
             "values": {
+                "Custom": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/colors/custom.css"
+                    }
+                },
                 "Red": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/main/colors/red.css"
