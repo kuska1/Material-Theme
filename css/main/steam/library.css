@@ -437,7 +437,8 @@
     box-shadow: unset;
 }
 .fGDsmh9vz8h0RMEoRoAvF._3cX_vEKsN9S9EmR0O5w1Ol {
-    filter: blur(32px) brightness(0.6) saturate(0) opacity(0.3);
+    filter: blur(32px) brightness(0.3) saturate(0) opacity(0.1);
+    display: none;
 }
 /* Workshop */
 ._176QJCynkEUSdR_-9btdAW {

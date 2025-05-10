@@ -21,7 +21,7 @@
 * Library Restyle [WIP]
 ### Style
 * Appearance (Light/Dark)
-* Source Color (Red/Blue/Green/Yellow)
+* Source Color (Red/Blue/Green/Yellow/Purple)
 * Material Icons
 * Fonts (Default/Open Sans/Google Sans)
 * Alternatie online indicator

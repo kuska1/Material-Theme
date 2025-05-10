@@ -57,6 +57,11 @@
                     "TargetCss": {
                         "affects": [".*"], "src": "css/main/colors/yellow.css"
                     }
+                },
+                "Purple": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/colors/purple.css"
+                    }
                 }
             }
         },
