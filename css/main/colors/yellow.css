@@ -1,6 +1,6 @@
 :root {
     --theme-color: "Yellow";
-    --hue-rotate-blue: 220deg;
+    --hue-rotate: 220deg;
     --md-sys-color-primary: var(--scheme-light, rgb(109 94 15)) var(--scheme-dark, rgb(219 198 110));
     --md-sys-color-surface-tint: var(--scheme-light, rgb(109 94 15)) var(--scheme-dark, rgb(219 198 110));
     --md-sys-color-on-primary: var(--scheme-light, rgb(255 255 255)) var(--scheme-dark, rgb(58 48 0));
