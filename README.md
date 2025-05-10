@@ -13,6 +13,7 @@
 
 ## Screenshots
 ![Library](https://github.com/kuska1/Material-Theme/blob/main/.github/library.jpg?raw=true)
+![Dynamic](https://github.com/kuska1/Material-Theme/blob/main/.github/dynamic.gif?raw=true)
 
 </div>
 
