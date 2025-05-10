@@ -21,7 +21,7 @@
 * Library Restyle [WIP]
 ### Style
 * Appearance (Light/Dark)
-* Source Color (Red/Blue/Green/Yellow/Purple)
+* Source Color (Red/Blue/Green/Yellow/Purple/Custom)
 * Material Icons
 * Fonts (Default/Open Sans/Google Sans)
 * Alternatie online indicator
@@ -50,7 +50,7 @@
 * Store, Community, Download Manager restyles
 * Overlay, notification, etc restyle
 ### Style
-* Add dynamic color (custom)
+* Better custom color (dynamic)
 
 ## Credits:
 ### Developer
