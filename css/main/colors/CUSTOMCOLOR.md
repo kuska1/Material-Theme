@@ -7,6 +7,6 @@
 * Export -> Web (CSS).
 * Open archive, choose appearance (Light/Dark) and copy this file.
 * Go to theme folder then "css/main/colors" and paste it.
-* Open it and change ".light" to ":root" and save it.
+* Open it and change ".light" or ".dark" to ":root" and save it.
 * Rename file to "custom.css".
 * Done!
