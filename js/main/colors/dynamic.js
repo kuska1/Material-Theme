@@ -40,6 +40,18 @@ function generateAndApplyScheme() {
 
       document.documentElement.style.setProperty(`--md-sys-color-${varName}`, hex);
     }
+
+    const primaryFixed = {
+      'primary-fixed': 90,
+      'on-primary-fixed': 10,
+      'primary-fixed-dim': 80,
+      'on-primary-fixed-variant': 30
+    };
+
+    for (const [name, tone] of Object.entries(primaryFixed)) {
+      const hex = hexFromArgb(m3ThemeColorsJSON.palettes.primary.tone(tone));
+      document.documentElement.style.setProperty(`--md-sys-color-${name}`, hex);
+    }
   } else {
     console.error(`Scheme "${scheme}" not found`);
   }
