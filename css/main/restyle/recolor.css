@@ -663,9 +663,10 @@ button.DialogButton.Disabled:hover /* Basic */ {
 
 /* Base */
 .nevko_tooltip, /* Badjes.js */
-._2FxbHJzYoH024ko7zqcJOf,
+._2FxbHJzYoH024ko7zqcJOf, /* Base */
 ._3XGRklQrZMakU2xaYB0cLD, /* Library */
-._2iiN7AYnLFTRFRiuipiYJz /* Friends */ {
+._2iiN7AYnLFTRFRiuipiYJz, /* Friends */
+._2E5LHvnVEF3dSVV3wrDflm /* Date */ {
     color: var(--md-sys-color-inverse-on-surface);
     background: unset;
     background-color: var(--md-sys-color-inverse-surface);
@@ -1161,7 +1162,8 @@ button.DialogButton.Disabled:hover /* Basic */ {
 
 /* Activity */
 ._1Q2q_tQ9_Eq8YdEHNAHS3F,
-.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q {
+.S2Fu9HxHCA5MaCLGrN2ib ._19LfMT7PFWg2xHOqNjR99q,
+.P_gQ8X-yCsgXeXpP68KS0 {
     color: var(--md-sys-color-on-surface);
 }
 
@@ -1354,6 +1356,38 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 ._1yWgPveQ73QeYCdLcs6oFQ ._2lY7z1MtJRmiRJu3ykdYfs {
     color: var(--md-sys-color-outline);
 }
+/* Post-Game Summary */
+/* Recording */
+._2xWDffvlKnKW8aDKyFyg0n._1TaBg1kjP1wN-j8LZ0VyhZ {
+    color: color-mix(in srgb, transparent, var(--md-sys-color-primary-fixed) 60%);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-primary-fixed) 60%);
+}
+/* Date */
+._3ugJ_KPVlOd9oeYm-fYC_w {
+    color: var(--md-sys-color-outline);
+}
+/* Bg */
+._2MKO5j24KqDdD-92hH5FXi:after {
+    box-shadow: unset;
+}
+._2MKO5j24KqDdD-92hH5FXi {
+    background: var(--md-sys-color-surface);
+    outline-color: var(--md-sys-color-outline-variant);
+}
+/* Modal Recording & etc */
+._2dU9SCYnAxjOss_afiRpoP, /* Text */
+.eix8uUJGUHI0JLnjSEQe- ._3McijuNU4rzhT_J0BnrLBR /* Title */ {
+    color: var(--md-sys-color-on-surface);
+}
+.isyHTP860Su66qLXg8c4A {
+    background: var(--md-sys-color-surface-variant);
+}
+/* Buttons */
+._3LzXZkJi8bsPoHzXEDbLER._1W3vuSYuYPFpFCQ2YAAtx7,
+.HYloJyr41RFbSFoc8RY3w svg,
+._3LzXZkJi8bsPoHzXEDbLER._1W3vuSYuYPFpFCQ2YAAtx7._3pKDbvuIulaWC0xCZYvXQr {
+    color: var(--md-sys-color-on-surface);
+}
 
 /* Scroll to top */
 ._1J21tLst5SEhBPkVRT53UV div {
@@ -1372,6 +1406,68 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 }
 ._1J21tLst5SEhBPkVRT53UV div:active {
     background-color: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-primary) var(--layer-action-active)) !important;
+}
+
+/* News Fullscreen */
+._37MAYpIjl0IDA1xVhhsuX8>div:not(._2WEP32t2FdvHSRBiOZug83):not(._24sm_rs0RtItOALHFVIKms):not(._19eb8NMS53lqZR33su0kTr):not(.iJ6kMinIXkRkY49NT2sOx):not(._2SoWN3laHiRo1XbmPyTyPF) {
+    background:  color-mix(in srgb, black, transparent 40%);
+}
+._3_SEiDNs-lzwV7cTF6gcgt ._3z2NYCkFizMu4fMvWTIBUG,
+.stsss-bTNuazY8FYtvTOX, ._32mHvRSmD7AVK9OIOPlaFu,
+.mKmrOjr9bGjKAolgp9NoD {
+    background: var(--md-sys-color-surface);
+}
+._3Kelh1-_v6xHfRjF68n7NB, ._3ctGqQID5-8adtd7HlZ3YM, ._16xC0mtOWoLbvSQbmo_ycv {
+    background: var(--md-sys-color-surface-container);
+}
+/* Text */
+.TqEPC9bhvVpZ1rb3Z8Mbd,
+._3_SEiDNs-lzwV7cTF6gcgt .TqEPC9bhvVpZ1rb3Z8Mbd:hover,
+div.SPYFj8pCLpNmnuQJEDobC, div.QuKtTJ4LCPUlQeWYfLNyX, div._3s7cUqglDds9wzcWb7OLz6, h1.SPYFj8pCLpNmnuQJEDobC, h2.QuKtTJ4LCPUlQeWYfLNyX, h3._3s7cUqglDds9wzcWb7OLz6 {
+    color: var(--md-sys-color-on-surface);
+}
+._20f2sKS2M7PlPSnPCinT26,
+.MBkkhT4wei3tWetnWbiqn {
+    color: var(--md-sys-color-outline);
+}
+.A_A2B6fTn_MPLlGCmsLtd,
+._4LAnPYKRPeF-QDReu_VGm {
+    color: var(--md-sys-color-on-surface-variant);
+}
+._3bWTO29arCCJ6PBGRZ7fRy ._2WwG2r8yZuu2EMJgFTQZp8 .Udzrpqr8534T5DvVZveNP,
+.A_A2B6fTn_MPLlGCmsLtd a:not(.LinkButton) {
+    color: var(--md-sys-color-primary);
+}
+.A_A2B6fTn_MPLlGCmsLtd a:hover {
+    color: var(--md-sys-color-on-surface-variant);
+}
+.Sf3urgalDvD2sZqNjEV9i, ._3csl-MPe-hKuT8hQpOqEG5, .QQy4BCjcpjCfAvTKAqBq3, .QQy4BCjcpjCfAvTKAqBq3>svg {
+    color: var(--md-sys-color-primary);
+    fill: var(--md-sys-color-primary);
+}
+/* Buttons */
+._1ABCOz8DSrl-YJdh1xD-m0._1dDpSuaJBGZzS41s0SPk4c {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+._1ABCOz8DSrl-YJdh1xD-m0._1dDpSuaJBGZzS41s0SPk4c:hover {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+._2akzufsslA5YAnC95zYx0K, ._3ZqxxB_poSsEYBW1s4t1OY, ._3qVz2p-X14nAGX6EWNC87I {
+    fill: var(--md-sys-color-on-primary);
+}
+/* Link Btn */
+a._2HnDgHQT_3ehcs4WgskKG5 {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+/* .A_A2B6fTn_MPLlGCmsLtd a:hover {
+    color: var(--md-sys-color-on-primary);
+} */
+._2HnDgHQT_3ehcs4WgskKG5:hover {
+    color: var(--md-sys-color-on-primary) !important;
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
 
 /* -- MISC -- */
