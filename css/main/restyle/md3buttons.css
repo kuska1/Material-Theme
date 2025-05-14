@@ -94,3 +94,8 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
 ._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer {
     border-radius: var(--corner-radius-extra-small);
 }
+
+/* Root Additional Content */
+._1yEoLSbdr6RwEzqpyKLR4m ._3m6qdpFN3Mop0iw9ZE3RRa {
+    border-radius: var(--corner-radius-full);
+}

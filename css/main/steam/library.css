@@ -506,6 +506,41 @@
 .ily6w9czFJIzs8F314d2r {
     box-shadow: var(--elevated-shadow);
 }
+/* Available Content */
+._2UySYiE8fUGGugkHVm1Qb ._2kqz-bSlDu-I49_cV_wicB {
+    background: unset;
+    box-shadow: unset;
+    border: unset;
+    border-image: unset;
+    border-radius: var(--corner-radius-medium);
+    outline-width: 1px;
+    outline-style: solid;
+}
+/* Img */
+._2bF7XkQZA1M7jTj6txLFp- .HAvWsE0-ycDj77SdyLXE- {
+    background: unset;
+}
+._78Pwybe-fHVYEkQFFlpA5 ._3gB_gMsbWHUGn5Rqwe6KeC {
+    border-radius: var(--corner-radius-medium);
+    box-shadow: var(--elevated-shadow);
+}
+/* Shadow Mask Image Enchancer */
+.SMWMsB-gz3WbYRK2HOm7i:not(:has(._16nHYucq6xgfe67DrVWLCI)) ._3CJctA7pLVdwHzNF5JmORE._1b9np87BteQi38-defpW0U:not(._1X10hweRfMtUjyF-CHh6K5) {
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 10px, black calc(100% - 48px), transparent calc(100% - 10px), transparent 100%);
+    mask-image: linear-gradient(90deg, transparent 0%, black 10px, black calc(100% - 48px), transparent calc(100% - 10px), transparent 100%);
+}
+._3CJctA7pLVdwHzNF5JmORE._1b9np87BteQi38-defpW0U._1X10hweRfMtUjyF-CHh6K5 {
+    -webkit-mask-image: linear-gradient(90deg, transparent 0%, black 10px, black calc(100% - 48px), black calc(100% - 10px), black 100%);
+    mask-image: linear-gradient(90deg, transparent 0%, black 10px, black calc(100% - 48px), black calc(100% - 10px), black 100%);
+}
+/* Buttons */
+._1yEoLSbdr6RwEzqpyKLR4m {
+    padding-bottom: 4px;
+}
+/* No More Activity */
+._2-kDc3UDR-GN6V1lBpSupb, ._3UShzJcf4CyVupLSI3kqfD {
+    border-radius: var(--corner-radius-medium);
+}
 
 /* Misc Fixes */
 /* New To Library */

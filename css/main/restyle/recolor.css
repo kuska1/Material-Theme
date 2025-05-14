@@ -1374,6 +1374,42 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
     background: var(--md-sys-color-surface);
     outline-color: var(--md-sys-color-outline-variant);
 }
+/* Available Content */
+._2UySYiE8fUGGugkHVm1Qb ._2kqz-bSlDu-I49_cV_wicB {
+    box-shadow: unset;
+    background: var(--md-sys-color-surface);
+    outline-color: var(--md-sys-color-outline-variant);
+}
+/* Buttons */
+._1yEoLSbdr6RwEzqpyKLR4m ._3m6qdpFN3Mop0iw9ZE3RRa {
+    color: var(--md-sys-color-primary);
+    background: transparent;
+}
+._1yEoLSbdr6RwEzqpyKLR4m ._3m6qdpFN3Mop0iw9ZE3RRa:hover {
+    color: var(--md-sys-color-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover)); 
+}
+._2dB1oJFsqNThak1cFya2-q._3qlJ0L41KQFqUTzVQKFERC svg line {
+    stroke: var(--md-sys-color-on-surface);
+}
+._14b-hQsLwSwYcELtknxCUX._3qlJ0L41KQFqUTzVQKFERC svg polyline,
+._3IIEUTw03Vm3Mk54jlnUaT._3qlJ0L41KQFqUTzVQKFERC svg polyline {
+    stroke: var(--md-sys-color-on-surface);
+}
+._14b-hQsLwSwYcELtknxCUX._16nHYucq6xgfe67DrVWLCI._3qlJ0L41KQFqUTzVQKFERC svg polyline,
+._3IIEUTw03Vm3Mk54jlnUaT._16nHYucq6xgfe67DrVWLCI._3qlJ0L41KQFqUTzVQKFERC svg polyline {
+    stroke: var(--md-sys-color-outline);
+}
+/* No More Activity */
+._2-kDc3UDR-GN6V1lBpSupb, ._3UShzJcf4CyVupLSI3kqfD {
+    color: var(--md-sys-color-outline);
+    border-color: var(--md-sys-color-outline);
+}
+/* Question */
+._34I5HgBL6QP2CcuI4emtaM {
+    color: var(--md-sys-color-outline);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-outline) var(--layer-action-active));
+}
 /* Modal Recording & etc */
 ._2dU9SCYnAxjOss_afiRpoP, /* Text */
 .eix8uUJGUHI0JLnjSEQe- ._3McijuNU4rzhT_J0BnrLBR /* Title */ {

@@ -160,3 +160,9 @@ button.DialogButton, .O_nD7TklmaIZ80TPx3rjt button.DialogButton, /* Modal */
     font-size: var(--font-body-medium-size);
     font-weight: var(--font-body-medium-weight);
 }
+
+/* No More Activity */
+._2-kDc3UDR-GN6V1lBpSupb, ._3UShzJcf4CyVupLSI3kqfD {
+    font-size: var(--font-label-large-size);
+    font-weight: var(--font-label-large-weight);
+}
