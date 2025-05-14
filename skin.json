@@ -11,9 +11,6 @@
         "owner": "kuska1",
         "repo_name": "Material-Theme"
     },
-    "discord_support": {
-        "inviteCodeExcludingLink": "48EErSxM2t"
-    },
 
     "Steam-WebKit": "webkit.css",
     "UseDefaultPatches": true,
