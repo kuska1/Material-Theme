@@ -502,7 +502,8 @@
 ._3AnDc05C5V6AG4ko7By2Yh,
 .byaqiKxlP7wjhCY_je-6u,
 .ily6w9czFJIzs8F314d2r,
-._2l-1Pz5xsmqu_WjCKFECIC.vrAahO1d66txbqdV8UHnI, ._2l-1Pz5xsmqu_WjCKFECIC._1wITopi2O8KAw48kd-_bVT {
+._2l-1Pz5xsmqu_WjCKFECIC.vrAahO1d66txbqdV8UHnI, ._2l-1Pz5xsmqu_WjCKFECIC._1wITopi2O8KAw48kd-_bVT,
+._2K3CxIg-4vjn9yiRPFTiLb, ._2K3CxIg-4vjn9yiRPFTiLb .kSkkIMk_cjHgnxaBoAI6m {
     border-radius: var(--corner-radius-medium);
     background: unset;
 }
@@ -512,6 +513,9 @@
 }
 ._2xWDffvlKnKW8aDKyFyg0n {
     text-shadow: unset;
+}
+._2K3CxIg-4vjn9yiRPFTiLb .MfsD2kHtq_kPO19285odF {
+    z-index: 1;
 }
 /* Bg */
 ._2MKO5j24KqDdD-92hH5FXi {
@@ -657,4 +661,8 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
     border-bottom-left-radius: var(--corner-radius-small);
     border-top-right-radius: var(--corner-radius-full);
     border-bottom-right-radius: var(--corner-radius-full);
+}
+/* Questions */
+._34I5HgBL6QP2CcuI4emtaM {
+    cursor: help;
 }
