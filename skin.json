@@ -16,7 +16,7 @@
     "UseDefaultPatches": true,
 
     "Conditions": {
-        "Appearance": { 
+        "Appearance": {
             "description": "Choose light or dark mode.",
             "default": "Dark",
             "tab": "Style",
