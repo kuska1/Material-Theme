@@ -506,7 +506,8 @@ button.DialogButton.Disabled:hover /* Basic */ {
 .eKmEXJCm_lgme24Fp_HWt.GxgIyq8R5xTOeu4ftGrgX::after, ._1Hye7o1wYIfc9TE9QKRW4T {
     background-color: var(--md-sys-color-outline-variant);
 }
-._2jXHP0742MyApMUVUM8IFn._21GPYlKBCLsHQpTsHw_RL_ /* Root */ {
+._2jXHP0742MyApMUVUM8IFn._21GPYlKBCLsHQpTsHw_RL_, /* Root */
+._3yTl3RiWfo-Itg-xp967wP ._3LIdsWmyIgctv5PqN0YTfM ._1AZdyRAiMfrbi_khz7C9rB {
     border-bottom-color: var(--md-sys-color-outline-variant);
 }
 .WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18NNWI, /* Root */
@@ -1518,6 +1519,10 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 }
 .xYbDdgox9mzrraWWYN3_- ._1AazHUNJbyL5SIWE5jC4Tz ._2rPfS5ipeg-YiBbwGz1Uzb {
     color: var(--md-sys-color-on-surface);
+}
+/* End of Activity */
+._3yTl3RiWfo-Itg-xp967wP ._3LIdsWmyIgctv5PqN0YTfM ._3jmKNZy10zi_ZKGqluFltQ {
+    color: var(--md-sys-color-outline-variant);
 }
 
 /* Scroll to top */
