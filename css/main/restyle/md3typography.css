@@ -172,3 +172,9 @@ button.DialogButton, .O_nD7TklmaIZ80TPx3rjt button.DialogButton, /* Modal */
     font-size: var(--font-label-small-size);
     font-weight: var(--font-label-small-weight);
 }
+
+/* Community Content */
+._2lNdDLgjQdeBXmMlPO8lvq {
+    font-size: var(--font-title-medium-size);
+    font-weight: var(--font-title-medium-weight);
+}
