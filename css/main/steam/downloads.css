@@ -8,6 +8,7 @@
     mask-image: linear-gradient(to right, var(--md-sys-color-surface) 90%, rgba(14, 20, 27, 0) 100%) !important;
 }
 /* Buttons */
+._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled,
 ._1VNuYHM6BPBOJspC6zPf5r ._3ydigb6zZAjJ0JCDgHwSYA, ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled
 ._1GdR5LbENV7LOGROJBxohI._1GdR5LbENV7LOGROJBxohI.DialogButton:enabled,
 ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:enabled, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:active, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:hover, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC:enabled:active:hover, ._3Tfp8-wTAttW3WVa_X9JVC._3Tfp8-wTAttW3WVa_X9JVC.DialogButton:enabled,
@@ -19,7 +20,7 @@
     outline: 1px solid;
     margin-right: unset;
 }
-.qq2xItSXjpCsNrcxyPJtO:not(:has(button)) ._1CTr1yKRkOXnJ4gSS1-1A3,
+.qq2xItSXjpCsNrcxyPJtO:not(:has(button)):not(:has(.qrwf3iWWPa-yXVD0zOlHM)) ._1CTr1yKRkOXnJ4gSS1-1A3,
 ._117rQTHH1RIewY7sSlvg3Z {
     margin-right: unset;
 }
