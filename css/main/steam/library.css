@@ -127,8 +127,13 @@
 /* Right (Main) */
 
 ._2Dd4T78PcCTUVgOtDGFY5j {
+    border-radius: var(--corner-radius-large);
+}
+._3xRRJfD2xy95i9NhJxLTp0:has(._9sPoVBFyE_vE87mnZJ5aB) ._2Dd4T78PcCTUVgOtDGFY5j {
     border-top-left-radius: var(--corner-radius-large);
     border-bottom-left-radius: var(--corner-radius-large);
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
     /* border-radius: var(--corner-radius-large); */
 }
 ._2sNr7PFYcJZWNkEMCDVVPR /* Bg Category Fix */ {
