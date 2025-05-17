@@ -214,10 +214,10 @@
             "values": {
                 "no": {},
                 "yes": {
-				    "TargetCss": { 
-						"affects": ["^Steam$"], "src": "css/extra/toolbar/hideNews.css"
-					}
-				}
+                    "TargetCss": { 
+                        "affects": ["^Steam$"], "src": "css/extra/toolbar/hideNews.css"
+                    }
+                }
             }
         },
         "Hide Notifications Button": { 
@@ -227,10 +227,10 @@
             "values": {
                 "no": {},
                 "yes": {
-				    "TargetCss": {
-						"affects": ["^Steam$"], "src": "css/extra/toolbar/hideNotification.css"
-					}
-				}
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/toolbar/hideNotification.css"
+                    }
+                }
             }
         },
         "Hide Big Picture Mode Button": {
@@ -240,10 +240,10 @@
             "values": {
                 "no": {},
                 "yes": {
-				    "TargetCss": {
-						"affects": ["^Steam$"], "src": "css/extra/toolbar/hideBigPicture.css"
-					}
-				}
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/toolbar/hideBigPicture.css"
+                    }
+                }
             }
         },
         "Profile Picture Shape": { 
@@ -455,20 +455,20 @@
             "values": {
                 "Show": {},
                 "Blur": {
-				    "TargetCss": {
-						"affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceBlur.css"
-					}
-				},
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceBlur.css"
+                    }
+                },
                 "Hide": { 
-				    "TargetCss": {
-						"affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceHide.css"
-					}
-				},
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceHide.css"
+                    }
+                },
                 "Full Hide": {
-				    "TargetCss": {
-						"affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceFullHide.css"
-					}
-				}
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceFullHide.css"
+                    }
+                }
             }
         },
         " - Show balance after hover? ": {
@@ -477,10 +477,10 @@
             "tab": "Privacy",
             "values": {
                 "yes": {
-				    "TargetCss": { 
-						"affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceAfterHover.css"
-					}
-				},
+                    "TargetCss": { 
+                        "affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceAfterHover.css"
+                    }
+                },
                 "no": {}
             }
         },
@@ -491,20 +491,20 @@
             "values": {
                 "Show": {},
                 "Blur": {
-				    "TargetCss": {
-						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountBlur.css"
-					}
-				},
+                    "TargetCss": {
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountBlur.css"
+                    }
+                },
                 "Hide": {
-				    "TargetCss": {
-						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountHide.css"
-					}
-				},
+                    "TargetCss": {
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountHide.css"
+                    }
+                },
                 "Full Hide": {
-				    "TargetCss": {
-						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountFullHide.css"
-					}
-				}
+                    "TargetCss": {
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountFullHide.css"
+                    }
+                }
             }
         },
         " - Show Name after Hover?": {
@@ -513,10 +513,10 @@
             "tab": "Privacy",
             "values": {
                 "yes": {
-				    "TargetCss": {
-						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountAfterHover.css"
-					}
-				},
+                    "TargetCss": {
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountAfterHover.css"
+                    }
+                },
                 "no": {}
             }
         },
@@ -527,20 +527,20 @@
             "values": {
                 "Show": {},
                 "Blur": {
-				    "TargetCss": {
-						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceBlur.css"
-					}
-				},
+                    "TargetCss": {
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceBlur.css"
+                    }
+                },
                 "Hide": {
-				    "TargetCss": {
-						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceHide.css"
-					}
-				},
+                    "TargetCss": {
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceHide.css"
+                    }
+                },
                 "Full Hide": {
-				    "TargetCss": {
-						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceFullHide.css"
-					}
-				}
+                    "TargetCss": {
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceFullHide.css"
+                    }
+                }
             }
         },
         " - Show Balance after Hover?": {
@@ -549,10 +549,10 @@
             "tab": "Privacy",
             "values": {
                 "yes": {				
-				    "TargetCss": {
-						"affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceAfterHover.css"
-					}
-				},
+                    "TargetCss": {
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceAfterHover.css"
+                    }
+                },
                 "no": {}
             }
         },
