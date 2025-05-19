@@ -65,7 +65,7 @@
                 }
             }
         },
-        "Icons": { 
+        "Icons": {
             "description": "Choose icons style.",
             "default": "Rounded",
             "tab": "Style",

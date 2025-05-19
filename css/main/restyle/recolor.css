@@ -1348,6 +1348,9 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.Q7tULXy1gQNG1eU--hN27:hover {
     color: var(--md-sys-color-on-primary);
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
+._2EgMBzP-mPu3oXKgZHhTJd {
+    color: var(--md-sys-color-outline);
+}
 
 /* Other */
 ._2_TE0KLOU7kWWxa9LS7iXA ._2_WwnsAHFIrNtqmPP5HSYz, /* Recordings & Screenshots */
@@ -1762,6 +1765,54 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
     color: var(--md-sys-color-on-surface);
     stroke: var(--md-sys-color-on-surface);
 }
+/* YouTube */
+/* Card */
+._1IGURymjmwZOxJLS-9BWKA {
+    background: var(--md-sys-color-surface-container);
+}
+._1IGURymjmwZOxJLS-9BWKA:hover {
+    
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+/* Text */
+._1R7Ngck7T0RkTPGRUaq6Gr {
+    color: var(--md-sys-color-primary);
+}
+._3clz2a9swd9PcLG0xSDhHt, ._1EYgVQdGSl6VonVuGGfDuy {
+    color: var(--md-sys-color-outline);
+}
+/* Thumbnails */
+.html5-video-player:not(.ytp-transparent), .html5-video-player.unstarted-mode, .html5-video-player.ad-showing, .html5-video-player.ended-mode {
+    background-color: var(--md-sys-color-surface) !important;
+}
+/* Game Mini Hover */
+.AcLtE9axR9tWhAVfDP9lv {
+    display: none;
+}
+/* Version 2 */
+._2sGn0cBsD44TjnUIh-lx9d {
+    background: var(--md-sys-color-surface);
+}
+/* ._3_0Qbu8IAsqsv_6W5AxRhe {
+    background: var(--md-sys-color-surface);
+} */
+._1Kdi2PBxcdQwDpa-48hrf2, .My_SveQxVY_oRxfkK5mqN {
+    color: var(--md-sys-color-on-surface);
+}
+._1VGPO4xU5sgRK6DFt4t74O, ._1VGPO4xU5sgRK6DFt4t74O .MIHa_O-B1JXrzkoGc255n, .My_SveQxVY_oRxfkK5mqN ._3ry-JDFfnNe58WNZ7U6aVf {
+    color: var(--md-sys-color-outline);
+}
+/* iframe */
+._38FqIwZQKW6BlRyzN66pi6 .rYBZBWnNW6m-N9vX0Chce {
+    background: var(--md-sys-color-surface);
+}
+._38FqIwZQKW6BlRyzN66pi6 {
+    color: var(--md-sys-color-on-surface);
+}
+._1V52f_cM-aALy2XpzrJBIA ._22tloOR0Wp0KKLI9Bhcmm5 {
+    color: var(--md-sys-color-outline);
+}
+
 
 /* -- BOTTOM BAR -- */
 
