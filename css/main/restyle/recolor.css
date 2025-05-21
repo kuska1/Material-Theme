@@ -1812,6 +1812,17 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 ._1V52f_cM-aALy2XpzrJBIA ._22tloOR0Wp0KKLI9Bhcmm5 {
     color: var(--md-sys-color-outline);
 }
+/* Achievements Fix */
+._37Lk82ESPo7El4__sqZgOV ._2KA0p5xYePYygXUbjjsPzA {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-variant);
+}
+._37Lk82ESPo7El4__sqZgOV ._1LRR7Ji-cwYvaIOcDllLOx ._1s_9cSxUjb4609MSH0EjWH ._39Y01uSRcLiDg5DneTTR0m {
+    color: var(--md-sys-color-on-surface);
+}
+._37Lk82ESPo7El4__sqZgOV ._1LRR7Ji-cwYvaIOcDllLOx ._1s_9cSxUjb4609MSH0EjWH {
+    color: var(--md-sys-color-outline);
+}
 
 
 /* -- BOTTOM BAR -- */

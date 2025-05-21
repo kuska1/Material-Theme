@@ -857,3 +857,7 @@ a._2HnDgHQT_3ehcs4WgskKG5,
 ._38FqIwZQKW6BlRyzN66pi6, ._38FqIwZQKW6BlRyzN66pi6 .rYBZBWnNW6m-N9vX0Chce {
     border-radius: var(--corner-radius-small);
 }
+/* Achievements Fix */
+._37Lk82ESPo7El4__sqZgOV ._2KA0p5xYePYygXUbjjsPzA {
+    border-radius: var(--corner-radius-medium);
+}

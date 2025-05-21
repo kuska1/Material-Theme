@@ -50,22 +50,22 @@
 ._3zfQA8bEKpisPtsyT4SovP:hover {
     background: unset;
 }
-._3B8wRA4H7e_oSksYNqpSPv:first-child:last-child {
+._3zfQA8bEKpisPtsyT4SovP:first-child:last-child ._3B8wRA4H7e_oSksYNqpSPv {
     border-radius: var(--corner-radius-medium);
 }
-._3B8wRA4H7e_oSksYNqpSPv:first-child:not(:last-child) {
+._3zfQA8bEKpisPtsyT4SovP:first-child:not(:last-child) ._3B8wRA4H7e_oSksYNqpSPv {
     border-top-left-radius: var(--corner-radius-medium);
     border-top-right-radius: var(--corner-radius-medium);
     border-bottom-left-radius: var(--corner-radius-extra-small);
     border-bottom-right-radius: var(--corner-radius-extra-small);
 }
-._3B8wRA4H7e_oSksYNqpSPv:not(:first-child):not(:last-child) {
+._3zfQA8bEKpisPtsyT4SovP:not(:first-child):not(:last-child) ._3B8wRA4H7e_oSksYNqpSPv {
     border-top-left-radius: var(--corner-radius-extra-small);
     border-top-right-radius: var(--corner-radius-extra-small);
     border-bottom-left-radius: var(--corner-radius-extra-small);
     border-bottom-right-radius: var(--corner-radius-extra-small);
 }
-._3B8wRA4H7e_oSksYNqpSPv:last-child:not(:first-child)  {
+._3zfQA8bEKpisPtsyT4SovP:last-child:not(:first-child) ._3B8wRA4H7e_oSksYNqpSPv {
     border-top-left-radius: var(--corner-radius-extra-small);
     border-top-right-radius: var(--corner-radius-extra-small);
     border-bottom-left-radius: var(--corner-radius-medium);
