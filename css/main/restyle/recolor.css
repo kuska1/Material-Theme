@@ -753,6 +753,9 @@ button.DialogButton.Disabled:hover /* Basic */ {
 .QFW0BtI4l77AFmv1xLAkx ._3hEeummFKRey8l5VXxZwxz, ._3B8wRA4H7e_oSksYNqpSPv ._3hEeummFKRey8l5VXxZwxz, ._2NdiftmP-B3C4LPWnNGTCB ._3hEeummFKRey8l5VXxZwxz, ._25gii5r23MmAqXvLZj24tK ._3hEeummFKRey8l5VXxZwxz, ._3k90ug209sE23xAMqcM74s ._3hEeummFKRey8l5VXxZwxz {
     color: var(--md-sys-color-outline);
 }
+._3B8wRA4H7e_oSksYNqpSPv ._3hEeummFKRey8l5VXxZwxz span {
+    color: var(--md-sys-color-primary) !important;
+}
 /* Img */
 ._1GTWEgiW95vRIhUWfk6omo {
     filter: unset;
