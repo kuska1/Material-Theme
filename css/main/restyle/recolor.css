@@ -26,7 +26,8 @@ html.client_chat_frame body, /* Fix */
 ._3RNLmzBdpcg55exL2SwhT1 ._3K8Afwm4bvd9vSIzAz9siX ._1RfVQWVozb8NJ_wmCLAtxP, /* Your Family */
 ._1RCWDLVLFja1TdD1P53BMq.DesktopUI, .DesktopUI ._1RCWDLVLFja1TdD1P53BMq, .RmxP90Yut4EIwychIEg51.DesktopUI, /* Recording Tab Title */
 ._7EGqd8bdiXJBd2fj5Hh8r ._3HgL0eRQXwU6dIEXXK6qba ._1RUoX0kTOBfqpwCaBZGDLJ, /* Recording Tab Card Title */
-.DesktopUI ._2rK4YqGvSzXLj1bPZL8xMJ /* Taskbar Preferences */ {
+.DesktopUI ._2rK4YqGvSzXLj1bPZL8xMJ, /* Taskbar Preferences */
+.DesktopUI ._1_JaK7j-59AgDKQOOOJVBA, .DesktopUI .NtxG7ioEuQKxrtXEy57H5 /* Install Modal */ {
     color: var(--md-sys-color-on-surface);
 }
 /* Body */
@@ -368,16 +369,25 @@ button.DialogButton.Disabled:hover /* Basic */ {
 /* --- CARDS --- */
 
 /* Basic */
-._7EGqd8bdiXJBd2fj5Hh8r {
+._7EGqd8bdiXJBd2fj5Hh8r,
+.DesktopUI .Oo5JPcEk_erKEYAzYp2nY /* Install Modal */ {
     background-color: var(--md-sys-color-surface-container-highest);
 }
+.Oo5JPcEk_erKEYAzYp2nY {
+    color: var(--md-sys-color-on-surface);
+}
 /* Hover */
-._7EGqd8bdiXJBd2fj5Hh8r:hover {
+._7EGqd8bdiXJBd2fj5Hh8r:hover,
+.DesktopUI .Oo5JPcEk_erKEYAzYp2nY:hover /* Install Modal */ {
     background-color: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-hover));
 }
 /* Chosen */
 ._7EGqd8bdiXJBd2fj5Hh8r.MYyvJ6lNQZtM4MHwS-Y3g {
     background-color: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+.DesktopUI .Oo5JPcEk_erKEYAzYp2nY.gkgG-dWgjpwS_aqlcMNTM /* Install Modal */  {
+    background-color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
 }
 /* Fix with Radio */
 ._7EGqd8bdiXJBd2fj5Hh8r.MYyvJ6lNQZtM4MHwS-Y3g:has(._2sQtvR60AbFF5UzDwY9hit._1gKI37LOWj1Df3QSnxvKyF) {
