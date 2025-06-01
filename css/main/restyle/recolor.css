@@ -1936,3 +1936,71 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 ._2sCvZTD6ZTZz3p9_ekH_gI:hover ._3B3J2qtE6ozU_VXMMN2L51 {
     border-color: var(--md-sys-color-outline);
 }
+
+/* Overlay */
+/* Buttons */
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L {
+    color: var(--md-sys-color-on-surface-variant);
+    background: unset;
+    background-color: var(--md-sys-color-surface-container);
+}
+.ZTbww2QfIllvCwVHmpixE {
+    color: var(--md-sys-color-on-surface-variant);
+}
+/* Hover */
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L:hover {
+    color: var(--md-sys-color-on-surface-variant);
+    background: unset;
+    background-color: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface-variant) var(--layer-action-hover));
+}
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L svg path {
+    fill: var(--md-sys-color-on-surface-variant);
+}
+/* Chosen */
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn {
+    color: var(--md-sys-color-on-primary);
+    background: unset;
+    background-color: var(--md-sys-color-primary);
+}
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn .ZTbww2QfIllvCwVHmpixE {
+    color: var(--md-sys-color-on-primary);
+}
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn svg path {
+    fill: var(--md-sys-color-on-primary);
+}
+/* Hover */
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn:hover {
+    color: var(--md-sys-color-on-primary);
+    background: unset;
+    background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+/* Disabled */
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L.Disabled .ZTbww2QfIllvCwVHmpixE {
+    color: var(--md-sys-color-outline);
+}
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L.Disabled svg path {
+    fill: var(--md-sys-color-outline);
+}
+
+/* Close Button */
+.fi6UDkxJq66MLo2z9wabQ ._2uM3ouyTdzAtXR3ffa7oRg ._2LJMRr1_5XUK4wlt7YMyPi .mh8m9p4PBg_Qrev1bfTzc {
+    color: var(--md-sys-color-on-primary);
+    background: unset;
+    background-color: var(--md-sys-color-primary);
+}
+.fi6UDkxJq66MLo2z9wabQ ._2uM3ouyTdzAtXR3ffa7oRg ._2LJMRr1_5XUK4wlt7YMyPi .mh8m9p4PBg_Qrev1bfTzc:hover {
+    color: var(--md-sys-color-on-primary);
+    background: unset;
+    background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+
+/* Exit Game */
+.fi6UDkxJq66MLo2z9wabQ .BoygotvcKo4DC4dSix8G3 {
+    color: var(--md-sys-color-on-primary);
+    background: unset;
+    background-color: var(--md-sys-color-primary);
+}
+.fi6UDkxJq66MLo2z9wabQ .BoygotvcKo4DC4dSix8G3:hover, .fi6UDkxJq66MLo2z9wabQ .BoygotvcKo4DC4dSix8G3:active {
+    color: var(--md-sys-color-on-error);
+    background-color: var(--md-sys-color-error);
+}
