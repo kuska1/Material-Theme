@@ -620,6 +620,19 @@
                     }
                 }
             }
+        },
+        "Swap Dialog Buttons": { 
+            "description": "Swap primary and secondary buttons in dialog.",
+            "default": "yes",
+            "tab": "Extra",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/reorder/modalbuttons.css"
+                    }
+                }
+            }
         }
     },
     

@@ -1,0 +1,7 @@
+/* Primary & Secondary Button Swap */
+._DialogColLayout button.DialogButton.Primary {
+    order: 2;
+}
+._DialogColLayout button.DialogButton.Secondary {
+    order: 1;
+}
