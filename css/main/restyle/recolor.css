@@ -1416,6 +1416,24 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 .LibriMVXcLl1HB60ZUp78:hover /* Major Updates */ {
     background: color-mix(in srgb, var(--md-sys-color-surface-variant), var(--md-sys-color-on-surface-variant) var(--layer-action-hover));
 }
+/* New DLC Added */
+.ut0YcLYGAoSTz2Dnjw9U1 {
+    color: var(--md-sys-color-on-tertiary-container);
+    background: var(--md-sys-color-tertiary-container);
+}
+._1rjqv6aCi9t7H-prIq99fk .gtlfC4VRhQqlmAmTFDl1N {
+    color: var(--md-sys-color-on-tertiary-container);
+}
+.ut0YcLYGAoSTz2Dnjw9U1:hover {
+    color: var(--md-sys-color-on-tertiary-container);
+    background: color-mix(in srgb, var(--md-sys-color-tertiary-container), var(--md-sys-color-on-tertiary-container) var(--layer-action-hover));
+}
+.ut0YcLYGAoSTz2Dnjw9U1 .R2VdUtWzknAHBOsdRzG_d .SVGIcon_X_Line line {
+    stroke: var(--md-sys-color-outline);
+}
+.ut0YcLYGAoSTz2Dnjw9U1 .R2VdUtWzknAHBOsdRzG_d:hover .SVGIcon_X_Line line {
+    stroke: var(--md-sys-color-outline-variant);
+}
 /* Text */
 ._3QrX3TTEetJIRvEW1x2Af2 ._3ca2d1qaIzPNm79jqRbi0J,
 ._1Cva_kor3lWBIoeu9cQxJq, ._1gljEIuhbsQpFCWuVhdKTJ, ._3fsjzvni7TQ1NphLHM_5r3, /* Title */

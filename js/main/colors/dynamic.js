@@ -19,6 +19,7 @@ function generateAndApplyScheme() {
   const m3ThemeColorsJSON = themeFromSourceColor(argbFromHex(sourceHex), []);
 
   if (m3ThemeColorsJSON.schemes[scheme]?.props) {
+    console.info(m3ThemeColorsJSON.schemes[scheme]?.props);
     for (const [key, value] of Object.entries(m3ThemeColorsJSON.schemes[scheme].props)) {
       const cssVar = prefix + key.replace(/[A-Z]/g, m => '-' + m.toLowerCase());
       const hex = hexFromArgb(value);

@@ -447,6 +447,14 @@
 ._2tDv0EeJIdDmZLyfUE63t1 {
     color: var(--md-sys-color-on-surface-variant);
 }
+/* New DLC Added */
+.ut0YcLYGAoSTz2Dnjw9U1 {
+    border: unset;
+    border-radius: var(--corner-radius-medium);
+}
+._1rjqv6aCi9t7H-prIq99fk {
+    box-shadow: unset;
+}
 /* Big Img */
 .VytJzt3Z_t6332-n24Yrc {
     border-radius: var(--corner-radius-small);
@@ -827,7 +835,7 @@ a._2HnDgHQT_3ehcs4WgskKG5,
     mask-image: unset;
     background: unset;
 }
-._1R9r2OBCxAmtuUVrgBEUBw.ZsU8nIIpj8MJn0vzMzSp1 ._3d_bT685lnWotXxgzKW6am {
+._1R9r2OBCxAmtuUVrgBEUBw.ZsU8nIIpj8MJn0vzMzSp1 ._3d_bT685lnWotXxgzKW6am:not(.yDr03475kalWBTwAE-Rnw) {
     border-radius: var(--corner-radius-small);
 }
 ._2X1QC1U5u__OlHPUFDQnu_ {
