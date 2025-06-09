@@ -33,7 +33,7 @@ html.client_chat_frame body, /* Fix */
 /* Body */
 ._3jMlJm4PQCA8SfNlUR99Fo.DesktopUI, .DesktopUI ._3jMlJm4PQCA8SfNlUR99Fo, /* Modal */
 .DesktopUI ._2NyRKE2oI1jbaiJwFLf7CY, /* Library Display */
-._1ifM6luJEQ5H2O1Y3S6F_R /* Text After Switch */ { 
+._1ifM6luJEQ5H2O1Y3S6F_R /* Text After Switch */ {
     color: var(--md-sys-color-on-surface);
 }
 .DialogBodyText /* Confirmation */ {
@@ -44,7 +44,7 @@ html.client_chat_frame body, /* Fix */
 ._3qIXY674NedSZNa-CXtNlt, /* Modal / After Text */
 ._7EGqd8bdiXJBd2fj5Hh8r ._3HgL0eRQXwU6dIEXXK6qba ._2BdpWib8Zcj3QSkXzmGgIB, /* Recording Tab Card Text */
 .DesktopUI ._3fPiC9QRyT5oJ6xePCVYz8._3fPiC9QRyT5oJ6xePCVYz8, /* Modal / Friends Notification */
-._3w92Ej5Kq7nbt5WACQ6jwI.DesktopUI, .DesktopUI ._3w92Ej5Kq7nbt5WACQ6jwI /* Modal / Updates */ { 
+._3w92Ej5Kq7nbt5WACQ6jwI.DesktopUI, .DesktopUI ._3w92Ej5Kq7nbt5WACQ6jwI /* Modal / Updates */ {
     color: var(--md-sys-color-outline);
 }
 /* Links */
@@ -156,7 +156,7 @@ html.client_chat_frame body, /* Fix */
 .HijmccPB1BKyhOwhX1EVl+.HijmccPB1BKyhOwhX1EVl::before {
     background-color: var(--md-sys-color-outline);
 }
- /* Basic */ 
+ /* Basic */
 .HijmccPB1BKyhOwhX1EVl:not(._3hmGW9wIxNIoPPu1aS7rFm) /* Base */ {
     color: var(--md-sys-color-on-surface);
     background: unset;
@@ -196,7 +196,7 @@ html.client_chat_frame body, /* Fix */
 /* --- PROGRESS BAR --- */
 
 /* Active Track */
-._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B, /* Basic */ 
+._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B, /* Basic */
 ._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6, /* Achievements */
 ._3szjUMH5QeRwtXAsLRcWt9._3DjdoQj5NoknowwV5t5JPN::after, /* Downloading Status */
 .kX-tIJx4a9vKVuUkKJARv .mA39Hqv8LacDppegb_Q_Z, /* Downloading On Game */
@@ -293,15 +293,15 @@ button.DialogButton.Disabled:hover /* Basic */ {
 ._DialogColLayout:has(button.DialogButton.Primary) .DialogButton.Secondary {
     color: var(--md-sys-color-primary);
     background: unset;
-    background-color: transparent; 
+    background-color: transparent;
 }
 /* Hover */
 ._DialogColLayout:has(button.DialogButton.Primary) .DialogButton.Secondary:hover {
-    background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover)); 
+    background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
 }
 /* Click */
 ._DialogColLayout:has(button.DialogButton.Primary) .DialogButton.Secondary:active {
-    background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active)); 
+    background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
 }
 
 /* Dropdown Button */
@@ -512,7 +512,7 @@ button.DialogButton.Disabled:hover /* Basic */ {
 }
 
 
-/* --- DIVIDER --- */   
+/* --- DIVIDER --- */
 
 .eKmEXJCm_lgme24Fp_HWt.GxgIyq8R5xTOeu4ftGrgX::after, ._1Hye7o1wYIfc9TE9QKRW4T,
 .qq2xItSXjpCsNrcxyPJtO ._1CTr1yKRkOXnJ4gSS1-1A3,
@@ -549,7 +549,7 @@ button.DialogButton.Disabled:hover /* Basic */ {
 /* --- MENU --- */
 
 /* Base */
-._30wJO3MC4x-I1OWpy1TAeE._DialogInputContainer, /* BG */ 
+._30wJO3MC4x-I1OWpy1TAeE._DialogInputContainer, /* BG */
 ._2yAm5LY_eu-Vg_52l0HFlM /* Scrollbar */ {
     background-color: var(--md-sys-color-surface-container);
 }
@@ -695,6 +695,11 @@ button.DialogButton.Disabled:hover /* Basic */ {
     color: var(--md-sys-color-primary-container);
 }
 
+._2iiN7AYnLFTRFRiuipiYJz .nOdcT-MoOaXGePXLyPe0H,
+._2iiN7AYnLFTRFRiuipiYJz ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN {
+    color: var(--md-sys-color-inverse-on-surface);
+}
+
 /* --- ROOT --- */
 
 /* -- TOOLBAR -- */
@@ -711,6 +716,7 @@ button.DialogButton.Disabled:hover /* Basic */ {
 /* Window */
 .title-area-icon .SVGIcon_Minimize line, /* Min */
 .title-area-icon .SVGIcon_Maximize rect, .title-area-icon .SVGIcon_Maximize line, /* Max */
+.title-area-icon .SVGIcon_Restore rect, .title-area-icon .SVGIcon_Restore polyline, /* Restore */
 .title-area-icon .SVGIcon_X_Line line /* X */ {
     stroke: var(--md-sys-color-outline);
 }
@@ -961,8 +967,10 @@ button.DialogButton.Disabled:hover /* Basic */ {
 ._2sYIghGVXJr6tsQVvcryy8 /* Base */ {
     color: var(--md-sys-color-on-surface);
     background: var(--md-sys-color-secondary-container);
+    border: none !important;
 }
-._2sYIghGVXJr6tsQVvcryy8:hover /* Hover */ {
+._2sYIghGVXJr6tsQVvcryy8:hover, /* Hover */
+._2sYIghGVXJr6tsQVvcryy8._1dcGFHhye9BeEOg7CkFNQG /* RMB */{
     background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-primary) var(--layer-action-hover));
 }
 ._2sYIghGVXJr6tsQVvcryy8.sXMOsx8OIRalBMxO9yFY5 /* Chosen */ {
@@ -1008,6 +1016,11 @@ button.DialogButton.Disabled:hover /* Basic */ {
 ._3km84Vscc0uS91f0RN_30C {
     color: var(--md-sys-color-on-primary) !important;
     background-color: var(--md-sys-color-primary);
+}
+._3km84Vscc0uS91f0RN_30C ._1vO6BoiVslZgs1kqDGdUs8 /* Padding fixes */ {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 23px;
 }
 /* Fix */
 ._2TKEazUUS3TlniZfpc8OOe {
@@ -1158,7 +1171,7 @@ button.DialogButton.Disabled:hover /* Basic */ {
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX svg line {
     color: var(--md-sys-color-on-primary);
     stroke: var(--md-sys-color-on-primary);
-} 
+}
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX:hover svg, /* Base Icon */
 :not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._3cI5TXsFX3bvpR-7EBOtxq>._2AzIX5kl9k6JnxLfR5H4kX:hover svg /* Play Icon */ {
     color: var(--md-sys-color-on-primary);
@@ -1398,7 +1411,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 }
 /* Hover */
 ._2Z3ghRCL5qh2cqXrrd9l8Z ._17u7kJzj4gno8unUOzRaz-:hover .szq-QUt-0soxUfoD65BC7,
-._2Z3ghRCL5qh2cqXrrd9l8Z ._17u7kJzj4gno8unUOzRaz-:hover ._2cFKqVak8vsZdvk9mKdum_, ._2Z3ghRCL5qh2cqXrrd9l8Z ._17u7kJzj4gno8unUOzRaz-:hover ._2FYBwhP98BAjYNtW0mlkR7, 
+._2Z3ghRCL5qh2cqXrrd9l8Z ._17u7kJzj4gno8unUOzRaz-:hover ._2cFKqVak8vsZdvk9mKdum_, ._2Z3ghRCL5qh2cqXrrd9l8Z ._17u7kJzj4gno8unUOzRaz-:hover ._2FYBwhP98BAjYNtW0mlkR7,
 ._2Z3ghRCL5qh2cqXrrd9l8Z ._17u7kJzj4gno8unUOzRaz-:hover ._2EyEa4GxazAthx5c83AUGO, ._2Z3ghRCL5qh2cqXrrd9l8Z ._17u7kJzj4gno8unUOzRaz-:hover ._2FYBwhP98BAjYNtW0mlkR7 {
     color: var(--md-sys-color-on-surface);
     fill: var(--md-sys-color-on-surface);
@@ -1555,7 +1568,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 }
 ._1yEoLSbdr6RwEzqpyKLR4m ._3m6qdpFN3Mop0iw9ZE3RRa:hover {
     color: var(--md-sys-color-primary);
-    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover)); 
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
 }
 ._2dB1oJFsqNThak1cFya2-q._3qlJ0L41KQFqUTzVQKFERC svg line {
     stroke: var(--md-sys-color-on-surface);
@@ -1802,7 +1815,7 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
     background: var(--md-sys-color-surface-container);
 }
 ._1IGURymjmwZOxJLS-9BWKA:hover {
-    
+
     background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
 }
 /* Text */
