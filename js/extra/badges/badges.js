@@ -7,6 +7,12 @@ const userIconsData = [
     "customurl": "flowird",
     "badge": "dev",
     "description": "Material Theme Dev"
+  },
+  {
+    "steamid": "76561198343678851",
+    "customurl": "NeoNyaa",
+    "badge": "dev",
+    "description": "Material Theme Contributor"
   }
 ];
 
