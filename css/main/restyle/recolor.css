@@ -694,7 +694,7 @@ button.DialogButton.Disabled:hover /* Basic */ {
 .X8C932wI78Biu5tTOooXW {
     color: var(--md-sys-color-primary-container);
 }
-
+/* Text On (On person hover) */
 ._2iiN7AYnLFTRFRiuipiYJz .nOdcT-MoOaXGePXLyPe0H,
 ._2iiN7AYnLFTRFRiuipiYJz ._1cB0qtF0paHWWyj1XNcnbG._2Ri005Wg_uXDTa71kdRbcN {
     color: var(--md-sys-color-inverse-on-surface);
@@ -967,7 +967,6 @@ button.DialogButton.Disabled:hover /* Basic */ {
 ._2sYIghGVXJr6tsQVvcryy8 /* Base */ {
     color: var(--md-sys-color-on-surface);
     background: var(--md-sys-color-secondary-container);
-    border: none !important;
 }
 ._2sYIghGVXJr6tsQVvcryy8:hover, /* Hover */
 ._2sYIghGVXJr6tsQVvcryy8._1dcGFHhye9BeEOg7CkFNQG /* RMB */{

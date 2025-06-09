@@ -106,7 +106,7 @@
 ._2sYIghGVXJr6tsQVvcryy8, /* Base */
 ._2sYIghGVXJr6tsQVvcryy8.sXMOsx8OIRalBMxO9yFY5, /* Chosen */
 ._3km84Vscc0uS91f0RN_30C /* RMB */ {
-    border: unset;
+    border: none !important;
     box-shadow: unset;
 }
 /* Games */
