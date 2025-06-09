@@ -1016,11 +1016,6 @@ button.DialogButton.Disabled:hover /* Basic */ {
     color: var(--md-sys-color-on-primary) !important;
     background-color: var(--md-sys-color-primary);
 }
-._3km84Vscc0uS91f0RN_30C ._1vO6BoiVslZgs1kqDGdUs8 /* Padding fixes */ {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 23px;
-}
 /* Fix */
 ._2TKEazUUS3TlniZfpc8OOe {
     background: unset;
