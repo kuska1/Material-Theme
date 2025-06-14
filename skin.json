@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "A theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.0.10",
+    "version": "1.1.0",
     "header_image": "https://github.com/kuska1/Material-Theme/blob/main/.github/banner.jpg?raw=true",
     "splash_image": "https://github.com/kuska1/Material-Theme/blob/main/.github/banner.jpg?raw=true",
 
@@ -34,15 +34,10 @@
             }
         },
         "Color": {
-            "description": "Choose source color. For Dynamic Color use \"Custom Accent Color\".",
+            "description": "Choose source color. For Custom/Dynamic Color use \"Custom Accent Color\".",
             "default": "Blue",
             "tab": "Style",
             "values": {
-                "Dynamic": {
-                    "TargetJs": {
-                        "affects": [".*"], "src": "js/main/colors/dynamic.js"
-                    }
-                },
                 "Red": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/main/colors/red.css"
@@ -61,6 +56,16 @@
                 "Yellow": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/main/colors/yellow.css"
+                    }
+                },
+                "Custom": {
+                    "TargetJs": {
+                        "affects": [".*"], "src": "js/main/colors/custom.js"
+                    }
+                },
+                "Dynamic (Beta)": {
+                    "TargetJs": {
+                        "affects": [".*"], "src": "js/main/colors/dynamic.js"
                     }
                 }
             }
@@ -83,6 +88,11 @@
             "tab": "Style",
             "values": {
                 "Default": {},
+                "Roboto": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/fonts/roboto.css"
+                    }
+                },
                 "Open Sans": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/extra/fonts/opensans.css"
@@ -246,7 +256,20 @@
                 }
             }
         },
-        "Profile Picture Shape": { 
+        "Bottom Bar Style": {
+            "description": "Choose bottom bar style.",
+            "default": "Default",
+            "tab": "Toolbar",
+            "values": {
+                "Default": {},
+                "Floating": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/toolbar/floatingBottomBar.css"
+                    }
+                }
+            }
+        },
+        "Profile Picture Shape": {
             "description": "Choose profile picture shape.",
             "default": "Circle",
             "tab": "Shapes",

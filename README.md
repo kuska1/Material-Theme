@@ -22,9 +22,9 @@
 * Library Restyle [WIP]
 ### Style
 * Appearance (Light/Dark)
-* Source Color (Dynamic/Red/Blue/Green/Yellow)
+* Source Color (Red/Blue/Green/Yellow/Custom/Dynamic [Beta])
 * Material Icons
-* Fonts (Default/Open Sans/Google Sans)
+* Fonts (Default/Roboto/Open Sans/Google Sans)
 * Alternatie online indicator
 ### Toolbar
 * Title collapse
@@ -32,8 +32,10 @@
 * Title change
 * Account button style
 * Toolbar buttons hider
+* Bottom bar style (Default/Floating)
 ### Shapes 
 * Profile picture shape
+* Groups picture shape
 * Game icons shape
 * Achievements icons shape
 ### Library

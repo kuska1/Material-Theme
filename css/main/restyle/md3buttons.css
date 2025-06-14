@@ -4,7 +4,8 @@
 /* https://m3.material.io/components/all-buttons */
 
 /* Basic Button */
-button.DialogButton, .O_nD7TklmaIZ80TPx3rjt button.DialogButton {
+button.DialogButton, .O_nD7TklmaIZ80TPx3rjt button.DialogButton,
+._2ohOQgahhMYnIEfAQmv9B8 {
     border-radius: var(--corner-radius-full);
 }
 button.DialogButton::before {
