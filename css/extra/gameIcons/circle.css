@@ -1,12 +1,19 @@
 @import url(common.css);
-._1R9r2OBCxAmtuUVrgBEUBw:not(._3Ehhd5MxErV_bXQE4qVhzB):not(.ZsU8nIIpj8MJn0vzMzSp1) ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw  {
-    border-radius: var(--corner-radius-full);
-}
+._1R9r2OBCxAmtuUVrgBEUBw:not(._3Ehhd5MxErV_bXQE4qVhzB):not(.ZsU8nIIpj8MJn0vzMzSp1) ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw,
 ._2kzMb_F7UTOEdecAFftN-l,
-._1GTWEgiW95vRIhUWfk6omo {
-    border-radius: var(--corner-radius-full);
-}
+._1GTWEgiW95vRIhUWfk6omo,
 /* Community */
-.recent_game_discussion .playerAvatar, .recent_game_discussion .playerAvatar img {
+.recent_game_discussion .playerAvatar, .recent_game_discussion .playerAvatar img,
+.appHubShortcut_Icon,
+.games_list_tab_icon img,
+.item_desc_game_info .item_desc_game_icon > img,
+.group_associated_game_icon,
+.group_associated_game img,
+.game_button_game_icon > img,
+.item_desc_game_info .item_desc_game_icon > img,
+/* Points Shop */
+.skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh ._2_RnvOULQZCa2zLP-wkKt0 ._3OyyiqHIwtrEKKyPTWPTGK ._3RN5Yt4DuIZQ7nREAU7pp3,
+/* Plugins Support */
+.apphub_AppIcon > img {
     border-radius: var(--corner-radius-full) !important;
 }

@@ -240,6 +240,11 @@
     background: unset;
     border-radius: var(--corner-radius-medium);
 }
+/* Arrows Down Button */
+._2-p7shAZYrRijpaTU9bAFR>div {
+    border-radius: var(--corner-radius-full);
+    /* box-shadow: var(--elevated-shadow); */
+}
 /* Games */
 .WYgDg9NyCcMIVuMyZ_NBC /* Cards */ {
     box-shadow: unset;

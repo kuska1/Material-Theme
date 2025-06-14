@@ -1002,7 +1002,6 @@ button.DialogButton.Disabled:hover /* Basic */ {
 }
 /* Games Chosen Hover */
 ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj, ._1UBpAXP408Ez_L_mXhW5Q9._2-O4ZG0KrnSrzISHBKctFQ :hover, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ:hover, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ._3cMVyOc-9F9Jvp3uKF7_xj, ._1UBpAXP408Ez_L_mXhW5Q9 ._2-O4ZG0KrnSrzISHBKctFQ :hover {
-    /* background-color: var(--md-sys-color-secondary-container); */
     background-color: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-primary) var(--layer-action-hover));
 }
 /* Games Not Downloaded */
@@ -1049,6 +1048,15 @@ button.DialogButton.Disabled:hover /* Basic */ {
 ._1tBzypb5E2AwNuBuVns9Hl ._1ljKTq3H58WbDZGNPfM0TY, /* Sort By */
 ._2q70uOe6xM3-c5XIVfBLe6 /* Collection */ {
     color: var(--md-sys-color-on-surface);
+}
+/* Arrows Down Button */
+._2-p7shAZYrRijpaTU9bAFR>div {
+    color: var(--md-sys-color-on-primary-fixed);
+    background-color: var(--md-sys-color-primary-fixed);
+}
+._2-p7shAZYrRijpaTU9bAFR:hover>div {
+    color: var(--md-sys-color-on-primary-fixed);
+    background-color: color-mix(in srgb, var(--md-sys-color-primary-fixed), var(--md-sys-color-on-primary-fixed) var(--layer-action-hover));
 }
 /* Description */
 ._2rlKqvybYupc-uk64cdQ8D, /* What's New */

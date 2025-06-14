@@ -1,0 +1,17 @@
+/* Store */
+.search_suggest .match_creator .match_img img,
+.recommended_creators_container .avatars a img,
+.curator_giant_capsule .curator_block img,
+.creatorhome .curator_avatar,
+.steam_curator_icon img,
+.steam_curator_for_app img,
+.friend_block_holder.creator img, .friend_block_holder.curator img,
+.XIDYByW4BEOm-YiOiwGmO .PO1KWbUEvLt8ZVYRTAvMt,
+._3JepbxeEa0I4l8TnG9DeT5,
+/* Community */
+.profile_group_avatar img,
+.group_block_medium img,
+.search_group_avatar_holder img,
+.grouppage_logo img {
+    border-radius: var(--corner-radius-small) !important;
+}

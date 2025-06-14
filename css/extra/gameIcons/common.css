@@ -1,7 +1,6 @@
 ._2kzMb_F7UTOEdecAFftN-l,
-._1GTWEgiW95vRIhUWfk6omo {
-    border-radius: unset;
-}
-.recent_game_discussion .playerAvatar img {
+._1GTWEgiW95vRIhUWfk6omo,
+/* Community */
+.recent_game_discussion .playerAvatar img{
     border-radius: unset;
 }
