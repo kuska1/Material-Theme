@@ -139,11 +139,11 @@
 
     /* --- MISC --- */
 
-    --indicator-offline: 137, 137, 137;
-    --indicator-online: 76, 180, 255;
-    --indicator-away: 76, 145, 172;
-    --indicator-ingame: 140, 214, 29;
-    --indicator-ingame-away: 98, 129, 59;
+    --indicator-offline: #898989;
+    --indicator-online: #76B4FF;
+    --indicator-away: #4C91AC;
+    --indicator-ingame: #8CD61D;
+    --indicator-ingame-away: #62953B;
 }
 
 /* Scrollbar */

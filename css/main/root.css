@@ -1,7 +1,27 @@
 :root {
-    --nothing: 0,0,0;
-	/*
-    * @name Main accent
-    * @description Color for all
-	--main-accent: 26, 159, 255; */
+    /* 
+    * @name Offline Status
+    * @description Color for offline status.
+    */
+	--indicator-offline: #898989;
+    /* 
+    * @name Online Status
+    * @description Color for online status.
+    */
+	--indicator-online: #4CB4FF;
+    /* 
+    * @name Idle Status
+    * @description Color for away status.
+    */
+	--indicator-away: #4C91AC;
+    /* 
+    * @name In-Game Status
+    * @description Color for in-game status.
+    */
+	--indicator-ingame: #8CD61D;
+    /* 
+    * @name In-Game Away Status
+    * @description Color for in-game away status.
+    */
+	--indicator-ingame-away: #769C1F;
 }

@@ -42,7 +42,7 @@
 /* Replace to Alt Online icon */
 ._3xUpb5DWXPFNcHHIcv-9pe {
 	border-radius: 100% !important;
-	outline: solid 2px rgb(var(--md-sys-color-outline));
+	outline: solid 2px transparent;
 }
 ._3xUpb5DWXPFNcHHIcv-9pe.right {
     top: unset;
@@ -75,25 +75,25 @@
 /* Offline */
 ._3xUpb5DWXPFNcHHIcv-9pe.right,
 ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-	background: rgb(var(--indicator-offline));
+	background: var(--indicator-offline);
 }
 /* Online */
 .online ._3xUpb5DWXPFNcHHIcv-9pe.right,
 .online ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-	background: rgb(var(--indicator-online));
+	background: var(--indicator-online);
 }
 /* Away */
 .awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.right,
 .awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-	background: rgb(var(--indicator-away));
+	background: var(--indicator-away);
 }
 /* Ingame */
 .ingame ._3xUpb5DWXPFNcHHIcv-9pe.right,
 .ingame ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-	background: rgb(var(--indicator-ingame));
+	background: var(--indicator-ingame);
 }
 /* Ingame Away */
 .ingame.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.right,
 .ingame.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-	background: rgb(var(--indicator-ingame-away));
+	background: var(--indicator-ingame-away);
 }

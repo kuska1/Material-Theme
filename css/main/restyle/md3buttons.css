@@ -1,5 +1,3 @@
-@import url("md3segmentedbuttons.css");
-
 /* Button */
 /* https://m3.material.io/components/all-buttons */
 
@@ -99,4 +97,44 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
 /* Root Additional Content */
 ._1yEoLSbdr6RwEzqpyKLR4m ._3m6qdpFN3Mop0iw9ZE3RRa {
     border-radius: var(--corner-radius-full);
+}
+
+/* Button groups */
+._1ml4SNc3LIyBDHIf8ekVSw {
+    border: unset;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background: unset;
+    box-shadow: unset;
+}
+.HijmccPB1BKyhOwhX1EVl {
+    text-shadow: unset;
+}
+.HijmccPB1BKyhOwhX1EVl:not(:last-child) {
+    margin-right: 2px;
+}
+.HijmccPB1BKyhOwhX1EVl:first-child:not(:last-child) {
+    border-top-left-radius: var(--corner-radius-full);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-full);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+.HijmccPB1BKyhOwhX1EVl:not(:first-child):not(:last-child) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+.HijmccPB1BKyhOwhX1EVl:last-child:not(:first-child) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-full);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-full);
+}
+.HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q {
+    border-radius: var(--corner-radius-full) !important;
+}
+.HijmccPB1BKyhOwhX1EVl:not(._3-_jME_xsuvgT3Dvq4bw_q)+.HijmccPB1BKyhOwhX1EVl:not(._3-_jME_xsuvgT3Dvq4bw_q)::before {
+    display: none;
 }

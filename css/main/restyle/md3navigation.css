@@ -12,6 +12,7 @@
 /* Buttons */
 ._1-vlriAtKYDViAEunue4VO {
     border-radius: var(--corner-radius-full);
+    padding: 10px 8px 10px 16px;
 }
 /* ._1-vlriAtKYDViAEunue4VO:hover {
     color: unset;

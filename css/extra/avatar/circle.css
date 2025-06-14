@@ -33,6 +33,7 @@
 }
 
 /* Disable Round Avatars with Cosmetic Border */
+.avatarHolder:has(._2nPONxDUmK4rQXzK4Y3vG2) .avatar,
 .avatarHolder:has(.avatarFrame) .avatar,
 .playerAvatar:has(.profile_avatar_frame) img,
 .miniprofile_playersection:has(.playersection_avatar_frame) .playersection_avatar img {

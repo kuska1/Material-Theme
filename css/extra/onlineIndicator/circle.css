@@ -9,13 +9,13 @@
 	transition: .35s linear;
 }
 .miniprofile_playersection .playersection_avatar.border_color_offline img {
-	outline-color: rgb(var(--indicator-offline));
+	outline-color: var(--indicator-offline);
 }
 .miniprofile_playersection .playersection_avatar.border_color_online img {
-	outline-color: rgb(var(--indicator-online));
+	outline-color: var(--indicator-online);
 }
 .miniprofile_playersection .playersection_avatar.border_color_in-game img {
-	outline-color: rgb(var(--indicator-ingame));
+	outline-color: var(--indicator-ingame);
 }
 
 /* Library / Community */
@@ -39,24 +39,24 @@
 /* Offline */
 .friend_block_link_overlay img,
 ._3h-QRJGxnVOIExtHD1R0f2 {
-	outline-color: rgb(var(--indicator-offline));
+	outline-color: var(--indicator-offline);
 }
 /* Online */
 .friend_block_link_overlay.online img,
 .online ._3h-QRJGxnVOIExtHD1R0f2 {
-	outline-color: rgb(var(--indicator-online));
+	outline-color: var(--indicator-online);
 }
 /* Away */
 .friend_block_link_overlay.away img,
 .awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
-	outline: 1px dashed rgb(var(--indicator-away));
+	outline: 1px dashed var(--indicator-away);
 }
 /* Ingame */
 .friend_block_link_overlay.in-game img,
 .ingame ._3h-QRJGxnVOIExtHD1R0f2 {
-	outline-color: rgb(var(--indicator-ingame));
+	outline-color: var(--indicator-ingame);
 }
 /* Ingame Away */
 .ingame.awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
-	outline: 1px dashed rgb(var(--indicator-ingame-away));
+	outline: 1px dashed var(--indicator-ingame-away);
 }
