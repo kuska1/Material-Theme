@@ -1,6 +1,8 @@
 ._2yAm5LY_eu-Vg_52l0HFlM, /* Modal */
 html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt /* Root */ {
-    animation: opacity var(--animation-duration-short2) ease, openContextMenu var(--animation-duration-medium2) var(--animation-easing-standart-decelerate);
+    animation:
+        opacity 150ms var(--animation-standart-fast-spatial),
+        openContextMenu 500ms var(--animation-standart-default-spatial);
     transform-origin: top;
 }
 

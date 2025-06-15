@@ -94,16 +94,19 @@
 }
 
 /* Dropdown Cards */
+._2KFeE_s51aT07ohdMu_ZH1 {
+    border-radius: var(--corner-radius-medium);
+    border-bottom: unset;
+    margin-bottom: 8px;
+}
 ._21Uc0N6TIRIw4LIZzQnsdE {
-    border-top-left-radius: var(--corner-radius-medium) !important;
-    border-top-right-radius: var(--corner-radius-medium) !important;
-    border-bottom-left-radius: var(--corner-radius-medium) !important;
-    border-bottom-right-radius: var(--corner-radius-medium) !important;
+    border-radius: var(--corner-radius-medium);
+    margin-bottom: 8px;
 }
 ._1u5y7VbwvOwncjMsMqnFUz {
     box-shadow: unset;
-    border-bottom-left-radius: var(--corner-radius-medium) !important;
-    border-bottom-right-radius: var(--corner-radius-medium) !important;
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
 }
 
 /* Download Page */

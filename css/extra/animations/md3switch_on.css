@@ -1,5 +1,8 @@
 ._9Ql-oVe_j8E-vsDdyVdWo, /* Base */
 ._2bl0iQ9xigbq4Zd1NI6NZl, ._2bl0iQ9xigbq4Zd1NI6NZl::before, /* Track */
 ._1PQppcgkuXQAiFPar9AGi- /* Handle */ {
-    transition: var(--animation-basic-slow);
+    transition: 
+        all 350ms var(--animation-expressive-fast-spatial),
+        color 150ms var(--animation-expressive-fast-effects),
+        background 150ms var(--animation-expressive-fast-effects);
 }

@@ -50,6 +50,21 @@
     --animation-basic-medium: all .15s ease-in-out;
     --animation-basic-fast: all .1s ease-in-out;
 
+    --animation-expressive-fast-spatial: cubic-bezier(0.42, 1.67, 0.21, 0.90); /* 350ms */
+    --animation-expressive-default-spatial: cubic-bezier(0.38, 1.21, 0.22, 1.00); /* 500ms */
+    --animation-expressive-slow-spatial: cubic-bezier(0.39, 1.29, 0.35, 0.98); /* 650ms */
+
+    --animation-expressive-fast-effects: cubic-bezier(0.31, 0.94, 0.34, 1.00); /* 150ms */
+    --animation-expressive-default-effects: cubic-bezier(0.34, 0.80, 0.34, 1.00); /* 200ms */
+    --animation-expressive-slow-effects: cubic-bezier(0.34, 0.88, 0.34, 1.00); /* 300ms */
+
+    --animation-standart-fast-spatial: cubic-bezier(0.27, 1.06, 0.18, 1.00); /* 350ms */
+    --animation-standart-default-spatial: cubic-bezier(0.27, 1.06, 0.18, 1.00); /* 500ms */
+    --animation-standart-slow-spatial: cubic-bezier(0.27, 1.06, 0.18, 1.00); /* 750ms */
+
+    --animation-standart-fast-effects: cubic-bezier(0.31, 0.94, 0.34, 1.00); /* 150ms */
+    --animation-standart-default-effects: cubic-bezier(0.34, 0.80, 0.34, 1.00); /* 200ms */
+    --animation-standart-slow-effects: cubic-bezier(0.34, 0.88, 0.34, 1.00); /* 300ms */
 
     --animation-easing-emphasized-decelerate: cubic-bezier(0.05, 0.7, 0.1, 1.0);
     --animation-easing-emphasized-accelerate: cubic-bezier(0.3, 0.0, 0.8, 0.15);
@@ -59,7 +74,6 @@
     --animation-easing-standart-accelerate: cubic-bezier(0.3, 0, 1, 1);
 
     --animation-easing-linear: linear;
-
 
     --animation-duration-short1: 50ms;
     --animation-duration-short2: 100ms;

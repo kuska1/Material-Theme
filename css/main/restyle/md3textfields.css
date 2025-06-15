@@ -2,7 +2,9 @@
 /* https://m3.material.io/components/text-fields/overview */
 
 .DialogTextInputBase,
-._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X {
+._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X,
+.lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx {
+    border: unset;
     outline: 0px solid transparent;
     box-shadow: unset;
     border-top-left-radius: var(--corner-radius-extra-small);

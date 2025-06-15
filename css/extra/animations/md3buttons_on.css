@@ -1,11 +1,19 @@
-button.DialogButton, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, button.DialogButton::after /* Basic */ {
-    transition: var(--animation-basic-slow);
-}
-.HijmccPB1BKyhOwhX1EVl, .HijmccPB1BKyhOwhX1EVl::after /* Segmented */ {
-    transition: var(--animation-basic-slow);
-}
-
+button.DialogButton, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, button.DialogButton::after,
+._1hhB2Wf7iExA15zh_lDQ_y ._3ydigb6zZAjJ0JCDgHwSYA,
+._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi,
+._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg,
 ._2foCkpRXhqq0UGVE50BWqj, .ip-YZhijAMZcuRoXBGiye, ._1TdaAqMFadi0UTqilrkelR,
-._1J21tLst5SEhBPkVRT53UV div, ._1J21tLst5SEhBPkVRT53UV { /* Forgot... */
-    transition: var(--animation-basic-slow);
+.HijmccPB1BKyhOwhX1EVl, .HijmccPB1BKyhOwhX1EVl::after,
+._1J21tLst5SEhBPkVRT53UV div, ._1J21tLst5SEhBPkVRT53UV {
+    transition: 
+        all 350ms var(--animation-expressive-fast-spatial),
+        color 150ms var(--animation-expressive-fast-effects),
+        background 150ms var(--animation-expressive-fast-effects);
+}
+._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi,
+._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg,
+.DialogControlsSection ._2XSsNSGcWjGZ6z3fvqaRd5._3vgH-W3sYStLJYfV4JgE5b button.DialogButton,
+.DialogControlsSection.RoSh6WoygUX6LLAoB20f3 button.DialogButton {
+    transition: 
+        all 350ms var(--animation-standart-fast-spatial) !important;
 }

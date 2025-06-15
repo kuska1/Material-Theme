@@ -1,7 +1,11 @@
 /* Button */
 /* https://m3.material.io/components/all-buttons */
 
+.lat0M-V5X4uYd6Mpm1DJ1 .DjSvCZoKKfoNSmarsEcTS:focus {
+    outline: unset;
+}
 /* Basic Button */
+.lat0M-V5X4uYd6Mpm1DJ1 ._16fbihk6Bi9CXuksG7_tLt button,
 button.DialogButton, .O_nD7TklmaIZ80TPx3rjt button.DialogButton,
 ._2ohOQgahhMYnIEfAQmv9B8 {
     border-radius: var(--corner-radius-full);
@@ -9,7 +13,12 @@ button.DialogButton, .O_nD7TklmaIZ80TPx3rjt button.DialogButton,
 button.DialogButton::before {
     box-shadow: unset;
 }
-
+.DesktopUI ._1mt2mPMVEDfpOhhWePy9hc .IfVUbt19eXIqaAuGh2i63 {
+    border-radius: var(--corner-radius-full);
+    border: unset;
+    outline: unset;
+    box-shadow: unset;
+}
 ._9Ql-oVe_j8E-vsDdyVdWo {
     outline-width: 2px;
     outline-style: solid;
@@ -40,18 +49,14 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+/* Arrow Button */
+.BRmrC-jnwpXqye4oYB21C button.DialogButton {
+    scale: 0.75;
+}
 /* Root */
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown, ._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogDropDown {
     border-radius: var(--corner-radius-medium);
 }
-
-/* Primary & Secondary Button Swap */
-/* ._DialogColLayout button.DialogButton.Primary {
-    order: 2;
-}
-._DialogColLayout button.DialogButton.Secondary {
-    order: 1;
-} */
 
 /* More Button */
 ._1WKUOT3FdB9-48MMP0Tz9l {
@@ -83,6 +88,20 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
     border-top-right-radius: var(--corner-radius-medium);
     border-bottom-right-radius: var(--corner-radius-medium);
 }
+._1hhB2Wf7iExA15zh_lDQ_y ._3ydigb6zZAjJ0JCDgHwSYA:active {
+    border-radius: var(--corner-radius-medium);
+}
+/* Split Button Toggle */
+._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi:active {
+    border-top-left-radius: var(--corner-radius-small);
+    border-bottom-left-radius: var(--corner-radius-small);
+}
+body:has(._2yAm5LY_eu-Vg_52l0HFlM, .DesktopUI .PP7LM0Ow1K5qkR8WElLpt) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
+    border-radius: var(--corner-radius-full);
+}
+body:has(._2yAm5LY_eu-Vg_52l0HFlM, .DesktopUI .PP7LM0Ow1K5qkR8WElLpt) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg {
+    transform: rotate(360deg) !important;
+}
 
 /* Game Toolbar */
 ._3qDWQGB0rtwM3qpXTb11Q- {
@@ -100,6 +119,30 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
 }
 
 /* Button groups */
+/* Default */
+.RoSh6WoygUX6LLAoB20f3 {
+    gap: 10px;
+}
+.DialogControlsSection ._2XSsNSGcWjGZ6z3fvqaRd5._3vgH-W3sYStLJYfV4JgE5b button.DialogButton,
+.DialogControlsSection.RoSh6WoygUX6LLAoB20f3 button.DialogButton {
+    padding: 8px 12px;
+    line-height: 19px;
+}
+.DialogControlsSection ._2XSsNSGcWjGZ6z3fvqaRd5._3vgH-W3sYStLJYfV4JgE5b button.DialogButton:hover,
+.DialogControlsSection.RoSh6WoygUX6LLAoB20f3 button.DialogButton:hover {
+    padding: 8px 20px;
+}
+.DialogControlsSection ._2XSsNSGcWjGZ6z3fvqaRd5._3vgH-W3sYStLJYfV4JgE5b button.DialogButton:hover:has(+ button.DialogButton:hover),
+.DialogControlsSection ._2XSsNSGcWjGZ6z3fvqaRd5._3vgH-W3sYStLJYfV4JgE5b button.DialogButton:has(+ button.DialogButton:hover),
+.DialogControlsSection.RoSh6WoygUX6LLAoB20f3 button.DialogButton:hover:has(+ button.DialogButton:hover),
+.DialogControlsSection.RoSh6WoygUX6LLAoB20f3 button.DialogButton:has(+ button.DialogButton:hover) {
+    padding-right: 4px;
+}
+.DialogControlsSection ._2XSsNSGcWjGZ6z3fvqaRd5._3vgH-W3sYStLJYfV4JgE5b button.DialogButton,
+.DialogControlsSection.RoSh6WoygUX6LLAoB20f3 button.DialogButton:hover + button.DialogButton {
+    padding-left: 4px;
+}
+/* Choose single */
 ._1ml4SNc3LIyBDHIf8ekVSw {
     border: unset;
     padding-top: 0px;
@@ -116,24 +159,49 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
 }
 .HijmccPB1BKyhOwhX1EVl:first-child:not(:last-child) {
     border-top-left-radius: var(--corner-radius-full);
-    border-top-right-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-large);
     border-bottom-left-radius: var(--corner-radius-full);
-    border-bottom-right-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-large);
+}
+.HijmccPB1BKyhOwhX1EVl:first-child:not(:last-child):active {
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
 }
 .HijmccPB1BKyhOwhX1EVl:not(:first-child):not(:last-child) {
+    border-top-left-radius: var(--corner-radius-small);
+    border-top-right-radius: var(--corner-radius-small);
+    border-bottom-left-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+}
+.HijmccPB1BKyhOwhX1EVl:not(:first-child):not(:last-child):active {
     border-top-left-radius: var(--corner-radius-extra-small);
     border-top-right-radius: var(--corner-radius-extra-small);
     border-bottom-left-radius: var(--corner-radius-extra-small);
     border-bottom-right-radius: var(--corner-radius-extra-small);
 }
 .HijmccPB1BKyhOwhX1EVl:last-child:not(:first-child) {
-    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-left-radius: var(--corner-radius-extra-large);
     border-top-right-radius: var(--corner-radius-full);
-    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-large);
     border-bottom-right-radius: var(--corner-radius-full);
+}
+.HijmccPB1BKyhOwhX1EVl:last-child:not(:first-child):active {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-medium);
 }
 .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q {
     border-radius: var(--corner-radius-full) !important;
+}
+.HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:first-child:not(:last-child):active {
+    border-top-right-radius: var(--corner-radius-extra-small) !important;
+    border-bottom-right-radius: var(--corner-radius-extra-small) !important;
+}
+.HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:not(:first-child):not(:last-child):active {
+    border-radius: var(--corner-radius-extra-small) !important;
+}
+.HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:last-child:not(:first-child):active {
+    border-top-left-radius: var(--corner-radius-extra-small) !important;
+    border-bottom-left-radius: var(--corner-radius-extra-small) !important;
 }
 .HijmccPB1BKyhOwhX1EVl:not(._3-_jME_xsuvgT3Dvq4bw_q)+.HijmccPB1BKyhOwhX1EVl:not(._3-_jME_xsuvgT3Dvq4bw_q)::before {
     display: none;

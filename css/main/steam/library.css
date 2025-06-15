@@ -145,11 +145,23 @@
     border-bottom-right-radius: var(--corner-radius-none);
     /* border-radius: var(--corner-radius-large); */
 }
+._23zCI_59RJTWRvY-_YCFb9, /* Bg Soundtrack Fix */
+._1c7FWVusLDkD_Lv6ZB0uTY ._22Q27ULX8FrTAxrt3fLxn1 ._1s3EpCtCwCVJ-7hbeqJeWw ._1Rrhq0ynyX66fxOi1wUNXv ._17Yl1Gv8pnM24mkeAW_ZF4,
 ._2sNr7PFYcJZWNkEMCDVVPR /* Bg Category Fix */ {
     background: unset;
 }
+._1c7FWVusLDkD_Lv6ZB0uTY ._22Q27ULX8FrTAxrt3fLxn1 ._1s3EpCtCwCVJ-7hbeqJeWw {
+    border: unset;
+    border-radius: var(--corner-radius-medium);
+    box-shadow: unset;
+}
 ._3bWISeqP3H2j6YJnFwVEwu:not(.E5k6bKwdV9GHvwwZHYfzA) /* Header Category Fix */ {
     display: none;
+}
+
+/* Soundtrack */
+._1R0eEV6Mxu9G0FnF8g9vNI {
+    filter: unset;
 }
 
 /* Overflow */

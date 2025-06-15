@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "A theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.1.1",
+    "version": "1.1.2",
     "header_image": "https://github.com/kuska1/Material-Theme/blob/main/.github/banner.jpg?raw=true",
     "splash_image": "https://github.com/kuska1/Material-Theme/blob/main/.github/banner.jpg?raw=true",
 
@@ -678,5 +678,14 @@
     },
     
 
-    "Patches": []
+    "Patches": [
+        { 
+			"MatchRegexString": ".*",
+			"TargetCss": "webkit.css"
+		},
+        {
+			"MatchRegexString": ".*",
+			"TargetCss": "css/main/steam/signin.css"
+		}
+    ]
 }
