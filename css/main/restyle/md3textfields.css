@@ -5,14 +5,14 @@
 ._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X,
 .lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx {
     border: unset;
-    outline: 0px solid transparent;
-    box-shadow: unset;
-    border-top-left-radius: var(--corner-radius-extra-small);
-    border-top-right-radius: var(--corner-radius-extra-small);
-    border-bottom-left-radius: var(--corner-radius-none);
-    border-bottom-right-radius: var(--corner-radius-none);
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
+    outline: 0px solid transparent !important;
+    box-shadow: unset !important;
+    border-top-left-radius: var(--corner-radius-extra-small) !important;
+    border-top-right-radius: var(--corner-radius-extra-small) !important;
+    border-bottom-left-radius: var(--corner-radius-none) !important;
+    border-bottom-right-radius: var(--corner-radius-none) !important;
+    border-bottom-width: 2px !important;
+    border-bottom-style: solid !important;
     font-family: unset;
 }
 .DialogTextInputBase:not(:disabled):hover {

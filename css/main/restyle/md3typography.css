@@ -184,3 +184,9 @@ button.DialogButton, .O_nD7TklmaIZ80TPx3rjt button.DialogButton, /* Modal */
     font-size: var(--font-body-medium-size);
     font-weight: var(--font-body-medium-weight);
 }
+
+/* Community */
+.account_header_line {
+    font-size: var(--font-title-large-size) !important;
+    font-weight: var(--font-title-large-weight) !important;
+}

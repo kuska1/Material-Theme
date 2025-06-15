@@ -1,0 +1,32 @@
+.inventory_load_error,
+#tabcontent_inventory {
+    border: unset !important;
+    border-radius: var(--corner-radius-medium) !important;
+}
+.trade_item_box {
+    border: unset !important;
+    padding: unset !important;
+}
+.inventory_iteminfo, .trade_item_box,
+.inventory_iteminfo .item_desc_content {
+    border-radius: var(--corner-radius-small) !important;
+}
+.item_desc_icon,
+.trade_item_box .item, .market_dialog_contents .item {
+    border-radius: var(--corner-radius-extra-small) !important;
+}
+.item_desc_icon {
+    left: 0px !important;
+    top: 0px !important;
+    right: 0px !important;
+    border-bottom-left-radius: var(--corner-radius-large) !important;
+    border-bottom-right-radius: var(--corner-radius-large) !important;
+}
+.view_inventory_page #inventories {
+    width: 516px !important;
+}
+
+.item_market_action_button_green > span,
+.item_market_action_button_green:hover > span, .item_market_action_button_green .item_market_action_button_preload {
+    background: unset !important;
+}

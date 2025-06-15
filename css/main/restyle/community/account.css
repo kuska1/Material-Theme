@@ -1,0 +1,72 @@
+/* Left */
+.two_column.left {
+    padding-right: 8px !important;
+    width: auto !important;
+    min-width: 200px !important;
+}
+.two_column .nav_item {
+    border-radius: var(--corner-radius-full) !important;
+    padding: 10px 0px 10px 16px !important;
+}
+/* Right */
+.account .page_header_ctn, .account_preferences .page_header_ctn {
+    background: unset !important;
+}
+.account_header_line,
+.two_column.right header /* Plugins Support / SteamDB */ {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+    padding: 6px 0px 0px 12px !important;
+}
+.account_setting_block,
+.account_settings_container,
+.hMgR2gFc_fP8LK9e2Vwvq,
+.two_column.right .container /* Plugins Support / SteamDB */ {
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+.lat0M-V5X4uYd6Mpm1DJ1 ._2oMvaF46xYOE6Guy0xjCAl, /* For Security Purposes */
+.account_setting_sub_block_long,
+.two_column.right .container #star, /* Plugins Support / SteamDB */
+.two_column.right:has(#options), /* Plugins Support / Augmented Steam */
+section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
+    border-radius: var(--corner-radius-medium);
+}
+.lat0M-V5X4uYd6Mpm1DJ1 ._3huyZ7Eoy2bX4PbCnH3p5w,
+.lat0M-V5X4uYd6Mpm1DJ1 ._3zQ9hnkyXJEv7nN0oBU56M,
+.lat0M-V5X4uYd6Mpm1DJ1 ._2EuR68sQbA8eP01DlIfu6O ._3XCnc4SuTz8V8-jXVwkt_s {
+    border-radius: var(--corner-radius-medium) !important;
+}
+._1gzkmmy_XA39rp9MtxJfZJ {
+    border-radius: var(--corner-radius-small) !important;
+}
+.lat0M-V5X4uYd6Mpm1DJ1 ._2oMvaF46xYOE6Guy0xjCAl {
+    padding: 8px 0px 8px 12px !important;
+}
+#localization .container /* Plugins Support / SteamDB */ {
+    border-radius: unset !important;
+}
+.two_column.right header /* Plugins Support / SteamDB */ {
+    border-bottom: unset;
+}
+.two_column.right .container /* Plugins Support / SteamDB */ {
+    max-width: unset !important;
+}
+.two_column.right footer /* Plugins Support / SteamDB */ {
+    border-top: unset;
+    border-radius: var(--corner-radius-medium);
+}
+section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
+    margin-bottom: 12px !important;
+}
+/* Augement Steam Restyle */
+#options .page.svelte-isyz6n {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: normal !important;
+}
+#options .sidebar__group.svelte-rnm70t.svelte-rnm70t {
+    display: flex !important;
+    flex-direction: row !important;
+}

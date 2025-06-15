@@ -206,3 +206,14 @@ body:has(._2yAm5LY_eu-Vg_52l0HFlM, .DesktopUI .PP7LM0Ow1K5qkR8WElLpt) ._2AzIX5kl
 .HijmccPB1BKyhOwhX1EVl:not(._3-_jME_xsuvgT3Dvq4bw_q)+.HijmccPB1BKyhOwhX1EVl:not(._3-_jME_xsuvgT3Dvq4bw_q)::before {
     display: none;
 }
+
+/* Community */
+.btnv6_blue_hoverfade,
+.account_manage_link {
+    border-radius: var(--corner-radius-full) !important;
+    padding: 6px 12px !important;
+}
+a.item_market_action_button {
+    border-radius: var(--corner-radius-full) !important;
+    padding: 4px 8px !important;
+}
