@@ -208,12 +208,18 @@ body:has(._2yAm5LY_eu-Vg_52l0HFlM, .DesktopUI .PP7LM0Ow1K5qkR8WElLpt) ._2AzIX5kl
 }
 
 /* Community */
+.btn_grey_white_innerfade,
 .btnv6_blue_hoverfade,
+.btn_darkblue_white_innerfade,
 .account_manage_link {
     border-radius: var(--corner-radius-full) !important;
-    padding: 6px 12px !important;
+    padding: 5px 10px !important;
 }
 a.item_market_action_button {
     border-radius: var(--corner-radius-full) !important;
-    padding: 4px 8px !important;
+    padding: 3px 7px !important;
+}
+.btn_grey_white_innerfade > span,
+.btn_darkblue_white_innerfade > span {
+    background: unset !important;
 }

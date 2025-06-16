@@ -4,7 +4,7 @@
 ._3S6c8sJBYgCcCWf9JGDkOu ._3C1UCvuAZ2oINYSTpUPD04, /* Console */
 .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ, /* Root Game Actions (Library) */
 ._1bIMOmWaxKrMdVMWU21ku, /* Root Game Actions More Btn (Library) */
-._1HS4twEHtDJ_8MWgJT4VBd._3-M9bcTzYOSRoajtIRDbka /* Hidden Game */ {
+._1HS4twEHtDJ_8MWgJT4VBd._3-M9bcTzYOSRoajtIRDbka /* Hidden Game */{
     border-radius: var(--corner-radius-small);
     border-width: 1px;
     border-style: solid;
@@ -16,4 +16,13 @@
 ._1bIMOmWaxKrMdVMWU21ku /* More Btn */ {
     padding-left: 4px;
     padding-right: 4px;
+}
+
+body.v6 .deep_dive_tag,
+.tab_preview .tags > a,
+.app_tag {
+    border-radius: var(--corner-radius-extra-small) !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    /* padding: 4px 8px !important; */
 }

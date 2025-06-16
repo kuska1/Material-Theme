@@ -1,0 +1,3 @@
+.item_market_action_button_edit:hover > span, .item_market_action_button_edit .item_market_action_button_preload {
+    background: unset !important;
+}

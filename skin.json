@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "A theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.1.3",
+    "version": "1.1.4",
     "header_image": "https://github.com/kuska1/Material-Theme/blob/main/.github/banner.jpg?raw=true",
     "splash_image": "https://github.com/kuska1/Material-Theme/blob/main/.github/banner.jpg?raw=true",
 
@@ -671,6 +671,19 @@
                 "yes": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/extra/reorder/modalButtons.css"
+                    }
+                }
+            }
+        },
+        "Use Experimental Features": {
+            "description": "Enable experimental features. May cause issues. Feel free to report them on GitHub. Currently affects community/powered steam pages.",
+            "default": "no",
+            "tab": "Extra",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "experimental.css"
                     }
                 }
             }

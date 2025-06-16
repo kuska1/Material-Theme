@@ -9,6 +9,7 @@
     padding: 10px 0px 10px 16px !important;
 }
 /* Right */
+.account_setting_block_short,
 .account .page_header_ctn, .account_preferences .page_header_ctn {
     background: unset !important;
 }

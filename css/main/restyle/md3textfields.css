@@ -12,7 +12,7 @@
     border-bottom-left-radius: var(--corner-radius-none) !important;
     border-bottom-right-radius: var(--corner-radius-none) !important;
     border-bottom-width: 2px !important;
-    border-bottom-style: solid !important;
+    border-bottom-style: solid;
     font-family: unset;
 }
 .DialogTextInputBase:not(:disabled):hover {

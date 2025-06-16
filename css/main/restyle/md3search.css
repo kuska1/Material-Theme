@@ -4,3 +4,12 @@
 ._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase {
     border-radius: var(--corner-radius-full);
 }
+
+
+.filter_ctn.inventory_filters #filter_control {
+    border: unset !important;
+    outline: unset !important;
+    box-shadow: unset !important;
+    border-radius: var(--corner-radius-full) !important;
+    padding: 4px 8px !important;
+}

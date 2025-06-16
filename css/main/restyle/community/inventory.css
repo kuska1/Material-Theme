@@ -1,3 +1,4 @@
+.error_ctn,
 .inventory_load_error,
 #tabcontent_inventory {
     border: unset !important;
@@ -29,4 +30,18 @@
 .item_market_action_button_green > span,
 .item_market_action_button_green:hover > span, .item_market_action_button_green .item_market_action_button_preload {
     background: unset !important;
+}
+#empty_filtered_inventory_page {
+    border: unset !important;
+    border-radius: var(--corner-radius-medium) !important;
+}
+.filter_label {
+    display: none !important;
+}
+.filter_ctn.inventory_filters #filter_control {
+    width: 340% !important;
+}
+.filter_ctn.inventory_filters .filter_tag_button_ctn {
+    float: right !important;
+    margin-right: 24px !important;
 }

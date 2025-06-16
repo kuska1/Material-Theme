@@ -1,3 +1,7 @@
 .popup_body.search_v2 .match.match_creator.match_v2 .match_img {
     background: unset !important;
 }
+
+body.v6 .deep_dive_key_tags {
+    height: unset !important;
+}

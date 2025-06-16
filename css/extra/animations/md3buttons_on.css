@@ -4,7 +4,10 @@ button.DialogButton, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, button.DialogBut
 ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg,
 ._2foCkpRXhqq0UGVE50BWqj, .ip-YZhijAMZcuRoXBGiye, ._1TdaAqMFadi0UTqilrkelR,
 .HijmccPB1BKyhOwhX1EVl, .HijmccPB1BKyhOwhX1EVl::after,
-._1J21tLst5SEhBPkVRT53UV div, ._1J21tLst5SEhBPkVRT53UV {
+._1J21tLst5SEhBPkVRT53UV div, ._1J21tLst5SEhBPkVRT53UV,
+.btn_grey_white_innerfade,
+.btnv6_blue_hoverfade,
+.account_manage_link {
     transition: 
         all 350ms var(--animation-expressive-fast-spatial),
         color 150ms var(--animation-expressive-fast-effects),

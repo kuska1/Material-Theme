@@ -1,0 +1,12 @@
+#footer {
+    background-color: unset !important;
+}
+#footer .footer_content {
+    padding-bottom: 4px !important;
+}
+body.v6 #footer .rule {
+    display: none !important;
+}
+body.v6 #footer .valve_links *:not(a) {
+    display: none !important;
+}
