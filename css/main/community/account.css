@@ -17,7 +17,7 @@
 .two_column.right header /* Plugins Support / SteamDB */ {
     border-top-left-radius: var(--corner-radius-medium);
     border-top-right-radius: var(--corner-radius-medium);
-    padding: 6px 0px 0px 12px !important;
+    padding: 9px 0px 0px 15px !important;
 }
 .account_setting_block,
 .account_settings_container,
@@ -35,7 +35,14 @@ section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
 }
 .lat0M-V5X4uYd6Mpm1DJ1 ._3huyZ7Eoy2bX4PbCnH3p5w,
 .lat0M-V5X4uYd6Mpm1DJ1 ._3zQ9hnkyXJEv7nN0oBU56M,
-.lat0M-V5X4uYd6Mpm1DJ1 ._2EuR68sQbA8eP01DlIfu6O ._3XCnc4SuTz8V8-jXVwkt_s {
+.lat0M-V5X4uYd6Mpm1DJ1 ._2EuR68sQbA8eP01DlIfu6O ._3XCnc4SuTz8V8-jXVwkt_s,
+.BblQleWhhGVHu1TTaGdBI,
+.-haW8HUYitKrzvsXQj_y6,
+._173r5KvavKBUk01FwZftvC,
+._3EYcq6Ow2WM7bGuzWyQRMN,
+.YPn6VOod44mu0w34xdzDC,
+._24o8cEsvGK0bE4hHyUGhfh,
+._25H3qBQ1Lfsfq8nwc3M0Fk .DialogToggleField._DialogInputContainer {
     border-radius: var(--corner-radius-medium) !important;
 }
 ._1gzkmmy_XA39rp9MtxJfZJ {
@@ -60,6 +67,12 @@ section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
 section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
     margin-bottom: 12px !important;
 }
+.BblQleWhhGVHu1TTaGdBI {
+    margin-bottom: 8px !important;
+}
+._173r5KvavKBUk01FwZftvC._2eItHkwsCAtMw7E-EF_YG_ ._3o3paJd8GOTYKXh7Rd3Br8 {
+    border-radius: var(--corner-radius-extra-small) !important;
+}
 /* Augement Steam Restyle */
 #options .page.svelte-isyz6n {
     width: 100% !important;
@@ -70,4 +83,43 @@ section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
 #options .sidebar__group.svelte-rnm70t.svelte-rnm70t {
     display: flex !important;
     flex-direction: row !important;
+}
+
+/* Security */
+._366kraIS4n5agiJpxnOSL2 ._2h6gzZPnXmr8pFVxduqp_k ._2-E69gxiszxb3lmuoV7yYi {
+    line-height: unset !important;
+}
+._2h6gzZPnXmr8pFVxduqp_k ._2-E69gxiszxb3lmuoV7yYi svg {
+    margin-top: unset !important;
+    scale: 1.25 !important;
+}
+._173r5KvavKBUk01FwZftvC ._3fcDKsMFeSrukc_lptL5k6 ._366kraIS4n5agiJpxnOSL2 button.DialogButton {
+    box-shadow: unset !important;
+}
+
+/* Cookies */
+.DialogToggleField_Option:not(.Active) {
+    position: absolute !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+.DialogToggleField_Control {
+    background: unset !important;
+    align-self: center !important;
+}
+.DialogToggleField_Option.On,
+.DialogToggleField_Option.Off.Active {
+    border-radius: var(--corner-radius-full);
+}
+.DialogToggleField_Option.Off,
+.DialogToggleField_Option.On.Active {
+    border-radius: var(--corner-radius-small);
+}
+.DialogToggleField_Option:has(.On.Active) .DialogToggleField_Option.Off,
+.DialogToggleField_Option:has(.Off.Active) .DialogToggleField_Option.On, 
+.DialogToggleField_Option:hover {
+    border-radius: var(--corner-radius-extra-small) !important;
+}
+._24Y_0sMrz5EywcAsFUstI1._3OVHZhM_IefZqAOIsPxatj {
+    border-radius: var(--corner-radius-small) !important;
 }

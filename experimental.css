@@ -1,8 +1,8 @@
-@import url("css/main/restyle/community/store.css");
-@import url("css/main/restyle/community/market.css");
-@import url("css/main/restyle/community/inventory.css");
-@import url("css/main/restyle/community/account.css");
-@import url("css/main/restyle/community/footer.css");
+@import url("css/main/community/store.css");
+@import url("css/main/community/market.css");
+@import url("css/main/community/inventory.css");
+@import url("css/main/community/account.css");
+@import url("css/main/community/footer.css");
 
 
 /* Test Recolor */
@@ -12,8 +12,10 @@ body,
 body.v6 {
     background: var(--md-sys-color-surface) !important;
 }
+body.v6 .account_settings_container h2,
 body.v6 h2.pageheader {
     color: var(--md-sys-color-on-surface) !important;
+    text-shadow: unset !important;
 }
 .breadcrumbs {
     color: var(--md-sys-color-on-surface-variant) !important;
@@ -32,7 +34,9 @@ body.v6 h2.pageheader {
 .btnv6_blue_hoverfade,
 .account_manage_link,
 .btn_darkblue_white_innerfade,
-a.item_market_action_button {
+a.item_market_action_button,
+._9fMwjaiixbDViVPurFAa4,
+._24Y_0sMrz5EywcAsFUstI1 {
     color: var(--md-sys-color-on-primary) !important;
     background: var(--md-sys-color-primary) !important;
 }
@@ -45,26 +49,33 @@ a.item_market_action_button:hover .item_market_action_button_contents,
 .btnv6_blue_hoverfade:hover,
 .account_manage_link:hover,
 .btn_darkblue_white_innerfade:hover,
-a.item_market_action_button:hover {
+a.item_market_action_button:hover,
+._9fMwjaiixbDViVPurFAa4:hover,
+._24Y_0sMrz5EywcAsFUstI1:hover {
     color: var(--md-sys-color-on-primary) !important;
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover)) !important;
 }
 .btnv6_blue_hoverfade:active,
 .account_manage_link:active,
 .btn_darkblue_white_innerfade:active,
-a.item_market_action_button:active {
+a.item_market_action_button:active,
+._9fMwjaiixbDViVPurFAa4:active,
+._24Y_0sMrz5EywcAsFUstI1:active {
     color: var(--md-sys-color-on-primary) !important;
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active)) !important;
 }
-.account_setting_sub_block_long:has(.account_manage_link.delete_link) .account_manage_link {
+.account_setting_sub_block_long:has(.account_manage_link.delete_link) .account_manage_link,
+._2mir-ym1kKS06jV0W7mtUx ._3EYcq6Ow2WM7bGuzWyQRMN button.DialogButton {
     color: var(--md-sys-color-on-error) !important;
     background: var(--md-sys-color-error) !important;
 }
-.account_setting_sub_block_long:has(.account_manage_link.delete_link) .account_manage_link:hover {
+.account_setting_sub_block_long:has(.account_manage_link.delete_link) .account_manage_link:hover,
+._2mir-ym1kKS06jV0W7mtUx ._3EYcq6Ow2WM7bGuzWyQRMN button.DialogButton:hover {
     color: var(--md-sys-color-on-error) !important;
     background: color-mix(in srgb, var(--md-sys-color-error), var(--md-sys-color-on-error) var(--layer-action-hover)) !important;
 }
-.account_setting_sub_block_long:has(.account_manage_link.delete_link) .account_manage_link:active {
+.account_setting_sub_block_long:has(.account_manage_link.delete_link) .account_manage_link:active,
+._2mir-ym1kKS06jV0W7mtUx ._3EYcq6Ow2WM7bGuzWyQRMN button.DialogButton:active {
     color: var(--md-sys-color-on-error) !important;
     background: color-mix(in srgb, var(--md-sys-color-error), var(--md-sys-color-on-error) var(--layer-action-active)) !important;
 }
@@ -80,6 +91,24 @@ a.item_market_action_button:active {
 }
 .btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):active {
     background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active)) !important;
+}
+._20DWPovgBZty81RwR7w9KW div:not([class]) a.Focusable:not(._9fMwjaiixbDViVPurFAa4),
+._3tH8spjqRz_Z6mmB4uWK-m a {
+    color: var(--md-sys-color-primary) !important;
+}
+._20DWPovgBZty81RwR7w9KW div:not([class]) a.Focusable:not(._9fMwjaiixbDViVPurFAa4):hover,
+._3tH8spjqRz_Z6mmB4uWK-m a:hover {
+    color: var(--md-sys-color-on-surface) !important;
+}
+.DialogToggleField_Option.On,
+.DialogToggleField_Option.Off.Active {
+    color: var(--md-sys-color-on-surface-variant) !important;
+    background: var(--md-sys-color-surface-container) !important;
+}
+.DialogToggleField_Option.Off,
+.DialogToggleField_Option.On.Active {
+    color: var(--md-sys-color-on-primary) !important;
+    background: var(--md-sys-color-primary) !important;
 }
 /* -- ACCOUNT DETAILS -- */
 /* For Security Purposes */
@@ -146,12 +175,16 @@ section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
     background: var(--md-sys-color-surface-container) !important;
 }
 .accountRow.accountBalance,
-.account_data_field,
 .accountData.price a {
     color: var(--md-sys-color-primary) !important;
 }
-.account_setting_sub_block {
+.account_setting_sub_block,
+.W8esOSj_nvqyHTDxmGb2D {
     color: var(--md-sys-color-outline) !important;
+}
+.account_data_field,
+.aSLHKQsd5_tpAOdPgV5W1 {
+    color: var(--md-sys-color-on-surface) !important;
 }
 .account_setting_sub_block_long:has(.account_manage_link.delete_link),
 .two_column.right:has(#options) > div:not([class]):not([id])  /* Plugins Support / Augmented Steam */ {
@@ -176,16 +209,106 @@ section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
 .two_column.right footer .built-in-checkboxes /* Plugins Support / SteamDB */ {
     color: var(--md-sys-color-outline) !important;
 }
+/* Account Security */
+.aR0IvXuy6BAh7MauaSs5j {
+    color: var(--md-sys-color-on-surface) !important;
+}
+.BblQleWhhGVHu1TTaGdBI {
+    color: var(--md-sys-color-on-tertiary-container) !important;
+    background: var(--md-sys-color-tertiary-container) !important;
+}
+.-haW8HUYitKrzvsXQj_y6,
+._173r5KvavKBUk01FwZftvC._2eItHkwsCAtMw7E-EF_YG_ {
+    color: var(--md-sys-color-on-primary-container) !important;
+    background: var(--md-sys-color-primary-container) !important;
+}
+._173r5KvavKBUk01FwZftvC ._3fcDKsMFeSrukc_lptL5k6 ._366kraIS4n5agiJpxnOSL2 ._2thyM-IiBuBfn44nW5anSY .e-cYNmgoRYobtL32PBDvh {
+    color: var(--md-sys-color-on-surface-variant) !important;
+}
+ .-haW8HUYitKrzvsXQj_y6 .e-cYNmgoRYobtL32PBDvh,
+ ._173r5KvavKBUk01FwZftvC._2eItHkwsCAtMw7E-EF_YG_ .e-cYNmgoRYobtL32PBDvh {
+    color: var(--md-sys-color-on-primary-container) !important;
+ }
+.-haW8HUYitKrzvsXQj_y6 ._2DEfsEp7B2EWcj-wsoNnhc {
+    border-color: var(--md-sys-color-outline) !important;
+}
+._173r5KvavKBUk01FwZftvC._2eItHkwsCAtMw7E-EF_YG_ ._3u6D3tBNr6Pd8scEAu0WHh {
+    color: var(--md-sys-color-on-primary-container) !important;
+}
+._173r5KvavKBUk01FwZftvC {
+    color: var(--md-sys-color-on-surface-variant) !important;
+    background: var(--md-sys-color-surface-variant) !important;
+}
+._3u6D3tBNr6Pd8scEAu0WHh {
+    color: var(--md-sys-color-on-surface-variant) !important;
+    fill: var(--md-sys-color-on-surface-variant) !important;
+}
+.-haW8HUYitKrzvsXQj_y6 ._173r5KvavKBUk01FwZftvC {
+    background: unset !important;
+}
+._173r5KvavKBUk01FwZftvC ._2Q1XRSo_YDuNplXJSPKtsq ._10WUgZtyhPN8XWybruXSY9, ._173r5KvavKBUk01FwZftvC ._2Q1XRSo_YDuNplXJSPKtsq ._10WUgZtyhPN8XWybruXSY9 a {
+    color: var(--md-sys-color-on-error-container) !important;
+}
+._173r5KvavKBUk01FwZftvC ._2Q1XRSo_YDuNplXJSPKtsq .CKNbt1mIaNAep7MwHG6eX {
+    color: var(--md-sys-color-outline) !important;
+}
+._3EYcq6Ow2WM7bGuzWyQRMN {
+    color: var(--md-sys-color-on-error-container) !important;
+    background: var(--md-sys-color-error-container) !important;
+}
+._173r5KvavKBUk01FwZftvC._2eItHkwsCAtMw7E-EF_YG_ ._3o3paJd8GOTYKXh7Rd3Br8 {
+    color: var(--md-sys-color-on-primary) !important;
+    background: var(--md-sys-color-primary) !important;
+}
+.aR0IvXuy6BAh7MauaSs5j ._2sNYH7uxn-CGdZCk4lGMAg {
+    color: var(--md-sys-color-primary) !important;
+}
+._173r5KvavKBUk01FwZftvC ._3fcDKsMFeSrukc_lptL5k6 ._366kraIS4n5agiJpxnOSL2 button.DialogButton {
+    color: var(--md-sys-color-primary) !important;
+    background: transparent !important;
+}
+.BblQleWhhGVHu1TTaGdBI ._2kFtGHlyLy724EB-HfKU6P a {
+    color: var(--md-sys-color-on-tertiary-container) !important;
+}
+.BblQleWhhGVHu1TTaGdBI ._2kFtGHlyLy724EB-HfKU6P a:hover {
+    color: var(--md-sys-color-error) !important;
+}
+/* Cookies */
+.YPn6VOod44mu0w34xdzDC {
+    color: var(--md-sys-color-on-primary-container) !important;
+    background: var(--md-sys-color-primary-container) !important;
+}
+._24o8cEsvGK0bE4hHyUGhfh,
+._25H3qBQ1Lfsfq8nwc3M0Fk .DialogToggleField._DialogInputContainer {
+    color: var(--md-sys-color-on-surface-variant) !important;
+    background: var(--md-sys-color-surface-variant) !important;
+}
+._3if8ZNUUN7eSTxlCJbdgav {
+    color: var(--md-sys-color-on-surface-variant) !important;
+}
+.DialogToggle_Description,
+._9NmWi9VzZyFLjcu_GW_70 {
+    color: var(--md-sys-color-outline) !important;
+}
+.DialogToggle_Description a {
+    color: var(--md-sys-color-primary) !important;
+}
+.DialogToggle_Description a:hover {
+    color: var(--md-sys-color-on-surface) !important;
+}
 /* -- INVENTORY -- */
 .error_ctn,
+.fraud_warning_box,
 .inventory_load_error {
     background: var(--md-sys-color-error-container) !important;
 }
+.fraud_warning,
 .inventory_load_error_header .message {
     color: var(--md-sys-color-on-error-container) !important;
 }
 .trade_item_box,
 .inventory_iteminfo .item_desc_content,
+.item_scrap_actions,
 .trade_item_box .item, .market_dialog_contents .item,
 .item_market_actions, .steamdb_quick_sell {
     background: var(--md-sys-color-surface) !important;
@@ -207,11 +330,15 @@ section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
 .view_inventory_page #inventories {
     background: transparent !important;
 }
+.item_market_actions,
 .filter_label, .filter_control_ctn {
     color: var(--md-sys-color-outline) !important;
 }
 .inventory_msg_content {
     color: var(--md-sys-color-on-surface) !important;
+}
+.item_market_actions a, .whiteLink {
+    color: var(--md-sys-color-primary)
 }
 /* -- STORE -- */
 body.v6 .deep_dive_tag,

@@ -6,7 +6,8 @@
     transition: var(--animation-basic-slow);
 }
 
-._1u5y7VbwvOwncjMsMqnFUz {
+._1u5y7VbwvOwncjMsMqnFUz,
+.Zq-YGng4xfhI7CCwSN6UF {
     animation:
         cardAnim 750ms var(--animation-standart-slow-spatial);
     transform-origin: top;
@@ -16,7 +17,10 @@
     0% {
         max-height: 0px;
     }
+    99% {
+        max-height: 150px;
+    }
     100% {
-        max-height: 500px;
+        max-height: unset;
     }
 }

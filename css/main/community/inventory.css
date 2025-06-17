@@ -1,5 +1,6 @@
 .error_ctn,
 .inventory_load_error,
+.fraud_warning_box,
 #tabcontent_inventory {
     border: unset !important;
     border-radius: var(--corner-radius-medium) !important;
@@ -44,4 +45,7 @@
 .filter_ctn.inventory_filters .filter_tag_button_ctn {
     float: right !important;
     margin-right: 24px !important;
+}
+.fraud_warning_box:not(:last-child) {
+    margin-bottom: 8px !important;
 }

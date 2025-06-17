@@ -211,9 +211,16 @@ body:has(._2yAm5LY_eu-Vg_52l0HFlM, .DesktopUI .PP7LM0Ow1K5qkR8WElLpt) ._2AzIX5kl
 .btn_grey_white_innerfade,
 .btnv6_blue_hoverfade,
 .btn_darkblue_white_innerfade,
-.account_manage_link {
+.account_manage_link,
+._3EYcq6Ow2WM7bGuzWyQRMN button.DialogButton,
+._9fMwjaiixbDViVPurFAa4,
+._24Y_0sMrz5EywcAsFUstI1 {
     border-radius: var(--corner-radius-full) !important;
-    padding: 5px 10px !important;
+    /* padding: 5px 10px !important; */
+    box-shadow: unset !important;
+}
+button.DialogButton:hover::before {
+    display: none !important;
 }
 a.item_market_action_button {
     border-radius: var(--corner-radius-full) !important;
