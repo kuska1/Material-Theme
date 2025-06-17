@@ -42,8 +42,21 @@ section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
 ._3EYcq6Ow2WM7bGuzWyQRMN,
 .YPn6VOod44mu0w34xdzDC,
 ._24o8cEsvGK0bE4hHyUGhfh,
-._25H3qBQ1Lfsfq8nwc3M0Fk .DialogToggleField._DialogInputContainer {
+._25H3qBQ1Lfsfq8nwc3M0Fk .DialogToggleField._DialogInputContainer,
+._3Sbby9pYJeX9b2Dcjx1Gbc {
     border-radius: var(--corner-radius-medium) !important;
+}
+._1_kCY5Jc71QX_9j4Q7brk:has(._152HTE3xZ88Xk7LEEPFE68) ._3Sbby9pYJeX9b2Dcjx1Gbc {
+    border-bottom-left-radius: unset !important;
+    border-bottom-right-radius: unset !important;
+}
+._152HTE3xZ88Xk7LEEPFE68 {
+    border-bottom-left-radius: var(--corner-radius-medium) !important;
+    border-bottom-right-radius: var(--corner-radius-medium) !important;
+    box-shadow: unset !important;
+}
+.account_settings_container p {
+    margin: auto !important;
 }
 ._1gzkmmy_XA39rp9MtxJfZJ {
     border-radius: var(--corner-radius-small) !important;
@@ -117,9 +130,36 @@ section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
 }
 .DialogToggleField_Option:has(.On.Active) .DialogToggleField_Option.Off,
 .DialogToggleField_Option:has(.Off.Active) .DialogToggleField_Option.On, 
-.DialogToggleField_Option:hover {
+.DialogToggleField_Option:active {
     border-radius: var(--corner-radius-extra-small) !important;
 }
 ._24Y_0sMrz5EywcAsFUstI1._3OVHZhM_IefZqAOIsPxatj {
     border-radius: var(--corner-radius-small) !important;
+}
+/* Store */
+.text_filter_toggle_icon {
+    display: none !important;
+}
+/* Notifications */
+._3Sbby9pYJeX9b2Dcjx1Gbc button.DialogButton,
+._3Qa1urRRWR4tjkBSNaO8Wi._3Qa1urRRWR4tjkBSNaO8Wi {
+    border-radius: var(--corner-radius-full) !important;
+    box-shadow: unset !important;
+    scale: 0.8 !important;
+}
+/* Family */
+._3lJb_YN8uykqLcm4eG1jRF {
+    border-bottom-width: 2px !important;
+}
+._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._21tUbooOHqAFZy0hfNkcnb {
+    border-radius: var(--corner-radius-small) !important;
+}
+._1uN1cZ9U62K-VgLto02fC3 {
+    justify-content: space-between !important;
+}
+._24xN9g6I0FudAHqb3lnrNP {
+    order: 2 !important;
+}
+._1uN1cZ9U62K-VgLto02fC3 ._2wXQTbH2iavMx1sFDH_Xpn {
+    order: 1 !important;
 }

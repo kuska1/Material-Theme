@@ -99,7 +99,7 @@ html.client_chat_frame body, /* Fix */
 }
 /* Family Text / Adult & Child */
 ._3C9nRrwzQk9qHlJx6NaXDI /* Text */ {
-    color: var(--md-sys-color-on-surface);
+    color: var(--md-sys-color-on-surface) !important;
 }
 ._1uvKF_UbD6VhnVdaRkXhbu svg path /* Icon */ {
     color: var(--md-sys-color-on-surface);
@@ -164,41 +164,42 @@ html.client_chat_frame body, /* Fix */
 } */
 /* Off */
 ._2bl0iQ9xigbq4Zd1NI6NZl /* Track */ {
-    background: var(--md-sys-color-surface-container-highest);
+    background: var(--md-sys-color-surface-container-highest) !important;
 }
 ._1PQppcgkuXQAiFPar9AGi- /* Handle */ {
-    background: var(--md-sys-color-outline);
+    background: var(--md-sys-color-outline) !important;
 }
 ._9Ql-oVe_j8E-vsDdyVdWo:not(.aIeh3X5T2M074RLW1qn6_):hover ._2bl0iQ9xigbq4Zd1NI6NZl /* Track Hover */ {
-    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--scheme-color-inverse) var(--layer-action-hover));
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--scheme-color-inverse) var(--layer-action-hover)) !important;
 }
 /* Card Fix */
-._2KFeE_s51aT07ohdMu_ZH1 ._2bl0iQ9xigbq4Zd1NI6NZl {
-    background: var(--md-sys-color-surface-container);
+._2KFeE_s51aT07ohdMu_ZH1 ._2bl0iQ9xigbq4Zd1NI6NZl,
+._3Sbby9pYJeX9b2Dcjx1Gbc ._2bl0iQ9xigbq4Zd1NI6NZl {
+    background: var(--md-sys-color-surface-container) !important;
 }
 /* On */
 ._2bl0iQ9xigbq4Zd1NI6NZl::before /* Track */ {
-    background: var(--md-sys-color-primary);
+    background: var(--md-sys-color-primary) !important;
 }
 ._9Ql-oVe_j8E-vsDdyVdWo.yLrDAetGoWx0GYqA6ShfS:not(.aIeh3X5T2M074RLW1qn6_).Focusable ._1PQppcgkuXQAiFPar9AGi- /* Handle */ {
-    background: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-on-primary) !important;
 }
 ._9Ql-oVe_j8E-vsDdyVdWo:not(.aIeh3X5T2M074RLW1qn6_):hover ._2bl0iQ9xigbq4Zd1NI6NZl::before /* Track Hover */ {
-    background: color-mix(in srgb, var(--md-sys-color-primary), var(--scheme-color-inverse) var(--layer-action-hover));
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--scheme-color-inverse) var(--layer-action-hover)) !important;
 }
 /* Disabled */
 ._9Ql-oVe_j8E-vsDdyVdWo.aIeh3X5T2M074RLW1qn6_ ._2bl0iQ9xigbq4Zd1NI6NZl /* Track Off */ {
-    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--scheme-color) var(--layer-action-disabled));
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--scheme-color) var(--layer-action-disabled)) !important;
 }
 ._9Ql-oVe_j8E-vsDdyVdWo.aIeh3X5T2M074RLW1qn6_ ._1PQppcgkuXQAiFPar9AGi- /* Handle Off */ {
-    background: color-mix(in srgb, var(--md-sys-color-on-surface), var(--scheme-color) 50%);
+    background: color-mix(in srgb, var(--md-sys-color-on-surface), var(--scheme-color) 50%) !important;
 }
 
 ._9Ql-oVe_j8E-vsDdyVdWo.aIeh3X5T2M074RLW1qn6_ ._2bl0iQ9xigbq4Zd1NI6NZl::before /* Track On */ {
     background: color-mix(in srgb, var(--md-sys-color-on-surface), var(--scheme-color) 50%) !important;
 }
 ._9Ql-oVe_j8E-vsDdyVdWo.yLrDAetGoWx0GYqA6ShfS.aIeh3X5T2M074RLW1qn6_ ._1PQppcgkuXQAiFPar9AGi- /* Handle On */ {
-    background: color-mix(in srgb, var(--md-sys-color-surface), var(--scheme-color) 50%);
+    background: color-mix(in srgb, var(--md-sys-color-surface), var(--scheme-color) 50%) !important;
 }
 
 /* --- SLIDER --- */
@@ -444,10 +445,10 @@ button.DialogButton.Disabled:hover /* Basic */ {
 
 /* Family */
 ._2LyGIHuQ8SFKb5T262YUvg {
-    background-color: var(--md-sys-color-surface-container-highest);
+    background-color: var(--md-sys-color-surface-container-highest) !important;
 }
 ._2LyGIHuQ8SFKb5T262YUvg:has(._2oSTSohQ1CZIgVn7E6_0Ft:hover) {
-    background-color: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-hover));
+    background-color: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-hover)) !important;
 }
 /* Millenium */
 .millenniumPluginField {
@@ -518,11 +519,13 @@ button.DialogButton.Disabled:hover /* Basic */ {
     color: var(--md-sys-color-on-surface);
 }
 /* Community */
-.filter_ctn.inventory_filters #filter_control {
+.filter_ctn.inventory_filters #filter_control,
+._2wXQTbH2iavMx1sFDH_Xpn ._29VTx5sjP43UH8k1twOUgE {
     color: var(--md-sys-color-on-surface) !important;
-    background: var(--md-sys-color-surface-container-high) !important;
+    background: var(--md-sys-color-surface-container-highest) !important;
 }
-.filter_ctn.inventory_filters #filter_control::placeholder {
+.filter_ctn.inventory_filters #filter_control::placeholder,
+._2wXQTbH2iavMx1sFDH_Xpn ._29VTx5sjP43UH8k1twOUgE::placeholder {
     color: var(--md-sys-color-outline) !important;
 }
 

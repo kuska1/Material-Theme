@@ -34,62 +34,84 @@ body.v6 h2.pageheader {
 .btnv6_blue_hoverfade,
 .account_manage_link,
 .btn_darkblue_white_innerfade,
+.btn_green_white_innerfade,
 a.item_market_action_button,
 ._9fMwjaiixbDViVPurFAa4,
-._24Y_0sMrz5EywcAsFUstI1 {
+._24Y_0sMrz5EywcAsFUstI1,
+._1K1x9myo7Kli0IP_plaz9D .wFnzmCfVh6fa9BMDuwy7J,
+._35BlnGUYkm2MwN318q0gZU ._2UOyb8dGbKlL6QDQiqYFoc,
+._3HBvbSDPYGc6K_O32LovGq ._12md3Zc1vL6ogBUmI1k4Jh ._2R8KFsdzOosYGjDF6ahgMK {
     color: var(--md-sys-color-on-primary) !important;
     background: var(--md-sys-color-primary) !important;
 }
 a.item_market_action_button:hover .item_market_action_button_contents,
 .item_market_action_button_edit:hover > span, .item_market_action_button_edit .item_market_action_button_preload,
 .btnv6_blue_hoverfade > span,
-.btn_darkblue_white_innerfade > span {
+.btn_darkblue_white_innerfade > span,
+.btn_green_white_innerfade > span {
     color: var(--md-sys-color-on-primary) !important;
 }
 .btnv6_blue_hoverfade:hover,
 .account_manage_link:hover,
 .btn_darkblue_white_innerfade:hover,
+.btn_green_white_innerfade:hover,
 a.item_market_action_button:hover,
 ._9fMwjaiixbDViVPurFAa4:hover,
-._24Y_0sMrz5EywcAsFUstI1:hover {
+._24Y_0sMrz5EywcAsFUstI1:hover,
+._1K1x9myo7Kli0IP_plaz9D .wFnzmCfVh6fa9BMDuwy7J:hover,
+._35BlnGUYkm2MwN318q0gZU ._2UOyb8dGbKlL6QDQiqYFoc:hover,
+._3HBvbSDPYGc6K_O32LovGq ._12md3Zc1vL6ogBUmI1k4Jh ._2R8KFsdzOosYGjDF6ahgMK:hover {
     color: var(--md-sys-color-on-primary) !important;
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover)) !important;
 }
 .btnv6_blue_hoverfade:active,
 .account_manage_link:active,
 .btn_darkblue_white_innerfade:active,
+.btn_green_white_innerfade:active,
 a.item_market_action_button:active,
 ._9fMwjaiixbDViVPurFAa4:active,
-._24Y_0sMrz5EywcAsFUstI1:active {
+._24Y_0sMrz5EywcAsFUstI1:active,
+._1K1x9myo7Kli0IP_plaz9D .wFnzmCfVh6fa9BMDuwy7J:active,
+._35BlnGUYkm2MwN318q0gZU ._2UOyb8dGbKlL6QDQiqYFoc:active,
+._3HBvbSDPYGc6K_O32LovGq ._12md3Zc1vL6ogBUmI1k4Jh ._2R8KFsdzOosYGjDF6ahgMK:active {
     color: var(--md-sys-color-on-primary) !important;
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active)) !important;
 }
 .account_setting_sub_block_long:has(.account_manage_link.delete_link) .account_manage_link,
-._2mir-ym1kKS06jV0W7mtUx ._3EYcq6Ow2WM7bGuzWyQRMN button.DialogButton {
+._2mir-ym1kKS06jV0W7mtUx ._3EYcq6Ow2WM7bGuzWyQRMN button.DialogButton,
+._1K1x9myo7Kli0IP_plaz9D .vDtJqUVxjZtCpsN9muEoX {
     color: var(--md-sys-color-on-error) !important;
     background: var(--md-sys-color-error) !important;
 }
+._1K1x9myo7Kli0IP_plaz9D .vDtJqUVxjZtCpsN9muEoX svg {
+    fill: var(--md-sys-color-on-error) !important;
+}
 .account_setting_sub_block_long:has(.account_manage_link.delete_link) .account_manage_link:hover,
-._2mir-ym1kKS06jV0W7mtUx ._3EYcq6Ow2WM7bGuzWyQRMN button.DialogButton:hover {
+._2mir-ym1kKS06jV0W7mtUx ._3EYcq6Ow2WM7bGuzWyQRMN button.DialogButton:hover,
+._1K1x9myo7Kli0IP_plaz9D .vDtJqUVxjZtCpsN9muEoX:hover {
     color: var(--md-sys-color-on-error) !important;
     background: color-mix(in srgb, var(--md-sys-color-error), var(--md-sys-color-on-error) var(--layer-action-hover)) !important;
 }
 .account_setting_sub_block_long:has(.account_manage_link.delete_link) .account_manage_link:active,
-._2mir-ym1kKS06jV0W7mtUx ._3EYcq6Ow2WM7bGuzWyQRMN button.DialogButton:active {
+._2mir-ym1kKS06jV0W7mtUx ._3EYcq6Ow2WM7bGuzWyQRMN button.DialogButton:active,
+._1K1x9myo7Kli0IP_plaz9D .vDtJqUVxjZtCpsN9muEoX:active {
     color: var(--md-sys-color-on-error) !important;
     background: color-mix(in srgb, var(--md-sys-color-error), var(--md-sys-color-on-error) var(--layer-action-active)) !important;
 }
-.btn_grey_white_innerfade {
+.btn_grey_white_innerfade,
+.text_filter_action_link, .text_filter_action_link a {
     color: var(--md-sys-color-on-secondary-container) !important;
     background: var(--md-sys-color-secondary-container) !important;
 }
 .btn_grey_white_innerfade > span {
     color: var(--md-sys-color-on-secondary-container) !important;
 }
-.btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+.btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+.text_filter_action_link:hover, .text_filter_action_link:hover a {
     background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover)) !important;
 }
-.btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):active {
+.btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):active,
+.text_filter_action_link:active, .text_filter_action_link:active a {
     background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active)) !important;
 }
 ._20DWPovgBZty81RwR7w9KW div:not([class]) a.Focusable:not(._9fMwjaiixbDViVPurFAa4),
@@ -105,12 +127,23 @@ a.item_market_action_button:active,
     color: var(--md-sys-color-on-surface-variant) !important;
     background: var(--md-sys-color-surface-container) !important;
 }
+.DialogToggleField_Option.Off.Active:hover {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface-variant) var(--layer-action-hover)) !important;
+}
+.DialogToggleField_Option.Off.Active:active {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface-variant) var(--layer-action-active)) !important;
+}
 .DialogToggleField_Option.Off,
 .DialogToggleField_Option.On.Active {
     color: var(--md-sys-color-on-primary) !important;
     background: var(--md-sys-color-primary) !important;
 }
-/* -- ACCOUNT DETAILS -- */
+.DialogToggleField_Option.On.Active:hover {
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover)) !important;
+}
+.DialogToggleField_Option.On.Active:active {
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active)) !important;
+}
 /* For Security Purposes */
 .lat0M-V5X4uYd6Mpm1DJ1 ._2EuR68sQbA8eP01DlIfu6O ._3XCnc4SuTz8V8-jXVwkt_s {
     background: var(--md-sys-color-surface-container);
@@ -164,6 +197,7 @@ a.item_market_action_button:active,
     }
 }
 /* Right */
+/* Account Details */
 .account_header_line,
 .account_setting_block,
 .account_settings_container,
@@ -209,7 +243,71 @@ section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
 .two_column.right footer .built-in-checkboxes /* Plugins Support / SteamDB */ {
     color: var(--md-sys-color-outline) !important;
 }
-/* Account Security */
+/* Store Preferences */
+.account_settings_container label,
+.not_interested_container .description,
+body.v6 .account_settings_container h3 {
+    color: var(--md-sys-color-on-surface) !important;
+}
+.account_setting_parenthetical {
+    color: var(--md-sys-color-outline) !important;
+}
+.account_setting_parenthetical a,
+.account_manage_checkbox a,
+.account_settings_container p a {
+    color: var(--md-sys-color-primary) !important;
+}
+.account_setting_parenthetical a:hover,
+.account_manage_checkbox a:hover,
+.account_settings_container p a:hover {
+    color: var(--md-sys-color-on-surface) !important;
+}
+.not_interested_container {
+    border-color: var(--md-sys-color-outline) !important;
+}
+.not_interested_container .count {
+    color: var(--md-sys-color-primary) !important;
+}
+/* Family Management */
+._1o7lKXffOJjZ_CpH1bHfY- ._1M5eDPxFjv1ByJEK38h5Tu,
+._259TK-AiNNlYVUpyzutBh7,
+._2Fq1ae8YHWoFHZKQRZRJJS ._2SKgwaV-ptKsHUdNFpSDOI {
+    color: var(--md-sys-color-on-surface) !important;
+}
+._3lJb_YN8uykqLcm4eG1jRF {
+    color: var(--md-sys-color-on-surface-variant) !important;
+    border-color: transparent !important;
+}
+._3lJb_YN8uykqLcm4eG1jRF._8XjrTFzaSA8ubHvHCu44L, ._3lJb_YN8uykqLcm4eG1jRF:hover {
+    color: var(--md-sys-color-primary) !important;
+    border-color: var(--md-sys-color-primary) !important;
+}
+._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._21tUbooOHqAFZy0hfNkcnb {
+    color: var(--md-sys-color-primary) !important;
+    background: var(--md-sys-color-secondary-container) !important;
+}
+._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._1X4chbdWPqQwoi2pg7-ebI {
+    color: var(--md-sys-color-primary) !important;
+}
+._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH .o6KnEAuyHthAy8wUoldpD>svg {
+    fill: var(--md-sys-color-on-secondary-container) !important;
+}
+._1t_5IvfyF8aF_tGXLkprpc ._2xRpeEOhZkwE0Gm2T2nIrX ._3G8Ee5GQgCv2RgtSRwZSHB a {
+    color: var(--md-sys-color-primary) !important;
+}
+._1t_5IvfyF8aF_tGXLkprpc ._2xRpeEOhZkwE0Gm2T2nIrX ._3G8Ee5GQgCv2RgtSRwZSHB a:hover {
+    color: var(--md-sys-color-on-surface) !important;
+}
+._2Fq1ae8YHWoFHZKQRZRJJS ._1W5zoA-Qt32wmR4cAQXU4P {
+    border-color: var(--md-sys-color-outline) !important;
+}
+._17sdi2EINuHcyjS90RFKbR a svg {
+    color: var(--md-sys-color-outline) !important;
+}
+._17sdi2EINuHcyjS90RFKbR:hover a svg {
+    color: var(--md-sys-color-on-surface) !important;
+}
+/* Security & Devices */
 .aR0IvXuy6BAh7MauaSs5j {
     color: var(--md-sys-color-on-surface) !important;
 }
@@ -295,6 +393,23 @@ section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
 }
 .DialogToggle_Description a:hover {
     color: var(--md-sys-color-on-surface) !important;
+}
+/* Notifications */
+._3YstFVBT36qZA8FvdzEAF {
+    color: var(--md-sys-color-on-surface) !important;
+}
+._3Sbby9pYJeX9b2Dcjx1Gbc, ._152HTE3xZ88Xk7LEEPFE68 {
+    background: var(--md-sys-color-surface-container-highest) !important;
+}
+._3Sbby9pYJeX9b2Dcjx1Gbc button.DialogButton,
+._3Qa1urRRWR4tjkBSNaO8Wi._3Qa1urRRWR4tjkBSNaO8Wi {
+    color: var(--md-sys-color-on-surface) !important;
+    background: var(--md-sys-color-surface) !important;
+}
+._3Sbby9pYJeX9b2Dcjx1Gbc button.DialogButton:hover,
+._3Qa1urRRWR4tjkBSNaO8Wi._3Qa1urRRWR4tjkBSNaO8Wi:hover {
+    color: var(--md-sys-color-on-surface) !important;
+    background: color-mix(in srgb, var(--md-sys-color-surface), var(--md-sys-color-primary) var(--layer-action-hover)) !important;
 }
 /* -- INVENTORY -- */
 .error_ctn,

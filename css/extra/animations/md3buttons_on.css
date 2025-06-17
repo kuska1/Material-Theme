@@ -8,8 +8,6 @@ button.DialogButton, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, button.DialogBut
 .btn_grey_white_innerfade,
 .btnv6_blue_hoverfade,
 .account_manage_link,
-.DialogToggleField_Option,
-._24Y_0sMrz5EywcAsFUstI1,
 ._9fMwjaiixbDViVPurFAa4 {
     transition: 
         all 350ms var(--animation-expressive-fast-spatial),
@@ -20,7 +18,8 @@ button.DialogButton, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, button.DialogBut
 ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg,
 .DialogControlsSection ._2XSsNSGcWjGZ6z3fvqaRd5._3vgH-W3sYStLJYfV4JgE5b button.DialogButton,
 .DialogControlsSection.RoSh6WoygUX6LLAoB20f3 button.DialogButton,
-.DialogToggleField_Option {
+.DialogToggleField_Option,
+._24Y_0sMrz5EywcAsFUstI1 {
     transition: 
         all 350ms var(--animation-standart-fast-spatial) !important;
 }

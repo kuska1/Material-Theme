@@ -1,16 +1,16 @@
-._7EGqd8bdiXJBd2fj5Hh8r, ._2LyGIHuQ8SFKb5T262YUvg {
-    transition: var(--animation-basic-slow);
-}
-
-.DesktopUI .Oo5JPcEk_erKEYAzYp2n {
-    transition: var(--animation-basic-slow);
+._7EGqd8bdiXJBd2fj5Hh8r, ._2LyGIHuQ8SFKb5T262YUvg,
+.DesktopUI .Oo5JPcEk_erKEYAzYp2n  {
+    transition:
+        all 150ms var(--animation-expressive-fast-effects) !important;
 }
 
 ._1u5y7VbwvOwncjMsMqnFUz,
-.Zq-YGng4xfhI7CCwSN6UF {
+.Zq-YGng4xfhI7CCwSN6UF,
+._152HTE3xZ88Xk7LEEPFE68,
+._1K1x9myo7Kli0IP_plaz9D {
     animation:
-        cardAnim 750ms var(--animation-standart-slow-spatial);
-    transform-origin: top;
+        cardAnim 750ms var(--animation-standart-slow-spatial) !important;
+    transform-origin: top !important;
 }
 
 @keyframes cardAnim {
