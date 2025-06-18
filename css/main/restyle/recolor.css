@@ -675,14 +675,16 @@ button.DialogButton.Disabled:hover /* Basic */ {
 }
 /* Hover */
 .DialogTextInputBase:not(:disabled):hover,
-.lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx:hover {
+.lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx:hover,
+._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._2cXhAZJGVLrDD_TVE6hdwq:hover {
     color: var(--md-sys-color-on-surface);
     background-color: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
     border-bottom-color: var(--md-sys-color-on-surface);
 }
 /* Focus / Active */
 .DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within,
-.lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx:focus-within {
+.lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx:focus-within,
+._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._2cXhAZJGVLrDD_TVE6hdwq:focus-within {
     color: var(--md-sys-color-on-surface);
     background-color: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-active));
     border-bottom-color: var( --md-sys-color-primary);
