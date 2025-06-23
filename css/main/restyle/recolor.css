@@ -518,16 +518,6 @@ button.DialogButton.Disabled:hover /* Basic */ {
 ._3x31AgESSlUqX3D4MTHv2m ._1JlC29Ic6L-QvL-39X_d-X {
     color: var(--md-sys-color-on-surface);
 }
-/* Community */
-.filter_ctn.inventory_filters #filter_control,
-._2wXQTbH2iavMx1sFDH_Xpn ._29VTx5sjP43UH8k1twOUgE {
-    color: var(--md-sys-color-on-surface) !important;
-    background: var(--md-sys-color-surface-container-highest) !important;
-}
-.filter_ctn.inventory_filters #filter_control::placeholder,
-._2wXQTbH2iavMx1sFDH_Xpn ._29VTx5sjP43UH8k1twOUgE::placeholder {
-    color: var(--md-sys-color-outline) !important;
-}
 
 /* --- NAVIGATION --- */
 

@@ -349,6 +349,19 @@
                 }
             }
         },
+        "Sticky Header": {
+            "description": "Move header with scroll.",
+            "default": "yes",
+            "tab": "Store",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/store/stickyHeader.css"
+                    }
+                }
+            }
+        },
         "What's New": {
             "description": "Show/Compact/Hide What's New section.",
             "default": "Compact",

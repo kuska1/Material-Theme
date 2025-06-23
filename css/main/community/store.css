@@ -2,6 +2,40 @@
     background: unset !important;
 }
 
+/* App Bar */
+#store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
+    border-radius: var(--corner-radius-small) !important;
+    box-shadow: unset !important;
+}
+.store_nav a.pulldown_desktop,
+.store_nav .tab > span {
+    text-shadow: unset !important;
+}
+a#store_search_link img {
+    border-radius: var(--corner-radius-full) !important;
+}
+
+/* Chips / Tags */
 body.v6 .deep_dive_key_tags {
     height: unset !important;
+}
+
+/* Cards */
+.game_area_purchase_game, .game_area_offsite_purchase,
+.notice_box_content, .game_area_comingsoon,
+.drm_warning.svelte-1iirt72.svelte-1iirt72 /* Plugins Support */ {
+    border-radius: var(--corner-radius-medium) !important;
+    box-shadow: unset !important;
+}
+.notice_box_content {
+    border: unset !important;
+}
+.notice_box_content b {
+    display: none;
+}
+.game_purchase_action_bg {
+    border-radius: var(--corner-radius-full) !important;
+}
+.game_purchase_action .game_purchase_price {
+    background: unset !important;
 }

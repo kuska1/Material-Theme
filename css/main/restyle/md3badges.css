@@ -1,11 +1,9 @@
 /* Badges */
 /* https://m3.material.io/components/badges/overview */
 
-/* Me */
-._2W_HQa5Rhf-hHITgV5H0bu {
-    border-radius: var(--corner-radius-extra-small);
-}
-/* New */
-._3cowYQH1B8oj2_ls7YZ1aW ._2e63TrPvMKVUujM8SUB8X2 {
-    border-radius: var(--corner-radius-extra-small);
+._2W_HQa5Rhf-hHITgV5H0bu, /* Me */
+._3cowYQH1B8oj2_ls7YZ1aW ._2e63TrPvMKVUujM8SUB8X2, /* New */
+.ds_flag, .btn_black > span /* Store */ {
+    border-radius: var(--corner-radius-extra-small) !important;
+    box-shadow: unset !important;
 }

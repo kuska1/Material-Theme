@@ -7,10 +7,14 @@
 
 
 .filter_ctn.inventory_filters #filter_control,
-._2wXQTbH2iavMx1sFDH_Xpn ._29VTx5sjP43UH8k1twOUgE {
+._2wXQTbH2iavMx1sFDH_Xpn ._29VTx5sjP43UH8k1twOUgE,
+.searchbox {
     border: unset !important;
     outline: unset !important;
     box-shadow: unset !important;
     border-radius: var(--corner-radius-full) !important;
+}
+.filter_ctn.inventory_filters #filter_control,
+._2wXQTbH2iavMx1sFDH_Xpn ._29VTx5sjP43UH8k1twOUgE {
     padding: 4px 8px !important;
 }

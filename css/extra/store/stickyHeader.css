@@ -1,0 +1,8 @@
+div#store_header .content {
+    position: fixed !important;
+}
+
+body:not(:has(.home_page_gutter)) div#store_header .content {
+    left: 50%;
+    transform: translate(-50%);
+}
