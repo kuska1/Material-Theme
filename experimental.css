@@ -8,7 +8,7 @@
 /* Test Recolor */
 /* --- COMMUNITY --- */
 /* -- GENERAL -- */
-body,
+body:not(.QsvsRVwbsApgKt1MhM0fz),
 body.v6 {
     background: var(--md-sys-color-surface) !important;
 }
