@@ -907,3 +907,9 @@ a._2HnDgHQT_3ehcs4WgskKG5,
 ._2iJsgdTIX9Tj23rWnB7Q-c {
     border-radius: var(--corner-radius-large);
 }
+
+/* Cards Fix */
+._2IS7ZQo16varVLcyuFh4sY:has(._20mFRtBlmlH4r-Nhl4P2kO) {
+    gap: 6px;
+    padding-bottom: 8px;
+}
