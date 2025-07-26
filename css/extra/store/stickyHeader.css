@@ -6,3 +6,14 @@ body:not(:has(.home_page_gutter)) div#store_header .content {
     left: 50%;
     transform: translate(-50%);
 }
+
+/* Include beta */
+._16jZ3HEbtaJTl80pQINN2Y.YNdpuNoh9QiKr4kpbAIwZ._234vIwVerIU5MqgZwrEcd8 {
+    height: unset !important;
+}
+
+._16jZ3HEbtaJTl80pQINN2Y.YNdpuNoh9QiKr4kpbAIwZ.QxMlWcMzMZxcogv_rHw2j,
+._16jZ3HEbtaJTl80pQINN2Y.YNdpuNoh9QiKr4kpbAIwZ._22kVz2i2PscI9OSO_WhNry {
+    animation: unset !important;
+    height: unset !important;
+}
