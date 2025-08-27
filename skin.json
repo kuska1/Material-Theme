@@ -53,6 +53,11 @@
                         "affects": [".*"], "src": "css/main/colors/blue.css"
                     }
                 },
+                "Cyan": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/colors/cyan.css"
+                    }
+                },
                 "Yellow": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/main/colors/yellow.css"

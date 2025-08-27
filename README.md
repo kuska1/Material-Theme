@@ -22,7 +22,7 @@
 * Library Restyle [WIP]
 ### Style
 * Appearance (Light/Dark)
-* Source Color (Red/Blue/Green/Yellow/Custom/Dynamic [Beta])
+* Source Color (Red/Blue/Cyan/Green/Yellow/Custom/Dynamic [Beta])
 * Material Icons
 * Fonts (Default/Roboto/Open Sans/Google Sans)
 * Alternatie online indicator
