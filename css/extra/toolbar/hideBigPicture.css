@@ -1,3 +1,7 @@
-._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u .tool-tip-source:nth-child(4) {
+._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u:not(:has(._2Szzh5sKyGgnLUR870zbDE._13vrqU6oOqmmxrsZSW5O39)) .tool-tip-source:nth-child(4) {
+    display: none !important;
+}
+
+._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u:has(._2Szzh5sKyGgnLUR870zbDE._13vrqU6oOqmmxrsZSW5O39) .tool-tip-source:nth-child(5) {
     display: none !important;
 }
