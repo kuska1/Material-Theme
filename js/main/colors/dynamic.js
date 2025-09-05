@@ -5,16 +5,22 @@ import {
   argbFromRgb
 } from 'https://cdn.skypack.dev/@material/material-color-utilities';
 
-const prefix = '--md-sys-color-';
-
-function enableTransitions() {
-    if (document.getElementById('material-dynamic-transitions')) return;
-    const link = document.createElement('link');
-    link.id = 'material-dynamic-transitions';
-    link.rel = 'stylesheet';
-    link.href = 'css/extra/animations/md3colors_on.css';
-    document.head.appendChild(link);
+// Apply dynamic-only color transitions, only if animations are globally enabled
+const styleId = 'material-dynamic-transitions';
+if (!document.getElementById(styleId)) {
+    const animationsEnabled = getComputedStyle(document.documentElement).getPropertyValue('--dynamic-color-transition-enabled').trim();
+    if (animationsEnabled === 'true') {
+        const css = `*:not(img) {
+            transition: background-color 0.4s cubic-bezier(0.4, 0.0, 0.2, 1), color 0.4s cubic-bezier(0.4, 0.0, 0.2, 1), fill 0.4s cubic-bezier(0.4, 0.0, 0.2, 1), border-color 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+        }`;
+        const style = document.createElement('style');
+        style.id = styleId;
+        style.textContent = css;
+        document.head.appendChild(style);
+    }
 }
+
+const prefix = '--md-sys-color-';
 
 function rgbToHsl(r, g, b) {
   r /= 255, g /= 255, b /= 255;
@@ -56,16 +62,20 @@ async function getAccentColorFromImage(img) {
     const ctx = canvas.getContext('2d', {
       willReadFrequently: true
     });
-    canvas.width = img.naturalWidth;
-    canvas.height = img.naturalHeight;
+    
+    // Optimization: Downscale the image to a smaller canvas to reduce pixel count
+    const newWidth = 100;
+    const newHeight = (img.naturalHeight / img.naturalWidth) * newWidth;
+    canvas.width = newWidth;
+    canvas.height = newHeight;
 
     if (canvas.width === 0 || canvas.height === 0) {
       return reject('Image not ready or has no dimensions');
     }
 
     try {
-      ctx.drawImage(img, 0, 0);
-      const data = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
+      ctx.drawImage(img, 0, 0, newWidth, newHeight);
+      const data = ctx.getImageData(0, 0, newWidth, newHeight).data;
       const colorCount = {};
       let max = 0,
         dominant = '';
@@ -153,7 +163,6 @@ async function updateTheme() {
     if (img && img.src) {
       const color = await getAccentColorFromImage(img);
       await generateAndApplyTheme(color);
-      setTimeout(enableTransitions, 50);
       return;
     }
   } catch (e) {
@@ -163,7 +172,6 @@ async function updateTheme() {
   const systemColor = getComputedStyle(document.documentElement).getPropertyValue('--SystemAccentColor').trim();
   if (systemColor) {
     await generateAndApplyTheme(argbFromHex(systemColor));
-    setTimeout(enableTransitions, 50);
   } else {
     console.warn('No --SystemAccentColor available');
   }
@@ -191,7 +199,6 @@ const observer = new MutationObserver((mutations) => {
 });
 observer.observe(document.body, { childList: true, subtree: true });
 
-// Optional: observe changes to #SystemAccentColorInject
 const styleNode = document.getElementById('SystemAccentColorInject');
 if (styleNode) {
   const styleObserver = new MutationObserver(debounceUpdateTheme);
