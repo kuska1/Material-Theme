@@ -5,7 +5,6 @@ import {
   argbFromRgb
 } from 'https://cdn.skypack.dev/@material/material-color-utilities';
 
-// Apply dynamic-only color transitions, only if animations are globally enabled
 const styleId = 'material-dynamic-transitions';
 if (!document.getElementById(styleId)) {
     const animationsEnabled = getComputedStyle(document.documentElement).getPropertyValue('--dynamic-color-transition-enabled').trim();
@@ -63,7 +62,6 @@ async function getAccentColorFromImage(img) {
       willReadFrequently: true
     });
     
-    // Optimization: Downscale the image to a smaller canvas to reduce pixel count
     const newWidth = 100;
     const newHeight = (img.naturalHeight / img.naturalWidth) * newWidth;
     canvas.width = newWidth;
@@ -199,7 +197,6 @@ const observer = new MutationObserver((mutations) => {
 });
 observer.observe(document.body, { childList: true, subtree: true });
 
-// Optional: observe changes to #SystemAccentColorInject
 const styleNode = document.getElementById('SystemAccentColorInject');
 if (styleNode) {
   const styleObserver = new MutationObserver(debounceUpdateTheme);
