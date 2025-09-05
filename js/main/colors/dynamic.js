@@ -7,32 +7,83 @@ import {
 
 const prefix = '--md-sys-color-';
 
+function enableTransitions() {
+    if (document.getElementById('material-dynamic-transitions')) return;
+    const link = document.createElement('link');
+    link.id = 'material-dynamic-transitions';
+    link.rel = 'stylesheet';
+    link.href = 'css/extra/animations/md3colors_on.css';
+    document.head.appendChild(link);
+}
+
+function rgbToHsl(r, g, b) {
+  r /= 255, g /= 255, b /= 255;
+  const max = Math.max(r, g, b),
+    min = Math.min(r, g, b);
+  let h, s, l = (max + min) / 2;
+
+  if (max === min) {
+    h = s = 0;
+  } else {
+    const d = max - min;
+    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+    switch (max) {
+      case r:
+        h = (g - b) / d + (g < b ? 6 : 0);
+        break;
+      case g:
+        h = (b - r) / d + 2;
+        break;
+      case b:
+        h = (r - g) / d + 4;
+        break;
+    }
+    h /= 6;
+  }
+
+  return [h, s, l];
+}
+
 async function getAccentColorFromImage(img) {
   return new Promise((resolve, reject) => {
     if (!img.complete) {
       img.onload = () => resolve(getAccentColorFromImage(img));
+      img.onerror = reject;
       return;
     }
 
     const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext('2d', {
+      willReadFrequently: true
+    });
     canvas.width = img.naturalWidth;
     canvas.height = img.naturalHeight;
 
-    if (canvas.width === 0 || canvas.height === 0) return reject('Image not ready');
+    if (canvas.width === 0 || canvas.height === 0) {
+      return reject('Image not ready or has no dimensions');
+    }
 
     try {
       ctx.drawImage(img, 0, 0);
       const data = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
       const colorCount = {};
-      let max = 0, dominant = '';
+      let max = 0,
+        dominant = '';
 
       for (let i = 0; i < data.length; i += 4) {
-        const color = `${data[i]},${data[i+1]},${data[i+2]}`;
-        colorCount[color] = (colorCount[color] || 0) + 1;
-        if (colorCount[color] > max) {
-          max = colorCount[color];
-          dominant = color;
+        const r = data[i];
+        const g = data[i + 1];
+        const b = data[i + 2];
+
+        const [h, s, l] = rgbToHsl(r, g, b);
+
+        if (s > 0.25 && l > 0.05 && l < 0.95) {
+          const color = `${r},${g},${b}`;
+          colorCount[color] = (colorCount[color] || 0) + 1;
+          if (colorCount[color] > max) {
+            max = colorCount[color];
+            dominant = color;
+          }
         }
       }
 
@@ -40,7 +91,7 @@ async function getAccentColorFromImage(img) {
         const [r, g, b] = dominant.split(',').map(Number);
         resolve(argbFromRgb(r, g, b));
       } else {
-        reject('No dominant color found');
+        reject('No dominant vibrant color found');
       }
     } catch (e) {
       reject(e);
@@ -99,9 +150,11 @@ async function generateAndApplyTheme(sourceArgb) {
 async function updateTheme() {
   const img = document.querySelector('img.HNbe3eZf6H7dtJ042x1vM');
   try {
-    if (img) {
+    if (img && img.src) {
       const color = await getAccentColorFromImage(img);
-      return await generateAndApplyTheme(color);
+      await generateAndApplyTheme(color);
+      setTimeout(enableTransitions, 50);
+      return;
     }
   } catch (e) {
     console.warn('Image-based accent color failed, fallback to system:', e);
@@ -110,6 +163,7 @@ async function updateTheme() {
   const systemColor = getComputedStyle(document.documentElement).getPropertyValue('--SystemAccentColor').trim();
   if (systemColor) {
     await generateAndApplyTheme(argbFromHex(systemColor));
+    setTimeout(enableTransitions, 50);
   } else {
     console.warn('No --SystemAccentColor available');
   }
@@ -149,4 +203,4 @@ if (styleNode) {
 }
 
 // Initial run
-updateTheme();
+debounceUpdateTheme();
