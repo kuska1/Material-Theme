@@ -56,6 +56,7 @@
 ## Credits:
 ### Developer
 * [kuska1](https://github.com/kuska1)
+* [Contributors](https://github.com/kuska1/Material-Theme/graphs/contributors)
 ### Inspiration & Borrowed the Code
 * [NEVKO-UI](https://github.com/dotFelixan/NEVKO-UI)
 * [SpaceTheme](https://github.com/SpaceTheme/Steam)
