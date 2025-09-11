@@ -80,6 +80,7 @@
             "default": "Rounded",
             "tab": "Style",
             "values": {
+                "Default": {},
                 "Rounded": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/extra/icons/rounded.css"
