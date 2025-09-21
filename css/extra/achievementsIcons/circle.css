@@ -9,6 +9,7 @@
 a.communitylink_achievement.communitylink_achivement_plusmore
 /* Community */
 .game_info_achievement, .game_info_achievement img,
-.game_info_achievement.plus_more, .showcase_achievement.plus_more {
+.game_info_achievement.plus_more, .showcase_achievement.plus_more,
+.showcase_achievement img {
     border-radius: var(--corner-radius-full) !important;
 }

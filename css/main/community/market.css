@@ -1,3 +1,8 @@
 .item_market_action_button_edit:hover > span, .item_market_action_button_edit .item_market_action_button_preload {
     background: unset !important;
 }
+
+/* TOP */
+#BG_top > .user_info {
+    border-radius: var(--corner-radius-medium) !important;
+}

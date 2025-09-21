@@ -20,7 +20,8 @@
 ._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._39Ldnfxr7DlhXHZZgBVF4W,
 ._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._15P7ohP3vq0SmtT5d274y1,
 .btn_green_steamui,
-.btn_blue_steamui {
+.btn_blue_steamui,
+.btn_profile_action {
     border-radius: var(--corner-radius-full) !important;
     /* padding: 5px 10px !important; */
     box-shadow: unset !important;
@@ -45,6 +46,9 @@ a.item_market_action_button {
 ._3HBvbSDPYGc6K_O32LovGq ._12md3Zc1vL6ogBUmI1k4Jh ._2R8KFsdzOosYGjDF6ahgMK {
     border-radius: var(--corner-radius-medium) !important;
     box-shadow: unset !important;
+}
+.btn_profile_action > span {
+    background: unset !important;
 }
 
 /* Header */
@@ -672,6 +676,108 @@ a._175B12uOwmeGBNcSaQFe-Z .vj9hwW9u0MpjH7MVjjNw0 ._1-hPfsxjynE3demuqGmqf0 ._3gaa
 }
 ._2GxMhpm7OC2WWXN_wjgA78 ._1XK1v4pD2FgxJn9Nxovpup ._3DOcONbchITbAuaF30dduG a._3HgV0usLjzxByxBF2zvGYj {
     color: var(--md-sys-color-primary) !important;
+}
+/* -- PROFILE -- */
+/* Statuses */
+.persona.online, a.persona.online, .persona.online a, .friend_status_online, .friend_status_online div, .friend_status_online a {
+    color: rgb(var(--indicator-online   ));
+}
+/* Valve Employee */
+.profile_header_valve_employee {
+    color: var(--md-sys-color-on-error-container) !important;
+    background: var(--md-sys-color-error-container) !important;
+    border-radius: var(--corner-radius-medium) !important;
+}
+.profile_header_valve_employee_icon {
+    display: none !important;
+}
+.profile_header_valve_employee_desc {
+    color: var(--md-sys-color-on-error-container) !important;
+    padding: 5px 10px 10px 5px !important;
+}
+.profile_header_valve_employee_desc a {
+    color: var(--md-sys-color-on-error-container) !important;
+}
+.profile_header_valve_employee_desc a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-on-error-container), var(--md-sys-color-on-surface) 40%) !important;
+}
+/* Nicknames */
+.popup_block_new {
+    box-shadow: var(--elevated-shadow) !important;
+    border-radius: var(--corner-radius-small) !important;
+}
+.popup_block_new .popup_body {
+    border: unset !important;
+    padding: 8px 0px !important;
+    border-radius: var(--corner-radius-small) !important;
+    color: var(--md-sys-color-on-surface) !important;
+    background: var(--md-sys-color-surface-container) !important;
+}
+/* Columns */
+.profile_customization,
+.profile_rightcol {
+    border-radius: var(--corner-radius-small) !important;
+}
+/* Badge */
+.profile_header_badge {
+    border-radius: var(--corner-radius-medium) !important;
+}
+/* VAC Ban */
+.profile_ban_status {
+    color: var(--md-sys-color-on-error-container) !important;
+    background: var(--md-sys-color-error-container) !important;
+    border-radius: var(--corner-radius-medium) !important;
+    padding: 8px !important;
+}
+.profile_ban_status a {
+    color: var(--md-sys-color-on-surface) !important;
+}
+.profile_ban_status a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-on-surface), var(--md-sys-color-on-error) 40%) !important;
+}
+.profile_ban .profile_ban_info *:not(a) {
+    display: none;
+}
+/* Friends */
+.profile_topfriends .friendBlock {
+    border-radius: var(--corner-radius-medium) !important;
+}
+.friendBlock .friendPlayerLevel {
+    margin: 2px 6px 0 0 !important;
+}
+/* Games */
+.recent_game {
+    border-radius: var(--corner-radius-medium) !important;
+}
+.recent_game .game_info .game_info_cap img,
+.game_info_badge_border,
+.recent_game .game_info_stats, .favoritegame_showcase .game_info_stats,
+.showcase_content_bg,
+.screenshot_showcase_screenshot {
+    border-radius: var(--corner-radius-small) !important;
+    box-shadow: unset !important;
+}
+/* -- PROFILE EDIT PROFILE -- */
+._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach {
+    border-radius: var(--corner-radius-full) !important;
+    padding: 4px 20px 4px 12px !important;
+    color: rgb(var(--md-sys-color-on-surface)) !important;
+    background: transparent !important;
+    /* color: var(--md-sys-color-on-secondary-container) !important;
+    background: var(--md-sys-color-secondary-container) !important; */
+}
+._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach._3H7Awq1oAhxrdDo3ANR4mu {
+    color: var(--md-sys-color-on-secondary-container) !important;
+    background: var(--md-sys-color-secondary-container) !important;
+}
+._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach:not(.k9wPoKS3UeY-ju9JEoeZZ):hover {
+    color: var(--md-sys-color-on-surface) !important;
+    background: var(--menu-item-hover) !important;
+}
+/* -- COMMON -- */
+.profile_small_header_texture {
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
 }
 /* -- FOOTER -- */
 #footerText,
