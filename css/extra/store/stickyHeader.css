@@ -1,11 +1,13 @@
-div#store_header .content {
+/* deprecated */
+
+/* div#store_header .content {
     position: fixed !important;
 }
 
 body:not(:has(.home_page_gutter)) div#store_header .content {
     left: 50%;
     transform: translate(-50%);
-}
+} */
 
 /* Include beta */
 ._16jZ3HEbtaJTl80pQINN2Y.YNdpuNoh9QiKr4kpbAIwZ._234vIwVerIU5MqgZwrEcd8 {

@@ -355,8 +355,8 @@
                 }
             }
         },
-        "Sticky Header": {
-            "description": "Move header with scroll.",
+        "Header Always Visible": {
+            "description": "Make store header always visible.",
             "default": "yes",
             "tab": "Store",
             "values": {
