@@ -708,7 +708,7 @@ a._175B12uOwmeGBNcSaQFe-Z .vj9hwW9u0MpjH7MVjjNw0 ._1-hPfsxjynE3demuqGmqf0 ._3gaa
 }
 .popup_block_new .popup_body {
     border: unset !important;
-    padding: 8px 0px !important;
+    padding: 8px !important;
     border-radius: var(--corner-radius-small) !important;
     color: var(--md-sys-color-on-surface) !important;
     background: var(--md-sys-color-surface-container) !important;
@@ -757,6 +757,18 @@ a._175B12uOwmeGBNcSaQFe-Z .vj9hwW9u0MpjH7MVjjNw0 ._1-hPfsxjynE3demuqGmqf0 ._3gaa
     border-radius: var(--corner-radius-small) !important;
     box-shadow: unset !important;
 }
+/* Tooltip */
+.community_tooltip {
+    box-shadow: var(--elevated-shadow) !important;
+    padding: 8px 12px !important;
+    border: unset !important;
+    border-radius: var(--corner-radius-extra-small) !important;
+    font-size: var(--font-body-small-size) !important;
+    font-weight: var(--font-body-small-weight) !important;
+    z-index: 9999 !important;
+    color: var(--md-sys-color-inverse-on-surface) !important;
+    background-color: var(--md-sys-color-inverse-surface) !important;
+}
 /* -- PROFILE EDIT PROFILE -- */
 ._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach {
     border-radius: var(--corner-radius-full) !important;
@@ -774,8 +786,63 @@ a._175B12uOwmeGBNcSaQFe-Z .vj9hwW9u0MpjH7MVjjNw0 ._1-hPfsxjynE3demuqGmqf0 ._3gaa
     color: var(--md-sys-color-on-surface) !important;
     background: var(--menu-item-hover) !important;
 }
+/* -- FRIENDS -- */
+.friends_nav h4 {
+    color: rgb(var(--md-sys-color-on-surface)) !important;
+    font-weight: 600 !important;
+    margin-bottom: 4px;
+}
+.friends_nav a {
+    border-radius: var(--corner-radius-full) !important;
+    padding: 10px 8px 10px 16px !important;
+    color: rgb(var(--md-sys-color-on-surface)) !important;
+    background: transparent !important;
+    /* color: var(--md-sys-color-on-secondary-container) !important;
+    background: var(--md-sys-color-secondary-container) !important; */
+}
+.friends_nav a.active {
+    color: var(--md-sys-color-on-secondary-container) !important;
+    background: var(--md-sys-color-secondary-container) !important;
+}
+.friends_nav a:not(.active):hover {
+    color: var(--md-sys-color-on-surface) !important;
+    background: var(--menu-item-hover) !important;
+}
+.count {
+    padding: 2px 6px !important;
+    /* margin-top: -1px !important; */
+    border-radius: var(--corner-radius-full) !important;
+    /* color: var(--md-sys-color-on-error) !important;
+    background: var(--md-sys-color-error) !important; */
+    color: var(--md-sys-color-on-primary) !important;
+    background: var(--md-sys-color-primary) !important;
+}
+/* Title */
+.friends_header_bg {
+    margin-bottom: 12px !important;
+    background: var(--md-sys-color-surface-container) !important;
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+.profile_friends.title_bar, .profile_groups.title_bar {
+    border-radius: var(--corner-radius-medium) !important;
+    background: var(--md-sys-color-surface-variant) !important;
+}
+/* Blocks */
+.friend_block_v2 {
+    background: var(--md-sys-color-surface-container) !important;
+    border-radius: var(--corner-radius-medium) !important;
+}
+.friend_block_v2:hover {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-hover)) !important;
+}
+/* remove later */
+.friend_block_link_overlay {
+    border: unset !important;
+}
 /* -- COMMON -- */
 .profile_small_header_texture {
+    background: var(--md-sys-color-surface-container) !important;
     border-bottom-left-radius: var(--corner-radius-medium);
     border-bottom-right-radius: var(--corner-radius-medium);
 }
