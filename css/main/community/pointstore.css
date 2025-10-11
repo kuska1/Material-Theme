@@ -1,0 +1,36 @@
+/* Border Hover Fix */
+.skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh ._2MPpwm3uMppV0DPtkN4Pp_, .skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh ._2YbSwspXZ90_vgzS5O3X4F {
+    background-size: contain;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    transition-property: transform;
+    transform-origin: 50% 50%;
+    -moz-transition-duration: .4s;
+    -moz-transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    -moz-transition-property: transform;
+    -moz-transform-origin: 50% 50%;
+    transition-property: transform, filter;
+}
+/* Bundle Hover Fix */
+._2p-sr64TRMhny7CqiT1yS6 {
+    transform: translate(0px);
+    perspective: 300px;
+    perspective-origin: 50%;
+    perspective-origin: inherit;
+    transition-duration: .4s;
+    transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    transition-property: transform;
+    transform-origin: 50% 50%;
+    -moz-transition-duration: .4s;
+    -moz-transition-timing-function: cubic-bezier(0, 0.73, 0.48, 1);
+    -moz-transition-property: transform;
+    -moz-transform-origin: 50% 50%;
+    transition-property: box-shadow, transform, filter;
+    transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+}
+._1hyVDUTu00_a_5XtwVOdU2:hover ._2p-sr64TRMhny7CqiT1yS6 {
+    transform: scaleX(1) scaleY(1);
+    filter: brightness(1.1) contrast(0.95) saturate(1);
+    box-shadow: 3px 8px 8px 3px rgba(0,0,0,.596);
+}

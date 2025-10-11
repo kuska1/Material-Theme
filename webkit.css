@@ -2,4 +2,4 @@
 @import url("css/main/main.css");
 
 /* Community */
-/* Experimental */
+@import url("css/main/community/pointstore.css");
