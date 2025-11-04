@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "A theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.1.5",
+    "version": "1.1.6",
     "header_image": "https://github.com/kuska1/Material-Theme/blob/main/.github/banner.jpg?raw=true",
     "splash_image": "https://github.com/kuska1/Material-Theme/blob/main/.github/banner.jpg?raw=true",
 
@@ -504,6 +504,19 @@
                 "#@%**": { 
                     "TargetCss": {
                         "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigFck.css"
+                    }
+                }
+            }
+        },
+        "Disable Max Hero Image Size": {
+            "description": "Removes max hero image size on game page for correct aspect ratio.",
+            "default": "no",
+            "tab": "Library",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/library/disableMaxHeroSize.css"
                     }
                 }
             }
