@@ -114,11 +114,6 @@
                         "affects": [".*"], "src": "css/extra/fonts/googlesans.css"
                     }
                 },
-                "Plus Jakarta Sans": {
-                    "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/fonts/plusjakartasans.css"
-                    }
-                },
                 "Line Font": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/extra/fonts/linefont.css"
