@@ -1,0 +1,105 @@
+:root {
+    --theme-color: "Matugen";
+    --hue-rotate: 220deg;
+    
+    --md-sys-color-background: rgb(25, 17, 19);
+    
+    --md-sys-color-error: rgb(255, 180, 171);
+    
+    --md-sys-color-error-container: rgb(147, 0, 10);
+    
+    --md-sys-color-inverse-on-surface: rgb(56, 46, 47);
+    
+    --md-sys-color-inverse-primary: rgb(141, 74, 90);
+    
+    --md-sys-color-inverse-surface: rgb(239, 222, 224);
+    
+    --md-sys-color-on-background: rgb(239, 222, 224);
+    
+    --md-sys-color-on-error: rgb(105, 0, 5);
+    
+    --md-sys-color-on-error-container: rgb(255, 218, 214);
+    
+    --md-sys-color-on-primary: rgb(85, 29, 45);
+    
+    --md-sys-color-on-primary-container: rgb(255, 217, 223);
+    
+    --md-sys-color-on-primary-fixed: rgb(58, 7, 24);
+    
+    --md-sys-color-on-primary-fixed-variant: rgb(113, 51, 67);
+    
+    --md-sys-color-on-secondary: rgb(67, 41, 47);
+    
+    --md-sys-color-on-secondary-container: rgb(255, 217, 223);
+    
+    --md-sys-color-on-secondary-fixed: rgb(43, 21, 26);
+    
+    --md-sys-color-on-secondary-fixed-variant: rgb(91, 63, 69);
+    
+    --md-sys-color-on-surface: rgb(239, 222, 224);
+    
+    --md-sys-color-on-surface-variant: rgb(214, 194, 196);
+    
+    --md-sys-color-on-tertiary: rgb(70, 42, 9);
+    
+    --md-sys-color-on-tertiary-container: rgb(255, 220, 189);
+    
+    --md-sys-color-on-tertiary-fixed: rgb(44, 22, 0);
+    
+    --md-sys-color-on-tertiary-fixed-variant: rgb(96, 64, 29);
+    
+    --md-sys-color-outline: rgb(158, 140, 143);
+    
+    --md-sys-color-outline-variant: rgb(82, 67, 69);
+    
+    --md-sys-color-primary: rgb(255, 177, 193);
+    
+    --md-sys-color-primary-container: rgb(113, 51, 67);
+    
+    --md-sys-color-primary-fixed: rgb(255, 217, 223);
+    
+    --md-sys-color-primary-fixed-dim: rgb(255, 177, 193);
+    
+    --md-sys-color-scrim: rgb(0, 0, 0);
+    
+    --md-sys-color-secondary: rgb(228, 189, 195);
+    
+    --md-sys-color-secondary-container: rgb(91, 63, 69);
+    
+    --md-sys-color-secondary-fixed: rgb(255, 217, 223);
+    
+    --md-sys-color-secondary-fixed-dim: rgb(228, 189, 195);
+    
+    --md-sys-color-shadow: rgb(0, 0, 0);
+    
+    --md-sys-color-source-color: rgb(155, 34, 75);
+    
+    --md-sys-color-surface: rgb(25, 17, 19);
+    
+    --md-sys-color-surface-bright: rgb(65, 55, 56);
+    
+    --md-sys-color-surface-container: rgb(38, 29, 31);
+    
+    --md-sys-color-surface-container-high: rgb(49, 40, 41);
+    
+    --md-sys-color-surface-container-highest: rgb(60, 50, 52);
+    
+    --md-sys-color-surface-container-low: rgb(34, 25, 27);
+    
+    --md-sys-color-surface-container-lowest: rgb(20, 12, 14);
+    
+    --md-sys-color-surface-dim: rgb(25, 17, 19);
+    
+    --md-sys-color-surface-tint: rgb(255, 177, 193);
+    
+    --md-sys-color-surface-variant: rgb(82, 67, 69);
+    
+    --md-sys-color-tertiary: rgb(236, 190, 145);
+    
+    --md-sys-color-tertiary-container: rgb(96, 64, 29);
+    
+    --md-sys-color-tertiary-fixed: rgb(255, 220, 189);
+    
+    --md-sys-color-tertiary-fixed-dim: rgb(236, 190, 145);
+    
+}
