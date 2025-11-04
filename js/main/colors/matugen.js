@@ -7,4 +7,4 @@ document.head.appendChild(cssLink);
 
 setInterval(() => {
   cssLink.href = "https://steamloopback.host/skins/Material-Theme/css/main/colors/matugen.css";
-}, 5000); // Check every 5 seconds
+}, 500); // Check every 5 seconds
