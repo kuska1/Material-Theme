@@ -545,7 +545,7 @@
             }
         },
         " - Show balance after hover? ": {
-            "description": "Doesn't work with Full Hide.",
+            "description": "[i]Doesn't work with Full Hide.[/i]",
             "default": "yes",
             "tab": "Privacy",
             "values": {
@@ -581,7 +581,7 @@
             }
         },
         " - Show Name after Hover?": {
-            "description": "Doesn't work with Full Hide.",
+            "description": "[i]Doesn't work with Full Hide.[/i]",
             "default": "yes",
             "tab": "Privacy",
             "values": {
@@ -617,7 +617,7 @@
             }
         },
         " - Show Balance after Hover?": {
-            "description": "Doesn't work with Full Hide.",
+            "description": "[i]Doesn't work with Full Hide.[/i]",
             "default": "yes",
             "tab": "Privacy",
             "values": {
@@ -708,7 +708,7 @@
             }
         },
         "Use Experimental Features": { 
-            "description": "Enable experimental features. May cause issues. Feel free to report them on GitHub. Currently affects community/powered steam pages.",
+            "description": "Enable experimental features. May cause issues. Currently affects community/powered steam pages. [url=https://github.com/kuska1/Material-Theme/issues/new?template=bug_report.md]Feel free to report them on GitHub.[/url]",
             "default": "no",
             "tab": "Extra",
             "values": {
