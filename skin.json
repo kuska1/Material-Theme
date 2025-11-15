@@ -63,6 +63,11 @@
                         "affects": [".*"], "src": "css/main/colors/yellow.css"
                     }
                 },
+                "Matugen": {
+                    "TargetJs": {
+                        "affects": [".*"], "src": "js/main/colors/matugen.js"
+                    }
+                },
                 "Custom": {
                     "TargetJs": {
                         "affects": [".*"], "src": "js/main/colors/custom.js"
