@@ -71,7 +71,31 @@
     height: 28%;
 }
 
+/* Friends */
+.currentUserAvatar .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe {
+	position: absolute;
+	right: 0px;
+    bottom: 0px;
+    width: 8px;
+    height: 8px;
+	z-index: 99;
+	border-radius: 9999px;
+}
+.currentUserAvatar .nibodjvvrm86uCfnnAn4g.Medium ._3xUpb5DWXPFNcHHIcv-9pe {
+	width: 12px;
+    height: 12px;
+}
+
 /* Chat */
+.OneOnOneVoiceMembers .friend .avatarStatus {
+	top: unset !important;
+	width: 8px !important;
+	height: 8px !important;
+}
+
+/* Chat */
+.friendlistListContainer .friend .avatarHolder .avatarStatus,
+.MemberListColumn .friend .avatarHolder .avatarStatus,
 ._21I8pyEfvklCsrYIcsBtYY .avatarHolder .avatarStatus {
     top: unset !important;
     bottom: 0px !important;
@@ -151,7 +175,8 @@
 ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
 .zXrpABNQHpWKgSzqnGlL ._1iutOH026zK2dbpsMFDmMm,
 .playerAvatar::before,
-.miniprofile_playersection .playersection_avatar::before  {
+.miniprofile_playersection .playersection_avatar::before,
+.MemberListColumn .friend .avatarHolder .avatarStatus  {
 	background: var(--indicator-offline);
 }
 /* Online */
@@ -159,7 +184,8 @@
 .online ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
 .zXrpABNQHpWKgSzqnGlL ._1iutOH026zK2dbpsMFDmMm.online,
 .playerAvatar.online::before,
-.miniprofile_playersection .playersection_avatar.border_color_online::before {
+.miniprofile_playersection .playersection_avatar.border_color_online::before,
+.MemberListColumn .friend.online .avatarHolder .avatarStatus {
 	background: var(--indicator-online);
 }
 /* Away */
@@ -167,7 +193,8 @@
 .awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
 .zXrpABNQHpWKgSzqnGlL ._1iutOH026zK2dbpsMFDmMm.away,
 .playerAvatar.away::before,
-.miniprofile_playersection .playersection_avatar.border_color_away::before {
+.miniprofile_playersection .playersection_avatar.border_color_away::before,
+.MemberListColumn .friend.away .avatarHolder .avatarStatus {
 	background: var(--indicator-away);
 }
 /* Ingame */
@@ -175,7 +202,8 @@
 .ingame ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
 .zXrpABNQHpWKgSzqnGlL ._1iutOH026zK2dbpsMFDmMm.ingame,
 .playerAvatar.in-game::before,
-.miniprofile_playersection .playersection_avatar.border_color_in-game::before {
+.miniprofile_playersection .playersection_avatar.border_color_in-game::before,
+.MemberListColumn .friend.ingame .avatarHolder .avatarStatus {
 	background: var(--indicator-ingame);
 }
 /* Ingame Away */

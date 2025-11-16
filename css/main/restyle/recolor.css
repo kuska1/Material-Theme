@@ -607,9 +607,10 @@ button.DialogButton.Disabled:hover /* Basic */ {
 /* --- MENU --- */
 
 /* Base */
-._30wJO3MC4x-I1OWpy1TAeE._DialogInputContainer, /* BG */
-._2yAm5LY_eu-Vg_52l0HFlM /* Scrollbar */ {
-    background-color: var(--md-sys-color-surface-container);
+.DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer, /* BG */
+._2yAm5LY_eu-Vg_52l0HFlM, /* Scrollbar */
+.DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R>div {
+    background: var(--md-sys-color-surface-container) !important;
 }
 ._2oAiZidGyUxL-hfupFDQ2m, /* Text */
 .DesktopUI .DialogToggle_Label,
@@ -620,7 +621,7 @@ button.DialogButton.Disabled:hover /* Basic */ {
     color: var(--md-sys-color-outline);
 }
 ._2oAiZidGyUxL-hfupFDQ2m:focus /* Hover -> BG */ {
-    background-color: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
     /* background-color: var(--md-sys-color-surface-container); */
 }
 /* Storage Fix */
@@ -629,20 +630,24 @@ button.DialogButton.Disabled:hover /* Basic */ {
 }
 /* Root */
 /* Base */
-.DesktopUI .PP7LM0Ow1K5qkR8WElLpt /* BG */{
+.DesktopUI .PP7LM0Ow1K5qkR8WElLpt, /* BG */
+.PP7LM0Ow1K5qkR8WElLpt {
     color: var(--md-sys-color-on-surface);
-    background-color: var(--md-sys-color-surface-container);
+    background: var(--md-sys-color-surface-container);
 }
 /* Items */
-.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI /* Base */ {
+.DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI, /* Base */
+._1n7Wloe5jZ6fSuvV18NNWI {
     color: var(--md-sys-color-on-surface);
-    background-color: var(--md-sys-color-surface-container);
+    background: var(--md-sys-color-surface-container);
 }
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI:hover, /* Hover */
+._1n7Wloe5jZ6fSuvV18NNWI:hover,
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC:focus, /* Library Category Fix */
-._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:focus.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:focus /* Library Sort By Fix */ {
+._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:focus.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu:focus, /* Library Sort By Fix */
+._1n7Wloe5jZ6fSuvV18NNWI:hover, ._1n7Wloe5jZ6fSuvV18NNWI._18z-3vkWndCBO5WJgFldRK {
     color: var(--md-sys-color-on-surface);
-    background-color: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
 }
 /* Highlight */
 .HoGkIKTQnkTEFGjqO-GMl ._11phBiBefcVQdzrnrezkKa, .HoGkIKTQnkTEFGjqO-GMl ._2jphjrSifC6orDT4g_7Wd /* Account Name & Balance */ {
@@ -754,9 +759,10 @@ Green Notification
     background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
 }
 ._5wILZhsLODVwGfcJ0hKmJ:active {
-    background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
+    background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
 }
 /* Icon */
+._5wILZhsLODVwGfcJ0hKmJ:active ._34bQcTHo5QKzuujoEyU1tm,
 ._5wILZhsLODVwGfcJ0hKmJ:hover ._34bQcTHo5QKzuujoEyU1tm {
     color: var(--md-sys-color-on-surface);
     fill: var(--md-sys-color-on-surface);
@@ -791,6 +797,7 @@ Green Notification
     background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
 }
 /* Icon */
+.RtSv39ZoBOySnb8XQ5hJf._9YK5IY219Pm_F53DAxyYp:not(._1QQWjaXmb1eTHZpeIhQA_5):active ._34bQcTHo5QKzuujoEyU1tm,
 .RtSv39ZoBOySnb8XQ5hJf._9YK5IY219Pm_F53DAxyYp:not(._1QQWjaXmb1eTHZpeIhQA_5):hover ._34bQcTHo5QKzuujoEyU1tm {
     color: var(--md-sys-color-on-surface);
     fill: var(--md-sys-color-on-surface);
@@ -2353,4 +2360,236 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 ._2NdiftmP-B3C4LPWnNGTCB ._2auM-VHPU-KKomAWyuWrSV {
     color: var(--md-sys-color-on-surface-variant);
     fill: var(--md-sys-color-on-surface-variant);
+}
+
+
+/* -- FRIENDS -- */
+/* Chat */
+.chatWindow,
+.chatWindow .chatHeader,
+.chatWindow .chatEntry {
+    background: var(--md-sys-color-surface);
+}
+.OneOnOneVoiceStatusLabel {
+    color: var(--md-sys-color-on-surface-variant);
+}
+/* Top */
+.titleBarContainer.ChatTabs,
+.chatDialogs {
+    background: var(--md-sys-color-surface-container);
+}
+/* Tabs */
+/* ._2XZq-_f6npaQdAgeRzKIkz {
+    background: var(--md-sys-color-surface);
+} */
+._2XZq-_f6npaQdAgeRzKIkz:hover:not(.Yd-DsWkYiFiYwpci--Yk_) {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-surface) var(--layer-action-hover));
+}
+._2XZq-_f6npaQdAgeRzKIkz:active:not(.Yd-DsWkYiFiYwpci--Yk_) {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-surface) var(--layer-action-hover));
+}
+._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ /* Chosen */ {
+    background: var(--md-sys-color-surface);
+}
+/* Input */
+._3Ule3rolhZJiBN4yNNtk1s {
+    background: var(--md-sys-color-surface-container);
+}
+._113iuw_HlE_qSgt9cGWCSv {
+    color: var(--md-sys-color-on-surface);
+}
+/* Emoji & File */
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i {
+    background: transparent;
+}
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW:hover, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i:hover {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW:active, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i:active {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW svg, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i svg {
+    color: var(--md-sys-color-on-surface-variant);
+}
+/* Send Msg */
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-disabled));
+}
+.RVIs84dAE6wHcjH9tkinc .SVGIcon_Submit path {
+    fill: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-disabled));
+}
+/* Active */
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) {
+    background: var(--md-sys-color-primary);
+}
+.RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):focus .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy):hover .SVGIcon_Button.SVGIcon_Submit path, .RVIs84dAE6wHcjH9tkinc:not(.jaQN2IyN4P8LZXJ6P11qy) .SVGIcon_Button.SVGIcon_Submit path {
+    fill: var(--md-sys-color-on-primary);
+}
+/* Voice */
+.VoiceToggle {
+    background: var(--md-sys-color-surface-container);
+}
+.VoiceToggle.Inactive:hover {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+.VoiceToggle.Inactive:active {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+.friendsui-container .SVGIcon_TextRoom, .friendsui-container .SVGIcon_Button.SVGIcon_TextRoom, .friendsui-container .SVGIcon_VoiceRoom, .friendsui-container .SVGIcon_Button.SVGIcon_VoiceRoom {
+    color: var(--md-sys-color-on-surface-variant);
+}
+/* Voice Button */
+.VoiceToggle.Active,
+.inviteButton.inviteButtonJoinVoice,
+.ChatMessageInvite .inviteButton {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+.VoiceToggle.Active svg,
+.VoiceToggle.Active:focus svg,
+.VoiceToggle.Active:hover svg,
+.VoiceToggle.Active:active svg {
+    color: var(--md-sys-color-on-primary);
+}
+.VoiceToggle.Active:focus, .VoiceToggle.Active:hover,
+.inviteButton.inviteButtonJoinVoice:hover,
+.ChatMessageInvite .inviteButton:hover {
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+.VoiceToggle.Active:active,
+.inviteButton.inviteButtonJoinVoice:active,
+.ChatMessageInvite .inviteButton:active {
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+}
+/* Voice Control */
+.ChatMessageEntryVoice .activeVoicePushToTalk {
+    color: var(--md-sys-color-on-primary-container);
+    background: var(--md-sys-color-primary-container);
+}
+/* Default */
+.ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleVoiceOutputButton, .ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleMicrophoneButton {
+    background: var(--md-sys-color-surface-container);
+}
+.ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleVoiceOutputButton:hover, .ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleMicrophoneButton:hover {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+.ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleVoiceOutputButton:active, .ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleMicrophoneButton:active {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+.ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleVoiceOutputButton svg, .ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleMicrophoneButton svg {
+    color: var(--md-sys-color-primary);
+}
+/* Active */
+.ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleVoiceOutputButton.disabled, .ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleMicrophoneButton.disabled {
+    background: var(--md-sys-color-primary);
+}
+.ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleVoiceOutputButton.disabled:hover, .ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleMicrophoneButton.disabled:hover {
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+.ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleVoiceOutputButton.disabled:active, .ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleMicrophoneButton.disabled:active {
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+.ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleVoiceOutputButton.disabled svg, .ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleMicrophoneButton.disabled svg {
+    color: var(--md-sys-color-on-primary);
+}
+/* Voice Close & Invite */
+.inviteAnotherFriendButton,
+.OneOnOneVoiceClose {
+    background: var(--md-sys-color-surface-container);
+}
+.inviteAnotherFriendButton:hover,
+.OneOnOneVoiceClose:hover {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+.inviteAnotherFriendButton:active,
+.OneOnOneVoiceClose:active {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+/* Settings & Invite */
+.inviteAnotherFriendButton .SVGIcon_Button,
+.friendSettingsButton .SVGIcon_Settings {
+    color: var(--md-sys-color-on-surface-variant);
+}
+.inviteAnotherFriendButton:hover .SVGIcon_Button,
+.inviteAnotherFriendButton:active .SVGIcon_Button,
+.friendSettingsButton:hover .SVGIcon_Settings,
+.friendSettingsButton:active .SVGIcon_Settings  {
+    color: var(--md-sys-color-on-surface);
+}
+
+/* Chat */
+.speakerTimeStamp {
+    color: var(--md-sys-color-outline-variant);
+}
+/* Msg */
+/* Other */
+.MultiUserChat .msgText:has(span:first-child):not(:has(div>img)):not(:has(.ChatMessageInvite)) {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container);
+}
+.MultiUserChat .msg:hover .msgText:not(:has(.ChatMessageInvite)):has(img),
+.MultiUserChat .msg:hover .msgText:not(:has(span:first-child)):not(:has(.ChatMessageInvite)) {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-surface) var(--layer-action-hover));
+}
+
+/* Own */
+.MultiUserChat .isCurrentUser .msgText:has(span:first-child):not(:has(div>img)):not(:has(.ChatMessageInvite)) {
+    color: var(--md-sys-color-on-primary-container);
+    background: var(--md-sys-color-primary-container);
+}
+.MultiUserChat .msg.isCurrentUser:hover .msgText:not(:has(.ChatMessageInvite)):has(img),
+.MultiUserChat .msg.isCurrentUser:hover .msgText:not(:has(span:first-child)):not(:has(.ChatMessageInvite)) {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary-container) var(--layer-action-hover));
+}
+
+/* Options on hold */
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-highest);
+}
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG ._2ovvDFSsxzUoYuqzJsxecQ:hover {
+    color: var(--md-sys-color-on-surface);
+}
+
+/* Invite */
+.msg.isCurrentUser .TradeOfferInvite {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container);
+}
+.ChatMessageInvite .inviteURLLinkDesc {
+    color: var(--md-sys-color-on-surface-variant);
+}
+.friendsui-container .SVGIcon_Button.SVGIcon_CopyToClipboard {
+    stroke: var(--md-sys-color-on-surface-variant);
+}
+
+/* Misc */
+.msg.voiceChannelInvite,
+.msg.voiceChannelInviteClearlInvite {
+    color: var(--md-sys-color-primary);
+}
+.timeDivision.time_passes .preHorizDivider, .timeDivision.time_passes .horizDivider {
+    border-color: var(--md-sys-color-outline-variant);
+}
+
+/* Scroll To Bottom */
+.ScrollToBottomButton>span {
+    color: var(--md-sys-color-primary);
+    background: var(--md-sys-color-surface-container-high);
+}
+.ScrollToBottomButton:hover>span {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-primary) var(--layer-action-hover));
+}
+.ScrollToBottomButton:active>span {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-primary) var(--layer-action-active));
+}
+
+/* Connection Trobule */
+.ConnectionTroubleContent {
+    color: var(--md-sys-color-on-error);
+    background: var(--md-sys-color-error);
+}
+.ConnectionTroubleContent .ConnectionTroubleMessage, .ConnectionTroubleContent .ConnectionTroubleReconnectMessage {
+    color: var(--md-sys-color-on-error);
+    text-shadow: unset;
 }

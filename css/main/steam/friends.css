@@ -1,0 +1,215 @@
+/* Title Bar */
+/* Focused? */
+.title-area-highlight {
+    display: none;
+}
+/* Control */
+.friendsui-container .title-area .title-bar-actions, .DesktopUI .title-area .title-bar-actions {
+    margin-top: 4px;
+    margin-right: 6px;
+    gap: 7px;
+}
+.DesktopUI .title-area-icon, .friendsui-container .title-area-icon {
+    border-radius: var(--corner-radius-full);
+    width: 26px;
+    height: 26px;
+}
+/* Chat */
+.chatWindow {
+    border-top-left-radius: var(--corner-radius-large);
+    border-top-right-radius: var(--corner-radius-large);
+}
+/* Top */
+.titleBarContainer.ChatTabs {
+    border: unset;
+    box-shadow: unset;
+}
+.chatWindow .chatHeader {
+    display: none;
+}
+/* Tabs */
+.chatTabSetContainer.inclient {
+    margin-left: 18px;
+}
+/* Tab */
+._2XZq-_f6npaQdAgeRzKIkz {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+}
+/* Idk */
+._1osHa9KHOmdCDNrA232z4N {
+    background: transparent;
+}
+._1qeW35auMlJ5pJVNtBC-bF {
+    display: none;
+}
+/* Input */
+._3Ule3rolhZJiBN4yNNtk1s {
+    border: unset;
+    box-shadow: unset;
+    border-radius: var(--corner-radius-full);
+    order: 2;
+}
+.W0OhkJtz8zMUW8Mhu0BMO {
+    order: 1;
+}
+._113iuw_HlE_qSgt9cGWCSv {
+    margin-right: 92px;
+    border-radius: var(--corner-radius-full);
+}
+/* Send Msg */
+._3Ule3rolhZJiBN4yNNtk1s .RVIs84dAE6wHcjH9tkinc {
+    border: unset;
+    outline: unset;
+    box-shadow: unset;
+    border-radius: var(--corner-radius-full);
+}
+/* Emoji & File, Voice Msg */
+._2WfNoLBdfKwyutA6ho4aSH,
+.ChatMessageEntryVoice.Disabled,
+.ChatMessageEntryVoice {
+    background: unset;
+    border: unset;
+    outline: unset;
+    box-shadow: unset;
+}
+/* Emoji & File */
+._2WfNoLBdfKwyutA6ho4aSH {
+    position: absolute;
+    top: 6px;
+    bottom: 0;
+    right: 72px;
+}
+.RVIs84dAE6wHcjH9tkinc._3zOBeq5W4cNK3lRz_7aroW, .RVIs84dAE6wHcjH9tkinc.Aupswi7-c-w3XwNO5cp2i,
+.VoiceToggle {
+    border: unset;
+    border-radius: var(--corner-radius-full);
+}
+/* Voice */
+.OneOnOneVoiceRoomControls {
+    background: transparent;
+    box-shadow: unset;
+    padding-top: 6px;
+}
+/* Voice Control */
+.ChatMessageEntryVoice.pushToTalkEnabled .activeVoiceButtons {
+    margin-top: unset;
+}
+.ChatMessageEntryVoice .activeVoicePushToTalk,
+.ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleVoiceOutputButton, .ChatMessageEntryVoice.Active .VoiceControlPanelButton.ToggleMicrophoneButton {
+    border-radius: var(--corner-radius-full);
+}
+.ChatMessageEntryVoice.pushToTalkEnabled .activeVoiceButtons .VoiceControlPanelButton:first-child:not(:last-child) {
+    border-top-left-radius: var(--corner-radius-full);
+    border-top-right-radius: var(--corner-radius-extra-large);
+    border-bottom-left-radius: var(--corner-radius-full);
+    border-bottom-right-radius: var(--corner-radius-extra-large);
+}
+.ChatMessageEntryVoice.pushToTalkEnabled .activeVoiceButtons .VoiceControlPanelButton:last-child:not(:first-child) {
+    border-top-left-radius: var(--corner-radius-extra-large);
+    border-top-right-radius: var(--corner-radius-full);
+    border-bottom-left-radius: var(--corner-radius-extra-large);
+    border-bottom-right-radius: var(--corner-radius-full);
+}
+/* Voice Icon */
+._2XZq-_f6npaQdAgeRzKIkz.Yd-DsWkYiFiYwpci--Yk_ .c9l09VKqQIXJvsl0gqItO {
+    border-radius: var(--corner-radius-full);
+    width: 24px;
+}
+.VoiceToggle.Active {
+    border: unset;
+    border-radius: var(--corner-radius-full);
+}
+
+/* Friend */
+.OneOnOneVoiceRoomControls .friend .avatarHolder img.avatar, .friend.emptyFriend .avatarHolder img.avatar {
+    border-bottom: unset;
+}
+
+/* Msgs */
+.MultiUserChat .ChatMessageBlock .msg,
+.BBCodeImageWrapper {
+    background: transparent !important;
+}
+
+.MultiUserChat .msg:not(.ChatMsgSlashEmote) {
+    padding-left: unset;
+    margin-left: 32px;
+}
+
+.MultiUserChat .ChatMessageBlock .msg:not(:has(.chatImageContainer)),
+.MultiUserChat .ChatMessageBlock .msg .msgText:not(:has(.chatImageContainer)) {
+    width: fit-content;
+}
+
+.MultiUserChat .ChatMessageBlock .msg .msgText {
+    padding: 10px 12px;
+}
+
+.MultiUserChat .ChatMessageBlock .msg:nth-child(2):last-child .msgText {
+    border-radius: var(--corner-radius-full);
+}
+
+.MultiUserChat .ChatMessageBlock .msg:nth-child(2):not(:last-child) .msgText {
+    border-top-left-radius: var(--corner-radius-large);
+    border-top-right-radius: var(--corner-radius-large);
+    border-bottom-left-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+}
+
+.MultiUserChat .ChatMessageBlock .msg:not(:nth-child(2)):not(:last-child) .msgText {
+    border-top-left-radius: var(--corner-radius-small);
+    border-top-right-radius: var(--corner-radius-small);
+    border-bottom-left-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+}
+
+.MultiUserChat .ChatMessageBlock .msg:not(:nth-child(2)):last-child .msgText {
+    border-top-left-radius: var(--corner-radius-small);
+    border-top-right-radius: var(--corner-radius-small);
+    border-bottom-left-radius: var(--corner-radius-large);
+    border-bottom-right-radius: var(--corner-radius-large);
+}
+
+.chatImageContainer,
+.chatImageContainer img,
+.MultiUserChat .ChatMessageBlock .msg .msgText:has(img) {
+    border-radius: var(--corner-radius-medium);
+}
+
+/* Options on hold */
+._3qYm9oxf8MdyvQDJgbfCrF ._10OzYaCdn7cgVMec9ozEJG {
+    top: -28px;
+    right: -28px;
+    box-shadow: var(--elevated-shadow);
+    border: unset;
+    border-radius: var(--corner-radius-full);
+}
+
+/* Invite */
+.msg.isCurrentUser .TradeOfferInvite {
+    box-shadow: unset;
+}
+
+/* Misc */
+.MultiUserChat .ChatMessageBlock .msg:has(.voiceChannelInvite),
+.MultiUserChat .ChatMessageBlock .msg:has(.voiceChannelInvite) > div,
+.MultiUserChat .ChatMessageBlock .msg:has(.voiceChannelInviteClear),
+.MultiUserChat .ChatMessageBlock .msg:has(.voiceChannelInviteClear) > div {
+    width: max-content;
+    margin: auto;
+}
+
+/* Scroll To Bottom */
+.ScrollToBottomButton {
+    right: 24px;
+    bottom: 6px;
+    left: unset !important;
+    top: unset !important;
+    box-shadow: unset;
+}
+.ScrollToBottomButton>span {
+    padding: 12px;
+    border-radius: var(--corner-radius-medium);
+    box-shadow: unset;
+}

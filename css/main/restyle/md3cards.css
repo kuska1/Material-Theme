@@ -80,7 +80,7 @@
     border-bottom-left-radius: var(--corner-radius-extra-small) !important;
     border-bottom-right-radius: var(--corner-radius-extra-small) !important;
 }
-.millenniumPluginField :not(:first-of-type):not(:last-of-type) {
+.millenniumPluginField:not(:first-of-type):not(:last-of-type) {
     border-top-left-radius: var(--corner-radius-extra-small) !important;
     border-top-right-radius: var(--corner-radius-extra-small) !important;
     border-bottom-left-radius: var(--corner-radius-extra-small) !important;

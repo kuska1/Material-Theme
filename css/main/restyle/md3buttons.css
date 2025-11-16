@@ -13,9 +13,11 @@ button.DialogButton, .O_nD7TklmaIZ80TPx3rjt button.DialogButton,
 button.DialogButton::before {
     box-shadow: unset;
 }
-.DesktopUI ._1mt2mPMVEDfpOhhWePy9hc .IfVUbt19eXIqaAuGh2i63 {
-    border-radius: var(--corner-radius-full);
+.DesktopUI ._1mt2mPMVEDfpOhhWePy9hc .IfVUbt19eXIqaAuGh2i63,
+.inviteButton.inviteButtonJoinVoice,
+.ChatMessageInvite .inviteButton {
     border: unset;
+    border-radius: var(--corner-radius-full);
     outline: unset;
     box-shadow: unset;
 }

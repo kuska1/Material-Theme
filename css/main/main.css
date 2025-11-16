@@ -36,7 +36,7 @@
 
     /* --- CORNERS --- */
 
-    --corner-radius-full: 50px;
+    --corner-radius-full: 9999px;
     --corner-radius-extra-large: 28px;
     --corner-radius-large: 16px;
     --corner-radius-medium: 12px;

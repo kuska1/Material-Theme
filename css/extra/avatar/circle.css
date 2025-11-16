@@ -28,7 +28,9 @@
 /* Online Fix */
 .playerAvatar, .friend_block_holder .friend_block_avatar, .friend_activity .friend_block_avatar,
 /* Notifications */
-._32niVn3s7EKoKY0-pASwDJ {
+._32niVn3s7EKoKY0-pASwDJ,
+/* Chat */
+.friend.emptyFriend .avatarHolder img.avatar {
 	border-radius: var(--corner-radius-full) !important;
 }
 .playerAvatar.profile_header_size,
