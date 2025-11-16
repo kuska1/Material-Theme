@@ -10,7 +10,7 @@
 ._3h-QRJGxnVOIExtHD1R0f2 {
 	outline: unset;
 }
-/*offline*/ ._3h-QRJGxnVOIExtHD1R0f2 {
+._3h-QRJGxnVOIExtHD1R0f2 {
 	outline-color: unset;
 }
 .online ._3h-QRJGxnVOIExtHD1R0f2 {
@@ -41,7 +41,7 @@
 
 /* Replace to Alt Online icon */
 ._3xUpb5DWXPFNcHHIcv-9pe {
-	border-radius: 100% !important;
+	border-radius: 9999px !important;
 	outline: solid 2px transparent;
 }
 ._3xUpb5DWXPFNcHHIcv-9pe.right {
@@ -71,29 +71,116 @@
     height: 28%;
 }
 
+/* Chat */
+._21I8pyEfvklCsrYIcsBtYY .avatarHolder .avatarStatus {
+    top: unset !important;
+    bottom: 0px !important;
+    width: 8px !important;
+    height: 8px !important;
+	z-index: 99 !important;
+	border-radius: 9999px !important;
+}
+.ChatRoomSpeaker .speaker .speakerStatus, .ChatMsgSlashEmote .speaker .speakerStatus {
+    width: 6px !important;
+    height: 6px !important;
+    align-self: end !important;
+    margin-left: -6px !important;
+    z-index: 99 !important;
+	border-radius: 9999px !important;
+}
+
+/* Notifications */
+.zXrpABNQHpWKgSzqnGlL ._1iutOH026zK2dbpsMFDmMm {
+	align-self: end;
+	width: 8px;
+    height: 8px;
+    margin-left: -8px;
+    margin-bottom: 4px;
+    border-radius: 9999px;
+}
+
+/* Community */
+.playerAvatar,
+.playerAvatar img {
+	background: unset !important;
+}
+.playerAvatar {
+	position: relative;
+}
+.playerAvatar::before {
+	content: "";
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	right: 2px;
+	bottom: 2px;
+	border-radius: 9999px;
+	z-index: 99;
+}
+.profile_header_content:has(:not(.profile_avatar_frame)) .playerAvatar::before {
+	right: 12px;
+	bottom: 12px;
+}
+.profile_header_content .playerAvatar::before {
+	width: 24px;
+	height: 24px;
+}
+
+.miniprofile_playersection .playersection_avatar {
+	border: unset !important;
+	position: relative;
+}
+.miniprofile_playersection .playersection_avatar::before {
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	right: 4px;
+	bottom: 4px;
+	border-radius: 9999px;
+	z-index: 99;
+}
+.miniprofile_playersection:has(.playersection_avatar_frame) .playersection_avatar::before {
+	right: 0px;
+	bottom: 0px;
+}
+
 /* Color Online Icons */
 /* Offline */
 ._3xUpb5DWXPFNcHHIcv-9pe.right,
-._3xUpb5DWXPFNcHHIcv-9pe.bottom {
+._3xUpb5DWXPFNcHHIcv-9pe.bottom,
+.zXrpABNQHpWKgSzqnGlL ._1iutOH026zK2dbpsMFDmMm,
+.playerAvatar::before,
+.miniprofile_playersection .playersection_avatar::before  {
 	background: var(--indicator-offline);
 }
 /* Online */
 .online ._3xUpb5DWXPFNcHHIcv-9pe.right,
-.online ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
+.online ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
+.zXrpABNQHpWKgSzqnGlL ._1iutOH026zK2dbpsMFDmMm.online,
+.playerAvatar.online::before,
+.miniprofile_playersection .playersection_avatar.border_color_online::before {
 	background: var(--indicator-online);
 }
 /* Away */
 .awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.right,
-.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
+.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
+.zXrpABNQHpWKgSzqnGlL ._1iutOH026zK2dbpsMFDmMm.away,
+.playerAvatar.away::before,
+.miniprofile_playersection .playersection_avatar.border_color_away::before {
 	background: var(--indicator-away);
 }
 /* Ingame */
 .ingame ._3xUpb5DWXPFNcHHIcv-9pe.right,
-.ingame ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
+.ingame ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
+.zXrpABNQHpWKgSzqnGlL ._1iutOH026zK2dbpsMFDmMm.ingame,
+.playerAvatar.in-game::before,
+.miniprofile_playersection .playersection_avatar.border_color_in-game::before {
 	background: var(--indicator-ingame);
 }
 /* Ingame Away */
 .ingame.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.right,
-.ingame.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
+.ingame.awayOrSnooze ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
+.zXrpABNQHpWKgSzqnGlL ._1iutOH026zK2dbpsMFDmMm.ingame.away {
 	background: var(--indicator-ingame-away);
 }

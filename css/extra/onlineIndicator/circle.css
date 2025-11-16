@@ -6,7 +6,6 @@
 }
 .miniprofile_playersection .playersection_avatar img {
 	outline: 2px solid;
-	transition: .35s linear;
 }
 .miniprofile_playersection .playersection_avatar.border_color_offline img {
 	outline-color: var(--indicator-offline);
@@ -21,8 +20,11 @@
 /* Library / Community */
 .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
 .nibodjvvrm86uCfnnAn4g ._3xUpb5DWXPFNcHHIcv-9pe.right, 
-._3xUpb5DWXPFNcHHIcv-9pe {
-	visibility: hidden;
+._3xUpb5DWXPFNcHHIcv-9pe,
+/* Notifications */
+._1iutOH026zK2dbpsMFDmMm,
+.ChatRoomSpeaker .speaker .speakerStatus, .ChatMsgSlashEmote .speaker .speakerStatus  {
+	visibility: hidden !important;
 }
 .friend_block_link_overlay {
 	border: unset !important;
@@ -30,33 +32,41 @@
 .player_avatar img {
 	border: unset !important;
 	outline: 2px solid;
-	transition: .35s linear;
 }
+/* Friends */
 ._3h-QRJGxnVOIExtHD1R0f2 {
 	outline: 1px solid;
-	transition: .35s linear;
+}
+/* Notifications */
+._32niVn3s7EKoKY0-pASwDJ {
+	outline: 2px solid;
 }
 /* Offline */
 .friend_block_link_overlay img,
-._3h-QRJGxnVOIExtHD1R0f2 {
+._3h-QRJGxnVOIExtHD1R0f2,
+._2NdiftmP-B3C4LPWnNGTCB:has(._1iutOH026zK2dbpsMFDmMm) ._32niVn3s7EKoKY0-pASwDJ  {
 	outline-color: var(--indicator-offline);
 }
 /* Online */
 .friend_block_link_overlay.online img,
-.online ._3h-QRJGxnVOIExtHD1R0f2 {
+.online ._3h-QRJGxnVOIExtHD1R0f2,
+._2NdiftmP-B3C4LPWnNGTCB:has(._1iutOH026zK2dbpsMFDmMm.online) ._32niVn3s7EKoKY0-pASwDJ {
 	outline-color: var(--indicator-online);
 }
 /* Away */
 .friend_block_link_overlay.away img,
-.awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
+.awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2,
+._2NdiftmP-B3C4LPWnNGTCB:has(._1iutOH026zK2dbpsMFDmMm.away) ._32niVn3s7EKoKY0-pASwDJ {
 	outline: 1px dashed var(--indicator-away);
 }
 /* Ingame */
 .friend_block_link_overlay.in-game img,
-.ingame ._3h-QRJGxnVOIExtHD1R0f2 {
+.ingame ._3h-QRJGxnVOIExtHD1R0f2,
+._2NdiftmP-B3C4LPWnNGTCB:has(._1iutOH026zK2dbpsMFDmMm.ingame) ._32niVn3s7EKoKY0-pASwDJ {
 	outline-color: var(--indicator-ingame);
 }
 /* Ingame Away */
-.ingame.awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2 {
+.ingame.awayOrSnooze ._3h-QRJGxnVOIExtHD1R0f2,
+._2NdiftmP-B3C4LPWnNGTCB:has(._1iutOH026zK2dbpsMFDmMm.ingame-away) ._32niVn3s7EKoKY0-pASwDJ {
 	outline: 1px dashed var(--indicator-ingame-away);
 }

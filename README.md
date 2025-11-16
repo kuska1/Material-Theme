@@ -10,6 +10,7 @@
 
 # Material
 ### Theme for Steam (Millenium) based on Google's Material 3 Design with some Features.
+[Discord](https://discord.gg/aGcKmX5KTs)
 
 ## Screenshots
 ![Library](https://github.com/kuska1/Material-Theme/blob/main/.github/library.jpg?raw=true)
@@ -62,6 +63,4 @@
 * [SpaceTheme](https://github.com/SpaceTheme/Steam)
 
 ## Contact & Support
-[![kuska1](https://img.shields.io/badge/kuska1-blue?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://kuska1.github.io)
-
-https://kuska1.github.io
+[Discord Server](https://discord.gg/aGcKmX5KTs) or [Personal Website](https://kuska1.github.io)
