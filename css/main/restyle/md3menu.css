@@ -34,8 +34,23 @@ html._14wqdluDeDnnEcg3OSLEmd ._2EstNjFIIZm_WUSKm5Wt7n {
     margin-bottom: 8px;
     padding: unset;
 }
-._1n7Wloe5jZ6fSuvV18NNWI, ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI {
+._1n7Wloe5jZ6fSuvV18NNWI:not(.contextMenuGameTitle), ._3qIuY9S_vXm3IQS-uE9SRS ._1n7Wloe5jZ6fSuvV18NNWI {
     padding: 8px 22px;
+}
+/* On Game Event Click */
+._1n7Wloe5jZ6fSuvV18NNWI.contextMenuGameTitle {
+    border-radius: var(--corner-radius-medium);
+}
+._1n7Wloe5jZ6fSuvV18NNWI .contextMenuGameHeader .GameHeader {
+    border-radius: var(--corner-radius-small);
+}
+.contextMenuGameTitleBlurCropContainer {
+    -webkit-mask: unset;
+    mask: unset;
+}
+/* Game Title */
+.contextMenuGameTitle {
+    background: unset !important;
 }
 
 /* Library Dropdown Fix */

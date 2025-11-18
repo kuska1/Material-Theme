@@ -184,6 +184,11 @@
                         "affects": [".*"], "src": "css/extra/steamIcon/google.css"
                     }
                 },
+                "Gemini": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/steamIcon/gemini.css"
+                    }
+                },
                 "Appearance": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/extra/steamIcon/appearance.css"
@@ -197,7 +202,7 @@
             }
         },
         "Toolbar Title Based on Icon": {
-            "description": "Choose \"Steam\" title to icon name.",
+            "description": "Change \"Steam\" title to icon name.",
             "default": "yes",
             "tab": "Toolbar",
             "values": {
@@ -680,11 +685,6 @@
                 "Color Scheme": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/extra/loading/colorscheme.css"
-                    }
-                },
-                "Shapes": {
-                    "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/loading/shapes.css"
                     }
                 }
             }
