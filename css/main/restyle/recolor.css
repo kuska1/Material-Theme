@@ -1073,10 +1073,10 @@ Green Notification
 ._1mt2mPMVEDfpOhhWePy9hc:focus .IfVUbt19eXIqaAuGh2i63, ._1mt2mPMVEDfpOhhWePy9hc:hover .IfVUbt19eXIqaAuGh2i63 {
     background-color: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
 }
-/* TEST QR */
-.xlEVpBeYO1h2tOqErt9fj, .xlEVpBeYO1h2tOqErt9fj {
+/* Login QR, Depricated */
+/* .xlEVpBeYO1h2tOqErt9fj, .xlEVpBeYO1h2tOqErt9fj {
     border-color: var(--md-sys-color-primary) !important;
-}
+} */
 ._1YVDTFYSTDWouyIbRs_hN_:not(._1zNnNw2BDhrN6ML6YxBYJE) {
     background-color: var(--md-sys-color-primary) !important;
 }
