@@ -142,8 +142,8 @@
 	z-index: 99;
 }
 .profile_header_content:has(:not(.profile_avatar_frame)) .playerAvatar::before {
-	right: 12px;
-	bottom: 12px;
+	right: 4px;
+	bottom: 4px;
 }
 .profile_header_content .playerAvatar::before {
 	width: 24px;
@@ -167,6 +167,11 @@
 .miniprofile_playersection:has(.playersection_avatar_frame) .playersection_avatar::before {
 	right: 0px;
 	bottom: 0px;
+}
+
+/* Friend Indicator Fix */
+.commentthread_comment_friendindicator {
+	left: 0px !important;
 }
 
 /* Color Online Icons */

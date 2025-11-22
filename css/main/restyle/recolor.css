@@ -797,7 +797,7 @@ Green Notification
     background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
 }
 /* Icon */
-._5wILZhsLODVwGfcJ0hKmJ._1oEwirQksXfZ-3RWWslbAR ._34bQcTHo5QKzuujoEyU1tm
+._5wILZhsLODVwGfcJ0hKmJ._1oEwirQksXfZ-3RWWslbAR ._34bQcTHo5QKzuujoEyU1tm,
 ._5wILZhsLODVwGfcJ0hKmJ._1oEwirQksXfZ-3RWWslbAR:hover ._34bQcTHo5QKzuujoEyU1tm {
     color: var(--md-sys-color-on-primary);
     fill: var(--md-sys-color-on-primary);
@@ -828,14 +828,20 @@ Green Notification
 /* New */
 /* Bg */
 .RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd {
+    color: var(--md-sys-color-on-primary);
+    fill: var(--md-sys-color-on-primary);
     background-color: var(--md-sys-color-primary);
 }
 .RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:hover,
 .RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:not(._1QQWjaXmb1eTHZpeIhQA_5):hover {
+    color: var(--md-sys-color-on-primary);
+    fill: var(--md-sys-color-on-primary);
     background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
 .RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:active,
 .RtSv39ZoBOySnb8XQ5hJf._3L1c8C0o_xXzPy26aoLBFd:not(._1QQWjaXmb1eTHZpeIhQA_5):active {
+    color: var(--md-sys-color-on-primary);
+    fill: var(--md-sys-color-on-primary);
     background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
 }
 /* Icon */
