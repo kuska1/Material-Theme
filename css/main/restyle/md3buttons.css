@@ -98,10 +98,10 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
     border-top-left-radius: var(--corner-radius-small);
     border-bottom-left-radius: var(--corner-radius-small);
 }
-body:has(._2yAm5LY_eu-Vg_52l0HFlM, .DesktopUI .PP7LM0Ow1K5qkR8WElLpt) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
+body:has(._2yAm5LY_eu-Vg_52l0HFlM ._1mpeIo_E-qVxqb3DeRrQvl) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi {
     border-radius: var(--corner-radius-full);
 }
-body:has(._2yAm5LY_eu-Vg_52l0HFlM, .DesktopUI .PP7LM0Ow1K5qkR8WElLpt) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg {
+body:has(._2yAm5LY_eu-Vg_52l0HFlM ._1mpeIo_E-qVxqb3DeRrQvl) ._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg {
     transform: rotate(360deg) !important;
 }
 

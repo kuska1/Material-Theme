@@ -619,6 +619,7 @@ button.DialogButton.Disabled:hover /* Basic */ {
 ._1n7Wloe5jZ6fSuvV18NNWI._2RlEO6dx1vo3OB7EFJnzDi .SVGIcon_DownArrowContextMenu, /* Icon */
 ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu /* Library Sort By Fix */ {
     color: var(--md-sys-color-on-surface);
+    fill: var(--md-sys-color-on-surface);
 }
 .DesktopUI .DialogToggle_Label ._3A3N3EnrSNMQLL058Qbzsn {
     color: var(--md-sys-color-outline);
@@ -1508,6 +1509,7 @@ Green Notification
     color: var(--md-sys-color-outline);
 }
 /* Buttons */
+._35_OgqfHHZfSzTYfv367K6,
 ._1kCN0pAntrcGCSmcc-vYdk {
     color: var(--md-sys-color-on-primary);
     background: var(--md-sys-color-primary);
@@ -1518,6 +1520,7 @@ Green Notification
     color: var(--md-sys-color-on-primary) !important;
     fill: var(--md-sys-color-on-primary);
 }
+._35_OgqfHHZfSzTYfv367K6:hover,
 ._1kCN0pAntrcGCSmcc-vYdk:not(.Z3L6KGVxi4ZjGUzbYUjBC):hover {
     color: var(--md-sys-color-on-primary);
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
@@ -1841,7 +1844,8 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 ._2MKO5j24KqDdD-92hH5FXi:after {
     box-shadow: unset;
 }
-._2MKO5j24KqDdD-92hH5FXi {
+._2MKO5j24KqDdD-92hH5FXi,
+._284XbL-B7aHiK4XgyI2DPS {
     background: var(--md-sys-color-surface);
     outline-color: var(--md-sys-color-outline-variant);
 }
