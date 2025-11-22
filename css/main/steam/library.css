@@ -95,16 +95,24 @@
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU {
     border-radius: var(--corner-radius-full);
 }
+
 ._172OFJhtx4Jt2ydY6-9IUm, /* When Filter Opened */
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU._1Gjk27xaRIzt2zOSwOSP0N /* When Inputed */ {
     display: none;
 }
-._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase::before {
+/* ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7 .Woh0kBQCmatzC1daBX9i6:before {
+    border-radius: var(--corner-radius-full);
+}
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7._1v65xCmMo53Ju6vCXk4U0_ .Woh0kBQCmatzC1daBX9i6:before {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+} */
+/* ._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase::before {
     content: "";
     width: 100%;
     height: 100%;
     background-color: red;
-}
+} */
 /* Category */
 ._2sYIghGVXJr6tsQVvcryy8, /* Base */
 ._2sYIghGVXJr6tsQVvcryy8.sXMOsx8OIRalBMxO9yFY5, /* Chosen */

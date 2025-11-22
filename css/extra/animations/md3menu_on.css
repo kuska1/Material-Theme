@@ -6,6 +6,15 @@ html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt /* Root */ {
     transform-origin: top;
 }
 
+/* Anim Fix */
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7 .Woh0kBQCmatzC1daBX9i6 {
+    transform-origin: left;
+    transform: scale(0, 1);
+}
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7._1v65xCmMo53Ju6vCXk4U0_ .Woh0kBQCmatzC1daBX9i6 {
+    transform: scale(1, 1);
+}
+
 @keyframes openContextMenu {
     0% {
         opacity: 0;
