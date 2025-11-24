@@ -617,9 +617,11 @@ button.DialogButton.Disabled:hover /* Basic */ {
 ._2oAiZidGyUxL-hfupFDQ2m, /* Text */
 .DesktopUI .DialogToggle_Label,
 ._1n7Wloe5jZ6fSuvV18NNWI._2RlEO6dx1vo3OB7EFJnzDi .SVGIcon_DownArrowContextMenu, /* Icon */
+._1n7Wloe5jZ6fSuvV18NNWI .SVGIcon_PlusCircle line,
 ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu /* Library Sort By Fix */ {
     color: var(--md-sys-color-on-surface);
     fill: var(--md-sys-color-on-surface);
+    stroke: var(--md-sys-color-on-surface);
 }
 .DesktopUI .DialogToggle_Label ._3A3N3EnrSNMQLL058Qbzsn {
     color: var(--md-sys-color-outline);
@@ -697,13 +699,14 @@ button.DialogButton.Disabled:hover /* Basic */ {
     border-bottom-color: var(--md-sys-color-on-surface);
 }
 /* Focus / Active */
+.DialogTextInputBase:not(:disabled):focus-visible,
 .DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within,
 .lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx:focus-within,
 ._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._2cXhAZJGVLrDD_TVE6hdwq:focus-within,
 ._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc .DialogInput_Wrapper .DialogTextInputBase.Focusable:focus {
     color: var(--md-sys-color-on-surface);
     background-color: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-active));
-    border-bottom-color: var( --md-sys-color-primary);
+    border-bottom-color: var(--md-sys-color-primary);
 }
 /* Title */
 .DialogLabel, .DialogLabelStrong {
@@ -1411,16 +1414,17 @@ Green Notification
 /* Text & Icon */
 ._3AjoLnMNKxYmNTGTJCLfgs._1_Bo2Ied5s2Od4YKYTOsau:not(._1aml4h4CSJbtrNbX4brUYs) .SVGIcon_Play,
 ._54PuCatl_tYG836TOs4Mv ._3AjoLnMNKxYmNTGTJCLfgs:hover:not(._1aml4h4CSJbtrNbX4brUYs) .SVGIcon_Play,
-._3AjoLnMNKxYmNTGTJCLfgs svg path {
+._3AjoLnMNKxYmNTGTJCLfgs svg, ._3AjoLnMNKxYmNTGTJCLfgs svg path, ._3AjoLnMNKxYmNTGTJCLfgs svg line {
     color: var(--md-sys-color-on-primary);
     fill: var(--md-sys-color-on-primary);
+    stroke: var(--md-sys-color-on-primary);
 }
 /* Game Opened */
 ._3FmxxjyWNHU1PrBGnBe6tm._2l416KfEtI4CL0mCUEmOBw {
     background: var(--md-sys-color-surface);
 }
 /* Game Info Bar */
-._34lrt5-Fc3usZU6trA1P0- /* Category Header */{
+._34lrt5-Fc3usZU6trA1P0- /* Category Header */ {
     color: var(--md-sys-color-on-surface);
 }
 ._2TYVGoD27ZMfjRirKQNLfk, ._3pS8kMrtScuY1Qf-W8tmRV ._1nfJNsQjTOXSQQyFahGnRi /* Category SubHeader */ {
@@ -2406,15 +2410,21 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
     background-color: color-mix(in srgb, var(--md-sys-color-surface), var(--md-sys-color-on-surface) var(--layer-action-active));
 }
 /* Text */
-._2NdiftmP-B3C4LPWnNGTCB ._3m94SADycX0JIk8urdZQ2X {
+._2NdiftmP-B3C4LPWnNGTCB ._3m94SADycX0JIk8urdZQ2X,
+.QFW0BtI4l77AFmv1xLAkx ._1VRx9qVxigUC4qeM0NWNMR, ._3B8wRA4H7e_oSksYNqpSPv ._1VRx9qVxigUC4qeM0NWNMR, ._2NdiftmP-B3C4LPWnNGTCB ._1VRx9qVxigUC4qeM0NWNMR, ._25gii5r23MmAqXvLZj24tK ._1VRx9qVxigUC4qeM0NWNMR, ._3k90ug209sE23xAMqcM74s ._1VRx9qVxigUC4qeM0NWNMR /* Steam Icon */ {
     color: var(--md-sys-color-on-surface);
     fill: var(--md-sys-color-on-surface);
 }
 /* Other text */
 ._2NdiftmP-B3C4LPWnNGTCB ._1XTFkmspXcukxWSFz5Fn61,
-._2NdiftmP-B3C4LPWnNGTCB ._2auM-VHPU-KKomAWyuWrSV {
+._2NdiftmP-B3C4LPWnNGTCB ._2auM-VHPU-KKomAWyuWrSV,
+._3JT9UI68R_-oZc63_NRIcA {
     color: var(--md-sys-color-on-surface-variant);
     fill: var(--md-sys-color-on-surface-variant);
+}
+/* Footer */
+._3yiWpBXwEmDLlaIupVXjUt {
+    color: var(--md-sys-color-outline);
 }
 
 
@@ -2680,3 +2690,26 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 /* .msg .gameInviteSelf {
     background: color-mix(in srgb, transparent, var(--md-sys-color-primary-container) var(--layer-action-hover));
 } */
+
+/* Writing */
+.FriendChatTypingNotification {
+    background: transparent;
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+/* Reaction */
+._2FJUPOjT7afeB0125mqdQt {
+    color: var(--md-sys-color-surface-container-high);
+}
+
+._2FJUPOjT7afeB0125mqdQt:hover {
+    color: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+
+.UA15KlVbtDSJkqSpIAMIN {
+    background: var(--md-sys-color-surface-container-high);
+}
+
+.UA15KlVbtDSJkqSpIAMIN:hover {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}

@@ -72,6 +72,11 @@
     border-bottom-right-radius: var(--corner-radius-medium);
 }
 
+/* Fix */
+.RtSv39ZoBOySnb8XQ5hJf._9YK5IY219Pm_F53DAxyYp {
+    animation: unset;
+}
+
 /* STYLE 1 TEST */
 /* ._3Z3ohQ8-1NKnCZkbS6fvy {
     position: absolute !important;
