@@ -7,8 +7,10 @@
     color: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-offline) 50%);
 }
 /* Online */
-.online .nOdcT-MoOaXGePXLyPe0H {
+.online .nOdcT-MoOaXGePXLyPe0H,
+:not(.friendInviteContainer) .online .ContextMenuButton .SVGIcon_DownArrowContextMenu {
     color: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 60%);
+    fill: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 60%);
 }
 .online ._2Ri005Wg_uXDTa71kdRbcN {
     color: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 50%);
@@ -2429,7 +2431,120 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 
 
 /* -- FRIENDS -- */
-/* Chat */
+/* - COMMON - */
+/* Connection Trobule */
+.ConnectionTroubleContent {
+    color: var(--md-sys-color-on-error);
+    background: var(--md-sys-color-error);
+}
+.ConnectionTroubleContent .ConnectionTroubleMessage, .ConnectionTroubleContent .ConnectionTroubleReconnectMessage {
+    color: var(--md-sys-color-on-error);
+    text-shadow: unset;
+}
+/* - FRIENDS - */
+.friendListHeaderContainer {
+    background: var(--md-sys-color-surface-container);
+}
+.socialListTab.friendTab,
+.friendlistListContainer {
+    background: var(--md-sys-color-surface);
+}
+/* Tabs & Icons */
+.socialListTab .tabLabel,
+.TabSearchButton .ColorSelector,
+.groupHeaderContainer .SortByRecent .SVGIcon_SortBy,
+.addFriendButton .SVGIcon_AddFriend .friendHead, .addFriendButton .SVGIcon_AddFriend .friendBody,
+.addFriendButton .SVGIcon_AddFriend .plusCircle {
+    color: var(--md-sys-color-on-surface-variant);
+    stroke: var(--md-sys-color-on-surface-variant);
+    fill: var(--md-sys-color-on-surface-variant);
+}
+.addFriendButton:hover .SVGIcon_AddFriend .friendHead, .addFriendButton:hover .SVGIcon_AddFriend .friendBody,
+.addFriendButton:hover .SVGIcon_AddFriend .plusCircle {
+    color: var(--md-sys-color-on-surface);
+    stroke: var(--md-sys-color-on-surface);
+    fill: var(--md-sys-color-on-surface);
+}
+/* Titles */
+.recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName, .friendGroup.gameGroup .groupName,
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
+    color: var(--md-sys-color-on-surface-variant);
+}
+.ExpandPlusMinus .SVGIcon_PlusCircle .horizontalLine, .ExpandPlusMinus .SVGIcon_PlusCircle .verticalLine,
+.friendGroup.offlineFriends .groupName .groupCount, .friendGroup.onlineFriends .groupName .groupCount, .friendGroup .groupName .groupCount.collapsed {
+    color: var(--md-sys-color-outline);
+    stroke:var(--md-sys-color-outline);
+}
+.friendGroup .groupName:hover {
+    color: var(--md-sys-color-on-surface);
+    stroke:var(--md-sys-color-on-surface);
+}
+/* Lines */
+.friend.firstInGroup .SteamPlayerGroupLines,
+.SteamPlayerGroupFooter .SteamPlayerGroupLines {
+    border-color: var(--md-sys-color-outline-variant);
+}
+/* Divider */
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends,
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends,
+.friendGroup.taggedGroup, .friendGroup.gameGroup,
+.friend.lastInGroup .SteamPlayerGroupLines {
+    border-color: var(--md-sys-color-surface-variant);
+}
+/* Chat Rooms */
+.friendsListSectionTitle,
+.chatRoomListContainer {
+    background: var(--md-sys-color-surface-container);
+}
+.friendsListSectionTitle.chatSectionTitle:hover {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+.friendsListSectionTitle {
+    color: var(--md-sys-color-on-surface);
+    fill: var(--md-sys-color-on-surface);
+}
+.friendsListSectionTitle .SVGIcon_NewChatGroup {
+    color: var(--md-sys-color-on-surface-variant);
+    fill: var(--md-sys-color-on-surface-variant);
+}
+.friendsListSectionTitle .createChatRoomButton:hover .SVGIcon_NewChatGroup {
+    color: var(--md-sys-color-on-surface);
+    fill: var(--md-sys-color-on-surface);
+}
+.ToggleGroupChatList .SVGIcon_DoubleArrow polyline {
+    stroke: var(--md-sys-color-on-surface-variant);
+}
+.ToggleGroupChatList:hover .SVGIcon_DoubleArrow polyline {
+    stroke: var(--md-sys-color-on-surface);
+}
+.ChatRoomListGroupItem:hover .ChatRoomListGroupItem_header {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+.ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName,
+.ChatRoomListGroupItem .ContextMenuButton .SVGIcon_DownArrowContextMenu {
+    color: var(--md-sys-color-on-surface-variant);
+    fill: var(--md-sys-color-on-surface-variant);
+}
+.ChatRoomListGroupItem:not(.NonGroupHovered) .ChatRoomListGroupItem_header:hover .chatRoomName,
+.ChatRoomListGroupItem .ContextMenuButton:hover .SVGIcon_DownArrowContextMenu {
+    color: var(--md-sys-color-on-surface);
+    fill: var(--md-sys-color-on-surface);
+}
+/* Icons */
+.ChatRoomMultiFriendAvatar,
+.ChatRoomGroupAvatar {
+    background: var(--md-sys-color-outline-variant);
+    border-color: var(--md-sys-color-outline-variant);
+}
+.ChatRoomGroupAvatar_initials {
+    color: var(--md-sys-color-on-surface-variant);
+}
+/* Footers */
+.friendListFooter {
+    background: var(--md-sys-color-surface-container);
+}
+
+/* - CHAT - */
 .chatWindow,
 .chatWindow .chatHeader,
 .chatWindow .chatEntry {
@@ -2658,16 +2773,6 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 .timeDivision .preHorizDivider,
 .timeDivision .horizDivider {
     background: var(--md-sys-color-outline);
-}
-
-/* Connection Trobule */
-.ConnectionTroubleContent {
-    color: var(--md-sys-color-on-error);
-    background: var(--md-sys-color-error);
-}
-.ConnectionTroubleContent .ConnectionTroubleMessage, .ConnectionTroubleContent .ConnectionTroubleReconnectMessage {
-    color: var(--md-sys-color-on-error);
-    text-shadow: unset;
 }
 
 /* Invite */

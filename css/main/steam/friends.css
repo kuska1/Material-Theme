@@ -1,6 +1,9 @@
+/* -- COMMON -- */
 /* Title Bar */
 /* Focused? */
-.title-area-highlight {
+.title-area-highlight,
+.statusHeaderGlow,
+.singleWindowFocusBar {
     display: none;
 }
 /* Control */
@@ -14,7 +17,29 @@
     width: 26px;
     height: 26px;
 }
-/* Chat */
+
+/* -- FRIENDS -- */
+.friendListHeaderContainer {
+    box-shadow: unset;
+}
+.currentUserContainer {
+    border: unset;
+}
+.socialTabSearchContainer {
+    margin-top: 4px;
+}
+/* Friends Title */
+.socialListTab.friendTab {
+    box-shadow: unset;
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+}
+/* Footer */
+.friendListFooter {
+    box-shadow: unset;
+}
+
+/* -- CHAT -- */
 .chatWindow {
     border-top-left-radius: var(--corner-radius-large);
     border-top-right-radius: var(--corner-radius-large);
