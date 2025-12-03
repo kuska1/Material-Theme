@@ -557,7 +557,7 @@
                 }
             }
         },
-        " - Show balance after hover? ": {
+        " - Show Balance near name after hover? ": {
             "description": "[i]Doesn't work with Full Hide.[/i]",
             "default": "yes",
             "tab": "Privacy",
@@ -629,7 +629,7 @@
                 }
             }
         },
-        " - Show Balance after Hover?": {
+        " - Show Balance in menu after Hover?": {
             "description": "[i]Doesn't work with Full Hide.[/i]",
             "default": "yes",
             "tab": "Privacy",
