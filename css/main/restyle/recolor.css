@@ -340,13 +340,15 @@ button.DialogButton.Disabled:hover /* Basic */ {
     color: var(--md-sys-color-on-primary);
 }
 ._3few7361SOf4k_YuKCmM62 .DialogDropDown, /* Base */
-._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown /* Game Properties Modal */ {
+._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown, /* Game Properties Modal */
+.DesktopUI .MillenniumDesktopSidebar_Content .DialogDropDown._DialogInputContainer /* Millenium Theme Settings */ {
     color: var(--md-sys-color-on-primary);
     background: unset;
     background-color: var(--md-sys-color-primary);
 }
 ._3few7361SOf4k_YuKCmM62 .DialogDropDown:hover, /* Hover */
-._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown:hover /* Game Properties Modal */ {
+._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown:hover, /* Game Properties Modal */
+.DesktopUI .MillenniumDesktopSidebar_Content .DialogDropDown._DialogInputContainer:hover /* Millenium Theme Settings */ {
     color: var(--md-sys-color-on-primary);
     background: unset;
     background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--scheme-color-inverse) var(--layer-action-hover));
@@ -570,7 +572,16 @@ button.DialogButton.Disabled:hover /* Basic */ {
     color: var(--md-sys-color-on-secondary-container);
     background-color: var(--md-sys-color-secondary-container);
 } */
-
+/* Rail Expanded */
+._34nl5vUoFCDYYnmHNL7axB {
+    color: var(--md-sys-color-on-surface);
+}
+.MillenniumDesktopSidebar {
+    background: var(--md-sys-color-surface-container) !important;
+}
+.MillenniumDesktopSidebar_Content ._3gY0aBuNR8_NPTpXIYfkby h4 {
+    color: var(--md-sys-color-on-surface);
+}
 
 /* --- DIVIDER --- */
 

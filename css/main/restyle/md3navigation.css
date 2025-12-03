@@ -17,3 +17,14 @@
 /* ._1-vlriAtKYDViAEunue4VO:hover {
     color: unset;
 } */
+
+
+/* Rail Expanded */
+.MillenniumDesktopSidebar {
+    border-top-left-radius: var(--corner-radius-large);
+    border-bottom-left-radius: var(--corner-radius-large);
+}
+._34nl5vUoFCDYYnmHNL7axB {
+    box-shadow: unset;
+    background: transparent;
+}
