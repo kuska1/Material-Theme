@@ -26,3 +26,21 @@ button.DialogButton, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, button.DialogBut
     transition: 
         all 350ms var(--animation-standart-fast-spatial) !important;
 }
+
+/* Millenium Title Bar Buttons */
+.MillenniumDesktopSidebar_Title .DialogButton {
+    animation:
+        titleBarButtonWidthAnimation var(--animation-duration-long1) var(--animation-expressive-default-effects) !important;
+}
+
+@keyframes titleBarButtonWidthAnimation {
+    0% {
+        max-width: 0px;
+    }
+    99% {
+        max-width: 99px;
+    }
+    100% {
+        max-width: unset;
+    }
+}

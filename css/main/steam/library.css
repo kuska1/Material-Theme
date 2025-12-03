@@ -920,3 +920,59 @@ svg path[d="M10.1777 10.0258L10.3929 9.80693V9.49999V5.52777H14.2857H14.6001L14.
     gap: 6px;
     padding-bottom: 8px;
 }
+
+/* Millenium Tab */
+.MillenniumSettings {
+    border-top: unset !important;
+}
+.MillenniumDesktopSidebar_Title {
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+.MillenniumSidebarThemeEditor_Content ._DialogInputContainer {
+    padding: 8px 10px;
+}
+.MillenniumColorPicker {
+    margin-left: 4px;
+}
+._1rDh5rXSFZJOqCa4UpnI4z .MillenniumSettings ._2kwFFHckg8jvnwJfg9-la8 {
+    padding-top: 12px;
+}
+._1rDh5rXSFZJOqCa4UpnI4z .MillenniumSettings .DialogContent.CFTLX2wIKOK3hNV-fS7_V {
+    margin-top: 0px;
+}
+/* ._1rDh5rXSFZJOqCa4UpnI4z .MillenniumSettings ._2rjVTGz8aLvqOdz5v2gq5C {
+    font-size: var(--font-headline-medium-size);
+    margin-bottom: 16px;
+} */
+
+/* Original code from SpaceTheme */
+/* .MillenniumSettings.ModalDialogPopup .OX7USkJ5dDP_icD00Gal6 .aFxOaYcllWYkCfVYQJFs0 .eKmEXJCm_lgme24Fp_HWt[data-theme-name="Material"] ._2VcTlXFC64Jtg9gvtT6cmY::after {
+    content: "";
+    z-index: -1;
+    opacity: .2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-image: url(../../../.github/banner.jpg);
+    background-size: cover;
+    background-position: center 35%;
+} */
+
+/* .MillenniumSidebarThemeEditor_Content .Use.Experimental.Features {
+    margin-top: 4px;
+    border-radius: var(--corner-radius-medium);
+} */
+
+/* Test */
+._2rjVTGz8aLvqOdz5v2gq5C {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 14px;
+    padding-inline-end: unset !important;
+    padding-inline-start: unset !important;
+}

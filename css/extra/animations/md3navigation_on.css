@@ -1,3 +1,23 @@
 ._1-vlriAtKYDViAEunue4VO, ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR.DesktopUI, .DesktopUI ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR {
     transition: var(--animation-basic-medium);
 }
+
+.MillenniumDesktopSidebar_Overlay,
+.MillenniumDesktopSidebar {
+    transition: all var(--animation-expressive-default-effects) var(--animation-duration-short4) !important;
+}
+
+/* .MillenniumDesktopSidebar_Title,
+.MillenniumDesktopSidebar_Content,
+.MillenniumDesktopSidebar_Content + * {
+    animation: pageOpacityAnimation var(--animation-duration-long2) var(--animation-standart-default-spatial) !important;
+}
+
+@keyframes pageOpacityAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} */

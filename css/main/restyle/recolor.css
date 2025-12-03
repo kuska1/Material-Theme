@@ -2829,3 +2829,38 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 .UA15KlVbtDSJkqSpIAMIN:hover {
     background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface) var(--layer-action-hover));
 }
+
+/* -- MILLENIUM -- */
+/* .MillenniumSidebarThemeEditor_Content .Use.Experimental.Features {
+    color: var(--md-sys-color-on-error-container);
+    background: var(--md-sys-color-error-container);
+} */
+/* Settings Button */
+.MillenniumDesktopSidebar:not(:has(.MillenniumSidebarThemeEditor_TabSelector)) .MillenniumDesktopSidebar_Title .DialogButton {
+    color: var(--md-sys-color-on-surface-variant);
+    background: transparent;
+}
+.MillenniumDesktopSidebar:not(:has(.MillenniumSidebarThemeEditor_TabSelector)) .MillenniumDesktopSidebar_Title .DialogButton:hover {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface-variant) var(--layer-action-hover));
+}
+.MillenniumDesktopSidebar:not(:has(.MillenniumSidebarThemeEditor_TabSelector)) .MillenniumDesktopSidebar_Title .DialogButton:active,
+.MillenniumDesktopSidebar:not(:has(.MillenniumSidebarThemeEditor_TabSelector)) .MillenniumDesktopSidebar_Title .DialogButton:enabled:active,
+.MillenniumDesktopSidebar:not(:has(.MillenniumSidebarThemeEditor_TabSelector)) .MillenniumDesktopSidebar_Title .DialogButton:enabled:active:hover {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface-variant) var(--layer-action-active));
+}
+/* Back Button */
+.MillenniumDesktopSidebar_Title .DialogButton {
+    color: var(--md-sys-color-on-surface);
+    background: transparent;
+}
+.MillenniumDesktopSidebar_Title .DialogButton:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+.MillenniumDesktopSidebar_Title .DialogButton:enabled:active,
+.MillenniumDesktopSidebar_Title .DialogButton:enabled:active:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-active));
+}
