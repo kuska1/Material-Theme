@@ -16,8 +16,16 @@
     height: 24px;
 }
 /* Big Picture */
-._2Szzh5sKyGgnLUR870zbDE, ._3LKQ3S_yqrebeNLF6aeiog:hover {
+/* ._2Szzh5sKyGgnLUR870zbDE, ._3LKQ3S_yqrebeNLF6aeiog:hover {
     border-radius: var(--corner-radius-full);
+} */
+
+._3LKQ3S_yqrebeNLF6aeiog, ._3LKQ3S_yqrebeNLF6aeiog:hover,
+._3cykd-VfN_xBxf3Qxriccm .tool-tip-source:has(._3LKQ3S_yqrebeNLF6aeiog) {
+    border-radius: var(--corner-radius-full);
+    width: 24px;
+    height: 24px;
+    min-width: 24px !important;
 }
 
 ._3cykd-VfN_xBxf3Qxriccm {

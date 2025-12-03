@@ -966,11 +966,20 @@ Green Notification
 .title-area-icon:hover .SVGIcon_Button rect, .title-area-icon:hover .SVGIcon_Button line, .title-area-icon:hover .SVGIcon_Button polyline /* Hover */ {
     stroke: var(--md-sys-color-on-surface);
 }
-.DesktopUI .title-area-icon:hover, .friendsui-container .title-area-icon:hover /* BG */ {
+.DesktopUI .title-area-icon:hover, .friendsui-container .title-area-icon:hover, /* BG */
+.DesktopUI ._3LKQ3S_yqrebeNLF6aeiog:hover /* Big Picture Mode */ {
     background: var(--md-sys-color-outline-variant);
 }
 .DesktopUI .title-area-icon.closeButton:hover, .friendsui-container .title-area-icon.closeButton:hover /* X Hover */ {
     background: var(--scheme-light, var(--md-sys-color-error)) var(--scheme-dark, var(--md-sys-color-on-error));
+}
+/* Big Picture Mode */
+._3LKQ3S_yqrebeNLF6aeiog {
+    color: var(--md-sys-color-outline);
+}
+._3LKQ3S_yqrebeNLF6aeiog:hover {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-outline-variant);
 }
 
 /* Notifications */
