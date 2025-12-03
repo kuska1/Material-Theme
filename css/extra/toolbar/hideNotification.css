@@ -1,7 +1,3 @@
-._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u:not(:has(._2Szzh5sKyGgnLUR870zbDE._13vrqU6oOqmmxrsZSW5O39)) .tool-tip-source:nth-child(2) {
-    display: none !important;
-}
-
-._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u:has(._2Szzh5sKyGgnLUR870zbDE._13vrqU6oOqmmxrsZSW5O39) .tool-tip-source:nth-child(3) {
+._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u .tool-tip-source:has(svg path[d="M32 24V26H4V24L8 19V12C8 9.34784 9.05357 6.8043 10.9289 4.92893C12.8043 3.05357 15.3478 2 18 2C20.6522 2 23.1957 3.05357 25.0711 4.92893C26.9464 6.8043 28 9.34784 28 12V19L32 24Z"]) {
     display: none !important;
 }

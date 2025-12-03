@@ -786,6 +786,43 @@ Green Notification
 } */
 
 /* Recode */
+/* Music */
+/* Default */
+/* Bg */
+.Utdt7JrpIm5JlpQmqyj1v {
+    background-color: color-mix(in srgb, transparent, var(--md-sys-color-surface-variant) var(--layer-action-hover));
+}
+.Utdt7JrpIm5JlpQmqyj1v:hover {
+    background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
+}
+.Utdt7JrpIm5JlpQmqyj1v:active {
+    background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
+}
+/* Icon */
+.Utdt7JrpIm5JlpQmqyj1v {
+    color: var(--md-sys-color-outline);
+}
+.Utdt7JrpIm5JlpQmqyj1v:active ._34bQcTHo5QKzuujoEyU1tm,
+.Utdt7JrpIm5JlpQmqyj1v:hover ._34bQcTHo5QKzuujoEyU1tm {
+    color: var(--md-sys-color-on-surface);
+    fill: var(--md-sys-color-on-surface);
+}
+/* Playing */
+.Utdt7JrpIm5JlpQmqyj1v._1nKxf9MhTV5zdB5iUjAgYb {
+    background-color: var(--md-sys-color-primary);
+}
+.Utdt7JrpIm5JlpQmqyj1v._1nKxf9MhTV5zdB5iUjAgYb:hover {
+    background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+.Utdt7JrpIm5JlpQmqyj1v._1nKxf9MhTV5zdB5iUjAgYb:active {
+    background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+}
+/* Icon */
+.Utdt7JrpIm5JlpQmqyj1v._1nKxf9MhTV5zdB5iUjAgYb ._34bQcTHo5QKzuujoEyU1tm,
+.Utdt7JrpIm5JlpQmqyj1v._1nKxf9MhTV5zdB5iUjAgYb:hover ._34bQcTHo5QKzuujoEyU1tm {
+    color: var(--md-sys-color-on-primary);
+    fill: var(--md-sys-color-on-primary);
+}
 /* News */
 /* Default */
 /* Bg */

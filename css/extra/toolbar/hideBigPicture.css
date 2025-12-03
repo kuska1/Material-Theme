@@ -1,7 +1,3 @@
-._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u:not(:has(._2Szzh5sKyGgnLUR870zbDE._13vrqU6oOqmmxrsZSW5O39)) .tool-tip-source:nth-child(4) {
-    display: none !important;
-}
-
-._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u:has(._2Szzh5sKyGgnLUR870zbDE._13vrqU6oOqmmxrsZSW5O39) .tool-tip-source:nth-child(5) {
+._3cykd-VfN_xBxf3Qxriccm._1-9sir4j_KQiMqdkZjQN0u .tool-tip-source:has(svg path[d="M18.8891 3.1665H1.11133V14.7776H5.88911L5.00022 17.9443H15.0002L14.1113 14.7776H18.8891V3.1665ZM16.6669 12.6665H3.33355V5.27762H16.6669V12.6665Z"]) {
     display: none !important;
 }
