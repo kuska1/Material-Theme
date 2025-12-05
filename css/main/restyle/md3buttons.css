@@ -210,6 +210,19 @@ body:has(._2yAm5LY_eu-Vg_52l0HFlM ._1mpeIo_E-qVxqb3DeRrQvl) ._2AzIX5kl9k6JnxLfR5
     display: none;
 }
 
+/* Overlay */
+/* Default Toolbar */
+/* Not Checked */
+._3OzkVrQFFPv0aV41N4MrHV._1kICdMcVupzY5a9PzI2JIU .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn:active,
+._3OzkVrQFFPv0aV41N4MrHV._1kICdMcVupzY5a9PzI2JIU .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L {
+    border-radius: var(--corner-radius-full);
+}
+/* Checked */
+._3OzkVrQFFPv0aV41N4MrHV._1kICdMcVupzY5a9PzI2JIU .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L:not(._1BXjK5v8XI_SEhGola5ftn):active,
+._3OzkVrQFFPv0aV41N4MrHV._1kICdMcVupzY5a9PzI2JIU .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn {
+    border-radius: var(--corner-radius-medium);
+}
+
 /* Millenium Theme Settings */
 .tool-tip-source:first-of-type:last-of-type ._3LM_ZckJp5yJYrL1OI_WqW button.DialogButton,
 ._3LM_ZckJp5yJYrL1OI_WqW:first-of-type:last-of-type button.DialogButton {
