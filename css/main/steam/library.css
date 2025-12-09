@@ -921,6 +921,23 @@ svg path[d="M10.1777 10.0258L10.3929 9.80693V9.49999V5.52777H14.2857H14.6001L14.
     padding-bottom: 8px;
 }
 
+/* Collections */
+._3IWn-2rn7x98o5fDd0rAxb {
+    background: unset;
+    box-shadow: unset;
+    border-radius: var(--corner-radius-medium);
+}
+._3IWn-2rn7x98o5fDd0rAxb._2_dwxMdH27kBf-gQ3Wrk7z ._1J1LQ0vGtpM3n0xw7XwQM6 {
+    text-shadow: unset;
+}
+._3uOErrMLSNVM7v6C3zKSJh,
+._33bWWYKdaxI_uMvK0TPjm4 {
+    border-radius: var(--corner-radius-medium);
+}
+._3uOErrMLSNVM7v6C3zKSJh {
+    background: transparent;
+}
+
 /* Millenium Tab */
 .MillenniumSettings {
     border-top: unset !important;
@@ -968,7 +985,6 @@ svg path[d="M10.1777 10.0258L10.3929 9.80693V9.49999V5.52777H14.2857H14.6001L14.
     border-radius: var(--corner-radius-medium);
 } */
 
-/* Test */
 ._2rjVTGz8aLvqOdz5v2gq5C {
     margin-left: auto;
     margin-right: auto;

@@ -6,8 +6,11 @@
 }
 /* Basic Button */
 .lat0M-V5X4uYd6Mpm1DJ1 ._16fbihk6Bi9CXuksG7_tLt button,
-button.DialogButton, .O_nD7TklmaIZ80TPx3rjt button.DialogButton,
-._2ohOQgahhMYnIEfAQmv9B8 {
+button.DialogButton, .O_nD7TklmaIZ80TPx3rjt button.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogButton,
+._2ohOQgahhMYnIEfAQmv9B8,
+/* In BPM */
+.GamepadMode button.cXzBZxhPBl7fZs9LODEnc.DialogButton,
+.GamepadMode button.cXzBZxhPBl7fZs9LODEnc.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover {
     border-radius: var(--corner-radius-full);
 }
 button.DialogButton::before {
@@ -32,7 +35,10 @@ button.DialogButton:enabled:active, button.DialogButton:enabled:active:hover, bu
 }
 
 /* Big Card Button */
-button.TEWmsM70ZLEOxLAjDMpcv.DialogButton {
+button.TEWmsM70ZLEOxLAjDMpcv.DialogButton,
+/* In BPM */
+.GamepadMode button.TEWmsM70ZLEOxLAjDMpcv.DialogButton,
+.GamepadMode button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton:enabled, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton:active, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton:enabled:active:hover {
     border-radius: var(--corner-radius-medium);
 }
 button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
@@ -258,4 +264,14 @@ body:has(._2yAm5LY_eu-Vg_52l0HFlM ._1mpeIo_E-qVxqb3DeRrQvl) ._2AzIX5kl9k6JnxLfR5
     padding-top: 4px !important;
     padding-bottom: 4px !important;
     margin-bottom: 2px !important;
+}
+
+/* Collections */
+._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN {
+    border: unset;
+    border-radius: var(--corner-radius-full);
+}
+._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN:focus {
+    border: unset;
+    border-radius: var(--corner-radius-full);
 }

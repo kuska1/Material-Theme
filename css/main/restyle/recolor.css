@@ -224,22 +224,22 @@ html.client_chat_frame body, /* Fix */
 
 /* Active Track */
 ._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B, /* Basic */
-._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6, /* Achievements */
+._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6, ._3Rm36_oeAhvIg6ZYP9l1Jj, ._1OIatPEED_bSmd_CNyMv7C ._3Rm36_oeAhvIg6ZYP9l1Jj /* Achievements */
 ._3szjUMH5QeRwtXAsLRcWt9._3DjdoQj5NoknowwV5t5JPN::after, /* Downloading Status */
-.kX-tIJx4a9vKVuUkKJARv .mA39Hqv8LacDppegb_Q_Z, /* Downloading On Game */
-._3ns9185LizH61StaAXuAp6 ._3Rm36_oeAhvIg6ZYP9l1Jj /* Achievements */  {
-    background-color: var(--md-sys-color-primary) !important;
+.kX-tIJx4a9vKVuUkKJARv .mA39Hqv8LacDppegb_Q_Z /* Downloading On Game */ {
+    background: var(--md-sys-color-primary) !important;
 }
 /* Inactive Track */
 ._2Dptk9e7W_k4zYB5wfRTcp .Qeg4qAFIMLaYd3mHOBndS, /* Basic */
 ._1EubJAK9z7JtdGks5M2f8t, /* Storage */
-._25YVDTaClw6Y2COPsU0UaV, ._1OIatPEED_bSmd_CNyMv7C ._3Rm36_oeAhvIg6ZYP9l1Jj, /* Achievements */
+._25YVDTaClw6Y2COPsU0UaV, ._3ns9185LizH61StaAXuAp6, ._1OIatPEED_bSmd_CNyMv7C, /* Achievements */
 ._2_FomluqqgQ2Hx8ON3AVep .wi0pDywRgOCxhG7OqQNaA, /* Downloading Status */
 .kX-tIJx4a9vKVuUkKJARv, /* Downloading On Game */
-._3ns9185LizH61StaAXuAp6, ._1OIatPEED_bSmd_CNyMv7C /* Achievements */
 ._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR /* Downloads */ {
-    background: unset;
-    background-color: var(--md-sys-color-secondary-container);
+    background: var(--md-sys-color-secondary-container) !important;
+}
+._3dGOJTL8GRXpyosK3ooTdO .zpBMRpPhaI6jqMh9-UQAi {
+    color: var(--md-sys-color-primary);
 }
 ._2_FomluqqgQ2Hx8ON3AVep .wi0pDywRgOCxhG7OqQNaA {
     --color-progress-bar-foreground: var(--md-sys-color-primary);
@@ -257,13 +257,14 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, /* Card Button */
 ._3epr8QYWw_FqFgMx38YEEm.DesktopUI, .DesktopUI ._3epr8QYWw_FqFgMx38YEEm, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, .BRmrC-jnwpXqye4oYB21C button.DialogButton,
 ._1WKUOT3FdB9-48MMP0Tz9l, /* More Button */
 ._3qDWQGB0rtwM3qpXTb11Q-, /* Game Opened Toolbar */
-._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU, ._3qDWQGB0rtwM3qpXTb11Q-.fyJia4DC2A-H5pIR9DD87 /* Game Properties Modal */  {
+._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU, ._3qDWQGB0rtwM3qpXTb11Q-.fyJia4DC2A-H5pIR9DD87, /* Game Properties Modal */
+._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN /* Collections */ {
     color: var(--md-sys-color-on-primary);
-    background: unset;
-    background-color: var(--md-sys-color-primary);
+    background: var(--md-sys-color-primary);
 }
 ._3qDWQGB0rtwM3qpXTb11Q- svg, /* Game Opened Toolbar */
-._3qDWQGB0rtwM3qpXTb11Q-:hover .SVGIcon_Settings path, ._3qDWQGB0rtwM3qpXTb11Q-:hover .zvLq1GUCH3yLuqv_TXBJ1 .SVGIcon_Information .I {
+._3qDWQGB0rtwM3qpXTb11Q-:hover .SVGIcon_Settings path, ._3qDWQGB0rtwM3qpXTb11Q-:hover .zvLq1GUCH3yLuqv_TXBJ1 .SVGIcon_Information .I,
+._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN svg {
     fill: var(--md-sys-color-on-primary);
     color: var(--md-sys-color-on-primary);
 }
@@ -281,10 +282,10 @@ button.DialogButton.Primary:hover, /* Primary */
 button.DialogButton.gpfocus, .BRmrC-jnwpXqye4oYB21C button.DialogButton:hover,
 ._1WKUOT3FdB9-48MMP0Tz9l:hover, /* More Button */
 ._3qDWQGB0rtwM3qpXTb11Q-:hover, /* Game Opened Toolbar */
-._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU:hover /* Game Properties Modal */ {
+._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU:hover, /* Game Properties Modal */
+._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN:hover /* Collections */ {
     color: var(--md-sys-color-on-primary);
-    background: unset;
-    background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
 
 .lat0M-V5X4uYd6Mpm1DJ1 ._16fbihk6Bi9CXuksG7_tLt button:enabled:active,
@@ -294,13 +295,13 @@ button.DialogButton.Primary:enabled:active, /* Primary */
 button.DialogButton.Primary:enabled:active:hover, /* Primary */
 ._1WKUOT3FdB9-48MMP0Tz9l:enabled:active, /* More Button */
 ._3qDWQGB0rtwM3qpXTb11Q-:enabled:active, /* Game Opened Toolbar */
-._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU:enabled:active /* Game Properties Modal */ {
+._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU:enabled:active, /* Game Properties Modal */
+._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN:enabled:active /* Collections */ {
     color: var(--md-sys-color-on-primary);
-    background: unset;
-    background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
 }
 /* Card Button */
-.DesktopUI button.TEWmsM70ZLEOxLAjDMpcv ._3wadwgMy2-9k8uOKh3iSdT, /* Text */
+button.TEWmsM70ZLEOxLAjDMpcv ._3wadwgMy2-9k8uOKh3iSdT, /* Text */
 button.TEWmsM70ZLEOxLAjDMpcv svg, /* Icon */
 ._35ztZulp_gETT1gOElpfvK /* Little Text */ {
     color: var(--md-sys-color-on-primary);
@@ -312,26 +313,26 @@ button.TEWmsM70ZLEOxLAjDMpcv ._3Wb9yDmYPUJksCr7HmaT9H /* Under Text */ {
 button.DialogButton:disabled, /* Basic */
 button.DialogButton:disabled:hover, /* Basic */
 button.DialogButton.Disabled, /* Basic */
-button.DialogButton.Disabled:hover /* Basic */ {
+button.DialogButton.Disabled:hover, /* Basic */
+._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX._3Jmn39gWVcTTHWXW-ydfWy ._25n_zgE_sgrYzl4G-YE8VN, ._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX._3Jmn39gWVcTTHWXW-ydfWy ._25n_zgE_sgrYzl4G-YE8VN svg  /* Collections */ {
     color: var(--md-sys-color-outline);
-    background: unset;
-    background-color: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-disabled)) !important;
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-disabled)) !important;
+    fill: var(--md-sys-color-outline);
 }
 
 /* If layout has 2 Buttons > Different styles for primary and secondary */
 /* Secondary Button */
 ._DialogColLayout:has(button.DialogButton.Primary) .DialogButton.Secondary {
     color: var(--md-sys-color-primary);
-    background: unset;
-    background-color: transparent;
+    background: transparent;
 }
 /* Hover */
 ._DialogColLayout:has(button.DialogButton.Primary) .DialogButton.Secondary:hover {
-    background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
 }
 /* Click */
 ._DialogColLayout:has(button.DialogButton.Primary) .DialogButton.Secondary:active {
-    background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
 }
 
 /* Dropdown Button */
@@ -343,15 +344,13 @@ button.DialogButton.Disabled:hover /* Basic */ {
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown, /* Game Properties Modal */
 .DesktopUI .MillenniumDesktopSidebar_Content .DialogDropDown._DialogInputContainer /* Millenium Theme Settings */ {
     color: var(--md-sys-color-on-primary);
-    background: unset;
-    background-color: var(--md-sys-color-primary);
+    background: var(--md-sys-color-primary);
 }
 ._3few7361SOf4k_YuKCmM62 .DialogDropDown:hover, /* Hover */
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown:hover, /* Game Properties Modal */
 .DesktopUI .MillenniumDesktopSidebar_Content .DialogDropDown._DialogInputContainer:hover /* Millenium Theme Settings */ {
     color: var(--md-sys-color-on-primary);
-    background: unset;
-    background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--scheme-color-inverse) var(--layer-action-hover));
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--scheme-color-inverse) var(--layer-action-hover));
 }
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu /* Icon */ {
     color: var(--md-sys-color-on-primary);
@@ -362,8 +361,7 @@ button.DialogButton.Disabled:hover /* Basic */ {
 /* Install button & etc */
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp {
     color: var(--md-sys-color-on-primary);
-    background: unset;
-    background-color: var(--md-sys-color-primary);
+    background: var(--md-sys-color-primary);
 }
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play svg path {
     color: var(--md-sys-color-on-primary);
@@ -371,26 +369,23 @@ button.DialogButton.Disabled:hover /* Basic */ {
 }
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play {
     color: var(--md-sys-color-on-primary);
-    background: unset;
-    background-color: var(--md-sys-color-primary);
+    background: var(--md-sys-color-primary);
 }
 /* Hover */
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:focus {
     color: var(--md-sys-color-on-primary);
-    background: unset;
-    background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play:focus {
     color: var(--md-sys-color-on-primary);
-    background: unset;
-    background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
 /* Dropdown Arrow Button */
 ._23SnllqT_AqZ1C_QHcNQ4Z ._3sz4Ldugm_cV_JaHOErVR8 {
     background: transparent;
 }
 ._23SnllqT_AqZ1C_QHcNQ4Z ._3sz4Ldugm_cV_JaHOErVR8:hover {
-    background-color: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
 }
 ._23SnllqT_AqZ1C_QHcNQ4Z ._3sz4Ldugm_cV_JaHOErVR8 polyline,
 ._23SnllqT_AqZ1C_QHcNQ4Z ._3sz4Ldugm_cV_JaHOErVR8:hover polyline {
@@ -424,7 +419,7 @@ button.DialogButton.Disabled:hover /* Basic */ {
 /* Basic */
 ._7EGqd8bdiXJBd2fj5Hh8r,
 .DesktopUI .Oo5JPcEk_erKEYAzYp2nY /* Install Modal */ {
-    background-color: var(--md-sys-color-surface-container-highest);
+    background: var(--md-sys-color-surface-container-highest);
 }
 .Oo5JPcEk_erKEYAzYp2nY {
     color: var(--md-sys-color-on-surface);
@@ -2172,7 +2167,6 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
     background: var(--md-sys-color-surface-container);
 }
 ._1IGURymjmwZOxJLS-9BWKA:hover {
-
     background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
 }
 /* Text */
@@ -2224,7 +2218,48 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 ._37Lk82ESPo7El4__sqZgOV ._1LRR7Ji-cwYvaIOcDllLOx ._1s_9cSxUjb4609MSH0EjWH {
     color: var(--md-sys-color-outline);
 }
+/* Collections */
+/* Cards */
+._3IWn-2rn7x98o5fDd0rAxb:focus, ._3IWn-2rn7x98o5fDd0rAxb:hover {
+    background: var(--md-sys-color-primary);
+    border-color: var(--md-sys-color-primary);
+}
+/* Border & Text */
+._3IWn-2rn7x98o5fDd0rAxb._2_dwxMdH27kBf-gQ3Wrk7z {
+    border-color: var(--md-sys-color-outline-variant);
+}
+._3IWn-2rn7x98o5fDd0rAxb .g0-tUEN69PBXlaY8cML51,
+._3IWn-2rn7x98o5fDd0rAxb._2_dwxMdH27kBf-gQ3Wrk7z ._1J1LQ0vGtpM3n0xw7XwQM6 {
+    color: var(--md-sys-color-on-surface);
+}
+/* Hover */
+._3IWn-2rn7x98o5fDd0rAxb:hover._2_dwxMdH27kBf-gQ3Wrk7z .g0-tUEN69PBXlaY8cML51,
+._3IWn-2rn7x98o5fDd0rAxb:hover._2_dwxMdH27kBf-gQ3Wrk7z ._1J1LQ0vGtpM3n0xw7XwQM6 {
+    color: var(--md-sys-color-on-primary);
+}
+._3IWn-2rn7x98o5fDd0rAxb:focus._2_dwxMdH27kBf-gQ3Wrk7z, ._3IWn-2rn7x98o5fDd0rAxb:hover._2_dwxMdH27kBf-gQ3Wrk7z {
+    border-color: var(--md-sys-color-primary);
+}
 
+/* MiniProfiles */
+._3HzZhZyBuR0K4qXaQoHMxI {
+    background: var(--md-sys-color-surface);
+}
+._1s3b90MDEzWiXAzyEg4vu2 {
+    /* background: var(--md-sys-color-primary-container); */
+    background: color-mix(in srgb, transparent, var(--md-sys-color-surface-container) 85%);
+}
+._1s3b90MDEzWiXAzyEg4vu2 ._28NsonuduTy4g7L-pE1ocN {
+    color: var(--md-sys-color-on-surface-variant);
+}
+._1s3b90MDEzWiXAzyEg4vu2 ._28NsonuduTy4g7L-pE1ocN .KiUMH-qZUhdrtWF93sxVo {
+    color: var(--md-sys-color-primary);
+}
+
+/* Label */
+.DialogLabel.w_ZWyQas4jedC6a1AHA5Z {
+    color: var(--md-sys-color-on-error);
+}
 
 /* -- BOTTOM BAR -- */
 

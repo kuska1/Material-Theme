@@ -11,7 +11,9 @@ button.DialogButton, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, button.DialogBut
 ._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._15P7ohP3vq0SmtT5d274y1,
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU,
 ._35_OgqfHHZfSzTYfv367K6, ._1kCN0pAntrcGCSmcc-vYdk,
-._3zfQA8bEKpisPtsyT4SovP, .Utdt7JrpIm5JlpQmqyj1v, ._5wILZhsLODVwGfcJ0hKmJ, ._3LKQ3S_yqrebeNLF6aeiog:hover {
+._3zfQA8bEKpisPtsyT4SovP, .Utdt7JrpIm5JlpQmqyj1v, ._5wILZhsLODVwGfcJ0hKmJ, ._3LKQ3S_yqrebeNLF6aeiog:hover,
+._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN,
+._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN svg {
     transition: 
         all 350ms var(--animation-expressive-fast-spatial),
         color 150ms var(--animation-expressive-fast-effects),
@@ -28,6 +30,13 @@ button.DialogButton, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, button.DialogBut
 .ZTbww2QfIllvCwVHmpixE {
     transition: 
         all 350ms var(--animation-standart-fast-spatial) !important;
+}
+
+._3IWn-2rn7x98o5fDd0rAxb, ._3IWn-2rn7x98o5fDd0rAxb .g0-tUEN69PBXlaY8cML51, ._3IWn-2rn7x98o5fDd0rAxb._2_dwxMdH27kBf-gQ3Wrk7z ._1J1LQ0vGtpM3n0xw7XwQM6 {
+    transition: 
+        all 550ms var(--animation-expressive-default-spatial),
+        color 250ms var(--animation-expressive-default-effects),
+        background 250ms var(--animation-expressive-default-effects);
 }
 
 /* Millenium Title Bar Buttons */
