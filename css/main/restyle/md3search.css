@@ -18,3 +18,9 @@
 ._2wXQTbH2iavMx1sFDH_Xpn ._29VTx5sjP43UH8k1twOUgE {
     padding: 4px 8px !important;
 }
+
+/* Big Picture Mode */
+._17M8gvakqjyaw_cLo6ntdl,
+._3F4YRi5x8CjExTV0rOdSL- {
+    border-radius: var(--corner-radius-full);
+}

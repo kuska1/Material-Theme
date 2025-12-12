@@ -1,3 +1,94 @@
 ._5ZP0mr4KbDTOe7j-tDi8m:not(._3jAqoPwcgtazQ53rcwSAHU) {
     background: transparent;
 }
+
+/* Footer */
+._3T1iFy2maYycwqgFuzERyf {
+    border-top-width: 0px;
+}
+/* Buttons */
+.MbyhbxIetM7FOAmCQSW83,
+.B40DvkTvaDfC6yoDIOGa7
+/* ._2HnVd7wV6yVaTiXfrBe3gq */ {
+    border-radius: var(--corner-radius-small);
+}
+
+/* Keyboard */
+._2KhPXikozxMpbIRo_6jPxW {
+    border-radius: var(--corner-radius-small);
+    cursor: pointer;
+}
+
+/* On Hold */
+._21EW_imp2Bl3g32V1Fycsp,
+._394j7ePdMBWfyCIZbfS0Ju {
+    border-radius: var(--corner-radius-full);
+}
+._21EW_imp2Bl3g32V1Fycsp {
+    display: flex;
+    padding: 8px;
+    margin-top: -16px;
+    gap: 4px;
+    box-shadow: var(--elevated-shadow);
+}
+._1YqjVUO3KYLRq_mer-HsUX:has(._21EW_imp2Bl3g32V1Fycsp),
+._21EW_imp2Bl3g32V1Fycsp {
+    z-index: 9999;
+}
+
+._45rH7-kY4P2uVEb3TxZhm {
+    position: relative;
+}
+._45rH7-kY4P2uVEb3TxZhm::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(0 0 0);
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+    transition: 
+        all 350ms var(--animation-standart-fast-spatial) !important;
+}
+._45rH7-kY4P2uVEb3TxZhm:has(._21EW_imp2Bl3g32V1Fycsp)::after {
+    opacity: 0.5;
+    pointer-events: all;
+}
+
+._1YqjVUO3KYLRq_mer-HsUX:has(._2LxGPpn7ZBJvhyT4bD_ABC) {
+    max-width: 22px;
+    pointer-events: none;
+}
+
+/* img filter based on scheme */
+.DefaultTheme ._3VtXfHDGV1q2LCVruVnHed img,
+.DefaultTheme ._2KhPXikozxMpbIRo_6jPxW._21EoN2ZlmHNY3fjho_HMae img {
+    filter: invert(var(--scheme-light, 1) var(--scheme-dark, 0));
+}
+
+/* Library */
+/* Games */
+._3Ehhd5MxErV_bXQE4qVhzB ._24_AuLm54JVe1Zc0AApCDR, .ZsU8nIIpj8MJn0vzMzSp1 ._24_AuLm54JVe1Zc0AApCDR,
+.BasicUI ._2E7G8grj_-tgxXbTXs1t2E, .WYgDg9NyCcMIVuMyZ_NBC {
+    border-radius: var(--corner-radius-medium);
+}
+.HNbe3eZf6H7dtJ042x1vM {
+    border-bottom-left-radius: var(--corner-radius-large);
+    border-bottom-right-radius: var(--corner-radius-large);
+}
+.HNbe3eZf6H7dtJ042x1vM._3_IUVzR9tpG_JKEjhwXEAb, .HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u {
+    display: none;
+}
+.BasicUI ._1IX7FPSY9Jb82KhBVBSkZa,
+.HNbe3eZf6H7dtJ042x1vM._3_IUVzR9tpG_JKEjhwXEAb, .HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u,
+._3T1iFy2maYycwqgFuzERyf,
+._3IBLc81yyL08OJ7rfKtF00._31ZleDJpmmVr6YwR5VLHiu ._2JobstxtZVYF3078DblN2M::before, ._2JobstxtZVYF3078DblN2M._1jNhbFODJy7sNdcnEeZkz4::before {
+    mask-image: unset !important;
+    filter: unset !important;
+    backdrop-filter: unset !important;
+}

@@ -81,8 +81,12 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
 
 /* Library */
 /* Play / Install / etc button */
-._3ydigb6zZAjJ0JCDgHwSYA {
+._3ydigb6zZAjJ0JCDgHwSYA,
+.BasicUI .QsZdWtHTlIK9KIKbscNTt {
     border-radius: var(--corner-radius-medium);
+}
+.BasicUI ._2AzIX5kl9k6JnxLfR5H4kX::after {
+    border-radius: var(--corner-radius-medium) !important;
 }
 /* Update Button */
 ._1hhB2Wf7iExA15zh_lDQ_y ._3ydigb6zZAjJ0JCDgHwSYA /* Base (L) */ {

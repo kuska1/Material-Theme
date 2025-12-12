@@ -14,7 +14,7 @@ button.DialogButton, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, button.DialogBut
 ._3zfQA8bEKpisPtsyT4SovP, .Utdt7JrpIm5JlpQmqyj1v, ._5wILZhsLODVwGfcJ0hKmJ, ._3LKQ3S_yqrebeNLF6aeiog:hover,
 ._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN,
 ._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN svg {
-    transition: 
+    transition:
         all 350ms var(--animation-expressive-fast-spatial),
         color 150ms var(--animation-expressive-fast-effects),
         background 150ms var(--animation-expressive-fast-effects) !important;
@@ -28,15 +28,23 @@ button.DialogButton, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, button.DialogBut
 ._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L,
 ._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L svg path,
 .ZTbww2QfIllvCwVHmpixE {
-    transition: 
+    transition:
         all 350ms var(--animation-standart-fast-spatial) !important;
 }
 
 ._3IWn-2rn7x98o5fDd0rAxb, ._3IWn-2rn7x98o5fDd0rAxb .g0-tUEN69PBXlaY8cML51, ._3IWn-2rn7x98o5fDd0rAxb._2_dwxMdH27kBf-gQ3Wrk7z ._1J1LQ0vGtpM3n0xw7XwQM6 {
-    transition: 
+    transition:
         all 550ms var(--animation-expressive-default-spatial),
         color 250ms var(--animation-expressive-default-effects),
         background 250ms var(--animation-expressive-default-effects);
+}
+
+/* big picture */
+._2KhPXikozxMpbIRo_6jPxW, .B40DvkTvaDfC6yoDIOGa7 /* keyboard */ {
+    transition:
+        all 350ms var(--animation-expressive-fast-spatial),
+        color 150ms var(--animation-expressive-fast-effects),
+        background 150ms var(--animation-expressive-fast-effects);
 }
 
 /* Millenium Title Bar Buttons */

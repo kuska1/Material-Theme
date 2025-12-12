@@ -6,7 +6,7 @@
     border-radius: var(--corner-radius-extra-small);
 }
 
-.ModalDialogPopup .DialogContent, .DialogContent, .DialogContentTransition:not(.OX7USkJ5dDP_icD00Gal6) {
+.ModalDialogPopup .DialogContent, .DialogContent:not([role="tabpanel"]), .DialogContentTransition:not(.OX7USkJ5dDP_icD00Gal6) {
     border-radius: var(--corner-radius-extra-large);
 }
 

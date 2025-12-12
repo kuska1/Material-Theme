@@ -149,12 +149,12 @@
                 "Default": {},
                 "Only Icon": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/onlyicon.css"
+                        "affects": ["^Steam$"], "src": "css/extra/steamIcon/onlyicon.css"
                     }
                 },
                 "Only Text": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/onlytext.css"
+                        "affects": ["^Steam$"], "src": "css/extra/steamIcon/onlytext.css"
                     }
                 }
             }
@@ -166,37 +166,37 @@
             "values": {
                 "Steam": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/steam.css"
+                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/steam.css"
                     }
                 },
                 "Material Design": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/materialdesign.css"
+                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/materialdesign.css"
                     }
                 },
                 "Android": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/android.css"
+                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/android.css"
                     }
                 },
                 "Google": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/google.css"
+                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/google.css"
                     }
                 },
                 "Gemini": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/gemini.css"
+                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/gemini.css"
                     }
                 },
                 "Appearance": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/appearance.css"
+                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/appearance.css"
                     }
                 },
                 "Color Scheme": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/colorscheme.css"
+                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/colorscheme.css"
                     }
                 }
             }
@@ -208,12 +208,12 @@
             "values": {
                 "no": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/defaultitle.css"
+                        "affects": ["^Steam$"], "src": "css/extra/steamIcon/defaultitle.css"
                     }
                 },
                 "yes": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/changetitle.css"
+                        "affects": ["^Steam$"], "src": "css/extra/steamIcon/changetitle.css"
                     }
                 }
             }
@@ -226,12 +226,12 @@
                 "Default": {},
                 "Hide Avatar": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/account/avatarHide.css"
+                        "affects": ["^Steam$"], "src": "css/extra/account/avatarHide.css"
                     }
                 },
                 "Hide Name": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/account/nameHide.css"
+                        "affects": ["^Steam$"], "src": "css/extra/account/nameHide.css"
                     }
                 }
             }
@@ -376,7 +376,7 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/store/stickyHeader.css"
+                        "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "css/extra/store/stickyHeader.css"
                     }
                 }
             }
@@ -407,7 +407,7 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/achievementsIcons/rareSourceColor.css"
+                        "affects": ["^Steam$"], "src": "css/extra/achievementsIcons/rareSourceColor.css"
                     }
                 }
             }
@@ -529,7 +529,7 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/library/disableMaxHeroSize.css"
+                        "affects": ["^Steam$"], "src": "css/extra/library/disableMaxHeroSize.css"
                     }
                 }
             }
@@ -637,6 +637,42 @@
                 "yes": {				
                     "TargetCss": {
                         "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceAfterHover.css"
+                    }
+                },
+                "no": {}
+            }
+        },
+        "Account Name in Account Change": {
+            "description": "Show/Blur/Hide account name in account change page.",
+            "default": "Blur",
+            "tab": "Privacy",
+            "values": {
+                "Show": {},
+                "Blur": {
+                    "TargetCss": {
+                        "affects": [".Rp8QOGJ2DypeDniMnRBhr"], "src": "css/extra/privacy/accountChangeBlur.css"
+                    }
+                },
+                "Hide": {
+                    "TargetCss": {
+                        "affects": [".Rp8QOGJ2DypeDniMnRBhr"], "src": "css/extra/privacy/accountChangeHide.css"
+                    }
+                },
+                "Full Hide": {
+                    "TargetCss": {
+                        "affects": [".Rp8QOGJ2DypeDniMnRBhr"], "src": "css/extra/privacy/accountChangeFullHide.css"
+                    }
+                }
+            }
+        },
+        " - Show Name in account change after Hover?": {
+            "description": "[i]Doesn't work with Full Hide.[/i]",
+            "default": "yes",
+            "tab": "Privacy",
+            "values": {
+                "yes": {				
+                    "TargetCss": {
+                        "affects": [".Rp8QOGJ2DypeDniMnRBhr"], "src": "css/extra/privacy/accountChangeAfterHover.css"
                     }
                 },
                 "no": {}

@@ -1,5 +1,5 @@
-.nevko_tooltip {
-    position: absolute;
+#nevko-tooltip {
+    position: fixed;
     padding: 8px 12px;
     border-radius: var(--corner-radius-extra-small);
     font-size: var(--font-body-small-size);
@@ -7,11 +7,38 @@
     max-width: 200px;
     z-index: 9999;
     pointer-events: none;
+    user-select: none;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
     white-space: nowrap;
 }
-  
-.badge_nevko_user, .minibadge_nevko_user {
-    position: relative;
+
+#nevko-tooltip.visible {
+    opacity: 1;
+}
+
+.nevko-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 6px;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.nevko-badge svg {
+    width: 24px;
+    height: 24px;
+}
+
+.nevko-badge-mini {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 4px;
+    vertical-align: middle;
+    margin-top: -4px;
+}
+
+.nevko-badge-mini svg {
+    width: 16px;
+    height: 16px;
 }
