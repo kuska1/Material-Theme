@@ -363,7 +363,7 @@ button.DialogButton.Disabled:hover, /* Basic */
     color: var(--md-sys-color-on-primary);
     background: var(--md-sys-color-primary);
 }
-.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play svg path {
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause svg path {
     color: var(--md-sys-color-on-primary);
     fill: var(--md-sys-color-on-primary);
 }
