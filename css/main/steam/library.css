@@ -702,6 +702,17 @@
 ._23SnllqT_AqZ1C_QHcNQ4Z ._1PhK8scyztOxjJwWUpkiLJ {
     border-radius: var(--corner-radius-full);
 }
+/* Modal */
+div.ModalPosition_Dismiss {
+    top: 12px;
+    right: 12px;
+}
+.ModalPosition_Dismiss .closeButton {
+    border-radius: var(--corner-radius-full);
+}
+.ModalPosition_Dismiss .closeButton svg {
+    margin-bottom: 4px;
+}
 /* Modal Recording */
 /* Fix */
 ._21_rrXIoZ7yQbc0u7rhvkP {

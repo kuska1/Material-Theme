@@ -8,7 +8,8 @@
     animation: 0.07s ease-in-out 0s 1 Appeared !important;
 } */
 
-.DialogContent._DialogLayout:not(.CFTLX2wIKOK3hNV-fS7_V) {
+.DialogContent._DialogLayout:not(.CFTLX2wIKOK3hNV-fS7_V),
+div.ModalPosition_Dismiss {
     animation: opacity var(--animation-duration-short2) ease, openDialog var(--animation-duration-long1) var(--animation-easing-standart-decelerate);
     transform-origin: top;
 }

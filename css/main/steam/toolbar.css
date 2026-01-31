@@ -15,6 +15,16 @@
     width: 24px;
     height: 24px;
 }
+/* Family View */
+._3cykd-VfN_xBxf3Qxriccm ._13vrqU6oOqmmxrsZSW5O39 {
+    border-radius: var(--corner-radius-full);
+    width: 52px;
+    height: 24px;
+}
+._13vrqU6oOqmmxrsZSW5O39:hover,
+._13vrqU6oOqmmxrsZSW5O39:hover ._34bQcTHo5QKzuujoEyU1tm {
+    transition: background-color .15s ease-out;
+}
 /* Big Picture */
 /* ._2Szzh5sKyGgnLUR870zbDE, ._3LKQ3S_yqrebeNLF6aeiog:hover {
     border-radius: var(--corner-radius-full);

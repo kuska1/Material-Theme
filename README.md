@@ -9,7 +9,7 @@
 <div align="center">
 
 # Material
-### Theme for Steam (Millenium) based on Google's Material 3 Design with some Features.
+### Theme for Steam ([Millenium](https://steambrew.app)) based on Google's Material 3 Design with some Features.
 [Discord](https://discord.gg/aGcKmX5KTs)
 
 ## Screenshots
@@ -26,7 +26,7 @@
 * Source Color (Red/Blue/Cyan/Green/Yellow/Custom/Dynamic [Beta])
 * Material Icons
 * Fonts (Default/Roboto/Open Sans/Google Sans)
-* Alternatie online indicator
+* Alternative online indicator
 ### Toolbar
 * Title collapse
 * Icon change
