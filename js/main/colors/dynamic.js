@@ -1,17 +1,26 @@
 import {
-  themeFromSourceColor,
+  Hct,
+  SchemeFidelity,
   argbFromHex,
   hexFromArgb,
   argbFromRgb
 } from './material-color-utils.js';
 
-// Apply dynamic-only color transitions, only if animations are globally enabled
+/**
+ * Apply dynamic-only color transitions if animations are globally enabled.
+ * This makes theme changes smooth when switching between games.
+ */
 const styleId = 'material-dynamic-transitions';
 if (!document.getElementById(styleId)) {
-    const animationsEnabled = getComputedStyle(document.documentElement).getPropertyValue('--dynamic-color-transition-enabled').trim();
+    const animationsEnabled = getComputedStyle(document.documentElement)
+        .getPropertyValue('--dynamic-color-transition-enabled').trim();
+    
     if (animationsEnabled === 'true') {
         const css = `*:not(img) {
-            transition: background-color 0.4s cubic-bezier(0.4, 0.0, 0.2, 1), color 0.4s cubic-bezier(0.4, 0.0, 0.2, 1), fill 0.4s cubic-bezier(0.4, 0.0, 0.2, 1), border-color 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
+            transition: background-color 0.4s cubic-bezier(0.4, 0.0, 0.2, 1), 
+                        color 0.4s cubic-bezier(0.4, 0.0, 0.2, 1), 
+                        fill 0.4s cubic-bezier(0.4, 0.0, 0.2, 1), 
+                        border-color 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
         }`;
         const style = document.createElement('style');
         style.id = styleId;
@@ -22,34 +31,36 @@ if (!document.getElementById(styleId)) {
 
 const prefix = '--md-sys-color-';
 
+/**
+ * Helper to convert camelCase to kebab-case for CSS variables.
+ */
+const toKebabCase = (str) => str.replace(/[A-Z]/g, m => '-' + m.toLowerCase());
+
+/**
+ * Converts RGB to HSL for vibrancy filtering during image color extraction.
+ */
 function rgbToHsl(r, g, b) {
   r /= 255, g /= 255, b /= 255;
-  const max = Math.max(r, g, b),
-    min = Math.min(r, g, b);
+  const max = Math.max(r, g, b), min = Math.min(r, g, b);
   let h, s, l = (max + min) / 2;
 
-  if (max === min) {
-    h = s = 0;
-  } else {
+  if (max === min) { h = s = 0; } 
+  else {
     const d = max - min;
     s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
     switch (max) {
-      case r:
-        h = (g - b) / d + (g < b ? 6 : 0);
-        break;
-      case g:
-        h = (b - r) / d + 2;
-        break;
-      case b:
-        h = (r - g) / d + 4;
-        break;
+      case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+      case g: h = (b - r) / d + 2; break;
+      case b: h = (r - g) / d + 4; break;
     }
     h /= 6;
   }
-
   return [h, s, l];
 }
 
+/**
+ * Extracts a dominant vibrant color from a game cover image.
+ */
 async function getAccentColorFromImage(img) {
   return new Promise((resolve, reject) => {
     if (!img.complete) {
@@ -59,41 +70,31 @@ async function getAccentColorFromImage(img) {
     }
 
     const canvas = document.createElement('canvas');
-    const ctx = canvas.getContext('2d', {
-      willReadFrequently: true
-    });
+    const ctx = canvas.getContext('2d', { willReadFrequently: true });
     
-    // Optimization: Downscale the image to a smaller canvas to reduce pixel count
+    // Downscale for performance
     const newWidth = 100;
     const newHeight = (img.naturalHeight / img.naturalWidth) * newWidth;
     canvas.width = newWidth;
     canvas.height = newHeight;
 
-    if (canvas.width === 0 || canvas.height === 0) {
-      return reject('Image not ready or has no dimensions');
-    }
+    if (canvas.width === 0 || canvas.height === 0) return reject('Image dimensions error');
 
     try {
       ctx.drawImage(img, 0, 0, newWidth, newHeight);
       const data = ctx.getImageData(0, 0, newWidth, newHeight).data;
       const colorCount = {};
-      let max = 0,
-        dominant = '';
+      let max = 0, dominant = '';
 
       for (let i = 0; i < data.length; i += 4) {
-        const r = data[i];
-        const g = data[i + 1];
-        const b = data[i + 2];
-
+        const r = data[i], g = data[i+1], b = data[i+2];
         const [h, s, l] = rgbToHsl(r, g, b);
 
-        if (s > 0.25 && l > 0.05 && l < 0.95) {
+        // Filter for vibrant, non-extreme colors (not too dark or too white)
+        if (s > 0.25 && l > 0.1 && l < 0.9) {
           const color = `${r},${g},${b}`;
           colorCount[color] = (colorCount[color] || 0) + 1;
-          if (colorCount[color] > max) {
-            max = colorCount[color];
-            dominant = color;
-          }
+          if (colorCount[color] > max) { max = colorCount[color]; dominant = color; }
         }
       }
 
@@ -101,90 +102,79 @@ async function getAccentColorFromImage(img) {
         const [r, g, b] = dominant.split(',').map(Number);
         resolve(argbFromRgb(r, g, b));
       } else {
-        reject('No dominant vibrant color found');
+        reject('No vibrant color found in image');
       }
-    } catch (e) {
-      reject(e);
+    } catch (e) { reject(e); }
+  });
+}
+
+/**
+ * Generates and applies a Material 3 Fidelity Scheme to the document.
+ */
+async function generateAndApplyTheme(sourceArgb) {
+  const computedStyle = getComputedStyle(document.documentElement);
+  const schemeMode = computedStyle.getPropertyValue('--scheme').trim() || 'light';
+  const isDark = schemeMode === 'dark';
+
+  // Create HCT and Fidelity Scheme (Color Match enabled)
+  const sourceHct = Hct.fromInt(sourceArgb);
+  const m3Scheme = new SchemeFidelity(sourceHct, isDark, 0.0);
+
+  // Comprehensive list of all Material 3 color roles
+  const colorRoles = [
+    'primary', 'onPrimary', 'primaryContainer', 'onPrimaryContainer',
+    'secondary', 'onSecondary', 'secondaryContainer', 'onSecondaryContainer',
+    'tertiary', 'onTertiary', 'tertiaryContainer', 'onTertiaryContainer',
+    'error', 'onError', 'errorContainer', 'onErrorContainer',
+    'background', 'onBackground', 
+    'surface', 'onSurface', 'surfaceVariant', 'onSurfaceVariant',
+    'surfaceDim', 'surfaceBright',
+    'surfaceContainerLowest', 'surfaceContainerLow', 'surfaceContainer', 'surfaceContainerHigh', 'surfaceContainerHighest',
+    'outline', 'outlineVariant', 'shadow', 'scrim', 'surfaceTint',
+    'inverseSurface', 'inverseOnSurface', 'inversePrimary',
+    'primaryFixed', 'primaryFixedDim', 'onPrimaryFixed', 'onPrimaryFixedVariant',
+    'secondaryFixed', 'secondaryFixedDim', 'onSecondaryFixed', 'onSecondaryFixedVariant',
+    'tertiaryFixed', 'tertiaryFixedDim', 'onTertiaryFixed', 'onTertiaryFixedVariant'
+  ];
+
+  // Apply colors as CSS variables
+  colorRoles.forEach(role => {
+    const argb = m3Scheme[role];
+    if (argb !== undefined) {
+      document.documentElement.style.setProperty(prefix + toKebabCase(role), hexFromArgb(argb));
     }
   });
 }
 
-async function generateAndApplyTheme(sourceArgb) {
-  const scheme = getComputedStyle(document.documentElement)
-    .getPropertyValue('--scheme').trim() || 'light';
-
-  const theme = themeFromSourceColor(sourceArgb);
-
-  const props = theme.schemes[scheme]?.props || {};
-  for (const [key, val] of Object.entries(props)) {
-    const varName = prefix + key.replace(/[A-Z]/g, m => '-' + m.toLowerCase());
-    document.documentElement.style.setProperty(varName, hexFromArgb(val));
-  }
-
-  const containerTones = {
-    'lowest': [100, 4],
-    'low': [96, 10],
-    '': [94, 12],
-    'high': [92, 17],
-    'highest': [90, 22]
-  };
-
-  for (const [suffix, [lightTone, darkTone]] of Object.entries(containerTones)) {
-    const tone = scheme === 'light' ? lightTone : darkTone;
-    const varName = `--md-sys-color-surface-container${suffix ? '-' + suffix : ''}`;
-    document.documentElement.style.setProperty(varName, hexFromArgb(theme.palettes.neutral.tone(tone)));
-  }
-
-  const primaryFixed = {
-    'primary-fixed': 90,
-    'on-primary-fixed': 10,
-    'primary-fixed-dim': 80,
-    'on-primary-fixed-variant': 30
-  };
-
-  const tertiaryFixed = {
-    'tertiary-fixed': 90,
-    'on-tertiary-fixed': 10,
-    'tertiary-fixed-dim': 80,
-    'on-tertiary-fixed-variant': 30
-  };
-
-  for (const [name, tone] of Object.entries(primaryFixed)) {
-    document.documentElement.style.setProperty(`--md-sys-color-${name}`, hexFromArgb(theme.palettes.primary.tone(tone)));
-  }
-  for (const [name, tone] of Object.entries(tertiaryFixed)) {
-    document.documentElement.style.setProperty(`--md-sys-color-${name}`, hexFromArgb(theme.palettes.tertiary.tone(tone)));
-  }
-}
-
+/**
+ * Main update logic: checks for a game cover image first, then falls back to system color.
+ */
 async function updateTheme() {
-  const img = document.querySelector('img.HNbe3eZf6H7dtJ042x1vM');
+  const img = document.querySelector('img.HNbe3eZf6H7dtJ042x1vM'); // Selector for game artwork
   try {
-    if (img && img.src) {
+    if (img && img.src && !img.src.includes('clear.png')) {
       const color = await getAccentColorFromImage(img);
       await generateAndApplyTheme(color);
       return;
     }
   } catch (e) {
-    console.warn('Image-based accent color failed, fallback to system:', e);
+    console.warn('Material Utils: Image-based color failed, falling back:', e);
   }
 
   const systemColor = getComputedStyle(document.documentElement).getPropertyValue('--SystemAccentColor').trim();
   if (systemColor) {
     await generateAndApplyTheme(argbFromHex(systemColor));
-  } else {
-    console.warn('No --SystemAccentColor available');
   }
 }
 
-// Debounce
+// Debounce helper to prevent excessive calculations during UI updates
 let updateTimeout;
 function debounceUpdateTheme() {
   clearTimeout(updateTimeout);
   updateTimeout = setTimeout(updateTheme, 200);
 }
 
-// Observe for relevant <img> elements
+// Watch for game artwork (cover images) being added to the DOM
 const observer = new MutationObserver((mutations) => {
   for (const m of mutations) {
     for (const node of m.addedNodes) {
@@ -199,15 +189,12 @@ const observer = new MutationObserver((mutations) => {
 });
 observer.observe(document.body, { childList: true, subtree: true });
 
+// Watch for changes in the system accent color style node
 const styleNode = document.getElementById('SystemAccentColorInject');
 if (styleNode) {
   const styleObserver = new MutationObserver(debounceUpdateTheme);
-  styleObserver.observe(styleNode, {
-    childList: true,
-    characterData: true,
-    subtree: true
-  });
+  styleObserver.observe(styleNode, { childList: true, characterData: true, subtree: true });
 }
 
-// Initial run
+// Run immediately on script load
 debounceUpdateTheme();

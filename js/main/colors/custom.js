@@ -1,88 +1,84 @@
 import {
-  themeFromSourceColor,
+  Hct,
+  SchemeFidelity,
   argbFromHex,
   hexFromArgb
 } from './material-color-utils.js';
 
 const prefix = '--md-sys-color-';
 
+/**
+ * Converts camelCase strings to kebab-case.
+ * Example: primaryContainer -> primary-container
+ */
+const toKebabCase = (str) => str.replace(/[A-Z]/g, m => '-' + m.toLowerCase());
+
 function generateAndApplyScheme() {
   const computedStyle = getComputedStyle(document.documentElement);
-  let sourceHex = computedStyle.getPropertyValue('--SystemAccentColor').trim();
-  let scheme = computedStyle.getPropertyValue('--scheme').trim();
+  
+  // Retrieve the system accent color and the current theme mode (light/dark) from CSS variables
+  const sourceHex = computedStyle.getPropertyValue('--SystemAccentColor').trim();
+  const schemeMode = computedStyle.getPropertyValue('--scheme').trim();
 
-  if (!sourceHex || !scheme) {
-    console.warn('sourceHex or scheme is not defined');
+  if (!sourceHex || !schemeMode) {
+    console.warn('Material Utils: sourceHex or scheme is not defined in CSS.');
     return;
   }
 
-  const m3ThemeColorsJSON = themeFromSourceColor(argbFromHex(sourceHex), []);
+  // 1. Create an HCT (Hue, Chroma, Tone) color object for high-precision color matching
+  const sourceHct = Hct.fromInt(argbFromHex(sourceHex));
 
-  if (m3ThemeColorsJSON.schemes[scheme]?.props) {
-    console.info(m3ThemeColorsJSON.schemes[scheme]?.props);
-    for (const [key, value] of Object.entries(m3ThemeColorsJSON.schemes[scheme].props)) {
-      const cssVar = prefix + key.replace(/[A-Z]/g, m => '-' + m.toLowerCase());
-      const hex = hexFromArgb(value);
-      document.documentElement.style.setProperty(cssVar, hex);
+  // 2. Initialize SchemeFidelity (the "Color Match" algorithm)
+  // This scheme prioritizes staying true to the input color's hue and colorfulness.
+  const isDark = schemeMode === 'dark';
+  const m3Scheme = new SchemeFidelity(sourceHct, isDark, 0.0);
+
+  // 3. Define the list of Material 3 color roles to be generated
+  const colorRoles = [
+    'primary', 'onPrimary', 'primaryContainer', 'onPrimaryContainer',
+    'secondary', 'onSecondary', 'secondaryContainer', 'onSecondaryContainer',
+    'tertiary', 'onTertiary', 'tertiaryContainer', 'onTertiaryContainer',
+    'error', 'onError', 'errorContainer', 'onErrorContainer',
+    'background', 'onBackground', 
+    'surface', 'onSurface', 'surfaceVariant', 'onSurfaceVariant',
+    'surfaceDim', 'surfaceBright',
+    'surfaceContainerLowest', 'surfaceContainerLow', 'surfaceContainer', 'surfaceContainerHigh', 'surfaceContainerHighest',
+    'outline', 'outlineVariant', 'shadow', 'scrim', 'surfaceTint',
+    'inverseSurface', 'inverseOnSurface', 'inversePrimary',
+    'primaryFixed', 'primaryFixedDim', 'onPrimaryFixed', 'onPrimaryFixedVariant',
+    'secondaryFixed', 'secondaryFixedDim', 'onSecondaryFixed', 'onSecondaryFixedVariant',
+    'tertiaryFixed', 'tertiaryFixedDim', 'onTertiaryFixed', 'onTertiaryFixedVariant'
+  ];
+
+  // 4. Map the generated colors to CSS variables on the :root element
+  colorRoles.forEach(role => {
+    const argb = m3Scheme[role];
+    if (argb !== undefined) {
+      const hex = hexFromArgb(argb);
+      const cssVarName = prefix + toKebabCase(role);
+      document.documentElement.style.setProperty(cssVarName, hex);
     }
+  });
 
-    const containerTones = {
-      'lowest': [100, 4],
-      'low': [96, 10],
-      '': [94, 12],
-      'high': [92, 17],
-      'highest': [90, 22]
-    };
-
-    for (const [suffix, [toneLight, toneDark]] of Object.entries(containerTones)) {
-      const varName = `surface-container${suffix ? '-' + suffix : ''}`;
-      const tone = scheme === 'light' ? toneLight : toneDark;
-      const hex = hexFromArgb(m3ThemeColorsJSON.palettes.neutral.tone(tone));
-
-      document.documentElement.style.setProperty(`--md-sys-color-${varName}`, hex);
-    }
-
-    const primaryFixed = {
-      'primary-fixed': 90,
-      'on-primary-fixed': 10,
-      'primary-fixed-dim': 80,
-      'on-primary-fixed-variant': 30
-    };
-
-    for (const [name, tone] of Object.entries(primaryFixed)) {
-      const hex = hexFromArgb(m3ThemeColorsJSON.palettes.primary.tone(tone));
-      document.documentElement.style.setProperty(`--md-sys-color-${name}`, hex);
-    }
-
-    const tertiaryFixed = {
-      'tertiary-fixed': 90,
-      'on-tertiary-fixed': 10,
-      'tertiary-fixed-dim': 80,
-      'on-tertiary-fixed-variant': 30
-    };
-
-    for (const [name, tone] of Object.entries(tertiaryFixed)) {
-      const hex = hexFromArgb(m3ThemeColorsJSON.palettes.tertiary.tone(tone));
-      document.documentElement.style.setProperty(`--md-sys-color-${name}`, hex);
-    }
-  } else {
-    console.error(`Scheme "${scheme}" not found`);
-  }
+  console.info(`Material Utils: Fidelity Scheme applied successfully using ${sourceHex}`);
 }
 
+// Initial execution
 generateAndApplyScheme();
 
+/**
+ * Setup MutationObserver to watch for dynamic changes in the Steam accent color.
+ * SteamBrew/Millenium injects the color into a specific style node.
+ */
 const styleNode = document.getElementById('SystemAccentColorInject');
 if (styleNode) {
-  const observer = new MutationObserver(() => {
-    generateAndApplyScheme();
-  });
-
-  observer.observe(styleNode, {
-    childList: true,
-    characterData: true,
-    subtree: true
+  const observer = new MutationObserver(() => generateAndApplyScheme());
+  
+  observer.observe(styleNode, { 
+    childList: true, 
+    characterData: true, 
+    subtree: true 
   });
 } else {
-  console.warn('style#SystemAccentColorInject not found');
+  console.warn('Material Utils: #SystemAccentColorInject not found. Dynamic updates disabled.');
 }
