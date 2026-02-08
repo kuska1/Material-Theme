@@ -2,7 +2,7 @@ import {
   themeFromSourceColor,
   argbFromHex,
   hexFromArgb
-} from 'https://cdn.skypack.dev/@material/material-color-utilities';
+} from './material-color-utils.js';
 
 const prefix = '--md-sys-color-';
 

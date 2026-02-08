@@ -3,7 +3,7 @@ import {
   argbFromHex,
   hexFromArgb,
   argbFromRgb
-} from 'https://cdn.skypack.dev/@material/material-color-utilities';
+} from './material-color-utils.js';
 
 // Apply dynamic-only color transitions, only if animations are globally enabled
 const styleId = 'material-dynamic-transitions';
