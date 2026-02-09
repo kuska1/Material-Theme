@@ -5,6 +5,11 @@ import {
   hexFromArgb
 } from './material-color-utils.js';
 
+const logText = '%c Material '
+const logCss = 'background: #256ab8; color: #ffffff'
+
+console.debug(logText, logCss, `custom.js is running in ${window.location.href}.`);
+
 const prefix = '--md-sys-color-';
 
 /**
@@ -21,7 +26,7 @@ function generateAndApplyScheme() {
   const schemeMode = computedStyle.getPropertyValue('--scheme').trim();
 
   if (!sourceHex || !schemeMode) {
-    console.warn('Material Utils: sourceHex or scheme is not defined in CSS.');
+    console.error(logText, logCss, `sourceHex (${sourceHex ?? null}) or scheme (${schemeMode ?? null}) is not defined in CSS.`);
     return;
   }
 
@@ -60,7 +65,7 @@ function generateAndApplyScheme() {
     }
   });
 
-  console.info(`Material Utils: Fidelity Scheme applied successfully using ${sourceHex}`);
+  console.info(logText, logCss, `Fidelity Scheme applied successfully using ${sourceHex}.`);
 }
 
 // Initial execution
@@ -80,5 +85,5 @@ if (styleNode) {
     subtree: true 
   });
 } else {
-  console.warn('Material Utils: #SystemAccentColorInject not found. Dynamic updates disabled.');
+  console.warn(logText, logCss, '#SystemAccentColorInject not found. Dynamic updates disabled.');
 }

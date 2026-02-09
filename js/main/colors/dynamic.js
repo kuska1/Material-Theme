@@ -6,6 +6,11 @@ import {
   argbFromRgb
 } from './material-color-utils.js';
 
+const logText = '%c Material '
+const logCss = 'background: #256ab8; color: #ffffff'
+
+console.debug(logText, logCss, `dynamic.js is running in ${window.location.href}.`);
+
 /**
  * Apply dynamic-only color transitions if animations are globally enabled.
  * This makes theme changes smooth when switching between games.
@@ -102,7 +107,7 @@ async function getAccentColorFromImage(img) {
         const [r, g, b] = dominant.split(',').map(Number);
         resolve(argbFromRgb(r, g, b));
       } else {
-        reject('No vibrant color found in image');
+        reject(logText, logCss, 'No vibrant color found in image');
       }
     } catch (e) { reject(e); }
   });
@@ -112,12 +117,22 @@ async function getAccentColorFromImage(img) {
  * Generates and applies a Material 3 Fidelity Scheme to the document.
  */
 async function generateAndApplyTheme(sourceArgb) {
+  if (!sourceArgb) {
+    console.error(logText, logCss, `sourceArgb (${sourceArgb ?? null}) is not exists.`);
+    return;
+  }
+
   const computedStyle = getComputedStyle(document.documentElement);
-  const schemeMode = computedStyle.getPropertyValue('--scheme').trim() || 'light';
-  const isDark = schemeMode === 'dark';
+  const schemeMode = computedStyle.getPropertyValue('--scheme').trim() || 'dark';
+
+  if (!schemeMode) {
+    console.warn(logText, logCss, `scheme (${schemeMode ?? null}) is not defined in CSS.`);
+    // return;
+  }
 
   // Create HCT and Fidelity Scheme (Color Match enabled)
   const sourceHct = Hct.fromInt(sourceArgb);
+  const isDark = schemeMode === 'dark';
   const m3Scheme = new SchemeFidelity(sourceHct, isDark, 0.0);
 
   // Comprehensive list of all Material 3 color roles
@@ -158,7 +173,7 @@ async function updateTheme() {
       return;
     }
   } catch (e) {
-    console.warn('Material Utils: Image-based color failed, falling back:', e);
+    console.warn(logText, logCss, 'Image-based color failed, falling back:', e);
   }
 
   const systemColor = getComputedStyle(document.documentElement).getPropertyValue('--SystemAccentColor').trim();
