@@ -33,6 +33,11 @@
                     "TargetCss": {
                         "affects": [".*"], "src": "css/main/appearance/dark.css"
                     }
+                },
+                "OLED": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/appearance/oled.css"
+                    }
                 }
             }
         },

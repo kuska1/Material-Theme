@@ -1,0 +1,8 @@
+@import url("dark.css");
+
+:root {
+    --scheme-oled: var(--ON);
+
+    --md-sys-color-surface: #000 !important;
+    --md-sys-color-surface-container: #000 !important;
+}
