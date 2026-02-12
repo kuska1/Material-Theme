@@ -280,6 +280,19 @@
                 }
             }
         },
+        "Hide Window Control Buttons": {
+            "description": "Hide window control buttons on toolbar.",
+            "default": "no",
+            "tab": "Toolbar",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/toolbar/hideWindowControl.css"
+                    }
+                }
+            }
+        },
         "Bottom Bar Style": {
             "description": "Choose bottom bar style.",
             "default": "Default",
