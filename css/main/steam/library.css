@@ -71,6 +71,10 @@
 ._1ZS_xta5HMXzR8JgxDH6n7 ._1PgAonvorr0o_NMxNKiDFU ._3mzKdQXht__YHo6PX1LmB6:last-child {
     margin-right: -2px;
 }
+/* Padding fix */
+._1ZS_xta5HMXzR8JgxDH6n7 {
+    padding-inline: 6px;
+}
 /* Scroll to top */
 .uE7Pj4tb2n3_Bx4vjEX0a {
     border-radius: var(--corner-radius-full);

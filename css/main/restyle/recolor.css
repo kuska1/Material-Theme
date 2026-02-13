@@ -1,3 +1,11 @@
+/* Scrollbar */
+::-webkit-scrollbar-thumb:vertical {
+    background: var(--md-sys-color-surface-container-highest);
+}
+::-webkit-scrollbar-thumb:vertical:hover {
+    background: var(--md-sys-color-outline-variant);
+}
+
 /* ONLINE STATUSES */
 /* Offline */
 .offline .nOdcT-MoOaXGePXLyPe0H {
@@ -1393,6 +1401,10 @@ Green Notification
 /* BG */
 ._2gSXCB6PbOlMxslr8hm6dm,
 ._2Dd4T78PcCTUVgOtDGFY5j {
+    background: var(--md-sys-color-surface);
+}
+/* Scrollbar BG */
+._2gSXCB6PbOlMxslr8hm6dm ._2AUVZlzQq67qe3yhLZsPPB::-webkit-scrollbar-track-piece {
     background: var(--md-sys-color-surface);
 }
 /* Soundtrack */
