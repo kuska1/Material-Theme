@@ -22,7 +22,7 @@
 ### UI
 * Library Restyle [WIP]
 ### Style
-* Appearance (Light/Dark)
+* Appearance (Light/Dark/OLED)
 * Source Color (Red/Blue/Cyan/Green/Yellow/Custom/Dynamic [Beta])
 * Material Icons
 * Fonts (Default/Roboto/Open Sans/Google Sans)
@@ -63,4 +63,4 @@
 * [SpaceTheme](https://github.com/SpaceTheme/Steam)
 
 ## Contact & Support
-[Discord Server](https://discord.gg/aGcKmX5KTs) or [Personal Website](https://kuska1.github.io)
+[Discord Server](https://discord.gg/aGcKmX5KTs)
