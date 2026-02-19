@@ -234,30 +234,20 @@ body:has(._2yAm5LY_eu-Vg_52l0HFlM ._1mpeIo_E-qVxqb3DeRrQvl) ._2AzIX5kl9k6JnxLfR5
 }
 
 /* Millenium Theme Settings */
-.tool-tip-source:first-of-type:last-of-type ._3LM_ZckJp5yJYrL1OI_WqW button.DialogButton,
-._3LM_ZckJp5yJYrL1OI_WqW:first-of-type:last-of-type button.DialogButton {
-    border-top-left-radius: var(--corner-radius-medium);
-    border-top-right-radius: var(--corner-radius-medium);
-    border-bottom-left-radius: var(--corner-radius-medium);
-    border-bottom-right-radius: var(--corner-radius-medium);
+.tool-tip-source:not(.tool-tip-source ~ .tool-tip-source):not(:has(~ .tool-tip-source)) ._3LM_ZckJp5yJYrL1OI_WqW button.DialogButton {
+    border-radius: var(--corner-radius-medium);
 }
 
-.tool-tip-source:first-of-type:not(:last-of-type) ._3LM_ZckJp5yJYrL1OI_WqW button.DialogButton,
-._3LM_ZckJp5yJYrL1OI_WqW:first-of-type:not(:last-of-type) button.DialogButton {
+.tool-tip-source:not(.tool-tip-source ~ .tool-tip-source):has(~ .tool-tip-source) ._3LM_ZckJp5yJYrL1OI_WqW button.DialogButton {
     border-top-left-radius: var(--corner-radius-medium);
     border-top-right-radius: var(--corner-radius-medium);
     border-bottom-left-radius: var(--corner-radius-extra-small);
     border-bottom-right-radius: var(--corner-radius-extra-small);
 }
-.tool-tip-source:not(:first-of-type):not(:last-of-type) ._3LM_ZckJp5yJYrL1OI_WqW button.DialogButton,
-._3LM_ZckJp5yJYrL1OI_WqW:not(:first-of-type):not(:last-of-type) button.DialogButton {
-    border-top-left-radius: var(--corner-radius-extra-small);
-    border-top-right-radius: var(--corner-radius-extra-small);
-    border-bottom-left-radius: var(--corner-radius-extra-small);
-    border-bottom-right-radius: var(--corner-radius-extra-small);
+.tool-tip-source:has(~ .tool-tip-source):is(.tool-tip-source ~ .tool-tip-source) ._3LM_ZckJp5yJYrL1OI_WqW button.DialogButton {
+    border-radius: var(--corner-radius-extra-small);
 }
-.tool-tip-source:not(:first-of-type):last-of-type ._3LM_ZckJp5yJYrL1OI_WqW button.DialogButton,
-._3LM_ZckJp5yJYrL1OI_WqW:not(:first-of-type):last-of-type button.DialogButton {
+.tool-tip-source:not(:has(~ .tool-tip-source)):is(.tool-tip-source ~ .tool-tip-source) ._3LM_ZckJp5yJYrL1OI_WqW button.DialogButton {
     border-top-left-radius: var(--corner-radius-extra-small);
     border-top-right-radius: var(--corner-radius-extra-small);
     border-bottom-left-radius: var(--corner-radius-medium);

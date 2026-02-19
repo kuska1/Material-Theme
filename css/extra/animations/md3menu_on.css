@@ -15,6 +15,15 @@ html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt /* Root */ {
     transform: scale(1, 1);
 }
 
+/* Buttons */
+._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem,
+.EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container {
+    transition:
+        color 150ms var(--animation-expressive-fast-effects),
+        background 150ms var(--animation-expressive-fast-effects),
+        border-radius 150ms var(--animation-expressive-fast-spatial);
+}
+
 @keyframes openContextMenu {
     0% {
         opacity: 0;
@@ -25,6 +34,6 @@ html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt /* Root */ {
     } */
     100% {
         opacity: 1;
-        transform: scale(1, 1);
+        /* transform: scale(1, 1); */
     }
 }

@@ -955,21 +955,30 @@ a._2HnDgHQT_3ehcs4WgskKG5,
 .MillenniumSettings {
     border-top: unset !important;
 }
-.MillenniumDesktopSidebar_Title {
-    padding-top: 2px;
-    padding-bottom: 4px;
-}
 .MillenniumSidebarThemeEditor_Content ._DialogInputContainer {
-    padding: 8px 10px;
+    padding: 8px 10px !important;
 }
 .MillenniumColorPicker {
-    margin-left: 4px;
+    margin-left: 4px !important;
 }
 ._1rDh5rXSFZJOqCa4UpnI4z .MillenniumSettings ._2kwFFHckg8jvnwJfg9-la8 {
-    padding-top: 12px;
+    padding-top: 12px !important;
 }
 ._1rDh5rXSFZJOqCa4UpnI4z .MillenniumSettings .DialogContent.CFTLX2wIKOK3hNV-fS7_V {
-    margin-top: 0px;
+    margin-top: 0px !important;
+}
+.MillenniumDesktopSidebar_EditorHeader {
+    box-shadow: unset !important;
+    padding-bottom: 0px !important;
+}
+.MillenniumDesktopSidebar_EditorContent {
+    padding: unset !important;
+}
+.MillenniumButton.MillenniumDesktopSidebar_LibraryItemButton.DialogButton._DialogLayout.Secondary {
+    padding: 6px 12px !important;
+}
+.MillenniumDesktopSidebar_EditorContent .DialogDropDown {
+    padding: 8px 12px !important;
 }
 /* ._1rDh5rXSFZJOqCa4UpnI4z .MillenniumSettings ._2rjVTGz8aLvqOdz5v2gq5C {
     font-size: var(--font-headline-medium-size);
