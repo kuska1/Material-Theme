@@ -667,7 +667,8 @@ button.DialogButton.Disabled:hover, /* Basic */
     stop-color: var(--md-sys-color-on-tertiary-container);
 }
 /* Selected Item */
-._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:has(svg path[d="M31.09 4.38L13 22.46L5.41 14.88L1.88 18.41L13 29.54L34.62 7.91L31.09 4.38Z"]), /* Selected Online Status */
+._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:has(svg:not(._1i_SNL9Y9pA3PlljFpyfvE) path[d="M31.09 4.38L13 22.46L5.41 14.88L1.88 18.41L13 29.54L34.62 7.91L31.09 4.38Z"]), /* Selected Online Status */
+._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:has(svg._1i_SNL9Y9pA3PlljFpyfvE.IbePLaw-vSvhG1GTenYFg path[d="M31.09 4.38L13 22.46L5.41 14.88L1.88 18.41L13 29.54L34.62 7.91L31.09 4.38Z"]), /* Fix for game downloading */
 .EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container:has(.DialogCheckbox.Active), /* Games and Software */
 ._1n7Wloe5jZ6fSuvV18NNWI.menuChecked.contextMenuItem /* Online Status in Friend List */ {
 /* ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz .lYnGtW6EEZqmYUVJH2wLC[aria-selected="true"] */
@@ -2304,6 +2305,9 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 ._37Lk82ESPo7El4__sqZgOV ._2KA0p5xYePYygXUbjjsPzA {
     color: var(--md-sys-color-on-surface-variant);
     background: var(--md-sys-color-surface-variant);
+}
+._37Lk82ESPo7El4__sqZgOV ._2KA0p5xYePYygXUbjjsPzA ._1eZi9D2dwrPAL_LgwE0KVv {
+    color: var(--md-sys-color-primary);
 }
 ._37Lk82ESPo7El4__sqZgOV ._1LRR7Ji-cwYvaIOcDllLOx ._1s_9cSxUjb4609MSH0EjWH ._39Y01uSRcLiDg5DneTTR0m {
     color: var(--md-sys-color-on-surface);

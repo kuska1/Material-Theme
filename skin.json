@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "A theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.2.3",
+    "version": "1.2.4",
     "header_image": "https://github.com/kuska1/Material-Theme/blob/main/.github/banner.jpg?raw=true",
     "splash_image": "https://github.com/kuska1/Material-Theme/blob/main/.github/banner.jpg?raw=true",
 
@@ -171,37 +171,37 @@
             "values": {
                 "Steam": {
                     "TargetCss": {
-                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/steam.css"
+                        "affects": [".*"], "src": "css/extra/steamIcon/steam.css"
                     }
                 },
                 "Material Design": {
                     "TargetCss": {
-                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/materialdesign.css"
+                        "affects": [".*"], "src": "css/extra/steamIcon/materialdesign.css"
                     }
                 },
                 "Android": {
                     "TargetCss": {
-                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/android.css"
+                        "affects": [".*"], "src": "css/extra/steamIcon/android.css"
                     }
                 },
                 "Google": {
                     "TargetCss": {
-                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/google.css"
+                        "affects": [".*"], "src": "css/extra/steamIcon/google.css"
                     }
                 },
                 "Gemini": {
                     "TargetCss": {
-                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/gemini.css"
+                        "affects": [".*"], "src": "css/extra/steamIcon/gemini.css"
                     }
                 },
                 "Appearance": {
                     "TargetCss": {
-                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/appearance.css"
+                        "affects": [".*"], "src": "css/extra/steamIcon/appearance.css"
                     }
                 },
                 "Color Scheme": {
                     "TargetCss": {
-                        "affects": ["^Steam$", ".ModalDialogPopup"], "src": "css/extra/steamIcon/colorscheme.css"
+                        "affects": [".*"], "src": "css/extra/steamIcon/colorscheme.css"
                     }
                 }
             }
