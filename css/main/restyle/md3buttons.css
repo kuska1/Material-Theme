@@ -203,7 +203,7 @@ body:has(._2yAm5LY_eu-Vg_52l0HFlM ._1mpeIo_E-qVxqb3DeRrQvl) ._2AzIX5kl9k6JnxLfR5
     border-bottom-left-radius: var(--corner-radius-medium);
 }
 .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q {
-    border-radius: var(--corner-radius-full) !important;
+    border-radius: var(--corner-radius-large) !important;
 }
 .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:first-child:not(:last-child):active {
     border-top-right-radius: var(--corner-radius-extra-small) !important;
