@@ -43,8 +43,31 @@
     border-radius: var(--corner-radius-medium);
 }
 
+.OINnOU8K5HzPe2nzczpZi div[role="listitem"] ._21P7c4MWmsU2QSZeL-uyZo {
+    margin-bottom: 2px;
+}
+
+.OINnOU8K5HzPe2nzczpZi div[role="listitem"]:first-of-type:not(:last-of-type) ._1VNuYHM6BPBOJspC6zPf5r {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+}
+.OINnOU8K5HzPe2nzczpZi div[role="listitem"]:not(:first-of-type):not(:last-of-type) ._1VNuYHM6BPBOJspC6zPf5r {
+    border-top-left-radius: var(--corner-radius-small);
+    border-top-right-radius: var(--corner-radius-small);
+    border-bottom-left-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+}
+.OINnOU8K5HzPe2nzczpZi div[role="listitem"]:last-of-type:not(:first-of-type) ._1VNuYHM6BPBOJspC6zPf5r {
+    border-top-left-radius: var(--corner-radius-small);
+    border-top-right-radius: var(--corner-radius-small);
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+
 /* Test */
-._1SyggnJY6qbRSmbZpkK3-H {
+/* ._1SyggnJY6qbRSmbZpkK3-H {
     flex-basis: 30%;
 }
 ._1VNuYHM6BPBOJspC6zPf5r ._2ZfashhZu6uE9fCwyPS9mJ._2WEwEIAncE7-wa4Ye07a8x {
@@ -53,4 +76,55 @@
 }
 ._1VNuYHM6BPBOJspC6zPf5r:hover ._2ZfashhZu6uE9fCwyPS9mJ._2WEwEIAncE7-wa4Ye07a8x {
     width: 36px;
+} */
+
+/* md3expressive */
+/* Toggle button */
+/* Pause download */
+._1VNuYHM6BPBOJspC6zPf5r ._1cMXIpc5BRVY11dIrWKMNW ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:has(svg path[d="M14.5 30.5a1 1 0 0 1-1 1h-6a1 1 0 0 1-1-1v-25a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v25Zm15-25a1 1 0 0 0-1-1h-6a1 1 0 0 0-1 1v25a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-25Z"]) {
+    border-radius: var(--corner-radius-small);
+}
+/* Resume download */
+._1VNuYHM6BPBOJspC6zPf5r ._1cMXIpc5BRVY11dIrWKMNW ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:has(svg path[d="M7.5 32.135a1 1 0 0 1-1.5-.866V4.73a1 1 0 0 1 1.5-.866l22.999 13.269a1 1 0 0 1 0 1.732l-23 13.269Z"]) {
+    border-radius: var(--corner-radius-extra-large);
+}
+/* clear download */
+._1VNuYHM6BPBOJspC6zPf5r:not(.IbePLaw-vSvhG1GTenYFg) ._1cMXIpc5BRVY11dIrWKMNW {
+    margin-right: 8px;
+}
+
+._1VNuYHM6BPBOJspC6zPf5r ._2ZfashhZu6uE9fCwyPS9mJ._2WEwEIAncE7-wa4Ye07a8x {
+    margin-left: 3px;
+}
+._1VNuYHM6BPBOJspC6zPf5r ._2ZfashhZu6uE9fCwyPS9mJ._2WEwEIAncE7-wa4Ye07a8x ._3oavRVhIS9tC3vBsFT4Ggi,
+._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi._2xR-V97DWI7svSjgiCb3N-, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi._2xR-V97DWI7svSjgiCb3N-:enabled, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi._2xR-V97DWI7svSjgiCb3N-:active, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi._2xR-V97DWI7svSjgiCb3N-:hover, ._1VNuYHM6BPBOJspC6zPf5r ._3oavRVhIS9tC3vBsFT4Ggi._2xR-V97DWI7svSjgiCb3N-:enabled:active:hover {
+    opacity: 1;
+    height: 100%;
+    padding: 2px 12px 2px 10px;
+}
+
+._1VNuYHM6BPBOJspC6zPf5r .sQZ70orTPi-ELUlaS-ywR._1FnJ6dPuknQFQ2RTpKTI16._3cI5TXsFX3bvpR-7EBOtxq ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX {
+    border-top-left-radius: var(--corner-radius-full);
+    border-bottom-left-radius: var(--corner-radius-full);
+    border-top-right-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+}
+._1VNuYHM6BPBOJspC6zPf5r .sQZ70orTPi-ELUlaS-ywR._1FnJ6dPuknQFQ2RTpKTI16._3cI5TXsFX3bvpR-7EBOtxq ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX:active {
+    border-top-left-radius: var(--corner-radius-full);
+    border-bottom-left-radius: var(--corner-radius-full);
+    border-top-right-radius: var(--corner-radius-extra-large);
+    border-bottom-right-radius: var(--corner-radius-extra-large);
+}
+
+._1VNuYHM6BPBOJspC6zPf5r ._2ZfashhZu6uE9fCwyPS9mJ._2WEwEIAncE7-wa4Ye07a8x ._3oavRVhIS9tC3vBsFT4Ggi {
+    border-top-left-radius: var(--corner-radius-small);
+    border-bottom-left-radius: var(--corner-radius-small);
+    border-top-right-radius: var(--corner-radius-full);
+    border-bottom-right-radius: var(--corner-radius-full);
+}
+._1VNuYHM6BPBOJspC6zPf5r ._2ZfashhZu6uE9fCwyPS9mJ._2WEwEIAncE7-wa4Ye07a8x ._3oavRVhIS9tC3vBsFT4Ggi:active {
+    border-top-left-radius: var(--corner-radius-extra-large);
+    border-bottom-left-radius: var(--corner-radius-extra-large);
+    border-top-right-radius: var(--corner-radius-full);
+    border-bottom-right-radius: var(--corner-radius-full);
 }

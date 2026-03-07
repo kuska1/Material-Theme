@@ -2282,6 +2282,11 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 ._2sGn0cBsD44TjnUIh-lx9d {
     background: var(--md-sys-color-surface);
 }
+._1KHOCigl8AaK2eHxQqPMlc ._2RX1dsh68v-P0H9Am9Ufy1 ._2HOH927_SBdi8J559aStH6,
+._1KHOCigl8AaK2eHxQqPMlc ._2RX1dsh68v-P0H9Am9Ufy1 ._3ddJwYxqm61xYwptGOh8Me {
+    color: var(--md-sys-color-primary);
+}
+
 /* ._3_0Qbu8IAsqsv_6W5AxRhe {
     background: var(--md-sys-color-surface);
 } */
@@ -2399,7 +2404,34 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
     stroke: var(--md-sys-color-tertiary-fixed);
 }
 .Ayu--dDVVaKmP2gNYPAQ0 ._1QHr4A7EN2DgQfJIdu3rTh {
-    background-color: var(--md-sys-color-tertiary-fixed);
+    background: var(--md-sys-color-tertiary-fixed);
+}
+/* Limit downloads */
+._2LWo2qq9d-zuglW2VlM_Xu {
+    color: var(--md-sys-color-outline);
+}
+._2LWo2qq9d-zuglW2VlM_Xu ._35T9nZ2RsVs8kf7OMPlaxe {
+    color: var(--md-sys-color-secondary);
+}
+._2LWo2qq9d-zuglW2VlM_Xu.RIA0389PVEGt03gxehF1a ._35T9nZ2RsVs8kf7OMPlaxe {
+    color: var(--md-sys-color-outline)
+}
+._2LWo2qq9d-zuglW2VlM_Xu.RIA0389PVEGt03gxehF1a .RIA0389PVEGt03gxehF1a {
+    color: var(--md-sys-color-tertiary);
+}
+/* Resume download */
+._1VNuYHM6BPBOJspC6zPf5r ._1cMXIpc5BRVY11dIrWKMNW ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:has(svg path[d="M7.5 32.135a1 1 0 0 1-1.5-.866V4.73a1 1 0 0 1 1.5-.866l22.999 13.269a1 1 0 0 1 0 1.732l-23 13.269Z"]),
+._1VNuYHM6BPBOJspC6zPf5r ._1cMXIpc5BRVY11dIrWKMNW ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:has(svg path[d="M7.5 32.135a1 1 0 0 1-1.5-.866V4.73a1 1 0 0 1 1.5-.866l22.999 13.269a1 1 0 0 1 0 1.732l-23 13.269Z"]):enabled:focus {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-highest);
+}
+._1VNuYHM6BPBOJspC6zPf5r ._1cMXIpc5BRVY11dIrWKMNW ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:has(svg path[d="M7.5 32.135a1 1 0 0 1-1.5-.866V4.73a1 1 0 0 1 1.5-.866l22.999 13.269a1 1 0 0 1 0 1.732l-23 13.269Z"]):hover {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-surface) var(--layer-action-hover));
+}
+._1VNuYHM6BPBOJspC6zPf5r ._1cMXIpc5BRVY11dIrWKMNW ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:has(svg path[d="M7.5 32.135a1 1 0 0 1-1.5-.866V4.73a1 1 0 0 1 1.5-.866l22.999 13.269a1 1 0 0 1 0 1.732l-23 13.269Z"]):active {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-surface) var(--layer-action-active));
 }
 /* Games */
 /* Titles */

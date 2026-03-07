@@ -897,6 +897,9 @@ a._2HnDgHQT_3ehcs4WgskKG5,
     border-radius: var(--corner-radius-small);
     box-shadow: var(--elevated-shadow);
 }
+._2sGn0cBsD44TjnUIh-lx9d:has(._2RX1dsh68v-P0H9Am9Ufy1) .My_SveQxVY_oRxfkK5mqN {
+    visibility: hidden;
+}
 ._2R6-lF5h4f0SPrOL9B9IAw {
     -webkit-mask-image: unset;
     mask-image: unset;
