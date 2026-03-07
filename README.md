@@ -63,4 +63,4 @@
 * [SpaceTheme](https://github.com/SpaceTheme/Steam)
 
 ## Contact & Support
-[Discord Server](https://discord.gg/aGcKmX5KTs)
+[Personal Website](https://kuska1.github.io/) or [Discord Server](https://discord.gg/aGcKmX5KTs)
