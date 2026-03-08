@@ -1,7 +1,7 @@
 <p align="center">
     <a href="https://github.com/kuska1/Material-Theme/">
         <picture>
-          <img src="https://github.com/kuska1/Material-Theme/blob/main/.github/logo.svg?raw=true" alt="Material Logo" width="200">
+          <img src="https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/logo.svg" alt="Material Logo" width="200">
         </picture>
     </a>
 </p>
@@ -13,8 +13,8 @@
 [Discord](https://discord.gg/aGcKmX5KTs)
 
 ## Screenshots
-![Library](https://github.com/kuska1/Material-Theme/blob/main/.github/library.jpg?raw=true)
-![Dynamic](https://github.com/kuska1/Material-Theme/blob/main/.github/dynamic.gif?raw=true)
+![Library](https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/library.jpg)
+![Dynamic](https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/dynamic.gif)
 
 </div>
 
