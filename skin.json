@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "A theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.2.6",
+    "version": "1.2.7",
     "header_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
     "splash_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
 
@@ -42,7 +42,7 @@
             }
         },
         "Color": {
-            "description": "Choose source color. For Custom/Dynamic Color use \"Custom Accent Color\".",
+            "description": "Choose source color.\nFor [b]Matugen[/b] option check [b]\"matugentemplate.css\"[/b].\nFor [b]Custom/Dynamic[/b] option use [b]\"Custom Accent Color\"[/b].",
             "default": "Blue",
             "tab": "Style",
             "values": {
@@ -770,7 +770,7 @@
             }
         },
         "Use Experimental Features": { 
-            "description": "Enable experimental features. May cause issues. Currently affects community/powered steam pages. [url=https://github.com/kuska1/Material-Theme/issues/new?template=bug_report.md]Feel free to report them on GitHub.[/url]",
+            "description": "Enable experimental features. May cause issues. Currently affects community/powered steam pages.\n[url=https://github.com/kuska1/Material-Theme/issues/new?template=bug_report.md]Feel free to report them via GitHub or Discord Server.[/url]",
             "default": "no",
             "tab": "Extra",
             "values": {

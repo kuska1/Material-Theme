@@ -65,12 +65,6 @@
     pointer-events: none;
 }
 
-/* img filter based on scheme */
-.DefaultTheme ._3VtXfHDGV1q2LCVruVnHed img,
-.DefaultTheme ._2KhPXikozxMpbIRo_6jPxW._21EoN2ZlmHNY3fjho_HMae img {
-    filter: invert(var(--scheme-light, 1) var(--scheme-dark, 0));
-}
-
 /* Library */
 /* Games */
 ._3Ehhd5MxErV_bXQE4qVhzB ._24_AuLm54JVe1Zc0AApCDR, .ZsU8nIIpj8MJn0vzMzSp1 ._24_AuLm54JVe1Zc0AApCDR,

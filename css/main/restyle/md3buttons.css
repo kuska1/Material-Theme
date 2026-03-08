@@ -51,7 +51,13 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
 }
 ._1ZS_xta5HMXzR8JgxDH6n7 ._2PF_m-I5yte3WnQhpcz8RC, /* Library */
 ._3few7361SOf4k_YuKCmM62 .DialogDropDown,
-.DesktopUI .MillenniumDesktopSidebar_Content .DialogDropDown._DialogInputContainer {
+.DesktopUI .MillenniumDesktopSidebar_Content .DialogDropDown._DialogInputContainer,
+.GamepadMode button.cXzBZxhPBl7fZs9LODEnc.v8oJcDOQF6xmlVTw4VhOr.DialogButton,
+.GamepadMode button[role="combobox"],
+.GamepadMode button.cXzBZxhPBl7fZs9LODEnc.v8oJcDOQF6xmlVTw4VhOr.DialogButton:hover,
+.GamepadMode button[role="combobox"]:hover,
+.GamepadMode button.cXzBZxhPBl7fZs9LODEnc.v8oJcDOQF6xmlVTw4VhOr.DialogButton:active,
+.GamepadMode button[role="combobox"]:active  {
     border-radius: var(--corner-radius-small);
 }
 ._30wJO3MC4x-I1OWpy1TAeE._DialogInputContainer {
