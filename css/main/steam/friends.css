@@ -28,6 +28,13 @@
 .socialTabSearchContainer {
     margin-top: 4px;
 }
+.ChatRoomGroupAvatar_initials {
+    background: unset;
+    background-clip: unset;
+    -webkit-background-clip: unset;
+    -webkit-text-fill-color: unset;
+    text-shadow: unset;
+}
 /* Friends Title */
 .socialListTab.friendTab {
     box-shadow: unset;

@@ -24,15 +24,9 @@
 
     /* --- LAYERS --- */
 
-    --layer-action-color: var(--scheme-color);
-    --layer-action-color-inverse: var(--scheme-color-inverse);
-
     --layer-action-hover: 10%;
     --layer-action-active: 20%;
     --layer-action-disabled: 15%;
-
-    --menu-item-hover: color-mix(in srgb, transparent, var(--scheme-color-inverse) 7.45%);
-    --menu-item-active: color-mix(in srgb, transparent, var(--scheme-color-inverse) 10%);
 
     /* --- CORNERS --- */
 
