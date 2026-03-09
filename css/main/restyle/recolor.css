@@ -700,8 +700,12 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc
     color: var(--md-sys-color-on-tertiary-container);
     background: var(--md-sys-color-tertiary-container);
 }
+.EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container:has(.DialogCheckbox.Active) ._3kSh7qVSTDcPDePx9kya8C,
 ._1n7Wloe5jZ6fSuvV18NNWI.menuChecked.contextMenuItem  .persona_menu_descriptor {
     color:  var(--md-sys-color-on-tertiary-container);
+}
+.EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container:has(.DialogCheckbox.Active) ._3kSh7qVSTDcPDePx9kya8C ._3A3N3EnrSNMQLL058Qbzsn {
+    color: var(--md-sys-color-on-surface);
 }
 /* Selected Item Hover */
 .EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container:has(.DialogCheckbox.Active):hover,

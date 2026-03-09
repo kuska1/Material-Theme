@@ -22,7 +22,7 @@ function generateAndApplyScheme() {
   const computedStyle = getComputedStyle(document.documentElement);
   
   // Retrieve the system accent color and the current theme mode (light/dark) from CSS variables
-  const sourceHex = computedStyle.getPropertyValue('--SystemAccentColor').trim();
+  const sourceHex = computedStyle.getPropertyValue('--custom-accent-color').trim();
   const schemeMode = computedStyle.getPropertyValue('--scheme').trim();
 
   if (!sourceHex || !schemeMode) {
@@ -75,7 +75,7 @@ generateAndApplyScheme();
  * Setup MutationObserver to watch for dynamic changes in the Steam accent color.
  * SteamBrew/Millenium injects the color into a specific style node.
  */
-const styleNode = document.getElementById('SystemAccentColorInject');
+const styleNode = document.getElementById('RootColors');
 if (styleNode) {
   const observer = new MutationObserver(() => generateAndApplyScheme());
   
@@ -85,5 +85,5 @@ if (styleNode) {
     subtree: true 
   });
 } else {
-  console.warn(logText, logCss, '#SystemAccentColorInject not found. Dynamic updates disabled.');
+  console.warn(logText, logCss, '#RootColors not found. Dynamic updates disabled.');
 }

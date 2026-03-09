@@ -176,7 +176,7 @@ async function updateTheme() {
     console.warn(logText, logCss, 'Image-based color failed, falling back:', e);
   }
 
-  const systemColor = getComputedStyle(document.documentElement).getPropertyValue('--SystemAccentColor').trim();
+  const systemColor = getComputedStyle(document.documentElement).getPropertyValue('--custom-accent-color').trim();
   if (systemColor) {
     await generateAndApplyTheme(argbFromHex(systemColor));
   }
@@ -205,11 +205,17 @@ const observer = new MutationObserver((mutations) => {
 observer.observe(document.body, { childList: true, subtree: true });
 
 // Watch for changes in the system accent color style node
-const styleNode = document.getElementById('SystemAccentColorInject');
+const styleNode = document.getElementById('RootColors');
 if (styleNode) {
   const styleObserver = new MutationObserver(debounceUpdateTheme);
-  styleObserver.observe(styleNode, { childList: true, characterData: true, subtree: true });
+  
+  styleObserver.observe(styleNode, {
+    childList: true,
+    characterData: true,
+    subtree: true
+  });
+} else {
+  console.warn(logText, logCss, '#RootColors not found. Dynamic updates disabled.');
 }
-
 // Run immediately on script load
 debounceUpdateTheme();
