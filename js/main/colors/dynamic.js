@@ -194,7 +194,7 @@ const observer = new MutationObserver((mutations) => {
   for (const m of mutations) {
     for (const node of m.addedNodes) {
       if (node.nodeType === 1) {
-        if (node.matches?.('img.HNbe3eZf6H7dtJ042x1vM') || node.querySelector?.('img.HNbe3eZf6H7dtJ042x1vM')) {
+        if (node.matches?.('.QlR9EFwTdUNm_J5vx54_Z img.HNbe3eZf6H7dtJ042x1vM') || node.querySelector?.('.QlR9EFwTdUNm_J5vx54_Z img.HNbe3eZf6H7dtJ042x1vM')) {
           debounceUpdateTheme();
           return;
         }
@@ -217,5 +217,6 @@ if (styleNode) {
 } else {
   console.warn(logText, logCss, '#RootColors not found. Dynamic updates disabled.');
 }
+
 // Run immediately on script load
 debounceUpdateTheme();

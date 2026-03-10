@@ -683,6 +683,7 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc
 }
 .WUOrULWKkGLl3ZUQdDXg8,
 ._2kvdTEDgtIT7T9wZIzanom,
+.EDl_mzaY3WxkgmYVD8W4d ._2kvdTEDgtIT7T9wZIzanom,
 ._1n7Wloe5jZ6fSuvV18NNWI::after /* Custom One */ {
     background: var(--md-sys-color-outline-variant);
 }
@@ -700,12 +701,14 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc
     color: var(--md-sys-color-on-tertiary-container);
     background: var(--md-sys-color-tertiary-container);
 }
-.EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container:has(.DialogCheckbox.Active) ._3kSh7qVSTDcPDePx9kya8C,
-._1n7Wloe5jZ6fSuvV18NNWI.menuChecked.contextMenuItem  .persona_menu_descriptor {
+.EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container:has(.DialogCheckbox.Active) .DialogToggle_Label,
+.EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container:has(.DialogCheckbox.Active) ._3kSh7qVSTDcPDePx9kya8C {
     color:  var(--md-sys-color-on-tertiary-container);
 }
+
+._1n7Wloe5jZ6fSuvV18NNWI.menuChecked.contextMenuItem  .persona_menu_descriptor,
 .EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container:has(.DialogCheckbox.Active) ._3kSh7qVSTDcPDePx9kya8C ._3A3N3EnrSNMQLL058Qbzsn {
-    color: var(--md-sys-color-on-surface);
+    color: color-mix(in srgb, var(--md-sys-color-on-tertiary-container), transparent var(--layer-action-hover));
 }
 /* Selected Item Hover */
 .EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container:has(.DialogCheckbox.Active):hover,
@@ -1658,7 +1661,8 @@ Green Notification
     color: var(--md-sys-color-on-primary);
     fill: var(--md-sys-color-on-primary);
 }
-:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX svg line {
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX svg line,
+:not(._1Pb6PMh_3L5p5NzuUz0Pp9)>._2AzIX5kl9k6JnxLfR5H4kX svg g path {
     color: var(--md-sys-color-on-primary);
     stroke: var(--md-sys-color-on-primary);
 }

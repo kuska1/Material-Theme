@@ -316,10 +316,11 @@
 ._1IX7FPSY9Jb82KhBVBSkZa /* Remove paralax scroll effect */ {
     transform: none !important;
 }
-.HNbe3eZf6H7dtJ042x1vM._3_IUVzR9tpG_JKEjhwXEAb, .HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u /* Shadow */ {
+.HNbe3eZf6H7dtJ042x1vM._3_IUVzR9tpG_JKEjhwXEAb, .HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u /* Blur Image */ {
     mask-image: unset;
     -webkit-mask-image: unset;
     opacity: 0;
+    display: none;
 }
 ._2OOzYVWIHaKXm6_7sscT9i .Jbe--NUNw7sxbxGsMSjVa /* Bg */ {
     backdrop-filter: unset;

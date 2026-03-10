@@ -20,11 +20,13 @@
 
 ## Features:
 ### UI
-* Library Restyle [WIP]
+* Library, overlay, notifications, big picture mode restyles [WIP]
+* Download manager restyle
 ### Style
 * Appearance (Light/Dark/OLED)
-* Source Color (Red/Blue/Cyan/Green/Yellow/Custom/Dynamic [Beta])
-* Material Icons
+* Source color (Basic/Custom/Dynamic [Beta])
+* Matugen support
+* Material icons
 * Fonts (Default/Roboto/Open Sans/Google Sans)
 * Alternative online indicator
 ### Toolbar
@@ -39,6 +41,8 @@
 * Groups picture shape
 * Game icons shape
 * Achievements icons shape
+### Store
+* Always visible header
 ### Library
 * What's New style
 * Hover animations
@@ -48,11 +52,11 @@
 ### Extra
 * More animations
 * Loading style
+* Hide scrollbar
 
 ## TODO:
 ### UI
-* Store, Community, Download Manager restyles
-* Overlay, notification, etc restyle
+* Store, Community restyles, etc...
 
 ## Credits:
 ### Developer
