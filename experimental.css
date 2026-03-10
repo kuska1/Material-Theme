@@ -95,8 +95,8 @@ a.item_market_action_button {
 /* Test Recolor */
 /* --- COMMUNITY --- */
 /* -- GENERAL -- */
-body:not(.QsvsRVwbsApgKt1MhM0fz),
-body.v6 {
+body.v6, 
+body.responsive_page {
     background: var(--md-sys-color-surface) !important;
 }
 body.v6 .account_settings_container h2,
@@ -654,10 +654,10 @@ a._175B12uOwmeGBNcSaQFe-Z .vj9hwW9u0MpjH7MVjjNw0 ._1-hPfsxjynE3demuqGmqf0 ._3gaa
 /* Cards */
 ._1ECtb6W4gvvCrevAbzsKq_ ._3jXeonOfw-RB-1PDdJqSUx ._1vPyDoJDpPKIAmF1YMCtY0 {
     color: var(--md-sys-color-on-primary) !important;
-    background-color: var(--md-sys-color-primary) !important;
+    background: var(--md-sys-color-primary) !important;
 }
 ._1ECtb6W4gvvCrevAbzsKq_ ._3jXeonOfw-RB-1PDdJqSUx ._1vPyDoJDpPKIAmF1YMCtY0:hover, ._1ECtb6W4gvvCrevAbzsKq_ ._3jXeonOfw-RB-1PDdJqSUx ._1vPyDoJDpPKIAmF1YMCtY0.gpfocus {
-    background-color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover)) !important;
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover)) !important;
 }
 /* Games in search menu */
 ._3Z1skIYVoqLbYiP2wy46Ce {
