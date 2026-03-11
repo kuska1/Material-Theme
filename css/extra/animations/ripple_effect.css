@@ -1,0 +1,44 @@
+button, div[role="button"], div[role="combobox"] {
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+div[role="tab"] {
+    position: relative !important;
+    /* overflow: hidden !important; */
+}
+
+/* Создаем слой для эффекта через псевдоэлемент */
+button::after, div[role="button"]::after, div[role="tab"]::after, div[role="combobox"]::after {
+    content: "";
+    position: absolute;
+    background: currentColor;
+    border-radius: 99999px !important;
+    opacity: 0;
+    width: 0%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: unset !important;
+    pointer-events: none !important;
+    user-select: none !important;
+}
+
+button:active::after, div[role="button"]:active::after, div[role="combobox"]:active::after {
+    opacity: 0.12;
+    width: 150%;
+    height: 150%;
+    transition: 
+        all var(--animation-duration-medium2) cubic-bezier(.35,0,1,0.15),
+        opacity 0.4s var(--animation-easing-linear) !important;
+}
+
+div[role="tab"]:active::after {
+    opacity: 0.12;
+    width: 100%;
+    height: 100%;
+    transition: 
+        all var(--animation-duration-medium2) cubic-bezier(.35,0,1,0.15),
+        opacity 0.4s var(--animation-easing-linear) !important;
+}

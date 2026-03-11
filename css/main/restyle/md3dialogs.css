@@ -9,6 +9,9 @@
 .ModalDialogPopup .DialogContent, .DialogContent:not([role="tabpanel"]), .DialogContentTransition:not(.OX7USkJ5dDP_icD00Gal6) {
     border-radius: var(--corner-radius-extra-large);
 }
+.DeckVerifiedModalDialogClient .DialogContent, .DeckVerifiedModalDialog .DialogContent {
+    border: unset;
+}
 
 .DialogContent.CFTLX2wIKOK3hNV-fS7_V {
     margin-top: 32px;

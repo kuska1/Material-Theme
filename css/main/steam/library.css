@@ -258,6 +258,11 @@
     border-top-left-radius: var(--corner-radius-small);
     border-bottom-right-radius: var(--corner-radius-medium);
 }
+.B-vCdL38RiJlhfSRgZv78._278jFDApipeB4kFsi44_F5:hover ._3OSZu24hLN7YKjqGi7I2Xp {
+    opacity: 0.5;
+    filter: blur(5px);
+    transition: all .24s ease-in-out;
+}
 /* Title */
 ._1Gu1U2_kcg3AWLrXQgX5S6 div.DVBcpUzJ0x6kaRMfug0OJ {
     padding: 2px 4px;
@@ -361,7 +366,7 @@
     border-radius: var(--corner-radius-medium);
 }
 
-/* Game Actions (Store / Community / etc */
+/* Game Actions (Store / Community / etc) */
 ._31ptFGGMZrSQc5BCX1e5lm._3KfxIwlXEvum7FCD_AM2_t,
 ._3-V8vjmrwuJM6Ws3tsjFJj>div  /* Buttons */ {
     background-image: unset;
@@ -384,7 +389,7 @@
     border-top-left-radius: var(--corner-radius-medium);
     border-top-right-radius: var(--corner-radius-medium);
 }
-/* From your steam library */
+/* From your Steam library */
 .z8GYwNt_nbBZrf7OVjs-s {
     min-height: unset;
 }
@@ -393,6 +398,53 @@
     background: unset;
     margin-bottom: 0px;
 }
+/* Game Details */
+._2jPMy2QZr8bWi6yrk5ZzHA {
+    background: transparent;
+}
+._25oBZpa3dUcMw8QAsa2u67 ._1FXWy2UilVZIppT-PetDWw {
+    border-radius: var(--corner-radius-medium);
+}
+._2jPMy2QZr8bWi6yrk5ZzHA ._37mmOlZM_8n5yJAG5CHiW7 {
+    border-radius: var(--corner-radius-medium);
+}
+/* Img */
+._3JzkHhrsBKThuVrwsu3Q7T._3JzkHhrsBKThuVrwsu3Q7T {
+    box-shadow: unset;
+}
+._1Id6ZFEUVa5PKEMIvSg4nE {
+    border: unset;
+    border-radius: var(--corner-radius-medium);
+    box-shadow: unset;
+}
+._1Id6ZFEUVa5PKEMIvSg4nE.YR4JAs0b6FIwpXGQ4p2eg {
+    border: unset;
+    border-radius: var(--corner-radius-medium);
+    box-shadow: var(--elevated-shadow);
+}
+._3JzkHhrsBKThuVrwsu3Q7T._3JzkHhrsBKThuVrwsu3Q7T ._24_AuLm54JVe1Zc0AApCDR._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw {
+    border-radius: var(--corner-radius-small);
+}
+/* Magnifying Glass */
+._1Id6ZFEUVa5PKEMIvSg4nE ._2mMT5wI35EZKZ_XeO7BfPu {
+    border-radius: var(--corner-radius-full);
+    background: transparent;
+}
+/* Steam Deck Compatibility */
+.IIJeieZ-ZPRfIULY7uSDG {
+    border-radius: var(--corner-radius-medium);
+}
+/* Details Button */
+.IIJeieZ-ZPRfIULY7uSDG ._3sfpA6uM8IJuAnrtDiJLZI {
+    cursor: pointer;
+    margin: 0 0 0 auto;
+    border-radius: var(--corner-radius-full);
+}
+/* Img customization */
+._3d_bT685lnWotXxgzKW6am._2A3-t5PA7lv9_XsLyn10Zp {
+    border-radius: var(--corner-radius-small);
+}
+
 /* You've played this game for X */
 ._3LE-6w1ItIAB4CKJFCa3Od {
     background: unset;
@@ -556,6 +608,15 @@
 }
 ._176QJCynkEUSdR_-9btdAW button.DialogButton._3Cdin80d-hVsakHUZboheb:first-child {
     margin-right: 50px;
+}
+/* Screenshots */
+._2_TE0KLOU7kWWxa9LS7iXA ._2B8NkDc3EmF3XM6hl1qpQ8,
+._21yM8Jxi06nOAC-Lr1vfOh._1zPkVnKexQdCEe_yQuhRVw {
+    border-radius: var(--corner-radius-small);
+}
+.gOv9M_tdWa0CEJbaLhOKY {
+    top: 6px;
+    right: 6px;
 }
 /* DLC */
 ._2bF7XkQZA1M7jTj6txLFp- ._3SQn1_upOaYSAJAn2N4YKY {
@@ -1027,4 +1088,5 @@ a._2HnDgHQT_3ehcs4WgskKG5,
     margin-bottom: 14px;
     padding-inline-end: unset !important;
     padding-inline-start: unset !important;
+    text-align: center;
 }
