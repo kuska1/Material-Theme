@@ -553,6 +553,24 @@
                 }
             }
         },
+        "VAC-Ban Visibility": {
+            "description": "Show/Hide the VAC-Ban container from profile pages.",
+            "default": "Show",
+            "tab": "Community",
+            "values": {
+                "Show": {},
+                "Hide for me": {
+                    "TargetCss": {
+                        "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "css/extra/community/vac_hide_me.css"
+                    }
+                },
+                "Hide for all": {
+                    "TargetCss": {
+                        "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "css/extra/community/vac_hide_all.css"
+                    }
+                }
+            }
+        },
         "Account Balance near Account Name": {
             "description": "Show/Blur/Hide account balance near account name.",
             "default": "Blur",
@@ -612,7 +630,7 @@
                 }
             }
         },
-        " - Show Name after Hover?": {
+        " - Show Name in menu after Hover?": {
             "description": "[i]Doesn't work with Full Hide.[/i]",
             "default": "yes",
             "tab": "Privacy",
