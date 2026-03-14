@@ -287,6 +287,7 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, /* Card Button */
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU, ._3qDWQGB0rtwM3qpXTb11Q-.fyJia4DC2A-H5pIR9DD87, /* Game Properties Modal */
 ._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN, /* Collections */
 ._2GVYKKA0-FikD4ejRjx1Oh ._3TbvbA43LhIlIEKsH7eqhI, /* Filters */
+.LclHwcOfHFpwObYMD1HLa ._3H2GezG50hog8gSDj-qbx1 ._3EWVuoln1WAvpEaPNfpift, /* Launch Modal */
 /* Big Picture Mode */
 button.cXzBZxhPBl7fZs9LODEnc.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.Primary {
     color: var(--md-sys-color-on-primary);
@@ -316,6 +317,7 @@ button.DialogButton.gpfocus, .BRmrC-jnwpXqye4oYB21C button.DialogButton:hover,
 ._3qDWQGB0rtwM3qpXTb11Q-:hover, /* Game Opened Toolbar */
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU:hover, /* Game Properties Modal */
 ._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN:hover, /* Collections */
+.LclHwcOfHFpwObYMD1HLa ._3H2GezG50hog8gSDj-qbx1 ._3EWVuoln1WAvpEaPNfpift:hover, /* Launch Modal */
 /* Big Picture Mode */
 button.cXzBZxhPBl7fZs9LODEnc.DialogButton:hover, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:hover {
     color: var(--md-sys-color-on-primary);
@@ -332,6 +334,7 @@ button.DialogButton.Primary:enabled:active:hover, /* Primary */
 ._3qDWQGB0rtwM3qpXTb11Q-:enabled:active, /* Game Opened Toolbar */
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU:enabled:active, /* Game Properties Modal */
 ._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN:enabled:active, /* Collections */
+.LclHwcOfHFpwObYMD1HLa ._3H2GezG50hog8gSDj-qbx1 ._3EWVuoln1WAvpEaPNfpift:active, /* Launch Modal */
 /* Big Picture Mode */
 button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active:hover, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:hover:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover:active {
     color: var(--md-sys-color-on-primary);
@@ -361,16 +364,19 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc
 
 /* If layout has 2 Buttons > Different styles for primary and secondary */
 /* Secondary Button */
-._DialogColLayout:has(button.DialogButton.Primary) .DialogButton.Secondary {
+._DialogColLayout:has(button.DialogButton.Primary) .DialogButton.Secondary,
+.LclHwcOfHFpwObYMD1HLa ._3H2GezG50hog8gSDj-qbx1 ._1d8CbcBnA6t3lsxYdnMv1h {
     color: var(--md-sys-color-primary);
     background: transparent;
 }
 /* Hover */
-._DialogColLayout:has(button.DialogButton.Primary) .DialogButton.Secondary:hover {
+._DialogColLayout:has(button.DialogButton.Primary) .DialogButton.Secondary:hover,
+.LclHwcOfHFpwObYMD1HLa ._3H2GezG50hog8gSDj-qbx1 ._1d8CbcBnA6t3lsxYdnMv1h:hover {
     background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
 }
 /* Click */
-._DialogColLayout:has(button.DialogButton.Primary) .DialogButton.Secondary:active {
+._DialogColLayout:has(button.DialogButton.Primary) .DialogButton.Secondary:active,
+.LclHwcOfHFpwObYMD1HLa ._3H2GezG50hog8gSDj-qbx1 ._1d8CbcBnA6t3lsxYdnMv1h:active {
     background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
 }
 
@@ -846,7 +852,8 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc
 /* --- DIALOGS --- */
 
 /* Base */
-.DialogContent, .DialogContentTransition {
+.DialogContent, .DialogContentTransition,
+.LclHwcOfHFpwObYMD1HLa /* Launch Modal */ {
     background: var(--md-sys-color-surface-container);
 }
 /* Deck Verified */
@@ -855,10 +862,16 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc
 }
 ._2WJTd3a8tzPCkIBmvfBD79,
 ._32fPpbyivR63XHk0qiRv5n,
-.mJGYScROtrnXBuQ-LU507 {
+.mJGYScROtrnXBuQ-LU507,
+.LclHwcOfHFpwObYMD1HLa /* Launch Modal */ {
     color: var(--md-sys-color-on-surface);
 }
-._1Wu_jj1kk9n3WIoga3RL_J {
+.LclHwcOfHFpwObYMD1HLa ._2aHnQT0gTQ5KIsi5omK93w .EvZ7kwlROeKkDzxBu2TfH,
+.DesktopUI .LclHwcOfHFpwObYMD1HLa .DialogToggle_Label {
+    color: var(--md-sys-color-on-surface-variant)
+}
+._1Wu_jj1kk9n3WIoga3RL_J,
+.LclHwcOfHFpwObYMD1HLa ._2aHnQT0gTQ5KIsi5omK93w .HSQN4Dc7pEbtuyr1LP-5v {
     color: var(--md-sys-color-outline);
 }
 ._2mwbdnqm9Lk1-Bzs8FIdCU {
@@ -867,6 +880,33 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc
 .mJGYScROtrnXBuQ-LU507 ._2Q0ld2nJ3334gwZJ4LVzPW {
     color: var(--md-sys-color-outline);
 }
+/* Included */
+._3v2Gg_GCpLHpHQDLFQ7cvI.hYVp3sXyS0uYfJnzVoK-m ._3f3VJUtyLXUf_JDFE-BaQ6,
+.LclHwcOfHFpwObYMD1HLa ._2aHnQT0gTQ5KIsi5omK93w ._134yW7SKfZYwmvwlUElGx-,
+._3sa1NXudhvcc1U7HrlLdNQ._2ngG3CCc-g0zyXymxnDnM0 {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container-low);
+}
+._3v2Gg_GCpLHpHQDLFQ7cvI.hYVp3sXyS0uYfJnzVoK-m ._3f3VJUtyLXUf_JDFE-BaQ6 h3 {
+    color: var(--md-sys-color-on-surface);
+}
+._3v2Gg_GCpLHpHQDLFQ7cvI.hYVp3sXyS0uYfJnzVoK-m ._3f3VJUtyLXUf_JDFE-BaQ6 .RRhNQ2haTbK9z71YoH2R3 {
+    color: var(--md-sys-color-on-surface-variant);
+}
+/* Buttons */
+.LclHwcOfHFpwObYMD1HLa ._2aHnQT0gTQ5KIsi5omK93w ._134yW7SKfZYwmvwlUElGx- ._3DEhfTvEKwgLd4smd6QdaU {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container-highest);
+}
+.LclHwcOfHFpwObYMD1HLa ._2aHnQT0gTQ5KIsi5omK93w ._134yW7SKfZYwmvwlUElGx- ._3DEhfTvEKwgLd4smd6QdaU:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+.LclHwcOfHFpwObYMD1HLa ._2aHnQT0gTQ5KIsi5omK93w ._134yW7SKfZYwmvwlUElGx- ._3DEhfTvEKwgLd4smd6QdaU:active {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+
 
 /* --- BARS --- */
 
@@ -1659,6 +1699,9 @@ Green Notification
 }
 ._2TYVGoD27ZMfjRirKQNLfk, ._3pS8kMrtScuY1Qf-W8tmRV ._1nfJNsQjTOXSQQyFahGnRi /* Category SubHeader */ {
     color: var(--md-sys-color-outline);
+}
+._3ooxUb30k7736aTVnO179S {
+    color: var(--md-sys-color-primary);
 }
 /* Collapsed Game Info Bar */
 ._39RheXihcN6H2k2muQTjkI ._3DeO92O5aVkcdwEBCJDjWm {
@@ -2602,6 +2645,14 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 /* Body */
 ._1zv2D9H37p5yuOJNsCemS3 ._1nCT-M7nZcoNzedbVzbXha {
     color: var(--md-sys-color-on-surface-variant);
+}
+/* Patch Notes & Loading */
+._3kXEpnxa2qb5znYMSbKT0p,
+._21nVi2jNuF_prxLY1mAaKK, ._2wAKy-0ZkO_vhbiQCP9MgE ._21nVi2jNuF_prxLY1mAaKK {
+    color: var(--md-sys-color-primary);
+}
+._3kXEpnxa2qb5znYMSbKT0p:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
 /* Buttons */
 ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled,

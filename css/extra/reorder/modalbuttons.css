@@ -1,7 +1,9 @@
 /* Primary & Secondary Button Swap */
-._DialogColLayout button.DialogButton.Primary {
+._DialogColLayout button.DialogButton.Primary,
+.LclHwcOfHFpwObYMD1HLa ._3H2GezG50hog8gSDj-qbx1 ._3EWVuoln1WAvpEaPNfpift {
     order: 2;
 }
-._DialogColLayout button.DialogButton.Secondary {
+._DialogColLayout button.DialogButton.Secondary,
+.LclHwcOfHFpwObYMD1HLa ._3H2GezG50hog8gSDj-qbx1 ._1d8CbcBnA6t3lsxYdnMv1h {
     order: 1;
 }
