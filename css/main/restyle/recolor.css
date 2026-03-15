@@ -883,7 +883,8 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc
 /* Included */
 ._3v2Gg_GCpLHpHQDLFQ7cvI.hYVp3sXyS0uYfJnzVoK-m ._3f3VJUtyLXUf_JDFE-BaQ6,
 .LclHwcOfHFpwObYMD1HLa ._2aHnQT0gTQ5KIsi5omK93w ._134yW7SKfZYwmvwlUElGx-,
-._3sa1NXudhvcc1U7HrlLdNQ._2ngG3CCc-g0zyXymxnDnM0 {
+._3sa1NXudhvcc1U7HrlLdNQ._2ngG3CCc-g0zyXymxnDnM0,
+._2SwH92Kuhm2Kw8_VHMFHcy {
     color: var(--md-sys-color-on-surface);
     background: var(--md-sys-color-surface-container-low);
 }
@@ -1340,6 +1341,9 @@ Green Notification
 /* .xlEVpBeYO1h2tOqErt9fj, .xlEVpBeYO1h2tOqErt9fj {
     border-color: var(--md-sys-color-primary) !important;
 } */
+.xlEVpBeYO1h2tOqErt9fj {
+border-radius: var(--corner-radius-medium);
+}
 ._1YVDTFYSTDWouyIbRs_hN_:not(._1zNnNw2BDhrN6ML6YxBYJE) {
     background-color: var(--md-sys-color-primary) !important;
 }
@@ -1591,6 +1595,22 @@ Green Notification
 ._1tBzypb5E2AwNuBuVns9Hl ._1ljKTq3H58WbDZGNPfM0TY, /* Sort By */
 ._2q70uOe6xM3-c5XIVfBLe6 /* Collection */ {
     color: var(--md-sys-color-on-surface);
+}
+/* Now showing fewer updates for ... */ 
+._2Yry4I6mF5baTtagAVA_cr {
+    color: var(--md-sys-color-outline);
+}
+._2sdvic79rOzTYDZw2nrgmL {
+    color: var(--md-sys-color-primary);
+    background: transparent;
+}
+._2sdvic79rOzTYDZw2nrgmL:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+    background: transparent;
+}
+._2sdvic79rOzTYDZw2nrgmL:active {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+    background: transparent;
 }
 /* Arrows Down Button */
 ._2-p7shAZYrRijpaTU9bAFR>div {

@@ -48,10 +48,15 @@ div.ModalPosition_TopBar {
 ._3v2Gg_GCpLHpHQDLFQ7cvI.hYVp3sXyS0uYfJnzVoK-m ._3f3VJUtyLXUf_JDFE-BaQ6,
 ._3sa1NXudhvcc1U7HrlLdNQ._2ngG3CCc-g0zyXymxnDnM0,
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3lj3-GDYOlcoIFB3fFo1ko,
-.LclHwcOfHFpwObYMD1HLa ._2aHnQT0gTQ5KIsi5omK93w ._134yW7SKfZYwmvwlUElGx- {
+.LclHwcOfHFpwObYMD1HLa ._2aHnQT0gTQ5KIsi5omK93w ._134yW7SKfZYwmvwlUElGx-,
+._2SwH92Kuhm2Kw8_VHMFHcy {
     border: unset;
     border-radius: var(--corner-radius-small);
     box-shadow: unset;
+}
+/* QR Code */
+._2nfA6g3AeXaUBZ2fDMSBPA .UTetJckMNtrxwllPEi_zN ._5S5WqZhvbmRD1cHQT8P-l {
+    border-radius: var(--corner-radius-medium);
 }
 /* Launch Option Buttons */
 .LclHwcOfHFpwObYMD1HLa ._2aHnQT0gTQ5KIsi5omK93w ._134yW7SKfZYwmvwlUElGx- ._3DEhfTvEKwgLd4smd6QdaU:first-child:last-child {
