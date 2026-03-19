@@ -123,6 +123,11 @@
                         "affects": [".*"], "src": "css/extra/fonts/googlesans.css"
                     }
                 },
+                "Bitcount Single": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/extra/fonts/bitcountsingle.css"
+                    }
+                },
                 "Line Font": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/extra/fonts/linefont.css"

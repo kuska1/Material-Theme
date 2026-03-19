@@ -1767,11 +1767,30 @@ border-radius: var(--corner-radius-medium);
     fill: var(--md-sys-color-on-primary);
 }
 
+/* Plugins Support / HLTB */
+.hltb-info {
+    background: var(--md-sys-color-surface-container);
+}
+.hltb-info p {
+    color: var(--md-sys-color-on-surface);
+}
+.hltb-details-btn {
+    color: var(--md-sys-color-primary);
+}
+.hltb-details-btn:hover {
+    color: var(--md-sys-color-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
+}
+.hltb-details-btn:active {
+    color: var(--md-sys-color-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
+}
+
 /* Icons */
 ._1kiZKVbDe-9Ikootk57kpA .MbTRimZpGCATmn39ae8RT, /* Cloud Sync */
 ._1aKegVl9_lSdNAyWYZQlr9 ._1GZdosVXnfrf69yU8DWASl svg path, /* Play Time */
 ._1kiZKVbDe-9Ikootk57kpA .k-QNT9kzOEOvG0U_kGmwr, /* Achievements */
-._1tIg-QIrwMNtCm7NcYADyi._1GZdosVXnfrf69yU8DWASl /* Size on Disk (Plugin) */ {
+._1tIg-QIrwMNtCm7NcYADyi._1GZdosVXnfrf69yU8DWASl /* Plugins Support / Size on Disk */ {
     stroke: unset;
     color: var(--md-sys-color-outline);
     fill: var(--md-sys-color-outline);

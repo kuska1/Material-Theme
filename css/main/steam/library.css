@@ -377,6 +377,19 @@
     transition: all var(--animation-duration-short3) var(--animation-easing-standart-accelerate);
     border-radius: var(--corner-radius-medium);
 }
+/* Plugins Support / HLTB */
+.hltb-info {
+    border-radius: var(--corner-radius-small);
+}
+.hltb-info ul {
+    padding-inline: 12px;
+}
+.hltb-info ul:has(.hltb-details-btn) {
+    padding-right: 4px;
+}
+.hltb-details-btn {
+    border-radius: var(--corner-radius-full);
+}
 
 /* Game Actions (Store / Community / etc) */
 ._31ptFGGMZrSQc5BCX1e5lm._3KfxIwlXEvum7FCD_AM2_t,
