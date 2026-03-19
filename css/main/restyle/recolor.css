@@ -2328,6 +2328,57 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 ._3Kelh1-_v6xHfRjF68n7NB, ._3ctGqQID5-8adtd7HlZ3YM, ._16xC0mtOWoLbvSQbmo_ycv {
     background: var(--md-sys-color-surface-container);
 }
+/* News Toolbar */
+._2pA5CW91XQQDfo6yZEdPd- ._3yfs7fc5WEv6F9tPG4yq4g ._2tSyrRxMCRWK6K09JErgI_ {
+    color: var(--md-sys-color-on-primary-container);
+    background: var(--md-sys-color-primary-container);
+}
+._1_vCR1dPfyJ7_yukwDqblf svg line,
+._1_vCR1dPfyJ7_yukwDqblf:hover svg line,
+._1_vCR1dPfyJ7_yukwDqblf:active svg line {
+    stroke: currentColor;
+}
+._1t_97P9KMsEBaPq9y-6OUl svg polygon,
+._1t_97P9KMsEBaPq9y-6OUl:hover svg polygon,
+._1t_97P9KMsEBaPq9y-6OUl:active svg polygon {
+    fill: currentColor;
+}
+/* Primary Button */
+._1_vCR1dPfyJ7_yukwDqblf {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+._1_vCR1dPfyJ7_yukwDqblf:hover {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+._1_vCR1dPfyJ7_yukwDqblf:active {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+}
+/* Other Buttons */
+._1t_97P9KMsEBaPq9y-6OUl {
+    color: var(--md-sys-color-on-primary-container);
+    background: transparent;
+}
+._1t_97P9KMsEBaPq9y-6OUl:hover {
+    color: var(--md-sys-color-on-primary-container);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-primary-container) var(--layer-action-hover));
+}
+._1t_97P9KMsEBaPq9y-6OUl:active {
+    color: var(--md-sys-color-on-primary-container);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-primary-container) var(--layer-action-active));
+}
+/* FAB */
+._2pA5CW91XQQDfo6yZEdPd- ._3yfs7fc5WEv6F9tPG4yq4g ._2tSyrRxMCRWK6K09JErgI_ ._2a5oSdTIcFV3c3ymUNsu6l {
+    background: var(--md-sys-color-tertiary-container);
+}
+._2pA5CW91XQQDfo6yZEdPd- ._3yfs7fc5WEv6F9tPG4yq4g ._2tSyrRxMCRWK6K09JErgI_ ._2a5oSdTIcFV3c3ymUNsu6l:hover {
+    background: color-mix(in srgb, var(--md-sys-color-tertiary-container), var(--md-sys-color-on-tertiary-container) var(--layer-action-hover));
+}
+._2pA5CW91XQQDfo6yZEdPd- ._3yfs7fc5WEv6F9tPG4yq4g ._2tSyrRxMCRWK6K09JErgI_ ._2a5oSdTIcFV3c3ymUNsu6l:active {
+    background: color-mix(in srgb, var(--md-sys-color-tertiary-container), var(--md-sys-color-on-tertiary-container) var(--layer-action-active));
+}
 /* Text */
 .TqEPC9bhvVpZ1rb3Z8Mbd,
 ._3_SEiDNs-lzwV7cTF6gcgt .TqEPC9bhvVpZ1rb3Z8Mbd:hover,

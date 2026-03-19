@@ -837,7 +837,8 @@ div.ModalPosition_Dismiss {
 ._3Kelh1-_v6xHfRjF68n7NB, ._3ctGqQID5-8adtd7HlZ3YM, ._16xC0mtOWoLbvSQbmo_ycv {
     border-radius: var(--corner-radius-medium);
 }
-.A_A2B6fTn_MPLlGCmsLtd img {
+.A_A2B6fTn_MPLlGCmsLtd img,
+.rUASsQgg0rvqoACIDRygZ iframe /* YouTube */ {
     border-radius: var(--corner-radius-small);
 }
 ._2-IygC3-t05_RYwPl6Fkgt {
@@ -846,6 +847,53 @@ div.ModalPosition_Dismiss {
 }
 .stsss-bTNuazY8FYtvTOX {
     display: none;
+}
+/* News Toolbar */
+._2pA5CW91XQQDfo6yZEdPd- {
+    width: unset;
+    right: 12px;
+    top: 40%;
+}
+.LibraryDisplaySizeSmall ._2pA5CW91XQQDfo6yZEdPd- {
+    top: 82px;
+}
+._2pA5CW91XQQDfo6yZEdPd- ._3yfs7fc5WEv6F9tPG4yq4g,
+._2pA5CW91XQQDfo6yZEdPd- ._3yfs7fc5WEv6F9tPG4yq4g ._2tSyrRxMCRWK6K09JErgI_ {
+    width: unset;
+    max-width: unset;
+}
+._2pA5CW91XQQDfo6yZEdPd- ._3yfs7fc5WEv6F9tPG4yq4g ._2tSyrRxMCRWK6K09JErgI_ {
+    gap: 8px;
+    padding: 8px;
+    border-radius: var(--corner-radius-full);
+    box-shadow: var(--elevated-shadow);
+}
+._1_vCR1dPfyJ7_yukwDqblf,
+._1t_97P9KMsEBaPq9y-6OUl,
+._1_vCR1dPfyJ7_yukwDqblf:hover,
+._1t_97P9KMsEBaPq9y-6OUl:hover,
+._240i58XQ0w78YFrd_p-9UY:active {
+    box-shadow: unset;
+    border-color: transparent;
+    border-radius: var(--corner-radius-full);
+}
+._1_vCR1dPfyJ7_yukwDqblf,
+._1t_97P9KMsEBaPq9y-6OUl {
+    margin: unset;
+    margin: auto;
+}
+/* ._3xRRJfD2xy95i9NhJxLTp0:not(.LibraryDisplaySizeSmall)  */
+._1t_97P9KMsEBaPq9y-6OUl._3VePRhMGWFsbGaZjSNXJjV:has(svg[style*="transform: rotate(180deg);"]) {
+    margin-bottom: 4px;
+}
+._2pA5CW91XQQDfo6yZEdPd- ._3yfs7fc5WEv6F9tPG4yq4g ._2tSyrRxMCRWK6K09JErgI_ ._2a5oSdTIcFV3c3ymUNsu6l {
+    position: absolute;
+    bottom: -58px;
+    border-radius: var(--corner-radius-small);
+    box-shadow: var(--elevated-shadow);
+}
+._2pA5CW91XQQDfo6yZEdPd- ._3yfs7fc5WEv6F9tPG4yq4g ._2tSyrRxMCRWK6K09JErgI_ ._2a5oSdTIcFV3c3ymUNsu6l img {
+    padding: 6px;
 }
 /* Buttons */
 ._1ABCOz8DSrl-YJdh1xD-m0._1dDpSuaJBGZzS41s0SPk4c,
@@ -876,7 +924,7 @@ a._2HnDgHQT_3ehcs4WgskKG5,
 }
 /* Likes / Dislike */
 ._2BlTqJQonHkEpBSpiC1NEA, ._1izIEyRuLgphVa7NKAGtIb,
-._2oPMu032IJnXb5-21W07V-  {
+._2oPMu032IJnXb5-21W07V-, .gWDyh18yme_n7VmrYhmid  {
     border-radius: var(--corner-radius-full);
 }
 
