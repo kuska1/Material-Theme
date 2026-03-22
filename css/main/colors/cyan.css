@@ -1,6 +1,6 @@
 :root {
     --theme-color: "Cyan";
-    --hue-rotate: 360deg;
+    --hue-rotate: 330deg;
     --md-sys-color-primary: var(--scheme-light, rgb(0 107 138)) var(--scheme-dark, rgb(79 216 235));
     --md-sys-color-surface-tint: var(--scheme-light, rgb(0 107 138)) var(--scheme-dark, rgb(79 216 235));
     --md-sys-color-on-primary: var(--scheme-light, rgb(255 255 255)) var(--scheme-dark, rgb(0 54 69));

@@ -406,7 +406,7 @@
             }
         },
         "What's New": {
-            "description": "Show/Compact/Hide What's New section.",
+            "description": "Show/Compact/Hide \"What's New\" section.",
             "default": "Compact",
             "tab": "Library",
             "values": {
@@ -419,6 +419,19 @@
                 "Hide": {
                     "TargetCss": {
                         "affects": ["^Steam$"], "src": "css/extra/whatsNew/hide.css"
+                    }
+                }
+            }
+        },
+        "Hide Add Shelf": {
+            "description": "Show/Hide \"Add Shelf\" button.",
+            "default": "yes",
+            "tab": "Library",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/extra/library/hideAddShelf.css"
                     }
                 }
             }

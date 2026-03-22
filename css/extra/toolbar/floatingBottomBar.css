@@ -21,10 +21,11 @@
     margin: auto;
 }
 .window_resize_grip {
+    visibility: hidden;
     width: 0px !important;
     height: 0px !important;
-    right: -1000% !important;
-    top: -1000% !important;
+    right: calc(infinity * 100%) !important;
+    top: calc(infinity * 100%) !important;
 }
 ._3vCzSrrXZzZjVJFZNg9SGu[flex-direction="row"] {
     display: none;

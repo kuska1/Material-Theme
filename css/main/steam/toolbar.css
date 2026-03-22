@@ -139,9 +139,18 @@
 .extension-manager-popup .extension-detail-info .page-header>img {
     border-radius: var(--corner-radius-small) !important;
 }
+.extensions-bar-container .extension-button img {
+    border-radius: var(--corner-radius-extra-small) !important;
+}
 .extension-manager-popup .extension-detail-info .clickable-row:last-child {
     border-bottom-left-radius: var(--corner-radius-small) !important;
     border-bottom-right-radius: var(--corner-radius-small) !important;
+}
+.extension-manager-popup .extension-buttons {
+    height: unset !important;
+}
+.extension-manager-popup .extension-buttons button {
+    border-radius: var(--corner-radius-full) !important;
 }
 
 /* STYLE 1 TEST */
