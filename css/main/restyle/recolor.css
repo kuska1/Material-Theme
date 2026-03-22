@@ -467,6 +467,11 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc
     color: var(--md-sys-color-on-primary);
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
+/* Checkbox */
+.DialogCheckbox svg defs linearGradient stop,
+svg.SVGIcon_DialogCheck defs linearGradient stop {
+    stop-color: var(--md-sys-color-primary);
+}
 
 /* --- CARDS --- */
 
@@ -529,6 +534,9 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc
 /* --- RADIO BUTTON --- */
 
 /* Base */
+input[type="radio"] {
+    accent-color: var(--md-sys-color-primary);
+}
 ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit {
     outline-color: var(--md-sys-color-on-surface-variant);
 }
