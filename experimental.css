@@ -216,12 +216,14 @@ a.item_market_action_button:active,
     background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active)) !important;
 }
 ._20DWPovgBZty81RwR7w9KW div:not([class]) a.Focusable:not(._9fMwjaiixbDViVPurFAa4),
-._3tH8spjqRz_Z6mmB4uWK-m a {
+._3tH8spjqRz_Z6mmB4uWK-m a,
+.account_setting_sub_block .payment_method_box a {
     color: var(--md-sys-color-primary) !important;
 }
 ._20DWPovgBZty81RwR7w9KW div:not([class]) a.Focusable:not(._9fMwjaiixbDViVPurFAa4):hover,
-._3tH8spjqRz_Z6mmB4uWK-m a:hover {
-    color: var(--md-sys-color-on-surface) !important;
+._3tH8spjqRz_Z6mmB4uWK-m a:hover,
+.account_setting_sub_block .payment_method_box a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 60%) !important;
 }
 .DialogToggleField_Option.On,
 .DialogToggleField_Option.Off.Active {
@@ -342,6 +344,16 @@ section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
     color: var(--md-sys-color-on-surface) !important;
 }
 .two_column.right footer .built-in-checkboxes /* Plugins Support / SteamDB */ {
+    color: var(--md-sys-color-outline) !important;
+}
+.account_setting_sub_block .payment_method_box {
+    border-radius: var(--corner-radius-small) !important;
+    background: var(--md-sys-color-surface-container-high) !important;
+}
+.cached_payment_method_exists {
+    color: var(--md-sys-color-on-surface) !important;
+}
+.account_setting_sub_block .cached_payment_method_description {
     color: var(--md-sys-color-outline) !important;
 }
 /* Store Preferences */

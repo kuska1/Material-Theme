@@ -58,7 +58,8 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
 .GamepadMode button.cXzBZxhPBl7fZs9LODEnc.v8oJcDOQF6xmlVTw4VhOr.DialogButton:hover,
 .GamepadMode button[role="combobox"]:hover,
 .GamepadMode button.cXzBZxhPBl7fZs9LODEnc.v8oJcDOQF6xmlVTw4VhOr.DialogButton:active,
-.GamepadMode button[role="combobox"]:active  {
+.GamepadMode button[role="combobox"]:active,
+._3jj_KvFzq6XW7NasX_7Tvv.DesktopUI .DialogDropDown, .DesktopUI ._3jj_KvFzq6XW7NasX_7Tvv .DialogDropDown /* Modal / EULA */ {
     border-radius: var(--corner-radius-small);
 }
 ._30wJO3MC4x-I1OWpy1TAeE._DialogInputContainer {

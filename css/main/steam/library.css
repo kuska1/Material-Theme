@@ -111,8 +111,11 @@
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU {
     border-radius: var(--corner-radius-full);
 }
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._2rILnoW6swWh4_9TDWWc31 {
+    border-radius: var(--corner-radius-small);
+}
 
-._172OFJhtx4Jt2ydY6-9IUm, /* When Filter Opened */
+/* ._172OFJhtx4Jt2ydY6-9IUm, When Filter Opened */
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU._1Gjk27xaRIzt2zOSwOSP0N /* When Inputed */ {
     display: none;
 }
@@ -147,7 +150,7 @@
 ._3km84Vscc0uS91f0RN_30C ._1vO6BoiVslZgs1kqDGdUs8 /* Padding fixes */ {
     padding-top: 2px;
     padding-bottom: 2px;
-    padding-left: 23px;
+    /* padding-left: 23px; */
 }
 /* Bg Fix */
 .u1xD3KJEgksF_J_5TLZzO, /* Collection */
@@ -1118,10 +1121,16 @@ a._2HnDgHQT_3ehcs4WgskKG5,
 }
 .MillenniumDesktopSidebar_EditorHeader {
     box-shadow: unset !important;
-    padding-bottom: 0px !important;
+    padding-bottom: 6px !important;
 }
 .MillenniumDesktopSidebar_EditorContent {
+    padding-block: unset !important;
+}
+.MillenniumDesktopSidebar_EditorContent .DialogBody {
     padding: unset !important;
+}
+.MillenniumDesktopSidebar_EditorContent .aFxOaYcllWYkCfVYQJFs0 > div:last-child {
+    margin-bottom: 12px;
 }
 .MillenniumButton.MillenniumDesktopSidebar_LibraryItemButton.DialogButton._DialogLayout.Secondary {
     padding: 4px 12px !important;

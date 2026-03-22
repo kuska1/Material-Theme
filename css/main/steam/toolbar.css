@@ -122,6 +122,27 @@
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt {
     gap: 4px;
 }
+/* Plugins Support / Extendium */
+.extensions-bar-container .extensions-bar,
+.extensions-bar-container .extensions-bar:hover {
+    border: unset !important;
+}
+.DesktopUI .eKmEXJCm_lgme24Fp_HWt._2HuzvKQ2QMUJ-JJOeApaF1:not(.aIeh3X5T2M074RLW1qn6_):hover {
+    cursor: pointer !important;
+}
+.extension-manager-popup .extension-card,
+.extension-manager-popup .extension-detail-info {
+    border-radius: var(--corner-radius-medium) !important;
+    box-shadow: unset !important;
+}
+.extension-manager-popup .extension-main .icon img,
+.extension-manager-popup .extension-detail-info .page-header>img {
+    border-radius: var(--corner-radius-small) !important;
+}
+.extension-manager-popup .extension-detail-info .clickable-row:last-child {
+    border-bottom-left-radius: var(--corner-radius-small) !important;
+    border-bottom-right-radius: var(--corner-radius-small) !important;
+}
 
 /* STYLE 1 TEST */
 /* ._3Z3ohQ8-1NKnCZkbS6fvy {
