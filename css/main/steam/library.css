@@ -855,11 +855,7 @@
   box-shadow: unset;
   border-radius: var(--corner-radius-full);
 }
-<<<<<<< HEAD
-/* Steam Deck Compability & Steam family game copies*/
-=======
-/* Steam Deck Compability & Copies in Family */
->>>>>>> c94ab4b31a235fd5e3e852359f853ced58e6d9cd
+/* Steam Deck Compability & Copies in Family*/
 .tvCvyQrDNndbXWp_b5__b {
   flex-direction: column;
 }
