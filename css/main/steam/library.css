@@ -770,9 +770,14 @@
     box-shadow: unset;
     border-radius: var(--corner-radius-full);
 }
-/* Steam Deck Compability */
+/* Steam Deck Compability & Copies in Family */
 .tvCvyQrDNndbXWp_b5__b {
     flex-direction: column;
+}
+._3zxPLsbnU5LuorR0_EPCEC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* loading On Game Cover */
 .kX-tIJx4a9vKVuUkKJARv._1wAArO4jx5Kth5YdKAQ_Sd._3BNwjsy5WltxayFptkx3KF {
