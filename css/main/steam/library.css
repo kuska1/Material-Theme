@@ -21,14 +21,28 @@
 /* Left */
 
 /* Home & Collections */
+._3SFRZYIb9Y2q7YsVtB3YKb {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+._3SFRZYIb9Y2q7YsVtB3YKb .SVGIcon_PlusCircle {
+    margin-top: unset;
+}
 ._3cV3O8FnPQqpJO5kIMUlLX {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+._2mZ8LlvoUiyeEUtIWuTri {
+    height: auto;
+    margin: auto;
 }
 ._29uten9Yy8q-n7woDEOXVF {
-  font-size: 12px;
-  height: auto;
+    height: auto;
+    margin: auto;
+    margin-left: 4px;
 }
 
 /* Home Library Icon */
