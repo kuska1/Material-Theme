@@ -3043,13 +3043,12 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 
 /* Exit Game */
 .fi6UDkxJq66MLo2z9wabQ .BoygotvcKo4DC4dSix8G3 {
-    color: var(--md-sys-color-on-primary);
-    background: unset;
-    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-error);
+    background: var(--md-sys-color-error);
 }
 .fi6UDkxJq66MLo2z9wabQ .BoygotvcKo4DC4dSix8G3:hover {
     color: var(--md-sys-color-on-error);
-    background: var(--md-sys-color-error);
+    background: color-mix(in srgb, var(--md-sys-color-error), var(--md-sys-color-on-error) var(--layer-action-hover));
 }
 .fi6UDkxJq66MLo2z9wabQ .BoygotvcKo4DC4dSix8G3:active {
     color: var(--md-sys-color-on-error) !important;
