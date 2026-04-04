@@ -144,7 +144,8 @@ html.client_chat_frame body, /* Fix */
     fill: var(--md-sys-color-on-surface);
 }
 /* Storage */
-._1DFCGL1HyqZkIjEaoNLdjf, ._181OY9APZJDARykJ_KOFPE /* Text Category */{
+.ybEU2kARViIFGigPw8VQ0 ._1LvKJs5FKB30xbur_XL2DL ._1rihlgVMF4Q_fFZDnXeVt5, /* Storage Path */
+._1DFCGL1HyqZkIjEaoNLdjf, ._181OY9APZJDARykJ_KOFPE /* Text Category */ {
     color: var(--md-sys-color-on-surface);
 }
 ._181OY9APZJDARykJ_KOFPE /* Sub Text after Category */ {
@@ -402,8 +403,12 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc
 /* Dropdown Button */
 /* Storage Fix */
 ._3g-QHB82IGz91Hsk1Hw4lh,
-._3YelWui4gQvucX_bHwvl15._1TyV26CL6Wjd3gaJsh_rpr ._1rihlgVMF4Q_fFZDnXeVt5, ._3YelWui4gQvucX_bHwvl15._1TyV26CL6Wjd3gaJsh_rpr ._5bG9Iwr014pu3H1SPRwYh, ._3YelWui4gQvucX_bHwvl15._1TyV26CL6Wjd3gaJsh_rpr svg {
+._3YelWui4gQvucX_bHwvl15._1TyV26CL6Wjd3gaJsh_rpr ._1rihlgVMF4Q_fFZDnXeVt5, ._3YelWui4gQvucX_bHwvl15._1TyV26CL6Wjd3gaJsh_rpr ._5bG9Iwr014pu3H1SPRwYh, ._3YelWui4gQvucX_bHwvl15._1TyV26CL6Wjd3gaJsh_rpr svg,
+._3YelWui4gQvucX_bHwvl15, ._1rihlgVMF4Q_fFZDnXeVt5, ._5bG9Iwr014pu3H1SPRwYh {
     color: var(--md-sys-color-on-primary);
+}
+._3YelWui4gQvucX_bHwvl15 ._1rihlgVMF4Q_fFZDnXeVt5 svg {
+    color: var(--md-sys-color-on-tertiary) !important;
 }
 ._3few7361SOf4k_YuKCmM62 .DialogDropDown, /* Base */
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown, /* Game Properties Modal */
@@ -782,8 +787,8 @@ input[type="radio"] {
 }
 
 /* Storage Fix */
-._2oAiZidGyUxL-hfupFDQ2m ._3YelWui4gQvucX_bHwvl15._1TyV26CL6Wjd3gaJsh_rpr ._1rihlgVMF4Q_fFZDnXeVt5, ._2oAiZidGyUxL-hfupFDQ2m ._3YelWui4gQvucX_bHwvl15._1TyV26CL6Wjd3gaJsh_rpr ._5bG9Iwr014pu3H1SPRwYh, ._2oAiZidGyUxL-hfupFDQ2m ._3YelWui4gQvucX_bHwvl15._1TyV26CL6Wjd3gaJsh_rpr svg {
-    color: var(--color-foreground-body);
+._2oAiZidGyUxL-hfupFDQ2m ._3YelWui4gQvucX_bHwvl15 ._1rihlgVMF4Q_fFZDnXeVt5, ._2oAiZidGyUxL-hfupFDQ2m ._3YelWui4gQvucX_bHwvl15 ._5bG9Iwr014pu3H1SPRwYh, ._2oAiZidGyUxL-hfupFDQ2m ._3YelWui4gQvucX_bHwvl15 svg {
+    color: var(--md-sys-color-on-surface);
 }
 /* Root */
 /* Base */
@@ -1194,11 +1199,11 @@ Green Notification
 ._2E5LHvnVEF3dSVV3wrDflm, /* Date */
 ._36iQ4zr5AiMWVmmiHee0mN /* Emoji */ {
     color: var(--md-sys-color-inverse-on-surface);
-    background: unset;
-    background-color: var(--md-sys-color-inverse-surface);
+    background: var(--md-sys-color-inverse-surface);
 }
 ._3XGRklQrZMakU2xaYB0cLD ._1LhVfNukndDa_XWzq0vdg1,
-._36iQ4zr5AiMWVmmiHee0mN ._1EGMuGj8BnVwY9FY_hre1R {
+._36iQ4zr5AiMWVmmiHee0mN ._1EGMuGj8BnVwY9FY_hre1R,
+._1nfHId6YijfUuNqxiZEG0d ._1aM9-xSqNVmFacRhZ6KQLI /* What is this? */ {
     color: var(--md-sys-color-inverse-on-surface);
 }
 ._3XGRklQrZMakU2xaYB0cLD .i4LuYcvtfPgYKx3qqvKUq,
