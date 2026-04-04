@@ -831,6 +831,19 @@
                     }
                 }
             }
+        },
+        "Show Debug Info": { 
+            "description": "Display useful information. Helpful for bug reports.",
+            "default": "no",
+            "tab": "Extra",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetJs": {
+                        "affects": [".*"], "src": "js/extra/debug/debug.js"
+                    }
+                }
+            }
         }
     },
     
