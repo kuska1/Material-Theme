@@ -23,7 +23,8 @@
 }
 /* Online */
 .online .nOdcT-MoOaXGePXLyPe0H, ._3yD46y5pd3zOGR7CzKs0mC.online,
-:not(.friendInviteContainer) .online .ContextMenuButton .SVGIcon_DownArrowContextMenu {
+:not(.friendInviteContainer) .online .ContextMenuButton .SVGIcon_DownArrowContextMenu,
+._1DsumfIa3MlkzUV9EXY5W9.online ._2n0EiKMGRP-r_BI5tDtttu {
     color: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 60%);
     fill: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 60%);
 }
