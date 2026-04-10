@@ -119,7 +119,7 @@
 ._20QAC4WMXm8qFE8waUT5oo {
     gap: 4px;
 }
-._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS {
+._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS:has(.DialogInput_Wrapper) {
     border-radius: var(--corner-radius-full);
 }
 ._20QAC4WMXm8qFE8waUT5oo ._12vo5L1hsNGdao6_ssuirS .DialogTextInputBase {
