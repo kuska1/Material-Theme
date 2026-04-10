@@ -1,4 +1,12 @@
 ._7EGqd8bdiXJBd2fj5Hh8r ._2sQtvR60AbFF5UzDwY9hit,
 .LclHwcOfHFpwObYMD1HLa ._2aHnQT0gTQ5KIsi5omK93w ._134yW7SKfZYwmvwlUElGx- ._3DEhfTvEKwgLd4smd6QdaU input {
-    transition: var(--animation-basic-slow);
+    transition:
+        all 150ms var(--animation-expressive-fast-effects) !important;
+}
+
+/* Checkbox */
+.DialogCheckbox,
+.DialogCheckbox svg defs linearGradient stop {
+    transition:
+        all 150ms var(--animation-expressive-fast-effects) !important;
 }

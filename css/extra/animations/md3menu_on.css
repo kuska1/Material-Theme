@@ -19,9 +19,9 @@ html._14wqdluDeDnnEcg3OSLEmd .PP7LM0Ow1K5qkR8WElLpt /* Root */ {
 ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem,
 .EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container {
     transition:
-        color 150ms var(--animation-expressive-fast-effects),
-        background 150ms var(--animation-expressive-fast-effects),
-        border-radius 150ms var(--animation-expressive-fast-spatial);
+        color 100ms var(--animation-expressive-fast-effects),
+        background 100ms var(--animation-expressive-fast-effects),
+        border-radius 100ms var(--animation-expressive-fast-spatial);
 }
 
 @keyframes openContextMenu {

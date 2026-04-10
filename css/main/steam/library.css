@@ -320,7 +320,8 @@
     /* box-shadow: var(--elevated-shadow); */
 }
 /* Games */
-.WYgDg9NyCcMIVuMyZ_NBC /* Cards */ {
+.WYgDg9NyCcMIVuMyZ_NBC, /* Cards */
+._3A0YTyMl9nF8feHrX4VdDt, ._2n6FNLKyb6al_YPk13xS7S ._1WUAY58UDF21P7SiKT4-3O {
     box-shadow: unset;
     border: unset;
     border-radius: var(--corner-radius-medium);
@@ -1130,6 +1131,129 @@ a._2HnDgHQT_3ehcs4WgskKG5,
 }
 ._3uOErrMLSNVM7v6C3zKSJh {
     background: transparent;
+}
+
+/* Storage / Game Versions & Betas / DLC / Workshop */
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy,
+._2n6FNLKyb6al_YPk13xS7S .lnGVVQQ3rDYWIgO-hc12V div[role="list"],
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc ._3SPlcoJKzx2TM4WVMW9Xpt {
+    border: unset;
+    box-shadow: unset;
+    gap: 4px;
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._2d_FE9TOpHt1FsYhLEpjCp {
+    border-left: unset;
+    margin-left: 8px;
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG.dB7T-kfL2b2b0jd9Zg9fa ._2d_FE9TOpHt1FsYhLEpjCp {
+    border-color: transparent;
+    border-left: unset;
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG,
+._2n6FNLKyb6al_YPk13xS7S div[role="listitem"] ._2RCSUgg2X_uF_C0e1lrcqc,
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc div[role="listitem"] .pht3SaejGcAJEjNG8d6nd {
+    border-radius: var(--corner-radius-extra-small);
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG:first-of-type:last-of-type,
+._2n6FNLKyb6al_YPk13xS7S div[role="listitem"]:first-of-type:last-of-type ._2RCSUgg2X_uF_C0e1lrcqc,
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc div[role="listitem"]:first-of-type:last-of-type .pht3SaejGcAJEjNG8d6nd {
+    border-radius: var(--corner-radius-medium);
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG:first-of-type:not(:last-of-type),
+._2n6FNLKyb6al_YPk13xS7S div[role="listitem"]:first-of-type:not(:last-of-type) ._2RCSUgg2X_uF_C0e1lrcqc,
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc div[role="listitem"]:first-of-type:not(:last-of-type) .pht3SaejGcAJEjNG8d6nd {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG:not(:first-of-type):not(:last-of-type),
+._2n6FNLKyb6al_YPk13xS7S div[role="listitem"]:not(:first-of-type):not(:last-of-type) ._2RCSUgg2X_uF_C0e1lrcqc,
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc div[role="listitem"]:not(:first-of-type):not(:last-of-type) .pht3SaejGcAJEjNG8d6nd {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG:last-of-type:not(:first-of-type),
+._2n6FNLKyb6al_YPk13xS7S div[role="listitem"]:last-of-type:not(:first-of-type) ._2RCSUgg2X_uF_C0e1lrcqc,
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc div[role="listitem"]:last-of-type:not(:first-of-type) .pht3SaejGcAJEjNG8d6nd {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG.dB7T-kfL2b2b0jd9Zg9fa._231y-BrqpRH85PNLgfseSR,
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG.dB7T-kfL2b2b0jd9Zg9fa._2fy9Xqi70es7wkqy4iOvBE,
+._2n6FNLKyb6al_YPk13xS7S ._2RCSUgg2X_uF_C0e1lrcqc._2RCSUgg2X_uF_C0e1lrcqc:has(div[role="checkbox"][aria-checked="true"]) {
+    border-radius: var(--corner-radius-medium);
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG:not(.dB7T-kfL2b2b0jd9Zg9fa):hover,
+._2n6FNLKyb6al_YPk13xS7S ._2RCSUgg2X_uF_C0e1lrcqc:hover {
+    cursor: pointer;
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG:not(.dB7T-kfL2b2b0jd9Zg9fa):not(:first-of-type):not(:last-of-type):active,
+._2n6FNLKyb6al_YPk13xS7S div[role="listitem"]:not(:first-of-type):not(:last-of-type) ._2RCSUgg2X_uF_C0e1lrcqc:active {
+    border-radius: var(--corner-radius-small) !important;
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG:not(.dB7T-kfL2b2b0jd9Zg9fa):first-of-type:not(:last-of-type):active,
+._2n6FNLKyb6al_YPk13xS7S div[role="listitem"]:first-of-type:not(:last-of-type) ._2RCSUgg2X_uF_C0e1lrcqc:active {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG:not(.dB7T-kfL2b2b0jd9Zg9fa):last-of-type:not(:first-of-type):active,
+._2n6FNLKyb6al_YPk13xS7S div[role="listitem"]:last-of-type:not(:first-of-type) ._2RCSUgg2X_uF_C0e1lrcqc:active {
+    border-top-left-radius: var(--corner-radius-small);
+    border-top-right-radius: var(--corner-radius-small);
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .X3pN_ESh0aoxmm2nK65Hu {
+    border-radius: var(--corner-radius-medium);
+}
+
+/* Storage */
+.ybEU2kARViIFGigPw8VQ0 ._2n6FNLKyb6al_YPk13xS7S {
+    gap: 4px;
+}
+._17SQWViInfB-hmYYLoK4Yw._2ddeJfhiG4hmAfqvi1FL6X {
+    border-radius: var(--corner-radius-small);
+}
+/* Hope it will works fine, cuz wtf is that styles */
+._2n6FNLKyb6al_YPk13xS7S .lnGVVQQ3rDYWIgO-hc12V div[role="list"],
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc ._3SPlcoJKzx2TM4WVMW9Xpt {
+    display: flex;
+    flex-direction: column;
+    max-width: unset !important;
+    max-height: unset !important;
+    width: 100% !important;
+    height: auto !important;
+    pointer-events: all !important;
+}
+._2n6FNLKyb6al_YPk13xS7S .lnGVVQQ3rDYWIgO-hc12V div[role="list"] div[role="listitem"] ._2RCSUgg2X_uF_C0e1lrcqc,
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc ._3SPlcoJKzx2TM4WVMW9Xpt div[role="listitem"] .pht3SaejGcAJEjNG8d6nd {
+    height: auto !important;
+    position: relative !important;
+    top: unset !important;
+    width: 100% !important;
+}
+
+/* DLC */
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW {
+    border-radius: var(--corner-radius-small);
+}
+
+/* Workshop */
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc .pht3SaejGcAJEjNG8d6nd .iWdskI4in7pZbS0ETm5QQ ._1Apujm9YkB1MT7tiEHslUE {
+    border-radius: vaR(--corner-radius-small);
+}
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc .pht3SaejGcAJEjNG8d6nd._2xFFnTn_oVln8SzeVQVvZ {
+    box-shadow: var(--elevated-shadow);
+    border-radius: var(--corner-radius-medium);
 }
 
 /* Millenium Tab */

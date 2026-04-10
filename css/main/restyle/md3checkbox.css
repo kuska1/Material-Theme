@@ -8,3 +8,10 @@
 #svgid_53, #svgid_54 {
     display: none;
 }
+.DialogCheckbox,
+._2n6FNLKyb6al_YPk13xS7S ._2qURXDJ4ZtfSVOesDk7A73 .DialogCheckbox /* Settings */ {
+    box-shadow: unset;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: var(--corner-radius-extra-small);
+}

@@ -16,6 +16,13 @@
     transform-origin: top !important;
 }
 
+/* Lists */
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3jWpi0kJp_piNEvdMufMmy ._1LCoWsUrJmZHr7SVX0luaG,
+._2n6FNLKyb6al_YPk13xS7S ._2RCSUgg2X_uF_C0e1lrcqc {
+    transition:
+        all 150ms var(--animation-expressive-fast-effects) !important;
+}
+
 @keyframes cardAnim {
     0% {
         max-height: 0px;
