@@ -51,10 +51,17 @@ div.ModalPosition_TopBar {
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3lj3-GDYOlcoIFB3fFo1ko,
 .LclHwcOfHFpwObYMD1HLa ._2aHnQT0gTQ5KIsi5omK93w ._134yW7SKfZYwmvwlUElGx-,
 ._2SwH92Kuhm2Kw8_VHMFHcy,
-._1dbgUdk0xgEX7E4Db_r5mb, .DesktopUI ._2YXHRFCzmxgvxVGtA3TWVf ._7lXDajp5HNY9Kpnbeykv {
+._1dbgUdk0xgEX7E4Db_r5mb, .DesktopUI ._2YXHRFCzmxgvxVGtA3TWVf ._7lXDajp5HNY9Kpnbeykv,
+._1Ve4VFO2EEkeNZdel_Asky {
     border: unset;
     border-radius: var(--corner-radius-small);
     box-shadow: unset;
+}
+._2ilpH-HpvuSm6s5MWX5bA- .JYQgsMzgbFLgarphirEoQ ._3M92hj6aELzceURcKR7WFu {
+    border-radius: var(--corner-radius-small);
+}
+._2ilpH-HpvuSm6s5MWX5bA- .JYQgsMzgbFLgarphirEoQ ._3M92hj6aELzceURcKR7WFu:hover, ._2ilpH-HpvuSm6s5MWX5bA- .JYQgsMzgbFLgarphirEoQ ._3M92hj6aELzceURcKR7WFu.Efo_8muMPNLjjSbObMuDq, ._2ilpH-HpvuSm6s5MWX5bA- .JYQgsMzgbFLgarphirEoQ ._3M92hj6aELzceURcKR7WFu.gpfocus {
+    box-shadow: var(--elevated-shadow);
 }
 /* QR Code */
 ._2nfA6g3AeXaUBZ2fDMSBPA .UTetJckMNtrxwllPEi_zN ._5S5WqZhvbmRD1cHQT8P-l {
@@ -85,6 +92,11 @@ div.ModalPosition_TopBar {
     border-top-right-radius: var(--corner-radius-extra-small);
     border-bottom-left-radius: var(--corner-radius-medium);
     border-bottom-right-radius: var(--corner-radius-medium);
+}
+/* Notes Toggle Buttons */
+button.DialogButton._1dEi5qzSDdPOzoOQXYbNLN._1Iw5xoXQXfmRjgjWTKbm_G {
+    outline: unset;
+    border-radius: var(--corner-radius-small);
 }
 
 /* Margin Fix? */

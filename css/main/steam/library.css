@@ -708,6 +708,10 @@
 ._1cr9sIuuS4nLKFLZ9EYN9Q.ZsU8nIIpj8MJn0vzMzSp1 ._24_AuLm54JVe1Zc0AApCDR {
     border-radius: var(--corner-radius-small);
 }
+/* Screenshot share */
+._1pdQdoLxwmuMZpXXNHI2Uo ._290DqV3rdr3Mjn-Nfyv4My img {
+    border-radius: var(--corner-radius-small);
+}
 /* Post-Game Summary */
 /* Img Recording */
 ._3AnDc05C5V6AG4ko7By2Yh,
@@ -969,7 +973,7 @@ a._2HnDgHQT_3ehcs4WgskKG5,
     border-radius: var(--corner-radius-full);
     justify-content: center;
 }
-/* Arts */
+/* Arts / Screenshots */
 ._3QS6OBHpvI5bXsSQA2zQuW {
     box-shadow: unset;
     border-radius: var(--corner-radius-medium);
@@ -978,7 +982,8 @@ a._2HnDgHQT_3ehcs4WgskKG5,
     border-top-left-radius: var(--corner-radius-medium);
     border-top-right-radius: var(--corner-radius-medium);
 }
-._1aP1bu_l_kDbKMN7XDNmzg ._3uabislt81gdMksbxzc-iN {
+._1aP1bu_l_kDbKMN7XDNmzg ._3uabislt81gdMksbxzc-iN,
+._23HTprMKEMzlqooblsDngK.tLc3yNucBVuLCkXDIvOzj, ._1d0ijEIDvERoDLj_8CO6pH.tLc3yNucBVuLCkXDIvOzj {
     border-top-right-radius: var(--corner-radius-medium);
 }
 ._-85o5-M_cGo-fefOuWwER ._3XZzfVx8SPRZc4kLownPRd {
@@ -1244,6 +1249,8 @@ a._2HnDgHQT_3ehcs4WgskKG5,
 
 /* DLC */
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3sXdOJ9DEh5zdS54_ptwgW {
+    border: unset;
+    box-shadow: unset;
     border-radius: var(--corner-radius-small);
 }
 
