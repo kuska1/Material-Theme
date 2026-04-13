@@ -16,9 +16,15 @@
     border-radius: var(--corner-radius-extra-small);
     box-sizing: border-box;
 }
-.DialogCheckbox .SVGIcon_DialogCheck {
+.DialogCheckbox .SVGIcon_DialogCheck,
+._170Npw5h84elypMSQ8zNDI ._1axoiZsC1RBp22JQmxiBIc ._32e6rHniKd5ztOQ1lYIulu ._1J53P1yXTWlwJRyCAzMQei ._2AOkQORncEi9SJ3FCWnPmY svg,
+._1FyBL6obxHQ2Z2CsaV2Gbz .DialogCheckbox svg,
+.DialogCheckbox_Container.DNDCheckBox .DialogCheckbox {
     margin-top: unset;
+    margin-left: unset;
+    margin-right: unset;
     margin-inline-start: unset;
+    margin-inline-end: unset;
 }
 .PP7LM0Ow1K5qkR8WElLpt .DialogCheckbox {
     border-width: 0px !important;
@@ -26,12 +32,6 @@
 .PP7LM0Ow1K5qkR8WElLpt .DialogCheckbox_Container.DNDCheckBox .DialogCheckbox {
     border-width: 2px !important;
 }
-._1FyBL6obxHQ2Z2CsaV2Gbz .DialogCheckbox svg {
-    margin-left: unset;
-}
 .DialogCheckbox_Container.DNDCheckBox {
     gap: 4px;
-}
-.DialogCheckbox_Container.DNDCheckBox .DialogCheckbox {
-    margin-inline-end: unset;
 }
