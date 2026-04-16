@@ -2036,6 +2036,21 @@ border-radius: var(--corner-radius-medium);
 ._3ooxUb30k7736aTVnO179S {
     color: var(--md-sys-color-primary);
 }
+/* Btns */
+._3pS8kMrtScuY1Qf-W8tmRV ._1nfJNsQjTOXSQQyFahGnRi ._3Cdin80d-hVsakHUZboheb {
+    color: var(--md-sys-color-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
+}
+._3pS8kMrtScuY1Qf-W8tmRV ._1nfJNsQjTOXSQQyFahGnRi ._3Cdin80d-hVsakHUZboheb:hover {
+    color: var(--md-sys-color-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
+}
+._3pS8kMrtScuY1Qf-W8tmRV ._1nfJNsQjTOXSQQyFahGnRi ._3Cdin80d-hVsakHUZboheb:active,
+._3pS8kMrtScuY1Qf-W8tmRV ._1nfJNsQjTOXSQQyFahGnRi ._3Cdin80d-hVsakHUZboheb:enabled:active,
+._3pS8kMrtScuY1Qf-W8tmRV ._1nfJNsQjTOXSQQyFahGnRi ._3Cdin80d-hVsakHUZboheb:enabled:active:hover {
+    color: var(--md-sys-color-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
+}
 /* Collapsed Game Info Bar */
 ._39RheXihcN6H2k2muQTjkI ._3DeO92O5aVkcdwEBCJDjWm {
     background: var(--md-sys-color-surface-container-highest);
@@ -2099,6 +2114,44 @@ border-radius: var(--corner-radius-medium);
     background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
 }
 
+/* File Conflict */
+._1e3aAVJv0Hy_mDBocob-ja ._1NanE3eExGghMdycVIVR8b {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container-highest);
+}
+._1e3aAVJv0Hy_mDBocob-ja ._1NanE3eExGghMdycVIVR8b:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+._1e3aAVJv0Hy_mDBocob-ja ._1NanE3eExGghMdycVIVR8b:active,
+._1e3aAVJv0Hy_mDBocob-ja ._1NanE3eExGghMdycVIVR8b:enabled:active,
+._1e3aAVJv0Hy_mDBocob-ja ._1NanE3eExGghMdycVIVR8b:enabled:active:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+._1e3aAVJv0Hy_mDBocob-ja._2hegSJLw7cDEDv9fKZj8xS ._1NanE3eExGghMdycVIVR8b {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+._1e3aAVJv0Hy_mDBocob-ja._2hegSJLw7cDEDv9fKZj8xS ._1NanE3eExGghMdycVIVR8b:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+._1e3aAVJv0Hy_mDBocob-ja._2hegSJLw7cDEDv9fKZj8xS ._1NanE3eExGghMdycVIVR8b:active,
+._1e3aAVJv0Hy_mDBocob-ja._2hegSJLw7cDEDv9fKZj8xS ._1NanE3eExGghMdycVIVR8b:enabled:active,
+._1e3aAVJv0Hy_mDBocob-ja._2hegSJLw7cDEDv9fKZj8xS ._1NanE3eExGghMdycVIVR8b:enabled:active:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+
+._2SNqCkeOL0u8yOzul4tJuI {
+    background: var(--md-sys-color-surface-container-low);
+}
+._2hegSJLw7cDEDv9fKZj8xS ._2SNqCkeOL0u8yOzul4tJuI, ._2hegSJLw7cDEDv9fKZj8xS ._2SNqCkeOL0u8yOzul4tJuI:hover {
+    box-shadow: inset 0px 0px 0px 6px var(--md-sys-color-on-secondary);
+    background: var(--md-sys-color-secondary);
+}
+
 /* Icons */
 ._1kiZKVbDe-9Ikootk57kpA .MbTRimZpGCATmn39ae8RT, /* Cloud Sync */
 ._1aKegVl9_lSdNAyWYZQlr9 ._1GZdosVXnfrf69yU8DWASl svg path, /* Play Time */
@@ -2107,6 +2160,13 @@ border-radius: var(--corner-radius-medium);
     stroke: unset;
     color: var(--md-sys-color-outline);
     fill: var(--md-sys-color-outline);
+}
+.q_Xpj_ztkqZCfOIksH3UR:hover svg {
+    color: var(--md-sys-color-on-surface);
+}
+._1kiZKVbDe-9Ikootk57kpA .MbTRimZpGCATmn39ae8RT path[fill="#FFC82C"],
+._2-O4ZG0KrnSrzISHBKctFQ ._1vO6BoiVslZgs1kqDGdUs8 svg path[fill="#FFC82C"] {
+    fill: var(--md-sys-color-error);
 }
 /* Achievements fix */
 ._1kiZKVbDe-9Ikootk57kpA .k-QNT9kzOEOvG0U_kGmwr svg defs linearGradient stop {
@@ -2308,6 +2368,12 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.Q7tULXy1gQNG1eU--hN27:active {
 /* Notes */
 ._2L6IIbLCMWUJcOhliUVqKb {
     color: var(--md-sys-color-on-surface-variant);
+}
+._1AL7l2CN6z-vuLfp1iCLa ._1dEi5qzSDdPOzoOQXYbNLN:not(.Disabled),
+._1AL7l2CN6z-vuLfp1iCLa ._1dEi5qzSDdPOzoOQXYbNLN:not(.Disabled) svg,
+._1AL7l2CN6z-vuLfp1iCLa ._1dEi5qzSDdPOzoOQXYbNLN:not(.Disabled) svg path {
+    color: var(--md-sys-color-on-primary);
+    fill: var(--md-sys-color-on-primary);
 }
 
 /* X Achieved / Write review / etc */

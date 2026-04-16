@@ -418,6 +418,45 @@
 .hltb-details-btn {
     border-radius: var(--corner-radius-full);
 }
+/* File Conflict */
+._2xmJKd5MIQ6qNPl_twwE88 {
+    vertical-align: bottom;
+}
+._1e3aAVJv0Hy_mDBocob-ja:not(._1e3aAVJv0Hy_mDBocob-ja ~ ._1e3aAVJv0Hy_mDBocob-ja):not(:has(~ ._1e3aAVJv0Hy_mDBocob-ja)) ._1NanE3eExGghMdycVIVR8b {
+    border-radius: var(--corner-radius-medium);
+}
+._1e3aAVJv0Hy_mDBocob-ja:not(._1e3aAVJv0Hy_mDBocob-ja ~ ._1e3aAVJv0Hy_mDBocob-ja):has(~ ._1e3aAVJv0Hy_mDBocob-ja) ._1NanE3eExGghMdycVIVR8b {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+._1e3aAVJv0Hy_mDBocob-ja:has(~ ._1e3aAVJv0Hy_mDBocob-ja):is(._1e3aAVJv0Hy_mDBocob-ja ~ ._1e3aAVJv0Hy_mDBocob-ja) ._1NanE3eExGghMdycVIVR8b {
+    border-radius: var(--corner-radius-extra-small);
+}
+._1e3aAVJv0Hy_mDBocob-ja:not(:has(~ ._1e3aAVJv0Hy_mDBocob-ja)):is(._1e3aAVJv0Hy_mDBocob-ja ~ ._1e3aAVJv0Hy_mDBocob-ja) ._1NanE3eExGghMdycVIVR8b {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+._1e3aAVJv0Hy_mDBocob-ja._2hegSJLw7cDEDv9fKZj8xS ._1NanE3eExGghMdycVIVR8b {
+    border-radius: var(--corner-radius-medium) !important;
+}
+
+._1e3aAVJv0Hy_mDBocob-ja {
+    height: 70px;
+}
+._1e3aAVJv0Hy_mDBocob-ja ._1NanE3eExGghMdycVIVR8b {
+    margin-bottom: unset;
+}
+._1e3aAVJv0Hy_mDBocob-ja ._1NanE3eExGghMdycVIVR8b ._1sNmtuAc90YB98QPbF17Vj .DialogBodyText {
+    margin-top: unset;
+    margin-bottom: unset;
+}
+._2SNqCkeOL0u8yOzul4tJuI {
+    display: none;
+}
 
 /* Game Actions (Store / Community / etc) */
 ._31ptFGGMZrSQc5BCX1e5lm._3KfxIwlXEvum7FCD_AM2_t,
