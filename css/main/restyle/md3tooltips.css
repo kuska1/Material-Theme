@@ -9,3 +9,10 @@
     border-radius: var(--corner-radius-extra-small);
     box-shadow: unset;
 }
+
+/* Store / Community */
+/* Rich Tooltip */
+body .xa7nOX-adjA- {
+    border-radius: var(--corner-radius-extra-small);
+    box-shadow: var(--elevated-shadow);
+}

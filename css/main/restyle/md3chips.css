@@ -26,3 +26,18 @@ body.v6 .deep_dive_tag,
     border-style: solid !important;
     /* padding: 4px 8px !important; */
 }
+
+/* Store / Community */
+/* Common */
+body .bRnh6PiLM-I- .O4UgSDFcO8M-,
+body ._608lprRkZlg- .krQEbDRNCFg- {
+    box-sizing: border-box;
+    border-radius: var(--corner-radius-small);
+}
+/* Assist Chips */
+body .bRnh6PiLM-I- .O4UgSDFcO8M-,
+body ._608lprRkZlg- .krQEbDRNCFg-:not(:has(.xOimy4P39Gg-))  {
+    border-width: 1px;
+    border-style: solid;
+}
+/* Filter Chips */
