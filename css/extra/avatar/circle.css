@@ -30,7 +30,9 @@
 /* Notifications */
 ._32niVn3s7EKoKY0-pASwDJ,
 /* Chat */
-.friend.emptyFriend .avatarHolder img.avatar {
+.friend.emptyFriend .avatarHolder img.avatar,
+/* Workshop */
+.t1-DQ4KhiQ0-._4-VIszWOyjU-, .YbrTGQJwy1w-  {
 	border-radius: var(--corner-radius-full) !important;
 }
 .playerAvatar.profile_header_size,
