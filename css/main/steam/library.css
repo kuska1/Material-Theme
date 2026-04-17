@@ -1275,15 +1275,17 @@ a._2HnDgHQT_3ehcs4WgskKG5,
     max-width: unset !important;
     max-height: unset !important;
     width: 100% !important;
-    height: auto !important;
+    /* height: auto !important; */
     pointer-events: all !important;
 }
 ._2n6FNLKyb6al_YPk13xS7S .lnGVVQQ3rDYWIgO-hc12V div[role="list"] div[role="listitem"] ._2RCSUgg2X_uF_C0e1lrcqc,
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody ._3ZhiKhciPyiGGxDFuGOYpc ._3SPlcoJKzx2TM4WVMW9Xpt div[role="listitem"] .pht3SaejGcAJEjNG8d6nd {
-    height: auto !important;
-    position: relative !important;
-    top: unset !important;
+    /* height: auto !important; */
+    /* position: relative !important; */
+    /* top: 0px !important; */
     width: 100% !important;
+
+    border-block: 2px solid var(--md-sys-color-surface); /* КОСТЫЛЬ */
 }
 
 /* DLC */
