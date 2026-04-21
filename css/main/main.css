@@ -149,7 +149,7 @@
     /* --- MISC --- */
 
     --indicator-offline: #898989;
-    --indicator-online: #76B4FF;
+    --indicator-online: #57cbde; /* #76B4FF */
     --indicator-away: #4C91AC;
     --indicator-ingame: #8CD61D;
     --indicator-ingame-away: #62953B;

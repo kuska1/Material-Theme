@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "Theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.3.1",
+    "version": "1.3.2",
     "header_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
     "splash_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
 
@@ -62,11 +62,6 @@
                         "affects": [".*"], "src": "css/main/colors/blue.css"
                     }
                 },
-                "Cyan": {
-                    "TargetCss": {
-                        "affects": [".*"], "src": "css/main/colors/cyan.css"
-                    }
-                },
                 "Yellow": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/main/colors/yellow.css"
@@ -97,12 +92,12 @@
                 "Default": {},
                 "Rounded": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/icons/rounded.css"
+                        "affects": [".*"], "src": "css/options/style/icons/rounded.css"
                     }
                 }
             }
         },
-        "Font": { 
+        "Font": {
             "description": "Choose font.",
             "default": "Open Sans",
             "tab": "Style",
@@ -110,27 +105,27 @@
                 "Default": {},
                 "Roboto": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/fonts/roboto.css"
+                        "affects": [".*"], "src": "css/options/style/fonts/roboto.css"
                     }
                 },
                 "Open Sans": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/fonts/opensans.css"
+                        "affects": [".*"], "src": "css/options/style/fonts/opensans.css"
                     }
                 },
                 "Google Sans": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/fonts/googlesans.css"
+                        "affects": [".*"], "src": "css/options/style/fonts/googlesans.css"
                     }
                 },
                 "Bitcount Single": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/fonts/bitcountsingle.css"
+                        "affects": [".*"], "src": "css/options/style/fonts/bitcountsingle.css"
                     }
                 },
                 "Line Font": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/fonts/linefont.css"
+                        "affects": [".*"], "src": "css/options/style/fonts/linefont.css"
                     }
                 }
             }
@@ -142,12 +137,30 @@
             "values": {
                 "Default": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/onlineIndicator/circle.css"
+                        "affects": [".*"], "src": "css/options/style/onlineIndicator/circle.css"
                     }
                 },
                 "Alternative": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/onlineIndicator/alt.css"
+                        "affects": [".*"], "src": "css/options/style/onlineIndicator/alt.css"
+                    }
+                }
+            }
+        },
+        "Online Status Color": {
+            "description": "Choose online status color.",
+            "default": "Default",
+            "tab": "Style",
+            "values": {
+                "Default": {},
+                "Mix": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/style/onlineStatus/mix.css"
+                    }
+                },
+                "Accent": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/style/onlineStatus/accent.css"
                     }
                 }
             }
@@ -160,54 +173,54 @@
                 "Default": {},
                 "Only Icon": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/steamIcon/onlyicon.css"
+                        "affects": ["^Steam$"], "src": "css/options/toolbar/toolbarVisibility/onlyicon.css"
                     }
                 },
                 "Only Text": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/steamIcon/onlytext.css"
+                        "affects": ["^Steam$"], "src": "css/options/toolbar/titleVisibility/onlytext.css"
                     }
                 }
             }
         },
-        "Toolbar Icon": { 
+        "Toolbar Icon": {
             "description": "Choose icon in toolbar.",
             "default": "Material Design",
             "tab": "Toolbar",
             "values": {
                 "Steam": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/steam.css"
+                        "affects": [".*"], "src": "css/options/toolbar/toolbarIcon/steam.css"
                     }
                 },
                 "Material Design": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/materialdesign.css"
+                        "affects": [".*"], "src": "css/options/toolbar/toolbarIcon/materialDesign.css"
                     }
                 },
                 "Android": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/android.css"
+                        "affects": [".*"], "src": "css/options/toolbar/toolbarIcon/android.css"
                     }
                 },
                 "Google": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/google.css"
+                        "affects": [".*"], "src": "css/options/toolbar/toolbarIcon/google.css"
                     }
                 },
                 "Gemini": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/gemini.css"
+                        "affects": [".*"], "src": "css/options/toolbar/toolbarIcon/gemini.css"
                     }
                 },
                 "Appearance": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/appearance.css"
+                        "affects": [".*"], "src": "css/options/toolbar/toolbarIcon/appearance.css"
                     }
                 },
                 "Color Scheme": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/steamIcon/colorscheme.css"
+                        "affects": [".*"], "src": "css/options/toolbar/toolbarIcon/colorScheme.css"
                     }
                 }
             }
@@ -219,12 +232,12 @@
             "values": {
                 "no": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/steamIcon/defaultitle.css"
+                        "affects": ["^Steam$"], "src": "css/options/toolbar/toolbarTitle/default.css"
                     }
                 },
                 "yes": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/steamIcon/changetitle.css"
+                        "affects": ["^Steam$"], "src": "css/options/toolbar/toolbarTitle/change.css"
                     }
                 }
             }
@@ -237,12 +250,12 @@
                 "Default": {},
                 "Hide Avatar": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/account/avatarHide.css"
+                        "affects": ["^Steam$"], "src": "css/options/toolbar/toolbarAccount/hideAvatar.css"
                     }
                 },
                 "Hide Name": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/account/nameHide.css"
+                        "affects": ["^Steam$"], "src": "css/options/toolbar/toolbarAccount/hideName.css"
                     }
                 }
             }
@@ -254,13 +267,13 @@
             "values": {
                 "no": {},
                 "yes": {
-                    "TargetCss": { 
-                        "affects": ["^Steam$"], "src": "css/extra/toolbar/hideNews.css"
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/options/toolbar/toolbarButtons/hideNews.css"
                     }
                 }
             }
         },
-        "Hide Notifications Button": { 
+        "Hide Notifications Button": {
             "description": "Hide notification button on toolbar.",
             "default": "no",
             "tab": "Toolbar",
@@ -268,7 +281,7 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/toolbar/hideNotification.css"
+                        "affects": ["^Steam$"], "src": "css/options/toolbar/toolbarButtons/hideNotification.css"
                     }
                 }
             }
@@ -281,7 +294,7 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/toolbar/hideBigPicture.css"
+                        "affects": ["^Steam$"], "src": "css/options/toolbar/toolbarButtons/hideBigPicture.css"
                     }
                 }
             }
@@ -294,7 +307,7 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/toolbar/hideWindowControl.css"
+                        "affects": ["^Steam$"], "src": "css/options/toolbar/toolbarButtons/hideWindowControl.css"
                     }
                 }
             }
@@ -307,7 +320,7 @@
                 "Default": {},
                 "Floating": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/toolbar/floatingBottomBar.css"
+                        "affects": ["^Steam$"], "src": "css/options/toolbar/floatingBottomBar.css"
                     }
                 }
             }
@@ -320,12 +333,12 @@
                 "Square": {},
                 "Rounded Square": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/avatar/roundedSquare.css"
+                        "affects": [".*"], "src": "css/options/shapes/profilesAvatars/roundedSquare.css"
                     }
                 },
                 "Circle": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/avatar/circle.css"
+                        "affects": [".*"], "src": "css/options/shapes/profilesAvatars/circle.css"
                     }
                 }
             }
@@ -338,12 +351,12 @@
                 "Square": {},
                 "Rounded Square": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/groups/roundedSquare.css"
+                        "affects": [".*"], "src": "css/options/shapes/groupsAvatars/roundedSquare.css"
                     }
                 },
                 "Circle": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/groups/circle.css"
+                        "affects": [".*"], "src": "css/options/shapes/groupsAvatars/circle.css"
                     }
                 }
             }
@@ -355,17 +368,17 @@
             "values": {
                 "Square": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/gameIcons/common.css"
+                        "affects": [".*"], "src": "css/options/shapes/gamesIcons/common.css"
                     }
                 },
                 "Rounded Square": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/gameIcons/roundedSquare.css"
+                        "affects": [".*"], "src": "css/options/shapes/gamesIcons/roundedSquare.css"
                     }
                 },
                 "Circle": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/gameIcons/circle.css"
+                        "affects": [".*"], "src": "ccss/options/shapes/gamesIcons/circle.css"
                     }
                 }
             }
@@ -377,17 +390,17 @@
             "values": {
                 "Square": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/achievementsIcons/square.css"
+                        "affects": [".*"], "src": "css/options/shapes/achievementsIcons/square.css"
                     }
                 },
                 "Rounded Square": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/achievementsIcons/roundedSquare.css"
+                        "affects": [".*"], "src": "css/options/shapes/achievementsIcons/roundedSquare.css"
                     }
                 },
                 "Circle": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/achievementsIcons/circle.css"
+                        "affects": [".*"], "src": "css/options/shapes/achievementsIcons/circle.css"
                     }
                 }
             }
@@ -400,7 +413,7 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "css/extra/store/stickyHeader.css"
+                        "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "css/options/store/stickyHeader.css"
                     }
                 }
             }
@@ -413,12 +426,12 @@
                 "Show": {},
                 "Compact": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/whatsNew/compact.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/whatsNew/compact.css"
                     }
                 },
                 "Hide": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/whatsNew/hide.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/whatsNew/hide.css"
                     }
                 }
             }
@@ -431,7 +444,7 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/library/hideAddShelf.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/hideAddShelf.css"
                     }
                 }
             }
@@ -444,7 +457,7 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/achievementsIcons/rareSourceColor.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/rareSourceColor.css"
                     }
                 }
             }
@@ -457,7 +470,7 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/noShiny.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/noShiny.css"
                     }
                 }
             }
@@ -469,43 +482,43 @@
             "values": {
                 "None": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animNone.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animNone.css"
                     }
                 },
                 "Default": {},
                 "Image Scale": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animImgScale.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animImgScale.css"
                     }
                 },
                 "Card Scale": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animCardScale.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animCardScale.css"
                     }
                 },
                 "Little Rotate": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animLittleRotate.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animLittleRotate.css"
                     }
                 },
                 "Move Up": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animTopUp.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animTopUp.css"
                     }
                 },
                 "Move Down": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBottomDown.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animBottomDown.css"
                     }
                 },
                 "Transform": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animTransform.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animTransform.css"
                     }
                 },
                 "#@%**": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animFck.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animFck.css"
                     }
                 }
             }
@@ -517,43 +530,43 @@
             "values": {
                 "None": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigNone.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animBigNone.css"
                     }
                 },
                 "Default": {},
                 "Image Scale": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigImgScale.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animBigImgScale.css"
                     }
                 },
                 "Card Scale": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigCardScale.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animBigCardScale.css"
                     }
                 },
                 "Little Rotate": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigLittleRotate.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animBigLittleRotate.css"
                     }
                 },
                 "Move Up": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigTopUp.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animBigTopUp.css"
                     }
                 },
                 "Move Down": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigBottomDown.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animBigBottomDown.css"
                     }
                 },
                 "Transform": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigTransform.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animBigTransform.css"
                     }
                 },
-                "#@%**": { 
+                "#@%**": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/libraryAnimations/animBigFck.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animBigFck.css"
                     }
                 }
             }
@@ -566,7 +579,7 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/library/disableMaxHeroSize.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/disableMaxHeroSize.css"
                     }
                 }
             }
@@ -579,12 +592,12 @@
                 "Show": {},
                 "Hide for me": {
                     "TargetCss": {
-                        "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "css/extra/community/vac_hide_me.css"
+                        "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "css/options/community/hideMe.css"
                     }
                 },
                 "Hide for all": {
                     "TargetCss": {
-                        "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "css/extra/community/vac_hide_all.css"
+                        "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "css/extra/community/hideAll.css"
                     }
                 }
             }
@@ -597,17 +610,17 @@
                 "Show": {},
                 "Blur": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceBlur.css"
+                        "affects": ["^Steam$"], "src": "css/options/privacy/accountBalanceToolbar/blur.css"
                     }
                 },
-                "Hide": { 
+                "Hide": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceHide.css"
+                        "affects": ["^Steam$"], "src": "css/options/privacy/accountBalanceToolbar/hide.css"
                     }
                 },
                 "Full Hide": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceFullHide.css"
+                        "affects": ["^Steam$"], "src": "css/options/privacy/accountBalanceToolbar/fullHide.css"
                     }
                 }
             }
@@ -618,8 +631,8 @@
             "tab": "Privacy",
             "values": {
                 "yes": {
-                    "TargetCss": { 
-                        "affects": ["^Steam$"], "src": "css/extra/privacy/nameBalanceAfterHover.css"
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/options/privacy/accountBalanceToolbar/showAfterHover.css"
                     }
                 },
                 "no": {}
@@ -633,17 +646,17 @@
                 "Show": {},
                 "Blur": {
                     "TargetCss": {
-                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountBlur.css"
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/options/privacy/accountNameMenu/blur.css"
                     }
                 },
                 "Hide": {
                     "TargetCss": {
-                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountHide.css"
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/options/privacy/accountNameMenu/hide.css"
                     }
                 },
                 "Full Hide": {
                     "TargetCss": {
-                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountFullHide.css"
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/options/privacy/accountNameMenu/fullHide.css"
                     }
                 }
             }
@@ -655,7 +668,7 @@
             "values": {
                 "yes": {
                     "TargetCss": {
-                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/accountAfterHover.css"
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/options/privacy/accountNameMenu/showAfterHover.css"
                     }
                 },
                 "no": {}
@@ -669,17 +682,17 @@
                 "Show": {},
                 "Blur": {
                     "TargetCss": {
-                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceBlur.css"
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/options/privacy/accountBalanceMenu/blur.css"
                     }
                 },
                 "Hide": {
                     "TargetCss": {
-                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceHide.css"
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/options/privacy/accountBalanceMenu/hide.css"
                     }
                 },
                 "Full Hide": {
                     "TargetCss": {
-                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceFullHide.css"
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/options/privacy/accountBalanceMenu/fullHide.css"
                     }
                 }
             }
@@ -691,7 +704,7 @@
             "values": {
                 "yes": {				
                     "TargetCss": {
-                        "affects": ["Menu$", "SuperNav$"], "src": "css/extra/privacy/balanceAfterHover.css"
+                        "affects": ["Menu$", "SuperNav$"], "src": "css/options/privacy/accountBalanceMenu/showAfterHover.css"
                     }
                 },
                 "no": {}
@@ -705,17 +718,17 @@
                 "Show": {},
                 "Blur": {
                     "TargetCss": {
-                        "affects": [".Rp8QOGJ2DypeDniMnRBhr"], "src": "css/extra/privacy/accountChangeBlur.css"
+                        "affects": [".Rp8QOGJ2DypeDniMnRBhr"], "src": "css/options/privacy/accountNameAccountChange/blur.css"
                     }
                 },
                 "Hide": {
                     "TargetCss": {
-                        "affects": [".Rp8QOGJ2DypeDniMnRBhr"], "src": "css/extra/privacy/accountChangeHide.css"
+                        "affects": [".Rp8QOGJ2DypeDniMnRBhr"], "src": "css/options/privacy/accountNameAccountChange/hide.css"
                     }
                 },
                 "Full Hide": {
                     "TargetCss": {
-                        "affects": [".Rp8QOGJ2DypeDniMnRBhr"], "src": "css/extra/privacy/accountChangeFullHide.css"
+                        "affects": [".Rp8QOGJ2DypeDniMnRBhr"], "src": "css/options/privacy/accountNameAccountChange/fullHide.css"
                     }
                 }
             }
@@ -727,13 +740,13 @@
             "values": {
                 "yes": {				
                     "TargetCss": {
-                        "affects": [".Rp8QOGJ2DypeDniMnRBhr"], "src": "css/extra/privacy/accountChangeAfterHover.css"
+                        "affects": [".Rp8QOGJ2DypeDniMnRBhr"], "src": "css/options/privacy/accountNameAccountChange/showAfterHover.css"
                     }
                 },
                 "no": {}
             }
         },
-        "Animations": { 
+        "Animations": {
             "description": "Choose type of animations.",
             "default": "Enabled",
             "tab": "Performance",
@@ -741,12 +754,29 @@
                 "Disabled": {},
                 "Enabled": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/animations/enable.css"
+                        "affects": [".*"], "src": "css/options/performance/animations/enable.css"
                     }
                 }
             }
         },
-        "Ripple Effect [EXPERIMENTAL]": { 
+        "Blur": {
+            "description": "Enable/Disable blur effects in some places.",
+            "default": "Disabled",
+            "tab": "Performance",
+            "values": {
+                "Disabled": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/performance/blur/disable.css"
+                    }
+                },
+                "Enabled": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/performance/blur/enable.css"
+                    }
+                }
+            }
+        },
+        "Ripple Effect [EXPERIMENTAL]": {
             "description": "Enable ripple effects on buttons.",
             "default": "no",
             "tab": "Performance",
@@ -754,12 +784,12 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/animations/ripple_effect.css"
+                        "affects": [".*"], "src": "css/options/performance/rippleEffect.css"
                     }
                 }
             }
         },
-        "Badges for Contributors": { 
+        "Badges for Contributors": {
             "description": "Custom badges at user profiles near nickname.",
             "default": "yes",
             "tab": "Extra",
@@ -767,15 +797,15 @@
                 "no": {},
                 "yes": {
                     "TargetJs": {
-                        "affects": ["http.*steamcommunity.*(id|profiles).[^\/]+\/?$"], "src": "js/extra/badges/badges.js"
+                        "affects": ["http.*steamcommunity.*(id|profiles).[^\/]+\/?$"], "src": "js/extra/badges.js"
                     },
                     "TargetCss": {
-                        "affects": ["http.*steamcommunity.*(id|profiles).[^\/]+\/?$"], "src": "css/extra/badges/badges.css"
+                        "affects": ["http.*steamcommunity.*(id|profiles).[^\/]+\/?$"], "src": "css/options/extra/badges.css"
                     }
                 }
             }
         },
-        "Loading Style": { 
+        "Loading Style": {
             "description": "Choose loading image.",
             "default": "Color Scheme",
             "tab": "Extra",
@@ -783,17 +813,17 @@
                 "Default": {},
                 "Material Design": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/loading/materialdesign.css"
+                        "affects": [".*"], "src": "css/options/extra/loading/materialdesign.css"
                     }
                 },
                 "Color Scheme": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/loading/colorscheme.css"
+                        "affects": [".*"], "src": "css/options/extra/loading/colorscheme.css"
                     }
                 }
             }
         },
-        "Hide Scrollbar": { 
+        "Hide Scrollbar": {
             "description": "Hide scrollbar on pages.",
             "default": "yes",
             "tab": "Extra",
@@ -801,7 +831,7 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/scrollbar/hide.css"
+                        "affects": [".*"], "src": "css/options/extra/hideScrollbar.css"
                     }
                 }
             }
@@ -814,12 +844,12 @@
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "css/extra/reorder/modalButtons.css"
+                        "affects": [".*"], "src": "css/options/extra/swapDialogButtons.css"
                     }
                 }
             }
         },
-        "Use Experimental Features": { 
+        "Use Experimental Features": {
             "description": "Enable experimental features. May cause issues. Currently affects community/powered steam pages.\n[url=https://github.com/kuska1/Material-Theme/issues/new?template=bug_report.md]Feel free to report them via GitHub or Discord Server.[/url]",
             "default": "no",
             "tab": "Extra",
@@ -832,7 +862,7 @@
                 }
             }
         },
-        "Show Debug Info": { 
+        "Show Debug Info": {
             "description": "Display useful information. Helpful for bug reports.",
             "default": "no",
             "tab": "Extra",
@@ -840,7 +870,7 @@
                 "no": {},
                 "yes": {
                     "TargetJs": {
-                        "affects": [".*"], "src": "js/extra/debug/debug.js"
+                        "affects": [".*"], "src": "js/extra/debug.js"
                     }
                 }
             }
@@ -849,7 +879,7 @@
     
 
     "Patches": [
-        { 
+        {
 			"MatchRegexString": ".*",
 			"TargetCss": "webkit.css"
 		},

@@ -903,9 +903,6 @@ div.ModalPosition_Dismiss {
     box-shadow: unset;
 }
 /* News Fullscreen */
-._37MAYpIjl0IDA1xVhhsuX8>div:not(._2WEP32t2FdvHSRBiOZug83):not(._24sm_rs0RtItOALHFVIKms):not(._19eb8NMS53lqZR33su0kTr):not(.iJ6kMinIXkRkY49NT2sOx):not(._2SoWN3laHiRo1XbmPyTyPF) {
-    backdrop-filter: unset;
-}
 ._1KsYSVzmvIfRivBTcx-_GE {
     background-image: unset;
     box-shadow: unset;
@@ -1340,6 +1337,25 @@ a._2HnDgHQT_3ehcs4WgskKG5,
 .MillenniumDesktopSidebar_EditorContent .DialogDropDown {
     padding: 8px 12px !important;
 }
+
+/* Text for confused users */
+.MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::after {
+    content: " !!! This setting is not used by Material Theme. If you need to change custom color go to Theme Settings -> Colors -> Custom Accent Color.";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+}
+/* Locales */
+html[lang="uk"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::after {
+    content: " !!! Цей параметр не використовується темою Material. Якщо вам потрібно змінити власний колір, перейдіть до Налаштувань теми -> Кольори -> Custom Accent Color.";
+}
+html[lang="ru"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::after {
+    content: " !!! Этот параметр не используется темой Material. Если вам нужно изменить пользовательский цвет, перейдите в Настройки темы -> Цвета -> Custom Accent Color.";
+}
+html[lang="zh-cn"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::after {
+    content: " ！！！此设置不适用于 Material 主题。如果您需要更改自定义颜色，请转到主题设置 -> 颜色 -> Custom Accent Color.   (Google Translate)";
+}
+
 /* ._1rDh5rXSFZJOqCa4UpnI4z .MillenniumSettings ._2rjVTGz8aLvqOdz5v2gq5C {
     font-size: var(--font-headline-medium-size);
     margin-bottom: 16px;
