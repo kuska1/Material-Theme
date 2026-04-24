@@ -1338,12 +1338,52 @@ a._2HnDgHQT_3ehcs4WgskKG5,
     padding: 8px 12px !important;
 }
 
+
+/* Fallback */
+._39oUCO1OuizVPwcnnv88no ._30vB9DdsPK7VrZAbb5Q1Av::after {
+    content: "If you see this text - theme is broken! Verify theme settings something may have changed since the update. Feel free to report it via GitHub or Discord Server.";
+    text-align: center;
+    /* color: var(--md-sys-color-primary, red); */
+    color: color-mix(in srgb, var(--md-sys-color-primary), transparent 100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    width: 50%;
+    height: fit-content;
+
+    pointer-events: none;
+    user-select: none;
+    z-index: calc(infinity);
+}
+html:has(._1bGewp3tfzqAF6fVTFFUOz:not([style*="display: none;"])) ._39oUCO1OuizVPwcnnv88no ._30vB9DdsPK7VrZAbb5Q1Av::after {
+    top: 8px;
+    bottom: unset;
+    font-size: 12px;
+}
+/* Locales */
+html[lang="uk"] ._39oUCO1OuizVPwcnnv88no ._30vB9DdsPK7VrZAbb5Q1Av::after {
+    content: "Якщо ви бачите цей текст - тема працює некоректно! Перевірте налаштування теми, можливо, щось змінилося після оновлення. Не соромтеся повідомити про це через GitHub або Discord сервер.";
+}
+html[lang="ru"] ._39oUCO1OuizVPwcnnv88no ._30vB9DdsPK7VrZAbb5Q1Av::after {
+    content: "Если вы видите этот текст - тема працює некорректно! Проверьте настройки темы, возможно, что-то изменилось после обновления. Сообщите об этом через GitHub или Discord сервер.";
+}
+html[lang="zh-cn"] ._39oUCO1OuizVPwcnnv88no ._30vB9DdsPK7VrZAbb5Q1Av::after {
+    content: "如果您看到此文本，则表示主题已损坏！请检查主题设置，可能是更新后某些设置被更改了。您可以通过 GitHub 或 Discord 服务器报告此问题。  (Google Translate)";
+}
+html[lang="ja"] ._39oUCO1OuizVPwcnnv88no ._30vB9DdsPK7VrZAbb5Q1Av::after {
+    content: "このテキストが表示された場合、テーマに不具合が発生しています。テーマの設定を確認してください。アップデート後に何らかの変更が加えられた可能性があります。GitHubまたはDiscordサーバーからお気軽にご報告ください。  (Google Translate)";
+}
+
+
 /* Text for confused users */
 .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::after {
     content: " !!! This setting is not used by Material Theme. If you need to change custom color go to Theme Settings -> Colors -> Custom Accent Color.";
     position: absolute;
     left: 0;
-    bottom: -8px;
+    top: 64px;
 }
 /* Locales */
 html[lang="uk"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::after {
@@ -1354,6 +1394,9 @@ html[lang="ru"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::aft
 }
 html[lang="zh-cn"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::after {
     content: " ！！！此设置不适用于 Material 主题。如果您需要更改自定义颜色，请转到主题设置 -> 颜色 -> Custom Accent Color.   (Google Translate)";
+}
+html[lang="ja"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::after {
+    content: " !!! この設定はテーマ「Material」では使用されていません。カスタムカラーを変更する必要がある場合は、テーマ設定 -> カラー -> Custom Accent Color へ移動してください。  (Gemini)";
 }
 
 /* ._1rDh5rXSFZJOqCa4UpnI4z .MillenniumSettings ._2rjVTGz8aLvqOdz5v2gq5C {
