@@ -1981,9 +1981,17 @@ border-radius: var(--corner-radius-medium);
 }
 /* Date */
 .B-vCdL38RiJlhfSRgZv78 ._3OSZu24hLN7YKjqGi7I2Xp,
-.N8aJrSpxQ6II4CY_aFdYI /* New To Library */ {
+.N8aJrSpxQ6II4CY_aFdYI, /* New To Library */
+._1LJqx_qFOC8199RBQO5kU8._31wTtQjCH2ZSKgMiMZLhAM /* Completed achievement */ {
     color: var(--md-sys-color-on-primary-container);
-    background: vaR(--md-sys-color-primary-container);
+    background: var(--md-sys-color-primary-container);
+}
+._1LJqx_qFOC8199RBQO5kU8 svg defs linearGradient stop {
+    stop-color: var(--md-sys-color-on-primary-container);
+}
+._1LJqx_qFOC8199RBQO5kU8 {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
 }
 /* Big Game */
 ._2d1hSvdpY5L2-GN1EnUb9Z {
@@ -1998,6 +2006,13 @@ border-radius: var(--corner-radius-medium);
 ._3bkuozxKIatrWG3aeisthc.ma8y_VgPze1mscYhW6-oS, ._3bkuozxKIatrWG3aeisthc._3JWBBEulYkYmDLJr485oex,
 ._3gwMkKp82bb5aZj4EeQnpi._3DR9f2B3JQKviESgdrHp1u {
     color: var(--md-sys-color-outline);
+}
+/* Install on card */
+.WYgDg9NyCcMIVuMyZ_NBC ._8YrRmy_c6O0FCxFT8gjqo {
+    color: var(--md-sys-color-on-surface);
+}
+._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC:hover ._8YrRmy_c6O0FCxFT8gjqo:not(._1pvlnhvtB1Th8xS9GzDjvt):hover, ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC._2YsY_x7hLyKlUqjX9bhn0R ._8YrRmy_c6O0FCxFT8gjqo:not(._1pvlnhvtB1Th8xS9GzDjvt):hover, .WYgDg9NyCcMIVuMyZ_NBC.gpfocus ._8YrRmy_c6O0FCxFT8gjqo:not(._1pvlnhvtB1Th8xS9GzDjvt):hover {
+    background: color-mix(in srgb, var(--md-sys-color-surface), transparent var(--layer-action-active));
 }
 /* Play Button */
 .xp7A-08Y404Of3FBHqX32 ._3AjoLnMNKxYmNTGTJCLfgs, /* Base */
@@ -2518,7 +2533,7 @@ button.DialogButton._3Cdin80d-hVsakHUZboheb.SLpyhiN-Dagi3V8ZKukaK:hover {
 /* Featured */
 .UVeN0kaD3zv1feMj_mMw5 ._1WdC0YUP8FT0dYWZ-QIVZL {
     color: var(--md-sys-color-on-primary-container);
-    background: vaR(--md-sys-color-primary-container);
+    background: var(--md-sys-color-primary-container);
 }
 
 /* Cards */

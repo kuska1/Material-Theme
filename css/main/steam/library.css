@@ -818,14 +818,21 @@
 }
 
 /* Misc Fixes */
-/* New To Library */
-.N8aJrSpxQ6II4CY_aFdYI {
+/* Common Tags */
+.N8aJrSpxQ6II4CY_aFdYI,
+._1LJqx_qFOC8199RBQO5kU8 {
     box-shadow: unset;
     border-radius: var(--corner-radius-small);
 }
+/* Upper Tags / New To Library */
 ._2jj5TjFhHD1lvxMlpJYek6 {
     top: -10px;
 }
+/* Bottom Tags */
+._1LJqx_qFOC8199RBQO5kU8._1KR40mXc7Z4Dss99aBDbyN, ._1LJqx_qFOC8199RBQO5kU8._1H3NRDhuiZh5xH5jZsiI38, ._1LJqx_qFOC8199RBQO5kU8._3lWVD8RYypVvbk60T5Vqcs {
+    border-radius: var(--corner-radius-full);
+}
+
 /* Avatar Bg Remove */
 ._3h-QRJGxnVOIExtHD1R0f2,
 ._1ABm6sfuqiZZDSL9z8mW1a,
@@ -846,6 +853,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/* Install */
+.WYgDg9NyCcMIVuMyZ_NBC ._8YrRmy_c6O0FCxFT8gjqo,
+._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC:hover ._8YrRmy_c6O0FCxFT8gjqo, ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC._2YsY_x7hLyKlUqjX9bhn0R ._8YrRmy_c6O0FCxFT8gjqo, .WYgDg9NyCcMIVuMyZ_NBC.gpfocus ._8YrRmy_c6O0FCxFT8gjqo,
+._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC:hover ._8YrRmy_c6O0FCxFT8gjqo:not(._1pvlnhvtB1Th8xS9GzDjvt):hover, ._54PuCatl_tYG836TOs4Mv .WYgDg9NyCcMIVuMyZ_NBC._2YsY_x7hLyKlUqjX9bhn0R ._8YrRmy_c6O0FCxFT8gjqo:not(._1pvlnhvtB1Th8xS9GzDjvt):hover, .WYgDg9NyCcMIVuMyZ_NBC.gpfocus ._8YrRmy_c6O0FCxFT8gjqo:not(._1pvlnhvtB1Th8xS9GzDjvt):hover {
+    border-radius: var(--corner-radius-medium);
 }
 /* loading On Game Cover */
 .kX-tIJx4a9vKVuUkKJARv._1wAArO4jx5Kth5YdKAQ_Sd._3BNwjsy5WltxayFptkx3KF {
@@ -1163,6 +1176,7 @@ a._2HnDgHQT_3ehcs4WgskKG5,
     box-shadow: unset;
     border-radius: var(--corner-radius-medium);
 }
+._3IWn-2rn7x98o5fDd0rAxb ._1J1LQ0vGtpM3n0xw7XwQM6,
 ._3IWn-2rn7x98o5fDd0rAxb._2_dwxMdH27kBf-gQ3Wrk7z ._1J1LQ0vGtpM3n0xw7XwQM6 {
     text-shadow: unset;
 }
@@ -1341,7 +1355,7 @@ a._2HnDgHQT_3ehcs4WgskKG5,
 
 /* Fallback */
 ._39oUCO1OuizVPwcnnv88no ._30vB9DdsPK7VrZAbb5Q1Av::after {
-    content: "If you see this text - theme is broken! Verify theme settings something may have changed since the update. Feel free to report it via GitHub or Discord Server.";
+    content: "If you see this text - theme is broken! Verify theme settings, something may have changed since the update. Feel free to report it via GitHub or Discord Server.";
     text-align: center;
     /* color: var(--md-sys-color-primary, red); */
     color: color-mix(in srgb, var(--md-sys-color-primary), transparent 100%);
