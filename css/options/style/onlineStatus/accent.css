@@ -9,7 +9,8 @@
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online ._2-pwJCHlrc7zxN4iup2TR7 ._1FgWIOIaRCAekjhGj0zFWq {
     color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-surface) 40%);
 }
-.online ._3xUpb5DWXPFNcHHIcv-9pe.right {
+.online ._3xUpb5DWXPFNcHHIcv-9pe.right,
+.online ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
     background: var(--md-sys-color-primary);
 }
 
