@@ -17,6 +17,9 @@ body :where(.ykNywW4cg64-):where(a) {
 body .krQEbDRNCFg- {
     border-radius: var(--corner-radius-full);
 }
+body .krQEbDRNCFg-:where(._7P8JRbq-SlA-) {
+    border: 0px none transparent;
+}
 
 body .krQEbDRNCFg-:where(.eAUu1dfYhY4-).wM4CKvSeUvQ- {
     padding-left: var(--spacing-2);
