@@ -620,6 +620,9 @@ body.v6 .deep_dive_tag,
     background: var(--md-sys-color-inverse-surface) !important;
 }
 .discount_block.no_discount .discount_final_price {
+    color: var(--md-sys-color-on-surface) !important;
+}
+.game_purchase_action_bg .discount_block.no_discount .discount_final_price {
     color: var(--md-sys-color-inverse-on-surface) !important;
 }
 .discount_block.no_discount .bundle_base_discount {
