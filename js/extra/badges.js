@@ -132,7 +132,7 @@ function addProfileBadge() {
 
 // 2. Mini-badge in comments (.commentthread_comment_author a)
 function addCommentBadges() {
-  const commentAuthors = document.querySelectorAll(".commentthread_comment_author a[data-miniprofile]")
+  const commentAuthors = document.querySelectorAll(".commentthread_comment_author .author_name_group a[data-miniprofile]")
 
   commentAuthors.forEach((link) => {
     if (link.querySelector(".nevko-badge-mini")) return
