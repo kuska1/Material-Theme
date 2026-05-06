@@ -7,6 +7,7 @@
 ._2E5LHvnVEF3dSVV3wrDflm, /* Date */
 ._36iQ4zr5AiMWVmmiHee0mN /* Emoji */ {
     border-radius: var(--corner-radius-extra-small);
+    text-shadow: unset;
     box-shadow: unset;
 }
 
@@ -14,5 +15,45 @@
 /* Rich Tooltip */
 body .xa7nOX-adjA- {
     border-radius: var(--corner-radius-extra-small);
+    text-shadow: unset;
     box-shadow: var(--elevated-shadow);
+}
+
+/* Custom Tooltip for Theme Settings */
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY::after,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo::after,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q::after,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48::after {
+    position: absolute;
+    top: -20px;
+    /* bottom: -10%; */
+    left: 0;
+    right: 0;
+    opacity: 0;
+    margin: auto;
+    padding: 5px 8px;
+    font-size: 13px;
+    font-weight: 400;
+    width: fit-content;
+    height: fit-content;
+    max-width: 300px;
+    border-radius: var(--corner-radius-extra-small);
+    z-index: 100;
+    transition: opacity .25s;
+    user-select: none;
+    pointer-events: none;
+}
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY:hover::after,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo:hover::after,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q:hover::after,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:hover::after {
+    opacity: 1;
+}
+
+.MillenniumDesktopSidebar_EditorContent .Color:nth-child(2) ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:nth-of-type(2)::after {
+    content: "...\\Steam\\steamui\\skins\\Material-Theme\\matugentemplate.css";
+}
+
+.MillenniumDesktopSidebar_EditorContent .Color:nth-child(2) ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:nth-of-type(4)::after {
+    content: "Theme Settings -> Colors -> Custom Accent Color";
 }

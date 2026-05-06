@@ -1312,6 +1312,10 @@ Green Notification
 
 /* Base */
 .nevko_tooltip, #nevko-tooltip, /* Badges.js */
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY::after,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo::after,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q::after,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48::after, /* Custom Tooltip */
 ._2FxbHJzYoH024ko7zqcJOf, /* Base */
 ._3XGRklQrZMakU2xaYB0cLD, /* Library */
 ._2iiN7AYnLFTRFRiuipiYJz, /* Friends */
@@ -2910,13 +2914,18 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 }
 /* Actions */
 ._3lh8aaHNMcFvupuNhQDfFt ._1GfHtX6GRZ_5BukahmkQp4 {
+    color: var(--md-sys-color-on-primary);
     background: var(--md-sys-color-primary);
 }
 ._3lh8aaHNMcFvupuNhQDfFt ._1GfHtX6GRZ_5BukahmkQp4 .NlL1tQGqhUyRhv6p9zwTZ {
     color: var(--md-sys-color-on-primary);
 }
 ._3lh8aaHNMcFvupuNhQDfFt ._1GfHtX6GRZ_5BukahmkQp4:hover {
+    color: var(--md-sys-color-on-primary);
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+._3lh8aaHNMcFvupuNhQDfFt ._3AoQ6Gu9jJ6BCK8TiMic30._1TNqq9Li-8cwVCdCD2IYiB svg path {
+    fill: var(--md-sys-color-on-primary);
 }
 
 /* -- MISC -- */
