@@ -27,7 +27,7 @@
 ._3lh8aaHNMcFvupuNhQDfFt ._3AoQ6Gu9jJ6BCK8TiMic30 {
     background: unset;
 }
-#profile_action_dropdown .popup_menu_item img:not([src="https://js.millennium.app/c:/program files (x86)/steam/plugins/extendium/.extensions/steamdb/icons/white.svg"]) {
+#profile_action_dropdown .popup_menu_item img:not([src*="plugins/extendium/.extension"]) {
     display: none;
 }
 #profile_action_dropdown .popup_menu_item:has(img)::before {
@@ -44,32 +44,32 @@
 ._3lh8aaHNMcFvupuNhQDfFt ._3AoQ6Gu9jJ6BCK8TiMic30.CXcKDaVWKpnWoc0odvoHl::before {
     content: "forum";
 }
-.popup_menu_item:has(img[src="https://community.fastly.steamstatic.com/public/shared/images/award_icon.svg"])::before {
+.popup_menu_item:has(img[src*="award_icon.svg"])::before {
     content: "award_star";
 }
-.popup_menu_item:has(img[src="https://cdn.fastly.steamstatic.com/steamcommunity/public/assets/profile/equipped_items_icon.svg"])::before {
+.popup_menu_item:has(img[src*="equipped_items_icon.svg"])::before {
     content: "account_box";
 }
-.popup_menu_item:has(img[src="https://community.fastly.steamstatic.com/public/images/profile/icon_invitegroup.png"])::before {
+.popup_menu_item:has(img[src*="icon_invitegroup.png"])::before {
     content: "groups";
 }
-.popup_menu_item:has(img[src="https://community.fastly.steamstatic.com/public/images/sharedfiles/add_fav_ico_default.png"])::before {
+.popup_menu_item:has(img[src*="add_fav_ico_default.png"])::before {
     content: "heart_plus";
 }
-.popup_menu_item:has(img[src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_edit_bright.png"])::before {
+.popup_menu_item:has(img[src*="notification_icon_edit_bright.png"])::before {
     content: "edit";
 }
-.popup_menu_item:has(img[src="https://community.fastly.steamstatic.com/public/images/profile/icon_tradeoffers.png"])::before {
+.popup_menu_item:has(img[src*="icon_tradeoffers.png"])::before {
     content: "swap_horiz";
 }
-.popup_menu_item:has(img[src="https://community.fastly.steamstatic.com/public/images/profile/icon_block.png"])::before {
+.popup_menu_item:has(img[src*="icon_block.png"])::before {
     content: "block";
     font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24 !important;
 }
-.popup_menu_item:has(img[src="https://community.fastly.steamstatic.com/public/images/skin_1/notification_icon_flag.png"])::before {
+.popup_menu_item:has(img[src*="notification_icon_flag.png"])::before {
     content: "flag";
 }
-.popup_menu_item:has(img[src="https://community.fastly.steamstatic.com/public/images/profile/icon_unfriend.png"])::before {
+.popup_menu_item:has(img[src*="icon_unfriend.png"])::before {
     content: "person_remove";
 }
 
