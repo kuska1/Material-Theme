@@ -302,7 +302,8 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, /* Card Button */
 .LclHwcOfHFpwObYMD1HLa ._3H2GezG50hog8gSDj-qbx1 ._3EWVuoln1WAvpEaPNfpift, /* Launch Modal */
 .O_nD7TklmaIZ80TPx3rjt.DialogButton._19KE2KdEXIYl3OB0p1Y59k, /* Storage */
 /* Big Picture Mode */
-button.cXzBZxhPBl7fZs9LODEnc.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.Primary {
+button.cXzBZxhPBl7fZs9LODEnc.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.Primary,
+.BasicUI button.DialogButton._3Cdin80d-hVsakHUZboheb._3nJyYxGQ3kdwwabPmxNnMe:not(.gpfocus) {
     color: var(--md-sys-color-on-primary);
     background: var(--md-sys-color-primary);
 }
@@ -2319,6 +2320,9 @@ border-radius: var(--corner-radius-medium);
 button.TextButton._34gmVq6C3FNtdHqDLa3-XR {
     color: var(--md-sys-color-outline);
 }
+button.TextButton._34gmVq6C3FNtdHqDLa3-XR:hover {
+    color: var(--md-sys-color-on-surface);
+}
 
 /* Activity */
 ._1Q2q_tQ9_Eq8YdEHNAHS3F,
@@ -3196,7 +3200,8 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 }
 /* Resume download */
 ._1VNuYHM6BPBOJspC6zPf5r ._1cMXIpc5BRVY11dIrWKMNW ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:has(svg path[d="M7.5 32.135a1 1 0 0 1-1.5-.866V4.73a1 1 0 0 1 1.5-.866l22.999 13.269a1 1 0 0 1 0 1.732l-23 13.269Z"]),
-._1VNuYHM6BPBOJspC6zPf5r ._1cMXIpc5BRVY11dIrWKMNW ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:has(svg path[d="M7.5 32.135a1 1 0 0 1-1.5-.866V4.73a1 1 0 0 1 1.5-.866l22.999 13.269a1 1 0 0 1 0 1.732l-23 13.269Z"]):enabled:focus {
+._1VNuYHM6BPBOJspC6zPf5r ._1cMXIpc5BRVY11dIrWKMNW ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:has(svg path[d="M7.5 32.135a1 1 0 0 1-1.5-.866V4.73a1 1 0 0 1 1.5-.866l22.999 13.269a1 1 0 0 1 0 1.732l-23 13.269Z"]):enabled:focus,
+.BasicUI ._1VNuYHM6BPBOJspC6zPf5r.IbePLaw-vSvhG1GTenYFg ._3oavRVhIS9tC3vBsFT4Ggi.DialogButton:enabled {
     color: var(--md-sys-color-on-surface-variant);
     background: var(--md-sys-color-surface-container-highest);
 }
@@ -3225,7 +3230,8 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 .Rgy-7t7i1Yv97qhWQae7K, .Rgy-7t7i1Yv97qhWQae7K._29JXxENWoFygO9oYASrRHe {
     color: var(--md-sys-color-outline);
 }
-._117rQTHH1RIewY7sSlvg3Z:hover ._34F9wkevkmNM4yJfpPQ0GL, ._117rQTHH1RIewY7sSlvg3Z:hover.Sil68-ocRzI8Xeloq3d7R {
+._117rQTHH1RIewY7sSlvg3Z:hover ._34F9wkevkmNM4yJfpPQ0GL, ._117rQTHH1RIewY7sSlvg3Z:hover.Sil68-ocRzI8Xeloq3d7R,
+._117rQTHH1RIewY7sSlvg3Z._2hSrM0aaC2uY2y83PI0NOr:hover ._34F9wkevkmNM4yJfpPQ0GL, ._117rQTHH1RIewY7sSlvg3Z._2hSrM0aaC2uY2y83PI0NOr:hover.Sil68-ocRzI8Xeloq3d7R {
     color: var(--md-sys-color-primary);
 }
 /* Body */
@@ -3954,7 +3960,8 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 ._2JobstxtZVYF3078DblN2M._1jNhbFODJy7sNdcnEeZkz4 ._19z_50-qWZWxcgXfWNtSWb>div:not(._2VQFn3BjndH_ZmCBTJY7eZ) img,
 ._3IBLc81yyL08OJ7rfKtF00._31ZleDJpmmVr6YwR5VLHiu ._19z_50-qWZWxcgXfWNtSWb>div:not(._2VQFn3BjndH_ZmCBTJY7eZ) img,
 ._1SvpjsckP9cPRxO6gCBHrw ._19z_50-qWZWxcgXfWNtSWb>div:not(._2VQFn3BjndH_ZmCBTJY7eZ) img,
-.N-f57Rtxa8zZD5y8vbm25 img {
+.N-f57Rtxa8zZD5y8vbm25 img,
+._30w46ktz76K_Rnqk02ZfT0 img {
     filter: invert(var(--scheme-light, 1) var(--scheme-dark, 0));
 }
 
@@ -3989,7 +3996,8 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
     background-color: var(--md-sys-color-primary-container);
     color: var(--md-sys-color-on-primary-container);
 }
-._38sNQt6oEVaeO9D-gI_Lhl._15VplG8ZhNCYs8IUwaufpO.mHKj-UeGQdjT9lC0rOGdq {
+._38sNQt6oEVaeO9D-gI_Lhl._15VplG8ZhNCYs8IUwaufpO.mHKj-UeGQdjT9lC0rOGdq,
+._38sNQt6oEVaeO9D-gI_Lhl {
     background-color: var(--md-sys-color-primary);
     color: var(--md-sys-color-on-primary);
 }
@@ -4192,7 +4200,8 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 .BasicUI ._3zVCVKrpcKJT5fd_dbyuwQ .xpRXvu3-lbtUHYWgwJCiJ,
 .BasicUI .jdr423QSddvvrymBOD45H ._1QCdVPE6SnEroj8IEUN0zX,
 .BasicUI ._2r7cQk8w-M3B3FgxFKmCHu,
-.BasicUI ._1EjjeGgUBbobayGTmtKTUv {
+.BasicUI ._1EjjeGgUBbobayGTmtKTUv,
+.BasicUI ._32SD3UPT95_ZL7tqOsf080 ._3hW5F3JQJmt0L67hcy_U1V {
     color: var(--md-sys-color-on-surface);
 }
 ._1f0dZzzkepidbFYKDYcvUS._39b83mYvwoVaLgo987G5mv {
@@ -4214,7 +4223,8 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
     color: var(--md-sys-color-on-surface);
 }
 ._1wLpmwH1g8b3Xra-xAL-iK,
-._1jXShdEo0WfXH66OqPkIyJ ._3H9W-9RwwfJktXPkc6EWjR {
+._1jXShdEo0WfXH66OqPkIyJ ._3H9W-9RwwfJktXPkc6EWjR,
+._1F8RyqHWE1uz9fWgUhyN59 {
     color: var(--md-sys-color-on-surface-variant);
 }
 ._2-tz2hqtOXPPtMnVPHNSdx {
@@ -4247,6 +4257,55 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 }
 .BasicUI ._3NhLu7mTdty7JufpSpz6Re ._3j4dI1yA7cRfCvK8h406OB {
     color: var(--md-sys-color-on-surface);
+}
+.mbFSnoK85dUXHz9VT-YNI._3KGi6ig3JCLHZP-dOsO-Wx {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container-high);
+}
+._1ckvQc7fc_EgwWKrW6GISW ._39Y01uSRcLiDg5DneTTR0m,
+._2_TE0KLOU7kWWxa9LS7iXA ._1XRnApz7l5qm2BkR5hzzvS {
+    color: var(--md-sys-color-on-surface);
+}
+.mbFSnoK85dUXHz9VT-YNI._3KGi6ig3JCLHZP-dOsO-Wx ._3212ro0onZQImzF7Z-DBnV {
+    color: var(--md-sys-color-on-surface-variant);
+}
+._1ckvQc7fc_EgwWKrW6GISW .MGoYUyIslJerluzgnU7z9 {
+    color: var(--md-sys-color-outline);
+}
+.RPcyJMJC7chgPFkD4KWtO._2feGA5T49Nk1_dTnwfOnL {
+    border-color: var(--md-sys-color-outline);
+}
+._27Q1TQNf9VysifeaxYFyyU ._2-B4w1h_qnx1Du50bLkIwp,
+._30w46ktz76K_Rnqk02ZfT0,
+._30w46ktz76K_Rnqk02ZfT0:hover {
+    color: var(--md-sys-color-on-surface);
+}
+._30w46ktz76K_Rnqk02ZfT0:hover._1zkgQm67ell-zVB965M-D5 {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+._1W34WpqfvufNgueNdZozwC .aZc8RQUeHL3YNHxrG4pXN .SVGIcon_X_Line line {
+    color: var(--md-sys-color-outline);
+}
+._1W34WpqfvufNgueNdZozwC .aZc8RQUeHL3YNHxrG4pXN:hover .SVGIcon_X_Line line {
+    color: var(--md-sys-color-on-surface);
+}
+/* Community */
+.BasicUI ._1ul9ZRBfhF0vyj-hrit6nU {
+    color: var(--md-sys-color-on-surface);
+}
+.BasicUI ._3QS6OBHpvI5bXsSQA2zQuW,
+.BasicUI ._1aP1bu_l_kDbKMN7XDNmzg ._3uabislt81gdMksbxzc-iN {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-variant);
+}
+.BasicUI ._-85o5-M_cGo-fefOuWwER ._23Pup1qLf91kwjALd-jFGc,
+.BasicUI ._2jPMy2QZr8bWi6yrk5ZzHA ._1uS70KI6ZbUE94jUB27ioB ._3GkV1NVDKuXYTLyRt2Uirz {
+    color: var(--md-sys-color-on-surface);
+}
+.BasicUI .DY4_wSF8h9T5o46hO5I9V,
+.BasicUI .DY4_wSF8h9T5o46hO5I9V ._1b6LYWVijW-9E4YV0keDWZ ._2sNDjgK9EWiPLdNGkjun-w {
+    color: var(--md-sys-color-on-surface-variant);
 }
 /* Settings  */
 /* Menu */

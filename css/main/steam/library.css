@@ -1240,6 +1240,14 @@ a._2HnDgHQT_3ehcs4WgskKG5,
     box-shadow: unset;
     border-radius: var(--corner-radius-medium);
 }
+._3IWn-2rn7x98o5fDd0rAxb:focus, ._3IWn-2rn7x98o5fDd0rAxb:hover {
+    box-shadow: var(--elevated-shadow);
+}
+._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 ._2zbkblS0wKex2zlrf1kmkQ,
+._3IWn-2rn7x98o5fDd0rAxb:focus ._2zbkblS0wKex2zlrf1kmkQ, ._3IWn-2rn7x98o5fDd0rAxb:hover ._2zbkblS0wKex2zlrf1kmkQ {
+    border-radius: var(--corner-radius-medium);
+    box-shadow: var(--elevated-shadow);
+}
 ._3IWn-2rn7x98o5fDd0rAxb ._1J1LQ0vGtpM3n0xw7XwQM6,
 ._3IWn-2rn7x98o5fDd0rAxb._2_dwxMdH27kBf-gQ3Wrk7z ._1J1LQ0vGtpM3n0xw7XwQM6 {
     text-shadow: unset;
@@ -1486,8 +1494,11 @@ html[lang="ja"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::aft
     cursor: help;
 }
 .DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumItem_Version::after {
-    content: "(" var(--hook-current-commit-date) ")";
+    content: "(" var(--hook-current-commit-date) " GMT+3)";
+    position: absolute;
     margin-left: 8px;
+    user-select: none;
+    pointer-events: none;
 }
 
 /* ._1rDh5rXSFZJOqCa4UpnI4z .MillenniumSettings ._2rjVTGz8aLvqOdz5v2gq5C {
@@ -1507,9 +1518,9 @@ html[lang="ja"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::aft
     left: 0;
     right: 0;
     top: 0;
-    background-image: url(../../../.github/banner.jpg);
-    background-size: cover;
-    background-position: center 35%;
+    background: center / contain no-repeat url(../../../.github/logo.svg);
+    filter: invert(var(--scheme-light, 1) var(--scheme-dark, 0));
+    scale: 0.8; 
 } */
 
 /* .MillenniumSidebarThemeEditor_Content .Use.Experimental.Features {
