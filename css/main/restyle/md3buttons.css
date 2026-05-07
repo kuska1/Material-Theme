@@ -12,7 +12,8 @@ button.DialogButton, .O_nD7TklmaIZ80TPx3rjt button.DialogButton, button.cXzBZxhP
 .O_nD7TklmaIZ80TPx3rjt.DialogButton,
 /* In BPM */
 .GamepadMode button.cXzBZxhPBl7fZs9LODEnc.DialogButton,
-.GamepadMode button.cXzBZxhPBl7fZs9LODEnc.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover {
+.GamepadMode button.cXzBZxhPBl7fZs9LODEnc.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover,
+.BasicUI ._3qDWQGB0rtwM3qpXTb11Q- {
     border-radius: var(--corner-radius-full);
 }
 button.DialogButton::before {

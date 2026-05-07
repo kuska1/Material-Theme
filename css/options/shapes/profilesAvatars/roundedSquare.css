@@ -32,7 +32,9 @@
 /* Chat */
 .friend.emptyFriend .avatarHolder img.avatar,
 /* Workshop */
-.t1-DQ4KhiQ0-._4-VIszWOyjU-, .YbrTGQJwy1w- {
+.t1-DQ4KhiQ0-._4-VIszWOyjU-, .YbrTGQJwy1w-,
+/* Big Picture Mode */
+._1RyQjjzvhNOsPWZlCWFgFR {
 	border-radius: var(--corner-radius-small) !important;
 }
 
