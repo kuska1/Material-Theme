@@ -20,6 +20,7 @@ body .xa7nOX-adjA- {
 }
 
 /* Custom Tooltip for Theme Settings */
+.DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumItem_Version::before,
 .MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY::after,
 .MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo::after,
 .MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q::after,
@@ -43,11 +44,18 @@ body .xa7nOX-adjA- {
     user-select: none;
     pointer-events: none;
 }
+.DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumItem_Version:hover::before,
 .MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY:hover::after,
 .MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo:hover::after,
 .MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q:hover::after,
 .MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:hover::after {
     opacity: 1;
+}
+
+.DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumItem_Version::before {
+    content: var(--hook-current-commit-hash);
+    max-width: unset;
+    right: unset;
 }
 
 .MillenniumDesktopSidebar_EditorContent .Color:nth-child(2) ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:nth-of-type(2)::after {
