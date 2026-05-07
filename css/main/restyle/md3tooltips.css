@@ -53,9 +53,11 @@ body .xa7nOX-adjA- {
 }
 
 .DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumItem_Version::before {
-    content: var(--hook-current-commit-hash);
+    content: var(--hook-last-commit-hash);
     max-width: unset;
     right: unset;
+    left: unset;
+    transform: translateX(-25%) !important;
 }
 
 .MillenniumDesktopSidebar_EditorContent .Color:nth-child(2) ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:nth-of-type(2)::after {
