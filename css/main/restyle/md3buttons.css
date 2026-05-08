@@ -53,7 +53,7 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
     box-shadow: unset;
 }
 ._1ZS_xta5HMXzR8JgxDH6n7 ._2PF_m-I5yte3WnQhpcz8RC, /* Library */
-._3few7361SOf4k_YuKCmM62 .DialogDropDown,
+.DialogDropDown, ._3few7361SOf4k_YuKCmM62 .DialogDropDown,
 .DesktopUI .MillenniumDesktopSidebar_Content .DialogDropDown._DialogInputContainer,
 .GamepadMode button.cXzBZxhPBl7fZs9LODEnc.v8oJcDOQF6xmlVTw4VhOr.DialogButton,
 .GamepadMode button[role="combobox"],
@@ -61,7 +61,8 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton::after {
 .GamepadMode button[role="combobox"]:hover,
 .GamepadMode button.cXzBZxhPBl7fZs9LODEnc.v8oJcDOQF6xmlVTw4VhOr.DialogButton:active,
 .GamepadMode button[role="combobox"]:active,
-._3jj_KvFzq6XW7NasX_7Tvv.DesktopUI .DialogDropDown, .DesktopUI ._3jj_KvFzq6XW7NasX_7Tvv .DialogDropDown /* Modal / EULA */ {
+._3jj_KvFzq6XW7NasX_7Tvv.DesktopUI .DialogDropDown, .DesktopUI ._3jj_KvFzq6XW7NasX_7Tvv .DialogDropDown, /* Modal / EULA */
+._3_7wzN0kdchWheVyim6nmo .DialogDropDown /* Overlay */ {
     border-radius: var(--corner-radius-small);
 }
 ._30wJO3MC4x-I1OWpy1TAeE._DialogInputContainer {

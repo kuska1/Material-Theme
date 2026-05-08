@@ -28,3 +28,12 @@
     border-bottom-width: 2px !important;
     border-bottom-style: solid;
 }
+
+/* Search Fields */
+._26Gmfe09NRsnF7eprTZYdY ._1d2NZ4Jt0wrdapfvDFhpVS ._1W55urU2WazGofFzN0_jHB .DialogInput_Wrapper>input.DialogInput {
+    outline: unset !important;
+    border: unset !important;
+    border-radius: var(--corner-radius-full) !important;
+    padding: 2px;
+    padding-left: 12px;
+}

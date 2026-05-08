@@ -49,3 +49,22 @@
 ._1udlGGE4F5pggcpxovorUd:has(._2_vG6TwMW2XtyLlTEaODH9:hover) {
     --slider-handle-width: 4px;
 }
+
+.DialogSlider_Container {
+    border-radius: var(--corner-radius-full);
+    box-shadow: unset;
+}
+
+.DialogSlider_Slider,
+.DialogSlider_Grabber {
+    box-shadow: unset;
+    border-width: 0px;
+    border-style: none;
+}
+
+.DialogSlider_Grabber {
+    top: -3px;
+    width: 6px;
+    height: 18px;
+    border-radius: var(--corner-radius-full);
+}

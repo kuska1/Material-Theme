@@ -2,7 +2,8 @@
 :not(.friendInviteContainer) .online .ContextMenuButton .SVGIcon_DownArrowContextMenu,
 ._1DsumfIa3MlkzUV9EXY5W9.online ._2n0EiKMGRP-r_BI5tDtttu,
 .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_SteamDeck path, .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_VRIcon path, .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_MobilePhone path, .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_BigPicture path,
-._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online ._1SWhpi9ByGQrwHGQgTJCF5, ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online ._3c5GOobmMUyjAWTosaUKUS {
+._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online ._1SWhpi9ByGQrwHGQgTJCF5, ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online ._3c5GOobmMUyjAWTosaUKUS,
+.online ._2Ri005Wg_uXDTa71kdRbcN {
     color: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 60%);
     fill: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 60%);
 }

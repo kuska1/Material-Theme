@@ -22,9 +22,6 @@
     color: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-offline) 50%);
 }
 /* Online */
-.online ._2Ri005Wg_uXDTa71kdRbcN {
-    color: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 50%);
-}
 ._3RQJ0dX8rpaAMAnYEj3qf_.online .nOdcT-MoOaXGePXLyPe0H {
     color: color-mix(in srgb, var(--md-sys-color-inverse-on-surface), var(--indicator-online) 40%);
 }
@@ -247,15 +244,17 @@ html.client_chat_frame body, /* Fix */
 
 /* Handle */
 ._11PBfip2UlKlY3vWSz8PA4 {
-    background-color: var(--md-sys-color-primary);
+    background: var(--md-sys-color-primary);
 }
 /* Active Track */
-._2_vG6TwMW2XtyLlTEaODH9::before {
-    background-color: var(--md-sys-color-primary);
+._2_vG6TwMW2XtyLlTEaODH9::before,
+.DialogSlider_Value, .DialogSlider_Grabber {
+    background: var(--md-sys-color-primary);
 }
 /* Inactive Track */
-._2_vG6TwMW2XtyLlTEaODH9::after {
-    background-color: var(--md-sys-color-secondary-container);
+._2_vG6TwMW2XtyLlTEaODH9::after,
+.DialogSlider_Slider {
+    background: var(--md-sys-color-secondary-container);
 }
 
 
@@ -301,6 +300,7 @@ button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, /* Card Button */
 ._2GVYKKA0-FikD4ejRjx1Oh ._3TbvbA43LhIlIEKsH7eqhI, /* Filters */
 .LclHwcOfHFpwObYMD1HLa ._3H2GezG50hog8gSDj-qbx1 ._3EWVuoln1WAvpEaPNfpift, /* Launch Modal */
 .O_nD7TklmaIZ80TPx3rjt.DialogButton._19KE2KdEXIYl3OB0p1Y59k, /* Storage */
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2fYjCJSwdJxdjbi7ysISdL ._2NLwfYHr9KUJZ7LD9nkyva, /* Overlay */
 /* Big Picture Mode */
 button.cXzBZxhPBl7fZs9LODEnc.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Primary, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled.Primary,
 .BasicUI button.DialogButton._3Cdin80d-hVsakHUZboheb._3nJyYxGQ3kdwwabPmxNnMe:not(.gpfocus) {
@@ -311,9 +311,14 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton, button.cXzBZxhPBl7fZs9LODEnc.DialogBu
 ._3qDWQGB0rtwM3qpXTb11Q-:hover .SVGIcon_Settings path, ._3qDWQGB0rtwM3qpXTb11Q-:hover .zvLq1GUCH3yLuqv_TXBJ1 .SVGIcon_Information .I,
 ._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN svg,
 button.DialogButton.Primary svg,
-.BasicUI ._3qDWQGB0rtwM3qpXTb11Q- svg {
+.BasicUI ._3qDWQGB0rtwM3qpXTb11Q- svg,
+._2fICi3Sa-9RSsaGQXtgYxE ._2j-W28YC1xAizcE7x9KkDT ._2fTt_FOOXO39F-pTi2dA-b.DialogButton, ._2fICi3Sa-9RSsaGQXtgYxE ._2j-W28YC1xAizcE7x9KkDT ._1ZLczw3NUNZfy66bzlEFMq.DialogButton, ._2fICi3Sa-9RSsaGQXtgYxE ._2j-W28YC1xAizcE7x9KkDT ._3TgXt606Gd8bsEEVvyCqv3.DialogButton {
     fill: var(--md-sys-color-on-primary);
     color: var(--md-sys-color-on-primary);
+}
+button.DialogButton.Disabled svg {
+    fill: var(--md-sys-color-outline);
+    color: var(--md-sys-color-outline);
 }
 ._3qDWQGB0rtwM3qpXTb11Q- svg polyline, /* Scroll to Top */
 ._3qDWQGB0rtwM3qpXTb11Q-:hover .zvLq1GUCH3yLuqv_TXBJ1 svg polyline {
@@ -335,6 +340,7 @@ button.DialogButton.gpfocus, .BRmrC-jnwpXqye4oYB21C button.DialogButton:hover,
 ._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN:hover, /* Collections */
 .LclHwcOfHFpwObYMD1HLa ._3H2GezG50hog8gSDj-qbx1 ._3EWVuoln1WAvpEaPNfpift:hover, /* Launch Modal */
 .O_nD7TklmaIZ80TPx3rjt.DialogButton._19KE2KdEXIYl3OB0p1Y59k:hover, /* Storage */
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2fYjCJSwdJxdjbi7ysISdL ._2NLwfYHr9KUJZ7LD9nkyva:hover, /* Overlay */
 /* Big Picture Mode */
 button.cXzBZxhPBl7fZs9LODEnc.DialogButton:hover, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:hover {
     color: var(--md-sys-color-on-primary);
@@ -352,6 +358,7 @@ button.DialogButton.Primary:enabled:active:hover, /* Primary */
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) ._1KAp5PPYG7si-T_66zNEcU:enabled:active, /* Game Properties Modal */
 ._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN:enabled:active, /* Collections */
 .LclHwcOfHFpwObYMD1HLa ._3H2GezG50hog8gSDj-qbx1 ._3EWVuoln1WAvpEaPNfpift:active, /* Launch Modal */
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2fYjCJSwdJxdjbi7ysISdL ._2NLwfYHr9KUJZ7LD9nkyva:active, /* Overlay */
 /* Big Picture Mode */
 button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active:hover, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:hover:active, button.cXzBZxhPBl7fZs9LODEnc.DialogButton:enabled:active:hover:active {
     color: var(--md-sys-color-on-primary);
@@ -407,17 +414,19 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc
 ._3YelWui4gQvucX_bHwvl15 ._1rihlgVMF4Q_fFZDnXeVt5 svg {
     color: var(--md-sys-color-on-tertiary) !important;
 }
-._3few7361SOf4k_YuKCmM62 .DialogDropDown, /* Base */
+.DialogDropDown, ._3few7361SOf4k_YuKCmM62 .DialogDropDown, /* Base */
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown, /* Game Properties Modal */
 .DesktopUI .MillenniumDesktopSidebar_Content .DialogDropDown._DialogInputContainer, /* Millenium Theme Settings */
-._3jj_KvFzq6XW7NasX_7Tvv.DesktopUI .DialogDropDown, .DesktopUI ._3jj_KvFzq6XW7NasX_7Tvv .DialogDropDown /* Modal / EULA */ {
+._3jj_KvFzq6XW7NasX_7Tvv.DesktopUI .DialogDropDown, .DesktopUI ._3jj_KvFzq6XW7NasX_7Tvv .DialogDropDown, /* Modal / EULA */
+._3_7wzN0kdchWheVyim6nmo .DialogDropDown, ._1UeO0R_NRSTMbWLI02pecg .DialogDropDown {
     color: var(--md-sys-color-on-primary);
     background: var(--md-sys-color-primary);
 }
-._3few7361SOf4k_YuKCmM62 .DialogDropDown:hover, /* Hover */
+.DialogDropDown:hover ._3few7361SOf4k_YuKCmM62 .DialogDropDown:hover, /* Hover */
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown:hover, /* Game Properties Modal */
 .DesktopUI .MillenniumDesktopSidebar_Content .DialogDropDown._DialogInputContainer:hover, /* Millenium Theme Settings */
-._3jj_KvFzq6XW7NasX_7Tvv.DesktopUI .DialogDropDown:hover, .DesktopUI ._3jj_KvFzq6XW7NasX_7Tvv .DialogDropDown:hover {
+._3jj_KvFzq6XW7NasX_7Tvv.DesktopUI .DialogDropDown:hover, .DesktopUI ._3jj_KvFzq6XW7NasX_7Tvv .DialogDropDown:hover,
+._3_7wzN0kdchWheVyim6nmo .DialogDropDown:hover, ._1UeO0R_NRSTMbWLI02pecg .DialogDropDown:hover {
     color: var(--md-sys-color-on-primary);
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
@@ -883,7 +892,7 @@ input[type="radio"] {
     border-bottom-color: var(--md-sys-color-on-surface-variant);
 }
 /* Base */
-.DialogTextInputBase, ._DialogInputContainer, textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable:not(:hover):not(:focus-within),
+.DialogTextInputBase, ._DialogInputContainer:not(.DialogDropDown), textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable:not(:hover):not(:focus-within),
 .lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx {
     color: var(--md-sys-color-on-surface);
     background: var(--md-sys-color-surface-container-highest);
@@ -934,7 +943,8 @@ input[type="radio"] {
 ._2WJTd3a8tzPCkIBmvfBD79,
 ._32fPpbyivR63XHk0qiRv5n,
 .mJGYScROtrnXBuQ-LU507,
-.LclHwcOfHFpwObYMD1HLa /* Launch Modal */ {
+.LclHwcOfHFpwObYMD1HLa, /* Launch Modal */
+.LclHwcOfHFpwObYMD1HLa ._3T-1PliI6PkKE-bE-o3bV0.DesktopUI, .DesktopUI .LclHwcOfHFpwObYMD1HLa ._3T-1PliI6PkKE-bE-o3bV0 {
     color: var(--md-sys-color-on-surface);
 }
 .LclHwcOfHFpwObYMD1HLa ._2aHnQT0gTQ5KIsi5omK93w .EvZ7kwlROeKkDzxBu2TfH,
@@ -3292,6 +3302,155 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 }
 
 /* Overlay */
+/* Containers */
+.C9tvuqqEXGcrkcAtHrQ_R {
+    background: var(--md-sys-color-surface-container);
+}
+._22LPPg9PMLlPRAP1u7N5mb {
+    background: var(--md-sys-color-surface);
+}
+.C9tvuqqEXGcrkcAtHrQ_R .title-area-children {
+    color: var(--md-sys-color-on-surface-variant);
+}
+.C9tvuqqEXGcrkcAtHrQ_R ._3EcEdRFCaMHk3xQ16qirtm,
+.C9tvuqqEXGcrkcAtHrQ_R .EMpALkio49OZ9ttf0_k55,
+.C9tvuqqEXGcrkcAtHrQ_R .EMpALkio49OZ9ttf0_k55._34zIwYKgEUJFl89eBq-bJh {
+    color: var(--md-sys-color-outline);
+}
+.C9tvuqqEXGcrkcAtHrQ_R ._3EcEdRFCaMHk3xQ16qirtm:hover, .C9tvuqqEXGcrkcAtHrQ_R ._2yvoVvrGHYXwux1bLxYc9p:hover, .C9tvuqqEXGcrkcAtHrQ_R ._2J5BIjURexcIYfVhbHmgRT:hover, .C9tvuqqEXGcrkcAtHrQ_R .EMpALkio49OZ9ttf0_k55:hover,
+.C9tvuqqEXGcrkcAtHrQ_R .EMpALkio49OZ9ttf0_k55:hover, .C9tvuqqEXGcrkcAtHrQ_R .EMpALkio49OZ9ttf0_k55._34zIwYKgEUJFl89eBq-bJh:hover {
+    color: var(--md-sys-color-on-surface);
+}
+.C9tvuqqEXGcrkcAtHrQ_R ._3EcEdRFCaMHk3xQ16qirtm._1dJ6yrpvLYTTBOt2IhFPua {
+    color: var(--md-sys-color-on-surface);
+}
+/* .C9tvuqqEXGcrkcAtHrQ_R ._3EcEdRFCaMHk3xQ16qirtm._1dJ6yrpvLYTTBOt2IhFPua {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+.C9tvuqqEXGcrkcAtHrQ_R ._3EcEdRFCaMHk3xQ16qirtm._1dJ6yrpvLYTTBOt2IhFPua:hover {
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+} */
+._26Gmfe09NRsnF7eprTZYdY,
+.aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8-._1W4bbifjEN3KdqKEhpmies {
+    background: var(--md-sys-color-surface);
+}
+.aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8-._1W4bbifjEN3KdqKEhpmies:hover {
+    background: var(--md-sys-color-surface);
+}
+.aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8- {
+    background: transparent;
+}
+.aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8-:hover {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+.aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8- ._2RI6oQrDKUNzBqhIk4zI {
+    color: var(--md-sys-color-on-surface);
+}
+.aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8- ._2DQbopwR5aguhf6fXQO8dQ {
+    color: var(--md-sys-color-outline);
+}
+.aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8- ._2DQbopwR5aguhf6fXQO8dQ:hover,
+.aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8- ._2DQbopwR5aguhf6fXQO8dQ :hover {
+    color: var(--md-sys-color-on-surface);
+}
+._26Gmfe09NRsnF7eprTZYdY ._2UTNf-Ec4o5_3LPJtc2u7M,
+._26Gmfe09NRsnF7eprTZYdY ._1d2NZ4Jt0wrdapfvDFhpVS ._1W55urU2WazGofFzN0_jHB,
+._26Gmfe09NRsnF7eprTZYdY ._1d2NZ4Jt0wrdapfvDFhpVS:hover ._1W55urU2WazGofFzN0_jHB {
+    color: var(--md-sys-color-outline);
+}
+._26Gmfe09NRsnF7eprTZYdY ._1d2NZ4Jt0wrdapfvDFhpVS:hover {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+._26Gmfe09NRsnF7eprTZYdY ._1oXr_GpvIgjHasLyU3tBn:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+._26Gmfe09NRsnF7eprTZYdY ._1oXr_GpvIgjHasLyU3tBn._1f6yYACTilZQ2dmqGd5zXk {
+    color: var(--md-sys-color-outline-variant);
+}
+._27m9Qbg4ShilOgwvYZWV8l {
+    background: unset;
+}
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2wBK7MqJSrj6QCxf3357yL {
+    background: var(--md-sys-color-surface-container-highest);
+}
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6,
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6.P46KVvNDqOUONCIHBwKgU {
+    background: var(--md-sys-color-surface-container-high);
+}
+._2heIyaBp5LdaF76WpjYU4R,
+._2iGYYePQN5QQzHWNLybmd4 ._3wNylaCAUJ8XtRM6mu2C0k,
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2wBK7MqJSrj6QCxf3357yL,
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2wBK7MqJSrj6QCxf3357yL>svg,
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2wBK7MqJSrj6QCxf3357yL ._3BbUJ3pqu6i7jyGwAMAF5a svg.IPRP2v8nPJRvTxirY9NyU {
+    color: var(--md-sys-color-on-surface);
+}
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._1g_TUEp_Z0N96bj-QwdYKO {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2OwqXw1nhBL430bsYTeEr-,
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._3eNE5TKtDTnfNBAsCqfcP0 {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-high);
+}
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._2OwqXw1nhBL430bsYTeEr-:hover,
+._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 ._3eNE5TKtDTnfNBAsCqfcP0:hover {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+
+/* Achievements */
+._gDkIgrqhJq-FtbuR9wJi {
+    background: var(--md-sys-color-surface-container-high);
+}
+._28omEDJUOc_yRNrrdxXFx1 .C17OpWBrNblXGLwQpxHk- ._17zZlCuxyWWUil57ZLDOXp {
+    color: var(--md-sys-color-on-surface-variant);
+}
+._1UXC2lGcmNTGepRJTwtuH0 {
+    background: var(--md-sys-color-surface);
+}
+._2Kmn7fJOkLT4KyWl467a9M {
+    background: var(--md-sys-color-surface-container-low);
+}
+._17dhGq-FsL8xZBes7dOOlN,
+.IM0uEBPVo6MDEDQLGzeZr {
+    color: var(--md-sys-color-on-surface);
+}
+._1WP2YDDWrL5LPHoS04AKx8 {
+    color: var(--md-sys-color-on-surface-variant);
+}
+.VQbek1VTyOX04qHmTsssW,
+._2fFW2raBfeDt3WOPB-aQAq {
+    color: var(--md-sys-color-outline);
+}
+/* Notes */
+._3LLH_F43MTu6UtG4Z3kudv, ._1cWmu5TUWFAVHlv1EVaF8e {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface);
+}
+._3LLH_F43MTu6UtG4Z3kudv:hover, ._1cWmu5TUWFAVHlv1EVaF8e:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, var(--md-sys-color-surface), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+/* Clock */
+._2fICi3Sa-9RSsaGQXtgYxE ._1BfvGliHSf2eWZCE__10m1 .kjBAvLwkb1RetQQxFsPjM {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container-high);
+}
+._2fICi3Sa-9RSsaGQXtgYxE ._1BfvGliHSf2eWZCE__10m1 {
+    color: var(--md-sys-color-on-surface-variant);
+}
+.FXmBItQhq4jEhkePnRy4H ._1ipUHE3x1jV4zebZsOKan7 {
+    color: var(--md-sys-color-on-surface);
+}
+.C9tvuqqEXGcrkcAtHrQ_R._2OoAjT3o0Ieng7ycuy86vZ.OverlayTimer .FXmBItQhq4jEhkePnRy4H ._1ipUHE3x1jV4zebZsOKan7,
+._2fICi3Sa-9RSsaGQXtgYxE ._1BfvGliHSf2eWZCE__10m1 .kjBAvLwkb1RetQQxFsPjM._1t6Sh3kadZDLPZggfcPWlh,
+._1JTFbdOLNdh4RmamEfRS39.bDLQVGJGU18sxrJ154XD ._2fICi3Sa-9RSsaGQXtgYxE ._1BfvGliHSf2eWZCE__10m1 ._2NbHN6kBjSdOE0iBdnx6cT,
+.C9tvuqqEXGcrkcAtHrQ_R._2OoAjT3o0Ieng7ycuy86vZ.OverlayTimer ._2fICi3Sa-9RSsaGQXtgYxE ._1BfvGliHSf2eWZCE__10m1 .kjBAvLwkb1RetQQxFsPj {
+    color: #fff !important;
+}
 /* Buttons */
 /* Default */
 ._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L {
@@ -3307,7 +3466,9 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
     color: var(--md-sys-color-on-surface-variant);
     background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface-variant) var(--layer-action-hover));
 }
-._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L svg path {
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L svg path,
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L svg circle,
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L svg rect {
     fill: var(--md-sys-color-on-surface-variant);
 }
 /* Active */
@@ -3324,7 +3485,9 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 ._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn .ZTbww2QfIllvCwVHmpixE {
     color: var(--md-sys-color-on-primary);
 }
-._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn svg path {
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn svg path,
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn svg circle,
+._3OzkVrQFFPv0aV41N4MrHV .fbu3l7kPiBeb3EKCjIb8n ._3ZLaTxSHxeGcoKlIy_-Z0L._1BXjK5v8XI_SEhGola5ftn svg rect {
     fill: var(--md-sys-color-on-primary);
 }
 /* Hover */
