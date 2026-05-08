@@ -14,6 +14,9 @@
     "discord_support": {
         "inviteCodeExcludingLink": "aGcKmX5KTs"
     },
+    "funding": {
+        "kofi": "flowird"
+    },
 
     "Steam-WebKit": "webkit.css",
     "RootColors": "css/main/root-colors.css",
