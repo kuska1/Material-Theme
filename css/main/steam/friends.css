@@ -59,6 +59,14 @@
 .chatWindow .chatHeader {
     display: none;
 }
+/* Sus Chat */
+._3wFuYH9O5rw8qUqBzD1L7w {
+    box-shadow: unset;
+}
+._1j7MD3GYqBmikQYiNjV7C1 ._1-6XZVSZnDZkw-_2floZTR a,
+._1j7MD3GYqBmikQYiNjV7C1 ._1-6XZVSZnDZkw-_2floZTR a:hover {
+    border-bottom: unset;
+}
 /* Tabs */
 .chatTabSetContainer.inclient {
     margin-left: 18px;

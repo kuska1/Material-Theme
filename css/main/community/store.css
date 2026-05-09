@@ -1,8 +1,8 @@
-.popup_body.search_v2 .match.match_creator.match_v2 .match_img {
+/* .popup_body.search_v2 .match.match_creator.match_v2 .match_img {
     background: unset !important;
 }
 
-/* App Bar */
+App Bar
 #store_nav_area .store_nav_bg, .home_page_body_ctn.has_takeover #store_nav_area .store_nav_bg {
     border-radius: var(--corner-radius-small) !important;
     box-shadow: unset !important;
@@ -15,15 +15,15 @@ a#store_search_link img {
     border-radius: var(--corner-radius-full) !important;
 }
 
-/* Chips / Tags */
+Chips / Tags
 body.v6 .deep_dive_key_tags {
     height: unset !important;
 }
 
-/* Cards */
+Cards
 .game_area_purchase_game, .game_area_offsite_purchase,
 .notice_box_content, .game_area_comingsoon,
-.drm_warning.svelte-1iirt72.svelte-1iirt72 /* Plugins Support */ {
+.drm_warning.svelte-1iirt72.svelte-1iirt72 Plugins Support {
     border-radius: var(--corner-radius-medium) !important;
     box-shadow: unset !important;
 }
@@ -38,4 +38,9 @@ body.v6 .deep_dive_key_tags {
 }
 .game_purchase_action .game_purchase_price {
     background: unset !important;
+} */
+
+body .game_purchase_action_bg,
+body .game_purchase_action .game_purchase_price {
+    border-radius: var(--corner-radius-full);
 }

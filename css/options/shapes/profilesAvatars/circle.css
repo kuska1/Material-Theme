@@ -38,7 +38,10 @@
 	border-radius: var(--corner-radius-full) !important;
 }
 .playerAvatar.profile_header_size,
-.playerAvatar.profile_header_size img {
+.playerAvatar.profile_header_size img,
+/* Edit Profile */
+body ._29CGQrIvjYllKwVQKe8d8R,
+body ._29CGQrIvjYllKwVQKe8d8R img {
 	border-radius: 999px !important;
 }
 

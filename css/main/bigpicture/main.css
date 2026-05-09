@@ -71,7 +71,7 @@
 .BasicUI ._2E7G8grj_-tgxXbTXs1t2E, .WYgDg9NyCcMIVuMyZ_NBC,
 .KLo2nZeTMZykCUGVlKsab,
 .BasicUI ._1pdQdoLxwmuMZpXXNHI2Uo ._1tRKRV0z9mHiZb76QCyqGO ._1Lot-TP3cPLuTO6bGZm8up.n98drbUHUKTXfcwqFg2WB,
-._1ltOYJptYZnLaTp-eGyMdq,
+._1ltOYJptYZnLaTp-eGyMdq, ._1wPplsegQqCoe06wXPhzKT,
 .BasicUI ._3OC7iN2ubQiHWLB7r6Bugz,
 ._28UlEb2LlG5AHd2ifU3SX,
 .XLJ9pwrMeZWR39iu-bFoV,
@@ -90,7 +90,8 @@
 .BasicUI ._3QS6OBHpvI5bXsSQA2zQuW,
 .BasicUI ._3QS6OBHpvI5bXsSQA2zQuW ._3XZzfVx8SPRZc4kLownPRd,
 ._2QAgOXmzdXYGH8vI6S2sHw._25oBZpa3dUcMw8QAsa2u67,
-._2bF7XkQZA1M7jTj6txLFp- .HAvWsE0-ycDj77SdyLXE- {
+._2bF7XkQZA1M7jTj6txLFp- .HAvWsE0-ycDj77SdyLXE-,
+.BasicUI .WYgDg9NyCcMIVuMyZ_NBC::after {
     border-radius: var(--corner-radius-medium);
     box-shadow: unset;
 }

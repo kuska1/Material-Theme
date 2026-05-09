@@ -8,7 +8,7 @@
 #svgid_53, #svgid_54 {
     display: none;
 }
-.DialogCheckbox,
+body .DialogCheckbox,
 ._2n6FNLKyb6al_YPk13xS7S ._2qURXDJ4ZtfSVOesDk7A73 .DialogCheckbox /* Settings */ {
     box-shadow: unset;
     border-width: 2px;
@@ -19,8 +19,10 @@
 .DialogCheckbox .SVGIcon_DialogCheck,
 ._170Npw5h84elypMSQ8zNDI ._1axoiZsC1RBp22JQmxiBIc ._32e6rHniKd5ztOQ1lYIulu ._1J53P1yXTWlwJRyCAzMQei ._2AOkQORncEi9SJ3FCWnPmY svg,
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogCheckbox svg,
-.DialogCheckbox_Container.DNDCheckBox .DialogCheckbox {
+.DialogCheckbox_Container.DNDCheckBox .DialogCheckbox,
+body .DialogCheckbox .SVGIcon_DialogCheck {
     margin-top: unset;
+    margin-bottom: unset;
     margin-left: unset;
     margin-right: unset;
     margin-inline-start: unset;

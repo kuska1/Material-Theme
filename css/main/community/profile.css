@@ -1,3 +1,118 @@
-/* #profile_action_dropdown .popup_menu_item:has(img)::before {
-
-} */
+/* -- PROFILE -- */
+/* Valve Employee */
+body .profile_header_valve_employee {
+    color: var(--md-sys-color-on-error-container);
+    background: var(--md-sys-color-error-container);
+    border-radius: var(--corner-radius-medium);
+}
+body .profile_header_valve_employee_icon {
+    display: none;
+}
+body .profile_header_valve_employee_desc {
+    color: var(--md-sys-color-on-error-container);
+    padding: 5px 10px 10px 5px;
+}
+body .profile_header_valve_employee_desc a {
+    color: var(--md-sys-color-on-error-container);
+}
+body .profile_header_valve_employee_desc a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-on-error-container), var(--md-sys-color-on-surface) 40%);
+}
+/* Nicknames */
+body .popup_block_new {
+    box-shadow: var(--elevated-shadow);
+    border-radius: var(--corner-radius-small);
+}
+body .popup_block_new .popup_body {
+    border: unset;
+    padding: 8px;
+    border-radius: var(--corner-radius-small);
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container);
+}
+/* Columns */
+body .profile_customization,
+body .profile_rightcol {
+    border-radius: var(--corner-radius-small);
+}
+/* Badge */
+body .profile_header_badge {
+    border-radius: var(--corner-radius-medium);
+}
+/* VAC Ban */
+body .profile_ban_status {
+    border-radius: var(--corner-radius-medium);
+    /* padding: 8px; */
+}
+body .profile_ban .profile_ban_info *:not(a) {
+    display: none;
+}
+/* Friends */
+body .profile_topfriends .friendBlock {
+    border-radius: var(--corner-radius-medium);
+}
+body .friendBlock .friendPlayerLevel {
+    margin: 2px 6px 0 0;
+}
+/* Games */
+body .recent_game {
+    border-radius: var(--corner-radius-medium);
+}
+body .recent_game .game_info .game_info_cap img,
+body .game_info_badge_border,
+body .recent_game .game_info_stats, body .favoritegame_showcase .game_info_stats,
+body .showcase_content_bg,
+body .screenshot_showcase_screenshot {
+    border-radius: var(--corner-radius-small);
+    box-shadow: unset;
+}
+/* Tooltip */
+body .community_tooltip,
+body ._2FxbHJzYoH024ko7zqcJOf {
+    box-shadow: var(--elevated-shadow);
+    padding: 8px 12px;
+    border: unset;
+    border-radius: var(--corner-radius-extra-small);
+    font-size: var(--font-body-small-size);
+    font-weight: var(--font-body-small-weight);
+    z-index: 9999;
+}
+/* Header */
+body .profile_small_header_texture {
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+/* Containers */
+body ._1UoAvYFtO-OEv3DMwZCL8A,
+body .jnA47pnC2fs47Uo4apcHu,
+body .n1M1oAE4l0f1dxNm_ux2s ._20EDLy9ziFgZhS3jI4b1FG {
+    border-radius: var(--corner-radius-small);
+}
+/* Avatars */
+body ._29CGQrIvjYllKwVQKe8d8R:hover {
+    box-shadow: var(--elevated-shadow);
+    filter: unset;
+}
+/* Profile Bg & MiniBg & Game Profile */
+body ._189ERe_A-jhzSSRw4f2Hw ._2Zeggw-2qC5ma2qpjzHRlF,
+body ._1kB6_rUcA_VRp7MER6E0Vi ._1JFlRrkeYJegFK8xCBRfYw._19sKX1Sg9icPcVJAPT7kN0,
+body ._1JFlRrkeYJegFK8xCBRfYw img,
+body ._1kB6_rUcA_VRp7MER6E0Vi:hover ._1JFlRrkeYJegFK8xCBRfYw,
+body ._1JFlRrkeYJegFK8xCBRfYw ._3PAmyizPC3zW2TZLRI8I9P video,
+body ._20HXbZxc7PM5Cr1hOzK2SC ._2sArlom6cS_SfcD2RzzHW2>div>div>img,
+body ._3NIiYdehUu4wAz6rNXR_OB ._2GvFUUI49ePmg62crk2qDO.Gd3-pJ25GXL-bDaQAnChb,
+body ._2GvFUUI49ePmg62crk2qDO img,
+body ._3NIiYdehUu4wAz6rNXR_OB:hover ._2GvFUUI49ePmg62crk2qDO {
+    border-radius: var(--corner-radius-small);
+}
+body ._2Zeggw-2qC5ma2qpjzHRlF img {
+    height: 100%;
+}
+body ._189ERe_A-jhzSSRw4f2Hw:hover ._2Zeggw-2qC5ma2qpjzHRlF,
+body ._1kB6_rUcA_VRp7MER6E0Vi:hover ._1JFlRrkeYJegFK8xCBRfYw,
+body ._39ksjd1_LKKPt0CIOhnMF7._2aQ08chNRS9DgKjACdNLuA:hover ._36oStJXlvGWLdFxYUgNyg-,
+body ._3NIiYdehUu4wAz6rNXR_OB:hover ._2GvFUUI49ePmg62crk2qDO,
+body ._1yHxtA_qbj9xWiLkUiovpE:hover ._1C_n640PvrV_-DCXwOeCZY {
+    box-shadow: var(--elevated-shadow);
+    filter: unset;
+}

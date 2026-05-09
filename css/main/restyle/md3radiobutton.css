@@ -14,3 +14,11 @@
     border-color: transparent;
     background-color: transparent;
 }
+
+body .DialogRoundCheckboxField_OuterCircle,
+body .DialogRoundCheckboxField_Control.Active .DialogRoundCheckboxField_InnerCircle {
+    box-shadow: unset;
+}
+body .DialogRoundCheckboxField_Container.Disabled {
+    opacity: unset;
+}

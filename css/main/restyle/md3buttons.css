@@ -280,3 +280,57 @@ body:has(._2yAm5LY_eu-Vg_52l0HFlM ._1mpeIo_E-qVxqb3DeRrQvl) ._2AzIX5kl9k6JnxLfR5
     border: unset;
     border-radius: var(--corner-radius-full);
 }
+
+/* --- POWERED / COMMUNITY --- */
+body button.DialogButton,
+body .btn_grey_white_innerfade,
+body .btnv6_blue_hoverfade,
+body .btn_green_white_innerfade,
+body .btn_darkblue_white_innerfade,
+body .account_manage_link,
+body ._3EYcq6Ow2WM7bGuzWyQRMN button.DialogButton,
+body ._9fMwjaiixbDViVPurFAa4,
+body ._24Y_0sMrz5EywcAsFUstI1,
+body .text_filter_action_link, body .text_filter_action_link a,
+body ._1K1x9myo7Kli0IP_plaz9D .wFnzmCfVh6fa9BMDuwy7J,
+body ._1K1x9myo7Kli0IP_plaz9D .vDtJqUVxjZtCpsN9muEoX,
+body ._35BlnGUYkm2MwN318q0gZU ._2UOyb8dGbKlL6QDQiqYFoc,
+body ._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._39Ldnfxr7DlhXHZZgBVF4W,
+body ._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._15P7ohP3vq0SmtT5d274y1,
+body .btn_green_steamui,
+body .btn_blue_steamui,
+body .btn_profile_action, body .btn_profile_action:hover, body .btn_profile_action.focus,
+body .btn_profile_action > span,
+body .btn_grey_white_innerfade > span,
+body .btn_darkblue_white_innerfade > span,
+body .btn_green_white_innerfade > span,
+body .btn_green_steamui > span,
+body .btn_blue_steamui > span,
+body ._3HBvbSDPYGc6K_O32LovGq ._12md3Zc1vL6ogBUmI1k4Jh ._2R8KFsdzOosYGjDF6ahgMK,
+body .game_purchase_discount,
+body .game_area_purchase_game_dropdown_selection {
+    border-radius: var(--corner-radius-full);
+    box-shadow: unset;
+    text-shadow: unset;
+}
+body button.DialogButton:hover::before {
+    display: none !important;
+}
+body .btn_profile_action > span,
+body .btn_profile_action:hover > span {
+    background: unset;
+}
+body .queue_btn_menu > .queue_menu_arrow,
+body .queue_btn_menu:hover > .queue_menu_arrow, body .queue_btn_menu > .queue_menu_arrow:hover {
+    border-top-right-radius: var(--corner-radius-full);
+    border-bottom-right-radius: var(--corner-radius-full);
+    border-top-left-radius: var(--corner-radius-small);
+    border-bottom-left-radius: var(--corner-radius-small);
+}
+body #view_wishlist_btn.btnv6_blue_hoverfade, body .queue_btn_ignore > .btnv6_blue_hoverfade,
+body .queue_actions_ctn > div:has(.queue_btn_menu) .queue_control_button:not(.queue_btn_menu) {
+    border-top-right-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+    border-top-left-radius: var(--corner-radius-full);
+    border-bottom-left-radius: var(--corner-radius-full);
+}

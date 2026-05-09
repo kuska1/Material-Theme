@@ -3,5 +3,8 @@
 
 /* Community */
 @import url("css/main/shared/hover.css");
+@import url("css/main/community/store.css");
+@import url("css/main/community/footer.css");
+@import url("css/main/community/profile.css");
 @import url("css/main/community/pointstore.css");
 @import url("css/main/community/workshop.css");
