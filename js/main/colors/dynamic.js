@@ -2,7 +2,6 @@ import {
   Hct,
   SchemeFidelity,
   argbFromHex,
-  hexFromArgb,
   argbFromRgb
 } from './material-color-utils.js';
 
@@ -37,7 +36,18 @@ if (!document.getElementById(styleId)) {
 const prefix = '--md-sys-color-';
 
 /**
- * Helper to convert camelCase to kebab-case for CSS variables.
+  * Independent ARGB to HEX conversion.
+  * The standard hexFromArgb function is broken in the Steam Community, so we're using our own.
+  */
+const argbToHexCustom = (argb) => {
+  const hex = (argb >>> 0).toString(16).padStart(8, '0');
+  return '#' + hex.substring(2).toLowerCase();
+};
+
+
+/**
+ * Converts camelCase strings to kebab-case.
+ * Example: primaryContainer -> primary-container
  */
 const toKebabCase = (str) => str.replace(/[A-Z]/g, m => '-' + m.toLowerCase());
 
@@ -122,6 +132,7 @@ async function generateAndApplyTheme(sourceArgb) {
     return;
   }
 
+  const root = document.documentElement;
   const computedStyle = getComputedStyle(document.documentElement);
   const schemeMode = computedStyle.getPropertyValue('--scheme').trim() || 'dark';
 
@@ -131,7 +142,13 @@ async function generateAndApplyTheme(sourceArgb) {
   }
 
   // Create HCT and Fidelity Scheme (Color Match enabled)
-  const sourceHct = Hct.fromInt(sourceArgb);
+  let finalArgb = sourceArgb;
+  if (typeof sourceArgb === 'string') {
+      const cleanHex = sourceArgb.split(';')[0].trim().replace(/['"]/g, '').substring(0, 7);
+      finalArgb = argbFromHex(cleanHex);
+  }
+
+  const sourceHct = Hct.fromInt(finalArgb);
   const isDark = schemeMode === 'dark';
   const m3Scheme = new SchemeFidelity(sourceHct, isDark, 0.0);
 
@@ -154,11 +171,17 @@ async function generateAndApplyTheme(sourceArgb) {
 
   // Apply colors as CSS variables
   colorRoles.forEach(role => {
-    const argb = m3Scheme[role];
-    if (argb !== undefined) {
-      document.documentElement.style.setProperty(prefix + toKebabCase(role), hexFromArgb(argb));
+    try {
+      let argb = m3Scheme[role];
+      if (argb !== undefined && argb !== null) {
+        root.style.setProperty(prefix + toKebabCase(role), argbToHexCustom(argb));
+      }
+    } catch (err) {
+      console.error(logText, logCss, `Error: ${err}`)
     }
   });
+
+  console.info(logText, logCss, `Fidelity Scheme applied successfully using ${sourceArgb}.`);
 }
 
 /**

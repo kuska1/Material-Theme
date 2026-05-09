@@ -1,8 +1,7 @@
 import {
   Hct,
   SchemeFidelity,
-  argbFromHex,
-  hexFromArgb
+  argbFromHex
 } from './material-color-utils.js';
 
 const logText = '%c Material '
@@ -13,12 +12,22 @@ console.debug(logText, logCss, `custom.js is running in ${window.location.href}.
 const prefix = '--md-sys-color-';
 
 /**
+  * Independent ARGB to HEX conversion.
+  * The standard hexFromArgb function is broken in the Steam Community, so we're using our own.
+  */
+const argbToHexCustom = (argb) => {
+  const hex = (argb >>> 0).toString(16).padStart(8, '0');
+  return '#' + hex.substring(2).toLowerCase();
+};
+
+/**
  * Converts camelCase strings to kebab-case.
  * Example: primaryContainer -> primary-container
  */
 const toKebabCase = (str) => str.replace(/[A-Z]/g, m => '-' + m.toLowerCase());
 
 function generateAndApplyScheme() {
+  const root = document.documentElement;
   const computedStyle = getComputedStyle(document.documentElement);
   
   // Retrieve the system accent color and the current theme mode (light/dark) from CSS variables
@@ -57,11 +66,13 @@ function generateAndApplyScheme() {
 
   // 4. Map the generated colors to CSS variables on the :root element
   colorRoles.forEach(role => {
-    const argb = m3Scheme[role];
-    if (argb !== undefined) {
-      const hex = hexFromArgb(argb);
-      const cssVarName = prefix + toKebabCase(role);
-      document.documentElement.style.setProperty(cssVarName, hex);
+    try {
+      let argb = m3Scheme[role];
+      if (argb !== undefined && argb !== null) {
+        root.style.setProperty(prefix + toKebabCase(role), argbToHexCustom(argb));
+      }
+    } catch (err) {
+      console.error(logText, logCss, `Error: ${err}`)
     }
   });
 

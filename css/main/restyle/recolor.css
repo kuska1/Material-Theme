@@ -52,12 +52,12 @@
 
 /* Right (Main) */
 .CFTLX2wIKOK3hNV-fS7_V.DesktopUI, .DesktopUI .CFTLX2wIKOK3hNV-fS7_V {
-    background-color: var(--md-sys-color-surface);
+    background: var(--md-sys-color-surface);
 }
 /* Left (Drawer) */
-html.client_chat_frame body, /* Fix */
+html.ModalDialogPopup.client_chat_frame body, /* Fix */
 ._2kwFFHckg8jvnwJfg9-la8 {
-    background-color: var(--md-sys-color-surface-container);
+    background: var(--md-sys-color-surface-container);
 }
 /* Special Color Titles */
 ._2rjVTGz8aLvqOdz5v2gq5C, /* Drawer Title */
@@ -3136,14 +3136,32 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 ._3HzZhZyBuR0K4qXaQoHMxI {
     background: var(--md-sys-color-surface);
 }
-._1s3b90MDEzWiXAzyEg4vu2 {
+._1xTATKELHR-lRS_s3A4yzd._1NkB7RuIs66QCtsv4kxeCu ._26ga2HHZL2HlK6wwFImcgX, ._1xTATKELHR-lRS_s3A4yzd ._7-U6jtoeGvesTm7JFGH0-,
+._1xTATKELHR-lRS_s3A4yzd ._26ga2HHZL2HlK6wwFImcgX,
+._1s3b90MDEzWiXAzyEg4vu2,
+._3AWk3BnPfsx8KJEGVge4Cr,
+body .miniprofile_backdrop,
+body .miniprofile_backdropblur,
+body .miniprofile_playtimesection {
     /* background: var(--md-sys-color-primary-container); */
-    background: color-mix(in srgb, transparent, var(--md-sys-color-surface-container) 85%);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-surface-container) 70%);
 }
-._1s3b90MDEzWiXAzyEg4vu2 ._28NsonuduTy4g7L-pE1ocN {
+._1xTATKELHR-lRS_s3A4yzd ._26ga2HHZL2HlK6wwFImcgX .friendPlayerLevel ._3vvwMiUuxFKnz-LwGwe5Do,
+body .miniprofile_hover .friendPlayerLevel .friendPlayerLevelNum {
+    color: var(--md-sys-color-on-surface);
+}
+._1s3b90MDEzWiXAzyEg4vu2 ._28NsonuduTy4g7L-pE1ocN,
+._1xTATKELHR-lRS_s3A4yzd ._26ga2HHZL2HlK6wwFImcgX ._39hariVfr4A85k8c2TC_x1 ._2mCgtDakdGp_qrKcyIcZii,
+body .miniprofile_featuredcontainer .description .name,
+body .miniprofile_playtimesection .playtimecontent {
     color: var(--md-sys-color-on-surface-variant);
 }
-._1s3b90MDEzWiXAzyEg4vu2 ._28NsonuduTy4g7L-pE1ocN .KiUMH-qZUhdrtWF93sxVo {
+._1xTATKELHR-lRS_s3A4yzd ._26ga2HHZL2HlK6wwFImcgX ._39hariVfr4A85k8c2TC_x1 ._3DelZ7HZu1TfU115lLc7vl,
+body .miniprofile_featuredcontainer .description .xp {
+    color: var(--md-sys-color-outline);
+}
+._1s3b90MDEzWiXAzyEg4vu2 ._28NsonuduTy4g7L-pE1ocN .KiUMH-qZUhdrtWF93sxVo,
+body .miniprofile_playtimesection .playtimecontent .timeplayed {
     color: var(--md-sys-color-primary);
 }
 

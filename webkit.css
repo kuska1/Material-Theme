@@ -2,6 +2,6 @@
 @import url("css/main/main.css");
 
 /* Community */
+@import url("css/main/shared/hover.css");
 @import url("css/main/community/pointstore.css");
-@import url("css/main/community/hover.css");
 @import url("css/main/community/workshop.css");

@@ -26,10 +26,11 @@ body .xa7nOX-adjA- {
 .MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q::after,
 .MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48::after {
     position: absolute;
-    top: -20px;
+    /* top: -20px; */
     /* bottom: -10%; */
     left: 0;
     right: 0;
+    transform: translateY(-150%) !important;
     opacity: 0;
     margin: auto;
     padding: 5px 8px;

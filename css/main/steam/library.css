@@ -1501,6 +1501,13 @@ html[lang="ja"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::aft
     pointer-events: none;
 }
 
+/* Show Patreon */
+.DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumThemes_Author::after {
+    content: "Patreon: Flowird";
+    position: absolute;
+    right: 0;
+}
+
 /* ._1rDh5rXSFZJOqCa4UpnI4z .MillenniumSettings ._2rjVTGz8aLvqOdz5v2gq5C {
     font-size: var(--font-headline-medium-size);
     margin-bottom: 16px;

@@ -3,19 +3,25 @@
 ._1DsumfIa3MlkzUV9EXY5W9.online ._2n0EiKMGRP-r_BI5tDtttu,
 .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_SteamDeck path, .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_VRIcon path, .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_MobilePhone path, .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_BigPicture path,
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online ._1SWhpi9ByGQrwHGQgTJCF5, ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online ._3c5GOobmMUyjAWTosaUKUS,
-.online ._2Ri005Wg_uXDTa71kdRbcN {
-    color: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 60%);
-    fill: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 60%);
+.online ._2Ri005Wg_uXDTa71kdRbcN,
+body .persona.online, body a.persona.online, body .persona.online a, body .friend_status_online, body .friend_status_online div, body .friend_status_online a {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--color-online-rgb) var(--mix-percent));
+    fill: color-mix(in srgb, var(--md-sys-color-primary), var(--color-online-rgb) var(--mix-percent));
 }
 ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online ._2-pwJCHlrc7zxN4iup2TR7 ._1FgWIOIaRCAekjhGj0zFWq {
-    color: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 80%);
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--color-online-rgb) calc(--mix-percent) + 20%);
 }
 .online ._3xUpb5DWXPFNcHHIcv-9pe.right,
-.online ._3xUpb5DWXPFNcHHIcv-9pe.bottom {
-    background: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 60%);
+.online ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
+body .playerAvatar.online img, body .friend_status_online .friend_block_avatar img, body .appHubIconHolder.online img, body .avatar_block_status_online img,
+body .playerAvatar.online, body .friend_block_holder.friend_status_online .friend_block_avatar, body .friend_activity.friend_status_online .friend_block_avatar, body .appHubIconHolder.online, body .avatar_block_status_online {
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--color-online-rgb) var(--mix-percent));
 }
 
 :root {
-    --indicator-online: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 60%);
-    --indicator-away: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-online) 80%);
+    --mix-percent: 50%;
+    --color-online-rgb: rgb(87, 203, 222);
+    --color-away-rgb: rgb(76, 145, 172);
+    --indicator-online: color-mix(in srgb, var(--md-sys-color-primary), var(--color-online-rgb) var(--mix-percent)) !important;
+    --indicator-away: color-mix(in srgb, var(--md-sys-color-primary), var(--color-online-rgb) calc(--mix-percent) + 20%) !important;
 }

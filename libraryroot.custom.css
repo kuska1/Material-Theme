@@ -2,7 +2,7 @@
 @import url("css/main/main.css");
 
 /* Steam */
-@import url("css/main/steam/hover.css");
+@import url("css/main/shared/hover.css");
 @import url("css/main/steam/signin.css");
 @import url("css/main/steam/overlay.css");
 @import url("css/main/steam/bottombar.css");

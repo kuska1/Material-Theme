@@ -12,6 +12,7 @@
 .profile_group_avatar img,
 .group_block_medium img,
 .search_group_avatar_holder img,
-.grouppage_logo img {
+.grouppage_logo img,
+.favoritegroup_showcase_group .favoritegroup_avatar img {
     border-radius: var(--corner-radius-small) !important;
 }
