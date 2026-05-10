@@ -264,7 +264,8 @@ html.ModalDialogPopup.client_chat_frame body, /* Fix */
 ._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B, /* Basic */
 ._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6, ._3Rm36_oeAhvIg6ZYP9l1Jj, ._1OIatPEED_bSmd_CNyMv7C ._3Rm36_oeAhvIg6ZYP9l1Jj /* Achievements */
 ._3szjUMH5QeRwtXAsLRcWt9._3DjdoQj5NoknowwV5t5JPN::after, /* Downloading Status */
-.kX-tIJx4a9vKVuUkKJARv .mA39Hqv8LacDppegb_Q_Z /* Downloading On Game */ {
+.kX-tIJx4a9vKVuUkKJARv .mA39Hqv8LacDppegb_Q_Z, /* Downloading On Game */
+body .profile_showcase_selector .achievement_progress_bar_ctn .progress_bar /* Edit Profile */ {
     background: var(--md-sys-color-primary) !important;
 }
 /* Inactive Track */
@@ -273,7 +274,8 @@ html.ModalDialogPopup.client_chat_frame body, /* Fix */
 ._25YVDTaClw6Y2COPsU0UaV, ._3ns9185LizH61StaAXuAp6, ._1OIatPEED_bSmd_CNyMv7C, /* Achievements */
 ._2_FomluqqgQ2Hx8ON3AVep .wi0pDywRgOCxhG7OqQNaA, /* Downloading Status */
 .kX-tIJx4a9vKVuUkKJARv, /* Downloading On Game */
-._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR /* Downloads */ {
+._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR, /* Downloads */
+body .profile_showcase_selector .achievement_progress_bar_ctn /* Edit Profile */ {
     background: var(--md-sys-color-secondary-container) !important;
 }
 ._3dGOJTL8GRXpyosK3ooTdO .zpBMRpPhaI6jqMh9-UQAi {
@@ -418,7 +420,8 @@ body .DialogDropDown, ._3few7361SOf4k_YuKCmM62 .DialogDropDown, /* Base */
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown, /* Game Properties Modal */
 .DesktopUI .MillenniumDesktopSidebar_Content .DialogDropDown._DialogInputContainer, /* Millenium Theme Settings */
 ._3jj_KvFzq6XW7NasX_7Tvv.DesktopUI .DialogDropDown, .DesktopUI ._3jj_KvFzq6XW7NasX_7Tvv .DialogDropDown, /* Modal / EULA */
-._3_7wzN0kdchWheVyim6nmo .DialogDropDown, ._1UeO0R_NRSTMbWLI02pecg .DialogDropDown {
+._3_7wzN0kdchWheVyim6nmo .DialogDropDown, ._1UeO0R_NRSTMbWLI02pecg .DialogDropDown,
+body select.gray_bevel /* Community */ {
     color: var(--md-sys-color-on-primary);
     background: var(--md-sys-color-primary);
 }
@@ -426,7 +429,8 @@ body .DialogDropDown:hover, ._3few7361SOf4k_YuKCmM62 .DialogDropDown:hover, /* H
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown:hover, /* Game Properties Modal */
 .DesktopUI .MillenniumDesktopSidebar_Content .DialogDropDown._DialogInputContainer:hover, /* Millenium Theme Settings */
 ._3jj_KvFzq6XW7NasX_7Tvv.DesktopUI .DialogDropDown:hover, .DesktopUI ._3jj_KvFzq6XW7NasX_7Tvv .DialogDropDown:hover,
-._3_7wzN0kdchWheVyim6nmo .DialogDropDown:hover, ._1UeO0R_NRSTMbWLI02pecg .DialogDropDown:hover {
+._3_7wzN0kdchWheVyim6nmo .DialogDropDown:hover, ._1UeO0R_NRSTMbWLI02pecg .DialogDropDown:hover,
+body select.gray_bevel:hover /* Community */ {
     color: var(--md-sys-color-on-primary);
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
@@ -501,6 +505,22 @@ body .DialogRoundCheckboxField_Control .DialogRoundCheckboxField_InnerCircle {
 .DialogCheckbox svg defs linearGradient stop,
 svg.SVGIcon_DialogCheck defs linearGradient stop {
     stop-color: var(--md-sys-color-primary);
+}
+/* Outline Buttons */
+body .btnv6_white_transparent > span {
+    color: var(--md-sys-color-on-surface-variant) !important;
+    border-color: var(--md-sys-color-outline) !important;
+    background: transparent !important;
+}
+body .btnv6_white_transparent:hover > span {
+    color: var(--md-sys-color-on-surface-variant) !important;
+    border-color: var(--md-sys-color-outline) !important;
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface-variant) var(--layer-action-hover)) !important;
+}
+body .btnv6_white_transparent:active > span {
+    color: var(--md-sys-color-on-surface-variant) !important;
+    border-color: var(--md-sys-color-outline) !important;
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface-variant) var(--layer-action-hover)) !important;
 }
 
 /* --- CARDS --- */
@@ -728,7 +748,8 @@ body .ProfilePrivacyHR {
 }
 .WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18NNWI, /* Root */
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .r3hOLjghfVd2FkvKjlsrO,
-body ._2kqKZFxhF8XvzaoAekjV7m ._58Mghr8vhm_-IZP3Mkcb_ {
+body ._2kqKZFxhF8XvzaoAekjV7m ._58Mghr8vhm_-IZP3Mkcb_,
+body .game_info_stats_rule {
     border-top-color: var(--md-sys-color-outline-variant);
 }
 ._276E6ijBpjMA2_iTxNhhjc._2g5K_hJWc7jVo81zuejhk2:hover /* Resize Divider */ {
@@ -759,18 +780,23 @@ body ._2kqKZFxhF8XvzaoAekjV7m ._58Mghr8vhm_-IZP3Mkcb_ {
 .DesktopUI ._2Sj4-UDM-dHSxtxwQ_Pwwz._2Sj4-UDM-dHSxtxwQ_Pwwz ._DialogInputContainer, /* BG */
 ._2yAm5LY_eu-Vg_52l0HFlM, /* Scrollbar */
 .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R>div,
-._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc.MIMuVt_bcI4rYVo1e14kR ._32e6rHniKd5ztOQ1lYIulu {
+._170Npw5h84elypMSQ8zNDI ._1ennWu_xj2YF8FRYgJ2M2H ._1axoiZsC1RBp22JQmxiBIc.MIMuVt_bcI4rYVo1e14kR ._32e6rHniKd5ztOQ1lYIulu,
+body select.gray_bevel option /* Community */ {
     background: var(--md-sys-color-surface-container) !important;
 }
-._2oAiZidGyUxL-hfupFDQ2m, /* Text */
+body ._2oAiZidGyUxL-hfupFDQ2m, /* Text */
 .DesktopUI .DialogToggle_Label, .DesktopUI ._3wtPUBfilFITcl1s4u6A7T .DialogToggle_Label,
 ._1n7Wloe5jZ6fSuvV18NNWI._2RlEO6dx1vo3OB7EFJnzDi .SVGIcon_DownArrowContextMenu, /* Icon */
 ._1n7Wloe5jZ6fSuvV18NNWI .SVGIcon_PlusCircle line,
 ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu.DesktopUI, .DesktopUI ._1ZpBQtDqcKBbfIIv01Vs1R ._1ZtpSq62fy_8W-_0pMn5cu, /* Library Sort By Fix */
-._2oAiZidGyUxL-hfupFDQ2m ._3g-QHB82IGz91Hsk1Hw4lh /* Game Settings Fix */ {
+._2oAiZidGyUxL-hfupFDQ2m ._3g-QHB82IGz91Hsk1Hw4lh, /* Game Settings Fix */
+body select.gray_bevel option:not(:disabled) /* Community */ {
     color: var(--md-sys-color-on-surface);
     fill: var(--md-sys-color-on-surface);
     stroke: var(--md-sys-color-on-surface);
+}
+body select.gray_bevel option:disabled {
+    color: var(--md-sys-color-outline);
 }
 ._2oAiZidGyUxL-hfupFDQ2m .TlSg5YiFT0KKv6hj9YlKm {
     color: var(--md-sys-color-on-surface-variant);
@@ -782,13 +808,16 @@ body ._2kqKZFxhF8XvzaoAekjV7m ._58Mghr8vhm_-IZP3Mkcb_ {
 ._2oAiZidGyUxL-hfupFDQ2m .cbinvNOoQE045ZV5gCk_N {
     color: var(--md-sys-color-outline);
 }
-._2oAiZidGyUxL-hfupFDQ2m:focus, /* Hover -> BG */
+body ._2oAiZidGyUxL-hfupFDQ2m:focus, /* Hover -> BG */
 ._1g2o21WAWugv5qRumV1XWB .HHtHxeezIpprDH2vkTH1Y:hover,
 ._1g2o21WAWugv5qRumV1XWB .HHtHxeezIpprDH2vkTH1Y:focus,
 .EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container:hover, /* Games and Software */
 ._1n7Wloe5jZ6fSuvV18NNWI.contextMenuItem:hover /* Online Status in Friend List */ {
     color: var(--md-sys-color-on-surface);
     background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+body select.gray_bevel option:hover, body select.gray_bevel option:focus /* Community */ {
+    background: var(--md-sys-color-primary);
 }
 /* Divider */
 ._2U_Y7A-0lddoJdrJBvf8JE,
@@ -4635,7 +4664,8 @@ body .uwqwoAlIVWyJ8l71i77-i ._2CGYg9che0ONznDOoGhp9Y,
 body ._3GOAIB03esypNEP7awK6mV ._2fpuQBcIAw_0cP_FLqJqBR,
 body ._2ODUBJas15JwSZWN9fWb07 ._3Y40HABkqaQQVn7lIX0Rm9 div,
 body ._1yHxtA_qbj9xWiLkUiovpE .aUFBJvbETNq6EL-n8KopY div,
-body .ProfilePrivacyHeader {
+body .ProfilePrivacyHeader,
+body .profile_customization_header {
     color: var(--md-sys-color-on-surface);
 }
 body.profile_edit_page .DialogBodyText,
@@ -4650,7 +4680,8 @@ body.profile_edit_page .DialogLabelExplainer,
 body .aCrGPGVeH6HvzyPW8PaAj ._22EnaYFQb5I0kYtH2UHEhV,
 body ._27tBXgfdEAfkIIkBVcHcz7 ._2jOhbF8XC1faroHD7ujZfC,
 body ._1kB6_rUcA_VRp7MER6E0Vi ._3-aXJM9nyOBORZvUQyQ3ap .xmRMR8QAsdIDgZA0PoBxy,
-body ._2kbA6NLESf88_j1ERdI8Gv ._2Gy0LT9CY0HBBCjrM9Ffs7 {
+body ._2kbA6NLESf88_j1ERdI8Gv ._2Gy0LT9CY0HBBCjrM9Ffs7,
+body .PrivacySaveNotice {
     color: var(--md-sys-color-outline);
 }
 body ._3NIiYdehUu4wAz6rNXR_OB._3nePJyNcthWMTkF4NSI7aI .v3WjrE9N9goFIJQPWYt2y,
@@ -4683,6 +4714,11 @@ body ._2ipSt29jAqoPXf-_iTAL0- {
 body.profile_edit_page .DialogTextInputBase, body.profile_edit_page ._DialogInputContainer {
     color: var(--md-sys-color-on-surface-variant);
 }
+/* Input */
+body input.gray_bevel, body textarea.gray_bevel, body .gray_bevel, body .commentthread_comment_edit_textarea_ctn,
+body .gray_bevel input, body .gray_bevel textarea {
+    color: var(--md-sys-color-on-surface-variant);
+}
 /* Footer */
 footer._291ttHtxyu5obiKzor2G9G {
     background: var(--md-sys-color-surface-container);
@@ -4692,10 +4728,10 @@ footer .g8vToPr0EO3CpytRyimNA.g8vToPr0EO3CpytRyimNA {
     color: var(--md-sys-color-outline);
 }
 footer._291ttHtxyu5obiKzor2G9G a {
-    color: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-surface-variant);
 }
 footer._291ttHtxyu5obiKzor2G9G a:hover {
-    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
+    color: color-mix(in srgb, var(--md-sys-color-on-surface-variant), var(--md-sys-color-primary) 50%);
 }
 /* -- PROFILE -- */
 /* Valve Employee */
@@ -4763,17 +4799,84 @@ body .profile_small_header_arrow {
 /* Containers */
 body ._1UoAvYFtO-OEv3DMwZCL8A,
 body .jnA47pnC2fs47Uo4apcHu,
-body .n1M1oAE4l0f1dxNm_ux2s ._20EDLy9ziFgZhS3jI4b1FG {
+body .n1M1oAE4l0f1dxNm_ux2s ._20EDLy9ziFgZhS3jI4b1FG,
+body .profile_showcase_selector {
     background: var(--md-sys-color-surface-variant);
+}
+body .customization_edit_area {
+    background: unset;
 }
 /* Profile Bg & MiniBg */
 body ._189ERe_A-jhzSSRw4f2Hw ._2Zeggw-2qC5ma2qpjzHRlF,
 body ._1kB6_rUcA_VRp7MER6E0Vi ._1JFlRrkeYJegFK8xCBRfYw._19sKX1Sg9icPcVJAPT7kN0,
-body ._3NIiYdehUu4wAz6rNXR_OB ._2GvFUUI49ePmg62crk2qDO.Gd3-pJ25GXL-bDaQAnChb {
+body ._3NIiYdehUu4wAz6rNXR_OB ._2GvFUUI49ePmg62crk2qDO.Gd3-pJ25GXL-bDaQAnChb,
+body .profile_showcase_selector .profile_customization {
     background: var(--md-sys-color-surface-container-highest);
 }
 body ._39ksjd1_LKKPt0CIOhnMF7 ._33SnKgfa_4ZtACekXcqli0 ._36oStJXlvGWLdFxYUgNyg- {
     border-color: var(--md-sys-color-outline);
+}
+/* Showcase Manager */
+body .showcase_selection_pre,
+body .showcase_selection_post,
+body .item_showcase_item {
+    border-color: var(--md-sys-color-outline);
+}
+body .profile_showcase_sort_up,
+body .profile_showcase_sort_down {
+    border-bottom-color: var(--md-sys-color-outline);
+}
+body .profile_showcase_sort_up:hover,
+body .profile_showcase_sort_down:hover {
+    border-bottom-color: var(--md-sys-color-on-surface);
+}
+body .screenshot_showcase_smallscreenshot.screenshot_count {
+    background: unset;
+}
+body .screenshot_showcase_screenshot:hover,
+body .showcase_slot.openslot {
+    border-color: var(--md-sys-color-primary);
+}
+body .showcase_slot.openslot:hover {
+    border-color: var(--md-sys-color-primary);
+}
+body .profile_customization_edit_icon.bluebox {
+    color: var(--md-sys-color-on-primary);
+    background-color: var(--md-sys-color-primary);
+}
+body .profile_showcase_selector .showcase_content_bg {
+    background: var(--md-sys-color-surface-container-high);
+}
+body .profile_showcase_selector .favoritegroup_showcase_group .favoritegroup_namerow .favoritegroup_name,
+body .profile_showcase_selector a.showcase_stat:hover .label {
+    color: var(--md-sys-color-on-surface);
+}
+body .profile_showcase_selector .showcase_stat .value,
+body .profile_showcase_selector .achievement_showcase .showcase_stat .value,
+body .profile_showcase_selector .favoritegroup_showcase_group .favoritegroup_description,
+body .profile_showcase_selector .showcase_style_select_ctn,
+body .profile_showcase_selector .game_info_achievement_summary .ellipsis,
+body .profile_showcase_selector .showcase_notes,
+body .profile_showcase_selector .myworkshop_showcase_header .myworkshop_playerName,
+body .profile_customization_block label,
+body .profile_customization_block .helper_text,
+body .profile_showcase_selector .showcase_award {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .profile_showcase_selector .showcase_stat .label,
+body .profile_showcase_selector .achievement_showcase .showcase_stat .label,
+body .profile_showcase_selector .favoritegroup_showcase_group .favoritegroup_namerow,
+body .profile_showcase_selector .favoritegroup_stats .showcase_stats_row .label,
+body .profile_showcase_selector .screenshot_showcase_itemname,
+body .profile_showcase_selector .showcase_bodylabel,
+body .profile_showcase_selector .profile_showcase_selector .favorite_game_playtime,
+body .profile_showcase_selector .guide_showcase_contributors,
+body .profile_showcase_selector .workshop_showcase_stars,
+body .profile_showcase_selector .customization_edit_instructions_text {
+    color: var(--md-sys-color-outline);
+}
+body .profile_showcase_selector .game_info_badge_border {
+    background: var(--md-sys-color-surface-container-low);
 }
 /* -- WORKSHOP -- */
 /* root */
