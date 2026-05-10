@@ -1,0 +1,20 @@
+._1rDh5rXSFZJOqCa4UpnI4z {
+    position: inherit !important;
+}
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K {
+    position: absolute;
+    /* z-index: 99999; */
+    top: 0;
+    transform: translateY(100%);
+    right: 0;
+    background: transparent !important;
+}
+/* ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K:has(:not(.extensions-bar-container)) {
+    display: none !important;
+} */
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K > div:not(.extensions-bar-container) {
+    display: none !important;
+}
+.extensions-bar-container {
+    margin-right: unset !important;
+}
