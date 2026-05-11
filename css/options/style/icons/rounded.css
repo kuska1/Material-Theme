@@ -10,7 +10,8 @@
 #profile_action_dropdown .popup_menu_item:has(img)::before,
 ._3lh8aaHNMcFvupuNhQDfFt ._3AoQ6Gu9jJ6BCK8TiMic30._1gbP5LTrY5-iovVIjgi-kd::before,
 ._3lh8aaHNMcFvupuNhQDfFt ._3AoQ6Gu9jJ6BCK8TiMic30._3BEgJ9I-_0mVQ1f0a_KF4I::before,
-._3lh8aaHNMcFvupuNhQDfFt ._3AoQ6Gu9jJ6BCK8TiMic30.CXcKDaVWKpnWoc0odvoHl::before {
+._3lh8aaHNMcFvupuNhQDfFt ._3AoQ6Gu9jJ6BCK8TiMic30.CXcKDaVWKpnWoc0odvoHl::before,
+body .profile_customization_edit_icon.bluebox::before {
     /* content: "null"; */
     font-family: 'Material Symbols Rounded';
     font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
@@ -33,6 +34,10 @@
 #profile_action_dropdown .popup_menu_item:has(img)::before {
     transform: translateY(10%);
     scale: 1.35;
+}
+body .profile_customization_edit_icon.bluebox {
+    position: relative;
+    background-image: unset !important;
 }
 
 ._3lh8aaHNMcFvupuNhQDfFt ._3AoQ6Gu9jJ6BCK8TiMic30._1gbP5LTrY5-iovVIjgi-kd::before {
@@ -71,6 +76,18 @@
 }
 .popup_menu_item:has(img[src*="icon_unfriend.png"])::before {
     content: "person_remove";
+}
+body .profile_customization_edit_icon.bluebox::before {
+    content: "edit";
+    font-size: 24px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    width: fit-content;
 }
 
 

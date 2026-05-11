@@ -7,15 +7,22 @@
 ._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._2cXhAZJGVLrDD_TVE6hdwq,
 .sLyAbUma18eNqN7YC1iNz {
     border: unset;
-    outline: 0px solid transparent !important;
-    box-shadow: unset !important;
-    border-top-left-radius: var(--corner-radius-extra-small) !important;
-    border-top-right-radius: var(--corner-radius-extra-small) !important;
-    border-bottom-left-radius: var(--corner-radius-none) !important;
-    border-bottom-right-radius: var(--corner-radius-none) !important;
-    border-bottom-width: 2px !important;
+    outline: 0px solid transparent;
+    box-shadow: unset;
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-none);
+    border-bottom-right-radius: var(--corner-radius-none);
+    border-bottom-width: 2px;
     border-bottom-style: solid;
     font-family: unset;
+}
+body.profile_edit_page input.DialogTextInputBase, body.profile_edit_page input.DialogTextInputBase:not(:disabled):hover {
+    box-shadow: unset !important;
+}
+body .DialogTextInputBase:focus, body .DialogTextInputBase:focus-within,
+html body .DialogTextInputBase:focus, html body .DialogTextInputBase:focus-within {
+    padding-inline-start: 10px;
 }
 .DialogTextInputBase:not(:disabled):hover {
     outline: 0px solid transparent;
@@ -25,15 +32,48 @@
     box-shadow: unset;
 }
 .sLyAbUma18eNqN7YC1iNz:focus {
-    border-bottom-width: 2px !important;
+    border-bottom-width: 2px;
     border-bottom-style: solid;
 }
 
 /* Search Fields */
 ._26Gmfe09NRsnF7eprTZYdY ._1d2NZ4Jt0wrdapfvDFhpVS ._1W55urU2WazGofFzN0_jHB .DialogInput_Wrapper>input.DialogInput {
-    outline: unset !important;
-    border: unset !important;
-    border-radius: var(--corner-radius-full) !important;
+    outline: unset;
+    border: unset;
+    border-radius: var(--corner-radius-full);
     padding: 2px;
     padding-left: 12px;
+}
+
+/* Edit Profile */
+body.profile_edit_page ._23XE60ehNyeIhLHf5L7QPl .DialogInputLabelGroup > label > .DialogLabel {
+    position: absolute;
+    margin-top: -8px;
+    margin-left: 10px;
+    padding-inline: 6px;
+    font-size: 12px;
+    z-index: 2;
+    pointer-events: none;
+    /* text-transform: none; */
+}
+body .HelperTooltip,
+body.profile_edit_page ._23XE60ehNyeIhLHf5L7QPl .DialogInputLabelGroup > label > .DialogLabel .HelperTooltip {
+    pointer-events: all;
+    cursor: help;
+}
+body.profile_edit_page ._23XE60ehNyeIhLHf5L7QPl .DialogInputLabelGroup > label > .DialogInput_Wrapper .DialogTextInputBase {
+    outline: unset;
+    border-radius: var(--corner-radius-extra-small);
+    border-width: 1px;
+    border-style: solid;
+}
+body.profile_edit_page ._23XE60ehNyeIhLHf5L7QPl .DialogInputLabelGroup > label:has(.DialogInput_Wrapper input[value=""]:not(:focus)) .DialogLabel {
+    margin-top: 12px;
+    font-size: 14px;
+    background: transparent;
+}
+body .DialogInputRequirementLabel {
+    position: absolute;
+    top: 55px;
+    left: -8px;
 }

@@ -1,3 +1,7 @@
-.DialogTextInputBase {
-    transition: var(--animation-basic-medium);
+body .DialogTextInputBase,
+body .DialogLabel {
+    transition:
+        all 300ms var(--animation-easing-emphasized),
+        color 150ms var(--animation-expressive-fast-effects),
+        background 150ms var(--animation-expressive-fast-effects) !important;
 }

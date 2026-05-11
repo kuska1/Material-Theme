@@ -132,6 +132,10 @@ html.ModalDialogPopup.client_chat_frame body, /* Fix */
     color: var(--md-sys-color-on-surface);
     fill: var(--md-sys-color-on-surface);
 }
+body ._2W_HQa5Rhf-hHITgV5H0bu {
+    color: var(--md-sys-color-on-tertiary);
+    background: var(--md-sys-color-tertiary);
+}
 /* Storage */
 .ybEU2kARViIFGigPw8VQ0 ._1LvKJs5FKB30xbur_XL2DL ._1rihlgVMF4Q_fFZDnXeVt5, /* Storage Path */
 ._1DFCGL1HyqZkIjEaoNLdjf, ._181OY9APZJDARykJ_KOFPE /* Text Category */ {
@@ -604,6 +608,9 @@ input[type="radio"] {
 /* --- CHECKBOX --- */
 
 /* Checkbox */
+input[type=checkbox] {
+    accent-color: var(--md-sys-color-primary);
+}
 body .DialogCheckbox,
 ._2n6FNLKyb6al_YPk13xS7S ._2qURXDJ4ZtfSVOesDk7A73 .DialogCheckbox {
     background: transparent;
@@ -739,17 +746,21 @@ body .DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled), body .Dialo
 .qq2xItSXjpCsNrcxyPJtO ._1CTr1yKRkOXnJ4gSS1-1A3,
 ._276E6ijBpjMA2_iTxNhhjc, /* Resize Divider */
 ._1vcky98a3hG0ulFCdee4kd,
-body .ProfilePrivacyHR {
+body .ProfilePrivacyHR,
+body .FPQ9JppMamYmV0bS3zfDK ._2DEfsEp7B2EWcj-wsoNnhc {
     background: var(--md-sys-color-outline-variant);
 }
 ._2jXHP0742MyApMUVUM8IFn._21GPYlKBCLsHQpTsHw_RL_, /* Root */
-._3yTl3RiWfo-Itg-xp967wP ._3LIdsWmyIgctv5PqN0YTfM ._1AZdyRAiMfrbi_khz7C9rB {
+._3yTl3RiWfo-Itg-xp967wP ._3LIdsWmyIgctv5PqN0YTfM ._1AZdyRAiMfrbi_khz7C9rB,
+body .uwqwoAlIVWyJ8l71i77-i ._2CGYg9che0ONznDOoGhp9Y,
+body .preference_row {
     border-bottom-color: var(--md-sys-color-outline-variant);
 }
 .WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18NNWI, /* Root */
 ._1FyBL6obxHQ2Z2CsaV2Gbz .DialogBody .r3hOLjghfVd2FkvKjlsrO,
 body ._2kqKZFxhF8XvzaoAekjV7m ._58Mghr8vhm_-IZP3Mkcb_,
-body .game_info_stats_rule {
+body .game_info_stats_rule,
+body .rule, body .inner_rule {
     border-top-color: var(--md-sys-color-outline-variant);
 }
 ._276E6ijBpjMA2_iTxNhhjc._2g5K_hJWc7jVo81zuejhk2:hover /* Resize Divider */ {
@@ -874,6 +885,9 @@ body select.gray_bevel option:hover, body select.gray_bevel option:focus /* Comm
 .PP7LM0Ow1K5qkR8WElLpt {
     color: var(--md-sys-color-on-surface);
     background: var(--md-sys-color-surface-container);
+}
+.ZmsElITvVzU-7a2HXKBZI, ._3WuFl419BivPeLqeVIC939 {
+    color: var(--md-sys-color-on-surface);
 }
 /* Items */
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI, /* Base */
@@ -1370,7 +1384,7 @@ Green Notification
 ._3XGRklQrZMakU2xaYB0cLD, /* Library */
 ._2iiN7AYnLFTRFRiuipiYJz, /* Friends */
 ._2E5LHvnVEF3dSVV3wrDflm, /* Date */
-._36iQ4zr5AiMWVmmiHee0mN, /* Emoji */
+._36iQ4zr5AiMWVmmiHee0mN, .W_hPU2JmhTx3oUqDN9ADo, /* Emoji */
 body .community_tooltip, /* Community */
 body ._2FxbHJzYoH024ko7zqcJOf /* Edit Profile */ {
     color: var(--md-sys-color-inverse-on-surface);
@@ -4655,7 +4669,9 @@ body ._1xTATKELHR-lRS_s3A4yzd ._39Jef4sV4jnGy6XES6JdVs, body ._1xTATKELHR-lRS_s3
 /* --- POWERED / COMMUNITY --- */
 /* -- COMMON -- */
 /* Backgrounds */
-html body.profile_edit_page {
+html body.profile_edit_page,
+html body.account,
+html body.account_preferences {
     background: var(--md-sys-color-surface);
 }
 /* Text */
@@ -4665,7 +4681,7 @@ body ._3GOAIB03esypNEP7awK6mV ._2fpuQBcIAw_0cP_FLqJqBR,
 body ._2ODUBJas15JwSZWN9fWb07 ._3Y40HABkqaQQVn7lIX0Rm9 div,
 body ._1yHxtA_qbj9xWiLkUiovpE .aUFBJvbETNq6EL-n8KopY div,
 body .ProfilePrivacyHeader,
-body .profile_customization_header {
+body.profile_edit_page .profile_customization_header {
     color: var(--md-sys-color-on-surface);
 }
 body.profile_edit_page .DialogBodyText,
@@ -4690,6 +4706,9 @@ body .ProfilePrivacyHeader .ProfilePrivacyDropDown {
     color: var(--md-sys-color-primary);
 }
 /* Links */
+/* body:not(.profile_page) a {
+    color: var(--md-sys-color-on-surface);
+} */
 body.profile_edit_page .DialogBodyText a,
 body ._1YOt2792y012GM8bOQs0kh a {
     color: var(--md-sys-color-primary);
@@ -4701,14 +4720,84 @@ body.profile_edit_page  .profile_small_header_texture a {
     color: var(--md-sys-color-on-surface-variant);
 }
 body.profile_edit_page a:hover, body.profile_edit_page a.whiteLink:hover,body  .whiteLink:hover, body a.linkStandard:hover, body a.linkTitle:hover, body a.underlinedLink:hover, body span.underlinedLink:hover,
-body.profile_edit_page .DialogBodyText a:hover,
+    body.profile_edit_page .DialogBodyText a:hover,
 body ._1YOt2792y012GM8bOQs0kh a:hover {
     color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 60%);
 }
+/* Buttons */
+/* TEMP */
+body .account_manage_link,
+body ._9fMwjaiixbDViVPurFAa4,
+body.account_preferences .btn_green_white_innerfade,
+body.account_preferences .btn_green_white_innerfade > span,
+body ._24Y_0sMrz5EywcAsFUstI1,
+body.profile_edit_page button.DialogButton,
+body.account_preferences  button.DialogButton {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body .account_manage_link:hover,
+body ._9fMwjaiixbDViVPurFAa4:hover,
+body.account_preferences .btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+body.account_preferences .btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span,
+body ._24Y_0sMrz5EywcAsFUstI1:hover,
+body.profile_edit_page button.DialogButton:hover,
+body.account_preferences  button.DialogButton:hover {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+body .account_manage_link:active,
+body ._9fMwjaiixbDViVPurFAa4:active,
+body.profile_edit_page button.DialogButton:enabled:active, body.profile_edit_page button.DialogButton:enabled:active:hover, body.profile_edit_page button.DialogButton:enabled:active.gpfocus,
+body.account_preferences button.DialogButton:enabled:active, body.account_preferences button.DialogButton:enabled:active:hover, body.account_preferences button.DialogButton:enabled:active.gpfocus,
+body.account_preferences .btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):active,
+body.account_preferences .btn_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):active > span,
+body ._24Y_0sMrz5EywcAsFUstI1:active,
+body.profile_edit_page button.DialogButton:active,
+body.account_preferences  button.DialogButton:active {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+}
+body.profile_edit_page ._2KJ8a96V8ilTQR7aQd6wsC button.DialogButton.Secondary {
+    color: var(--md-sys-color-primary);
+    background: transparent;
+}
+body.profile_edit_page ._2KJ8a96V8ilTQR7aQd6wsC button.DialogButton.Secondary:hover {
+    color: var(--md-sys-color-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
+}
+body.profile_edit_page ._2KJ8a96V8ilTQR7aQd6wsC button.DialogButton.Secondary:active {
+    color: var(--md-sys-color-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
+}
+body .text_filter_action_link, body .text_filter_action_link a {
+    color: var(--md-sys-color-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
+}
+body .text_filter_action_link:hover, body .text_filter_action_link a:hover {
+    color: var(--md-sys-color-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
+}
 /* Input */
+body .DialogInputRequirementLabel {
+    color: var(--md-sys-color-error);
+}
 html body.profile_edit_page input.DialogTextInputBase, html body.profile_edit_page input.DialogTextInputBase:not(:disabled):hover, html body.profile_edit_page input.DialogTextInputBase:disabled:hover, html body.profile_edit_page input.DialogTextInputBase:focus,
 body ._2ipSt29jAqoPXf-_iTAL0- {
     color: var(--md-sys-color-on-surface-variant);
+}
+body.profile_edit_page ._23XE60ehNyeIhLHf5L7QPl .DialogInputLabelGroup > label > .DialogLabel {
+    background: var(--md-sys-color-surface);
+}
+body.profile_edit_page ._23XE60ehNyeIhLHf5L7QPl .DialogInputLabelGroup > label > .DialogInput_Wrapper .DialogTextInputBase {
+    background: transparent;
+    border-color: var(--md-sys-color-outline);
+}
+body.profile_edit_page ._23XE60ehNyeIhLHf5L7QPl .DialogInputLabelGroup > label:has(.DialogInput_Wrapper .DialogTextInputBase:focus) > .DialogLabel {
+    color: var(--md-sys-color-primary);
+}
+body.profile_edit_page ._23XE60ehNyeIhLHf5L7QPl .DialogInputLabelGroup > label:has(.DialogInput_Wrapper .DialogTextInputBase:focus) > .DialogInput_Wrapper .DialogTextInputBase {
+    border-color: var(--md-sys-color-primary);
 }
 /* Dropdown */
 body.profile_edit_page .DialogTextInputBase, body.profile_edit_page ._DialogInputContainer {
@@ -4801,10 +4890,15 @@ body ._1UoAvYFtO-OEv3DMwZCL8A,
 body .jnA47pnC2fs47Uo4apcHu,
 body .n1M1oAE4l0f1dxNm_ux2s ._20EDLy9ziFgZhS3jI4b1FG,
 body .profile_showcase_selector {
-    background: var(--md-sys-color-surface-variant);
+    background: var(--md-sys-color-surface-container-low);
 }
 body .customization_edit_area {
     background: unset;
+}
+/* Error */
+body ._2MfLNiVZp5dIGmdFChe4Dg {
+    color: var(--md-sys-color-on-error-container);
+    background: var(--md-sys-color-error-container);
 }
 /* Profile Bg & MiniBg */
 body ._189ERe_A-jhzSSRw4f2Hw ._2Zeggw-2qC5ma2qpjzHRlF,
@@ -4824,10 +4918,12 @@ body .item_showcase_item {
 }
 body .profile_showcase_sort_up,
 body .profile_showcase_sort_down {
+    border-top-color: var(--md-sys-color-outline);
     border-bottom-color: var(--md-sys-color-outline);
 }
 body .profile_showcase_sort_up:hover,
 body .profile_showcase_sort_down:hover {
+    border-top-color: var(--md-sys-color-on-surface);
     border-bottom-color: var(--md-sys-color-on-surface);
 }
 body .screenshot_showcase_smallscreenshot.screenshot_count {
@@ -4877,6 +4973,374 @@ body .profile_showcase_selector .customization_edit_instructions_text {
 }
 body .profile_showcase_selector .game_info_badge_border {
     background: var(--md-sys-color-surface-container-low);
+}
+/* -- ACCOUNT -- */
+body.v6 h2.pageheader.youraccount_pageheader {
+    color: var(--md-sys-color-on-surface);
+}
+body.account .youraccount_steamid {
+    color: var(--md-sys-color-outline);
+}
+body .breadcrumbs {
+    color: var(--md-sys-color-outline);
+}
+body .breadcrumbs a {
+    color: var(--md-sys-color-outline);
+}
+body .breadcrumbs a:hover {
+    color: var(--md-sys-color-on-surface);
+}
+body .breadcrumb_separator {
+    color: var(--md-sys-color-outline);
+}
+/* Left (Sidebar) */
+body .two_column .nav_item {
+    color: var(--md-sys-color-on-surface-variant);
+    background: transparent     ;
+}
+body .two_column .nav_item.active,
+body .two_column .nav_item.active:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .two_column .nav_item:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+body .two_column .nav_item:active {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+body .two_column .nav_item.active,
+body .two_column .nav_item:hover {
+    &::after {
+        display: none;
+    }
+}
+/* Right */
+/* Account Details */
+body .account_header_line,
+body .account_setting_block,
+body .account_settings_container,
+body .hMgR2gFc_fP8LK9e2Vwvq,
+body .two_column.right header /* Plugins Support / SteamDB */,
+body .two_column.right .container, /* Plugins Support / SteamDB */
+body section.svelte-18vk59w /* Plugins Support / Augmented Steam */ {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container-low);
+}
+body .accountRow.accountBalance,
+body .accountData.price a {
+    color: var(--md-sys-color-primary);
+}
+body .account_setting_sub_block,
+body .W8esOSj_nvqyHTDxmGb2D {
+    color: var(--md-sys-color-outline);
+}
+body .account_data_field,
+body .aSLHKQsd5_tpAOdPgV5W1 {
+    color: var(--md-sys-color-on-surface);
+}
+body .account_setting_sub_block div[style*="color:#c6d4df"] {
+    color: var(--md-sys-color-on-surface) !important;
+}
+body .account_setting_sub_block_long:has(.account_manage_link.delete_link),
+body .two_column.right:has(#options) > div:not([class]):not([id])  /* Plugins Support / Augmented Steam */ {
+    color: var(--md-sys-color-on-error-container);
+    background: var(--md-sys-color-error-container);
+}
+body .account_setting_sub_block_long .account_manage_link.delete_link,
+body ._3EYcq6Ow2WM7bGuzWyQRMN button.DialogButton {
+    color: var(--md-sys-color-on-error);
+    background: var(--md-sys-color-error);
+}
+body .account_setting_sub_block_long .account_manage_link.delete_link:hover,
+body ._3EYcq6Ow2WM7bGuzWyQRMN button.DialogButton:hover {
+    color: var(--md-sys-color-on-error);
+    background: color-mix(in srgb, var(--md-sys-color-error), var(--md-sys-color-on-error) var(--layer-action-hover)) !important;
+}
+body .lat0M-V5X4uYd6Mpm1DJ1 ._2oMvaF46xYOE6Guy0xjCAl, /* For Security Purposes */
+body .two_column.right .container #star /* Plugins Support / SteamDB */ {
+    color: var(--md-sys-color-on-tertiary-container);
+    background: var(--md-sys-color-tertiary-container);
+}
+body .two_column.right footer /* Plugins Support */ {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .two_column.right footer a /* Plugins Support / SteamDB */ {
+    color: var(--md-sys-color-primary);
+}
+body .two_column.right footer a:hover /* Plugins Support / SteamDB */ {
+    color: var(--md-sys-color-on-surface);
+}
+body .two_column.right footer .built-in-checkboxes /* Plugins Support / SteamDB */ {
+    color: var(--md-sys-color-outline);
+}
+body .account_setting_sub_block .payment_method_box {
+    background: var(--md-sys-color-surface-container-high);
+}
+body .cached_payment_method_exists {
+    color: var(--md-sys-color-on-surface);
+}
+body .account_setting_sub_block .cached_payment_method_description {
+    color: var(--md-sys-color-outline);
+}
+body .account_setting_sub_block .payment_method_box a {
+    color: var(--md-sys-color-primary);
+}
+body .account_setting_sub_block .payment_method_box a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+/* Store Preferences */
+body .account_settings_container label,
+body .not_interested_container .description,
+body.v6 .account_settings_container h3,
+html body.v6 .account_settings_container h2,
+body .account_manage_subtitle,
+html body.v6 .account_settings_container h3 {
+    color: var(--md-sys-color-on-surface);
+}
+body .account_setting_parenthetical {
+    color: var(--md-sys-color-outline);
+}
+body .account_setting_parenthetical a,
+body .account_manage_checkbox a,
+body .account_settings_container p a {
+    color: var(--md-sys-color-primary);
+}
+body .account_setting_parenthetical a:hover,
+body .account_manage_checkbox a:hover,
+body .account_settings_container p a:hover {
+    color: var(--md-sys-color-on-surface);
+}
+body .not_interested_container {
+    border-color: var(--md-sys-color-outline);
+}
+body .not_interested_container .count {
+    color: var(--md-sys-color-primary);
+}
+body.account_preferences input[type=checkbox]:disabled+label {
+    color: var(--md-sys-color-outline);
+}
+/* Family Management */
+body ._1o7lKXffOJjZ_CpH1bHfY- ._1M5eDPxFjv1ByJEK38h5Tu,
+body ._259TK-AiNNlYVUpyzutBh7,
+body ._2Fq1ae8YHWoFHZKQRZRJJS ._2SKgwaV-ptKsHUdNFpSDOI {
+    color: var(--md-sys-color-on-surface);
+}
+body ._3lJb_YN8uykqLcm4eG1jRF {
+    color: var(--md-sys-color-on-surface-variant);
+    border-color: transparent;
+}
+body ._3lJb_YN8uykqLcm4eG1jRF._8XjrTFzaSA8ubHvHCu44L, body ._3lJb_YN8uykqLcm4eG1jRF:hover {
+    color: var(--md-sys-color-primary);
+    border-color: var(--md-sys-color-primary);
+}
+body ._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._21tUbooOHqAFZy0hfNkcnb {
+    color: var(--md-sys-color-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body ._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._21tUbooOHqAFZy0hfNkcnb:hover {
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body ._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._1X4chbdWPqQwoi2pg7-ebI {
+    color: var(--md-sys-color-primary);
+}
+body ._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH .o6KnEAuyHthAy8wUoldpD>svg {
+    fill: var(--md-sys-color-on-secondary-container);
+}
+body ._1t_5IvfyF8aF_tGXLkprpc ._2xRpeEOhZkwE0Gm2T2nIrX ._3G8Ee5GQgCv2RgtSRwZSHB a {
+    color: var(--md-sys-color-primary);
+}
+body ._1t_5IvfyF8aF_tGXLkprpc ._2xRpeEOhZkwE0Gm2T2nIrX ._3G8Ee5GQgCv2RgtSRwZSHB a:hover {
+    color: var(--md-sys-color-on-surface);
+}
+body ._2Fq1ae8YHWoFHZKQRZRJJS ._1W5zoA-Qt32wmR4cAQXU4P {
+    border-color: var(--md-sys-color-outline);
+}
+body ._17sdi2EINuHcyjS90RFKbR a svg {
+    color: var(--md-sys-color-outline);
+}
+body ._17sdi2EINuHcyjS90RFKbR:hover a svg {
+    color: var(--md-sys-color-on-surface);
+}
+/* Security & Devices */
+body .aR0IvXuy6BAh7MauaSs5j {
+    color: var(--md-sys-color-on-surface);
+}
+body .BblQleWhhGVHu1TTaGdBI {
+    color: var(--md-sys-color-on-tertiary-container);
+    background: var(--md-sys-color-tertiary-container);
+}
+body .-haW8HUYitKrzvsXQj_y6,
+body ._173r5KvavKBUk01FwZftvC._2eItHkwsCAtMw7E-EF_YG_ {
+    color: var(--md-sys-color-on-primary-container);
+    background: var(--md-sys-color-primary-container);
+}
+body .-haW8HUYitKrzvsXQj_y6 ._3tH8spjqRz_Z6mmB4uWK-m a {
+    color: var(--md-sys-color-on-primary-container);
+}
+body .-haW8HUYitKrzvsXQj_y6 ._3tH8spjqRz_Z6mmB4uWK-m a:hover {
+    color: var(--md-sys-color-on-primary-container);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-primary-container) var(--layer-action-hover));
+}
+body .-haW8HUYitKrzvsXQj_y6 ._3tH8spjqRz_Z6mmB4uWK-m a:active {
+    color: var(--md-sys-color-on-primary-container);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-primary-container) var(--layer-action-active));
+}
+body ._20iEFcT5JyJPhTjbaJ0ajE ._2mir-ym1kKS06jV0W7mtUx ._22EU1rJVczbjFuV39qprXh {
+    background: var(--md-sys-color-surface-container-high);
+}
+body ._20iEFcT5JyJPhTjbaJ0ajE ._2mir-ym1kKS06jV0W7mtUx ._22EU1rJVczbjFuV39qprXh ._3u6D3tBNr6Pd8scEAu0WHh {
+    color: var(--md-sys-color-outline);
+}
+body ._173r5KvavKBUk01FwZftvC ._3fcDKsMFeSrukc_lptL5k6 ._366kraIS4n5agiJpxnOSL2 ._2thyM-IiBuBfn44nW5anSY .e-cYNmgoRYobtL32PBDvh {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .-haW8HUYitKrzvsXQj_y6 ._173r5KvavKBUk01FwZftvC ._3fcDKsMFeSrukc_lptL5k6 ._366kraIS4n5agiJpxnOSL2 ._2thyM-IiBuBfn44nW5anSY .e-cYNmgoRYobtL32PBDvh,
+body .-haW8HUYitKrzvsXQj_y6 ._173r5KvavKBUk01FwZftvC,
+body .-haW8HUYitKrzvsXQj_y6 ._173r5KvavKBUk01FwZftvC ._2h6gzZPnXmr8pFVxduqp_k,
+body .-haW8HUYitKrzvsXQj_y6 ._173r5KvavKBUk01FwZftvC ._3u6D3tBNr6Pd8scEAu0WHh,
+body ._173r5KvavKBUk01FwZftvC._2eItHkwsCAtMw7E-EF_YG_ ._3fcDKsMFeSrukc_lptL5k6 ._366kraIS4n5agiJpxnOSL2 ._2thyM-IiBuBfn44nW5anSY .e-cYNmgoRYobtL32PBDvh {
+    color: var(--md-sys-color-on-primary-container);
+    fill: var(--md-sys-color-on-primary-container);
+}
+body .-haW8HUYitKrzvsXQj_y6 .e-cYNmgoRYobtL32PBDvh,
+body ._173r5KvavKBUk01FwZftvC._2eItHkwsCAtMw7E-EF_YG_ .e-cYNmgoRYobtL32PBDvh {
+    color: var(--md-sys-color-on-primary-container);
+ }
+body .-haW8HUYitKrzvsXQj_y6 ._2DEfsEp7B2EWcj-wsoNnhc {
+    border-color: var(--md-sys-color-outline);
+}
+body ._173r5KvavKBUk01FwZftvC._2eItHkwsCAtMw7E-EF_YG_ ._3u6D3tBNr6Pd8scEAu0WHh {
+    color: var(--md-sys-color-on-primary-container);
+}
+body ._173r5KvavKBUk01FwZftvC {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-highest);
+}
+body ._3u6D3tBNr6Pd8scEAu0WHh {
+    color: var(--md-sys-color-on-surface-variant);
+    fill: var(--md-sys-color-on-surface-variant);
+}
+body .-haW8HUYitKrzvsXQj_y6 ._173r5KvavKBUk01FwZftvC {
+    background: unset;
+}
+body ._173r5KvavKBUk01FwZftvC ._2Q1XRSo_YDuNplXJSPKtsq ._10WUgZtyhPN8XWybruXSY9, body ._173r5KvavKBUk01FwZftvC ._2Q1XRSo_YDuNplXJSPKtsq ._10WUgZtyhPN8XWybruXSY9 a {
+    color: var(--md-sys-color-on-error-container);
+}
+body ._173r5KvavKBUk01FwZftvC ._2Q1XRSo_YDuNplXJSPKtsq .CKNbt1mIaNAep7MwHG6eX,
+body ._20iEFcT5JyJPhTjbaJ0ajE ._2mir-ym1kKS06jV0W7mtUx ._2gQ1ywJDhv3qFFjvjtt39w svg._3u6D3tBNr6Pd8scEAu0WHh {
+    color: var(--md-sys-color-outline);
+}
+body ._3EYcq6Ow2WM7bGuzWyQRMN {
+    color: var(--md-sys-color-on-error-container);
+    background: var(--md-sys-color-error-container);
+}
+body ._173r5KvavKBUk01FwZftvC._2eItHkwsCAtMw7E-EF_YG_ ._3o3paJd8GOTYKXh7Rd3Br8 {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body .aR0IvXuy6BAh7MauaSs5j ._2sNYH7uxn-CGdZCk4lGMAg {
+    color: var(--md-sys-color-primary);
+}
+body ._173r5KvavKBUk01FwZftvC ._3fcDKsMFeSrukc_lptL5k6 ._366kraIS4n5agiJpxnOSL2 button.DialogButton {
+    color: var(--md-sys-color-primary);
+    background: transparent;
+}
+body .BblQleWhhGVHu1TTaGdBI ._2kFtGHlyLy724EB-HfKU6P a {
+    color: var(--md-sys-color-on-tertiary-container);
+}
+body .BblQleWhhGVHu1TTaGdBI ._2kFtGHlyLy724EB-HfKU6P a:hover {
+    color: var(--md-sys-color-on-tertiary-container);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-tertiary-container) var(--layer-action-hover));
+}
+body .two_column.right div[data-featuretarget="security-devices"] ._20DWPovgBZty81RwR7w9KW > div > a {
+    color: var(--md-sys-color-primary);
+}
+body .two_column.right div[data-featuretarget="security-devices"] ._20DWPovgBZty81RwR7w9KW > div > a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) 50%);
+}
+/* Cookies */
+body .YPn6VOod44mu0w34xdzDC {
+    color: var(--md-sys-color-on-primary-container);
+    background: var(--md-sys-color-primary-container);
+}
+body ._3cKa2WCkwVF9l83qdejZnW .rH2OfMey8m_-tFha6mSo3 ._33i2P3K0jts8t9ZvEucxHX {
+    color: var(--md-sys-color-on-surface);
+}
+body ._24o8cEsvGK0bE4hHyUGhfh,
+body ._25H3qBQ1Lfsfq8nwc3M0Fk .DialogToggleField._DialogInputContainer,
+body ._3cKa2WCkwVF9l83qdejZnW .rH2OfMey8m_-tFha6mSo3 {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-high);
+}
+body ._3if8ZNUUN7eSTxlCJbdgav,
+body ._3cKa2WCkwVF9l83qdejZnW .rH2OfMey8m_-tFha6mSo3 ._1rRiE6QmvGsMc-qivc5Xp1 {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .DialogToggle_Description,
+body ._9NmWi9VzZyFLjcu_GW_70 {
+    color: var(--md-sys-color-outline);
+}
+body .DialogToggle_Description a {
+    color: var(--md-sys-color-primary);
+}
+body .DialogToggle_Description a:hover {
+    color: var(--md-sys-color-on-surface);
+}
+/* Notifications */
+body ._3YstFVBT36qZA8FvdzEAF {
+    color: var(--md-sys-color-on-surface);
+}
+body ._3Sbby9pYJeX9b2Dcjx1Gbc, ._152HTE3xZ88Xk7LEEPFE68,
+body ._152HTE3xZ88Xk7LEEPFE68 {
+    background: var(--md-sys-color-surface-container-high);
+}
+body ._3Sbby9pYJeX9b2Dcjx1Gbc button.DialogButton,
+body ._3Qa1urRRWR4tjkBSNaO8Wi._3Qa1urRRWR4tjkBSNaO8Wi {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-highest);
+}
+body ._3Sbby9pYJeX9b2Dcjx1Gbc button.DialogButton:hover,
+body ._3Qa1urRRWR4tjkBSNaO8Wi._3Qa1urRRWR4tjkBSNaO8Wi:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+body ._3Sbby9pYJeX9b2Dcjx1Gbc button.DialogButton:active,
+body ._3Qa1urRRWR4tjkBSNaO8Wi._3Qa1urRRWR4tjkBSNaO8Wi:active,
+body ._3Sbby9pYJeX9b2Dcjx1Gbc button.DialogButton:enabled:active,
+body ._3Qa1urRRWR4tjkBSNaO8Wi._3Qa1urRRWR4tjkBSNaO8Wi:enabled:active,
+body ._3Sbby9pYJeX9b2Dcjx1Gbc button.DialogButton:enabled:active:hover,
+body ._3Qa1urRRWR4tjkBSNaO8Wi._3Qa1urRRWR4tjkBSNaO8Wi:enabled:active:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+body .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI {
+    background: transparent;
+}
+body .DialogToggleField_Option.On,
+body .DialogToggleField_Option.Off.Active {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .DialogToggleField_Option.Off.Active:hover {
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body .DialogToggleField_Option.Off.Active:active {
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+body .DialogToggleField_Option.Off,
+body .DialogToggleField_Option.On.Active {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body .DialogToggleField_Option.On.Active:hover {
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+body .DialogToggleField_Option.On.Active:active {
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
 }
 /* -- WORKSHOP -- */
 /* root */

@@ -1,4 +1,6 @@
-._1-vlriAtKYDViAEunue4VO, ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR.DesktopUI, .DesktopUI ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR {
+._1-vlriAtKYDViAEunue4VO, ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR.DesktopUI, .DesktopUI ._1-vlriAtKYDViAEunue4VO ._1rD8X96FdnksZLvRRlEiCR,
+body ._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach,
+body .two_column .nav_item {
     transition: var(--animation-basic-medium);
 }
 
