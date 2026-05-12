@@ -80,7 +80,9 @@
 
 /* --- NAVIGATION --- */
 
-._1-vlriAtKYDViAEunue4VO ._2PPbMrzl8PKBwpkjYs9b0i{
+._1-vlriAtKYDViAEunue4VO ._2PPbMrzl8PKBwpkjYs9b0i,
+body .two_column .nav_item,
+body ._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach {
     font-size: var(--font-label-large-size);
     font-weight: var(--font-label-large-weight);
 }
