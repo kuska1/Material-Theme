@@ -13,39 +13,24 @@ body :where(.ykNywW4cg64-):where(a) {
     cursor: pointer;
 }
 
-/* Buttons */
-body .krQEbDRNCFg- {
-    border-radius: var(--corner-radius-full);
-}
-body .krQEbDRNCFg-:where(._7P8JRbq-SlA-) {
-    border: 0px none transparent;
-}
-
-body .krQEbDRNCFg-:where(.eAUu1dfYhY4-).wM4CKvSeUvQ- {
-    padding-left: var(--spacing-2);
-    padding-right: var(--spacing-2);
-}
-
-body .MfFMsIuDiWQ-:not(:has(input)),
-body ._0ED2WmlH-uY-, body .ouSEpyG3KPk- {
-    border-radius: var(--corner-radius-small);
-}
-
-body :where(.MfFMsIuDiWQ-):hover {
-    box-shadow: unset;
-}
-
 /* Items */
-body .tmIrUKf-Mh8-, body .sDK5fonBQMA-,
+body .tmIrUKf-Mh8-, body .sDK5fonBQMA-, body .De7wHKDUPG4-,
 body ._68RUj0Pwr4Q- {
     border-radius: var(--corner-radius-small); /* Maybe Medium is Better idk */
     box-shadow: unset;
 }
-body .tmIrUKf-Mh8-:hover, body .sDK5fonBQMA-:hover {
+body .tmIrUKf-Mh8-:hover, body .sDK5fonBQMA-:hover, body .De7wHKDUPG4-:hover  {
     box-shadow: var(--elevated-shadow);
 }
 body .tmIrUKf-Mh8- .rQvmBxj2Kvg-, body .sDK5fonBQMA- .rQvmBxj2Kvg- {
     right: 6px;
+}
+body .tmIrUKf-Mh8- .rQvmBxj2Kvg- > .tool-tip-source > div {
+    border-bottom-left-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+}
+body .De7wHKDUPG4- .rQvmBxj2Kvg- > .tool-tip-source > div {
+    border-radius: var(--corner-radius-full);
 }
 /* body .tmIrUKf-Mh8- .BfmIgp5hDLQ- .U-RsNSYD7PY-, body .sDK5fonBQMA- .BfmIgp5hDLQ- .U-RsNSYD7PY- {
 
@@ -118,7 +103,7 @@ body .Zaj1eMuo8Qo-,
 body .heK9iNtr1G8-,
 body .GVTLyNN3x-4-,
 body .QnwwCwfxNe0-, body ._2gWMMaJ3-fQ-,
-body .vpiI2bS0S6s- /* Date Picker */ {
+body .JFSQ3YZWgoA-[data-elevation="1"] {
     filter: unset;
     backdrop-filter: unset;
     box-shadow: var(--elevated-shadow);
@@ -156,7 +141,8 @@ body .OhTS-UkTNN4- .iO5F0I6Jcho- {
 body .cwVSLdej-KM-, body .cwVSLdej-KM- img {
     border-radius: var(--corner-radius-small);
 }
-body .iUEmwVRQDxI- .UszZC-hJD90- {
+body .iUEmwVRQDxI- .UszZC-hJD90-,
+body ._1sAPHcxnhQQ-, body .zib7qOmJRh0- .UlJ1J6qrkfE- .N-9KoUj08d0- {
     border-radius: var(--corner-radius-extra-small);
 }
 body .iUEmwVRQDxI- .UszZC-hJD90-._528TPg1cCxQ-, body .iUEmwVRQDxI- .UszZC-hJD90-:hover {

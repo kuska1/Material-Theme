@@ -16,6 +16,9 @@
 .skI5tVFxF4zkY8z56LALc .CcuoOiSs23_Y___I-1Myh ._2_RnvOULQZCa2zLP-wkKt0 ._3OyyiqHIwtrEKKyPTWPTGK ._3RN5Yt4DuIZQ7nREAU7pp3,
 /* Plugins Support */
 .apphub_AppIcon > img,
-.friendlistListContainer .groupName .gameGroupContainer .groupIcon {
+.friendlistListContainer .groupName .gameGroupContainer .groupIcon,
+/* Workshop / Market */
+body .HDXo8DVlUxI-.Y0BqhPMsT9c-._9fpFHkyl3os- img,
+body .eg-2ACqKK4I-, body ._1f1sXUeT4ec- {
     border-radius: var(--corner-radius-extra-small) !important;
 }

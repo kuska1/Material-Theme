@@ -16,14 +16,20 @@ button.DialogButton, button.TEWmsM70ZLEOxLAjDMpcv.DialogButton, button.DialogBut
 ._33bWWYKdaxI_uMvK0TPjm4 ._3vDq3loNLE6O8iHtj6rOfX ._25n_zgE_sgrYzl4G-YE8VN svg,
 ._1VNuYHM6BPBOJspC6zPf5r .sQZ70orTPi-ELUlaS-ywR._1FnJ6dPuknQFQ2RTpKTI16._3cI5TXsFX3bvpR-7EBOtxq ._3ydigb6zZAjJ0JCDgHwSYA._2AzIX5kl9k6JnxLfR5H4kX,
 ._1VNuYHM6BPBOJspC6zPf5r ._2ZfashhZu6uE9fCwyPS9mJ._2WEwEIAncE7-wa4Ye07a8x ._3oavRVhIS9tC3vBsFT4Ggi,
-._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer {
+._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer,
+._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi,
+._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg,
+body .RGNh19we3Yo-._2nMQDdm70Xk-.G-NVF2dxX0c-.Y0BqhPMsT9c-.Cmc2Q2l52P4-._9fpFHkyl3os- > div.vpiI2bS0S6s-,
+body .RGNh19we3Yo-._2nMQDdm70Xk-.G-NVF2dxX0c-.Y0BqhPMsT9c-.Cmc2Q2l52P4-._9fpFHkyl3os- > div.vpiI2bS0S6s- svg,
+body .SXmRNU-nKEQ-.JAg6-ldsh48-.bakqiaoQAlI-.trcXcSdC1tk- .EzluAHnQq-U-.RGNh19we3Yo-.HmiEjCDqdZs-.vpiI2bS0S6s-.WlnQdqsCe5s-.ITQHL--ZSBM-._9fpFHkyl3os-,
+body .rWB03W-1bvI-.RGNh19we3Yo-.HmiEjCDqdZs-.vpiI2bS0S6s-.WlnQdqsCe5s-.ITQHL--ZSBM-._9fpFHkyl3os-,
+body :where(.EkDBtiKz6kU-),
+body .RGuIs1F2uPE- {
     transition:
         all 350ms var(--animation-expressive-fast-spatial),
         color 150ms var(--animation-expressive-fast-effects),
         background 150ms var(--animation-expressive-fast-effects) !important;
 }
-._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi,
-._2AzIX5kl9k6JnxLfR5H4kX._2q-gZ3XJzlvSGHSF-GvSmi svg,
 .DialogControlsSection ._2XSsNSGcWjGZ6z3fvqaRd5._3vgH-W3sYStLJYfV4JgE5b button.DialogButton,
 .DialogControlsSection.RoSh6WoygUX6LLAoB20f3 button.DialogButton,
 .DialogToggleField_Option,
