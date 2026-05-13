@@ -98,22 +98,6 @@ body .VsQBaHlz-3M- {
     backdrop-filter: unset;
 }
 
-/* Menu */
-body .Zaj1eMuo8Qo-,
-body .heK9iNtr1G8-,
-body .GVTLyNN3x-4-,
-body .QnwwCwfxNe0-, body ._2gWMMaJ3-fQ-,
-body .JFSQ3YZWgoA-[data-elevation="1"] {
-    filter: unset;
-    backdrop-filter: unset;
-    box-shadow: var(--elevated-shadow);
-    border-radius: var(--corner-radius-small);
-}
-
-body .GVTLyNN3x-4- {    
-    padding-block: 8px;
-}
-
 /* About */
 body .xQ83OZy3LmY- {
     margin-left: var(--spacing-9);

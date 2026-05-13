@@ -754,7 +754,8 @@ body .DialogCheckbox_Container:hover .DialogCheckbox:not(.Disabled), body .Dialo
 ._276E6ijBpjMA2_iTxNhhjc, /* Resize Divider */
 ._1vcky98a3hG0ulFCdee4kd,
 body .ProfilePrivacyHR,
-body .FPQ9JppMamYmV0bS3zfDK ._2DEfsEp7B2EWcj-wsoNnhc {
+body .FPQ9JppMamYmV0bS3zfDK ._2DEfsEp7B2EWcj-wsoNnhc,
+body ._5jb4uc8-Qgo- {
     background: var(--md-sys-color-outline-variant);
 }
 ._2jXHP0742MyApMUVUM8IFn._21GPYlKBCLsHQpTsHw_RL_, /* Root */
@@ -5012,7 +5013,9 @@ body .Cmc2Q2l52P4-[data-active=true]:after, body .ITQHL--ZSBM-[data-active=true]
 /* Toggle Buttons */
 body .SXmRNU-nKEQ-.JAg6-ldsh48-.bakqiaoQAlI-.trcXcSdC1tk- .EzluAHnQq-U-.RGNh19we3Yo-.HmiEjCDqdZs-.vpiI2bS0S6s-.WlnQdqsCe5s-.ITQHL--ZSBM-._9fpFHkyl3os- > span,
 body .SXmRNU-nKEQ-.JAg6-ldsh48-.bakqiaoQAlI-.trcXcSdC1tk- .RGNh19we3Yo-._2nMQDdm70Xk-.G-NVF2dxX0c-.Y0BqhPMsT9c-.Cmc2Q2l52P4-._9fpFHkyl3os- .gEYubrN31lQ-.EzluAHnQq-U-.RGNh19we3Yo-.vpiI2bS0S6s-.O86colydcoQ-.HDXo8DVlUxI-.Y0BqhPMsT9c-.FzhPjG1Bybg-._9fpFHkyl3os- span,
-body .rWB03W-1bvI-.RGNh19we3Yo-.HmiEjCDqdZs-.vpiI2bS0S6s-.WlnQdqsCe5s-.ITQHL--ZSBM-._9fpFHkyl3os- span {
+body .rWB03W-1bvI-.RGNh19we3Yo-.HmiEjCDqdZs-.vpiI2bS0S6s-.WlnQdqsCe5s-.ITQHL--ZSBM-._9fpFHkyl3os- span,
+body .RGNh19we3Yo-._2nMQDdm70Xk-.G-NVF2dxX0c-.Y0BqhPMsT9c-.Cmc2Q2l52P4-._9fpFHkyl3os- > div.vpiI2bS0S6s- span,
+body .RGNh19we3Yo-._2nMQDdm70Xk-.G-NVF2dxX0c-.Y0BqhPMsT9c-.Cmc2Q2l52P4-._9fpFHkyl3os- > div.vpiI2bS0S6s- svg {
     color: currentColor;
 }
 body .SXmRNU-nKEQ-.JAg6-ldsh48-.bakqiaoQAlI-.trcXcSdC1tk- .EzluAHnQq-U-.RGNh19we3Yo-.HmiEjCDqdZs-.vpiI2bS0S6s-.WlnQdqsCe5s-.ITQHL--ZSBM-._9fpFHkyl3os-[data-active="false"],
@@ -5090,8 +5093,11 @@ body .rWB03W-1bvI-.vpiI2bS0S6s-._6jM5vEPv3WM- :where(.OyNo1p0TpyU-).eWU2vcvOOE0-
     background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface) var(--layer-action-hover));
 }
 body .hBhqQbQsMCE-._9fpFHkyl3os- .dFoiuQNGt-c-.lWNIGdpQpu0-.WFJk5tr0xtQ- {
-    color: var(--md-sys-color-on-primary-container);
-    background: var(--md-sys-color-primary-container);
+    color: var(--md-sys-color-on-primary);
+    background: transparent;
+}
+body div:has(div>input) .hBhqQbQsMCE-._9fpFHkyl3os- .dFoiuQNGt-c-.lWNIGdpQpu0-.WFJk5tr0xtQ- {
+    color: var(--md-sys-color-primary);
 }
 /* Dropdown */
 body.profile_edit_page .DialogTextInputBase, body.profile_edit_page ._DialogInputContainer {
@@ -5128,6 +5134,12 @@ body .recharts-wrapper {
 body .lWNIGdpQpu0-.HDXo8DVlUxI-.Y0BqhPMsT9c-._9fpFHkyl3os- {
     background: transparent;
 }
+body .recharts-cartesian-axis-line {
+    stroke: var(--md-sys-color-outline) !important;
+}
+body .recharts-text.recharts-cartesian-axis-tick-value {
+    fill: var(--md-sys-color-outline) !important;
+}
 /* Tables */
 body .BdbYXccVa-c- tbody tr:nth-child(odd) {
     color: var(--md-sys-color-on-secondary-container);
@@ -5136,9 +5148,12 @@ body .BdbYXccVa-c- tbody tr:nth-child(odd) {
 body .LL0I8Yv1KjM- {
     animation: 1s tablesUpdateFix;
 }
+body .BdbYXccVa-c- {
+    border-color: var(--md-sys-color-outline);
+}
 @keyframes tablesUpdateFix {
     5%, 20% {
-        color: var(--md-sys-color-surface);
+        color: var(--md-sys-color-on-surface);
     }
     100% {
         color: currentColor;
@@ -5700,15 +5715,26 @@ body .AyZ1e03AUA8- ._4z8cLxe3aDQ- {
 body .AyZ1e03AUA8-:hover ._4z8cLxe3aDQ-, body .gpfocus>.AyZ1e03AUA8- ._4z8cLxe3aDQ- {
     opacity: 0.3;
 }
-body .G-NVF2dxX0c-._6jM5vEPv3WM- .JAg6-ldsh48-.bakqiaoQAlI-.trcXcSdC1tk- .ykNywW4cg64- .AyZ1e03AUA8-.YS7QvJ2AUrM-.EY25wcMPP7Y-.AXepu8oo9RE- .vpiI2bS0S6s-.vpiI2bS0S6s- {
+body .G-NVF2dxX0c-._6jM5vEPv3WM- .JAg6-ldsh48-.bakqiaoQAlI-.trcXcSdC1tk- .ykNywW4cg64- .AyZ1e03AUA8-.YS7QvJ2AUrM-.EY25wcMPP7Y-.AXepu8oo9RE- .vpiI2bS0S6s-.vpiI2bS0S6s-,
+body .vpiI2bS0S6s- .vpiI2bS0S6s- .eAUu1dfYhY4-._0DdgBbU2bPk-._2RWLTCLE-0s-.krQEbDRNCFg- {
     background: var(--md-sys-color-inverse-surface);
 }
-body .G-NVF2dxX0c-._6jM5vEPv3WM- .JAg6-ldsh48-.bakqiaoQAlI-.trcXcSdC1tk- .ykNywW4cg64- .AyZ1e03AUA8-.YS7QvJ2AUrM-.EY25wcMPP7Y-.AXepu8oo9RE- .vpiI2bS0S6s-.vpiI2bS0S6s- .NI9oaXH36YQ- {
+body .G-NVF2dxX0c-._6jM5vEPv3WM- .JAg6-ldsh48-.bakqiaoQAlI-.trcXcSdC1tk- .ykNywW4cg64- .AyZ1e03AUA8-.YS7QvJ2AUrM-.EY25wcMPP7Y-.AXepu8oo9RE- .vpiI2bS0S6s-.vpiI2bS0S6s- .NI9oaXH36YQ-,
+body .vpiI2bS0S6s- .vpiI2bS0S6s- .eAUu1dfYhY4-._0DdgBbU2bPk-._2RWLTCLE-0s-.krQEbDRNCFg- {
     /* color: var(--scheme-light, var(--md-sys-color-inverse-on-surface)) var(--scheme-dark, var(--md-sys-color-on-surface)); */
     color: var(--md-sys-color-inverse-on-surface);
 }
 body .EZ-ocZV850k-.eHC015acU04-.U1qtAHnPvEo-.NI9oaXH36YQ- {
     color: var(--md-sys-color-on-surface);
+}
+body ._957OoQ-ltZQ-.SFr79GMTc3I-.lWNIGdpQpu0-.G-NVF2dxX0c-.PUN3cA5Szi8-._9fpFHkyl3os- {
+    background: var(--md-sys-color-surface-container-low);
+}
+body ._957OoQ-ltZQ-.SFr79GMTc3I-.G-NVF2dxX0c-.PUN3cA5Szi8-._9fpFHkyl3os- {
+    background: var(--md-sys-color-surface-container-lowest);
+}
+body ._957OoQ-ltZQ-.SFr79GMTc3I-.G-NVF2dxX0c-.PUN3cA5Szi8-._9fpFHkyl3os-:not(.lWNIGdpQpu0-) .ifBXpA-M7mM- {
+    color: var(--md-sys-color-outline);
 }
 /* Header */
 body .k1kLxw7k7a8- {
@@ -5903,7 +5929,8 @@ body .Zaj1eMuo8Qo- .fKeHSh3rwXM-:hover {
     color: var(--md-sys-color-on-surface);
 }
 
-body .wmrAq4UPe1Q- {
+body .wmrAq4UPe1Q-,
+body .wmrAq4UPe1Q-[aria-disabled="true"] {
     color: var(--md-sys-color-on-surface);
     background: transparent;
 }
@@ -5988,3 +6015,26 @@ body .ACrWf5j7E-0- {
     --spinner-color: var(--md-sys-color-primary);
     --spinner-track-color: var(--md-sys-color-outline-variant);
 }
+
+/* Test */
+/* .actual_persona_name:has(span.nevko-badge[data-description="Material Theme Donator"]) {
+    color: var(--md-sys-color-primary);
+    font-weight: 550;
+	background: linear-gradient(
+      90deg,
+      var(--md-sys-color-primary),
+      var(--md-sys-color-secondary),
+      var(--md-sys-color-tertiary),
+      var(--md-sys-color-secondary)
+    )
+    0 0 / 400% 100%;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: mdBadgeGradientAnim 8s infinite linear;
+}
+
+@keyframes mdBadgeGradientAnim {
+    to {
+        background-position: 400% 0;
+    }
+} */
