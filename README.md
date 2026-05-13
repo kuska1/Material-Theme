@@ -27,7 +27,7 @@
 * Source color (Basic/Custom/Dynamic [Beta])
 * Matugen support
 * Material icons
-* Fonts (Default/Roboto/Open Sans/Google Sans)
+* Fonts (Default/Roboto/Open Sans/Google Sans/Fira Sans)
 * Alternative online indicator
 ### Toolbar
 * Title collapse
@@ -36,7 +36,7 @@
 * Account button style
 * Toolbar buttons hider
 * Bottom bar style (Default/Floating)
-### Shapes 
+### Shapes
 * Profile picture shape
 * Groups picture shape
 * Game icons shape

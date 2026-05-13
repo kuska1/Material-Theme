@@ -121,6 +121,11 @@
                         "affects": [".*"], "src": "css/options/style/fonts/googlesans.css"
                     }
                 },
+                "Fira Sans": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/style/fonts/firasans.css"
+                    }
+                },
                 "Bitcount Single": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/options/style/fonts/bitcountsingle.css"
@@ -731,7 +736,7 @@
             "default": "yes",
             "tab": "Privacy",
             "values": {
-                "yes": {				
+                "yes": {
                     "TargetCss": {
                         "affects": ["Menu$", "SuperNav$"], "src": "css/options/privacy/accountBalanceMenu/showAfterHover.css"
                     }
@@ -767,7 +772,7 @@
             "default": "yes",
             "tab": "Privacy",
             "values": {
-                "yes": {				
+                "yes": {
                     "TargetCss": {
                         "affects": [".Rp8QOGJ2DypeDniMnRBhr"], "src": "css/options/privacy/accountNameAccountChange/showAfterHover.css"
                     }
@@ -905,7 +910,7 @@
             }
         }
     },
-    
+
 
     "Patches": [
         {
