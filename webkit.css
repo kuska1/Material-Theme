@@ -3,11 +3,11 @@
 
 /* Community */
 @import url("css/main/shared/hover.css");
-@import url("css/main/community/shared.css");
-@import url("css/main/community/footer.css");
-@import url("css/main/community/store.css");
-@import url("css/main/community/pointstore.css");
-@import url("css/main/community/profile.css");
-@import url("css/main/community/account.css");
-@import url("css/main/community/market.css");
-@import url("css/main/community/workshop.css");
+@import url("css/main/web/shared.css");
+@import url("css/main/web/footer.css");
+@import url("css/main/web/store.css");
+@import url("css/main/web/pointstore.css");
+@import url("css/main/web/profile.css");
+@import url("css/main/web/account.css");
+@import url("css/main/web/market.css");
+@import url("css/main/web/workshop.css");

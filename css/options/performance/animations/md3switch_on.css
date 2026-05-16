@@ -1,6 +1,9 @@
 ._9Ql-oVe_j8E-vsDdyVdWo, /* Base */
 ._2bl0iQ9xigbq4Zd1NI6NZl, ._2bl0iQ9xigbq4Zd1NI6NZl::before, /* Track */
-._1PQppcgkuXQAiFPar9AGi- /* Handle */ {
+._1PQppcgkuXQAiFPar9AGi-, /* Handle */
+body .xk8DK6CIhYo-,
+body ._9Ud6X-mEn30-,
+body ._9Ud6X-mEn30-:before {
     transition: 
         all 350ms var(--animation-expressive-fast-spatial),
         color 150ms var(--animation-expressive-fast-effects),

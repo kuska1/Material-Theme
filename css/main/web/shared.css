@@ -243,3 +243,79 @@ body .BdbYXccVa-c- tbody tr,
 body .BdbYXccVa-c- td, body .BdbYXccVa-c- th {
     border-radius: var(--corner-radius-extra-small);
 }
+/* Test Carousel */
+body .gEYubrN31lQ-.o0FgT9Ps0k8-._3RiaDNMV3ZY-.P1mL-BF-23c-._3GSBYa3kE3U-.yAtTRyPteOI-.GvjhYYZC69o-.trcXcSdC1tk- {
+    display: flex !important;
+    flex-direction: row !important;
+    align-self: flex-start !important;
+    justify-content: flex-start !important;
+    gap: 6px;
+}
+body .gEYubrN31lQ-.o0FgT9Ps0k8-._3RiaDNMV3ZY-.P1mL-BF-23c-._3GSBYa3kE3U-.yAtTRyPteOI-.GvjhYYZC69o-.trcXcSdC1tk- .Mm8eps-gSLU-.rT-SsbwEeY8-._3gV-E6rPceQ-.sKzj6gOALZE-.lWNIGdpQpu0-.O86colydcoQ-._6jM5vEPv3WM-.-MIUHAQqIyA- {
+    border-radius: var(--corner-radius-extra-large);
+    object-fit: cover;
+    transition: width 0.4s var(--animation-easing-emphasized), 
+                opacity 0.4s ease;
+    width: var(--item-width);
+    opacity: var(--item-opacity);
+
+    --item-width: 8%;
+    --item-opacity: 0.6;
+
+    &.XX-999vVG6s- {
+        outline: none;
+        --item-width: 48%;
+        --item-opacity: 1;
+    }
+    &:not(.XX-999vVG6s-):hover {
+        --item-width: 18%;
+        --item-opacity: 0.8 !important;
+    }
+    &.XX-999vVG6s- + &,
+    &:has(+ &.XX-999vVG6s-) {
+        --item-width: 18%;
+    }
+    &.XX-999vVG6s- + &:hover,
+    &:has(+ &.XX-999vVG6s-):hover {
+        --item-width: 28%;
+    }
+    &.XX-999vVG6s- + & + &,
+    &:has(+ & + &.XX-999vVG6s-) {
+        --item-width: 8%;
+    }
+    &.XX-999vVG6s- + & + &:hover,
+    &:has(+ & + &.XX-999vVG6s-):hover {
+        --item-width: 18%
+    }
+}
+body .kAl-kvSpQRM-.qhO1q0--Jxo-.Y0BqhPMsT9c-.iUEmwVRQDxI-._9fpFHkyl3os- .UszZC-hJD90- {
+    border-radius: var(--corner-radius-extra-large);
+    object-fit: cover;
+    transition: width 0.4s var(--animation-easing-emphasized), 
+                opacity 0.4s ease;
+    width: var(--item-width);
+    opacity: var(--item-opacity);
+
+    --item-width: 8%;
+    --item-opacity: 0.6;
+
+    border-style: none;
+
+    & img {
+        border-radius: var(--corner-radius-extra-large) !important;
+    }
+
+    &._528TPg1cCxQ- {
+        border-style: none;
+        --item-width: 48%;
+        --item-opacity: 1;
+    }
+    &._528TPg1cCxQ- + &,
+    &:has(+ &._528TPg1cCxQ-) {
+        --item-width: 18%;
+    }
+    &._528TPg1cCxQ- + & + &,
+    &:has(+ & + &._528TPg1cCxQ-) {
+        --item-width: 8%;
+    }
+}

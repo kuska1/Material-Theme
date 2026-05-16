@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "Theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.4.2",
+    "version": "1.4.3",
     "header_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
     "splash_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
 
@@ -439,19 +439,6 @@
                 }
             }
         },
-        "Header Always Visible": {
-            "description": "Make store header always visible.",
-            "default": "yes",
-            "tab": "Store",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetCss": {
-                        "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "css/options/store/stickyHeader.css"
-                    }
-                }
-            }
-        },
         "What's New": {
             "description": "Show/Compact/Hide \"What's New\" section.",
             "default": "Compact",
@@ -618,20 +605,33 @@
                 }
             }
         },
-        "VAC-Ban Visibility": {
+        "Store Header Always Visible": {
+            "description": "Make store header always visible.",
+            "default": "yes",
+            "tab": "Web",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "css/options/web/stickyHeader.css"
+                    }
+                }
+            }
+        },
+        "Profile VAC-Ban Visibility": {
             "description": "Show/Hide the VAC-Ban container from profile pages.",
             "default": "Show",
-            "tab": "Community",
+            "tab": "Web",
             "values": {
                 "Show": {},
                 "Hide for me": {
                     "TargetCss": {
-                        "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "css/options/community/hideMe.css"
+                        "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "css/options/web/vacVisibility/hideMe.css"
                     }
                 },
                 "Hide for all": {
                     "TargetCss": {
-                        "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "css/extra/community/hideAll.css"
+                        "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "css/options/web/vacVisibility/hideAll.css"
                     }
                 }
             }

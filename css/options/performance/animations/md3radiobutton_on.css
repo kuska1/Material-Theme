@@ -6,7 +6,8 @@
 
 /* Checkbox */
 .DialogCheckbox,
-.DialogCheckbox svg defs linearGradient stop {
+.DialogCheckbox svg defs linearGradient stop,
+body .V4koQHiHveU- .ueZFI-S1E78- {
     transition:
         all 150ms var(--animation-expressive-fast-effects) !important;
 }

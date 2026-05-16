@@ -155,6 +155,17 @@
 .extension-manager-popup .extension-buttons button {
     border-radius: var(--corner-radius-full) !important;
 }
+.extension-main .icon .update-badge,
+.extensions-bar-container .extension-button .update-dot {
+    border: unset !important;
+    border-radius: var(--corner-radius-full) !important;
+    box-shadow: unset !important;
+}
+.extension-main .content .name-and-version .update-pill {
+    border: unset !important;
+    border-radius: var(--corner-radius-extra-small) !important;
+}
+
 
 /* STYLE 1 TEST */
 /* ._3Z3ohQ8-1NKnCZkbS6fvy {
