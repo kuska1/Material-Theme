@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "Theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.4.3",
+    "version": "1.4.4",
     "header_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
     "splash_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
 
@@ -632,6 +632,19 @@
                 "Hide for all": {
                     "TargetCss": {
                         "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "css/options/web/vacVisibility/hideAll.css"
+                    }
+                }
+            }
+        },
+        "Profile Force Default Theme": {
+            "description": "Make all profiles in default Steam theme.",
+            "default": "no",
+            "tab": "Web",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["https://steamcommunity\\.com(/.*)?"], "src": "css/options/web/profileForceDefaultTheme.css"
                     }
                 }
             }

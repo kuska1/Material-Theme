@@ -155,6 +155,9 @@ body ._2W_HQa5Rhf-hHITgV5H0bu {
 ._2V8QeCkR06XqFUJO_GDTVP ._2sEmBD0BnXW-eo2PlLcaLV {
     color: var(--md-sys-color-primary);
 }
+._3Vl2zkYPoCpw1q_1n28D3z {
+    background: var(--md-sys-color-surface-container-low);
+}
 
 
 /* --- CHIPS --- */
@@ -1033,7 +1036,8 @@ body select.gray_bevel option:hover, body select.gray_bevel option:focus /* Comm
 ._3sa1NXudhvcc1U7HrlLdNQ._2ngG3CCc-g0zyXymxnDnM0,
 ._2SwH92Kuhm2Kw8_VHMFHcy,
 ._1dbgUdk0xgEX7E4Db_r5mb,
-._1Ve4VFO2EEkeNZdel_Asky {
+._1Ve4VFO2EEkeNZdel_Asky,
+._2TAQYpbxatDYN3Ex76KX5u .DialogBody .DialogBodyText ._7jaC6UFFrvcKq2UlJr1Pb .Cw--cBWy7v1Ey1JF0VkBN.DesktopUI, .DesktopUI ._2TAQYpbxatDYN3Ex76KX5u .DialogBody .DialogBodyText ._7jaC6UFFrvcKq2UlJr1Pb .Cw--cBWy7v1Ey1JF0VkBN {
     color: var(--md-sys-color-on-surface);
     background: var(--md-sys-color-surface-container-low);
 }
@@ -4722,7 +4726,11 @@ body .FSFHMPmlpAk- /* Market */ {
     background: var(--md-sys-color-surface-container-highest);
 }
 body .FSFHMPmlpAk-:has(.yNWWAgC1vwU-:hover) {
-    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-hover));
+    /* background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-hover)); */
+    background: var(--md-sys-color-surface-container-highest);
+}
+body .FSFHMPmlpAk- .yNWWAgC1vwU-:hover {
+    color: var(--md-sys-color-primary);
 }
 body .VsQBaHlz-3M- .xcZZMNVBlXQ-, /* Workshop */
 body .VsQBaHlz-3M- .xcZZMNVBlXQ- a /* Workshop */ {
@@ -4885,7 +4893,8 @@ body :where(.bG2NtC5tCTc-).eVF7fbj4R8w-[role="combobox"]:focus, body :where(.bG2
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
 }
 body button > span,
-body :where(.bG2NtC5tCTc-).eVF7fbj4R8w-[role="combobox"] span {
+body :where(.bG2NtC5tCTc-).eVF7fbj4R8w-[role="combobox"] span,
+body .krQEbDRNCFg- .LB7oRJG7djU-.NI9oaXH36YQ- {
     color: currentColor;
 }
 body.profile_edit_page ._2KJ8a96V8ilTQR7aQd6wsC button.DialogButton.Secondary {
@@ -5156,8 +5165,13 @@ body .lWNIGdpQpu0-.HDXo8DVlUxI-.Y0BqhPMsT9c-._9fpFHkyl3os- {
 body .recharts-cartesian-axis-line {
     stroke: var(--md-sys-color-outline) !important;
 }
-body .recharts-text.recharts-cartesian-axis-tick-value {
+body .recharts-text.recharts-cartesian-axis-tick-value,
+body .recharts-text.recharts-label {
     fill: var(--md-sys-color-outline) !important;
+}
+body .recharts-cartesian-grid-horizontal line,
+body .recharts-cartesian-grid-vertical line {
+    stroke: var(--md-sys-color-outline-variant) !important;
 }
 /* Tables */
 body .BdbYXccVa-c- tbody tr:nth-child(odd) {
@@ -5180,7 +5194,7 @@ body .BdbYXccVa-c- {
 }
 /* Footer */
 footer._291ttHtxyu5obiKzor2G9G {
-    background: var(--md-sys-color-surface-container);
+    background: var(--md-sys-color-surface-container-lowest);
 }
 footer .f6hU22EA7Z8peFWZVBJU,
 footer .g8vToPr0EO3CpytRyimNA.g8vToPr0EO3CpytRyimNA {

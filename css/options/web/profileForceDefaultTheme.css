@@ -1,0 +1,12 @@
+html body.profile_page {
+    --gradient-right: rgba(109, 38, 44, 0.301);
+    --gradient-left: rgba(50, 255, 193, 0.103);
+    --gradient-background: rgba(34, 35, 48, 0.93);
+    --gradient-background-right: rgba(109, 38, 44, 0);
+    --gradient-background-left: rgba(50, 255, 193, 0.103);
+    --color-showcase-header: rgba(43, 45, 68, 0.93);
+    --gradient-showcase-header-left: rgba(115, 173, 184, 0.247);
+    --btn-background: rgba(43, 52, 68);
+    --btn-background-hover: rgb(53, 62, 78);
+    --btn-outline: rgb(93, 102, 118);
+}
