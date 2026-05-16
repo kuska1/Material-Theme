@@ -14,12 +14,16 @@ body .popup_block_new {
     box-shadow: var(--elevated-shadow);
     border-radius: var(--corner-radius-small);
 }
-body .popup_block_new .popup_body {
+body .popup_block_new#NamePopup .popup_body {
     border: unset;
-    padding: 8px;
+    padding: 12px;
     border-radius: var(--corner-radius-small);
+}
+body .popup_block_new .popup_body #NamePopupClearAliases > a {
+    color: var(--md-sys-color-outline);
+}
+body .popup_block_new .popup_body #NamePopupClearAliases > a:hover {
     color: var(--md-sys-color-on-surface);
-    background: var(--md-sys-color-surface-container);
 }
 /* Columns */
 body .profile_customization,
@@ -45,6 +49,10 @@ body .profile_topfriends .friendBlock {
 body .friendBlock .friendPlayerLevel {
     margin: 2px 6px 0 0;
 }
+body .friendBlock .friendBlockContent {
+    height: 100%;
+    align-content: center;
+}
 /* Games */
 body .recent_game {
     border-radius: var(--corner-radius-medium);
@@ -67,6 +75,10 @@ body ._2FxbHJzYoH024ko7zqcJOf {
     font-size: var(--font-body-small-size);
     font-weight: var(--font-body-small-weight);
     z-index: 9999;
+}
+/* Comments */
+body .profile_comment_area .commentthread_comment_container {
+    padding-inline: unset;
 }
 /* -- EDIT PROFILE -- */
 /* Header */

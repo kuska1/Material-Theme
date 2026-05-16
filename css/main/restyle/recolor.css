@@ -5224,6 +5224,11 @@ body .profile_header_valve_employee_desc a {
 body .profile_header_valve_employee_desc a:hover {
     color: color-mix(in srgb, var(--md-sys-color-on-error-container), var(--md-sys-color-on-surface) 40%);
 }
+/* Nicknames */
+body .popup_block_new .popup_body {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container);
+}
 /* VAC Ban */
 body .profile_ban_status {
     color: var(--md-sys-color-error);
@@ -5243,6 +5248,16 @@ body .screenshot_showcase_smallscreenshot.screenshot_count .screenshot_showcase_
 /* Friends */
 body .profile_topfriends .friendBlock:hover {
     background: color-mix(in srgb, transparent, #fff var(--layer-action-hover));
+}
+body .friendBlock.persona .friendBlockStatusIcon {
+    color: #ebebeb;
+}
+/* Comments */
+body .commentthread_comment_friendindicator {
+    color: #ebebeb;
+}
+body .commentthread_comment_author .nickname_block {
+    color: rgba(255,255,255,0.5);
 }
 /* -- EDIT PROFILE -- */
 body ._2kqKZFxhF8XvzaoAekjV7m ._33Kl16vpskBOQpwINGA8ah ._3rtIpqfC_9VWz4DRSTPach {
