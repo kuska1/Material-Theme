@@ -180,4 +180,6 @@ body .game_info_badge_border {
     background-color: black;
     mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 5px, rgba(0, 0, 0, 0) 50px, rgb(0, 0, 0, 0) 100%);
     -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 5px, rgba(0, 0, 0, 0) 50px, rgb(0, 0, 0, 0) 100%);
+    pointer-events: none;
+    user-select: none;
 }
