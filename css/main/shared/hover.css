@@ -39,7 +39,7 @@ body .miniprofile_playtimesection .gamelogo {
 ._2_lmTz0tA4NOSle5WaO1PZ ._1xTATKELHR-lRS_s3A4yzd > div:nth-child(1 of :not(._3MrYvAGQ-g7bNccn6VJNpK, ._3CZcHyWskP9Hc5t7AOo75A)),
 ._1xTATKELHR-lRS_s3A4yzd ._26ga2HHZL2HlK6wwFImcgX,
 /* ._1xTATKELHR-lRS_s3A4yzd ._7-U6jtoeGvesTm7JFGH0-, */
-body .miniprofile_backdrop {
+body .miniprofile_container > div:nth-child(1 of .miniprofile_backdrop) {
     border-top-left-radius: var(--corner-radius-small);
     border-top-right-radius: var(--corner-radius-small);
 }

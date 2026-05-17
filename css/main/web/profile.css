@@ -27,7 +27,8 @@ body .popup_block_new .popup_body #NamePopupClearAliases > a:hover {
 }
 /* Columns */
 body .profile_customization,
-body .profile_rightcol {
+body .profile_rightcol,
+body .profile_comment_area {
     border-radius: var(--corner-radius-small);
 }
 /* Badge */
@@ -79,6 +80,9 @@ body ._2FxbHJzYoH024ko7zqcJOf {
 /* Comments */
 body .profile_comment_area .commentthread_comment_container {
     padding-inline: unset;
+}
+body .profile_comment_area .commentthread_comment_text {
+    padding-right: 8px;
 }
 /* -- EDIT PROFILE -- */
 /* Header */
@@ -162,4 +166,18 @@ body .profile_customization_edit_icon.bluebox {
 body .game_info_badge_border {
     border-style: none;
     border-width: 0px;
+}
+/* Bottom Gradient */
+.profile_content.has_profile_background::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 5px, rgba(0, 0, 0, 0) 50px, rgb(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 5px, rgba(0, 0, 0, 0) 50px, rgb(0, 0, 0, 0) 100%);
 }
