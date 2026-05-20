@@ -412,7 +412,7 @@
                 },
                 "Circle": {
                     "TargetCss": {
-                        "affects": [".*"], "src": "ccss/options/shapes/gamesIcons/circle.css"
+                        "affects": [".*"], "src": "css/options/shapes/gamesIcons/circle.css"
                     }
                 }
             }

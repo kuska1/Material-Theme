@@ -13,7 +13,11 @@
 .group_block_medium img,
 .search_group_avatar_holder img,
 .grouppage_logo img,
-.favoritegroup_showcase_group .favoritegroup_avatar img,
+/* .favoritegroup_showcase_group .favoritegroup_avatar img */
 body ._1yHxtA_qbj9xWiLkUiovpE ._1C_n640PvrV_-DCXwOeCZY {
     border-radius: var(--corner-radius-full) !important;
+}
+
+.favoritegroup_showcase_group .favoritegroup_avatar img {
+    border-radius: 9999px;
 }

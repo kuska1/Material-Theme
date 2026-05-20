@@ -15,22 +15,41 @@ console.debug(logText, logCss, `dynamic.js is running in ${window.location.href}
  * This makes theme changes smooth when switching between games.
  */
 const styleId = 'material-dynamic-transitions';
-if (!document.getElementById(styleId)) {
-    const animationsEnabled = getComputedStyle(document.documentElement)
-        .getPropertyValue('--dynamic-color-transition-enabled').trim();
-    
-    if (animationsEnabled === 'true') {
-        const css = `*:not(img) {
+const animationsEnabled = getComputedStyle(document.documentElement)
+    .getPropertyValue('--dynamic-color-transition-enabled').trim() === 'true';
+const transitionCss = `*:not(img) {
             transition: background-color 0.4s cubic-bezier(0.4, 0.0, 0.2, 1), 
                         color 0.4s cubic-bezier(0.4, 0.0, 0.2, 1), 
                         fill 0.4s cubic-bezier(0.4, 0.0, 0.2, 1), 
                         border-color 0.4s cubic-bezier(0.4, 0.0, 0.2, 1);
         }`;
+let transitionRemovalTimeout;
+
+function enableDynamicTransitions() {
+    if (!animationsEnabled) return;
+
+    if (!document.getElementById(styleId)) {
         const style = document.createElement('style');
         style.id = styleId;
-        style.textContent = css;
+        style.textContent = transitionCss;
         document.head.appendChild(style);
     }
+
+    clearTimeout(transitionRemovalTimeout);
+    transitionRemovalTimeout = setTimeout(() => {
+        const existingStyle = document.getElementById(styleId);
+        if (existingStyle) {
+            existingStyle.remove();
+        }
+    }, 450);
+}
+
+function disableDynamicTransitions() {
+    const existingStyle = document.getElementById(styleId);
+    if (existingStyle) {
+        existingStyle.remove();
+    }
+    clearTimeout(transitionRemovalTimeout);
 }
 
 const prefix = '--md-sys-color-';
@@ -191,6 +210,7 @@ async function updateTheme() {
   const img = document.querySelector('img.HNbe3eZf6H7dtJ042x1vM'); // Selector for game artwork
   try {
     if (img && img.src && !img.src.includes('clear.png')) {
+      enableDynamicTransitions();
       const color = await getAccentColorFromImage(img);
       await generateAndApplyTheme(color);
       return;
@@ -201,7 +221,10 @@ async function updateTheme() {
 
   const systemColor = getComputedStyle(document.documentElement).getPropertyValue('--custom-accent-color').trim();
   if (systemColor) {
+    enableDynamicTransitions();
     await generateAndApplyTheme(argbFromHex(systemColor));
+  } else {
+    disableDynamicTransitions();
   }
 }
 

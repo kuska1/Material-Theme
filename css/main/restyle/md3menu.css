@@ -8,6 +8,13 @@
     box-shadow: var(--elevated-shadow) !important;
 }
 
+body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
+    min-width: unset !important;
+    min-height: unset !important;
+    max-width: unset !important;
+    max-height: unset !important;
+}
+
 /* Inside */
 /* Container */
 ._2yAm5LY_eu-Vg_52l0HFlM,

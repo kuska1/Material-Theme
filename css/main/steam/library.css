@@ -1244,7 +1244,9 @@ a._2HnDgHQT_3ehcs4WgskKG5,
     box-shadow: var(--elevated-shadow);
 }
 ._3IWn-2rn7x98o5fDd0rAxb ._2ERAQD94mxjbyV0G5P9ic5 ._2zbkblS0wKex2zlrf1kmkQ,
-._3IWn-2rn7x98o5fDd0rAxb:focus ._2zbkblS0wKex2zlrf1kmkQ, ._3IWn-2rn7x98o5fDd0rAxb:hover ._2zbkblS0wKex2zlrf1kmkQ {
+._3IWn-2rn7x98o5fDd0rAxb:focus ._2zbkblS0wKex2zlrf1kmkQ, ._3IWn-2rn7x98o5fDd0rAxb:hover ._2zbkblS0wKex2zlrf1kmkQ,
+._3Ehhd5MxErV_bXQE4qVhzB ._24_AuLm54JVe1Zc0AApCDR,
+.LuubbPZklmPSVpKm5fk33 ._9lwONc6gDNvb_4cUrjdme ._2BNMbDXj10Qpld04R9-xJX {
     border-radius: var(--corner-radius-medium);
     box-shadow: var(--elevated-shadow);
 }
@@ -1258,6 +1260,9 @@ a._2HnDgHQT_3ehcs4WgskKG5,
 }
 ._3uOErrMLSNVM7v6C3zKSJh {
     background: transparent;
+}
+._3BFcmjAaMyP6GTPwc0VyWi ._3PAPBHNnHiNjIQiBr7Ya3t {
+    box-shadow: var(--elevated-shadow) !important;
 }
 
 /* Storage / Game Versions & Betas / DLC / Workshop */
