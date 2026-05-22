@@ -30,7 +30,7 @@ body .xa7nOX-adjA- {
     /* bottom: -10%; */
     left: 0;
     right: 0;
-    transform: translateY(-150%) !important;
+    transform: translateY(-110%) !important;
     opacity: 0;
     margin: auto;
     padding: 5px 8px;
@@ -67,4 +67,17 @@ body .xa7nOX-adjA- {
 
 .MillenniumDesktopSidebar_EditorContent .Color:nth-child(2) ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:nth-of-type(4)::after {
     content: "Theme Settings -> Colors -> Custom Accent Color";
+    transform: translateY(-150%) !important;
+}
+
+.MillenniumDesktopSidebar_EditorContent .Font:nth-child(4) ._1W1to_azoBRG95oNAFpf9Q::before {
+    content: "(?)";
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -10px;
+    font-size: 8px;
+}
+
+.MillenniumDesktopSidebar_EditorContent .Font:nth-child(4) ._1W1to_azoBRG95oNAFpf9Q::after {
+    content: "For \"Custom\" create \"customFont.css\" inside theme folder";
 }

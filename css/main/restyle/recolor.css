@@ -278,7 +278,7 @@ body .r-IB7hJgZPM-::after {
 ._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B, /* Basic */
 ._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6, ._3Rm36_oeAhvIg6ZYP9l1Jj, ._1OIatPEED_bSmd_CNyMv7C ._3Rm36_oeAhvIg6ZYP9l1Jj /* Achievements */
 ._3szjUMH5QeRwtXAsLRcWt9._3DjdoQj5NoknowwV5t5JPN::after, /* Downloading Status */
-.kX-tIJx4a9vKVuUkKJARv .mA39Hqv8LacDppegb_Q_Z, /* Downloading On Game */
+.kX-tIJx4a9vKVuUkKJARv .mA39Hqv8LacDppegb_Q_Z, ._1f7qD1HD8b01m7JUphBILr, /* Downloading On Game */
 body .profile_showcase_selector .achievement_progress_bar_ctn .progress_bar /* Edit Profile */ {
     background: var(--md-sys-color-primary) !important;
 }
@@ -287,7 +287,7 @@ body .profile_showcase_selector .achievement_progress_bar_ctn .progress_bar /* E
 ._1EubJAK9z7JtdGks5M2f8t, /* Storage */
 ._25YVDTaClw6Y2COPsU0UaV, ._3ns9185LizH61StaAXuAp6, ._1OIatPEED_bSmd_CNyMv7C, /* Achievements */
 ._2_FomluqqgQ2Hx8ON3AVep .wi0pDywRgOCxhG7OqQNaA, /* Downloading Status */
-.kX-tIJx4a9vKVuUkKJARv, /* Downloading On Game */
+.kX-tIJx4a9vKVuUkKJARv, ._2IEorvaTnkOBZw3PEDXZoB, /* Downloading On Game */
 ._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR, /* Downloads */
 body .profile_showcase_selector .achievement_progress_bar_ctn /* Edit Profile */ {
     background: var(--md-sys-color-secondary-container) !important;
