@@ -6100,6 +6100,256 @@ body .ACrWf5j7E-0- {
     --spinner-track-color: var(--md-sys-color-outline-variant);
 }
 
+/* PLUGINS SUPPORT */
+/* Auto-Claim */
+body .fgg-welcome-dlg {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container-low);
+
+    /* --plugin-primary-color: var(--scheme-light, rgb(0 110 31)) var(--scheme-dark, rgb(152 249 150));
+    --plugin-on-primary-color: var(--scheme-light, rgb(255 255 255)) var(--scheme-dark, rgb(0 57 12)); */
+}
+body .fgg-welcome-x {
+    color: var(--md-sys-color-outline);
+    background: transparent;
+}
+body .fgg-welcome-x:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+body .fgg-welcome-icon {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body .fgg-welcome-title,
+body .fgg-welcome-row-head {
+    color: var(--md-sys-color-on-surface);
+}
+body .fgg-welcome-subtitle,
+body .fgg-welcome-row-body {
+    color: var(--md-sys-color-outline);
+}
+body .fgg-welcome-foot {
+    color: var(--md-sys-color-outline);
+}
+body .fgg-welcome-row-icon {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+body .fgg-welcome-cta {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body .fgg-welcome-cta:hover {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+body .fgg-welcome-cta:active {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+}
+body .fgg-welcome-cta-icon {
+    color: var(--md-sys-color-on-primary);
+}
+
+body #fgg-widget-root > div:nth-child(2)[style*="--fgg-tab-accent: #000"] {
+    --fgg-tab-accent: var(--md-sys-color-primary) !important;
+    --fgg-tab-accent-glow: var(--md-sys-color-primary) !important;
+}
+body #fgg-widget-root > div:nth-child(2) {
+    background: var(--md-sys-color-surface-container-low) !important;
+}
+body #fgg-widget-root > button:nth-child(4) {
+    background: var(--md-sys-color-primary) !important;
+}
+body #fgg-widget-root > button:nth-child(4) svg polyline {
+    stroke: var(--md-sys-color-on-primary) !important;
+}
+
+
+body .fgg-header,
+body .fgg-footer {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container);
+    border-color: var(--md-sys-color-outline-variant);
+}
+body .fgg-icon-box,
+body .fgg-empty-icon {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+body .fgg-title,
+body .fgg-empty-title {
+    color: var(--md-sys-color-on-surface);
+}
+body .fgg-subtitle,
+body .fgg-empty-desc {
+    color: var(--md-sys-color-outline);
+}
+body .fgg-tabs {
+    border-color: var(--md-sys-color-outline-variant);
+}
+body .fgg-tab {
+    color: var(--md-sys-color-outline);
+    background: var(--md-sys-color-surface-container);
+}
+body .fgg-tab.active {
+    color: var(--md-sys-color-on-surface);
+}
+body .fgg-filter-btn {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+body .fgg-filter-btn:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+body .fgg-filter-btn.is-dimmed {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) 5%);
+}
+body .fgg-close {
+    color: var(--md-sys-color-outline);
+    background: transparent;
+}
+body .fgg-close:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+body .fgg-card-bg {
+    filter: brightness(var(--scheme-light, 1.15) var(--scheme-dark, 0.15)) saturate(1.1);
+}
+body .fgg-card-overlay {
+    background: var(--scheme-light,
+                    linear-gradient(90deg,
+                    rgba(155,155,155,0.92) 0%,
+                    rgba(155,155,155,0.55) 45%,
+                    rgba(155,155,155,0.15) 100%)
+                )
+                var(--scheme-dark,
+                    linear-gradient(90deg,
+                    rgba(15,15,15,0.92) 0%,
+                    rgba(15,15,15,0.55) 45%,
+                    rgba(15,15,15,0.15) 100%)
+                );
+}
+body .fgg-card-name,
+body .fgg-set-title {
+    color: var(--md-sys-color-on-surface);
+}
+body .fgg-card-status {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .fgg-set-desc {
+    color: var(--md-sys-color-outline);
+}
+body #fgg-widget-root > div:nth-child(2)[style*="--fgg-tab-accent: #000; --fgg-tab-accent-glow: #000"] .fgg-card {
+    --fgg-accent: var(--md-sys-color-error) !important;
+    --fgg-edge: var(--md-sys-color-error) !important;
+    --fgg-dot: var(--md-sys-color-error) !important;
+    --fgg-dot-shadow: var(--md-sys-color-error) !important;
+}
+body #fgg-widget-root > div:nth-child(2)[style*="--fgg-tab-accent: #000; --fgg-tab-accent-glow: #000"] .fgg-card.owned {
+    --fgg-accent: var(--md-sys-color-primary) !important;
+    --fgg-edge: var(--md-sys-color-primary) !important;
+    --fgg-dot: var(--md-sys-color-primary) !important;
+    --fgg-dot-shadow: var(--md-sys-color-primary) !important;
+}
+body #fgg-footer {
+    color: var(--md-sys-color-on-surface);
+}
+body #fgg-footer-dot {
+    background: var(--md-sys-color-primary) !important;
+}
+body .fgg-check {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), transparent var(--layer-action-hover));
+}
+body .fgg-filter-badge {
+    color: var(--md-sys-color-on-secondary);
+    background: var(--md-sys-color-secondary);
+}
+body .fgg-filter-badge.is-zero {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body .fgg-hint-card {
+    color: var(--md-sys-color-on-tertiary-container);
+    background: var(--md-sys-color-tertiary-container);
+}
+body .fgg-hint-label,
+body .fgg-hint-text strong {
+    color: var(--md-sys-color-on-tertiary-container);
+}
+body .fgg-hint-text {
+    color: color-mix(in srgb, var(--md-sys-color-on-tertiary-container), transparent var(--layer-action-active));
+}
+body .fgg-set-row {
+    border-color: var(--md-sys-color-outline-variant);
+}
+body .fgg-action-btn,
+body .fgg-open-btn {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .fgg-action-btn:hover,
+body .fgg-open-btn:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body .fgg-action-btn:active,
+body .fgg-open-btn:active {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+body .fgg-int-btn {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-highest);
+}
+body .fgg-int-btn.active {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body .fgg-toggle {
+    background: var(--md-sys-color-surface-container-highest);
+}
+body .fgg-toggle-knob {
+    background: var(--md-sys-color-outline);
+}
+body .fgg-toggle.on {
+    background: var(--md-sys-color-primary);
+}
+body .fgg-toggle.on .fgg-toggle-knob {
+    background: var(--md-sys-color-on-primary);
+}
+body .fgg-filter-toast {
+    color: var(--md-sys-color-inverse-on-surface);
+    background: var(--md-sys-color-inverse-surface);
+}
+body .fgg-filter-toast svg {
+    color: var(--md-sys-color-inverse-on-surface);
+}
+body #fgg-scan-result {
+    color: var(--md-sys-color-primary) !important;
+}
+.MillenniumDesktopSidebar[data-focused-item-type="PLUGIN"] .MillenniumDesktopSidebar_EditorContent div[style*="color: rgba(255, 255, 255, 0.3)"] {
+    color: var(--md-sys-color-on-surface) !important;
+}
+.MillenniumDesktopSidebar[data-focused-item-type="PLUGIN"] .MillenniumDesktopSidebar_EditorContent div[style*="color: rgba(255, 255, 255, 0.9)"],
+.MillenniumDesktopSidebar[data-focused-item-type="PLUGIN"] .MillenniumDesktopSidebar_EditorContent button[style*="color: rgb(255, 255, 255)"],
+.MillenniumDesktopSidebar[data-focused-item-type="PLUGIN"] .MillenniumDesktopSidebar_EditorContent button[style*="color: rgba(255, 255, 255, 0.55)"] {
+    color: var(--md-sys-color-on-surface-variant) !important;
+}
+.MillenniumDesktopSidebar[data-focused-item-type="PLUGIN"] .MillenniumDesktopSidebar_EditorContent div[style*="color: rgba(255, 255, 255, 0.4)"] {
+    color: var(--md-sys-color-outline) !important;
+}
+.MillenniumDesktopSidebar[data-focused-item-type="PLUGIN"] .MillenniumDesktopSidebar_EditorContent div[style*="border-top: 1px solid rgba(255, 255, 255, 0.06)"] {
+    border-color: var(--md-sys-color-outline-variant) !important;
+}
+.MillenniumDesktopSidebar[data-focused-item-type="PLUGIN"] .MillenniumDesktopSidebar_EditorContent div[style*="background: white"] {
+    background: var(--md-sys-color-on-surface) !important;
+}
+
 /* Test */
 /* .actual_persona_name:has(span.nevko-badge[data-description="Material Theme Donator"]) {
     color: var(--md-sys-color-primary);

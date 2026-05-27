@@ -44,3 +44,130 @@ body .game_purchase_action_bg,
 body .game_purchase_action .game_purchase_price {
     border-radius: var(--corner-radius-full);
 }
+
+/* Plugins Support */
+/* Auto-Claim */
+body .fgg-welcome-dlg {
+    border: unset;
+    box-shadow: unset;
+    border-radius: var(--corner-radius-medium);
+}
+body .fgg-welcome-x {
+    border-radius: var(--corner-radius-full);
+}
+body .fgg-welcome-hero {
+    background: unset;
+}
+body .fgg-welcome-icon,
+body .fgg-welcome-row-icon {
+    border: unset;
+    filter: unset;
+}
+body .fgg-welcome-icon {
+    border-radius: var(--corner-radius-medium);
+}
+body .fgg-welcome-row-icon {
+    border-radius: var(--corner-radius-small);
+}
+body .fgg-welcome-cta,
+body .fgg-welcome-cta:hover {
+    border: unset;
+    border-radius: var(--corner-radius-full);
+}
+
+body #fgg-widget-root > div:nth-child(2) {
+    border: unset !important;
+    border-radius: var(--corner-radius-medium) !important;
+}
+body #fgg-widget-root > button:nth-child(4)[style*="border-radius: 8px"] {
+    border-radius: var(--corner-radius-full) !important;
+}
+body .fgg-icon-box {
+    border: unset;
+    border-radius: var(--corner-radius-small);
+}
+body .fgg-empty-icon {
+    border: unset;
+    border-radius: var(--corner-radius-medium);
+}
+body .fgg-close {
+    border: unset;
+    border-radius: var(--corner-radius-full);
+    padding: 8px;
+}
+body .fgg-tabs {
+    border-bottom: none;
+}
+body .fgg-tab-indicator {
+    box-shadow: unset;
+}
+body .fgg-card {
+    border: unset !important;
+    box-shadow: unset !important;
+    border-radius: var(--corner-radius-medium) !important;
+}
+body .fgg-card:hover {
+    border: unset !important;
+    box-shadow: var(--elevated-shadow) !important;
+    border-radius: var(--corner-radius-medium) !important;
+}
+body #fgg-footer-dot,
+body .fgg-card-dot {
+    border-radius: var(--corner-radius-full);
+    box-shadow: unset !important;
+}
+body .fgg-check {
+    border: unset;
+    border-radius: var(--corner-radius-full);
+}
+body .fgg-card-accent {
+    display: none;
+}
+body .fgg-hint-card {
+    border: unset;
+    border-radius: var(--corner-radius-medium);
+}
+body .fgg-action-btn,
+body .fgg-open-btn {
+    border: unset;
+    border-radius: var(--corner-radius-full);
+}
+body 
+body .fgg-toggle-knob {
+    box-shadow: unset;
+}
+body .fgg-filter-toast {
+    border: unset;
+    box-shadow: var(--elevated-shadow);
+    border-radius: var(--corner-radius-extra-small);
+}
+body #fgg-scan-result {
+    width: max-content;
+    margin-inline: auto;
+}
+body .fgg-card-thumb {
+    border: unset;
+    box-shadow: unset;
+    border-radius: var(--corner-radius-small);
+}
+body .fgg-filter-badge {
+    border: unset;
+    box-shadow: unset;
+    border-radius: var(--corner-radius-full);
+}
+body .fgg-int-btn {
+    border-radius: var(--corner-radius-full);
+}
+body .fgg-int-btn.active {
+    border-radius: var(--corner-radius-small);
+}
+body .fgg-footer {
+    border-top: unset;
+    border-bottom: unset;
+}
+.MillenniumDesktopSidebar[data-focused-item-type="PLUGIN"] .MillenniumDesktopSidebar_EditorContent > div > div > div:first-child > div:first-child > div::after {
+    content: "[Auto Claim] Set colors to \"Custom\" and set \"#000\" to apply some theme colors";
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
