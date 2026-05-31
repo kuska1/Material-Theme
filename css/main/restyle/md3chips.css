@@ -18,6 +18,14 @@
     padding-right: 4px;
 }
 
+.MillenniumPlugins_Metrics span {
+    border-radius: var(--corner-radius-extra-small);
+    border-width: 1px;
+    border-style: solid;
+    box-sizing: border-box;
+    background: transparent;
+}
+
 /* body.v6 .deep_dive_tag,
 .tab_preview .tags > a,
 .app_tag {

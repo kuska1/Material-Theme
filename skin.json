@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "Theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.4.10",
+    "version": "1.4.11",
     "header_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
     "splash_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
 
@@ -161,21 +161,15 @@
             }
         },
         "Online Status Color": {
-            "description": "Choose online status color.",
-            "default": "Default",
+            "description": "Adjust a primary tint balance for online status color.",
+            "default": 50,
             "tab": "Style",
-            "values": {
-                "Default": {},
-                "Mix": {
-                    "TargetCss": {
-                        "affects": [".*"], "src": "css/options/style/onlineStatus/mix.css"
-                    }
-                },
-                "Accent": {
-                    "TargetCss": {
-                        "affects": [".*"], "src": "css/options/style/onlineStatus/accent.css"
-                    }
-                }
+            "slider": {
+                "cssVariable": "--md-setting-online-status",
+                "min": 0,
+                "max": 100,
+                "step": 10,
+                "unit": "%"
             }
         },
         "Toolbar Title": {

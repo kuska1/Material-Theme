@@ -36,7 +36,8 @@
 /* Sub Body */
 ._1W1to_azoBRG95oNAFpf9Q.DesktopUI, .DesktopUI ._1W1to_azoBRG95oNAFpf9Q, /* Modal / Under Text */
 ._3qIXY674NedSZNa-CXtNlt /* Modal / After Text */
-._3w92Ej5Kq7nbt5WACQ6jwI.DesktopUI, .DesktopUI ._3w92Ej5Kq7nbt5WACQ6jwI /* Modal / Updates */ { 
+._3w92Ej5Kq7nbt5WACQ6jwI.DesktopUI, .DesktopUI ._3w92Ej5Kq7nbt5WACQ6jwI, /* Modal / Updates */
+.DialogContent_InnerWidth .MillenniumThemes_ThemeItem .MillenniumItem_Version /* Version */ { 
     font-size: var(--font-body-small-size);
     font-weight: var(--font-body-small-weight);
 }

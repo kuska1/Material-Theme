@@ -1478,7 +1478,7 @@ html[lang="ja"] ._39oUCO1OuizVPwcnnv88no ._30vB9DdsPK7VrZAbb5Q1Av::after {
     content: " !!! This setting is not used by Material Theme. If you need to change custom color go to Theme Settings -> Colors -> Custom Accent Color.";
     position: absolute;
     left: 0;
-    top: 64px;
+    top: 48px;
 }
 /* Locales */
 html[lang="uk"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::after {
@@ -1500,7 +1500,7 @@ html[lang="ja"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::aft
 }
 .DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumItem_Version::after {
     content: "(" var(--hook-current-commit-date) " GMT+3)";
-    position: absolute;
+    /* position: absolute; */
     margin-left: 8px;
     user-select: none;
     pointer-events: none;
@@ -1513,6 +1513,10 @@ html[lang="ja"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::aft
     right: 0;
 }
 
+/* Fix */
+.MillenniumDesktopSidebar_EditorContent .PSZtxj2h3MlyYv-c9dgke:has(.SliderControlPanelGroup) {
+    width: 100%;
+}
 /* ._1rDh5rXSFZJOqCa4UpnI4z .MillenniumSettings ._2rjVTGz8aLvqOdz5v2gq5C {
     font-size: var(--font-headline-medium-size);
     margin-bottom: 16px;
