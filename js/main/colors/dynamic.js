@@ -212,11 +212,19 @@ async function updateTheme() {
     if (img && img.src && !img.src.includes('clear.png')) {
       enableDynamicTransitions();
       const color = await getAccentColorFromImage(img);
+      localStorage.setItem('material-dynamic-color', color.toString());
       await generateAndApplyTheme(color);
       return;
     }
   } catch (e) {
     console.warn(logText, logCss, 'Image-based color failed, falling back:', e);
+  }
+
+  const storedDynamicColor = localStorage.getItem('material-dynamic-color');
+  if (storedDynamicColor) {
+    enableDynamicTransitions();
+    await generateAndApplyTheme(parseInt(storedDynamicColor, 10));
+    return;
   }
 
   const systemColor = getComputedStyle(document.documentElement).getPropertyValue('--custom-accent-color').trim();
@@ -266,3 +274,11 @@ if (styleNode) {
 
 // Run immediately on script load
 debounceUpdateTheme();
+
+// Sync dynamic color across windows (e.g. popups, friends list)
+window.addEventListener('storage', (event) => {
+  if (event.key === 'material-dynamic-color' && event.newValue) {
+    enableDynamicTransitions();
+    generateAndApplyTheme(parseInt(event.newValue, 10));
+  }
+});
