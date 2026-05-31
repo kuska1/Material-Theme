@@ -78,11 +78,17 @@
                 "Custom": {
                     "TargetJs": {
                         "affects": [".*"], "src": "js/main/colors/custom.js"
+                    },
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/colors/blue.css"
                     }
                 },
                 "Dynamic (Beta)": {
                     "TargetJs": {
                         "affects": [".*"], "src": "js/main/colors/dynamic.js"
+                    },
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/main/colors/blue.css"
                     }
                 }
             }
