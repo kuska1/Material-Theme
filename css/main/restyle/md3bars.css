@@ -13,6 +13,13 @@
     min-width: 28px;
 }
 
+/* Plugins Support */
+/* Custom Buttons */
+body .millennium-custom-buttons {
+    padding: 0px 12px;
+    border-radius: var(--corner-radius-full);
+}
+
 /* Family View */
 /* ._2Szzh5sKyGgnLUR870zbDE:has(._34bQcTHo5QKzuujoEyU1tm) {
     min-width: 50px !important;

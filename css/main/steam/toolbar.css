@@ -161,9 +161,16 @@
     border-radius: var(--corner-radius-full) !important;
     box-shadow: unset !important;
 }
-.extension-main .content .name-and-version .update-pill {
+.extension-main .content .name-and-version .update-pill,
+.extension-main .content .name-and-version .compatibility-pill {
     border: unset !important;
+    box-shadow: unset !important;
+    text-shadow: unset !important;
     border-radius: var(--corner-radius-extra-small) !important;
+}
+.extendium-toolbar-manager-context-menu .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI {
+    padding-block: 4px !important;
+    margin-top: 2px !important;
 }
 
 

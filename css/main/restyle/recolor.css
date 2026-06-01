@@ -1472,6 +1472,20 @@ Green Notification
     color: var(--md-sys-color-on-primary);
     fill: var(--md-sys-color-on-primary);
 }
+/* Plugins Support */
+/* Custom Buttons */
+body .millennium-custom-buttons {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .millennium-custom-buttons:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body .millennium-custom-buttons:active {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
 
 /* --- TOOLTIPS --- */
 
@@ -5828,7 +5842,7 @@ body ._3Qa1urRRWR4tjkBSNaO8Wi._3Qa1urRRWR4tjkBSNaO8Wi:enabled:active:hover {
     background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-active));
 }
 body .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI {
-    background: transparent;
+    background: var(--md-sys-color-surface-container-high);
 }
 body .DialogToggleField_Option.On,
 body .DialogToggleField_Option.Off.Active {

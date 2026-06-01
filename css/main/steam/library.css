@@ -953,28 +953,28 @@ div.ModalPosition_Dismiss {
 .ModalPosition_Dismiss .closeButton svg {
     margin-bottom: 4px;
 }
-body .DialogBody .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:not(.eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI + *):not(:has(+ .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI)) {
+body .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:not(.eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI + *):not(:has(+ .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI)) {
     border-radius: var(--corner-radius-medium);
 }
-body .DialogBody .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:not(.eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI + *):has(+ .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI) {
+body .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:not(.eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI + *):has(+ .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI) {
     border-top-left-radius: var(--corner-radius-medium);
     border-top-right-radius: var(--corner-radius-medium);
     border-bottom-left-radius: var(--corner-radius-extra-small);
     border-bottom-right-radius: var(--corner-radius-extra-small);
 }
-body .DialogBody .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI + .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:has(+ .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI) {
+body .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI + .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:has(+ .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI) {
     border-top-left-radius: var(--corner-radius-extra-small);
     border-top-right-radius: var(--corner-radius-extra-small);
     border-bottom-left-radius: var(--corner-radius-extra-small);
     border-bottom-right-radius: var(--corner-radius-extra-small);
 }
-body .DialogBody .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI + .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:not(:has(+ .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI)) {
+body .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI + .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:not(:has(+ .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI)) {
     border-top-left-radius: var(--corner-radius-extra-small);
     border-top-right-radius: var(--corner-radius-extra-small);
     border-bottom-left-radius: var(--corner-radius-medium);
     border-bottom-right-radius: var(--corner-radius-medium);
 }
-:not( .SettingsDialogSubHeader )+.eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu) {
+:not(.SettingsDialogSubHeader)+.eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu) {
     margin-top: 4px;
 }
 /* Notifications */
