@@ -1217,7 +1217,7 @@ a._2HnDgHQT_3ehcs4WgskKG5,
 }
 
 /* Check for Updates */
-._1_yS5UP7el0aN4vntx3dx > div:not([class]) {
+html:has(._1bGewp3tfzqAF6fVTFFUOz[style*="display: none;"]) ._1_yS5UP7el0aN4vntx3dx > div:not([class]) {
     width: max-content !important;
     position: absolute !important;
     bottom: 70px !important;
