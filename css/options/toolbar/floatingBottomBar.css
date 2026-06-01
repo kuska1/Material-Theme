@@ -11,7 +11,10 @@ html:has(._1bGewp3tfzqAF6fVTFFUOz:not([style*="display: none;"])) ._2iJsgdTIX9Tj
     width: auto !important;
 }
 html:has(._1bGewp3tfzqAF6fVTFFUOz:not([style*="display: none;"])) ._1_yS5UP7el0aN4vntx3dx ._3vCzSrrXZzZjVJFZNg9SGu {
-    display: none !important;
+    max-height: 0px !important;
+}
+html:has(._1bGewp3tfzqAF6fVTFFUOz:not([style*="display: none;"])) ._1_yS5UP7el0aN4vntx3dx ._3vCzSrrXZzZjVJFZNg9SGu > div:not(.window_resize_grip) {
+    display: none;
 }
 
 
