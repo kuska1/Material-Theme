@@ -96,6 +96,14 @@ html.ModalDialogPopup.client_chat_frame body, /* Fix */
 ._3RNLmzBdpcg55exL2SwhT1 ._3K8Afwm4bvd9vSIzAz9siX ._1RfVQWVozb8NJ_wmCLAtxP>svg {
     color: var(--md-sys-color-on-surface);
 }
+/* Containers */
+.DialogBody .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI {
+    background: var(--md-sys-color-surface-container);
+}
+/* Notifications */
+.HVw3CRf81mlOgayKXNIIB._1t0fVZO9Sw-h1mjl2ROlMO {
+    background: var(--md-sys-color-surface);
+}
 
 /* Headers */
 .DialogHeader, .DesktopUI .CFTLX2wIKOK3hNV-fS7_V .DialogHeader, /* Modal */
@@ -105,6 +113,7 @@ html.ModalDialogPopup.client_chat_frame body, /* Fix */
 /* Sub Header */
 .SettingsDialogSubHeader /* Modal */,
 .ModalPosition_Content, /* Modal Content */
+.bTuHD5QOYlrI7ljo-zst7, /* Modal Notifications */
 ._3RNLmzBdpcg55exL2SwhT1 ._3K8Afwm4bvd9vSIzAz9siX ._1RfVQWVozb8NJ_wmCLAtxP, /* Your Family */
 ._1RCWDLVLFja1TdD1P53BMq.DesktopUI, .DesktopUI ._1RCWDLVLFja1TdD1P53BMq, .RmxP90Yut4EIwychIEg51.DesktopUI, /* Recording Tab Title */
 ._7EGqd8bdiXJBd2fj5Hh8r ._3HgL0eRQXwU6dIEXXK6qba ._1RUoX0kTOBfqpwCaBZGDLJ, /* Recording Tab Card Title */
@@ -475,6 +484,7 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton.Disabled, button.cXzBZxhPBl7fZs9LODEnc
     color: var(--md-sys-color-on-tertiary) !important;
 }
 body .DialogDropDown, ._3few7361SOf4k_YuKCmM62 .DialogDropDown, /* Base */
+._2J170P0ckFcUIlsDU13MLS ._DialogInputContainer, /* Filters */
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown, /* Game Properties Modal */
 .DesktopUI .MillenniumDesktopSidebar_Content .DialogDropDown._DialogInputContainer, /* Millenium Theme Settings */
 ._3jj_KvFzq6XW7NasX_7Tvv.DesktopUI .DialogDropDown, .DesktopUI ._3jj_KvFzq6XW7NasX_7Tvv .DialogDropDown, /* Modal / EULA */
@@ -483,7 +493,8 @@ body select.gray_bevel /* Community */ {
     color: var(--md-sys-color-on-primary);
     background: var(--md-sys-color-primary);
 }
-body .DialogDropDown:hover, ._3few7361SOf4k_YuKCmM62 .DialogDropDown:hover, /* Hover */
+body .DialogDropDown:hover, ._3few7361SOf4k_YuKCmM62 .DialogDropDown:hover, /* Base */
+._2J170P0ckFcUIlsDU13MLS ._DialogInputContainer:hover, /* Filters */
 ._1FyBL6obxHQ2Z2CsaV2Gbz._1FyBL6obxHQ2Z2CsaV2Gbz:not(.HkTNMTzgCdY-DINJyKsGL) .DialogDropDown:hover, /* Game Properties Modal */
 .DesktopUI .MillenniumDesktopSidebar_Content .DialogDropDown._DialogInputContainer:hover, /* Millenium Theme Settings */
 ._3jj_KvFzq6XW7NasX_7Tvv.DesktopUI .DialogDropDown:hover, .DesktopUI ._3jj_KvFzq6XW7NasX_7Tvv .DialogDropDown:hover,
@@ -492,7 +503,8 @@ body select.gray_bevel:hover /* Community */ {
     color: var(--md-sys-color-on-primary);
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
-body .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu /* Icon */ {
+body .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu, /* Icon */
+._2J170P0ckFcUIlsDU13MLS ._DialogInputContainer .DialogDropDown_Arrow svg {
     color: var(--md-sys-color-on-primary);
     fill: var(--md-sys-color-on-primary);
 }
@@ -542,11 +554,19 @@ body .DialogRoundCheckboxField_Control {
     color: var(--md-sys-color-on-surface-variant);
     background: var(--md-sys-color-surface-container);
 }
+.DialogBody .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI .HijmccPB1BKyhOwhX1EVl {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-high);
+}
 /* Hover */
 .HijmccPB1BKyhOwhX1EVl:not(._3hmGW9wIxNIoPPu1aS7rFm):hover,
 body .DialogRoundCheckboxField_Container:hover .DialogRoundCheckboxField_OuterCircle {
     color: var(--md-sys-color-on-surface-variant);
     background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface-variant) var(--layer-action-hover));
+}
+.DialogBody .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI .HijmccPB1BKyhOwhX1EVl:hover {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface-variant) var(--layer-action-hover));
 }
 /* Chosen */
 .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q,
@@ -554,8 +574,16 @@ body .DialogRoundCheckboxField_Control .DialogRoundCheckboxField_InnerCircle {
     color: var(--md-sys-color-on-primary);
     background: var(--md-sys-color-primary);
 }
+.DialogBody .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
 /* Hover Chosen */
 .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:hover {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+.DialogBody .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI .HijmccPB1BKyhOwhX1EVl._3-_jME_xsuvgT3Dvq4bw_q:hover {
     color: var(--md-sys-color-on-primary);
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
@@ -565,17 +593,20 @@ svg.SVGIcon_DialogCheck defs linearGradient stop {
     stop-color: var(--md-sys-color-primary);
 }
 /* Outline Buttons */
-body .btnv6_white_transparent > span {
+body .btnv6_white_transparent > span,
+body .ocGJeG5PHmw- h2 .uHCxF9X9JUk- {
     color: var(--md-sys-color-on-surface-variant) !important;
     border-color: var(--md-sys-color-outline) !important;
     background: transparent !important;
 }
-body .btnv6_white_transparent:hover > span {
+body .btnv6_white_transparent:hover > span,
+.ocGJeG5PHmw- h2 .uHCxF9X9JUk-:hover {
     color: var(--md-sys-color-on-surface-variant) !important;
     border-color: var(--md-sys-color-outline) !important;
     background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface-variant) var(--layer-action-hover)) !important;
 }
-body .btnv6_white_transparent:active > span {
+body .btnv6_white_transparent:active > span,
+.ocGJeG5PHmw- h2 .uHCxF9X9JUk-:active {
     color: var(--md-sys-color-on-surface-variant) !important;
     border-color: var(--md-sys-color-outline) !important;
     background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface-variant) var(--layer-action-hover)) !important;
@@ -3250,7 +3281,7 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 /* Achievements Fix */
 ._37Lk82ESPo7El4__sqZgOV ._2KA0p5xYePYygXUbjjsPzA {
     color: var(--md-sys-color-on-surface-variant);
-    background: var(--md-sys-color-surface-variant);
+    background: var(--md-sys-color-surface-container-low);
 }
 ._37Lk82ESPo7El4__sqZgOV ._2KA0p5xYePYygXUbjjsPzA ._1eZi9D2dwrPAL_LgwE0KVv {
     color: var(--md-sys-color-primary);
@@ -5245,14 +5276,14 @@ body .lWNIGdpQpu0-.HDXo8DVlUxI-.Y0BqhPMsT9c-._9fpFHkyl3os- {
 body .recharts-cartesian-axis-line {
     stroke: var(--md-sys-color-outline) !important;
 }
-body .recharts-text.recharts-cartesian-axis-tick-value,
-body .recharts-text.recharts-label {
+body .recharts-text.recharts-cartesian-axis-tick-value {
     fill: var(--md-sys-color-outline) !important;
 }
 body .recharts-cartesian-grid-horizontal line,
 body .recharts-cartesian-grid-vertical line {
     stroke: var(--md-sys-color-outline-variant) !important;
 }
+
 /* Tables */
 body .BdbYXccVa-c- tbody tr:nth-child(odd) {
     color: var(--md-sys-color-on-secondary-container);
@@ -5886,10 +5917,20 @@ body :where(.aHrC0Ty03KU-):hover, body :where(.RyUjQUOF2NI-):hover {
 body .tmIrUKf-Mh8-, body .sDK5fonBQMA-, body .De7wHKDUPG4- {
     background: var(--md-sys-color-surface-container-high);
 }
+body ._68RUj0Pwr4Q-,
+body .sDK5fonBQMA- ._4QZPaDoCaZQ-, body .De7wHKDUPG4- ._4QZPaDoCaZQ- {
+    background: var(--md-sys-color-surface-container-lowe);
+}
 body .tmIrUKf-Mh8- .BfmIgp5hDLQ- .CmHGWYJjMk0- a, body .sDK5fonBQMA- .BfmIgp5hDLQ- .CmHGWYJjMk0- a, body .De7wHKDUPG4- .BfmIgp5hDLQ- .CmHGWYJjMk0- a {
     color: var(--md-sys-color-outline);
 }
+body .zib7qOmJRh0- .m93XimXPi3Y- ._6Aijz-5CMLQ- a {
+    color: var(--md-sys-color-on-surface-variant);
+}
 body .tmIrUKf-Mh8- .BfmIgp5hDLQ- .CmHGWYJjMk0- a:hover, body .sDK5fonBQMA- .BfmIgp5hDLQ- .CmHGWYJjMk0- a:hover, body .De7wHKDUPG4- .BfmIgp5hDLQ- .CmHGWYJjMk0- a:hover {
+    color: var(--md-sys-color-primary);
+}
+body .zib7qOmJRh0- .m93XimXPi3Y- ._6Aijz-5CMLQ- a:hover {
     color: var(--md-sys-color-primary);
 }
 
@@ -5925,11 +5966,40 @@ body .xa7nOX-adjA- {
     color: var(--md-sys-color-inverse-on-surface);
     background: var(--md-sys-color-inverse-surface);
 }
-body .xa7nOX-adjA- .YSx27r8UVdU- {
+body .xa7nOX-adjA- .YSx27r8UVdU-,
+body .bRnh6PiLM-I- .BgRIiTNqRTE- {
     color: var(--md-sys-color-inverse-on-surface);
 }
-body .xa7nOX-adjA- .NI9oaXH36YQ- {
+body .xa7nOX-adjA- .NI9oaXH36YQ-,
+body .bRnh6PiLM-I- .qH5D-gLjGCk- {
     color: var(--md-sys-color-outline);
+}
+body .bRnh6PiLM-I- .PoaeTcPGYW8- {
+    color: var(--md-sys-color-outline-variant);
+}
+body .bRnh6PiLM-I- .btAITtMZ6Lc- {
+    color: var(--md-sys-color-on-primary-fixed);
+    background: var(--md-sys-color-primary-fixed);
+}
+body .recharts-tooltip-wrapper .JFSQ3YZWgoA-[data-elevation="1"] {
+    color: var(--md-sys-color-inverse-on-surface);
+    background: var(--md-sys-color-inverse-surface);
+}
+body .recharts-tooltip-wrapper .JFSQ3YZWgoA-[data-elevation="1"] .NI9oaXH36YQ- {
+    color: var(--md-sys-color-inverse-on-surface);
+}
+
+body .w--FxC-EhbA-.WlnQdqsCe5s-.HDXo8DVlUxI-._9fpFHkyl3os- .Thio3V0imwc-._0DdgBbU2bPk-._2RWLTCLE-0s-.krQEbDRNCFg- {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .w--FxC-EhbA-.WlnQdqsCe5s-.HDXo8DVlUxI-._9fpFHkyl3os- .Thio3V0imwc-._0DdgBbU2bPk-._2RWLTCLE-0s-.krQEbDRNCFg-:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body .w--FxC-EhbA-.WlnQdqsCe5s-.HDXo8DVlUxI-._9fpFHkyl3os- .Thio3V0imwc-._0DdgBbU2bPk-._2RWLTCLE-0s-.krQEbDRNCFg-:active {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
 }
 
 /* Assist Chips */
@@ -5937,12 +6007,15 @@ body .xa7nOX-adjA- {
     text-shadow: unset;
 }
 body .bRnh6PiLM-I- .O4UgSDFcO8M- {
-    border-color: var(--md-sys-color-outline-variant);
-    color: var(--md-sys-color-on-surface);
-    background: var(--md-sys-color-surface-container-low);
+    border-color: transparent;
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container);
 }
 body .bRnh6PiLM-I- .O4UgSDFcO8M-:hover {
-    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface-variant) var(--layer-action-hover));
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface-variant) var(--layer-action-hover));
+}
+body .bRnh6PiLM-I- .O4UgSDFcO8M-:active {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface-variant) var(--layer-action-active));
 }
 
 body ._608lprRkZlg- > .krQEbDRNCFg- {
@@ -5960,6 +6033,21 @@ body ._608lprRkZlg- > .krQEbDRNCFg-:hover {
 body ._608lprRkZlg- Button .xOimy4P39Gg-,
 body ._608lprRkZlg- Button:hover .xOimy4P39Gg- {
     color: var(--md-sys-color-on-secondary-container);
+}
+body .zib7qOmJRh0- .jEleAlNckAE- .krQEbDRNCFg-:where(.eAUu1dfYhY4-),
+body .De7wHKDUPG4- .MIBNAtgQ-dU- .krQEbDRNCFg-:where(._0DdgBbU2bPk-) {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .zib7qOmJRh0- .jEleAlNckAE- .krQEbDRNCFg-:where(.eAUu1dfYhY4-):hover,
+body .De7wHKDUPG4- .MIBNAtgQ-dU- .krQEbDRNCFg-:where(._0DdgBbU2bPk-):hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body .zib7qOmJRh0- .jEleAlNckAE- .krQEbDRNCFg-:where(.eAUu1dfYhY4-):active,
+body .De7wHKDUPG4- .MIBNAtgQ-dU- .krQEbDRNCFg-:where(._0DdgBbU2bPk-):active {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
 }
 /* Plus / On */
 body ._608lprRkZlg- .krQEbDRNCFg-:has(.xOimy4P39Gg-) {
@@ -6095,6 +6183,9 @@ body .pmrIOlLFYeU-[data-active="1"]:hover:not(._4wSqbI9T174-) {
 body .vpiI2bS0S6s- .vpiI2bS0S6s- {
     background: var(--md-sys-color-surface-container-high);
 }
+body ._57M6ApNFamc-.vpiI2bS0S6s-.JAg6-ldsh48-.bakqiaoQAlI-.trcXcSdC1tk- {
+    background: transparent;
+}
 
 /* Quick View */
 body .dXfyqsB-vXE-::backdrop {
@@ -6124,6 +6215,30 @@ body .iUEmwVRQDxI- .UszZC-hJD90-._528TPg1cCxQ-:after, body .iUEmwVRQDxI- .UszZC-
 }
 body .t1-DQ4KhiQ0-._4-VIszWOyjU- {
     background: var(--md-sys-color-surface-container);
+}
+
+body .zib7qOmJRh0- .O5DgeZxFN3c- {
+    color: var(--md-sys-color-on-surface);
+}
+body .zib7qOmJRh0- .XkgsW0CB3Ak- .O5DgeZxFN3c- {
+    color: var(--md-sys-color-outline);
+}
+body .zib7qOmJRh0- .XkgsW0CB3Ak- ._18KADSp-4O0- {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+body .zib7qOmJRh0- .m93XimXPi3Y- ._6Aijz-5CMLQ- {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .zib7qOmJRh0- .m93XimXPi3Y- ._6Aijz-5CMLQ- .O5DgeZxFN3c- {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+body .jZ0qfx0YM-A- .Q67xJ5-v-8M- {
+    background: var(--md-sys-color-secondary-container);
+}
+body .jZ0qfx0YM-A- .Q67xJ5-v-8M- .SVGIcon_Button {
+    color: var(--md-sys-color-on-secondary-container);
 }
 
 /* Misc */

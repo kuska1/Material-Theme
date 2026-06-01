@@ -953,6 +953,34 @@ div.ModalPosition_Dismiss {
 .ModalPosition_Dismiss .closeButton svg {
     margin-bottom: 4px;
 }
+body .DialogBody .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:not(.eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI + *):not(:has(+ .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI)) {
+    border-radius: var(--corner-radius-medium);
+}
+body .DialogBody .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:not(.eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI + *):has(+ .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI) {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+body .DialogBody .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI + .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:has(+ .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+body .DialogBody .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI + .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI:not(:has(+ .eKmEXJCm_lgme24Fp_HWt._2CCdODv0vfzOMrEBUzZwfI)) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+:not( .SettingsDialogSubHeader )+.eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu) {
+    margin-top: 4px;
+}
+/* Notifications */
+.HVw3CRf81mlOgayKXNIIB._1t0fVZO9Sw-h1mjl2ROlMO {
+    border-radius: var(--corner-radius-extra-small);
+}
 /* Modal Recording */
 /* Fix */
 ._21_rrXIoZ7yQbc0u7rhvkP {
@@ -1428,9 +1456,19 @@ html:has(._1bGewp3tfzqAF6fVTFFUOz[style*="display: none;"]) ._2iJsgdTIX9Tj23rWnB
 .MillenniumDesktopSidebar_EditorContent .DialogDropDown {
     padding: 8px 12px !important;
 }
-
+.MillenniumPluginSettingsSliderValue, .MillenniumThemeSliderValue {
+    right: 5px !important;
+    top: 10px !important;
+}
 .MillenniumDesktopSidebar_EditorContent ._1W1to_azoBRG95oNAFpf9Q {
     width: fit-content;
+}
+.MillenniumButtonsSection {
+    margin-bottom: 8px;
+}
+.MillenniumDesktopSidebar_EditorContent .DialogBody .eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu).xIITXDcM70faUNqssgUyx {
+    padding-inline: 0px;
+    background: transparent;
 }
 
 
@@ -1476,9 +1514,7 @@ html[lang="ja"] ._39oUCO1OuizVPwcnnv88no ._30vB9DdsPK7VrZAbb5Q1Av::after {
 /* Text for confused users */
 .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::after {
     content: " !!! This setting is not used by Material Theme. If you need to change custom color go to Theme Settings -> Colors -> Custom Accent Color.";
-    position: absolute;
-    left: 0;
-    top: 48px;
+    display: -webkit-box;
 }
 /* Locales */
 html[lang="uk"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::after {
