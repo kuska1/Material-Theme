@@ -1224,7 +1224,7 @@ html:has(._1bGewp3tfzqAF6fVTFFUOz[style*="display: none;"]) ._1_yS5UP7el0aN4vntx
     left: 50% !important;
     transform: translateX(-50%) !important;
 }   
-._2iJsgdTIX9Tj23rWnB7Q-c {
+html:has(._1bGewp3tfzqAF6fVTFFUOz[style*="display: none;"]) ._2iJsgdTIX9Tj23rWnB7Q-c {
     border-radius: var(--corner-radius-large);
 }
 
@@ -1463,7 +1463,7 @@ html[lang="uk"] ._39oUCO1OuizVPwcnnv88no ._30vB9DdsPK7VrZAbb5Q1Av::after {
     content: "Якщо ви бачите цей текст - тема працює некоректно! Перевірте налаштування теми, можливо, щось змінилося після оновлення. Не соромтеся повідомити про це через GitHub або Discord сервер.";
 }
 html[lang="ru"] ._39oUCO1OuizVPwcnnv88no ._30vB9DdsPK7VrZAbb5Q1Av::after {
-    content: "Если вы видите этот текст - тема працює некорректно! Проверьте настройки темы, возможно, что-то изменилось после обновления. Сообщите об этом через GitHub или Discord сервер.";
+    content: "Если вы видите этот текст - тема работает некорректно! Проверьте настройки темы, возможно, что-то изменилось после обновления. Сообщите об этом через GitHub или Discord сервер.";
 }
 html[lang="zh-cn"] ._39oUCO1OuizVPwcnnv88no ._30vB9DdsPK7VrZAbb5Q1Av::after {
     content: "如果您看到此文本，则表示主题已损坏！请检查主题设置，可能是更新后某些设置被更改了。您可以通过 GitHub 或 Discord 服务器报告此问题。  (Google Translate)";
