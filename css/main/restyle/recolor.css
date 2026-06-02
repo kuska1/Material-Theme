@@ -436,11 +436,9 @@ button.cXzBZxhPBl7fZs9LODEnc.DialogButton:active, button.cXzBZxhPBl7fZs9LODEnc.D
 /* Card Button */
 button.TEWmsM70ZLEOxLAjDMpcv ._3wadwgMy2-9k8uOKh3iSdT, /* Text */
 button.TEWmsM70ZLEOxLAjDMpcv svg, /* Icon */
-._35ztZulp_gETT1gOElpfvK /* Little Text */ {
-    color: var(--md-sys-color-on-primary);
-}
+._35ztZulp_gETT1gOElpfvK, /* Little Text */
 button.TEWmsM70ZLEOxLAjDMpcv ._3Wb9yDmYPUJksCr7HmaT9H /* Under Text */ {
-    color: var(--md-sys-color-surface-dim);
+    color: var(--md-sys-color-on-primary);
 }
 /* Disabled */
 button.DialogButton:disabled, /* Basic */
@@ -869,7 +867,8 @@ body .RJuzsEBZ8kM-.BmkyU9JH47M- {
     background-color: color-mix(in srgb, transparent, var(--md-sys-color-outline) var(--layer-action-active));
 }
 ._23SnllqT_AqZ1C_QHcNQ4Z ._1OGfHXv6ksR1Ub-OuLN2NB {
-    stroke: var(--md-sys-color-surface);
+    stroke: var(--md-sys-color-on-surface);
+    fill: var(--md-sys-color-on-surface);
 }
 
 /* --- MENU --- */
@@ -981,6 +980,9 @@ body select.gray_bevel option:hover, body select.gray_bevel option:focus /* Comm
 }
 .ZmsElITvVzU-7a2HXKBZI, ._3WuFl419BivPeLqeVIC939 {
     color: var(--md-sys-color-on-surface);
+}
+.PP7LM0Ow1K5qkR8WElLpt .recentName {
+    color: var(--md-sys-color-on-surface-variant);
 }
 /* Items */
 .DesktopUI ._1n7Wloe5jZ6fSuvV18NNWI, /* Base */
@@ -1975,7 +1977,8 @@ border-radius: var(--corner-radius-medium);
     background: var(--md-sys-color-surface-variant) !important;
 }
 ._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7 .Woh0kBQCmatzC1daBX9i6,
-._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7._1v65xCmMo53Ju6vCXk4U0_:before {
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7._1v65xCmMo53Ju6vCXk4U0_:before,
+._20QAC4WMXm8qFE8waUT5oo .vCCmYvn9yQ_V8CpKupllU ._1dgAMymUAUYzUcZjUjOFm7:before {
     color: var(--md-sys-color-on-surface-variant);
     background: var(--md-sys-color-surface-variant);
 }
@@ -1983,14 +1986,14 @@ border-radius: var(--corner-radius-medium);
 ._170Npw5h84elypMSQ8zNDI ._1axoiZsC1RBp22JQmxiBIc ._3iV2vMTw_vwWJ_gmiz1Q1k {
     color: var(--md-sys-color-primary);
 }
-/* Filters Temp */
+/* Filters */
 ._172OFJhtx4Jt2ydY6-9IUm ._3gzh_NvTKey56JeHY7Q1WW {
-    color: var(--md-sys-color-on-primary);
-    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
 }
 ._172OFJhtx4Jt2ydY6-9IUm ._3gzh_NvTKey56JeHY7Q1WW svg,
 ._172OFJhtx4Jt2ydY6-9IUm ._3gzh_NvTKey56JeHY7Q1WW svg line {
-    color: var(--md-sys-color-on-primary);
+    color: var(--md-sys-color-on-secondary-container);
     stroke: currentColor;
 }
 /* Category */
@@ -2005,7 +2008,7 @@ border-radius: var(--corner-radius-medium);
 ._2sYIghGVXJr6tsQVvcryy8.sXMOsx8OIRalBMxO9yFY5 /* Chosen */ {
     background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-primary) var(--layer-action-active));
 }
-._3cV3O8FnPQqpJO5kIMUlLX, /* Text */
+._3cV3O8FnPQqpJO5kIMUlLX, ._2sYIghGVXJr6tsQVvcryy8._1dcGFHhye9BeEOg7CkFNQG ._3cV3O8FnPQqpJO5kIMUlLX, /* Text */
 ._3cV3O8FnPQqpJO5kIMUlLX:hover ._2mZ8LlvoUiyeEUtIWuTri, /* Text Hover */
 ._2sYIghGVXJr6tsQVvcryy8.sXMOsx8OIRalBMxO9yFY5 ._3cV3O8FnPQqpJO5kIMUlLX /* Text Chosen */ {
     color: var(--md-sys-color-on-surface);
@@ -2153,10 +2156,12 @@ border-radius: var(--corner-radius-medium);
 ._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer {
     background: var(--md-sys-color-surface-container-high);
 }
-._23SnllqT_AqZ1C_QHcNQ4Z:not(._2Ho8z58cxQIJljp55uGkdt) ._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer:hover {
+._23SnllqT_AqZ1C_QHcNQ4Z:not(._2Ho8z58cxQIJljp55uGkdt) ._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer:hover,
+._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer.DialogDropDown:hover, ._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer.DialogDropDown:focus {
     background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface) var(--layer-action-hover));
 }
-._23SnllqT_AqZ1C_QHcNQ4Z:not(._2Ho8z58cxQIJljp55uGkdt) ._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer:active {
+._23SnllqT_AqZ1C_QHcNQ4Z:not(._2Ho8z58cxQIJljp55uGkdt) ._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer:active,
+._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer.DialogDropDown:active, ._1tBzypb5E2AwNuBuVns9Hl ._DialogInputContainer.DialogDropDown:active {
     background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface) var(--layer-action-active));
 }
 /* Cards order */
@@ -6521,6 +6526,13 @@ body #fgg-scan-result {
 }
 .MillenniumDesktopSidebar[data-focused-item-type="PLUGIN"] .MillenniumDesktopSidebar_EditorContent div[style*="background: white"] {
     background: var(--md-sys-color-on-surface) !important;
+}
+
+
+/* --- OTHER --- */
+.DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumThemes_Author::after {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
 }
 
 /* Test */

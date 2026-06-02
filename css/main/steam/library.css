@@ -1466,9 +1466,8 @@ html:has(._1bGewp3tfzqAF6fVTFFUOz[style*="display: none;"]) ._2iJsgdTIX9Tj23rWnB
 .MillenniumButtonsSection {
     margin-bottom: 8px;
 }
-.MillenniumDesktopSidebar_EditorContent .DialogBody .eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu).xIITXDcM70faUNqssgUyx {
-    padding-inline: 0px;
-    background: transparent;
+.MillenniumThemes_Author a {
+    cursor: pointer;
 }
 
 
@@ -1545,8 +1544,38 @@ html[lang="ja"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::aft
 /* Show Patreon */
 .DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumThemes_Author::after {
     content: "Patreon: Flowird";
+    /* position: absolute;
+    right: 12px;
+    margin-top: 4px; */
+    padding-inline: 5px;
+    margin-left: 6px;
+    border-radius: var(--corner-radius-extra-small);
+}
+
+/* Options */
+.MillenniumDesktopSidebar_EditorContent .DialogBody .eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu).xIITXDcM70faUNqssgUyx {
+    padding-inline: 0px;
+    padding-block: 8px;
+    background: transparent;
+}
+.MillenniumDesktopSidebar_EditorContent .DialogBody .eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu).xIITXDcM70faUNqssgUyx::after {
+    content: "";
     position: absolute;
+    height: 1px;
+    width: 100%;
+    margin: auto;
+    left: 0;
     right: 0;
+    bottom: 0;
+}
+
+/* Sub Options */
+.MillenniumDesktopSidebar_EditorContent .DialogBody .eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu).xIITXDcM70faUNqssgUyx.\-:nth-of-type(even) {
+    padding-left: 12px;
+    padding-top: 0px;
+}
+.MillenniumDesktopSidebar_EditorContent .DialogBody:has(> .\-) .eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu).xIITXDcM70faUNqssgUyx:nth-of-type(odd)::after {
+    display: none;
 }
 
 /* Fix */
