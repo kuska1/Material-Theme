@@ -4,6 +4,7 @@
     border-radius: var(--corner-radius-extra-small);
     font-size: var(--font-body-small-size);
     font-weight: var(--font-body-small-weight);
+    box-shadow: var(--elevated-shadow);
     max-width: 200px;
     z-index: 9999;
     pointer-events: none;

@@ -1458,7 +1458,7 @@ html:has(._1bGewp3tfzqAF6fVTFFUOz[style*="display: none;"]) ._2iJsgdTIX9Tj23rWnB
 }
 .MillenniumPluginSettingsSliderValue, .MillenniumThemeSliderValue {
     right: 5px !important;
-    top: 10px !important;
+    top: 5px !important;
 }
 .MillenniumDesktopSidebar_EditorContent ._1W1to_azoBRG95oNAFpf9Q {
     width: fit-content;
@@ -1473,7 +1473,7 @@ html:has(._1bGewp3tfzqAF6fVTFFUOz[style*="display: none;"]) ._2iJsgdTIX9Tj23rWnB
 
 /* Fallback */
 ._39oUCO1OuizVPwcnnv88no ._30vB9DdsPK7VrZAbb5Q1Av::after {
-    content: "If you see this text - theme is broken! Verify theme settings, something may have changed since the update. Feel free to report it via GitHub or Discord Server.";
+    content: "If you see this text - Material Theme is broken! Verify theme settings, something may have changed since the update.\A Feel free to report it via GitHub or Discord Server.";
     text-align: center;
     /* color: var(--md-sys-color-primary, red); */
     color: color-mix(in srgb, var(--md-sys-color-primary), transparent 100%);
@@ -1483,8 +1483,9 @@ html:has(._1bGewp3tfzqAF6fVTFFUOz[style*="display: none;"]) ._2iJsgdTIX9Tj23rWnB
     top: 0px;
     bottom: 0px;
     margin: auto;
-    width: 50%;
+    /* width: 50%;   */
     height: fit-content;
+    white-space: pre-wrap;
 
     pointer-events: none;
     user-select: none;

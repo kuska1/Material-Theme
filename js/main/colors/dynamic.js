@@ -151,7 +151,6 @@ async function generateAndApplyTheme(sourceArgb) {
     return;
   }
 
-  const root = document.documentElement;
   const computedStyle = getComputedStyle(document.documentElement);
   const schemeMode = computedStyle.getPropertyValue('--scheme').trim() || 'dark';
 
@@ -188,17 +187,26 @@ async function generateAndApplyTheme(sourceArgb) {
     'tertiaryFixed', 'tertiaryFixedDim', 'onTertiaryFixed', 'onTertiaryFixedVariant'
   ];
 
-  // Apply colors as CSS variables
+  // Apply colors via <style id="material-colors"> in <head>
+  const lines = [];
   colorRoles.forEach(role => {
     try {
       let argb = m3Scheme[role];
       if (argb !== undefined && argb !== null) {
-        root.style.setProperty(prefix + toKebabCase(role), argbToHexCustom(argb));
+        lines.push(`  ${prefix}${toKebabCase(role)}: ${argbToHexCustom(argb)};`);
       }
     } catch (err) {
       console.error(logText, logCss, `Error: ${err}`)
     }
   });
+
+  let styleEl = document.getElementById('material-colors');
+  if (!styleEl) {
+    styleEl = document.createElement('style');
+    styleEl.id = 'material-colors';
+    document.head.appendChild(styleEl);
+  }
+  styleEl.textContent = `:root {${lines.join('\n')}}`;
 
   console.info(logText, logCss, `Fidelity Scheme applied successfully using ${sourceArgb}.`);
 }
@@ -207,9 +215,12 @@ async function generateAndApplyTheme(sourceArgb) {
  * Main update logic: checks for a game cover image first, then falls back to system color.
  */
 async function updateTheme() {
-  const img = document.querySelector('img.HNbe3eZf6H7dtJ042x1vM'); // Selector for game artwork
+  // Selector for game artwork: 1 - blur variant, 2 - original variant
+  const img = document.querySelector('img.HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u')
+           ?? document.querySelector('.QlR9EFwTdUNm_J5vx54_Z img.HNbe3eZf6H7dtJ042x1vM');
   try {
     if (img && img.src && !img.src.includes('clear.png')) {
+      console.debug(logText, logCss, `Found image ${img.src}.`);
       enableDynamicTransitions();
       const color = await getAccentColorFromImage(img);
       localStorage.setItem('material-dynamic-color', color.toString());
@@ -243,39 +254,48 @@ function debounceUpdateTheme() {
   updateTimeout = setTimeout(updateTheme, 200);
 }
 
-// Watch for game artwork (cover images) being added to the DOM
-const observer = new MutationObserver((mutations) => {
-  for (const m of mutations) {
-    for (const node of m.addedNodes) {
-      if (node.nodeType === 1) {
-        if (node.matches?.('.QlR9EFwTdUNm_J5vx54_Z img.HNbe3eZf6H7dtJ042x1vM') || node.querySelector?.('.QlR9EFwTdUNm_J5vx54_Z img.HNbe3eZf6H7dtJ042x1vM')) {
-          debounceUpdateTheme();
-          return;
+// Check if current page is a game library page
+const isLibraryPage = document.documentElement.classList.contains('Rp8QOGJ2DypeDniMnRBhr');
+
+if (isLibraryPage) {
+  // Watch for game artwork (cover images) being added to the DOM
+  const observer = new MutationObserver((mutations) => {
+    for (const m of mutations) {
+      for (const node of m.addedNodes) {
+        if (node.nodeType === 1) {
+          if (node.matches?.('.HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u') || node.querySelector?.('.HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u')) {
+            debounceUpdateTheme();
+            return;
+          }
         }
       }
     }
-  }
-});
-observer.observe(document.body, { childList: true, subtree: true });
-
-// Watch for changes in the system accent color style node
-const styleNode = document.getElementById('RootColors');
-if (styleNode) {
-  const styleObserver = new MutationObserver(debounceUpdateTheme);
-  
-  styleObserver.observe(styleNode, {
-    childList: true,
-    characterData: true,
-    subtree: true
   });
+  observer.observe(document.body, { childList: true, subtree: true });
+
+  // Watch for changes in the system accent color style node
+  const styleNode = document.getElementById('RootColors');
+  if (styleNode) {
+    const styleObserver = new MutationObserver(debounceUpdateTheme);
+    
+    styleObserver.observe(styleNode, {
+      childList: true,
+      characterData: true,
+      subtree: true
+    });
+  } else {
+    console.warn(logText, logCss, '#RootColors not found. Dynamic updates disabled.');
+  }
+
+  // Run immediately on script load
+  debounceUpdateTheme();
 } else {
-  console.warn(logText, logCss, '#RootColors not found. Dynamic updates disabled.');
+  console.debug(logText, logCss, 'Not a library page (missing .Rp8QOGJ2DypeDniMnRBhr). DOM watching disabled.');
+  updateTheme();
 }
 
-// Run immediately on script load
-debounceUpdateTheme();
-
 // Sync dynamic color across windows (e.g. popups, friends list)
+// Always active regardless of page type
 window.addEventListener('storage', (event) => {
   if (event.key === 'material-dynamic-color' && event.newValue) {
     enableDynamicTransitions();

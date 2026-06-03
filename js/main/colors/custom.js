@@ -27,7 +27,6 @@ const argbToHexCustom = (argb) => {
 const toKebabCase = (str) => str.replace(/[A-Z]/g, m => '-' + m.toLowerCase());
 
 function generateAndApplyScheme() {
-  const root = document.documentElement;
   const computedStyle = getComputedStyle(document.documentElement);
   
   // Retrieve the system accent color and the current theme mode (light/dark) from CSS variables
@@ -64,17 +63,26 @@ function generateAndApplyScheme() {
     'tertiaryFixed', 'tertiaryFixedDim', 'onTertiaryFixed', 'onTertiaryFixedVariant'
   ];
 
-  // 4. Map the generated colors to CSS variables on the :root element
+  // 4. Build CSS variable declarations and inject into <style id="material-colors"> in <head>
+  const lines = [];
   colorRoles.forEach(role => {
     try {
       let argb = m3Scheme[role];
       if (argb !== undefined && argb !== null) {
-        root.style.setProperty(prefix + toKebabCase(role), argbToHexCustom(argb));
+        lines.push(`  ${prefix}${toKebabCase(role)}: ${argbToHexCustom(argb)};`);
       }
     } catch (err) {
-      console.error(logText, logCss, `Error: ${err}`)
+      console.error(logText, logCss, `Error: ${err}`);
     }
   });
+
+  let styleEl = document.getElementById('material-colors');
+  if (!styleEl) {
+    styleEl = document.createElement('style');
+    styleEl.id = 'material-colors';
+    document.head.appendChild(styleEl);
+  }
+  styleEl.textContent = `:root {${lines.join('\n')}}`;
 
   console.info(logText, logCss, `Fidelity Scheme applied successfully using ${sourceHex}.`);
 }
