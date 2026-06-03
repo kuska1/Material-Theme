@@ -167,6 +167,27 @@ body .game_info_badge_border {
     border-style: none;
     border-width: 0px;
 }
+/* Easier Publicly Visible Images */
+.publishedfile_popup_screenshot,
+.publishedfile_popup_screenshot > img {
+    min-height: 96px;
+    object-fit: cover;
+}
+
+/* #BatchScreenshotManagement {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+} */
+#mainContents_sharedfiles .imgWallItem,
+#mainContents_sharedfiles .imageWallRow a.profile_media_item, #mainContents_sharedfiles .video_item a.profile_media_item {
+    min-height: 96px;
+}
+#mainContents_sharedfiles .imageWall4Split .splitSubs .splitSubSubs {
+    margin-top: 8px;
+}
+
+
 /* Bottom Gradient */
 /* .profile_content.has_profile_background::after {
     content: "";
