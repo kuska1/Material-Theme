@@ -26,13 +26,14 @@ body .popup_block_new .popup_body #NamePopupClearAliases > a:hover {
     color: var(--md-sys-color-on-surface);
 }
 /* Columns */
-body .profile_customization,
-body .profile_rightcol,
-body .profile_comment_area {
+html .profile_customization_header,
+html body .profile_customization,
+html body .profile_rightcol,
+html body .profile_comment_area {
     border-radius: var(--corner-radius-small);
 }
 /* Badge */
-body .profile_header_badge {
+html body .profile_header_badge {
     border-radius: var(--corner-radius-medium);
 }
 /* VAC Ban */

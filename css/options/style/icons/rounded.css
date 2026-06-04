@@ -37,7 +37,7 @@ body .commentthread_comment_friendindicator,
 body .friendBlock.persona .friendBlockLinkOverlay {
     background: unset;
 }
-#profile_action_dropdown .popup_menu_item img:not([src*="plugins/extendium/.extension"]),
+#profile_action_dropdown .popup_menu_item img:not([src*="chrome-extension://"]),
 body .account_header_line > div > img,
 body .commentthread_comment_actions .actionlink > img,
 body .friendBlock.persona .friendBlockStatusIcon > img {

@@ -221,6 +221,7 @@ body .r-IB7hJgZPM-::before {
 body .Zaj1eMuo8Qo-,
 body .heK9iNtr1G8-,
 body .GVTLyNN3x-4-,
+body .popup_block .popup_body,
 body .QnwwCwfxNe0-, body ._2gWMMaJ3-fQ-,
 body .JFSQ3YZWgoA-[data-elevation="1"] {
     filter: unset;
@@ -229,7 +230,12 @@ body .JFSQ3YZWgoA-[data-elevation="1"] {
     border-radius: var(--corner-radius-small);
 }
 
-body .GVTLyNN3x-4- {    
+body .popup_block > div:not(.popup_body) {
+    display: none;
+}
+
+body .GVTLyNN3x-4-,
+body .popup_block .popup_body {    
     padding-block: 8px;
     z-index: 999 !important;
 }

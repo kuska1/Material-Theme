@@ -591,18 +591,21 @@ svg.SVGIcon_DialogCheck defs linearGradient stop {
     stop-color: var(--md-sys-color-primary);
 }
 /* Outline Buttons */
+body .btnv6_white_transparent,
 body .btnv6_white_transparent > span,
 body .ocGJeG5PHmw- h2 .uHCxF9X9JUk- {
     color: var(--md-sys-color-on-surface-variant) !important;
     border-color: var(--md-sys-color-outline) !important;
     background: transparent !important;
 }
+body .btnv6_white_transparent:hover,
 body .btnv6_white_transparent:hover > span,
 .ocGJeG5PHmw- h2 .uHCxF9X9JUk-:hover {
     color: var(--md-sys-color-on-surface-variant) !important;
     border-color: var(--md-sys-color-outline) !important;
     background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface-variant) var(--layer-action-hover)) !important;
 }
+body .btnv6_white_transparent:active,
 body .btnv6_white_transparent:active > span,
 .ocGJeG5PHmw- h2 .uHCxF9X9JUk-:active {
     color: var(--md-sys-color-on-surface-variant) !important;
@@ -869,6 +872,12 @@ body .RJuzsEBZ8kM-.BmkyU9JH47M- {
 ._23SnllqT_AqZ1C_QHcNQ4Z ._1OGfHXv6ksR1Ub-OuLN2NB {
     stroke: var(--md-sys-color-on-surface);
     fill: var(--md-sys-color-on-surface);
+}
+
+/* Plugins Support */
+/* Custom Buttons */
+html._14wqdluDeDnnEcg3OSLEmd ._2EstNjFIIZm_WUSKm5Wt7n:has(>div[data-restart-steam-root-item="reload"]) div[style*="background: rgba(19, 19, 19, 0.85)"] {
+    background: var(--md-sys-color-outline-variant) !important;
 }
 
 /* --- MENU --- */
@@ -5323,11 +5332,16 @@ body .BdbYXccVa-c- {
     }
 }
 /* Footer */
-footer._291ttHtxyu5obiKzor2G9G {
+footer._291ttHtxyu5obiKzor2G9G,
+html #footer.compact .footer_content {
     background: var(--md-sys-color-surface-container-lowest);
 }
+html #footer.compact .footer_content {
+    background: var(--md-sys-color-surface-container-lowest) !important;
+}
 footer .f6hU22EA7Z8peFWZVBJU,
-footer .g8vToPr0EO3CpytRyimNA.g8vToPr0EO3CpytRyimNA {
+footer .g8vToPr0EO3CpytRyimNA.g8vToPr0EO3CpytRyimNA,
+html #footer.compact .footer_content #footerText {
     color: var(--md-sys-color-outline);
 }
 footer._291ttHtxyu5obiKzor2G9G a {
@@ -5335,6 +5349,12 @@ footer._291ttHtxyu5obiKzor2G9G a {
 }
 footer._291ttHtxyu5obiKzor2G9G a:hover {
     color: color-mix(in srgb, var(--md-sys-color-on-surface-variant), var(--md-sys-color-primary) 50%);
+}
+html #footer.compact .footer_content #footerText a {
+    color: var(--md-sys-color-primary);
+}
+html #footer.compact .footer_content #footerText a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface-variant) 50%);
 }
 /* -- PROFILE -- */
 /* Valve Employee */
@@ -6148,6 +6168,7 @@ body .ZDCM41VT-K8- {
 body .Zaj1eMuo8Qo-,
 body .heK9iNtr1G8-,
 body .GVTLyNN3x-4-,
+body .popup_block .popup_body,
 body .QnwwCwfxNe0-, body ._2gWMMaJ3-fQ-,
 body .vpiI2bS0S6s- /* Date Picker */ {
     color: var(--md-sys-color-on-surface);
@@ -6165,15 +6186,21 @@ body .Zaj1eMuo8Qo- .fKeHSh3rwXM-:hover {
 }
 
 body .wmrAq4UPe1Q-,
-body .wmrAq4UPe1Q-[aria-disabled="true"] {
+body .wmrAq4UPe1Q-[aria-disabled="true"],
+body .popup_menu .popup_menu_item {
     color: var(--md-sys-color-on-surface);
     background: transparent;
 }
 body .wmrAq4UPe1Q-:hover,
 body .wmrAq4UPe1Q-[data-focused=true],
-body .wmrAq4UPe1Q-[data-selected=true] {
+body .wmrAq4UPe1Q-[data-selected=true],
+body .popup_menu .popup_menu_item:hover, body .popup_menu .popup_menu_item.focus {
     color: var(--md-sys-color-on-surface);
     background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+
+body .popup_menu span.popup_menu_item:hover {
+    background: transparent
 }
 
 body ._2I7QbE12pvc- {

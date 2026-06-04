@@ -2,3 +2,10 @@ body:not(.infinite_scrolling) footer._291ttHtxyu5obiKzor2G9G {
     border-top-left-radius: var(--corner-radius-large);
     border-top-right-radius: var(--corner-radius-large);
 }
+html #footer.compact {
+    left: 5px;
+    bottom: 5px;
+}
+html #footer.compact .footer_content {
+    border-radius: var(--corner-radius-small);
+}

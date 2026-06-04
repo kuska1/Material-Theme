@@ -78,7 +78,8 @@ body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
     height: 1px;
 }
 .WUOrULWKkGLl3ZUQdDXg8,
-._2jXHP0742MyApMUVUM8IFn._21GPYlKBCLsHQpTsHw_RL_ {
+._2jXHP0742MyApMUVUM8IFn._21GPYlKBCLsHQpTsHw_RL_,
+html._14wqdluDeDnnEcg3OSLEmd ._2EstNjFIIZm_WUSKm5Wt7n:has(>div[data-restart-steam-root-item="reload"]) div[style*="background: rgba(19, 19, 19, 0.85)"] {
     width: 95%;
     margin: auto;
 }
