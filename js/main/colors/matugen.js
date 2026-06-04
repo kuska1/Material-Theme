@@ -3,8 +3,8 @@ const logCss = 'background: #256ab8; color: #ffffff'
 
 console.debug(logText, logCss, `matugen.js is running in ${window.location.href}.`);
 
-const FALLBACK_URL = "https://millennium.host/v1/themes/Material-Theme/css/main/colors/matugen.css";
-const PRIMARY_URL = "https://steamloopback.host/skins/Material-Theme/css/main/colors/matugen.css";
+const PRIMARY_URL = "https://millennium.host/v1/themes/Material-Theme/css/main/colors/matugen.css";
+const FALLBACK_URL = "https://steamloopback.host/skins/Material-Theme/css/main/colors/matugen.css";
 
 let link_url = PRIMARY_URL;
 
