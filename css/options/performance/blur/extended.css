@@ -1,0 +1,18 @@
+/* Big Game Card */
+body ._2nq-zpLz_Efnz7D3Qzi4mA {
+    display: block;
+    opacity: 0.1;
+}
+/* Game Hover */
+body .AcLtE9axR9tWhAVfDP9lv {
+    display: block;
+    opacity: 0.2;
+}
+/* Modal Overlay Background */
+/* body .ModalOverlayBackground {
+    backdrop-filter: blur(4px);
+} */
+.FullModalOverlay:has(.ModalOverlayBackground) .DialogContent {
+    backdrop-filter: blur(10px);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), transparent var(--layer-action-hover));
+}

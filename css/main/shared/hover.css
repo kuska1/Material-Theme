@@ -50,7 +50,8 @@ body .miniprofile_featuredcontainer {
 }
 
 ._1QhpYlQvI1J05uCM2I2e3X,
-._1s3b90MDEzWiXAzyEg4vu2:not(._3s-55t0zdXZvIG4VIzVaqE) {
+._1s3b90MDEzWiXAzyEg4vu2:not(._3s-55t0zdXZvIG4VIzVaqE),
+body .miniprofile_backdropblur {
     backdrop-filter: blur(4px);
 }
 

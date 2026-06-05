@@ -15,7 +15,11 @@
 .search_group_avatar_holder img,
 .grouppage_logo img,
 /* .favoritegroup_showcase_group .favoritegroup_avatar img */
-body ._1yHxtA_qbj9xWiLkUiovpE ._1C_n640PvrV_-DCXwOeCZY {
+body ._1yHxtA_qbj9xWiLkUiovpE ._1C_n640PvrV_-DCXwOeCZY,
+body ._2XPIpbEqZoXb_YHkEZm_hP img._1fWW6CwAeZNAqI9Fp0Mvpr,
+body ._2tdhUFMMsjGr_BI7uMcoWy:has(img._1fWW6CwAeZNAqI9Fp0Mvpr),
+body .sale_capsule .sale_capsule_curator,
+body .carousel_container.maincap .reason .avatar > img {
     border-radius: var(--corner-radius-full) !important;
 }
 

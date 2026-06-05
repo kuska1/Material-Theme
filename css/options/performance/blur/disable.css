@@ -1,4 +1,18 @@
-/* News Fullscreen */
-._37MAYpIjl0IDA1xVhhsuX8>div:not(._2WEP32t2FdvHSRBiOZug83):not(._24sm_rs0RtItOALHFVIKms):not(._19eb8NMS53lqZR33su0kTr):not(.iJ6kMinIXkRkY49NT2sOx):not(._2SoWN3laHiRo1XbmPyTyPF) {
+/* Market */
+.dD-wLaRJrJg- {
+    display: none;
+    filter: unset;
+}
+/* Profile Hover */
+html ._1QhpYlQvI1J05uCM2I2e3X,
+html ._1s3b90MDEzWiXAzyEg4vu2:not(._3s-55t0zdXZvIG4VIzVaqE),
+html body .miniprofile_backdropblur {
     backdrop-filter: unset;
+}
+/* News Hover */
+body .B-vCdL38RiJlhfSRgZv78._278jFDApipeB4kFsi44_F5:hover ._1-W_ZQ4XyImc86SJFamGha, body .gpfocus>.B-vCdL38RiJlhfSRgZv78._278jFDApipeB4kFsi44_F5 ._1-W_ZQ4XyImc86SJFamGha {
+    filter: brightness(0.7);
+}
+body .B-vCdL38RiJlhfSRgZv78._278jFDApipeB4kFsi44_F5:hover ._3Rb_j3lgHaVVIud4Gla7_m, body .gpfocus>.B-vCdL38RiJlhfSRgZv78._278jFDApipeB4kFsi44_F5 ._3Rb_j3lgHaVVIud4Gla7_m {
+    background: color-mix(in srgb, var(--md-sys-color-surface-variant), transparent 5%);
 }
