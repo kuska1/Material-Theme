@@ -102,6 +102,7 @@ body ._2SuTwoGRq7L6D8hZByqE62 ._3MacNs6QCQ7GzBJWv7LNxa ._1PSb462Tg4S8M046QIk4PM 
 body ._3Z1skIYVoqLbYiP2wy46Ce {
     border-radius: var(--corner-radius-small);
 }
+body ._3Z1skIYVoqLbYiP2wy46Ce ._2qsM52VkK9BR1Vi0HBOrtY,
 body ._3Z1skIYVoqLbYiP2wy46Ce ._2qsM52VkK9BR1Vi0HBOrtY>img {
     border-radius: var(--corner-radius-small);
 }
@@ -177,7 +178,8 @@ body .home_page_takeover_link a {
     border-bottom-right-radius: var(--corner-radius-large);
 }
 /* Dots */
-body .carousel_container .carousel_thumbs > div {
+body .carousel_container .carousel_thumbs > div,
+body ._3Byg6Wc4TX36gkUptUIk72 {
     border-radius: var(--corner-radius-full);
 }
 body .carousel_container .carousel_thumbs > div.focus {
@@ -229,6 +231,10 @@ body.v7 .home_discount_games_ctn .discount_block {
 body ._3PAP1PfUymQrLEveRsxQxP,
 body ._2-tz2hqtOXPPtMnVPHNSdx {
     border-radius: var(--corner-radius-large);
+    box-shadow: unset;
+}
+body ._3PAP1PfUymQrLEveRsxQxP:hover {
+    box-shadow: var(--elevated-shadow);
 }
 body ._3G65z75zOTQeHrXxszHO4b,
 body ._3G65z75zOTQeHrXxszHO4b ._3OUOaqR0a3uYqsWOZbfSSh img {
@@ -287,6 +293,30 @@ body .content_hub_carousel_ctn .content_hub_capsule_ctn img {
 body .content_hub_capsule_ctn .label {
     border-radius: var(--corner-radius-extra-small);
 }
+/* The Community Recommends */
+body .community_recommendation_app,
+body .community_recommendation_app > .right_col,
+body .community_recommendation_app > .community_recommendation_capsule,
+body .community_recommendation_app > .community_recommendation_capsule .capsule img,
+body .community_recommendation_app > .community_recommendation_capsule .capsule video {
+    border-radius: var(--corner-radius-medium);
+}
+/* Curator Recommendations */
+body .curator_giant_capsule {
+    box-shadow: unset;
+    border-radius: var(--corner-radius-large);
+}
+html body .curator_giant_capsule .capsule .discount_block.main_cap_discount {
+    bottom: 6px;
+    right: 6px;
+}
+body .curator_giant_capsule .curator_block {
+    border-radius: var(--corner-radius-small);
+    box-shadow: unset;
+}
+body .apps_recommended_by_curators {
+    border-radius: var(--corner-radius-medium);
+}
 /* Recently Updated */
 body .sale_capsule .recently_updated_desc {
     border-bottom-left-radius: var(--corner-radius-small);
@@ -297,7 +327,64 @@ body .sale_capsule .friends_container {
     border-bottom-left-radius: var(--corner-radius-small);
     border-bottom-right-radius: var(--corner-radius-small);
 }
+/* Popular New Releases */
+body .tab_row_item,
+body .home_tabs_sections .tab_row_capsule {
+    border-radius: var(--corner-radius-small);
+}
+body .home_tabs_sections .tab_content_items {
+    border-radius: var(--corner-radius-medium);
+}
+body .tab_preview {
+    border-radius: var(--corner-radius-medium);
+}
+body .tab_preview_details {
+    border-radius: var(--corner-radius-small);
+    margin-bottom: 12px;
+    background: transparent;
+}
+body .tab_preview .screenshot,
+body .tab_preview_video {
+    border-radius: var(--corner-radius-small);
+}
+/* Content More */
+body #content_more .home_content_items .home_content_item .capsule_image_ctn,
+body #content_more .home_content_items .home_content_item .capsule_image_ctn > img,
+body #content_more .home_content_items .home_content_item .capsule_image_ctn > video {
+    border-radius: var(--corner-radius-small);
+}
+body #content_more .home_content_items .home_content_item .home_content_item_info .discount_block {
+    margin-top: 6px;
+}
+body #content_more .home_content.single {
+    border-radius: var(--corner-radius-medium);
+}
+body #content_more .home_content.single .capsule_image_ctn,
+body #content_more .home_content.single .capsule_image_ctn > img,
+body #content_more .home_content.single .capsule_image_ctn > video,
+body #content_more .home_content.single .screenshot,
+body #content_more .home_content_single_ctn .screenshot_preview {
+    border-radius: var(--corner-radius-small);
+}
+body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active),
+body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) > span,
+body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span,
+body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):active,
+body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):active > span {
+    border-radius: var(--corner-radius-full);
+}
 
+/* Game Page */
+body .discount_pct,
+body .bundle_base_discount {
+    border-radius: var(--corner-radius-full);
+}
+body .game_purchase_action_bg .game_purchase_discount .discount_prices {
+    background: transparent;
+    padding-inline: 0px;
+    margin-inline: 4px;
+}
 
 /* TEMP */
 body .game_purchase_action_bg,

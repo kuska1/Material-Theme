@@ -5534,6 +5534,9 @@ body ._2SuTwoGRq7L6D8hZByqE62 ._3MacNs6QCQ7GzBJWv7LNxa ._3xA_zAPk4Gs81l4iCC0fRz,
 body ._2dIS9ODkn8rs_fsWh3kY8y ._3MacNs6QCQ7GzBJWv7LNxa ._2mvz1stG3mdVukklUl35CV svg {
     color: var(--md-sys-color-on-surface);
 }
+body ._2dIS9ODkn8rs_fsWh3kY8y ._3MacNs6QCQ7GzBJWv7LNxa ._2mvz1stG3mdVukklUl35CV svg {
+    fill: currentColor;
+}
 body ._2SuTwoGRq7L6D8hZByqE62 ._3MacNs6QCQ7GzBJWv7LNxa ._1Wz57jagOh6dxI7GUA5igl {
     color: var(--md-sys-color-on-surface-variant);
 }
@@ -5680,6 +5683,12 @@ body .carousel_container .carousel_thumbs > div:hover {
 body .carousel_container .carousel_thumbs > div.focus {
     background: var(--md-sys-color-on-surface);
 }
+body ._3Byg6Wc4TX36gkUptUIk72 {
+    fill: var(--md-sys-color-outline-variant);
+}
+body ._3Byg6Wc4TX36gkUptUIk72.carousel__dot--selected {
+    fill: var(--md-sys-color-on-surface);
+}
 /* Main Capsule */
 body .store_main_capsule,
 body .store_main_capsule .info {
@@ -5718,10 +5727,11 @@ body .discount_block .discount_prices,
 body .discount_block.no_discount .discount_prices,
 body .discount_block_inline .discount_prices,
 body .store_capsule .discount_block.daily_deal_discount > .discount_prices {
-    /* background: var(--md-sys-color-surface-container-high); */
-    background: color-mix(in srgb, var(--md-sys-color-surface-container-high), transparent var(--layer-action-active));
+    background: var(--md-sys-color-surface-container-high);
+    /* background: color-mix(in srgb, var(--md-sys-color-surface-container-high), transparent var(--layer-action-active)); */
 }
-body .discount_block.no_discount .discount_final_price {
+body .discount_block.no_discount .discount_final_price,
+html body.v7 .discount_prices > div {
     color: var(--md-sys-color-on-surface);
 }
 html body.v7 .discount_prices .discount_original_price {
@@ -5739,7 +5749,8 @@ body .carousel_container.spotlight .carousel_items {
     background: var(--md-sys-color-surface-container-low);
 }
 body .home_capsule_banner {
-    background: rgb(97, 14, 93);
+    color: var(--md-sys-color-on-tertiary-container);
+    background: var(--md-sys-color-tertiary-container);
 }
 /* Your Wishlist / DLC for Your Games */
 body .home_discount_games_ctn {
@@ -5825,6 +5836,49 @@ body .content_hub_capsule_ctn .label {
     color: var(--md-card-on-secondary-container, var(--md-sys-color-on-secondary-container));
     background: var(--md-card-secondary-container, var(--md-sys-color-secondary-container));
 }
+/* The Community Recommends */
+body .community_recommendation_app,
+body .community_recommendation_app > .right_col {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-low);
+}
+body .community_recommendation_app .app_name {
+    color: var(--md-sys-color-on-surface);
+}
+body .community_recommendation_app .review_box .content {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .community_recommendations_block > .review_box .view_more a {
+    color: var(--md-sys-color-primary);
+}
+body .community_recommendations_block > .review_box .view_more a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+body .community_recommendations_block > .review_box .persona_name a {
+    color: var(--md-sys-color-on-surface);
+}
+body .community_recommendations_block > .review_box .hours {
+    color: var(--md-sys-color-outline);
+}
+body .community_recommendation_app > .right_col > .paging_thumbs > .num_reviews_desc {
+    color: var(--md-sys-color-outline);
+}
+body .community_recommendation_app .paging_thumbs .review_arrow.left > div {
+    filter: invert(var(--scheme-light, 1) var(--scheme-dark, 0));
+}
+/* Curator Recommendations */
+html body .curator_giant_capsule .capsule .discount_block.main_cap_discount {
+    background: transparent;
+}
+body .curator_giant_capsule .curator_block {
+    background: var(--md-sys-color-surface-container-low);
+}
+body .curator_giant_capsule .curator_block .blurb > span, .curator_giant_capsule .curator_block .blurb > span:hover {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .apps_recommended_by_curators {
+    background: var(--md-sys-color-surface-container-low);
+}
 /* Recently Updated */
 body .sale_capsule .recently_updated_desc {
     color: var(--md-sys-color-on-surface-variant);
@@ -5834,6 +5888,108 @@ body .sale_capsule .recently_updated_desc {
 body .sale_capsule .friends_container {
     color: var(--md-sys-color-on-surface-variant);
     background: var(--md-sys-color-surface-container-low);
+}
+/* Popular New Releases */
+body .home_tab_bg_ctn {
+    border: none;
+    background: var(--md-sys-color-surface-container-lowest);
+}
+body .home_tab_button {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .home_tab_button:hover:not( .active ) {
+    color: var(--md-sys-color-on-surface);
+}
+body .home_tab_button.active {
+    color: var(--md-sys-color-primary);
+    border-color: var(--md-sys-color-primary);
+}
+body .tab_row_item {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-low), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+body .tab_row_item.focus {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-low), var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+body .tab_item_title {
+    color: var(--md-sys-color-on-surface);
+}
+body .tab_item_tags {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .tab_item_release_date {
+    color: var(--md-sys-color-outline);
+}
+body .see_more_link {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .home_tabs_sections .tab_content_items {
+    background: var(--md-sys-color-surface-container-low);
+}
+body .tab_preview {
+    background: var(--md-sys-color-surface-container-low);
+}
+body .tab_title {
+    color: var(--md-sys-color-on-surface);
+}
+body .tab_review_summary {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .game_review_summary.no_reviews, .game_review_summary.not_enough_reviews {
+    color: var(--md-sys-color-outline);
+}
+/* Content More */
+html body #content_more h2 .header_inline {
+    color: var(--md-sys-color-outline);
+}
+html body #content_more h2 a {
+    color: var(--md-sys-color-primary);
+}
+html body #content_more h2 a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+html body.v7 h2:not(.BB_Header2).single_title {
+    color: var(--md-sys-color-on-surface);
+}
+html body.v7 h2:not(.BB_Header2), .home_content_reason {
+    color: var(--md-sys-color-outline);
+}
+html body.v7 h2:not(.BB_Header2), .home_content_reason a {
+    color: var(--md-sys-color-on-surface-variant);
+}
+html body.v7 h2:not(.BB_Header2), .home_content_reason a:hover {
+    color: var(--md-sys-color-primary);
+}
+body #content_more .home_content.single {
+    background: var(--md-sys-color-surface-container-low);
+}
+body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active),
+body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) > span {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+    border-style: none;
+}
+body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+    border-style: none;
+}
+body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):active,
+body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):active > span {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+    border-style: none;
+}
+
+/* Game Page */
+body .game_purchase_discount .discount_pct,
+body .game_area_dlc_price .discount_pct {
+    color: var(--md-sys-color-on-primary-container);
+    background: var(--md-sys-color-primary-container);
+}
+body .game_purchase_action_bg .discount_final_price,
+body .game_area_dlc_price .discount_final_price {
+    color: var(--md-sys-color-primary);
 }
 
 
@@ -6439,7 +6595,7 @@ body .tmIrUKf-Mh8-, body .sDK5fonBQMA-, body .De7wHKDUPG4- {
 }
 body ._68RUj0Pwr4Q-,
 body .sDK5fonBQMA- ._4QZPaDoCaZQ-, body .De7wHKDUPG4- ._4QZPaDoCaZQ- {
-    background: var(--md-sys-color-surface-container-lowe);
+    background: var(--md-sys-color-surface-container-low);
 }
 body .tmIrUKf-Mh8- .BfmIgp5hDLQ- .CmHGWYJjMk0- a, body .sDK5fonBQMA- .BfmIgp5hDLQ- .CmHGWYJjMk0- a, body .De7wHKDUPG4- .BfmIgp5hDLQ- .CmHGWYJjMk0- a {
     color: var(--md-sys-color-outline);

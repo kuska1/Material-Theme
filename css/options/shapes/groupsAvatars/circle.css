@@ -2,6 +2,7 @@
 .search_suggest .match_creator .match_img img,
 .recommended_creators_container .avatars a img,
 .curator_giant_capsule .curator_block img,
+body .curator_giant_capsule .curator_block,
 .creatorhome .curator_avatar,
 .steam_curator_icon img,
 .steam_curator_for_app img,
