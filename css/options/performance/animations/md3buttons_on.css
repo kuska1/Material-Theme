@@ -49,6 +49,11 @@ body .RGuIs1F2uPE- {
         background 250ms var(--animation-expressive-default-effects);
 }
 
+body .carousel_container .carousel_thumbs > div {
+    transition:
+        all 350ms var(--animation-standart-slow-effects) !important;
+}
+
 /* big picture */
 ._2KhPXikozxMpbIRo_6jPxW, .B40DvkTvaDfC6yoDIOGa7 /* keyboard */ {
     transition:

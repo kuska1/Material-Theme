@@ -16,6 +16,14 @@ body a._175B12uOwmeGBNcSaQFe-Z._2IyR9WyPwYb15ILBjPvLR9,
 body button._175B12uOwmeGBNcSaQFe-Z._2IyR9WyPwYb15ILBjPvLR9 {
     text-shadow: unset;
 }
+/* Menu */
+body ._2ULEyYgHBHtbdS-UzA2CMo {
+    border-radius: var(--corner-radius-medium);
+}
+body ._23dSXPnMLAqirY-XNeEJ-r,
+body ._23dSXPnMLAqirY-XNeEJ-r._3YhUrzz0wbuwkRosba0Mso {
+    border-radius: var(--corner-radius-full);
+}
 /* Search Bar */
 body ._1KU9eASfov1GnFQRbyLIdR {
     border-radius: var(--corner-radius-full);
@@ -88,23 +96,28 @@ body ._4bi1iROLdQ66C6or_iLnT._2LnvhZWuE-kK8DofxiNupC {
     border-bottom-left-radius: var(--corner-radius-large);
     border-bottom-right-radius: var(--corner-radius-large);
 }
+
+@media screen and (max-width: 730px) {
+    html.responsive body .-bDCBiZsIWB-_6IzGxbhz._2SVHFh60yRjQbYRg6t2mcK ._15eaL848WovXjJ0POHaD9D {
+        box-shadow: unset;
+        border-radius: var(--corner-radius-medium);
+    }
+}
 /* Calendar */
 body ._2dIS9ODkn8rs_fsWh3kY8y ._2ZuAr_P2w3N45sg9qxA2Vc {
     border-radius: var(--corner-radius-extra-small);
 }
 body ._2SuTwoGRq7L6D8hZByqE62 {
-    border-radius: var(--corner-radius-small);
+    border-radius: var(--corner-radius-medium);
 }
 body ._2SuTwoGRq7L6D8hZByqE62 ._3MacNs6QCQ7GzBJWv7LNxa ._1PSb462Tg4S8M046QIk4PM {
     border-radius: var(--corner-radius-full);
 }
 /* Games */
-body ._3Z1skIYVoqLbYiP2wy46Ce {
-    border-radius: var(--corner-radius-small);
-}
+body ._3Z1skIYVoqLbYiP2wy46Ce,
 body ._3Z1skIYVoqLbYiP2wy46Ce ._2qsM52VkK9BR1Vi0HBOrtY,
 body ._3Z1skIYVoqLbYiP2wy46Ce ._2qsM52VkK9BR1Vi0HBOrtY>img {
-    border-radius: var(--corner-radius-small);
+    border-radius: var(--corner-radius-medium);
 }
 body ._2lQxRlo1DQ1PN08TYTil2L {
     border-radius: var(--corner-radius-extra-small);
@@ -164,12 +177,34 @@ html body.v7 .discount_pct {
     padding-inline: 8px;
 }
 html body.v7 .discount_block {
-    gap: 4px;
+    gap: 6px;
 }
 /* On Game Badges */
 html body.v6 .broadcast_live_stream_icon {
     border-radius: var(--corner-radius-full);
     box-shadow: unset;
+}
+/* Game Images */
+body .home_discount_games_ctn,
+body .store_capsule,
+body .capsule_image_ctn,
+body .capsule_image_ctn > img,
+body .capsule_image_ctn > video,
+body .sale_capsule_image_ctn,
+body .sale_capsule_image_ctn > img,
+body .sale_capsule_image_ctn > video,
+body .spotlight_img,
+body .spotlight_img > img,
+body .spotlight_img > video,
+body .capsule_hover_screenshots .screenshot,
+body .sale_capsule_video,
+body .sale_capsule_image,
+body ._22AcxR1RBDH6i-gjKRHYk0 {
+    border-radius: var(--corner-radius-medium);
+}
+body .sale_capsule:has(.capsule_row_ctn) .capsule_image_ctn {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 /* Takeover Banner */
 body .static_takeover_ctn div,
@@ -186,18 +221,14 @@ body .carousel_container .carousel_thumbs > div.focus {
     width: 32px;
 }
 /* Banner */
-body .home_page_takeunder {
+body .home_page_takeunder,
+body ._2WMiQ5MbP_ReyaX5DOpoUD ._1_lNQ4U_L9dnN9dgC8h-m_ img {
     border-radius: var(--corner-radius-large);
+    box-shadow: unset;
 }
 /* Discounts & Events */
 body .carousel_container.spotlight .carousel_items {
     border-radius: var(--corner-radius-medium);
-}
-body .carousel_container.spotlight .spotlight_img img,
-body .carousel_container.spotlight .spotlight_img video,
-body .carousel_container.spotlight .capsule_image_ctn img,
-body .carousel_container.spotlight .capsule_image_ctn video {
-    border-radius: var(--corner-radius-small);
 }
 body .home_capsule_banner {
     top: 8px;
@@ -217,13 +248,6 @@ body.v7 .carousel_container.spotlight .discount_block.discount_block_large .bund
     padding-block: 0px;
 }
 /* Your Wishlist / DLC for Your Games */
-body .home_discount_games_ctn {
-    border-radius: var(--corner-radius-medium);
-}
-body .home_discount_games_ctn .capsule_image_ctn > img,
-body .home_discount_games_ctn .capsule_image_ctn > video {
-    border-radius: var(--corner-radius-small);
-}
 body.v7 .home_discount_games_ctn .discount_block {
     margin-top: 6px;
 }
@@ -247,35 +271,19 @@ body ._3G65z75zOTQeHrXxszHO4b {
 body ._1rLdYDrWbYRcVNpPlFd225 .uUNiI-Woa-IKlMTl8sNz4 {
     border-radius: var(--corner-radius-medium);
 }
-body ._1rLdYDrWbYRcVNpPlFd225 .uUNiI-Woa-IKlMTl8sNz4 ._2Tqn7YAJcleffVrwKeeky6 ._1V0RCs8QeHLs8oLOr0MdyK ._15wSFuv0rJYhA009HlKKE1 {
-    border-radius: var(--corner-radius-small);
+body ._1rLdYDrWbYRcVNpPlFd225 .uUNiI-Woa-IKlMTl8sNz4 ._2Tqn7YAJcleffVrwKeeky6 ._1V0RCs8QeHLs8oLOr0MdyK ._15wSFuv0rJYhA009HlKKE1,
+body ._1rLdYDrWbYRcVNpPlFd225 .uUNiI-Woa-IKlMTl8sNz4 ._2Tqn7YAJcleffVrwKeeky6 ._1V0RCs8QeHLs8oLOr0MdyK ._2aMRbzoT83AkFGYSmCvnRe {
+    border-radius: var(--corner-radius-medium);
 }
 body ._1rLdYDrWbYRcVNpPlFd225 .uUNiI-Woa-IKlMTl8sNz4 ._2T5aAmTJF2RJhrBpoIOfqW {
     box-shadow: unset;
     border-radius: var(--corner-radius-extra-small);
 }
 /* Recommended Based on the Games You Play */
-body .carousel_items .capsule_image_ctn > img,
-body .carousel_items .capsule_image_ctn > video,
-body .carousel_items .sale_capsule_image_ctn > img,
-body .carousel_items .sale_capsule_image_ctn > video {
-    border-radius: var(--corner-radius-small);
-}
 body .carousel_items .discount_block {
     margin-top: 6px;
 }
 /* Because You Played ... */
-body .sale_capsule .capsule_image_ctn > img,
-body .sale_capsule .capsule_image_ctn > video,
-body .sale_capsule .sale_capsule_image_ctn > img,
-body .sale_capsule .sale_capsule_image_ctn > video {
-    border-radius: var(--corner-radius-small);
-}
-body .sale_capsule .capsule_image_ctn,
-body .sale_capsule .sale_capsule_image_ctn {
-    border-top-left-radius: var(--corner-radius-small);
-    border-top-right-radius: var(--corner-radius-small);
-}
 body .sale_capsule .deep_dive_key_tags {
     border-bottom-left-radius: var(--corner-radius-small);
     border-bottom-right-radius: var(--corner-radius-small);
@@ -330,7 +338,7 @@ body .sale_capsule .friends_container {
 /* Popular New Releases */
 body .tab_row_item,
 body .home_tabs_sections .tab_row_capsule {
-    border-radius: var(--corner-radius-small);
+    border-radius: var(--corner-radius-medium);
 }
 body .home_tabs_sections .tab_content_items {
     border-radius: var(--corner-radius-medium);
@@ -350,21 +358,17 @@ body .tab_preview_video {
 /* Content More */
 body #content_more .home_content_items .home_content_item .capsule_image_ctn,
 body #content_more .home_content_items .home_content_item .capsule_image_ctn > img,
-body #content_more .home_content_items .home_content_item .capsule_image_ctn > video {
-    border-radius: var(--corner-radius-small);
-}
-body #content_more .home_content_items .home_content_item .home_content_item_info .discount_block {
-    margin-top: 6px;
-}
-body #content_more .home_content.single {
-    border-radius: var(--corner-radius-medium);
-}
+body #content_more .home_content_items .home_content_item .capsule_image_ctn > video,
+body #content_more .home_content.single,
 body #content_more .home_content.single .capsule_image_ctn,
 body #content_more .home_content.single .capsule_image_ctn > img,
 body #content_more .home_content.single .capsule_image_ctn > video,
 body #content_more .home_content.single .screenshot,
 body #content_more .home_content_single_ctn .screenshot_preview {
-    border-radius: var(--corner-radius-small);
+    border-radius: var(--corner-radius-medium);
+}
+body #content_more .home_content_items .home_content_item .home_content_item_info .discount_block {
+    margin-top: 6px;
 }
 body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active),
 body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) > span,
@@ -376,6 +380,8 @@ body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):no
 }
 
 /* Game Page */
+body .game_purchase_action_bg,
+body .game_purchase_action .game_purchase_price,
 body .discount_pct,
 body .bundle_base_discount {
     border-radius: var(--corner-radius-full);
@@ -386,10 +392,11 @@ body .game_purchase_action_bg .game_purchase_discount .discount_prices {
     margin-inline: 4px;
 }
 
-/* TEMP */
-body .game_purchase_action_bg,
-body .game_purchase_action .game_purchase_price {
-    border-radius: var(--corner-radius-full);
+/* Featured */
+body .store_capsule.price_inline .discount_block,
+body.curator .store_capsule.price_inline .discount_block {
+    bottom: 6px;
+    right: 6px;
 }
 
 /* Plugins Support */

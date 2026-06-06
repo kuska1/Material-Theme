@@ -1,0 +1,7 @@
+html body.v7 .discount_pct {
+    color: var(--md-sys-color-on-primary-container) !important;
+    background: var(--md-sys-color-primary-container) !important;
+}
+html body.v7 .discount_final_price {
+    color: var(--md-sys-color-primary) !important;
+}
