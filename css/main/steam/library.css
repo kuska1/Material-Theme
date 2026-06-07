@@ -1586,6 +1586,24 @@ html[lang="ja"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::aft
 .MillenniumDesktopSidebar_EditorContent .PSZtxj2h3MlyYv-c9dgke:has(.SliderControlPanelGroup) {
     width: 100%;
 }
+
+/* Plugins */
+.DialogContent_InnerWidth .MillenniumPlugins_PluginField[data-plugin-name="luatools"] .MillenniumPlugins_PluginLabel .MillenniumItem_Version::after,
+.DialogContent_InnerWidth .MillenniumPlugins_PluginField[data-plugin-name="manilua"] .MillenniumPlugins_PluginLabel .MillenniumItem_Version::after,
+.DialogContent_InnerWidth .MillenniumPlugins_PluginField[data-plugin-name="lumea"] .MillenniumPlugins_PluginLabel .MillenniumItem_Version::after {
+    content: "Piracy";
+    padding-inline: 5px;
+    border-radius: var(--corner-radius-extra-small);
+    cursor: not-allowed;
+}
+.DialogContent_InnerWidth .MillenniumPlugins_PluginField[data-plugin-name="luatools"] ._9Ql-oVe_j8E-vsDdyVdWo[aria-checked="false"],
+.DialogContent_InnerWidth .MillenniumPlugins_PluginField[data-plugin-name="manilua"] ._9Ql-oVe_j8E-vsDdyVdWo[aria-checked="false"],
+.DialogContent_InnerWidth .MillenniumPlugins_PluginField[data-plugin-name="lumea"] ._9Ql-oVe_j8E-vsDdyVdWo[aria-checked="false"] {
+    pointer-events: none;
+    opacity: 50%;
+    cursor: not-allowed;
+}
+
 /* ._1rDh5rXSFZJOqCa4UpnI4z .MillenniumSettings ._2rjVTGz8aLvqOdz5v2gq5C {
     font-size: var(--font-headline-medium-size);
     margin-bottom: 16px;

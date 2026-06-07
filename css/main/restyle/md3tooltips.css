@@ -62,7 +62,7 @@ body .xa7nOX-adjA- {
 }
 
 .MillenniumDesktopSidebar_EditorContent .Color:nth-child(2) ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:nth-of-type(2)::after {
-    content: "...\\Steam\\steamui\\skins\\Material-Theme\\matugentemplate.css";
+    content: "...\\Steam\\millenium\\themes\\Material-Theme\\matugentemplate.css";
 }
 
 .MillenniumDesktopSidebar_EditorContent .Color:nth-child(2) ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:nth-of-type(4)::after {
@@ -79,4 +79,16 @@ body .xa7nOX-adjA- {
 
 .MillenniumDesktopSidebar_EditorContent .Font:nth-child(4) ._1W1to_azoBRG95oNAFpf9Q::after {
     content: "For \"Custom\" create \"customFont.css\" inside theme folder";
+}
+
+.MillenniumDesktopSidebar_EditorContent .Ripple.Effect:nth-child(3) ._1W1to_azoBRG95oNAFpf9Q::before {
+    content: "(?)";
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -10px;
+    font-size: 8px;
+}
+
+.MillenniumDesktopSidebar_EditorContent .Ripple.Effect:nth-child(3) ._1W1to_azoBRG95oNAFpf9Q::after {
+    content: "Breaks lists currently";
 }

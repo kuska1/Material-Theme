@@ -7245,6 +7245,12 @@ body #fgg-scan-result {
     color: var(--md-sys-color-on-secondary-container);
     background: var(--md-sys-color-secondary-container);
 }
+.DialogContent_InnerWidth .MillenniumPlugins_PluginField[data-plugin-name="luatools"] .MillenniumPlugins_PluginLabel .MillenniumItem_Version::after,
+.DialogContent_InnerWidth .MillenniumPlugins_PluginField[data-plugin-name="manilua"] .MillenniumPlugins_PluginLabel .MillenniumItem_Version::after,
+.DialogContent_InnerWidth .MillenniumPlugins_PluginField[data-plugin-name="lumea"] .MillenniumPlugins_PluginLabel .MillenniumItem_Version::after {
+    color: var(--md-sys-color-on-error-container);
+    background: var(--md-sys-color-error-container);
+}
 
 /* Test */
 /* .actual_persona_name:has(span.nevko-badge[data-description="Material Theme Donator"]) {
