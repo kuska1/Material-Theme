@@ -842,7 +842,8 @@ body .ProfilePrivacyHR,
 body .FPQ9JppMamYmV0bS3zfDK ._2DEfsEp7B2EWcj-wsoNnhc,
 body ._5jb4uc8-Qgo-,
 body ._1tOe1a5sCJUgvbHanH8BmV,
-body ._1muqPv4BaKtCW2mPwdJZJs {
+body ._1muqPv4BaKtCW2mPwdJZJs,
+body .block.recommendation_reasons hr {
     background: var(--md-sys-color-outline-variant);
 }
 ._2jXHP0742MyApMUVUM8IFn._21GPYlKBCLsHQpTsHw_RL_, /* Root */
@@ -851,7 +852,8 @@ body .uwqwoAlIVWyJ8l71i77-i ._2CGYg9che0ONznDOoGhp9Y,
 body .preference_row,
 body .RJuzsEBZ8kM-.na4cSUV1VXA-,
 body .msDiiFvZmOWUVrazuOR7y,
-body ._1muqPv4BaKtCW2mPwdJZJs {
+body ._1muqPv4BaKtCW2mPwdJZJs,
+body .game_language_options tr {
     border-bottom-color: var(--md-sys-color-outline-variant);
 }
 .WUOrULWKkGLl3ZUQdDXg8.WUOrULWKkGLl3ZUQdDXg8+._1n7Wloe5jZ6fSuvV18NNWI, /* Root */
@@ -872,7 +874,8 @@ body .RJuzsEBZ8kM-.BmkyU9JH47M- {
     border-top-color: var(--md-sys-color-outline);
 }
 .Krg05lMwvNmhhVXhqdleu,
-.Krg05lMwvNmhhVXhqdleu ._3MJEANCb5PkduXTSJ6o3bq {
+.Krg05lMwvNmhhVXhqdleu ._3MJEANCb5PkduXTSJ6o3bq,
+body .steam_curator_icon.medium {
     border-color: var(--md-sys-color-outline-variant);
 }
 /* Shelfs */
@@ -5392,7 +5395,7 @@ body ._1muqPv4BaKtCW2mPwdJZJs {
     background: var(--md-sys-color-surface-container-high);
 }
 body ._1IkX8ZzZ1M29wQNN_NlGIh {
-    background: var(--md-sys-color-surface-container-low);
+    background: var(--md-sys-color-surface-container);
 }
 body a._175B12uOwmeGBNcSaQFe-Z,
 body button._175B12uOwmeGBNcSaQFe-Z {
@@ -6028,7 +6031,872 @@ body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):no
     background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
     border-style: none;
 }
+/* - GAME PAGE - */
+/* Plugins Support / SteamDB */
+body .glance_ctn_responsive_left .user_reviews a .steamdb_rating.steamdb_rating_good {
+    color: var(--md-sys-color-primary) !important;
+}
+body .glance_ctn_responsive_left .user_reviews a .steamdb_rating.steamdb_rating_average {
+    color: var(--md-sys-color-secondary) !important;
+}
+body .glance_ctn_responsive_left .user_reviews a .steamdb_rating.steamdb_rating_poor {
+    color: var(--md-sys-color-error) !important;
+}
+body .glance_ctn_responsive_left .user_reviews a .steamdb_rating.steamdb_rating_white {
+    color: var(--md-sys-color-outline) !important;
+}
+body .glance_ctn_responsive_left .user_reviews a:hover .steamdb_rating.steamdb_rating_good {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%) !important;
+}
+body .glance_ctn_responsive_left .user_reviews a:hover .steamdb_rating.steamdb_rating_average {
+    color: color-mix(in srgb, var(--md-sys-color-secondary), var(--md-sys-color-on-surface) 50%) !important;
+}
+body .glance_ctn_responsive_left .user_reviews a:hover .steamdb_rating.steamdb_rating_poor {
+    color: color-mix(in srgb, var(--md-sys-color-error), var(--md-sys-color-on-surface) 50%) !important;
+}
+body .glance_ctn_responsive_left .user_reviews a:hover .steamdb_rating.steamdb_rating_white {
+    color: color-mix(in srgb, var(--md-sys-color-outline), var(--md-sys-color-on-surface) 50%) !important;
+}
+body .steamdb_stats_grid {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .steamdb_stats_grid .steamdb_stats_number {
+    color: var(--md-sys-color-primary);
+}
+body .steamdb_prices {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-low);
+}
+body .steamdb_prices:hover {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-low), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+body .steamdb_prices .steamdb_prices_top,
+body .steamdb_prices .steamdb_prices_top:hover {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .steamdb_prices .steamdb_prices_bottom,
+body .steamdb_prices:hover .steamdb_prices_bottom {
+    color: var(--md-sys-color-outline);
+}
+body .game_area_purchase_game a.steamdb_link,
+html.responsive body .game_area_purchase_game a.steamdb_link {
+    color: var(--md-sys-color-on-secondary-container) !important;
+    background: var(--md-sys-color-secondary-container) !important;
+}
+body .game_area_purchase_game a.steamdb_link.btn_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+html.responsive body .game_area_purchase_game a.steamdb_link.btn_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+    color: var(--md-sys-color-on-secondary-container) !important;
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover)) !important;
+}
+/* Background */
+html body.v6.game_bg,
+body .game_page_background_ctn {
+    background: var(--md-sys-color-surface);
+}
+html body #game_highlights {
+    background: var(--md-sys-color-surface-container-low);
+}
+/* Titles */
+body .apphub_AppName {
+    color: var(--md-sys-color-on-surface);
+}
+body .game_description_snippet,
+body .glance_ctn .release_date .date, .glance_ctn .responsive_reviewdesc {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .glance_details {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .glance_details a {
+    color: var(--md-sys-color-primary);
+}
+body .glance_details a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
+}
+html body .glance_ctn .user_reviews,
+body .glance_ctn .dev_row .subtitle,
+body .glance_ctn .release_date .subtitle,
+body .glance_ctn .user_reviews .title,
+body .glance_ctn_responsive_left .user_reviews a .responsive_hidden,
+body .glance_ctn_responsive_left .dev_row a.date > span, 
+html body.widestore .glance_ctn .user_reviews {
+    color: var(--md-sys-color-outline);
+}
+body .glance_ctn_responsive_left .user_reviews a .game_review_summary {
+    color: var(--md-sys-color-error);
+}
+body .glance_ctn_responsive_left .user_reviews a:hover .game_review_summary {
+    color: color-mix(in srgb, var(--md-sys-color-error), var(--md-sys-color-on-surface) 50%);
+}
+body .glance_ctn_responsive_left .user_reviews a .game_review_summary.mixed {
+    color: var(--md-sys-color-secondary);
+}
+body .glance_ctn_responsive_left .user_reviews a:hover .game_review_summary.mixed {
+    color: color-mix(in srgb, var(--md-sys-color-secondary), var(--md-sys-color-on-surface) 50%);
+}
+body .glance_ctn_responsive_left .user_reviews a .game_review_summary.positive,
+body .glance_ctn_responsive_left .dev_row a {
+    color: var(--md-sys-color-primary);
+}
+body .glance_ctn_responsive_left .user_reviews a:hover .game_review_summary.positive,
+body .glance_ctn_responsive_left .dev_row a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
+}
+body .glance_ctn_responsive_left .user_reviews a .game_review_summary.not_enough_reviews {
+    color: var(--md-sys-color-outline);
+}
+body .glance_ctn_responsive_left .user_reviews a:hover .game_review_summary.not_enough_reviews {
+    color: color-mix(in srgb, var(--md-sys-color-outline), var(--md-sys-color-on-surface) 50%);
+}
+body ._1DvsO7ezbpz3pIVBWOLOzF ._2LR-6h1uKQt4bj21r14zy5,
+body ._1DvsO7ezbpz3pIVBWOLOzF .IJs3gGlk7XiekF90xqQtx ._2kGps6wpqMKuwW2LinnWW6 {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body ._1DvsO7ezbpz3pIVBWOLOzF ._2LR-6h1uKQt4bj21r14zy5:hover,
+body ._1DvsO7ezbpz3pIVBWOLOzF .IJs3gGlk7XiekF90xqQtx ._2kGps6wpqMKuwW2LinnWW6:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body ._1DvsO7ezbpz3pIVBWOLOzF .IJs3gGlk7XiekF90xqQtx:active ._2kGps6wpqMKuwW2LinnWW6 {
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+body ._1DvsO7ezbpz3pIVBWOLOzF .IJs3gGlk7XiekF90xqQtx {
+    background: var(--md-sys-color-surface-container-lowest);
+}
+body .glance_details img:hover {
+    border-color: var(--md-sys-color-primary);
+}
+/* Buttons */
+body.app .btnv6_blue_hoverfade,
+body.app .queue_btn_menu > .queue_menu_arrow {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body.app .btnv6_blue_hoverfade:hover,
+body.app .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+body.app .queue_btn_menu > .queue_menu_arrow:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body.app .btnv6_blue_hoverfade:active,
+body.app .queue_btn_menu > .queue_menu_arrow:active {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+body.app .btnv6_blue_hoverfade > span,
+body.app .btnv6_blue_hoverfade:hover > span,
+body.app .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span,
+body.app .btnv6_blue_hoverfade:active > span {
+    color: var(--md-sys-color-on-secondary-container);
+}
+/* Chips */
+body .glance_tags_label {
+    color: var(--md-sys-color-outline);
+}
+body .glance_tags_ctn .app_tag {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .glance_tags_ctn .app_tag:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body .glance_tags_ctn .app_tag:active {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+/* Banner */
+body .saleEventBannerStyle {
+    background: var(--md-sys-color-surface-container-lowest);
+}
+body .game_area_soundtrack_bubble,
+body .game_area_dlc_bubble {
+    color: var(--md-sys-color-on-tertiary-container);
+    background: var(--md-sys-color-tertiary-container);
+}
+body .game_area_soundtrack_bubble h1,
+body .game_area_soundtrack_bubble p,
+body .game_area_soundtrack_bubble p a,
+body .game_area_dlc_bubble a {
+    color: var(--md-sys-color-on-tertiary-container);
+}
+body .game_area_soundtrack_bubble p a:hover,
+body .game_area_dlc_bubble a:hover {
+    color: var(--md-sys-color-on-surface);
+}
+body .game_area_comingsoon {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .game_area_comingsoon h1 {
+    color: var(--md-sys-color-on-secondary-container);
+}
+body .game_area_comingsoon .not_yet {
+    color: color-mix(in srgb, var(--md-sys-color-on-secondary-container), var(--md-sys-color-outline) var(--layer-action-active));
+}
+body .game_area_comingsoon .wishlist_add_reminder {
+    color: var(--md-sys-color-outline);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-surface-container-low) var(--layer-action-active));
+}
+body ._3zXpFCyX2IiaD-MNF5KJFf {
+    background: var(--md-sys-color-surface-container-low);
+}
+body .WsfbqpkdutNGWu3V4uhn_ {
+    color: var(--md-sys-color-on-surface);
+}
+body ._3zXpFCyX2IiaD-MNF5KJFf ._2yiy6ghVhj3fkC4I01odHC ._2YgphHYykz192eH3FgalS4 {
+    background: var(--md-sys-color-surface-container-high)
+}
+body ._2YgphHYykz192eH3FgalS4 ._2EQpO5nLkHNXFdPk0ZnoY2 ._3a0zX_I8eGlU5CYF3lcQjs a,
+body ._2YgphHYykz192eH3FgalS4 ._2EQpO5nLkHNXFdPk0ZnoY2 ._3a0zX_I8eGlU5CYF3lcQjs svg,
+body ._2YgphHYykz192eH3FgalS4 ._2EQpO5nLkHNXFdPk0ZnoY2 ._1ThkelBkPfoE80ibfGyyVB svg,
+body ._2YgphHYykz192eH3FgalS4 ._2EQpO5nLkHNXFdPk0ZnoY2 ._1n1BMOyCVFA0y6ULd_laPH svg {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body ._2YgphHYykz192eH3FgalS4 ._2EQpO5nLkHNXFdPk0ZnoY2 ._3a0zX_I8eGlU5CYF3lcQjs svg {
+    fill: currentColor;
+}
+body ._2YgphHYykz192eH3FgalS4 ._2EQpO5nLkHNXFdPk0ZnoY2 ._3a0zX_I8eGlU5CYF3lcQjs:has(a:hover) > *,
+body ._2YgphHYykz192eH3FgalS4 ._2EQpO5nLkHNXFdPk0ZnoY2 ._1ThkelBkPfoE80ibfGyyVB:hover,
+body ._2YgphHYykz192eH3FgalS4 ._2EQpO5nLkHNXFdPk0ZnoY2 ._1ThkelBkPfoE80ibfGyyVB:hover svg,
+body ._2YgphHYykz192eH3FgalS4 ._2EQpO5nLkHNXFdPk0ZnoY2 ._1n1BMOyCVFA0y6ULd_laPH:hover svg {
+    color: var(--md-sys-color-primary);
+}
+body ._1MrTWpNan4htXK4Kql6ms8,
+body ._1MrTWpNan4htXK4Kql6ms8 svg {
+    color: var(--md-sys-color-on-surface);
+}
+body ._1MrTWpNan4htXK4Kql6ms8 svg {
+    fill: currentColor;
+}
+/* Player */
+body ._11VWkpWTaRCptZe9_D-Twj ._1AHwgG8SLF8QL4SPHixfq {
+    background: var(--md-sys-color-primary);
+}
+body .gamehighlight_desktopskeleton_itemview,
+body .gamehighlight_desktopskeleton_stripitems,
+body .gamehighlight_desktopskeleton_stripscrollbar {
+    background: var(--md-sys-color-surface-container-lowest);
+}
+/* Images / Videos */
+body ._21pEuTVe17EOUzkHK8ZGnJ .deMuRscIE7upszCfACmbK._3VIimult0z05qCgQN1CfPg::after {
+    border-color: var(--md-sys-color-primary);
+}
+/* Queue */
+html body .queue_ctn,
+html body.widestore .queue_ctn {
+    background: var(--md-sys-color-surface-container-low);
+}
+body .btn_next_in_queue,
+body .next_in_queue_content {
+    color: var(--md-sys-color-on-tertiary);
+    background: var(--md-sys-color-tertiary);
+}
+body .btn_next_in_queue:hover .next_in_queue_content {
+    background: color-mix(in srgb, var(--md-sys-color-tertiary), var(--md-sys-color-on-tertiary) var(--layer-action-hover));
+}
+body .btn_next_in_queue:active .next_in_queue_content {
+    background: color-mix(in srgb, var(--md-sys-color-tertiary), var(--md-sys-color-on-tertiary) var(--layer-action-hover));
+}
+body .btn_next_in_queue span,
+body .btn_next_in_queue:hover span {
+    color: var(--md-sys-color-on-tertiary);
+}
+body .btn_next_in_queue span .queue_sub_text,
+body .btn_next_in_queue:hover span .queue_sub_text {
+    color: color-mix(in srgb, var(--md-sys-color-on-tertiary), var(--md-sys-color-tertiary) var(--layer-action-active));
+}
+body .queue_controls_description {
+    color: var(--md-sys-color-on-tertiary-container);
+    background: var(--md-sys-color-tertiary-container);
+}
+body .queue_ctn .queue_reason_description {
+    color: var(--md-sys-color-outline);
+}
+body .queue_ctn .queue_reason_description a,
+body .queue_ctn a {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .queue_ctn .queue_reason_description a:hover,
+body .queue_ctn a:hover {
+    color: var(--md-sys-color-primary);
+}
+/* Containers */
+body .rightcol.game_meta_data .block {
+    background: var(--md-sys-color-surface-container-low);
+}
+body .rightcol.game_meta_data .block.heading {
+    color: var(--md-sys-color-on-surface);
+}
+body .block.recommendation_reasons, .block.recommendation_reasons p {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .block.recommendation_reasons .similar_recent_apps_container > a {
+    color: var(--md-sys-color-outline);
+}
+body .block.recommendation_reasons a {
+    color: var(--md-sys-color-primary);
+}
+body .block.recommendation_reasons a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
+}
+body .game_area_details_specs_ctn {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body a.game_area_details_specs_ctn:hover {
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body a.game_area_details_specs_ctn:active {
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+body a.game_area_details_specs_ctn .label,
+body a.game_area_details_specs_ctn:hover .label {
+    color: var(--md-sys-color-on-secondary-container);
+}
+body .game_area_details_specs_ctn .label,
+body a.game_area_details_specs_ctn:hover .label {
+    background: unset;
+}
+body .game_area_details_specs_ctn .label {
+    color: color-mix(in srgb, var(--md-sys-color-on-secondary-container), var(--md-sys-color-outline) var(--layer-action-active));
+}
+body ._3sRe2CGQBgablPBz9Bc9c2,
+body ._3sRe2CGQBgablPBz9Bc9c2:hover, 
+body :hover>._3sRe2CGQBgablPBz9Bc9c2,
+body ._29jQMo9DGCmcSKyDIC3V7M {
+    background: transparent;
+}
+body ._8DSX9d1ihrMSeZUFC9elD ._1FCh_hPFNuwj9vrVDMOvMC {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body ._8DSX9d1ihrMSeZUFC9elD ._1FCh_hPFNuwj9vrVDMOvMC:hover {
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body ._8DSX9d1ihrMSeZUFC9elD ._1FCh_hPFNuwj9vrVDMOvMC:active {
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+body ._8DSX9d1ihrMSeZUFC9elD[open] ._1FCh_hPFNuwj9vrVDMOvMC {
+    color: var(--md-sys-color-on-secondary);
+    background: var(--md-sys-color-secondary);
+}
+body ._8DSX9d1ihrMSeZUFC9elD[open] ._1FCh_hPFNuwj9vrVDMOvMC:hover {
+    background: color-mix(in srgb, var(--md-sys-color-secondary), var(--md-sys-color-on-secondary) var(--layer-action-hover));
+}
+body ._8DSX9d1ihrMSeZUFC9elD[open] ._1FCh_hPFNuwj9vrVDMOvMC:active {
+    background: color-mix(in srgb, var(--md-sys-color-secondary), var(--md-sys-color-on-secondary) var(--layer-action-active));
+}
+body ._8DSX9d1ihrMSeZUFC9elD ._3sRe2CGQBgablPBz9Bc9c2,
+body ._8DSX9d1ihrMSeZUFC9elD ._29jQMo9DGCmcSKyDIC3V7M {
+    color: var(--md-sys-color-on-secondary-container);
+}
+body ._8DSX9d1ihrMSeZUFC9elD[open] ._3sRe2CGQBgablPBz9Bc9c2,
+body ._8DSX9d1ihrMSeZUFC9elD[open] ._29jQMo9DGCmcSKyDIC3V7M {
+    color: var(--md-sys-color-on-secondary);
+}
+body ._8DSX9d1ihrMSeZUFC9elD a._2xmH7agKi37v9kwFHi093S {
+    color: var(--md-sys-color-on-secondary);
+    background: var(--md-sys-color-secondary);
+}
+body ._8DSX9d1ihrMSeZUFC9elD a._2xmH7agKi37v9kwFHi093S:hover {
+    color: var(--md-sys-color-on-secondary);
+    background: color-mix(in srgb, var(--md-sys-color-secondary), var(--md-sys-color-on-secondary) var(--layer-action-hover));
+}
+body ._8DSX9d1ihrMSeZUFC9elD[open] a._2xmH7agKi37v9kwFHi093S {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body ._2079QFhY02KJ4KxGMltDNJ {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body ._1RmibngWLogcFmO93kGFgq .ny6hWVK6ii05H200KRhds {
+    color: var(--md-sys-color-outline);
+}
+body ._1RmibngWLogcFmO93kGFgq:hover .ny6hWVK6ii05H200KRhds {
+    color: var(--md-sys-color-primary);
+}
+body ._1mfBI5XbiaKU9vS5WkJALu {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body ._2xZaMR-NKc0LbkeM50cZq8 {
+    background: var(--md-sys-color-surface-variant);
+}
+body ._2xZaMR-NKc0LbkeM50cZq8:hover {
+    background: color-mix(in srgb, var(--md-sys-color-surface-variant), var(--md-sys-color-on-surface-variant) var(--layer-action-hover));
+}
+body ._166hsSkQYxKraMJIx7td91,
+body ._166hsSkQYxKraMJIx7td91 ._3UK9OHyZ3r9rA55mgsnZPD {
+    color: var(--md-sys-color-secondary);
+}
+body ._166hsSkQYxKraMJIx7td91 ._3UK9OHyZ3r9rA55mgsnZPD path {
+    fill: currentColor;
+}
+body ._3KAysk4dlhWETa6ixz7V2j,
+body ._3FBEGAfvLQj4qYjstmZAPE._1g3WgidGN68CDX4XQPGnl6,
+body .dxuI55RF56-dzbuXjj2W0,
+body ._3KAysk4dlhWETa6ixz7V2j:hover,
+body :hover>._3KAysk4dlhWETa6ixz7V2j {
+    color: var(--md-sys-color-on-surface-variant);
+    background: unset;
+}
+body .DRM_notice {
+    color: var(--md-sys-color-on-error-container);
+    background: var(--md-sys-color-error-container);
+}
+body .anticheat_name {
+    color: color-mix(in srgb, var(--md-sys-color-on-error-container), var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+body .anticheat_uninstalls {
+    color: color-mix(in srgb, var(--md-sys-color-on-error-container), var(--md-sys-color-outline) var(--layer-action-active));
+}
+body .DRM_notice a {
+    color: color-mix(in srgb, var(--md-sys-color-on-error-container), var(--md-sys-color-on-surface) 50%);
+}
+body .DRM_notice a:hover {
+    color: var(--md-sys-color-on-surface);
+}
+body .block .block_title {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .game_language_options th,
+body .game_language_options td {
+    color: var(--md-sys-color-outline);
+}
+body .game_language_options td span {
+    color: var(--md-sys-color-primary);
+}
+body .all_languages {
+    color: var(--md-sys-color-primary);
+}
+body .all_languages:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
+}
+body .shared_game_rating p.descriptorText {
+    color: var(--md-sys-color-on-surface-variant) !important;
+}
+body .shared_game_rating {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .game_details {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .game_details b {
+    color: var(--md-sys-color-outline);
+}
+body .page_content_ctn h4 {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .details_block a {
+    color: var(--md-sys-color-primary);
+}
+body .details_block a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
+}
+body .block .details_block a.linkbar {
+    color: var(--md-sys-color-on-surface-variant);
+    background: transparent;
+    border: 1px solid var(--md-sys-color-outline-variant);
+}
+body .block .details_block a.linkbar:hover {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface-variant) var(--layer-action-hover));
+}
+body .block .details_block div.linkbar {
+    color: var(--md-sys-color-on-surface-variant);
+    background: transparent;
+    border: 1px solid var(--md-sys-color-outline-variant);
+    opacity: 50%;
+}
+body .linkbar > svg {
+    fill: var(--md-sys-color-on-surface-variant);
+}
+body a.communitylink_achievement.communitylink_achivement_plusmore,
+body a.communitylink_points_shop_item.communitylink_achivement_plusmore {
+    color: var(--md-sys-color-primary-fixed);
+    background: var(--md-sys-color-on-primary-fixed);
+}
+body a.communitylink_achievement.communitylink_achivement_plusmore:hover,
+body a.communitylink_points_shop_item.communitylink_achivement_plusmore:hover {
+    color: var(--md-sys-color-primary-fixed);
+    background: color-mix(in srgb, var(--md-sys-color-on-primary-fixed), var(--md-sys-color-primary-fixed) var(--layer-action-hover));
+}
 
+body #game_area_metascore .metacritic,
+body #game_area_metascore a {
+    color: var(--md-sys-color-on-surface);
+}
+body #game_area_metascore a:hover {
+    color: var(--md-sys-color-primary);
+}
+
+body .game_area_purchase_game h1,
+body .game_area_offsite_purchase h1,
+body .game_area_purchase_game h2.title.title {
+    color: var(--md-sys-color-on-surface);
+}
+body .game_area_purchase_game p.package_contents a,
+body .game_area_offsite_purchase p.package_contents a {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .game_area_purchase_game p.package_contents,
+body .game_area_offsite_purchase p.package_contents {
+    color: var(--md-sys-color-outline);
+}
+body .game_area_purchase a {
+    color: var(--md-sys-color-primary);
+}
+body .game_area_purchase a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
+}
+body .bundle_label .bundle_label_tooltip {
+    color: var(--md-sys-color-outline);
+}
+body .bundle_label {
+    color: var(--md-sys-color-primary);
+}
+body .bundle_contents_preview,
+body .game_area_purchase_game div.package_contents_capsules_ctn {
+    background: var(--md-sys-color-surface-container-lowest);
+}
+body .game_area_purchase_game b,
+body .game_area_offsite_purchase b {
+    color: var(--md-sys-color-primary);
+}
+body .game_area_purchase_game.demo_above_purchase {
+    color: var(--md-sys-color-on-primary-container);
+    background: var(--md-sys-color-primary-container);
+}
+body .game_area_purchase_game.demo_above_purchase h1,
+body .game_area_purchase_game.demo_above_purchase span {
+    color: var(--md-sys-color-on-primary-container);
+}
+body .game_area_purchase_game.demo_above_purchase a {
+    color: var(--md-sys-color-primary);
+}
+body .game_area_purchase_game.demo_above_purchase a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
+}
+body .game_purchase_options_editions_header_compare_button,
+body .leftcol h2 span.note,
+body ._2Jd3MGaOu0C9Ydswf8Q4Tn h2 ._3n8swQFM3I_ARVM_5bPhAs,
+body .game_description_column .block .block_header .right a {
+    border-style: none;
+    color: var(--md-sys-color-primary);
+    background: transparent;
+}
+body .game_purchase_options_editions_header_compare_button:hover,
+body .leftcol h2 span.note:hover,
+body ._2Jd3MGaOu0C9Ydswf8Q4Tn h2 ._3n8swQFM3I_ARVM_5bPhAs:hover,
+body .game_description_column .block .block_header .right a:hover {
+    border-style: none;
+    color: var(--md-sys-color-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
+}
+body .game_purchase_options_editions_header_compare_button:active,
+body .leftcol h2 span.note:active,
+body ._2Jd3MGaOu0C9Ydswf8Q4Tn h2 ._3n8swQFM3I_ARVM_5bPhAs:active,
+body .game_description_column .block .block_header .right a:active {
+    color: var(--md-sys-color-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-active));
+}
+body h2 .note em {
+    color: var(--md-sys-color-outline);
+}
+body span.platform_img {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .game_area_purchase_game {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-low);
+}
+body .game_area_purchase_game.free_weekend {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .game_area_purchase_game.free_weekend .game_area_purchase_game h2.title.title {
+    color: var(--md-sys-color-on-secondary-container);
+}
+body .game_area_purchase_game.free_weekend span.platform_img {
+    color: var(--md-sys-color-on-secondary-container);
+}
+body .game_purchase_options_editions_header_title,
+body .leftcol h2:not(.BB_Header2) {
+    color: var(--md-sys-color-on-surface);
+}
+body .leftcol .game_area_description a {
+    color: var(--md-sys-color-primary);
+}
+body .leftcol .game_area_description a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
+}
+body .discount_original_price,
+body .game_purchase_action .game_purchase_price {
+    color: var(--md-sys-color-outline);
+}
+body .discount_original_price:before {
+    border-color: var(--md-sys-color-outline);
+}
+body .game_purchase_discount_countdown {
+    color: var(--md-sys-color-primary);
+}
+body .game_purchase_action_bg,
+body .game_purchase_action .game_purchase_price {
+    background: var(--md-sys-color-surface-container-lowest);
+}
+body .game_area_dlc_row,
+body .game_area_dlc_row.odd,
+body .game_area_dlc_row.even {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-variant);
+}
+body .game_area_dlc_row:hover,
+body .game_area_dlc_row.even:hover,
+body .game_area_dlc_row.odd:hover {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, var(--md-sys-color-surface-variant), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+body .game_area_dlc_row:active,
+body .game_area_dlc_row.even:active,
+body .game_area_dlc_row.odd:active {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, var(--md-sys-color-surface-variant), var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+body .game_area_dlc_price {
+    color: var(--md-sys-color-on-surface);
+}
+body .dlc_highlight_reason {
+    color: var(--md-sys-color-on-tertiary-container);
+    background: var(--md-sys-color-tertiary-container);
+}
+body #dlc_footer #dlc_show_all_link {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body #dlc_footer #dlc_show_all_link:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body #dlc_footer div.dlc_footer_element {
+    color: var(--md-sys-color-outline)
+}
+body .btn_addtocart .btn_green_steamui,
+body .btn_addtocart .btn_green_steamui > span,
+body .wishlist_add_reminder .btn_green_steamui,
+body .wishlist_add_reminder .btn_green_steamui > span {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body .btn_addtocart .btn_green_steamui:hover,
+body .btn_addtocart .btn_green_steamui:hover > span,
+body .btn_addtocart .btn_green_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+body .btn_addtocart .btn_green_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span,
+body .wishlist_add_reminder .btn_green_steamui:hover,
+body .wishlist_add_reminder .btn_green_steamui:hover > span,
+body .wishlist_add_reminder .btn_green_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+body .wishlist_add_reminder .btn_green_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+body .btn_addtocart .btn_green_steamui:active,
+body .btn_addtocart .btn_green_steamui:active > span,
+body .wishlist_add_reminder .btn_green_steamui:active,
+body .wishlist_add_reminder .btn_green_steamui:active > span {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+}
+body .btn_addtocart .btn_blue_steamui,
+body .btn_addtocart .btn_blue_steamui > span {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .btn_addtocart .btn_blue_steamui:hover,
+body .btn_addtocart .btn_blue_steamui:hover > span,
+body .btn_addtocart .btn_blue_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+body .btn_addtocart .btn_blue_steamui:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body .btn_addtocart .btn_blue_steamui:active,
+body .btn_addtocart .btn_blue_steamui:active > span {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+html body .steam_curator_recommendation {
+    color: var(--md-sys-color-on-surface);
+}
+body .steam_curator_followed_text {
+    color: var(--md-sys-color-primary);
+}
+body .game_description_column {
+    color: var(--md-sys-color-on-surface-variant);
+}
+html body.v6 .game_area_description h2.bb_tag {
+    color: var(--md-sys-color-primary);
+}
+body .music_album_track_listing_table {
+    color: var(--md-sys-color-on-secondary-container);
+}
+body .music_album_track_ctn {
+    background: var(--md-sys-color-secondary-container);
+}
+body .music_album_track_ctn:nth-child(2n) {
+    background: var(--md-sys-color-secondary-container);
+}
+body .sysreq_tabs,
+body .discselect_tabs {
+    background: unset;
+}
+body .sysreq_tab,
+body .discselect_tab {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-low);
+}
+body .sysreq_tab.active,
+body .discselect_tab.active{
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body .game_area_sys_req_leftCol,
+body .game_area_sys_req_rightCol {
+    background: var(--md-sys-color-surface-container-low);
+}
+html body.widestore .game_area_sys_req strong,
+html body.widestore .album_metadata_chunk_name {
+    color: var(--md-sys-color-outline);
+}
+body #game_area_legal {
+    color: var(--md-sys-color-outline-variant);
+}
+body .mq3ROvmcn5_HdCKG6JXDa svg {
+    color: var(--md-sys-color-on-surface);
+}
+
+body ._1TRFtE8IfXpDQ_loHnB_bU {
+    border-style: none;
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body ._1TRFtE8IfXpDQ_loHnB_bU:hover {
+    border-style: none;
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body ._1TRFtE8IfXpDQ_loHnB_bU:active {
+    border-style: none;
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+
+body ._3o6M87A6T172WsUE6MNvdW:hover ._2GYp44BuZLfKRQdeILTDC3 ._11JXznGoylLSEmZXZbgcsq {
+    color: var(--md-sys-color-primary) !important;
+}
+body ._3o6M87A6T172WsUE6MNvdW:hover ._2GYp44BuZLfKRQdeILTDC3 .ENbI1gFgvIca6HSKAbfiJ {
+    color: var(--md-sys-color-on-surface-variant) !important;
+}
+body ._3o6M87A6T172WsUE6MNvdW:hover ._2GYp44BuZLfKRQdeILTDC3 {
+    background: color-mix(in srgb, var(--md-sys-color-surface-variant), transparent 15%) !important;
+}
+body ._2pPj9UWoWM6h318uBN0-8X  {
+    background: unset !important;
+}
+body ._1MwNf8slOG9lOvAeOshmuu {
+    background: var(--md-sys-color-surface-variant);
+}
+body ._2jc1DpJ_WzFtigRh5qDWce {
+    color: var(--md-sys-color-on-surface);
+}
+body ._3-EtNa1Nr_737K0kglkT9C {
+    color: var(--md-sys-color-outline);
+}
+html body.widestore .game_page_autocollapse_readmore {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+html body.widestore .game_page_autocollapse_readmore:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+
+body .details_block i {
+    color: var(--md-sys-color-outline);
+}
+
+body .package_totals_area {
+    color: var(--md-sys-color-outline);
+    background: var(--md-sys-color-surface-container-low);
+}
+body .package_totals_area .price {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body #package_savings_bar {
+    background: var(--md-sys-color-surface-container-lowest);
+}
+body .tab_item {
+    background: var(--md-sys-color-surface-container-high);
+}
+body .tab_item:hover {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface-variant) var(--layer-action-hover));
+}
+body .tab_item:active {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface-variant) var(--layer-action-active));
+}
+body .tab_item_name {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .tab_item_details {
+    color: var(--md-sys-color-outline);
+}
+body .tab_item .discount_block .discount_prices {
+    background: var(--md-sys-color-surface-container-highest);
+}
+body .package_totals_area .price.bundle_discount {
+    color: var(--md-sys-color-tertiary);
+}
+body .package_in_library_flag.in_own_library {
+    color: var(--md-sys-color-on-primary-container);
+    background: var(--md-sys-color-primary-container);
+}
+body .package_in_library_flag.in_family_library {
+    color: var(--md-sys-color-on-tertiary-container);
+    background: var(--md-sys-color-tertiary-container);
+}
+body .game_purchase_area_owned_by_family {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .game_purchase_area_owned_by_family .family_info a {
+    color: var(--md-sys-color-on-secondary-container);
+}
+body .game_purchase_area_owned_by_family .family_info a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-on-secondary-container), var(--md-sys-color-on-surface) 50%);
+}
+body .ds_flag.ds_completetheset {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .item_store_items_game_page_container {
+    background: var(--md-sys-color-surface-container-low);
+}
+body .item_def_grid_item .item_def_price {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .item_store_overlay_link:hover {
+    border-color: var(--md-sys-color-primary);
+}
+body .item_store_overlay_link .btnv6_lightblue_blue,
+body .item_store_overlay_link .btnv6_lightblue_blue > span {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body .item_store_overlay_link .btnv6_lightblue_blue:hover,
+body .item_store_overlay_link .btnv6_lightblue_blue:hover > span,
+body .item_store_overlay_link .btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+body .item_store_overlay_link .btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
 
 /* -- PROFILE -- */
 /* Valve Employee */
@@ -7054,6 +7922,11 @@ body #fgg-widget-root > button:nth-child(4) {
 body #fgg-widget-root > button:nth-child(4) svg polyline {
     stroke: var(--md-sys-color-on-primary) !important;
 }
+body #fgg-widget-root > button:nth-child(4)[style*="--fgg-indicator-color: #000"] .fgg-tab-badge,
+body #fgg-widget-root > button:nth-child(4)[style*="--fgg-indicator-color: #000"] .fgg-tab-badge::after,
+body #fgg-widget-root > button:nth-child(4)[style*="--fgg-indicator-color: #000"] .fgg-tab-badge::before {
+    background: var(--md-sys-color-tertiary) !important;
+}
 
 
 body .fgg-header,
@@ -7241,15 +8114,19 @@ body #fgg-scan-result {
 
 
 /* --- OTHER --- */
-.DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumThemes_Author::after {
+.DialogContent_InnerWidth .MillenniumThemes_ThemeItem .MillenniumThemes_Author::after {
     color: var(--md-sys-color-on-secondary-container);
     background: var(--md-sys-color-secondary-container);
 }
-.DialogContent_InnerWidth .MillenniumPlugins_PluginField[data-plugin-name="luatools"] .MillenniumPlugins_PluginLabel .MillenniumItem_Version::after,
-.DialogContent_InnerWidth .MillenniumPlugins_PluginField[data-plugin-name="manilua"] .MillenniumPlugins_PluginLabel .MillenniumItem_Version::after,
-.DialogContent_InnerWidth .MillenniumPlugins_PluginField[data-plugin-name="lumea"] .MillenniumPlugins_PluginLabel .MillenniumItem_Version::after {
+.DialogContent_InnerWidth .MillenniumPlugins_PluginField .MillenniumPlugins_PluginLabel .MillenniumItem_Version::after {
     color: var(--md-sys-color-on-error-container);
     background: var(--md-sys-color-error-container);
+}
+
+html ._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm::before {
+    /* color: var(--md-sys-color-on-error);
+    background: var(--md-sys-color-error); */
+    color: var(--md-sys-color-on-surface);
 }
 
 /* Test */

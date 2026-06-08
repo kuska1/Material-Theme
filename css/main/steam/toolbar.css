@@ -173,6 +173,27 @@
     margin-top: 2px !important;
 }
 
+html[data-millennium-plugin*="luatools"] ._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm::before,
+html[data-millennium-plugin*="manilua"] ._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm::before,
+html[data-millennium-plugin*="lumea"] ._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm::before,
+html.luatools ._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm::before,
+html.manilua ._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm::before,
+html.lumea ._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm::before {
+    /* content: "Piracy Plugins"; */
+    content: "X";
+    padding-inline: 12px;
+    margin-right: 8px;
+    border-radius: var(--corner-radius-full);
+    cursor: not-allowed;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    height: 90%;
+    align-content: center;
+    opacity: 5%;
+}
+
 
 /* STYLE 1 TEST */
 /* ._3Z3ohQ8-1NKnCZkbS6fvy {

@@ -8,6 +8,13 @@ body .AcLtE9axR9tWhAVfDP9lv {
     display: block;
     opacity: 0.2;
 }
+/* Game Page */
+body .HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u:first-child {
+    display: block;
+    opacity: 0.6;
+    -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
 /* Modal Overlay Background */
 /* body .ModalOverlayBackground {
     backdrop-filter: blur(4px);
@@ -15,4 +22,9 @@ body .AcLtE9axR9tWhAVfDP9lv {
 .FullModalOverlay:has(.ModalOverlayBackground) .DialogContent {
     backdrop-filter: blur(10px);
     background: color-mix(in srgb, var(--md-sys-color-surface-container), transparent var(--layer-action-hover));
+}
+
+/* Store Game Page */
+html body .game_page_background_ctn {
+    display: block;
 }

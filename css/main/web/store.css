@@ -1,3 +1,4 @@
+/* - HOME PAGE - */
 /* Top App Bar */
 html.client body ._16jZ3HEbtaJTl80pQINN2Y {
     border-left: unset;
@@ -226,6 +227,10 @@ body ._2WMiQ5MbP_ReyaX5DOpoUD ._1_lNQ4U_L9dnN9dgC8h-m_ img {
     border-radius: var(--corner-radius-large);
     box-shadow: unset;
 }
+body .franchise_notice {
+    border-radius: var(--corner-radius-medium);
+    box-shadow: unset;
+}
 /* Discounts & Events */
 body .carousel_container.spotlight .carousel_items {
     border-radius: var(--corner-radius-medium);
@@ -383,7 +388,8 @@ body .home_content .btnv6_white_transparent:not(.btn_disabled):not(:disabled):no
 body .game_purchase_action_bg,
 body .game_purchase_action .game_purchase_price,
 body .discount_pct,
-body .bundle_base_discount {
+body .bundle_base_discount,
+body .tab_item_discount .discount_pct {
     border-radius: var(--corner-radius-full);
 }
 body .game_purchase_action_bg .game_purchase_discount .discount_prices {
@@ -397,6 +403,499 @@ body .store_capsule.price_inline .discount_block,
 body.curator .store_capsule.price_inline .discount_block {
     bottom: 6px;
     right: 6px;
+}
+
+/* - GAME PAGE - */
+/* Plugins Support / SteamDB */
+body .steamdb_prices {
+    border-radius: var(--corner-radius-medium);
+}
+body .game_area_purchase_game a.steamdb_link,
+html.responsive body .game_area_purchase_game a.steamdb_link {
+    top: unset;
+    bottom: 16px;
+    left: 16px;
+    border-radius: var(--corner-radius-full);
+}
+/* Background */
+body .game_page_background_ctn,
+body .game_background_lighten {
+    display: none;
+}
+body .game_background_glow {
+    background: unset;
+}
+/* Images / Videos */
+html body #game_highlights,
+html body img.game_header_image_full {
+    backdrop-filter: unset;
+    background: transparent;
+}
+html body #game_highlights,
+html body img.game_header_image_full,
+html body .glance_details img,
+html ._3LAiT6FD5iZnZ-uET79Wp5, html ._3LAiT6FD5iZnZ-uET79Wp5 video,
+html ._29RD-6nVM1ZsiWWlkICHj_._3R7Y3WNTdNhOgbZ21bs9xD, html ._29RD-6nVM1ZsiWWlkICHj_._3R7Y3WNTdNhOgbZ21bs9xD img,
+html ._21pEuTVe17EOUzkHK8ZGnJ .deMuRscIE7upszCfACmbK, html ._21pEuTVe17EOUzkHK8ZGnJ .deMuRscIE7upszCfACmbK img,
+html ._21pEuTVe17EOUzkHK8ZGnJ .deMuRscIE7upszCfACmbK._3VIimult0z05qCgQN1CfPg::after {
+    border-radius: var(--corner-radius-medium);
+}
+body .similar_recent_apps_container > a > img {
+    border-radius: var(--corner-radius-small);
+}
+body .similar_recent_apps_container {
+    gap: 4px;
+}
+/* Banner */
+body .saleEventBannerLink,
+body .saleEventBannerStyle,
+body .game_area_bubble {
+    padding: unset;
+    border-radius: var(--corner-radius-medium);
+}
+body .game_area_comingsoon .wishlist_add_reminder {
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+body .saleEventBannerLink {
+    background: unset;
+}
+body .game_area_bubble {
+    margin-bottom: 6px;
+}
+body .game_area_soundtrack_bubble h1,
+body .game_area_soundtrack_bubble p,
+body .game_area_soundtrack_bubble p a {
+    text-shadow: unset;
+}
+body ._3zXpFCyX2IiaD-MNF5KJFf {
+    border-radius: var(--corner-radius-medium);
+}
+body ._3zXpFCyX2IiaD-MNF5KJFf ._2yiy6ghVhj3fkC4I01odHC {
+    border-radius: var(--corner-radius-medium);
+}
+/* Player */
+body ._11VWkpWTaRCptZe9_D-Twj ._1Ni5Kqn_Pbfd6nOEYoVE4J,
+body ._11VWkpWTaRCptZe9_D-Twj ._1YR-8ikrCi2ltWRBZs2UIi,
+body ._11VWkpWTaRCptZe9_D-Twj ._1AHwgG8SLF8QL4SPHixfq {
+    border-radius: var(--corner-radius-full);
+}
+body .gamehighlight_desktopskeleton_itemview,
+body .gamehighlight_desktopskeleton_stripitems,
+body .gamehighlight_desktopskeleton_stripscrollbar {
+    border-radius: var(--corner-radius-medium);
+}
+/* Queue */
+body .queue_ctn {
+    border-radius: var(--corner-radius-medium);
+    padding-bottom: 2px;
+}
+body .btn_next_in_queue,
+body .next_in_queue_content {
+    border-radius: var(--corner-radius-full);
+    text-align: center;
+    text-shadow: unset;
+    padding-inline: unset;
+}
+body .btn_next_in_queue span,
+body .btn_next_in_queue span .queue_sub_text {
+    text-shadow: unset;
+}
+body .btn_next_in_queue:after {
+    display: none;
+}
+body .queue_controls_description {
+    width: fit-content;
+    margin: 6px;
+    padding-inline: 12px;
+    border-radius: var(--corner-radius-medium);
+}
+html body .next_in_queue_area {
+    width: fit-content;
+}
+/* Containers */
+body .rightcol.game_meta_data .block {
+    border-radius: var(--corner-radius-medium);
+}
+body .rightcol.game_meta_data .block.heading {
+    background: transparent;
+    padding-inline: 6px;
+}
+body .rightcol.game_meta_data .block .game_area_features_list_ctn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    height: 100%;
+    width: fit-content;
+}
+body .game_area_details_specs_ctn {
+    height: fit-content;
+}
+body .game_area_details_specs_ctn .label,
+body a.game_area_details_specs_ctn:hover .label {
+    height: fit-content;
+}
+body .game_area_details_specs_ctn,
+body ._8DSX9d1ihrMSeZUFC9elD ._1FCh_hPFNuwj9vrVDMOvMC {
+    padding: 4px 8px;
+    padding-left: 4px;
+    gap: 4px;
+}
+body ._3sRe2CGQBgablPBz9Bc9c2 {
+    gap: 6px;
+}
+body .game_area_details_specs_ctn .icon,
+body .game_area_details_specs_ctn .label,
+body ._29jQMo9DGCmcSKyDIC3V7M,
+body ._3sRe2CGQBgablPBz9Bc9c2,
+body .ny6hWVK6ii05H200KRhds {
+    padding: unset;
+}
+body .game_area_details_specs_ctn {
+    border-radius: var(--corner-radius-extra-small);
+}
+body ._8DSX9d1ihrMSeZUFC9elD ._1FCh_hPFNuwj9vrVDMOvMC {
+    border-radius: var(--corner-radius-full);
+}
+body ._8DSX9d1ihrMSeZUFC9elD[open] ._1FCh_hPFNuwj9vrVDMOvMC {
+    border-radius: var(--corner-radius-extra-small);
+}
+body ._2xZaMR-NKc0LbkeM50cZq8 {
+    padding: 6px 8px;
+    gap: 4px;
+}
+body ._2xZaMR-NKc0LbkeM50cZq8:first-of-type:last-of-type {
+    border-radius: var(--corner-radius-small);
+}
+body ._2xZaMR-NKc0LbkeM50cZq8:first-of-type:not(:last-of-type) {
+    border-top-left-radius: var(--corner-radius-small);
+    border-top-right-radius: var(--corner-radius-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+body ._2xZaMR-NKc0LbkeM50cZq8:not(:first-of-type):not(:last-of-type) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+body ._2xZaMR-NKc0LbkeM50cZq8:last-of-type:not(:first-of-type) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+}
+body .dxuI55RF56-dzbuXjj2W0,
+body ._3FBEGAfvLQj4qYjstmZAPE {
+    padding: unset;
+}
+body ._3KAysk4dlhWETa6ixz7V2j {
+    margin: auto;
+}
+body .DRM_notice {
+    border-radius: var(--corner-radius-small);
+}
+body .communitylink_points_shop_item,
+body a.communitylink_points_shop_item.communitylink_achivement_plusmore {
+    border-radius: var(--corner-radius-small);
+}
+body #game_area_metascore .score {
+    border-radius: var(--corner-radius-full);
+}
+body .all_languages {
+    width: 100%;
+    text-align: center;
+}
+body .block_content_inner .details_block:has(.linkbar):last-of-type,
+body .block_content_inner .details_block:has(.game_area_details_specs_ctn):last-of-type {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 4px;
+}
+body .block_content_inner .details_block:last-of-type > i {
+    grid-column: 1 / -1;
+}
+body .block .details_block a.linkbar,
+body .block .details_block div.linkbar {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    width: auto;
+    border-radius: var(--corner-radius-extra-small);
+    margin-bottom: unset;
+    margin: unset;
+    padding: 4px 8px;
+}
+body .linkbar > svg,
+body .linkbar > img {
+    margin-block: auto;
+}
+body .game_area_purchase_game,
+body .game_area_offsite_purchase,
+body .game_area_purchase_game.demo_above_purchase {
+    border-radius: var(--corner-radius-medium);
+    padding: 16px;
+    box-shadow: unset;
+}
+body .game_area_purchase_game .game_purchase_action,
+body .game_area_comingsoon .game_purchase_action,
+body .game_area_offsite_purchase .game_purchase_action {
+    position: static;
+    margin-top: 12px;
+}
+body .game_area_dlc_row {
+    padding: 8px 2px;
+}
+body .game_area_dlc_row:first-of-type:last-of-type {
+    border-radius: var(--corner-radius-small);
+}
+body .game_area_dlc_row:first-of-type:not(:last-of-type) {
+    border-top-left-radius: var(--corner-radius-small);
+    border-top-right-radius: var(--corner-radius-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+body .game_area_dlc_row:not(:first-of-type):not(:last-of-type) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+body .game_area_dlc_row:last-of-type:not(:first-of-type) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+}
+body .dlc_highlight_reason {
+    border-radius: var(--corner-radius-extra-small);
+}
+body .game_area_dlc_row .capsule_container img {
+    border-radius: var(--corner-radius-medium);
+}
+body #dlc_footer #dlc_show_all_link,
+body #dlc_footer #dlc_show_all_link:hover {
+    border-radius: var(--corner-radius-full);
+}
+body .bundle_contents_preview,
+body .bundle_contents_preview img,
+body .game_area_purchase_game div.package_contents_capsules_ctn,
+body .game_area_purchase_game div.package_contents_capsules_ctn img,
+body div.package_contents_capsule a {
+    border-radius: var(--corner-radius-medium);
+}
+body .bundle_contents_preview.collapsed a.bundle_contents_preview_item,
+body .game_area_purchase_game div.package_contents_collapsed.package_contents_capsules div.package_contents_capsule {
+    border-radius: var(--corner-radius-medium);
+    box-shadow: var(--elevated-shadow);
+}
+body .game_area_purchase_game div.package_contents_capsules.package_contents_collapsed::after {
+    display: none;
+}
+body .game_purchase_options_editions_header,
+body .game_description_column h2,
+body .recommendation_bodytext h2 {
+    background: unset;
+}
+body .game_purchase_options_editions_header_compare_button,
+body .leftcol h2 span.note,
+body ._2Jd3MGaOu0C9Ydswf8Q4Tn h2 ._3n8swQFM3I_ARVM_5bPhAs,
+body .game_description_column .block .block_header .right a {
+    border-radius: var(--corner-radius-full);
+}
+html body .game_page_autocollapse_readmore {
+    border-radius: var(--corner-radius-full);
+}
+body .game_area_description .bb_img {
+    border-radius: var(--corner-radius-small);
+}
+body .music_album_track_listing_table {
+    border-radius: var(--corner-radius-small);
+}
+body .music_album_track_ctn:first-child:last-child {
+    border-radius: var(--corner-radius-small);
+}
+body .music_album_track_ctn:first-child:not(:last-child) {
+    border-top-left-radius: var(--corner-radius-small);
+    border-top-right-radius: var(--corner-radius-small);
+}
+body .music_album_track_ctn:last-child:not(:first-child) {
+    border-bottom-left-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+}
+body .sysreq_tabs,
+body .discselect_tabs {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    border-radius: var(--corner-radius-full);
+    width: fit-content;
+}
+body .sysreq_tab:not(.active):first-of-type:last-of-type,
+body .discselect_tab:not(.active):first-of-type:last-of-type {
+    border-radius: var(--corner-radius-full);
+}
+body .sysreq_tab:not(.active):first-of-type:not(:last-of-type),
+body .discselect_tab:not(.active):first-of-type:not(:last-of-type) {
+    border-top-left-radius: var(--corner-radius-full);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-full);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+body .sysreq_tab:not(.active):not(:first-of-type):not(:last-of-type),
+body .discselect_tab:not(.active):not(:first-of-type):not(:last-of-type) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+body .sysreq_tab:not(.active):last-of-type:not(:first-of-type),
+body .discselect_tab:not(.active):last-of-type:not(:first-of-type) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-full);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-full);
+}
+body .sysreq_tab,
+body .discselect_tab {
+    margin-right: unset;
+}
+body .sysreq_tab.active,
+body .discselect_tab.active{
+    border-radius: var(--corner-radius-full);
+}
+body .game_area_sys_req_leftCol,
+body .game_area_sys_req_rightCol {
+    border-radius: var(--corner-radius-medium);
+    padding: 8px 12px;
+}
+body .game_area_sys_req,
+body .sysreq_contents .sysreq_content.active {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: start;
+}
+body .game_area_sys_req_rightCol {
+    margin-left: unset;
+}
+body .discount_block_inline {
+    gap: 8px;
+}
+/* body .game_area_sys_req > div > ul > ul.bb_ul > li:has(strong) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    gap: 0px;
+    text-align: right;
+}
+body .game_area_sys_req > div > ul > ul.bb_ul > li > strong {
+    text-align: left;
+}
+body .game_area_sys_req > div > ul > ul.bb_ul > li:not(:has(strong)) {
+    text-align: center;
+} */
+
+body ._1TRFtE8IfXpDQ_loHnB_bU {
+    border-radius: var(--corner-radius-full);
+    margin-left: auto;
+}
+
+body ._1MwNf8slOG9lOvAeOshmuu {
+    border-radius: var(--corner-radius-medium);
+    box-shadow: unset;
+}
+body ._3o6M87A6T172WsUE6MNvdW:hover ._3_wKbXvT7_y5YkrtadL0I6, ._3o6M87A6T172WsUE6MNvdW:hover .bC2Zkx7FlANno4SW8FwB- {
+    transform: scale(1.1) !important;
+}
+body ._2pPj9UWoWM6h318uBN0-8X {
+    filter: unset;
+    display: none;
+}
+html body.widestore .game_page_autocollapse_ctn.collapsed .game_page_autocollapse_fade {
+    background: unset;
+}
+html body.widestore .game_page_autocollapse_readmore {
+    border-radius: var(--corner-radius-full);
+}
+body .game_page_autocollapse[style*="max-height"]:not([style*="max-height: none"])::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--md-sys-color-surface);
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 25px, rgba(0, 0, 0, 0) 150px, rgb(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 25px, rgba(0, 0, 0, 0) 150px, rgb(0, 0, 0, 0) 100%);
+    pointer-events: none;
+    user-select: none;
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+body .tab_item_discount {
+    justify-content: right;
+    gap: 8px;
+}
+body .package_totals_area {
+    border-radius: var(--corner-radius-medium);
+}
+body #package_savings_bar {
+    border-radius: var(--corner-radius-small);
+}
+body #package_savings_bar > .savings {
+    background: unset;
+}
+body .tab_item,
+body .tab_item .tab_item_cap_img {
+    border-radius: var(--corner-radius-medium);
+}
+body .tab_item_overlay img {
+    display: none;
+}
+body .package_in_library_flag {
+    box-shadow: unset;
+    border-radius: var(--corner-radius-extra-small);
+    width: fit-content;
+    /* position: static;
+    float: right; */
+    margin-left: 24px;
+}
+body .game_area_purchase_game:has(.package_in_library_flag) .game_area_purchase_platform {
+    margin-right: 8px;
+}
+body .game_purchase_area_owned_by_family {
+    border-radius: var(--corner-radius-medium);
+    margin-bottom: 4px;
+}
+body .ds_flag.ds_completetheset {
+    border-radius: var(--corner-radius-extra-small);
+    box-shadow: unset;
+}
+body .item_store_items_game_page_container,
+body .item_store_overlay_link {
+    border-radius: var(--corner-radius-medium);
+}
+body .item_def_icon_container,
+body .item_def_icon {
+    border-radius: var(--corner-radius-medium);
+}
+body .item_store_overlay_link .btnv6_lightblue_blue,
+body .item_store_overlay_link .btnv6_lightblue_blue > span {
+    border-radius: var(--corner-radius-full);
+    box-shadow: unset;
+    text-shadow: unset;
+}
+
+/* TEMP */
+body .ds_flag {
+    border-radius: var(--corner-radius-extra-small);
 }
 
 /* Plugins Support */

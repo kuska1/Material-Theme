@@ -1,7 +1,14 @@
-html body.v7 .discount_pct {
-    color: var(--md-sys-color-on-primary-container) !important;
-    background: var(--md-sys-color-primary-container) !important;
+html body .discount_pct,
+html body .discount_block .discount_pct,
+html body .cnkoFkzVCby40gJ0jGGS4 {
+    color: var(--md-sys-color-on-primary-container);
+    background: var(--md-sys-color-primary-container);
 }
-html body.v7 .discount_final_price {
-    color: var(--md-sys-color-primary) !important;
+html body .discount_final_price,
+html body ._1g0B-RjwkUV0_MDURgy3Bi ._3j4dI1yA7cRfCvK8h406OB,
+html body .steamdb_prices_top b,
+html body #package_savings_bar,
+html body .package_totals_row.highlight,
+html body .package_totals_row.highlight .price {
+    color: var(--md-sys-color-primary);
 }

@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "Theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.4.29",
+    "version": "1.4.30",
     "header_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
     "splash_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
 
@@ -910,6 +910,19 @@
                 }
             }
         },
+        "Use Modifications File": {
+            "description": "Create [b]mods.css[/b] and change everything you want.",
+            "default": "no",
+            "tab": "Extra",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "mods.css"
+                    }
+                }
+            }
+        },
         "Use Experimental Features": {
             "description": "Enable experimental features. May cause issues. Currently affects community/powered steam pages.\n[url=https://github.com/kuska1/Material-Theme/issues/new?template=bug_report.md]Feel free to report them via GitHub or Discord Server.[/url]",
             "default": "no",
@@ -919,19 +932,6 @@
                 "yes": {
                     "TargetCss": {
                         "affects": [".*"], "src": "experimental.css"
-                    }
-                }
-            }
-        },
-        "Show Debug Info": {
-            "description": "Display useful information. Helpful for bug reports.",
-            "default": "no",
-            "tab": "Extra",
-            "values": {
-                "no": {},
-                "yes": {
-                    "TargetJs": {
-                        "affects": [".*"], "src": "js/extra/debug.js"
                     }
                 }
             }

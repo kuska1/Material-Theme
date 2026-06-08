@@ -1423,6 +1423,13 @@ html:has(._1bGewp3tfzqAF6fVTFFUOz[style*="display: none;"]) ._2iJsgdTIX9Tj23rWnB
     border-radius: var(--corner-radius-medium);
 }
 
+/* Badges */
+._2W_HQa5Rhf-hHITgV5H0bu, /* Me */
+._3cowYQH1B8oj2_ls7YZ1aW ._2e63TrPvMKVUujM8SUB8X2 /* New */ {
+    border-radius: var(--corner-radius-extra-small);
+    box-shadow: unset;
+}
+
 /* Millenium Tab */
 .MillenniumSettings {
     border-top: unset !important;
