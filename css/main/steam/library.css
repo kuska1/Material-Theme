@@ -1600,9 +1600,10 @@ html[lang="ja"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::aft
     height: fit-content;
     word-wrap: break-word;
     word-break: keep-all;
+    text-transform: uppercase;
 }
 .MillenniumDesktopSidebar_EditorContent .Ripple.Effect:nth-child(3) ._3jMlJm4PQCA8SfNlUR99Fo::after {
-    content: "Broken";
+    content: "Beta";
 }
 .MillenniumDesktopSidebar_EditorContent .Store.Cash.Related.based.on.Source.Color:nth-child(2) ._3jMlJm4PQCA8SfNlUR99Fo::after,
 .MillenniumDesktopSidebar_EditorContent .Menu.Style:nth-child(3) ._3jMlJm4PQCA8SfNlUR99Fo::after,

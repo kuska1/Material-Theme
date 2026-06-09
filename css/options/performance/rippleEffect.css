@@ -1,44 +1,41 @@
-button, div[role="button"], div[role="combobox"] {
-    position: relative !important;
-    overflow: hidden !important;
+/*
+ * Material Design 3 — Ripple Effect (CSS)
+ * Хосты (button, div[role="button"] и т.д.) НЕ получают
+ * position:relative / overflow:hidden — layout не ломается.
+ * Все стили относятся только к ripple-контейнеру и кружку.
+ */
+
+/* Контейнер: fixed-слой поверх хоста, не влияет на его layout */
+.md3-ripple-container {
+    position: fixed;
+    overflow: hidden;
+    pointer-events: none;
+    user-select: none;
+    z-index: 1;
 }
 
-div[role="tab"] {
-    position: relative !important;
-    /* overflow: hidden !important; */
-}
-
-/* Создаем слой для эффекта через псевдоэлемент */
-button::after, div[role="button"]::after, div[role="tab"]::after, div[role="combobox"]::after {
-    content: "";
+/* Сам ripple-кружок */
+.md3-ripple {
     position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    user-select: none;
     background: currentColor;
-    border-radius: 99999px !important;
+    opacity: 0.12;           /* MD3 pressed state-layer opacity */
+    transform: scale(0);
+    will-change: transform, opacity;
+}
+
+/* Фаза 1 — расширение */
+.md3-ripple.ripple-enter {
+    transform: scale(1);
+}
+
+/* Фаза 2 — затухание */
+.md3-ripple.ripple-fade {
     opacity: 0;
-    width: 0%;
-    height: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: unset !important;
+}
+
+._1-vlriAtKYDViAEunue4VO ._2PPbMrzl8PKBwpkjYs9b0i {
     pointer-events: none !important;
-    user-select: none !important;
-}
-
-button:active::after, div[role="button"]:active::after, div[role="combobox"]:active::after {
-    opacity: 0.12;
-    width: 150%;
-    height: 150%;
-    transition: 
-        all var(--animation-duration-medium2) cubic-bezier(.35,0,1,0.15),
-        opacity 0.4s var(--animation-easing-linear) !important;
-}
-
-div[role="tab"]:active::after {
-    opacity: 0.12;
-    width: 100%;
-    height: 100%;
-    transition: 
-        all var(--animation-duration-medium2) cubic-bezier(.35,0,1,0.15),
-        opacity 0.4s var(--animation-easing-linear) !important;
 }
