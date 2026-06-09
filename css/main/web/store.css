@@ -412,9 +412,25 @@ body .steamdb_prices {
 }
 body .game_area_purchase_game a.steamdb_link,
 html.responsive body .game_area_purchase_game a.steamdb_link {
-    top: unset;
+    /* top: unset;
     bottom: 16px;
-    left: 16px;
+    left: 16px; */
+    border-radius: var(--corner-radius-full);
+    top: 16px;
+    bottom: unset;
+    right: 16px;
+    left: unset;
+}
+body .game_area_purchase_game a.steamdb_link:nth-of-type(2),
+html.responsive body .game_area_purchase_game a.steamdb_link:nth-of-type(2),
+body .game_area_purchase_game:has(.package_in_library_flag) a.steamdb_link,
+html.responsive body .game_area_purchase_game:has(.package_in_library_flag) a.steamdb_link {
+    top: 38px;
+    /* bottom: 54px;
+    left: unset;
+    right: 16px; */
+}
+body .steamdb_already_in_library_collapse {
     border-radius: var(--corner-radius-full);
 }
 /* Background */
@@ -452,6 +468,7 @@ body .saleEventBannerStyle,
 body .game_area_bubble {
     padding: unset;
     border-radius: var(--corner-radius-medium);
+    box-shadow: unset;
 }
 body .game_area_comingsoon .wishlist_add_reminder {
     border-bottom-left-radius: var(--corner-radius-medium);
@@ -620,7 +637,9 @@ body .block_content_inner .details_block:has(.game_area_details_specs_ctn):last-
     grid-template-rows: 1fr;
     gap: 4px;
 }
-body .block_content_inner .details_block:last-of-type > i {
+body .block_content_inner .details_block:last-of-type > i,
+body .block_content_inner .details_block:last-of-type > .anticheat_nonkernel_notice,
+body .block_content_inner .details_block:last-of-type > .DRM_notice {
     grid-column: 1 / -1;
 }
 body .block .details_block a.linkbar,
@@ -637,6 +656,53 @@ body .block .details_block div.linkbar {
 body .linkbar > svg,
 body .linkbar > img {
     margin-block: auto;
+}
+html body.v6 .game_area_already_owned.page_content {
+    border-radius: var(--corner-radius-medium);
+}
+body .game_area_already_owned .ds_flag {
+    border-radius: var(--corner-radius-extra-small);
+}
+html body.widestore .game_area_play_stats,
+html body .game_area_play_stats {
+    margin-top: 6px;
+    border-radius: var(--corner-radius-medium);
+    box-shadow: unset;
+}
+body .game_area_purchase_game:not(:has(.game_purchase_discount_countdown)):has(.package_in_library_flag):has(.steamdb_link) > h2.title.title {
+    padding-bottom: 12px;
+}
+body .game_area_play_stats .btnv6_lightblue_blue,
+body .game_area_play_stats .btnv6_lightblue_blue > span {
+    border: unset;
+    border-radius: var(--corner-radius-full);
+    text-shadow: unset;
+    box-shadow: unset;
+}
+body .review_controls {
+    border-radius: var(--corner-radius-medium);
+}
+body #review_create .content .controls .dselect_container button.trigger,
+body #review_create .content .controls .dselect_container button.activetrigger {
+    border-radius: var(--corner-radius-extra-small);
+}
+body .review_create_vote_controls .btnv6_blue_hoverfade:not(.btn_active) {
+    border-radius: var(--corner-radius-full);
+}
+body .review_create_vote_controls .btnv6_blue_hoverfade.btn_active {
+    border-radius: var(--corner-radius-extra-small);
+}
+body #review_create .input_box {
+    border-left: unset;
+    border-right: unset;
+    border-top: unset;
+    border-radius: var(--corner-radius-small);
+    border-bottom-left-radius: var(--corner-radius-none);
+    border-bottom-right-radius: var(--corner-radius-none);
+    box-shadow: unset;
+}
+body #review_create .input_box:focus-visible {
+    outline: unset;
 }
 body .game_area_purchase_game,
 body .game_area_offsite_purchase,
@@ -709,6 +775,9 @@ body .bundle_contents_preview.collapsed a.bundle_contents_preview_item,
 body .game_area_purchase_game div.package_contents_collapsed.package_contents_capsules div.package_contents_capsule {
     border-radius: var(--corner-radius-medium);
     box-shadow: var(--elevated-shadow);
+}
+body div.package_contents_capsule:hover {
+    box-shadow: var(--elevated-shadow-hover);
 }
 body .game_area_purchase_game div.package_contents_capsules.package_contents_collapsed::after {
     display: none;
@@ -826,6 +895,10 @@ body ._1MwNf8slOG9lOvAeOshmuu {
     border-radius: var(--corner-radius-medium);
     box-shadow: unset;
 }
+body ._2qyLPxO8_nkczRvFiaju8N,
+body ._2qyLPxO8_nkczRvFiaju8N ._3_wKbXvT7_y5YkrtadL0I6 {
+    border-radius: var(--corner-radius-medium);
+}
 body ._3o6M87A6T172WsUE6MNvdW:hover ._3_wKbXvT7_y5YkrtadL0I6, ._3o6M87A6T172WsUE6MNvdW:hover .bC2Zkx7FlANno4SW8FwB- {
     transform: scale(1.1) !important;
 }
@@ -878,14 +951,25 @@ body .tab_item_overlay img {
 }
 body .package_in_library_flag {
     box-shadow: unset;
-    border-radius: var(--corner-radius-extra-small);
+    border-radius: var(--corner-radius-full);
     width: fit-content;
     /* position: static;
     float: right; */
-    margin-left: 24px;
+    /* margin-left: 24px; */
+    top: 16px;
+    right: 16px;
+    left: unset;
+}
+body .game_area_purchase_game .game_area_purchase_platform {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
 }
 body .game_area_purchase_game:has(.package_in_library_flag) .game_area_purchase_platform {
     margin-right: 8px;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
 }
 body .game_purchase_area_owned_by_family {
     border-radius: var(--corner-radius-medium);
@@ -908,6 +992,27 @@ body .item_store_overlay_link .btnv6_lightblue_blue > span {
     border-radius: var(--corner-radius-full);
     box-shadow: unset;
     text-shadow: unset;
+}
+/* - AGE VERIFY - */
+body #app_agegate {
+    margin-top: 4%;
+}
+body.app #app_agegate .main_content_ctn {
+    border: unset;
+    border-radius: var(--corner-radius-medium);
+}
+body .agegate_text_container img {
+    border-radius: var(--corner-radius-medium);
+    box-shadow: unset;
+}
+body .agegate_text_container .img_ctn {
+    padding-top: 30px;
+}
+body .agegate_birthday_selector {
+    border-radius: var(--corner-radius-medium);
+}
+body #app_agegate select {
+    border-radius: var(--corner-radius-extra-small);
 }
 
 /* TEMP */

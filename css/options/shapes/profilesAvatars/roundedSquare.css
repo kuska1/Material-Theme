@@ -12,6 +12,8 @@
 /* Store */
 .store_nav .tab img.foryou_avatar,
 .friends_container .avatars a img,
+#review_create .avatar,
+#review_create .avatar > img,
 /* Community/Powered */
 .player_avatar img,
 .avatarMedium img,

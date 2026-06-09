@@ -861,7 +861,8 @@ body .game_language_options tr {
 body ._2kqKZFxhF8XvzaoAekjV7m ._58Mghr8vhm_-IZP3Mkcb_,
 body .game_info_stats_rule,
 body .rule, body .inner_rule,
-body .RJuzsEBZ8kM-.BmkyU9JH47M- {
+body .RJuzsEBZ8kM-.BmkyU9JH47M-,
+body #review_create h2, body .reviewDate {
     border-top-color: var(--md-sys-color-outline-variant);
 }
 ._276E6ijBpjMA2_iTxNhhjc._2g5K_hJWc7jVo81zuejhk2:hover /* Resize Divider */ {
@@ -956,6 +957,9 @@ body select.gray_bevel option:hover, body select.gray_bevel option:focus /* Comm
     background: var(--md-sys-color-outline-variant);
 }
 /* Checkbox Fix */
+.EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container .DialogCheckbox {
+    background: transparent;
+}
 .EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container .DialogCheckbox svg defs linearGradient stop /* Games and Software */ {
     color: var(--md-sys-color-on-tertiary-container);
     stop-color: var(--md-sys-color-on-tertiary-container);
@@ -6526,6 +6530,9 @@ body .all_languages {
 body .all_languages:hover {
     color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
 }
+body .shared_game_rating .game_rating_title {
+    color: var(--md-sys-color-on-surface); 
+}
 body .shared_game_rating p.descriptorText {
     color: var(--md-sys-color-on-surface-variant) !important;
 }
@@ -6584,6 +6591,126 @@ body #game_area_metascore a:hover {
     color: var(--md-sys-color-primary);
 }
 
+html body.v6 .game_area_already_owned.page_content {
+    color: var(--md-sys-color-on-primary-container);
+    background: var(--md-sys-color-primary-container);
+}
+body .game_area_already_owned .ds_flag {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body .steamdb_already_in_library_link:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
+}
+html body.widestore .game_area_play_stats,
+html body .game_area_play_stats {
+    background: var(--md-sys-color-surface-container-low);
+}
+body .hours_played {
+    color: var(--md-sys-color-outline);
+}
+body #review_create h2,
+body .reviewDate {
+    color: var(--md-sys-color-on-surface);
+}
+body #review_create p {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body #review_create a {
+    color: var(--md-sys-color-on-surface);
+}
+body #review_create a:hover {
+    color: var(--md-sys-color-primary);
+}
+body .game_area_play_stats .btnv6_lightblue_blue {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body .game_area_play_stats .btnv6_lightblue_blue > span {
+    color: var(--md-sys-color-on-primary);
+}
+body .game_area_play_stats .btnv6_lightblue_blue:hover,
+body .game_area_play_stats .btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+body .game_area_play_stats .btnv6_lightblue_blue:hover > span,
+body .game_area_play_stats .btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
+    color: var(--md-sys-color-on-primary);
+}
+body .game_area_play_stats .btnv6_lightblue_blue:active {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+}
+body .game_area_play_stats .btnv6_lightblue_blue:active > span {
+    color: var(--md-sys-color-on-primary);
+}
+html body .review_controls,
+html body.widestore .review_controls {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-high);
+}
+html body #review_create .review_controls a {
+    color: var(--md-sys-color-outline);
+}
+html body #review_create .review_controls a:hover {
+    color: var(--md-sys-color-on-surface);
+}
+html body #review_create .review_controls .formattinghelp a {
+    color: var(--md-sys-color-primary);
+}
+html body #review_create .review_controls .formattinghelp a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
+}
+body #review_create .content .controls .dselect_container button.trigger,
+body #review_create .content .controls .dselect_container button.activetrigger {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body #review_create .content .controls .dselect_container button.trigger:hover,
+body #review_create .content .controls .dselect_container button.activetrigger:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body #review_create .content .controls .dselect_container button.trigger:active,
+body #review_create .content .controls .dselect_container button.activetrigger:active {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+body .review_control_didyouenjoy {
+    color: var(--md-sys-color-on-surface);
+}
+body .review_create_vote_controls .btnv6_blue_hoverfade.btn_active {
+    color: var(--md-sys-color-on-secondary);
+    background: var(--md-sys-color-secondary);
+}
+body .review_create_vote_controls .btnv6_blue_hoverfade.btn_active > span {
+    color: var(--md-sys-color-on-secondary);
+}
+body .review_create_vote_controls .btnv6_blue_hoverfade.btn_active:hover,
+body .review_create_vote_controls .btnv6_blue_hoverfade.btn_active:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+    color: var(--md-sys-color-on-secondary);
+    background: color-mix(in srgb, var(--md-sys-color-secondary), var(--md-sys-color-on-secondary) var(--layer-action-hover));
+}
+body .review_create_vote_controls .btnv6_blue_hoverfade.btn_active:hover > span,
+body .review_create_vote_controls .btnv6_blue_hoverfade.btn_active:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
+    color: var(--md-sys-color-on-secondary);
+}
+body .review_create_vote_controls .btnv6_blue_hoverfade.btn_active:active {
+    color: var(--md-sys-color-on-secondary);
+    background: color-mix(in srgb, var(--md-sys-color-secondary), var(--md-sys-color-on-secondary) var(--layer-action-active));
+}
+body .review_create_vote_controls .btnv6_blue_hoverfade.btn_active:active > span {
+    color: var(--md-sys-color-on-secondary);
+}
+body #review_create .input_box {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-variant);
+    border-bottom: 2px solid var(--md-sys-color-on-surface);
+}
+body #review_create .input_box:focus-visible {
+    border-color: var(--md-sys-color-primary);
+}
 body .game_area_purchase_game h1,
 body .game_area_offsite_purchase h1,
 body .game_area_purchase_game h2.title.title {
@@ -6592,6 +6719,12 @@ body .game_area_purchase_game h2.title.title {
 body .game_area_purchase_game p.package_contents a,
 body .game_area_offsite_purchase p.package_contents a {
     color: var(--md-sys-color-on-surface-variant);
+}
+body .game_area_purchase_game p.package_contents .package_contents_show_more a {
+    color: var(--md-sys-color-on-surface);
+}
+body .game_area_purchase_game p.package_contents .package_contents_show_more a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
 }
 body .game_area_purchase_game p.package_contents,
 body .game_area_offsite_purchase p.package_contents {
@@ -6696,7 +6829,11 @@ body h2 .note em {
     color: var(--md-sys-color-outline);
 }
 body span.platform_img {
+    fill: currentColor;
     color: var(--md-sys-color-on-surface-variant);
+}
+body span.platform_img {
+    filter: invert(var(--scheme-light, 1) var(--scheme-dark, 0));
 }
 body .game_area_purchase_game {
     color: var(--md-sys-color-on-surface-variant);
@@ -6826,6 +6963,9 @@ body .game_description_column {
 html body.v6 .game_area_description h2.bb_tag {
     color: var(--md-sys-color-primary);
 }
+body .game_area_description ul {
+    color: var(--md-sys-color-outline);
+}
 body .music_album_track_listing_table {
     color: var(--md-sys-color-on-secondary-container);
 }
@@ -6901,6 +7041,12 @@ body ._2jc1DpJ_WzFtigRh5qDWce {
 body ._3-EtNa1Nr_737K0kglkT9C {
     color: var(--md-sys-color-outline);
 }
+body .ENbI1gFgvIca6HSKAbfiJ {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body ._2BWwVF5N-3fDuJRblB6gHb, ._11JXznGoylLSEmZXZbgcsq {
+    color: var(--md-sys-color-primary);
+}
 html body.widestore .game_page_autocollapse_readmore {
     color: var(--md-sys-color-on-secondary-container);
     background: var(--md-sys-color-secondary-container);
@@ -6936,6 +7082,7 @@ body .tab_item:active {
 body .tab_item_name {
     color: var(--md-sys-color-on-surface-variant);
 }
+body .tab_item.ds_flagged:not(.ds_wishlist):not(:hover) .tab_item_content .tab_item_name,
 body .tab_item_details {
     color: var(--md-sys-color-outline);
 }
@@ -6987,6 +7134,67 @@ body .item_store_overlay_link .btnv6_lightblue_blue:not(.btn_disabled):not(:disa
 body .item_store_overlay_link .btnv6_lightblue_blue:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
     color: var(--md-sys-color-on-primary);
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+/* - AGE VERIFY - */
+body.app #app_agegate .main_content_ctn {
+    background: var(--md-sys-color-surface-container-low);
+}
+body div.agegate_text_container > h2 {
+    color: var(--md-sys-color-on-surface);
+}
+body .agegate_content_descriptors_notes {
+    color: var(--md-sys-color-outline);
+}
+body .agegate_content_descriptors_notes p {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .agegate_birthday_selector {
+    background: var(--md-sys-color-surface-container-high);
+}
+body .agegate_birthday_desc {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .agegate_text_container .note {
+    color: var(--md-sys-color-outline);
+}
+body .steamdb_agecheck_hint a {
+    color: var(--md-sys-color-secondary);
+}
+body .steamdb_agecheck_hint a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-secondary), var(--md-sys-color-on-surface) 50%);
+}
+body #app_agegate select {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body #app_agegate select:hover {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+body #app_agegate select:active {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+body #app_agegate select option {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container);
+}
+body #app_agegate select option:hover {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body .steamdb_already_in_library_collapse {
+    color: var(--md-sys-color-on-primary);
+    background: transparent;
+}
+body .steamdb_already_in_library_collapse:hover,
+body .steamdb_already_in_library_collapse:focus {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
+}
+body .steamdb_already_in_library_collapse:active {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
 }
 
 /* -- PROFILE -- */

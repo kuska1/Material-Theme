@@ -1,11 +1,3 @@
-/*
- * Material Design 3 — Ripple Effect (CSS)
- * Хосты (button, div[role="button"] и т.д.) НЕ получают
- * position:relative / overflow:hidden — layout не ломается.
- * Все стили относятся только к ripple-контейнеру и кружку.
- */
-
-/* Контейнер: fixed-слой поверх хоста, не влияет на его layout */
 .md3-ripple-container {
     position: fixed;
     overflow: hidden;
@@ -14,24 +6,21 @@
     z-index: 1;
 }
 
-/* Сам ripple-кружок */
 .md3-ripple {
     position: absolute;
     border-radius: 50%;
     pointer-events: none;
     user-select: none;
     background: currentColor;
-    opacity: 0.12;           /* MD3 pressed state-layer opacity */
+    opacity: 0.12;
     transform: scale(0);
     will-change: transform, opacity;
 }
 
-/* Фаза 1 — расширение */
 .md3-ripple.ripple-enter {
     transform: scale(1);
 }
 
-/* Фаза 2 — затухание */
 .md3-ripple.ripple-fade {
     opacity: 0;
 }
