@@ -1,12 +1,11 @@
 @import url("restyle/recolor.css");
-@import url("restyle/md3badges.css");
 @import url("restyle/md3bars.css");
 @import url("restyle/md3buttons.css");
 @import url("restyle/md3cards.css");
 @import url("restyle/md3checkbox.css");
 @import url("restyle/md3chips.css");
 @import url("restyle/md3dialogs.css");
-@import url("restyle/md3menu.css");
+/* @import url("restyle/md3menu.css"); */
 @import url("restyle/md3navigation.css");
 @import url("restyle/md3progressbar.css");
 @import url("restyle/md3radiobutton.css");
@@ -157,8 +156,8 @@
 
 /* .git Pre-Commit Hook Data */
 :root {
-  --hook-last-commit-hash: "a463773+";
-  --hook-current-commit-date: "09.06.2026 02:15";
+  --hook-last-commit-hash: "1c3b991+";
+  --hook-current-commit-date: "09.06.2026 14:58";
 }
 
 /* Scrollbar */

@@ -592,6 +592,7 @@ body ._3FBEGAfvLQj4qYjstmZAPE {
 body ._3KAysk4dlhWETa6ixz7V2j {
     margin: auto;
 }
+body .anticheat_nonkernel_notice,
 body .DRM_notice {
     border-radius: var(--corner-radius-small);
 }
@@ -605,6 +606,9 @@ body #game_area_metascore .score {
 body .all_languages {
     width: 100%;
     text-align: center;
+}
+body .block .block_content_inner #AwardsDefault img {
+    border-radius: var(--corner-radius-small);
 }
 body .block_content_inner .details_block:has(.linkbar):last-of-type,
 body .block_content_inner .details_block:has(.game_area_details_specs_ctn):last-of-type {
@@ -646,6 +650,19 @@ body .game_area_comingsoon .game_purchase_action,
 body .game_area_offsite_purchase .game_purchase_action {
     position: static;
     margin-top: 12px;
+}
+body div.early_access_banner {
+    border-radius: var(--corner-radius-medium);
+}
+body div.early_access_header,
+body div.early_access_header .heading {
+    border-radius: var(--corner-radius-medium);
+    box-shadow: unset;
+}
+body div.early_access_header .devnotes .morebutton {
+    right: 8px;
+    padding-inline: 12px;
+    border-radius: var(--corner-radius-full);
 }
 body .game_area_dlc_row {
     padding: 8px 2px;

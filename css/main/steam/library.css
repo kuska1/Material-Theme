@@ -214,6 +214,9 @@
 ._1R0eEV6Mxu9G0FnF8g9vNI {
     filter: unset;
 }
+._5ZEYSTRBHDswDtriduXW0 {
+    border-radius: var(--corner-radius-medium);
+}
 
 /* Overflow */
 ._2AUVZlzQq67qe3yhLZsPPB,
@@ -1587,6 +1590,24 @@ html[lang="ja"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::aft
 }
 .MillenniumDesktopSidebar_EditorContent .DialogBody:has(> .\-) .eKmEXJCm_lgme24Fp_HWt:not(._2QgNsvFPYTZ5yRiTm7mUyu).xIITXDcM70faUNqssgUyx:nth-of-type(odd)::after {
     display: none;
+}
+
+/* Option Titles */
+.MillenniumDesktopSidebar_EditorContent ._3jMlJm4PQCA8SfNlUR99Fo::after {
+    margin-left: 4px;
+    border-radius: var(--corner-radius-extra-small);
+    padding-inline: 4px;
+    height: fit-content;
+    word-wrap: break-word;
+    word-break: keep-all;
+}
+.MillenniumDesktopSidebar_EditorContent .Ripple.Effect:nth-child(3) ._3jMlJm4PQCA8SfNlUR99Fo::after {
+    content: "Broken";
+}
+.MillenniumDesktopSidebar_EditorContent .Store.Cash.Related.based.on.Source.Color:nth-child(2) ._3jMlJm4PQCA8SfNlUR99Fo::after,
+.MillenniumDesktopSidebar_EditorContent .Menu.Style:nth-child(3) ._3jMlJm4PQCA8SfNlUR99Fo::after,
+.MillenniumDesktopSidebar_EditorContent .Use.Modifications.File:nth-child(6) ._3jMlJm4PQCA8SfNlUR99Fo::after {
+    content: "New";
 }
 
 /* Fix */

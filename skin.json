@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "Theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.4.30",
+    "version": "1.4.31",
     "header_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
     "splash_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
 
@@ -880,6 +880,23 @@
                 "Color Scheme": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/options/extra/loading/colorscheme.css"
+                    }
+                }
+            }
+        },
+        "Menu Style": {
+            "description": "Choose menu style.",
+            "default": "Expressive",
+            "tab": "Extra",
+            "values": {
+                "Baseline": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/extra/menu/baseline.css"
+                    }
+                },
+                "Expressive": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/extra/menu/expressive.css"
                     }
                 }
             }

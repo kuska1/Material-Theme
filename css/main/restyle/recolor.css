@@ -1516,10 +1516,10 @@ body .millennium-custom-buttons:active {
 /* Base */
 .nevko_tooltip, #nevko-tooltip, /* Badges.js */
 .DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumItem_Version::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY::after,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo::after,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q::after,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48::after, /* Custom Tooltip */
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY::before,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo::before,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q::before,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48::before, /* Custom Tooltip */
 ._2FxbHJzYoH024ko7zqcJOf, /* Base */
 ._3XGRklQrZMakU2xaYB0cLD, /* Library */
 ._2iiN7AYnLFTRFRiuipiYJz, /* Friends */
@@ -2110,7 +2110,50 @@ border-radius: var(--corner-radius-medium);
     background: var(--md-sys-color-surface-container);
 }
 ._1c7FWVusLDkD_Lv6ZB0uTY ._22Q27ULX8FrTAxrt3fLxn1 ._1s3EpCtCwCVJ-7hbeqJeWw ._1Rrhq0ynyX66fxOi1wUNXv ._2c5PPSgndVK0fC-zcQwubR:hover {
-    background: var(--md-sys-color-surface);
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+._1c7FWVusLDkD_Lv6ZB0uTY ._22Q27ULX8FrTAxrt3fLxn1 ._1s3EpCtCwCVJ-7hbeqJeWw ._1Rrhq0ynyX66fxOi1wUNXv ._2c5PPSgndVK0fC-zcQwubR.jMohEdKMbTUO-MRL-I83g {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+._5ZEYSTRBHDswDtriduXW0 {
+    background: var(--md-sys-color-surface-container);
+}
+.JCQ7G4jnG5F4aZVtel49K {
+    color: var(--md-sys-color-on-surface-variant);
+}
+._3DLyrg7YP5cNP9HKda62qd .P_NVQ7KUOfqYaa_SwWOpS .zE2L2bJ9nmo_JVcTMIz55 {
+    color: var(--md-sys-color-outline);
+}
+button._1iFnR7cGRa1kepep433pGx svg path {
+    color: var(--md-sys-color-outline-variant);
+    fill: currentColor;
+    stroke: currentColor;
+}
+button._1iFnR7cGRa1kepep433pGx:hover svg path {
+    color: var(--md-sys-color-outline);
+}
+button._1iFnR7cGRa1kepep433pGx.h782PaUbu8xm3afLFh83E svg path {
+    color: var(--md-sys-color-on-surface-variant);
+    fill: currentColor;
+    stroke: currentColor;
+}
+button._1iFnR7cGRa1kepep433pGx.h782PaUbu8xm3afLFh83E:hover svg path {
+    color: var(--md-sys-color-on-surface);
+}
+._1c7FWVusLDkD_Lv6ZB0uTY ._22Q27ULX8FrTAxrt3fLxn1 ._1s3EpCtCwCVJ-7hbeqJeWw ._1Rrhq0ynyX66fxOi1wUNXv ._2c5PPSgndVK0fC-zcQwubR.jMohEdKMbTUO-MRL-I83g .NZZPOD0T7YytUKqBD86-5,
+._1c7FWVusLDkD_Lv6ZB0uTY ._22Q27ULX8FrTAxrt3fLxn1 ._1s3EpCtCwCVJ-7hbeqJeWw ._1Rrhq0ynyX66fxOi1wUNXv ._2c5PPSgndVK0fC-zcQwubR.jMohEdKMbTUO-MRL-I83g .JpRLQyCHsyiOTbMNjMVXb,
+._1c7FWVusLDkD_Lv6ZB0uTY ._22Q27ULX8FrTAxrt3fLxn1 ._1s3EpCtCwCVJ-7hbeqJeWw ._1Rrhq0ynyX66fxOi1wUNXv ._2c5PPSgndVK0fC-zcQwubR.jMohEdKMbTUO-MRL-I83g ._157ufChU0AaFX9p5agZHqq,
+._1c7FWVusLDkD_Lv6ZB0uTY ._22Q27ULX8FrTAxrt3fLxn1 ._1s3EpCtCwCVJ-7hbeqJeWw ._1Rrhq0ynyX66fxOi1wUNXv ._2c5PPSgndVK0fC-zcQwubR.jMohEdKMbTUO-MRL-I83g:hover .NZZPOD0T7YytUKqBD86-5,
+._1c7FWVusLDkD_Lv6ZB0uTY ._22Q27ULX8FrTAxrt3fLxn1 ._1s3EpCtCwCVJ-7hbeqJeWw ._1Rrhq0ynyX66fxOi1wUNXv ._2c5PPSgndVK0fC-zcQwubR.jMohEdKMbTUO-MRL-I83g:hover .JpRLQyCHsyiOTbMNjMVXb,
+._1c7FWVusLDkD_Lv6ZB0uTY ._22Q27ULX8FrTAxrt3fLxn1 ._1s3EpCtCwCVJ-7hbeqJeWw ._1Rrhq0ynyX66fxOi1wUNXv ._2c5PPSgndVK0fC-zcQwubR.jMohEdKMbTUO-MRL-I83g:hover ._157ufChU0AaFX9p5agZHqq {
+    color: var(--md-sys-color-on-primary);
+}
+._1c7FWVusLDkD_Lv6ZB0uTY ._22Q27ULX8FrTAxrt3fLxn1 ._1s3EpCtCwCVJ-7hbeqJeWw ._1Rrhq0ynyX66fxOi1wUNXv ._2c5PPSgndVK0fC-zcQwubR:hover .NZZPOD0T7YytUKqBD86-5,
+._1c7FWVusLDkD_Lv6ZB0uTY ._22Q27ULX8FrTAxrt3fLxn1 ._1s3EpCtCwCVJ-7hbeqJeWw ._1Rrhq0ynyX66fxOi1wUNXv ._2c5PPSgndVK0fC-zcQwubR:hover .JpRLQyCHsyiOTbMNjMVXb,
+._1c7FWVusLDkD_Lv6ZB0uTY ._22Q27ULX8FrTAxrt3fLxn1 ._1s3EpCtCwCVJ-7hbeqJeWw ._1Rrhq0ynyX66fxOi1wUNXv ._2c5PPSgndVK0fC-zcQwubR:hover ._157ufChU0AaFX9p5agZHqq {
+    color: var(--md-sys-color-on-secondary-container);
 }
 /* Fix */
 ._17uEBe5Ri8TMsnfELvs8-N, ._3Sb2o_mQ30IDRh0C72QUUu {
@@ -6441,14 +6484,24 @@ body :hover>._3KAysk4dlhWETa6ixz7V2j {
     color: var(--md-sys-color-on-surface-variant);
     background: unset;
 }
+body .anticheat_nonkernel_notice {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body .anticheat_name {
+    color: color-mix(in srgb, var(--md-sys-color-on-secondary-container), var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+body .anticheat_uninstalls {
+    color: color-mix(in srgb, var(--md-sys-color-on-secondary-container), var(--md-sys-color-on-surface) 50%);
+}
 body .DRM_notice {
     color: var(--md-sys-color-on-error-container);
     background: var(--md-sys-color-error-container);
 }
-body .anticheat_name {
+body .DRM_notice .anticheat_name {
     color: color-mix(in srgb, var(--md-sys-color-on-error-container), var(--md-sys-color-on-surface) var(--layer-action-active));
 }
-body .anticheat_uninstalls {
+body .DRM_notice .anticheat_uninstalls {
     color: color-mix(in srgb, var(--md-sys-color-on-error-container), var(--md-sys-color-outline) var(--layer-action-active));
 }
 body .DRM_notice a {
@@ -6578,6 +6631,44 @@ body .game_area_purchase_game.demo_above_purchase a {
 body .game_area_purchase_game.demo_above_purchase a:hover {
     color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
 }
+body div.early_access_banner {
+    background: var(--md-sys-color-tertiary-container);
+}
+body div.early_access_banner p {
+    color: var(--md-sys-color-on-tertiary-container);
+}
+body div.early_access_header {
+    border-color: var(--md-sys-color-secondary-container);
+}
+body div.early_access_header .heading {
+    color: color-mix(in srgb, var(--md-sys-color-on-secondary-container), var(--md-sys-color-outline) 50%);
+    background: var(--md-sys-color-secondary-container);
+}
+body div.early_access_header .heading h2,
+body div.early_access_header .heading p.subtitle {
+    color: var(--md-sys-color-on-secondary-container);
+}
+body div.early_access_header .heading p span {
+    color: var(--md-sys-color-tertiary);
+}
+body div.early_access_header .devnotes > .devs_say {
+    color: var(--md-sys-color-outline-variant);
+}
+body div.early_access_header .devnotes > div {
+    color: var(--md-sys-color-outline);
+}
+body div.early_access_header .devnotes h3 {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body div.early_access_header .devnotes .morebutton {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body div.early_access_header .devnotes .morebutton:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+
 body .game_purchase_options_editions_header_compare_button,
 body .leftcol h2 span.note,
 body ._2Jd3MGaOu0C9Ydswf8Q4Tn h2 ._3n8swQFM3I_ARVM_5bPhAs,
@@ -8119,6 +8210,14 @@ body #fgg-scan-result {
     background: var(--md-sys-color-secondary-container);
 }
 .DialogContent_InnerWidth .MillenniumPlugins_PluginField .MillenniumPlugins_PluginLabel .MillenniumItem_Version::after {
+    color: var(--md-sys-color-on-error-container);
+    background: var(--md-sys-color-error-container);
+}
+.MillenniumDesktopSidebar_EditorContent ._3jMlJm4PQCA8SfNlUR99Fo::after {
+    color: var(--md-sys-color-on-tertiary-container);
+    background: var(--md-sys-color-tertiary-container);
+}
+.MillenniumDesktopSidebar_EditorContent .Ripple.Effect:nth-child(3) ._3jMlJm4PQCA8SfNlUR99Fo::after {
     color: var(--md-sys-color-on-error-container);
     background: var(--md-sys-color-error-container);
 }

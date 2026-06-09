@@ -21,10 +21,10 @@ body .xa7nOX-adjA- {
 
 /* Custom Tooltip for Theme Settings */
 .DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumItem_Version::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY::after,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo::after,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q::after,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48::after {
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY::before,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo::before,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q::before,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48::before {
     position: absolute;
     /* top: -20px; */
     /* bottom: -10%; */
@@ -46,10 +46,10 @@ body .xa7nOX-adjA- {
     pointer-events: none;
 }
 .DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumItem_Version:hover::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY:hover::after,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo:hover::after,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q:hover::after,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:hover::after {
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY:hover::before,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo:hover::before,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q:hover::before,
+.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:hover::before {
     opacity: 1;
 }
 
@@ -61,34 +61,26 @@ body .xa7nOX-adjA- {
     transform: translate(-20%, -125%) !important;
 }
 
-.MillenniumDesktopSidebar_EditorContent .Color:nth-child(2) ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:nth-of-type(2)::after {
+.MillenniumDesktopSidebar_EditorContent .Color:nth-child(2) ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:nth-of-type(2)::before {
     content: "...\\Steam\\millenium\\themes\\Material-Theme\\matugentemplate.css";
 }
 
-.MillenniumDesktopSidebar_EditorContent .Color:nth-child(2) ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:nth-of-type(4)::after {
+.MillenniumDesktopSidebar_EditorContent .Color:nth-child(2) ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:nth-of-type(4)::before {
     content: "Theme Settings -> Colors -> Custom Accent Color";
 }
 
-.MillenniumDesktopSidebar_EditorContent .Font:nth-child(4) ._1W1to_azoBRG95oNAFpf9Q::before {
+.MillenniumDesktopSidebar_EditorContent .Font:nth-child(4) ._1W1to_azoBRG95oNAFpf9Q::after {
     content: "(?)";
     position: absolute;
-    margin-left: 70px;
+    /* margin-left: 70px; */
     margin-top: -10px;
     font-size: 8px;
 }
 
-.MillenniumDesktopSidebar_EditorContent .Font:nth-child(4) ._1W1to_azoBRG95oNAFpf9Q::after {
+.MillenniumDesktopSidebar_EditorContent .Font:nth-child(4) ._1W1to_azoBRG95oNAFpf9Q::before {
     content: "For \"Custom\" create \"customFont.css\" inside theme folder";
 }
 
-.MillenniumDesktopSidebar_EditorContent .Ripple.Effect:nth-child(3) ._1W1to_azoBRG95oNAFpf9Q::before {
-    content: "(?)";
-    position: absolute;
-    margin-left: 180px;
-    margin-top: -10px;
-    font-size: 8px;
-}
-
-.MillenniumDesktopSidebar_EditorContent .Ripple.Effect:nth-child(3) ._1W1to_azoBRG95oNAFpf9Q::after {
-    content: "Breaks lists currently";
+.MillenniumDesktopSidebar_EditorContent .Ripple.Effect:nth-child(3) ._3jMlJm4PQCA8SfNlUR99Fo::before {
+    content: "Currently breaking lists";
 }
