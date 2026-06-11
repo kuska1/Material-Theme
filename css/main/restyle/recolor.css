@@ -871,7 +871,9 @@ body .game_info_stats_rule,
 body .rule, body .inner_rule,
 body .RJuzsEBZ8kM-.BmkyU9JH47M-,
 body #review_create h2, body .reviewDate,
-body .user_reviews_language_outliers_dropdown {
+body .user_reviews_language_outliers_dropdown,
+body .user_reviews_display_uninformative,
+body .user_reviews_playtime_type {
     border-top-color: var(--md-sys-color-outline-variant);
 }
 ._276E6ijBpjMA2_iTxNhhjc._2g5K_hJWc7jVo81zuejhk2:hover /* Resize Divider */ {
@@ -4925,6 +4927,7 @@ html body.account_preferences,
 body.ynjIKwxhHiw-, /* Workshop */
 body .jnQtMvSIi5I-, /* Market */
 body .i0jZqaPzWXM- /* Workshop */ {
+    color: var(--md-sys-color-on-surface-variant);
     background: var(--md-sys-color-surface);
 }
 /* Header */
@@ -5546,6 +5549,21 @@ body .Cof2gdY95obJE9ekAvmbf {
 body a._175B12uOwmeGBNcSaQFe-Z .BReXgOZvJY6u4htWQn1aF,
 body button._175B12uOwmeGBNcSaQFe-Z .BReXgOZvJY6u4htWQn1aF {
     color: var(--md-sys-color-outline);
+}
+body a._175B12uOwmeGBNcSaQFe-Z._1tJxbjNzcWSdG2hBsklCTN._25YyJKHEEXpSIkVLTEJuKP {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body a._175B12uOwmeGBNcSaQFe-Z._1tJxbjNzcWSdG2hBsklCTN._25YyJKHEEXpSIkVLTEJuKP:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body a._175B12uOwmeGBNcSaQFe-Z._1tJxbjNzcWSdG2hBsklCTN._25YyJKHEEXpSIkVLTEJuKP:active {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+body a._175B12uOwmeGBNcSaQFe-Z._1tJxbjNzcWSdG2hBsklCTN._25YyJKHEEXpSIkVLTEJuKP .BReXgOZvJY6u4htWQn1aF._25YyJKHEEXpSIkVLTEJuKP {
+    color: color-mix(in srgb, var(--md-sys-color-on-secondary-container), var(--md-sys-color-outline) 50%);
 }
 /* Cart */
 body a._175B12uOwmeGBNcSaQFe-Z.qqQDu9j0LIoK-w06-JxB5,
@@ -6421,6 +6439,9 @@ body .queue_ctn a:hover {
     color: var(--md-sys-color-primary);
 }
 /* Containers */
+body .rightcol.game_meta_data .block.recommendation_noinfo {
+    color: var(--md-sys-color-outline);
+}
 body .rightcol.game_meta_data .action_btn {
     color: var(--md-sys-color-on-secondary-container);
     background: var(--md-sys-color-secondary-container);
@@ -6707,6 +6728,11 @@ body #review_create a:hover {
 body .queue_and_playtime > #review_container {
     background: var(--md-sys-color-surface-container-low);
 }
+/* --- */
+body .mature_content_notice {
+    color: var(--md-sys-color-on-error-container);
+    background: var(--md-sys-color-error-container);
+}
 body .game_area_play_stats .btnv6_lightblue_blue,
 body #review_container .btnv6_lightblue_blue {
     color: var(--md-sys-color-on-primary);
@@ -6737,6 +6763,12 @@ body #review_container .btnv6_lightblue_blue:active {
 body .game_area_play_stats .btnv6_lightblue_blue:active > span,
 body #review_container .btnv6_lightblue_blue:active > span {
     color: var(--md-sys-color-on-primary);
+}
+body .recommendation_area .thumb {
+    border-radius: var(--corner-radius-full);
+}
+body .recommendation_area .reviewPostedDescription {
+    color: var(--md-sys-color-outline);
 }
 html body .review_controls,
 html body.widestore .review_controls {
@@ -7093,6 +7125,12 @@ html body.widestore .album_metadata_chunk_name {
 body #game_area_legal {
     color: var(--md-sys-color-outline-variant);
 }
+body #game_area_legal a {
+    color: var(--md-sys-color-outline);
+}
+body #game_area_legal a:hover {
+    color: var(--md-sys-color-primary);
+}
 body .mq3ROvmcn5_HdCKG6JXDa svg {
     color: var(--md-sys-color-on-surface);
 }
@@ -7181,6 +7219,10 @@ body .tab_item_details {
 }
 body .tab_item .discount_block .discount_prices {
     background: var(--md-sys-color-surface-container-highest);
+}
+body .game_area_purchase_not_refundable, .game_area_purchase_custom_cart_credit {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
 }
 body .package_totals_area .price.bundle_discount {
     color: var(--md-sys-color-tertiary);
@@ -7399,6 +7441,11 @@ body .amNoDX2pd1HfanrHX9QUo._1LI9d9a8_tfZJvBuuZz6Oh ._2uvK1zucSC4I2mo3PDObGs {
 body ._7-m3PA_FStk99zsZUPYX- .uxZHwbCMxnLnMBo894hNi h3 {
     color: var(--md-sys-color-on-surface);
 }
+body ._2OpCkQAxn48FmAJ4KO84_C {
+    color: var(--md-sys-color-on-tertiary-container);
+    background: var(--md-sys-color-tertiary-container);
+    border-style: none;
+}
 body .HGCiCZ2mhusHJku7z15Nw ._1pk8MT_nsrwd0kif6cppyD {
     background: var(--md-sys-color-on-primary);
 }
@@ -7489,7 +7536,7 @@ body ._3RMhe-2D4zNZ4Wvhc9MIRc:hover {
     color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-surface) 50%);
 }
 body .dh9oGaFfS7QEnReR1JGRQ.amNoDX2pd1HfanrHX9QUo ._2uvK1zucSC4I2mo3PDObGs {
-    color: var(--md-sys-color-on-surface-container-variant);
+    color: var(--md-sys-color-on-surface-variant);
     background: var(--md-sys-color-surface-container-low);
 }
 body ._7-m3PA_FStk99zsZUPYX- button.DialogButton {
@@ -7582,13 +7629,56 @@ html body.v6 .steam_curators_block h2:not(.BB_Header2) {
 }
 body .no_curators_followed {
     color: var(--md-sys-color-on-surface-variant);
-    background: var(--md-sys-color-surface-container-high);
+    background: var(--md-sys-color-surface-container-low);
 }
 body .no_curators_followed a {
     color: var(--md-sys-color-on-surface);
 }
 body .no_curators_followed a:hover {
     color: var(--md-sys-color-primary);
+}
+body #reviews_filter_options.graph_collapsed #review_show_graph_button {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body #reviews_filter_options.graph_collapsed #review_show_graph_button:hover,
+body #reviews_filter_options.graph_collapsed #review_show_graph_button.btn_black:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+    color: var(--md-sys-color-on-secondary-container) !important;
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body #reviews_filter_options.graph_collapsed #review_show_graph_button:active {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+body #review_histograms_container.has_data {
+    background: var(--md-sys-color-surface-container-high);
+}
+body .review_histogram .flot-y-axis,
+body .review_histogram .flot-x-axis {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body #review_histogram_recent_section {
+    background: var(--md-sys-color-surface-container-highest);
+}
+body #review_histogram_recent_section .flot-text {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .review_box .noReviewsYetTitle {
+    color: var(--md-sys-color-on-surface);
+}
+body .review_box .noReviewsYetSub {
+    color: var(--md-sys-color-outline);
+}
+body .review_box {
+    background: var(--md-sys-color-surface-container-low);
+}
+body .notice_box_content {
+    border-style: unset;
+    color: var(--md-sys-color-on-error-container);
+    background: var(--md-sys-color-error-container);
+}
+body .notice_box_content b {
+    color: var(--md-sys-color-error);
 }
 /* - AGE VERIFY - */
 body.app #app_agegate .main_content_ctn {
@@ -7651,6 +7741,300 @@ body .steamdb_already_in_library_collapse:active {
     color: var(--md-sys-color-on-primary);
     background: color-mix(in srgb, transparent, var(--md-sys-color-primary) var(--layer-action-hover));
 }
+/* - SHOPPING CART - */
+body.ShoppingCart.v6 {
+    background: var(--md-sys-color-surface);
+}
+body .XjPmFc2t_i1DAuEXEbIX,
+body ._2bIzQo07mxubFvscA8RIA8,
+body .jY9l4aHTdQLHeTWfPonTr,
+body ._2HG7VOroS8aHSg-W3fPyTt {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-low);
+}
+body ._2FKdJT3nRLNX_ue4Zj-qdK,
+body ._2FKdJT3nRLNX_ue4Zj-qdK ._3TtUDn-J9j6rkwHqjT-i4Y {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body ._2FKdJT3nRLNX_ue4Zj-qdK a {
+    color: var(--md-sys-color-outline);
+}
+body ._2FKdJT3nRLNX_ue4Zj-qdK a:hover {
+    color: var(--md-sys-color-on-surface);
+}
+body .bCGAC51za6R_thjPd7_vw,
+body ._2HG7VOroS8aHSg-W3fPyTt ._307GrwtjhKkXh5dUC5KjUv {
+    color: var(--md-sys-color-on-surface);
+}
+body ._3F0SnUeC_obtI4WyQtijAa .EflKs0JjldhDSxbUBaiOp {
+    color: var(--md-sys-color-on-surface);
+}
+body ._3F0SnUeC_obtI4WyQtijAa ._1wLomHB2PWPNx7TsNYpdtm._2aGDkEAUaGvF4KHHZRRkEj {
+    color: var(--md-sys-color-outline);
+}
+body .MaJOGQvA8cOPjY5-v5S-c a {
+    color: var(--md-sys-color-on-surface-variant)
+}
+body .MaJOGQvA8cOPjY5-v5S-c a:hover {
+    color: var(--md-sys-color-primary)
+}
+body ._1_vNtL4JTtFLtSgY25zz_5 {
+    color: var(--md-sys-color-error);
+}
+body ._3F0SnUeC_obtI4WyQtijAa ._2FgjpNRRiZkDXAB53vFFOh svg {
+    color: var(--md-sys-color-outline);
+}
+body ._3F0SnUeC_obtI4WyQtijAa .QL-7d2s_ZGbceWxP5eoY4 > button {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body ._3F0SnUeC_obtI4WyQtijAa .QL-7d2s_ZGbceWxP5eoY4 > button > .DialogDropDown_CurrentDisplay,
+body ._3F0SnUeC_obtI4WyQtijAa .QL-7d2s_ZGbceWxP5eoY4 > button > .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
+    color: var(--md-sys-color-on-secondary-container);
+    fill: currentColor;
+}
+body ._3F0SnUeC_obtI4WyQtijAa .QL-7d2s_ZGbceWxP5eoY4 > button:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body ._3F0SnUeC_obtI4WyQtijAa .QL-7d2s_ZGbceWxP5eoY4 > button:hover > .DialogDropDown_CurrentDisplay,
+body ._3F0SnUeC_obtI4WyQtijAa .QL-7d2s_ZGbceWxP5eoY4 > button:hover > .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
+    color: var(--md-sys-color-on-secondary-container);
+    fill: currentColor;
+}
+body ._3F0SnUeC_obtI4WyQtijAa .QL-7d2s_ZGbceWxP5eoY4 > button:active {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+body ._3F0SnUeC_obtI4WyQtijAa .QL-7d2s_ZGbceWxP5eoY4 > button:active > .DialogDropDown_CurrentDisplay,
+body ._3F0SnUeC_obtI4WyQtijAa .QL-7d2s_ZGbceWxP5eoY4 > button:active > .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu {
+    color: var(--md-sys-color-on-secondary-container);
+    fill: currentColor;
+}
+body ._3F0SnUeC_obtI4WyQtijAa .QL-7d2s_ZGbceWxP5eoY4 :hover {
+    background: transparent;
+}
+body.ShoppingCart ._2T8Ub04W0G2L6_3692y23L ._8196lUGpYeVntSAwJq-64 {
+    color: var(--md-sys-color-on-surface);
+}
+body.ShoppingCart ._2T8Ub04W0G2L6_3692y23L ._8196lUGpYeVntSAwJq-64:hover {
+    color: var(--md-sys-color-primary);
+}
+body ._2artmqqQS2Rl8YMsi1nV-U {
+    background: var(--md-sys-color-surface-container-high);
+    background: transparent;
+}
+body ._2Agry3evdkG3gKPyhNf7Hz,
+body ._3YCgcpoCojlbS6DvkNsG2J,
+body ._2qvlyUCwtTBUslo1Z7-RlG,
+body ._2HO_qGTXtEZz_EF60S6hfS {
+    color: var(--md-sys-color-outline);
+}
+body ._3YCgcpoCojlbS6DvkNsG2J:hover,
+body ._2qvlyUCwtTBUslo1Z7-RlG:hover,
+body ._2HO_qGTXtEZz_EF60S6hfS:hover {
+    color: var(--md-sys-color-primary);
+}
+body ._3_q-F_MXXBH_JQPJvWznnc div {
+    color: var(--md-sys-color-on-surface);
+}
+body ._3_q-F_MXXBH_JQPJvWznnc div._3-o3G9jt3lqcvbRXt8epsn {
+    color: var(--md-sys-color-outline);
+}
+body ._3ayrhzEm-T_IRhWeQ4HFxr,
+body ._2WLaY5TxjBGVyuWe_6KS3N {
+    color: var(--md-sys-color-on-surface);
+}
+body ._31DQWsrdb_9oV-vMOaaPqI,
+body ._1jqUY_WcPgZnIOE-d9x7wc ._17GFdSD2pc0BquZk5cejg8 {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .jY9l4aHTdQLHeTWfPonTr .p8XFGmprI4snkQjm11Pf2,
+body .jY9l4aHTdQLHeTWfPonTr ._2Wg3oyIvxKKM_o6q7rXdc5 {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .jY9l4aHTdQLHeTWfPonTr ._2Wg3oyIvxKKM_o6q7rXdc5 a {
+    color: var(--md-sys-color-on-surface);
+}
+body .jY9l4aHTdQLHeTWfPonTr ._2Wg3oyIvxKKM_o6q7rXdc5 a:hover {
+    color: var(--md-sys-color-primary);
+}
+body ._12zYFuKO2U-1QfeVxlGfwF {
+    color: var(--md-sys-color-outline);
+}
+body ._12zYFuKO2U-1QfeVxlGfwF:hover {
+    color: var(--md-sys-color-primary);
+}
+body ._2dxsG5kVzdAeX8R0mGOiV8 {
+    color: var(--md-sys-color-on-surface);
+}
+body button.DialogButton.Primary {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body button.DialogButton.Primary:hover {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+body button.DialogButton.Primary:active,
+body button.DialogButton.Primary:enabled:active,
+body button.DialogButton.Primary:enabled:hover:active,
+body button.DialogButton.Primary:enabled:active.gpfocus {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+}
+body button.DialogButton.Primary.Disabled {
+    color: var(--md-sys-color-outline);
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-disabled)) !important;
+}
+body button.DialogButton.Secondary {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body button.DialogButton.Secondary:hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body button.DialogButton.Secondary:active,
+body button.DialogButton.Secondary:enabled:active,
+body button.DialogButton.Secondary:enabled:hover:active,
+body button.DialogButton.Secondary:enabled:active.gpfocus {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+body ._1ABCOz8DSrl-YJdh1xD-m0._1HwWXjF06mJ9sG_9KXlgA- {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-high);
+}
+body ._1ABCOz8DSrl-YJdh1xD-m0._1HwWXjF06mJ9sG_9KXlgA-:hover {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface-variant) var(--layer-action-hover));
+}
+body ._1ABCOz8DSrl-YJdh1xD-m0._1HwWXjF06mJ9sG_9KXlgA-:active {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface-variant) var(--layer-action-active));
+}
+body ._1ABCOz8DSrl-YJdh1xD-m0._1HwWXjF06mJ9sG_9KXlgA-.Followed {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body ._1ABCOz8DSrl-YJdh1xD-m0._1HwWXjF06mJ9sG_9KXlgA-.Followed:hover {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+body ._1ABCOz8DSrl-YJdh1xD-m0._1HwWXjF06mJ9sG_9KXlgA-.Followed:active {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+}
+body ._1HwWXjF06mJ9sG_9KXlgA- svg {
+    stroke: currentColor;
+}
+body .ModalPosition_Dismiss .closeButton .SVGIcon_X_Line line {
+    color: var(--md-sys-color-outline);
+}
+body .ModalPosition_Dismiss .closeButton:hover .SVGIcon_X_Line line {
+    color: var(--md-sys-color-on-surface);
+}
+/* - CHECKOUT - */
+body.checkout {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface);
+}
+body .checkout_error {
+    color: var(--md-sys-color-on-error-container) !important;
+    background: var(--md-sys-color-error-container) !important;
+}
+body #payment_info_tab .checkout_content .payment_info_form_area,
+body #col_right_payment_info {
+    background: var(--md-sys-color-surface-container-low);
+}
+body .block .block_header {
+    color: var(--md-sys-color-on-surface);
+}
+body.checkout .btnv6_green_white_innerfade,
+body.account .btnv6_green_white_innerfade {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body.checkout .btnv6_green_white_innerfade:hover,
+body.checkout .btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+body.account .btnv6_green_white_innerfade:hover,
+body.account .btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+body.checkout .btnv6_green_white_innerfade:active,
+body.account .btnv6_green_white_innerfade:active {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+}
+body.checkout .btnv6_green_white_innerfade > span,
+body.checkout .btnv6_green_white_innerfade:hover > span,
+body.checkout .btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span,
+body.checkout .btnv6_green_white_innerfade:active > span,
+body.account .btnv6_green_white_innerfade > span,
+body.account .btnv6_green_white_innerfade:hover > span,
+body.account .btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span,
+body.account .btnv6_green_white_innerfade:active > span {
+    color: var(--md-sys-color-on-primary);
+}
+body.checkout .btnv6_blue_hoverfade {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
+}
+body.checkout .btnv6_blue_hoverfade:hover,
+body.checkout .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+}
+body.checkout .btnv6_blue_hoverfade:active {
+    color: var(--md-sys-color-on-secondary-container);
+    background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+}
+body.checkout .btnv6_blue_hoverfade > span,
+body.checkout .btnv6_blue_hoverfade:hover > span,
+body.checkout .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span,
+body.checkout .btnv6_blue_hoverfade:active > span {
+    color: var(--md-sys-color-on-secondary-container);
+}
+body .cart_tab, .cart_tab_spacer {
+    color: var(--md-sys-color-outline);
+}
+body .cart_tab_on {
+    color: var(--md-sys-color-on-primary-container);
+    background: var(--md-sys-color-primary-container);
+}
+body .cart_tab_off {
+    color: var(--md-sys-color-outline);
+}
+body h2.addfunds_pageheader:not(.BB_Header2) {
+    color: var(--md-sys-color-on-surface);
+}
+body .addfunds_about {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .addfunds_footer {
+    color: var(--md-sys-color-outline);
+}
+body .giftcard_description a {
+    color: var(--md-sys-color-on-surface);
+}
+body .giftcard_description a:hover {
+    color: var(--md-sys-color-primary);
+}
+body .giftcard_selectamount {
+    color: var(--md-sys-color-on-surface);
+}
+body .giftcard_amounts {
+    background: var(--md-sys-color-surface-container-low);
+}
+body .faq_question {
+    color: var(--md-sys-color-primary);
+}
+body .faq_item p {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
 
 /* -- PROFILE -- */
 /* Valve Employee */
