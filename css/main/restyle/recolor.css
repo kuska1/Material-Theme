@@ -7868,37 +7868,37 @@ body ._12zYFuKO2U-1QfeVxlGfwF:hover {
 body ._2dxsG5kVzdAeX8R0mGOiV8 {
     color: var(--md-sys-color-on-surface);
 }
-body button.DialogButton.Primary {
+body.v6 button.DialogButton.Primary {
     color: var(--md-sys-color-on-primary);
     background: var(--md-sys-color-primary);
 }
-body button.DialogButton.Primary:hover {
+body.v6 button.DialogButton.Primary:hover {
     color: var(--md-sys-color-on-primary);
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
 }
-body button.DialogButton.Primary:active,
-body button.DialogButton.Primary:enabled:active,
-body button.DialogButton.Primary:enabled:hover:active,
-body button.DialogButton.Primary:enabled:active.gpfocus {
+body.v6 button.DialogButton.Primary:active,
+body.v6 button.DialogButton.Primary:enabled:active,
+body.v6 button.DialogButton.Primary:enabled:hover:active,
+body.v6 button.DialogButton.Primary:enabled:active.gpfocus {
     color: var(--md-sys-color-on-primary);
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
 }
-body button.DialogButton.Primary.Disabled {
+body.v6 button.DialogButton.Primary.Disabled {
     color: var(--md-sys-color-outline);
     background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-disabled)) !important;
 }
-body button.DialogButton.Secondary {
+body.v6 button.DialogButton.Secondary {
     color: var(--md-sys-color-on-secondary-container);
     background: var(--md-sys-color-secondary-container);
 }
-body button.DialogButton.Secondary:hover {
+body.v6 button.DialogButton.Secondary:hover {
     color: var(--md-sys-color-on-secondary-container);
     background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
 }
-body button.DialogButton.Secondary:active,
-body button.DialogButton.Secondary:enabled:active,
-body button.DialogButton.Secondary:enabled:hover:active,
-body button.DialogButton.Secondary:enabled:active.gpfocus {
+body.v6 button.DialogButton.Secondary:active,
+body.v6 button.DialogButton.Secondary:enabled:active,
+body.v6 button.DialogButton.Secondary:enabled:hover:active,
+body.v6 button.DialogButton.Secondary:enabled:active.gpfocus {
     color: var(--md-sys-color-on-secondary-container);
     background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
 }
