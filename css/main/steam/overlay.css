@@ -14,12 +14,17 @@
     border-top-right-radius: var(--corner-radius-medium);
 }
 .aqvbkhC1ejt4s8QvWA-c5 .TSlxCkeUMGwzmg21_WU8-:has(._3j1xDQwp3Lvcn7_5RTTBYk) {
-    border-radius: var(--corner-radius-small);
+    border-radius: var(--corner-radius-full);
     margin-left: 4px;
+    padding-inline: 10px;
 }
 ._26Gmfe09NRsnF7eprTZYdY ._1oXr_GpvIgjHasLyU3tBn,
 ._26Gmfe09NRsnF7eprTZYdY ._1oXr_GpvIgjHasLyU3tBn:hover {
     border-radius: var(--corner-radius-full);
+}
+._26Gmfe09NRsnF7eprTZYdY ._1oXr_GpvIgjHasLyU3tBn.WIb1FyHC1Tm7gOvbbiI2k,
+._26Gmfe09NRsnF7eprTZYdY ._1oXr_GpvIgjHasLyU3tBn.WIb1FyHC1Tm7gOvbbiI2k:hover {
+    border-radius: var(--corner-radius-extra-small);
 }
 
 ._27m9Qbg4ShilOgwvYZWV8l ._1vG-vFfwpDeNStVbyo1Qy6 {

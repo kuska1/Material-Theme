@@ -1,7 +1,10 @@
 html body .discount_pct,
 html body .discount_block .discount_pct,
 html body .cnkoFkzVCby40gJ0jGGS4,
-html body .XMxkarW3W_NNebjelsgAY {
+html body .XMxkarW3W_NNebjelsgAY,
+html body ._2lQxRlo1DQ1PN08TYTil2L,
+html body .bWcsWKN3D84-,
+html body .zQsf8--y3pA- {
     color: var(--md-sys-color-on-primary-container);
     background: var(--md-sys-color-primary-container);
 }
@@ -10,6 +13,7 @@ html body ._1g0B-RjwkUV0_MDURgy3Bi ._3j4dI1yA7cRfCvK8h406OB,
 html body .steamdb_prices_top b,
 html body #package_savings_bar,
 html body .package_totals_row.highlight,
-html body .package_totals_row.highlight .price {
+html body .package_totals_row.highlight .price,
+html body .vP7JKd3U1Tk- ._90cZ1dqsBUk- {
     color: var(--md-sys-color-primary);
 }

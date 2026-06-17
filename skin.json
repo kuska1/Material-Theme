@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "Theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.4.36",
+    "version": "1.5.0",
     "header_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
     "splash_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
 
@@ -466,6 +466,19 @@
                 }
             }
         },
+        "Hide Left Sidebar": {
+            "description": "Show/Hide left sidebar.",
+            "default": "no",
+            "tab": "Library",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/options/library/hideLeftSidebar.css"
+                    }
+                }
+            }
+        },
         "Rare Achievements based on Source Color": {
             "description": "Rare Achievements outline color & effects based on Color Scheme.",
             "default": "yes",
@@ -900,6 +913,43 @@
                 "Expressive": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/options/extra/menu/expressive.css"
+                    }
+                }
+            }
+        },
+        "Custom/Dynamic Color Generation Style": {
+            "description": "Choose color generation style",
+            "default": "Fidelity",
+            "tab": "Extra",
+            "values": {
+                "Fidelity": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/extra/colorStyle/fidelity.css"
+                    }
+                },
+                "Tonal Spot": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/extra/colorStyle/tonalSpot.css"
+                    }
+                },
+                "Vibrant": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/extra/colorStyle/vibrant.css"
+                    }
+                },
+                "Expressive": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/extra/colorStyle/expressive.css"
+                    }
+                },
+                "Neutral": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/extra/colorStyle/neutral.css"
+                    }
+                },
+                "Monochrome": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/extra/colorStyle/monochrome.css"
                     }
                 }
             }

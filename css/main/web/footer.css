@@ -1,4 +1,5 @@
-body:not(.infinite_scrolling) footer._291ttHtxyu5obiKzor2G9G {
+body:not(.infinite_scrolling) footer._291ttHtxyu5obiKzor2G9G,
+body .-ufC3n6-YXg- {
     border-top-left-radius: var(--corner-radius-large);
     border-top-right-radius: var(--corner-radius-large);
 }

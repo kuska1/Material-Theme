@@ -25,7 +25,8 @@ body .RGNh19we3Yo-._2nMQDdm70Xk-.G-NVF2dxX0c-.Y0BqhPMsT9c-.Cmc2Q2l52P4-._9fpFHky
 body .SXmRNU-nKEQ-.JAg6-ldsh48-.bakqiaoQAlI-.trcXcSdC1tk- .EzluAHnQq-U-.RGNh19we3Yo-.HmiEjCDqdZs-.vpiI2bS0S6s-.WlnQdqsCe5s-.ITQHL--ZSBM-._9fpFHkyl3os-,
 body .rWB03W-1bvI-.RGNh19we3Yo-.HmiEjCDqdZs-.vpiI2bS0S6s-.WlnQdqsCe5s-.ITQHL--ZSBM-._9fpFHkyl3os-,
 body :where(.EkDBtiKz6kU-),
-body .RGuIs1F2uPE- {
+body .RGuIs1F2uPE-,
+body .search_results_filtered_warning .settings_tab {
     transition:
         all 350ms var(--animation-expressive-fast-spatial),
         color 150ms var(--animation-expressive-fast-effects),

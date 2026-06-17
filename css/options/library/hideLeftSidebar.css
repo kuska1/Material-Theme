@@ -1,0 +1,12 @@
+.DesktopUI ._9sPoVBFyE_vE87mnZJ5aB,
+.DesktopUI ._276E6ijBpjMA2_iTxNhhjc._2g5K_hJWc7jVo81zuejhk2 {
+    display: none !important;
+}
+._3xRRJfD2xy95i9NhJxLTp0:has(._9sPoVBFyE_vE87mnZJ5aB) ._2Dd4T78PcCTUVgOtDGFY5j {
+    border-radius: var(--corner-radius-none) !important;
+}
+._3FmxxjyWNHU1PrBGnBe6tm._2l416KfEtI4CL0mCUEmOBw, .HNbe3eZf6H7dtJ042x1vM, .QlR9EFwTdUNm_J5vx54_Z {
+    /* border-radius: var(--corner-radius-none) !important; */
+    border-top-left-radius: var(--corner-radius-none) !important;
+    border-top-right-radius: var(--corner-radius-none) !important;
+}

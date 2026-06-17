@@ -54,7 +54,8 @@ body ._29CGQrIvjYllKwVQKe8d8R img {
 .avatarHolder:has(._2nPONxDUmK4rQXzK4Y3vG2) .avatar,
 .avatarHolder:has(.avatarFrame) .avatar,
 .playerAvatar:has(.profile_avatar_frame) img,
-.miniprofile_playersection:has(.playersection_avatar_frame) .playersection_avatar img {
+.miniprofile_playersection:has(.playersection_avatar_frame) .playersection_avatar img,
+.t1-DQ4KhiQ0-._4-VIszWOyjU-:has(img.CdtBH5cDo-Q-) img.YbrTGQJwy1w- {
 	border-radius: var(--corner-radius-small) !important;
 	outline-width: 1px !important;
 }

@@ -1,6 +1,11 @@
 import {
   Hct,
   SchemeFidelity,
+  SchemeTonalSpot,
+  SchemeVibrant,
+  SchemeExpressive,
+  SchemeNeutral,
+  SchemeMonochrome,
   argbFromHex
 } from './material-color-utils.js';
 
@@ -26,6 +31,25 @@ const argbToHexCustom = (argb) => {
  */
 const toKebabCase = (str) => str.replace(/[A-Z]/g, m => '-' + m.toLowerCase());
 
+/**
+ * Maps the --md-color-generation-style CSS variable to the corresponding Scheme class.
+ * Falls back to SchemeFidelity if the value is unknown or not set.
+ */
+function createScheme(sourceHct, isDark) {
+  const style = getComputedStyle(document.documentElement)
+    .getPropertyValue('--md-color-generation-style').trim().toLowerCase();
+
+  switch (style) {
+    case 'tonal-spot':   return new SchemeTonalSpot(sourceHct, isDark, 0.0);
+    case 'vibrant':      return new SchemeVibrant(sourceHct, isDark, 0.0);
+    case 'expressive':   return new SchemeExpressive(sourceHct, isDark, 0.0);
+    case 'neutral':      return new SchemeNeutral(sourceHct, isDark, 0.0);
+    case 'monochrome':   return new SchemeMonochrome(sourceHct, isDark, 0.0);
+    case 'fidelity':
+    default:             return new SchemeFidelity(sourceHct, isDark, 0.0);
+  }
+}
+
 function generateAndApplyScheme() {
   const computedStyle = getComputedStyle(document.documentElement);
   
@@ -41,12 +65,12 @@ function generateAndApplyScheme() {
   // 1. Create an HCT (Hue, Chroma, Tone) color object for high-precision color matching
   const sourceHct = Hct.fromInt(argbFromHex(sourceHex));
 
-  // 2. Initialize SchemeFidelity (the "Color Match" algorithm)
-  // This scheme prioritizes staying true to the input color's hue and colorfulness.
   const isDark = schemeMode === 'dark';
-  const m3Scheme = new SchemeFidelity(sourceHct, isDark, 0.0);
+  const m3Scheme = createScheme(sourceHct, isDark);
+  const styleName = getComputedStyle(document.documentElement)
+    .getPropertyValue('--md-color-generation-style').trim() || 'fidelity';
 
-  // 3. Define the list of Material 3 color roles to be generated
+  // 2. Define the list of Material 3 color roles to be generated
   const colorRoles = [
     'primary', 'onPrimary', 'primaryContainer', 'onPrimaryContainer',
     'secondary', 'onSecondary', 'secondaryContainer', 'onSecondaryContainer',
@@ -63,7 +87,7 @@ function generateAndApplyScheme() {
     'tertiaryFixed', 'tertiaryFixedDim', 'onTertiaryFixed', 'onTertiaryFixedVariant'
   ];
 
-  // 4. Build CSS variable declarations and inject into <style id="material-colors"> in <head>
+  // 3. Build CSS variable declarations and inject into <style id="material-colors"> in <head>
   const lines = [];
   colorRoles.forEach(role => {
     try {
@@ -84,7 +108,7 @@ function generateAndApplyScheme() {
   }
   styleEl.textContent = `:root {${lines.join('\n')}}`;
 
-  console.info(logText, logCss, `Fidelity Scheme applied successfully using ${sourceHex}.`);
+  console.info(logText, logCss, `${styleName} Scheme applied successfully using ${sourceHex}.`);
 }
 
 // Initial execution

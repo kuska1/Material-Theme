@@ -27,4 +27,33 @@ body .HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u:first-child {
 /* Store Game Page */
 html body .game_page_background_ctn {
     display: block;
+    filter: blur(10px);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0) 90%, rgb(0, 0, 0, 0) 100%);
+}
+body .v9uRg57bwOaPsvAnkXESO .MvLJDXjfbme8Uw3OERaCb img,
+body .PZY_7wH_NY7OgzH9MBiB8 .oW0H1sBVE8K8u0qbq_Tm5 .MvLJDXjfbme8Uw3OERaCb img,
+body .PZY_7wH_NY7OgzH9MBiB8 .oW0H1sBVE8K8u0qbq_Tm5 .MvLJDXjfbme8Uw3OERaCb ._1APLSpJeTPfN76xzyzVSfx ._3chRZTd1smybX8C-swWcAm {
+    display: block !important;
+    opacity: .1 !important;
+    filter: blur(60px) !important;
+}
+body ._1WrAYASFyV0qtWIbXSGoo6 {
+    display: block !important;
+    opacity: .1 !important;
+    filter: blur(30px) !important;
+}
+body ._2StYOVdV9beNEHqNB_UQuQ._2wlqOo3XXW1wCAxwfudaL8 {
+    display: block !important;
+    opacity: .2 !important;
+    filter: blur(30px) !important;
+}
+body .wPH456btD8aZAHroV4YPk .QdbhiyPaBb8T4sqpXuys4 {
+    display: block !important;
+    opacity: .1 !important;
+    filter: saturate(0.4) opacity(0.3) blur(30px) !important;
+}
+body .background_header_ctn {
+    opacity: .5 !important;
+    filter: blur(30px) !important;
 }

@@ -15,10 +15,14 @@ body .curator_giant_capsule .curator_block,
 .group_block_medium img,
 .search_group_avatar_holder img,
 .grouppage_logo img,
+.referring_curator .avatar,
+.referring_curator .avatar img,
 /* .favoritegroup_showcase_group .favoritegroup_avatar img */
 body ._1yHxtA_qbj9xWiLkUiovpE ._1C_n640PvrV_-DCXwOeCZY,
 body ._2XPIpbEqZoXb_YHkEZm_hP img._1fWW6CwAeZNAqI9Fp0Mvpr,
 body ._2tdhUFMMsjGr_BI7uMcoWy:has(img._1fWW6CwAeZNAqI9Fp0Mvpr),
+body .IhnxCUx8YpE- img.x4GRbYkhX14-,
+body .IhnxCUx8YpE-:has(img.x4GRbYkhX14-),
 body .sale_capsule .sale_capsule_curator,
 body .carousel_container.maincap .reason .avatar > img {
     border-radius: var(--corner-radius-full) !important;

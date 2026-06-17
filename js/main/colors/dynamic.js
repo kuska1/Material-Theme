@@ -1,6 +1,11 @@
 import {
   Hct,
   SchemeFidelity,
+  SchemeTonalSpot,
+  SchemeVibrant,
+  SchemeExpressive,
+  SchemeNeutral,
+  SchemeMonochrome,
   argbFromHex,
   argbFromRgb
 } from './material-color-utils.js';
@@ -143,7 +148,27 @@ async function getAccentColorFromImage(img) {
 }
 
 /**
- * Generates and applies a Material 3 Fidelity Scheme to the document.
+ * Maps the --md-color-generation-style CSS variable to the corresponding Scheme class.
+ * Falls back to SchemeFidelity if the value is unknown or not set.
+ */
+function createScheme(sourceHct, isDark) {
+  const style = getComputedStyle(document.documentElement)
+    .getPropertyValue('--md-color-generation-style').trim().toLowerCase();
+
+  switch (style) {
+    case 'tonal-spot':   return new SchemeTonalSpot(sourceHct, isDark, 0.0);
+    case 'vibrant':      return new SchemeVibrant(sourceHct, isDark, 0.0);
+    case 'expressive':   return new SchemeExpressive(sourceHct, isDark, 0.0);
+    case 'neutral':      return new SchemeNeutral(sourceHct, isDark, 0.0);
+    case 'monochrome':   return new SchemeMonochrome(sourceHct, isDark, 0.0);
+    case 'fidelity':
+    default:             return new SchemeFidelity(sourceHct, isDark, 0.0);
+  }
+}
+
+/**
+ * Generates and applies a Material 3 color scheme to the document.
+ * The scheme type is determined by the --md-color-generation-style CSS variable.
  */
 async function generateAndApplyTheme(sourceArgb) {
   if (!sourceArgb) {
@@ -159,7 +184,7 @@ async function generateAndApplyTheme(sourceArgb) {
     // return;
   }
 
-  // Create HCT and Fidelity Scheme (Color Match enabled)
+  // Create HCT and apply the user-selected scheme
   let finalArgb = sourceArgb;
   if (typeof sourceArgb === 'string') {
       const cleanHex = sourceArgb.split(';')[0].trim().replace(/['"]/g, '').substring(0, 7);
@@ -168,7 +193,8 @@ async function generateAndApplyTheme(sourceArgb) {
 
   const sourceHct = Hct.fromInt(finalArgb);
   const isDark = schemeMode === 'dark';
-  const m3Scheme = new SchemeFidelity(sourceHct, isDark, 0.0);
+  const m3Scheme = createScheme(sourceHct, isDark);
+  const styleName = computedStyle.getPropertyValue('--md-color-generation-style').trim() || 'fidelity';
 
   // Comprehensive list of all Material 3 color roles
   const colorRoles = [
@@ -208,7 +234,7 @@ async function generateAndApplyTheme(sourceArgb) {
   }
   styleEl.textContent = `:root {${lines.join('\n')}}`;
 
-  console.info(logText, logCss, `Fidelity Scheme applied successfully using ${sourceArgb}.`);
+  console.info(logText, logCss, `${styleName} Scheme applied successfully using ${sourceArgb}.`);
 }
 
 /**
