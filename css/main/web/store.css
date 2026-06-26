@@ -285,7 +285,9 @@ body .capsule_hover_screenshots .screenshot,
 body .sale_capsule_video,
 body .sale_capsule_image,
 body .top_new_releases_carousel_bg,
-body ._22AcxR1RBDH6i-gjKRHYk0 {
+body ._22AcxR1RBDH6i-gjKRHYk0,
+body .home_pagecontent_ctn.featured_special_deals .ctn_background,
+body .home_pagecontent_ctn.hero_parent_ctn .ctn_background {
     border-radius: var(--corner-radius-medium);
 }
 /* body ._2oW_y7Mm3ihf1XQ0C1VWhx > img,
@@ -299,6 +301,10 @@ body .sale_capsule:has(.capsule_row_ctn) .capsule_image_ctn {
 }
 body .top_new_releases_date {
     border-radius: var(--corner-radius-extra-small);
+}
+body .featured_special_deals .home_section_title,
+body .home_section_subtitle {
+    text-shadow: unset;
 }
 /* Takeover Banner */
 /* body .static_takeover_ctn div,
@@ -347,11 +353,36 @@ body.v7 .carousel_container.spotlight .discount_block.discount_block_large .bund
     line-height: 22px;
     padding-block: 0px;
 }
+/* Season Sale */
+body .hero_capsule {
+    border-radius: var(--corner-radius-medium);
+}
+body .carousel_items .hero_capsule .discount_block {
+    margin-bottom: 6px;
+    margin-right: 6px;
+}
+body .hero_capsule .hover_video_container,
+body .hero_capsule .hero_video {
+    border-radius: var(--corner-radius-medium);
+}
+body .hero_capsule .hero_tag {
+    border-radius: var(--corner-radius-extra-small);
+}
+body .hero_capsule:hover img.hero_capsule_img {
+    z-index: -1;
+}
 /* Your Wishlist / DLC for Your Games */
 body.v7 .home_discount_games_ctn .discount_block {
     margin-top: 6px;
 }
 /* Explore Your Discovery Queue */
+body .cwQNGPoPuJS67rykUgZdU {
+    border-radius: var(--corner-radius-medium);
+    box-shadow: unset;
+}
+body ._19psoPSyaHlg76v5Cd9H-n {
+    box-shadow: var(--elevated-shadow);
+}
 body ._3PAP1PfUymQrLEveRsxQxP,
 body ._2-tz2hqtOXPPtMnVPHNSdx {
     border-radius: var(--corner-radius-large);
@@ -1564,6 +1595,18 @@ body ._2s-O5T3qJJYR2AUq4b9jIN._1ZlGJxv-xQaABSvaVvMlNq ._3j4dI1yA7cRfCvK8h406OB {
 }
 body .xXcRKEuacDG8kYtDXu6OH .xmqBa8sZa4Xhgktfr43Uh {
     border-radius: var(--corner-radius-extra-small);
+}
+body .u42zSEWdGrvBDimhV4QNI {
+    border-radius: var(--corner-radius-medium);
+}
+body .u42zSEWdGrvBDimhV4QNI ._1-pK3SWEOk30eo-q0EKyH7 {
+    text-shadow: unset;
+}
+body ._3wMS41OoTPnZyEddTVwzy_._3t_UEZDy1QxxcYfn3TTvD2 svg {
+    filter: unset;
+}
+body ._3wMS41OoTPnZyEddTVwzy_._3t_UEZDy1QxxcYfn3TTvD2 svg circle {
+    stroke-linecap: round;
 }
 body ._2u0N2gUX44_tavazJJb_QP,
 body ._2sZ7DAljYV5Xd-nbhtlmyM {
