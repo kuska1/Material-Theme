@@ -1,0 +1,24 @@
+@keyframes m3ExpressiveSlideUp {
+    0% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes m3ExpressiveFadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.ChatMessageBlock.SingletonMsg.LastMessageBlock,
+.ChatMessageBlock.LastMessageBlock > .msg:last-child {
+    animation:
+        m3ExpressiveSlideUp var(--animation-duration-medium3) var(--animation-expressive-fast-spatial) forwards,
+        m3ExpressiveFadeIn var(--animation-duration-short3) var(--animation-expressive-fast-effects) forwards;
+    animation-iteration-count: 1;
+    will-change: opacity, transform;
+}

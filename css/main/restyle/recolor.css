@@ -33,15 +33,17 @@
 .persona.in-game, a.persona.in-game, .persona.in-game.a,
 .miniprofile_gamesection .miniprofile_game_details .miniprofile_game_name,
 ._1xTATKELHR-lRS_s3A4yzd ._7-U6jtoeGvesTm7JFGH0- ._24oQzlBma4VdZUDiSBaYFA,
-._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game .qiP8aEgNz331tt6X4NMNW:not(._2TAWSrfSd1CiZ9WSYsc69c) ._2VUw8xyYCaD1WduLCK3nlW, ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game .qiP8aEgNz331tt6X4NMNW.h_So5GaEfmXOgB9hCC0Is ._2VUw8xyYCaD1WduLCK3nlW {
+._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game .qiP8aEgNz331tt6X4NMNW:not(._2TAWSrfSd1CiZ9WSYsc69c) ._2VUw8xyYCaD1WduLCK3nlW, ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game .qiP8aEgNz331tt6X4NMNW.h_So5GaEfmXOgB9hCC0Is ._2VUw8xyYCaD1WduLCK3nlW,
+._2NdiftmP-B3C4LPWnNGTCB .rN6p14MiFEoCZvdjnfpgQ {
     color: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-ingame) 60%);
 }
 .ingame ._2Ri005Wg_uXDTa71kdRbcN,
 .miniprofile_gamesection .miniprofile_game_details .game_state, .miniprofile_gamesection .miniprofile_game_details .rich_presence,
 .ingame._1BbOegz8bYL7iPzgYpOgQI ._2Ri005Wg_uXDTa71kdRbcN,
 ._1xTATKELHR-lRS_s3A4yzd ._7-U6jtoeGvesTm7JFGH0- ._24oQzlBma4VdZUDiSBaYFA ._39T3EbAEqqKrJl5rX1-qPW, ._1xTATKELHR-lRS_s3A4yzd ._7-U6jtoeGvesTm7JFGH0- ._24oQzlBma4VdZUDiSBaYFA ._3Hxc3f2ZlkYTKbrxVoS9sq,
-._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game ._2-pwJCHlrc7zxN4iup2TR7 ._1FgWIOIaRCAekjhGj0zFWq {
-    color: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-ingame) 45%);
+._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.in-game ._2-pwJCHlrc7zxN4iup2TR7 ._1FgWIOIaRCAekjhGj0zFWq,
+._2NdiftmP-B3C4LPWnNGTCB ._10165iFPxrqzt0kfV00tbu {
+    color: color-mix(in srgb, var(--md-sys-color-outline), var(--indicator-ingame) 45%);
 }
 .SteamPlayerGroupFooterLabel {
     color: color-mix(in srgb, var(--md-sys-color-on-surface), var(--indicator-ingame) 55%);
@@ -66,12 +68,14 @@
 .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_SteamDeck path, .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_VRIcon path, .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_MobilePhone path, .KxAI_M9gWx3OnKSshHOs6.online .SVGIcon_BigPicture path,
 body ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online ._1SWhpi9ByGQrwHGQgTJCF5, body ._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online ._3c5GOobmMUyjAWTosaUKUS,
 .online ._2Ri005Wg_uXDTa71kdRbcN,
-body .persona.online, body a.persona.online, body .persona.online a, body .friend_status_online, body .friend_status_online div, body .friend_status_online a {
+body .persona.online, body a.persona.online, body .persona.online a, body .friend_status_online, body .friend_status_online div, body .friend_status_online a,
+._2NdiftmP-B3C4LPWnNGTCB ._35uWYHT2zJoSv9PE_euqxo {
     color: color-mix(in srgb, var(--color-online-rgb), var(--md-sys-color-primary) var(--md-setting-online-status));
     fill: color-mix(in srgb, var(--color-online-rgb), var(--md-sys-color-primary) var(--md-setting-online-status));
 }
-._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online ._2-pwJCHlrc7zxN4iup2TR7 ._1FgWIOIaRCAekjhGj0zFWq {
-    color: color-mix(in srgb, var(--color-online-rgb), var(--md-sys-color-primary) calc(--md-setting-online-status) + 20%);
+._1xTATKELHR-lRS_s3A4yzd ._2jZ0A5VjGTNGTQm03FbLrF.online ._2-pwJCHlrc7zxN4iup2TR7 ._1FgWIOIaRCAekjhGj0zFWq,
+._37hLxvdcAXgmMgHdTwlz3b {
+    color: color-mix(in srgb, var(--color-online-rgb), var(--md-sys-color-primary) calc(var(--md-setting-online-status) + 20%));
 }
 .online ._3xUpb5DWXPFNcHHIcv-9pe.right,
 .online ._3xUpb5DWXPFNcHHIcv-9pe.bottom,
