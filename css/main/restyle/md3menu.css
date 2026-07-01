@@ -198,7 +198,7 @@ html._14wqdluDeDnnEcg3OSLEmd ._2EstNjFIIZm_WUSKm5Wt7n {
 }
 /* Active Checkbox */
 .EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container:has(.DialogCheckbox.Active) {
-    border-radius: var(--corner-radius-medium);
+    border-radius: var(--corner-radius-medium) !important;
 }
 /* Remove BG */
 .EDl_mzaY3WxkgmYVD8W4d ._1BAKXmqQdWRWmWX9_CbhuY._2_iY4UJOlWDXNQ21c-a3hD.DialogCheckbox_Container .DialogCheckbox {

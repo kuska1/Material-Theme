@@ -14,6 +14,13 @@ html body .steamdb_prices_top b,
 html body #package_savings_bar,
 html body .package_totals_row.highlight,
 html body .package_totals_row.highlight .price,
-html body .vP7JKd3U1Tk- ._90cZ1dqsBUk- {
+html body .vP7JKd3U1Tk- ._90cZ1dqsBUk-,
+html body .payment_method_review_method_label {
     color: var(--md-sys-color-primary);
+}
+html body .payment_method_review_row .edit_method {
+    opacity: 0.7;
+}
+html body .payment_method_review_row .edit_method:has(a:hover) {
+    opacity: 1;
 }

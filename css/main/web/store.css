@@ -813,8 +813,18 @@ body .all_languages {
     width: 100%;
     text-align: center;
 }
-body .block .block_content_inner #AwardsDefault img {
+body .shared_game_rating .game_rating_icon img {
+    border-radius: var(--corner-radius-extra-small);
+}
+body .block .block_content_inner #AwardsDefault img,
+body .block .block_content_inner #AwardsDefault a {
     border-radius: var(--corner-radius-small);
+}
+body .block .block_content_inner #AwardsDefault a:hover {
+    box-shadow: var(--elevated-shadow);
+}
+body .block .block_content_inner #AwardsDefault a span[class*="app_banner_winner"] {
+    border-radius: var(--corner-radius-extra-small);
 }
 body .block_content_inner .details_block:has(.linkbar):last-of-type,
 body .block_content_inner .details_block:has(.game_area_details_specs_ctn):last-of-type {
@@ -893,7 +903,22 @@ body #recommendation_success .btnv6_lightblue_blue > span {
     text-shadow: unset;
     box-shadow: unset;
 }
-
+body.app #queueActionsCtn > div .btnv6_blue_hoverfade:has(img[src*="ico_selected.png"]) {
+    border-radius: var(--corner-radius-full);
+}
+body.app #queueActionsCtn > div:has(.queue_btn_menu > .queue_menu_arrow) .btnv6_blue_hoverfade:has(img[src*="ico_selected.png"]) {
+    border-top-right-radius: var(--corner-radius-full);
+    border-bottom-right-radius: var(--corner-radius-full);
+}
+body.app .queue_btn_menu > .queue_menu_arrow {
+    padding: 0px 2px;
+}
+/* body.app #queueActionsCtn > div:has(.btnv6_blue_hoverfade:not([style="display: none;"]) img[src*="ico_selected.png"]) .queue_btn_menu > .queue_menu_arrow {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-small);
+    border-bottom-right-radius: var(--corner-radius-small);
+} */
 body .review_controls {
     border-radius: var(--corner-radius-medium);
 }
@@ -905,7 +930,7 @@ body .review_create_vote_controls .btnv6_blue_hoverfade:not(.btn_active) {
     border-radius: var(--corner-radius-full);
 }
 body .review_create_vote_controls .btnv6_blue_hoverfade.btn_active {
-    border-radius: var(--corner-radius-extra-small);
+    border-radius: var(--corner-radius-small);
 }
 body #review_create .input_box {
     border-left: unset;
@@ -928,9 +953,11 @@ body .game_area_purchase_game.demo_above_purchase {
 }
 body .game_area_purchase_game .game_purchase_action,
 body .game_area_comingsoon .game_purchase_action,
-body .game_area_offsite_purchase .game_purchase_action {
+body .game_area_offsite_purchase .game_purchase_action,
+body .game_area_purchase_game_dropdown_right_panel {
     position: static;
     margin-top: 12px;
+    text-align: right;
 }
 body div.early_access_banner {
     border-radius: var(--corner-radius-medium);
@@ -969,6 +996,15 @@ body .game_area_dlc_row:last-of-type:not(:first-of-type) {
     border-bottom-left-radius: var(--corner-radius-small);
     border-bottom-right-radius: var(--corner-radius-small);
 }
+body .game_area_dlc_row .discount_block .discount_prices {
+    padding-inline: 0px;
+}
+body .game_area_dlc_row .discount_block_inline .discount_pct {
+    padding-inline: 8px;
+}
+body .game_area_dlc_row .discount_block_inline .discount_final_price {
+    font-size: 12px;
+}
 body .dlc_highlight_reason {
     border-radius: var(--corner-radius-extra-small);
 }
@@ -991,8 +1027,12 @@ body .game_area_purchase_game div.package_contents_collapsed.package_contents_ca
     border-radius: var(--corner-radius-medium);
     box-shadow: var(--elevated-shadow);
 }
+body div.package_contents_capsule {
+    border-radius: var(--corner-radius-medium);
+}
+
 body div.package_contents_capsule:hover {
-    box-shadow: var(--elevated-shadow-hover);
+    box-shadow: var(--elevated-shadow) !important;
 }
 body .game_area_purchase_game div.package_contents_capsules.package_contents_collapsed::after {
     display: none;
@@ -1156,7 +1196,7 @@ body .game_page_autocollapse[style*="max-height"]:not([style*="max-height: none"
 }
 body .tab_item_discount {
     justify-content: right;
-    gap: 8px;
+    gap: 12px;
 }
 body .package_totals_area {
     border-radius: var(--corner-radius-medium);
@@ -1173,6 +1213,13 @@ body .tab_item .tab_item_cap_img {
 }
 body .tab_item_overlay img {
     display: none;
+}
+body .tab_item_discount .discount_pct {
+    padding-inline: 8px;
+}
+body .tab_item_discount .discount_block .discount_prices,
+body .tab_item .discount_block .discount_prices {
+    padding-inline: 0px;
 }
 body .package_in_library_flag {
     box-shadow: unset;
@@ -1204,9 +1251,14 @@ body .ds_flag.ds_completetheset {
     border-radius: var(--corner-radius-extra-small);
     box-shadow: unset;
 }
-body .game_area_purchase_not_refundable, .game_area_purchase_custom_cart_credit {
+body .game_area_purchase_custom_cart_credit {
     border-radius: var(--corner-radius-medium);
     margin-top: 8px;
+}
+body .game_area_purchase_not_refundable {
+    border-radius: var(--corner-radius-medium);
+    padding: 16px 16px 0px 0px;
+    margin-top: 6px;
 }
 body .item_store_items_game_page_container,
 body .item_store_overlay_link {
@@ -1226,6 +1278,9 @@ body .XIDYByW4BEOm-YiOiwGmO,
 body ._2BG1JKMgeqn_cr0rbRhRNA {
     border-radius: var(--corner-radius-medium);
     box-shadow: unset;
+}
+body .XIDYByW4BEOm-YiOiwGmO ._3-Zh-Ypvsn0buzyWGzuOQf .fL1BVr1TCO7p3NcU6YlxG {
+    border-radius: var(--corner-radius-medium);
 }
 body .XIDYByW4BEOm-YiOiwGmO ._3o1Ri_nyL6GsPbTQZGSZcT ._33J1_MYWJVjXbCkBFCNr6f,
 body .XIDYByW4BEOm-YiOiwGmO ._3o1Ri_nyL6GsPbTQZGSZcT .btnv6_grey_black,
@@ -1853,11 +1908,17 @@ body ._2Xz_WXO8PfREP4c9ZWAuNg ._37_1K2XQrVBwncWFXTcpMP,
 body ._1bCdGv5zX6cYDovFfcBfdg,
 body ._2bIzQo07mxubFvscA8RIA8,
 body .jY9l4aHTdQLHeTWfPonTr,
-body ._2HG7VOroS8aHSg-W3fPyTt {
+body ._2HG7VOroS8aHSg-W3fPyTt,
+body ._2haWAmlu7TDqdL95bf4G8g {
     border-radius: var(--corner-radius-medium);
 }
 body .jY9l4aHTdQLHeTWfPonTr {
     margin-top: 8px;
+}
+body ._3TjWhPYAqbU3Hrzm6Iq6il,
+body ._3TjWhPYAqbU3Hrzm6Iq6il .lf5WnbH_ohSVbUnvd3Nf2 {
+    box-shadow: unset;
+    border-radius: var(--corner-radius-full);
 }
 body .FaiD8bJRAZ-HoNo0VvLOO {
     display: none;
@@ -1944,12 +2005,23 @@ body .block.accountInfoBlock a.linkbar {
     border-radius: var(--corner-radius-full);
 }
 body .cart_item,
+body .checkout_review_cart_item,
 body .checkout_content_box .checkout_content.cart,
-body .checkout_content_box .checkout_content.confirm {
+body .checkout_content_box .checkout_content.confirm,
+body .checkout_steam_rewards_banner,
+body .checkout_gotsteam_area,
+body .receipt_body,
+body .checkout_receipt_gift_detail {
     border-radius: var(--corner-radius-medium);
 }
-body .cart_item_img img {
+body .cart_item_img img,
+body .checkout_review_item_img img {
     border-radius: var(--corner-radius-small);
+}
+body .checkout_steam_rewards_banner,
+body .checkout_steam_rewards_banner:hover {
+    border-style: none;
+    box-shadow: unset;
 }
 body .cart_notice_section {
     border-radius: var(--corner-radius-medium);
@@ -2009,6 +2081,22 @@ body .queue_menu_flyout {
     padding-block: 8px;
     border-radius: var(--corner-radius-small);
     box-shadow: var(--elevated-shadow);
+}
+body .game_area_purchase_game_dropdown_menu_container {
+    padding: 8px 0px;
+    border-radius: var(--corner-radius-small);
+}
+body .game_area_purchase_game_dropdown_menu_items_container tr td,
+body .game_area_purchase_game_dropdown_menu_items_container tr:first-child td,
+body .game_area_purchase_game_dropdown_menu_items_container tr:last-child td,
+body .game_area_purchase_game_dropdown_menu_item_savings {
+    border-style: unset !important;
+}
+body .game_area_purchase_game_dropdown_menu_item_text {
+    text-align: left;
+}
+body .game_area_purchase_game_dropdown_menu_item_savings {
+    text-align: right;
 }
 body .game_hover_box {
     border-radius: var(--corner-radius-medium);
