@@ -1,0 +1,6 @@
+body .videoContainer .videoSrc,
+body ._3zXpFCyX2IiaD-MNF5KJFf,
+body .broadcast_embed_top_ctn_trgt,
+div[data-featuretarget="broadcast-embed"] {
+    display: none;
+}

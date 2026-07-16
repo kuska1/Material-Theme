@@ -299,6 +299,43 @@ body .sale_capsule:has(.capsule_row_ctn) .capsule_image_ctn {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
+body .curator_capsule_ctn,
+body .creator_capsule_ctn {
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+body .creator_capsule_ctn .creator_actions .creator_follow_btn,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn:hover,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn:active,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active),
+body .creator_capsule_ctn .creator_actions .creator_follow_btn:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):active {
+    outline: unset;
+    border-style: unset;
+}
+body .creator_capsule_ctn .creator_actions .creator_follow_btn,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn > span,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn:hover,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn:hover > span,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active),
+body .creator_capsule_ctn .creator_actions .creator_follow_btn:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) > span,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
+    border-radius: var(--corner-radius-full);
+}
+body .creator_capsule_ctn .creator_actions .creator_follow_btn.following,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn.following > span,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn.following:hover,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn.following:hover > span,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn.following:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active),
+body .creator_capsule_ctn .creator_actions .creator_follow_btn.following:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) > span,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn.following:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover,
+body .creator_capsule_ctn .creator_actions .creator_follow_btn.following:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover > span {
+    border-radius: var(--corner-radius-extra-small);
+}
+body .creator_capsule_ctn .creator_actions .creator_follow_btn > span {
+    padding-inline: 8px;
+}
 body .top_new_releases_date {
     border-radius: var(--corner-radius-extra-small);
 }
@@ -380,6 +417,9 @@ body .cwQNGPoPuJS67rykUgZdU {
     border-radius: var(--corner-radius-medium);
     box-shadow: unset;
 }
+body .cwQNGPoPuJS67rykUgZdU:after {
+    border-radius: var(--corner-radius-extra-small);
+}
 body ._19psoPSyaHlg76v5Cd9H-n {
     box-shadow: var(--elevated-shadow);
 }
@@ -439,6 +479,7 @@ body .community_recommendation_app > .community_recommendation_capsule,
 body .community_recommendation_app > .community_recommendation_capsule .capsule img,
 body .community_recommendation_app > .community_recommendation_capsule .capsule video {
     border-radius: var(--corner-radius-medium);
+    box-shadow: unset;
 }
 /* Curator Recommendations */
 body .curator_giant_capsule {
@@ -584,12 +625,18 @@ html body img.game_header_image_full {
 }
 html body #game_highlights,
 html body img.game_header_image_full,
+html body.widestore .game_header_image_ctn,
+html body ._29RD-6nVM1ZsiWWlkICHj_._3R7Y3WNTdNhOgbZ21bs9xD.Oh37M-rKB_EeqpigY-fF_,
 html body .glance_details img,
 html ._3LAiT6FD5iZnZ-uET79Wp5, html ._3LAiT6FD5iZnZ-uET79Wp5 video,
 html ._29RD-6nVM1ZsiWWlkICHj_._3R7Y3WNTdNhOgbZ21bs9xD, html ._29RD-6nVM1ZsiWWlkICHj_._3R7Y3WNTdNhOgbZ21bs9xD img,
 html ._21pEuTVe17EOUzkHK8ZGnJ .deMuRscIE7upszCfACmbK, html ._21pEuTVe17EOUzkHK8ZGnJ .deMuRscIE7upszCfACmbK img,
 html ._21pEuTVe17EOUzkHK8ZGnJ .deMuRscIE7upszCfACmbK._3VIimult0z05qCgQN1CfPg::after {
     border-radius: var(--corner-radius-medium);
+}
+html body.widestore .game_header_image_ctn,
+html body ._29RD-6nVM1ZsiWWlkICHj_._3R7Y3WNTdNhOgbZ21bs9xD.Oh37M-rKB_EeqpigY-fF_ {
+    overflow: hidden;
 }
 body .glance_ctn .more_btn {
     border-radius: var(--corner-radius-extra-small);
@@ -1115,6 +1162,14 @@ body .game_area_sys_req_rightCol {
     padding: 8px 12px;
     width: auto;
 }
+body .game_area_sys_req_leftCol li,
+body .game_area_sys_req_rightCol li {
+    list-style-type: none;
+}
+body .game_area_sys_req_leftCol li::marker,
+body .game_area_sys_req_rightCol li::marker {
+    display: none;
+}
 body .game_area_sys_req,
 body .sysreq_contents .sysreq_content.active {
     /* display: flex;
@@ -1275,7 +1330,8 @@ body .item_store_overlay_link .btnv6_lightblue_blue > span {
     text-shadow: unset;
 }
 body .XIDYByW4BEOm-YiOiwGmO,
-body ._2BG1JKMgeqn_cr0rbRhRNA {
+body ._2BG1JKMgeqn_cr0rbRhRNA,
+body ._24bEdzyRcz_FKDUqulljpX {
     border-radius: var(--corner-radius-medium);
     box-shadow: unset;
 }
@@ -1298,7 +1354,8 @@ body .recommendation_area .thumb,
 body .recommendation_area .thumb > img {
     border-radius: var(--corner-radius-full);
 }
-body .review_summary_ctn {
+body .review_summary_ctn,
+body .outlier_totals {
     border-radius: var(--corner-radius-small);
     box-shadow: unset;
 }
@@ -1451,6 +1508,9 @@ html body.v6 .page_desc {
 }
 body .socialmedia_accounts {
     border-radius: var(--corner-radius-small);
+}
+body.creatorhome .curator_avatar {
+    box-shadow: unset;
 }
 body .creator_announcement_list a,
 body .creator_announcement_image {
@@ -2044,13 +2104,31 @@ body .checkout_content_box input[type="text"]:focus-visible {
 }
 /* Shared */
 body .ds_flag,
+html body.v7 .ds_flag,
 body .ds_flag.ds_wishlist_flag,
+html body.v7 .ds_flag.ds_wishlist_flag,
 body .ds_flag.ds_owned_flag,
-body .ds_flag.ds_incart_flag {
+html body.v7 .ds_flag.ds_owned_flag,
+body .ds_flag.ds_incart_flag,
+html body.v7 .ds_flag.ds_incart_flag {
     border-radius: var(--corner-radius-full);
     top: 6px;
     left: 6px;
     box-shadow: unset;
+}
+body .ds_flag,
+html body.v7 .ds_flag {
+    padding-right: 2px;
+    padding-block: 0px;
+    font-size: 10px;
+}
+html body.v6 .broadcast_live_stream_icon {
+    padding-right: 6px;
+    padding-block: 3px;
+    font-size: 10px;
+}
+body .game_area_dlc_row.ds_flagged:hover .ds_flag {
+    box-shadow: var(--elevated-shadow);
 }
 body.v7 .ds_flagged:has(.home_capsule_banner) .ds_flag {
     top: 40px;
@@ -2464,6 +2542,11 @@ body .similar_grid_item .similar_grid_capsule img {
 }
 html body.v6 h2.morelike_section_divider {
     border-style: none;
+}
+/* - OOPS, SORRY! / ERROR - */
+body.v6 #error_box {
+    border-radius: var(--corner-radius-medium);
+    margin-bottom: 18px;
 }
 
 

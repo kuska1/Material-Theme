@@ -585,6 +585,10 @@
 ._3x31AgESSlUqX3D4MTHv2m ._37e7DrDNmf1FmsMGA5y0A0 button.bACIuqv-b_9TztCczFK19 {
     border-radius: var(--corner-radius-full);
 }
+._5BtHMjT9usALaSWHGugdV .u5Kx6dkUppvb-1qV4IIuy {
+    width: 6px;
+    height: 6px;
+}
 /* View Latest News */
 ._1EC1xjjUGqI7fqX6PVzJA3 {
     background: unset;
@@ -1605,8 +1609,9 @@ html[lang="ja"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::aft
 .MillenniumDesktopSidebar_EditorContent .Ripple.Effect:nth-child(3) ._3jMlJm4PQCA8SfNlUR99Fo::after {
     content: "Beta";
 }
-.MillenniumDesktopSidebar_EditorContent .Chat.Animations:nth-child(4) ._3jMlJm4PQCA8SfNlUR99Fo::after,
-.MillenniumDesktopSidebar_EditorContent .Custom\/Dynamic.Color.Generation.Style:nth-child(4) ._3jMlJm4PQCA8SfNlUR99Fo::after {
+.MillenniumDesktopSidebar_EditorContent .Hide.Activity.Posting:nth-child(4) ._3jMlJm4PQCA8SfNlUR99Fo::after,
+.MillenniumDesktopSidebar_EditorContent .Blur.Matured.Content:nth-child(4) ._3jMlJm4PQCA8SfNlUR99Fo::after,
+.MillenniumDesktopSidebar_EditorContent .Hide.Broadcasting.Containers:nth-child(5) ._3jMlJm4PQCA8SfNlUR99Fo::after {
     content: "New";
 }
 

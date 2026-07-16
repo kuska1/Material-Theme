@@ -1,0 +1,15 @@
+html body.app:has(.mature_content_notice) ._3LAiT6FD5iZnZ-uET79Wp5 video,
+html body.app:has(.mature_content_notice) ._29RD-6nVM1ZsiWWlkICHj_._3R7Y3WNTdNhOgbZ21bs9xD img,
+html body.app:has(.mature_content_notice) ._21pEuTVe17EOUzkHK8ZGnJ .deMuRscIE7upszCfACmbK img,
+html body.app:has(.mature_content_notice) img.game_header_image_full {
+    filter: blur(15px);
+    transition: all 350ms var(--animation-standart-fast-spatial);
+}
+html body.app:has(.mature_content_notice) ._3LAiT6FD5iZnZ-uET79Wp5 video:hover,
+html body.app:has(.mature_content_notice) ._29RD-6nVM1ZsiWWlkICHj_._3R7Y3WNTdNhOgbZ21bs9xD img:hover,
+html body.app:has(.mature_content_notice) ._21pEuTVe17EOUzkHK8ZGnJ .deMuRscIE7upszCfACmbK img:hover,
+html body.app:has(.mature_content_notice) ._21pEuTVe17EOUzkHK8ZGnJ .deMuRscIE7upszCfACmbK:has(._3p2KFN7o1Z8EV4_sbV5b25:hover) img,
+html body.app:has(.mature_content_notice) img.game_header_image_full:hover {
+    filter: blur(0px);
+    transition-delay: 0.5s;
+}

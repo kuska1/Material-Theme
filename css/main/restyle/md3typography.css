@@ -24,6 +24,10 @@
     font-size: var(--font-body-large-size);
     font-weight: var(--font-body-large-weight);
 }
+.MillenniumDesktopSidebar_EditorContent .SettingsDialogSubHeader {
+    font-size: var(--font-title-small-size);
+    font-weight: var(--font-title-small-weight);
+}
 /* Body */
 ._3jMlJm4PQCA8SfNlUR99Fo.DesktopUI, .DesktopUI ._3jMlJm4PQCA8SfNlUR99Fo, /* Modal */
 .DesktopUI ._2NyRKE2oI1jbaiJwFLf7CY, /* Library Display */

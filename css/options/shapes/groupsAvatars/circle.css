@@ -24,7 +24,9 @@ body ._2tdhUFMMsjGr_BI7uMcoWy:has(img._1fWW6CwAeZNAqI9Fp0Mvpr),
 body .IhnxCUx8YpE- img.x4GRbYkhX14-,
 body .IhnxCUx8YpE-:has(img.x4GRbYkhX14-),
 body .sale_capsule .sale_capsule_curator,
-body .carousel_container.maincap .reason .avatar > img {
+body .carousel_container.maincap .reason .avatar > img,
+body ._24bEdzyRcz_FKDUqulljpX .PO1KWbUEvLt8ZVYRTAvMt,
+body .curator_capsule_avatar {
     border-radius: var(--corner-radius-full) !important;
 }
 

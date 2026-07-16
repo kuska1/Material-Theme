@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "Theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.5.3",
+    "version": "1.5.4",
     "header_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
     "splash_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
 
@@ -173,6 +173,7 @@
             "description": "Choose visibility of title.",
             "default": "Default",
             "tab": "Toolbar",
+            "section": "Left Side",
             "values": {
                 "Default": {},
                 "Only Icon": {
@@ -191,6 +192,7 @@
             "description": "Choose icon in toolbar.",
             "default": "Material Design",
             "tab": "Toolbar",
+            "section": "Left Side",
             "values": {
                 "Steam": {
                     "TargetCss": {
@@ -233,6 +235,7 @@
             "description": "Change \"Steam\" title to icon name.",
             "default": "yes",
             "tab": "Toolbar",
+            "section": "Left Side",
             "values": {
                 "no": {
                     "TargetCss": {
@@ -250,6 +253,7 @@
             "description": "Choose toolbar account style.",
             "default": "Default",
             "tab": "Toolbar",
+            "section": "Right Side",
             "values": {
                 "Default": {},
                 "Hide Avatar": {
@@ -268,6 +272,7 @@
             "description": "Hide news button on toolbar.",
             "default": "no",
             "tab": "Toolbar",
+            "section": "Right Side",
             "values": {
                 "no": {},
                 "yes": {
@@ -281,6 +286,7 @@
             "description": "Hide notification button on toolbar.",
             "default": "no",
             "tab": "Toolbar",
+            "section": "Right Side",
             "values": {
                 "no": {},
                 "yes": {
@@ -294,6 +300,7 @@
             "description": "Hide big picture mode button on toolbar.",
             "default": "yes",
             "tab": "Toolbar",
+            "section": "Right Side",
             "values": {
                 "no": {},
                 "yes": {
@@ -307,6 +314,7 @@
             "description": "Hide window control buttons on toolbar.",
             "default": "no",
             "tab": "Toolbar",
+            "section": "Right Side",
             "values": {
                 "no": {},
                 "yes": {
@@ -320,6 +328,7 @@
             "description": "Hide URL bar under toolbar.",
             "default": "no",
             "tab": "Toolbar",
+            "section": "Top Side",
             "values": {
                 "no": {},
                 "yes": {
@@ -333,6 +342,7 @@
             "description": "Choose bottom bar style.",
             "default": "Default",
             "tab": "Toolbar",
+            "section": "Bottom Side",
             "values": {
                 "Default": {},
                 "Floating": {
@@ -346,6 +356,7 @@
             "description": "Choose bottom bar style for big picture mode.",
             "default": "Default",
             "tab": "Toolbar",
+            "section": "Bottom Side",
             "values": {
                 "Default": {},
                 "Floating": {
@@ -435,6 +446,19 @@
                 }
             }
         },
+        "Hide Left Sidebar": {
+            "description": "Show/Hide left sidebar.",
+            "default": "no",
+            "tab": "Library",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["^Steam$"], "src": "css/options/library/hideLeftSidebar.css"
+                    }
+                }
+            }
+        },
         "What's New": {
             "description": "Show/Compact/Hide \"What's New\" section.",
             "default": "Compact",
@@ -466,15 +490,15 @@
                 }
             }
         },
-        "Hide Left Sidebar": {
-            "description": "Show/Hide left sidebar.",
-            "default": "no",
+        "Hide Activity Posting": {
+            "description": "Show/Hide \"Say something about this game to your friends...\" text field.",
+            "default": "yes",
             "tab": "Library",
             "values": {
                 "no": {},
                 "yes": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/options/library/hideLeftSidebar.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/hideActivityPosting.css"
                     }
                 }
             }
@@ -618,6 +642,7 @@
             "description": "Make store header always visible.",
             "default": "yes",
             "tab": "Web",
+            "section": "Store",
             "values": {
                 "no": {},
                 "yes": {
@@ -631,6 +656,7 @@
             "description": "Store Cash discounts & price based on Color Scheme",
             "default": "yes",
             "tab": "Web",
+            "section": "Store",
             "values": {
                 "no": {},
                 "yes": {
@@ -640,10 +666,39 @@
                 }
             }
         },
+        "Blur Matured Content": {
+            "description": "Blur matured images & videos, hover for reveal",
+            "default": "yes",
+            "tab": "Web",
+            "section": "Store",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "css/options/web/blurMaturedContent.css"
+                    }
+                }
+            }
+        },
+        "Hide Broadcasting Containers": {
+            "description": "Show/Hide the broadcasting containers from store pages.",
+            "default": "no",
+            "tab": "Web",
+            "section": "Store",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": ["https://.*\\.steampowered\\.com(/.*)?"], "src": "css/options/web/hideBroadcastingContainer.css"
+                    }
+                }
+            }
+        },
         "Profile VAC-Ban Visibility": {
             "description": "Show/Hide the VAC-Ban container from profile pages.",
             "default": "Show",
             "tab": "Web",
+            "section": "Community",
             "values": {
                 "Show": {},
                 "Hide for me": {
@@ -662,6 +717,7 @@
             "description": "Make all profiles in default Steam theme.",
             "default": "no",
             "tab": "Web",
+            "section": "Community",
             "values": {
                 "no": {},
                 "yes": {
