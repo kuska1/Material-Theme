@@ -2677,3 +2677,8 @@ body .fgg-footer {
     left: 20px;
     bottom: 20px;
 }
+/* ProtonDB */
+body .search_bar_proton_badge,
+body .proton_rating_div {
+    border-radius: var(--corner-radius-extra-small);
+}

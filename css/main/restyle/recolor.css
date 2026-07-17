@@ -5952,6 +5952,9 @@ body ._3Z1skIYVoqLbYiP2wy46Ce ._1D5FETA8rX0cTIhaC9W2wD .KG1rpRyNTy_2__H8GV8__,
 body .qRybCqH-jtw- .KdTm5UPqjB8- ._10mrxtI-TKw- {
     color: var(--md-sys-color-primary);
 }
+body ._3Z1skIYVoqLbYiP2wy46Ce ._1D5FETA8rX0cTIhaC9W2wD .GvTn3nY1hCInPWgRZbO8p {
+    color: color-mix(in srgb, var(--md-sys-color-outline), var(--md-sys-color-outline-variant) var(--layer-action-hover));
+}
 /* Categories */
 body ._2tdhUFMMsjGr_BI7uMcoWy,
 body ._2tdhUFMMsjGr_BI7uMcoWy ._2dRxpZNISTpHLewxzJ7o9r,
@@ -11855,6 +11858,10 @@ body #fgg-scan-result {
 .MillenniumDesktopSidebar[data-focused-item-type="PLUGIN"] .MillenniumDesktopSidebar_EditorContent div[style*="background: white"] {
     background: var(--md-sys-color-on-surface) !important;
 }
+/* ProtonDB */
+body .search_bar_proton_badge > a:hover {
+    color: #fff;
+}
 
 
 /* --- OTHER --- */
@@ -11876,6 +11883,9 @@ body #fgg-scan-result {
 }
 .MillenniumDesktopSidebar_EditorContent .SettingsDialogSubHeader {
     color: var(--md-sys-color-primary);
+}
+.MillenniumThemes_AccentColorField:has(.MillenniumColorPicker:hover) ._1W1to_azoBRG95oNAFpf9Q::after {
+    color: var(--md-sys-color-error);
 }
 
 html ._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm::before {
