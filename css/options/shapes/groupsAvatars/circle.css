@@ -26,7 +26,8 @@ body .IhnxCUx8YpE-:has(img.x4GRbYkhX14-),
 body .sale_capsule .sale_capsule_curator,
 body .carousel_container.maincap .reason .avatar > img,
 body ._24bEdzyRcz_FKDUqulljpX .PO1KWbUEvLt8ZVYRTAvMt,
-body .curator_capsule_avatar {
+body .curator_capsule_avatar,
+body ._1JrUubE3c7FdJsMxYYxbt ._3Krfug3wchu0qwGYQbbsHL {
     border-radius: var(--corner-radius-full) !important;
 }
 

@@ -230,7 +230,14 @@ body .JFSQ3YZWgoA-[data-elevation="1"] {
     border-radius: var(--corner-radius-small);
 }
 
-body .popup_block > div:not(.popup_body) {
+body .popup_block > .shadow_ul,
+body .popup_block > .shadow_top,
+body .popup_block > .shadow_ur,
+body .popup_block > .shadow_left,
+body .popup_block > .shadow_right,
+body .popup_block > .shadow_bl,
+body .popup_block > .shadow_bottom,
+body .popup_block > .shadow_br {
     display: none;
 }
 

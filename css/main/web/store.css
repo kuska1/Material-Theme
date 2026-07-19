@@ -771,6 +771,9 @@ body .rightcol.game_meta_data .action_btn {
 body .game_area_details_specs_ctn {
     height: fit-content;
 }
+body .friend_blocks_twoxtwo .friend_block_holder {
+    border-radius: var(--corner-radius-small);
+}
 body .game_area_details_specs_ctn .label,
 body a.game_area_details_specs_ctn:hover .label {
     height: fit-content;
@@ -1301,6 +1304,23 @@ body .game_area_purchase_game:has(.package_in_library_flag) .game_area_purchase_
 body .game_purchase_area_owned_by_family {
     border-radius: var(--corner-radius-medium);
     margin-bottom: 4px;
+}
+body ._3Q2RgkhEvzbM10OBqMeTDB {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-none);
+    border-bottom-right-radius: var(--corner-radius-none);
+    box-shadow: unset;
+    text-shadow: unset;
+}
+body .dTa5uAAOq-wFRgQQG7xRm {
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+    border-top-left-radius: var(--corner-radius-none);
+    border-bottom-left-radius: var(--corner-radius-none);
+    box-shadow: unset;
+    text-shadow: unset;
+    padding-left: 0px;
 }
 body .ds_flag.ds_completetheset {
     border-radius: var(--corner-radius-extra-small);

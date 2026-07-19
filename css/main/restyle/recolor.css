@@ -6947,6 +6947,9 @@ body .rightcol.game_meta_data .block {
 body .rightcol.game_meta_data .block.heading {
     color: var(--md-sys-color-on-surface);
 }
+body .friend_blocks_twoxtwo .friend_block_holder:hover {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
 body .block.recommendation_reasons, .block.recommendation_reasons p {
     color: var(--md-sys-color-on-surface-variant);
 }
@@ -7783,6 +7786,16 @@ body .game_purchase_area_owned_by_family .family_info a {
 }
 body .game_purchase_area_owned_by_family .family_info a:hover {
     color: color-mix(in srgb, var(--md-sys-color-on-secondary-container), var(--md-sys-color-on-surface) 50%);
+}
+body ._3Q2RgkhEvzbM10OBqMeTDB {
+    background: var(--md-sys-color-secondary-container);
+}
+body ._3Q2RgkhEvzbM10OBqMeTDB ._19Tk4I5-EL-sVXsUaa3hwU {
+    color: var(--md-sys-color-on-secondary-container);
+}
+body .dTa5uAAOq-wFRgQQG7xRm {
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
 }
 body .ds_flag.ds_completetheset {
     color: var(--md-sys-color-on-secondary-container);
