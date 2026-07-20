@@ -2036,6 +2036,46 @@ body ._1ABCOz8DSrl-YJdh1xD-m0:active {
 body ._1TsqAyLSPMv7JrgVI6Jpnv {
     display: none;
 }
+body ._0BH1ydyFmSnUvoVK2hIc {
+    border-radius: var(--corner-radius-full);
+}
+body ._3qPIR-iXdtj8oUzr8cH1Ey,
+body ._3qPIR-iXdtj8oUzr8cH1Ey:hover {
+    border-style: none;
+    box-shadow: unset;
+}
+body ._3qPIR-iXdtj8oUzr8cH1Ey.Panel:first-of-type:last-of-type {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+body ._3qPIR-iXdtj8oUzr8cH1Ey.Panel:first-of-type:not(:last-of-type),
+body ._3qPIR-iXdtj8oUzr8cH1Ey.Panel:nth-child(1 of ._3qPIR-iXdtj8oUzr8cH1Ey.Panel) {
+    border-top-left-radius: var(--corner-radius-medium);
+    border-top-right-radius: var(--corner-radius-medium);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+body ._3qPIR-iXdtj8oUzr8cH1Ey.Panel:not(:first-of-type):not(:last-of-type) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-extra-small);
+    border-bottom-right-radius: var(--corner-radius-extra-small);
+}
+body ._3qPIR-iXdtj8oUzr8cH1Ey.Panel:last-of-type:not(:first-of-type) {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-medium);
+    border-bottom-right-radius: var(--corner-radius-medium);
+}
+body ._2SDa5ofHp4X7qHQE540cIS .DialogInput.DialogInputPlaceholder.DialogTextInputBase._1OuNJQWR-7lSdtgyJf69uF,
+body ._2SDa5ofHp4X7qHQE540cIS .DialogInput.DialogInputPlaceholder.DialogTextInputBase._1OuNJQWR-7lSdtgyJf69uF:hover,
+body ._2SDa5ofHp4X7qHQE540cIS .DialogInput.DialogInputPlaceholder.DialogTextInputBase._1OuNJQWR-7lSdtgyJf69uF:focus {
+    border-radius: var(--corner-radius-full);
+    border-style: none;
+    box-shadow: none;
+}
 /* - CHECKOUT - */
 body .checkout_error {
     border-radius: var(--corner-radius-medium);

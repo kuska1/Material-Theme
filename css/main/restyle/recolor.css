@@ -906,7 +906,8 @@ body .RJuzsEBZ8kM-.BmkyU9JH47M-,
 body #review_create h2, body .reviewDate,
 body .user_reviews_language_outliers_dropdown,
 body .user_reviews_display_uninformative,
-body .user_reviews_playtime_type {
+body .user_reviews_playtime_type,
+body ._1mAU7zkVivAPGFPI3maedz {
     border-top-color: var(--md-sys-color-outline-variant);
 }
 ._276E6ijBpjMA2_iTxNhhjc._2g5K_hJWc7jVo81zuejhk2:hover /* Resize Divider */ {
@@ -1105,19 +1106,19 @@ body select.gray_bevel option:hover, body select.gray_bevel option:focus /* Comm
 /* --- TEXT FIELDS --- */
 
 /* Bottom Outline */
-.DialogTextInputBase,
+body .DialogTextInputBase,
 .lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx,
 .sLyAbUma18eNqN7YC1iNz {
     border-bottom-color: var(--md-sys-color-on-surface-variant);
 }
 /* Base */
-.DialogTextInputBase, ._DialogInputContainer:not(.DialogDropDown), textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable:not(:hover):not(:focus-within),
+body .DialogTextInputBase, ._DialogInputContainer:not(.DialogDropDown), textarea.DialogInput.DialogInputPlaceholder.DialogTextInputBase.Focusable:not(:hover):not(:focus-within),
 .lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx {
     color: var(--md-sys-color-on-surface);
     background: var(--md-sys-color-surface-container-highest);
 }
 /* Hover */
-.DialogTextInputBase:not(:disabled):hover,
+body .DialogTextInputBase:not(:disabled):hover,
 .lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx:hover,
 ._3ayYOCw_ZCm0rF1vDVmwfO .rG9v6g24n_n7jdI7rK5zY ._3OIDlxU9x7bhWVKKi8wwaH ._2cXhAZJGVLrDD_TVE6hdwq:hover,
 .sLyAbUma18eNqN7YC1iNz:hover,
@@ -1127,7 +1128,7 @@ body select.gray_bevel option:hover, body select.gray_bevel option:focus /* Comm
     border-bottom-color: var(--md-sys-color-on-surface);
 }
 /* Focus / Active */
-.DialogTextInputBase:not(:disabled):focus-visible,
+body .DialogTextInputBase:not(:disabled):focus-visible,
 .DesktopUI .DialogTextInputBase:focus, .DialogTextInputBase:focus-within,
 .lat0M-V5X4uYd6Mpm1DJ1 ._2GBWeup5cttgbTw8FM3tfx:focus-within,
 .sLyAbUma18eNqN7YC1iNz:active, .sLyAbUma18eNqN7YC1iNz:focus-within, .sLyAbUma18eNqN7YC1iNz:focus, .sLyAbUma18eNqN7YC1iNz:focus-visible,
@@ -1136,6 +1137,9 @@ body select.gray_bevel option:hover, body select.gray_bevel option:focus /* Comm
     color: var(--md-sys-color-on-surface);
     background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-active));
     border-bottom-color: var(--md-sys-color-primary);
+}
+body ._3R_gixvbcQCJxxRTmCvpJw .DialogTextInputBase:focus {
+    background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-active)) !important;
 }
 /* Title */
 .DialogLabel, .DialogLabelStrong {
@@ -5439,6 +5443,25 @@ body .HDXo8DVlUxI-.w--FxC-EhbA-.HmiEjCDqdZs-.lWNIGdpQpu0-.bG2NtC5tCTc-.eWU2vcvOO
 body div:has(div>input) .hBhqQbQsMCE-._9fpFHkyl3os- .dFoiuQNGt-c-.lWNIGdpQpu0-.WFJk5tr0xtQ- {
     color: var(--md-sys-color-primary);
 }
+/* Text Area */
+body ._3wPcWGmcqJzbUXHRTPYsXa {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container-highest);
+    border-bottom-color: var(--md-sys-color-on-surface-variant);
+}
+body ._3wPcWGmcqJzbUXHRTPYsXa:hover {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+body ._3wPcWGmcqJzbUXHRTPYsXa:active {
+    color: var(--md-sys-color-on-surface);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+body ._3wPcWGmcqJzbUXHRTPYsXa:focus {
+    color: var(--md-sys-color-on-surface);
+    background: var(--md-sys-color-surface-container-highest);
+    border-bottom-color: var(--md-sys-color-primary);
+}
 /* Dropdown */
 body.profile_edit_page .DialogTextInputBase, body.profile_edit_page ._DialogInputContainer {
     color: var(--md-sys-color-on-surface-variant);
@@ -9240,7 +9263,8 @@ body ._2WLaY5TxjBGVyuWe_6KS3N {
     color: var(--md-sys-color-on-surface);
 }
 body ._31DQWsrdb_9oV-vMOaaPqI,
-body ._1jqUY_WcPgZnIOE-d9x7wc ._17GFdSD2pc0BquZk5cejg8 {
+body ._1jqUY_WcPgZnIOE-d9x7wc ._17GFdSD2pc0BquZk5cejg8,
+body ._1TulC_KnETCU3Ks4Y1hQ70 {
     color: var(--md-sys-color-on-surface-variant);
 }
 body .jY9l4aHTdQLHeTWfPonTr .p8XFGmprI4snkQjm11Pf2,
@@ -9325,6 +9349,7 @@ body ._1HwWXjF06mJ9sG_9KXlgA- svg {
 }
 body .ModalPosition_Dismiss .closeButton .SVGIcon_X_Line line {
     color: var(--md-sys-color-outline);
+    stroke: currentColor;
 }
 body .ModalPosition_Dismiss .closeButton:hover .SVGIcon_X_Line line {
     color: var(--md-sys-color-on-surface);
@@ -9454,6 +9479,42 @@ body .rwUglo-vlgo- .DhPfFBOHhjM- .i-uGQ3SagyM- svg {
 body ._2jWguvQbMj3mHe0ytRpzNm {
     color: var(--md-sys-color-on-surface-variant);
     background: var(--md-sys-color-surface-container-low);
+}
+body ._0BH1ydyFmSnUvoVK2hIc {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body ._0BH1ydyFmSnUvoVK2hIc:hover {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+body ._0BH1ydyFmSnUvoVK2hIc:active {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+}
+body ._28yZdTwE0gz4jOV6olyg7F {
+    color: var(--md-sys-color-primary);
+}
+body .YK5pj3LG0Q81ZMKdO9Mcc {
+    color: var(--md-sys-color-error);
+}
+body ._3qPIR-iXdtj8oUzr8cH1Ey {
+    color: var(--md-sys-color-on-surface-variant);
+    background: var(--md-sys-color-surface-container-high);
+}
+body ._3qPIR-iXdtj8oUzr8cH1Ey:hover {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface) var(--layer-action-hover));
+}
+body ._3qPIR-iXdtj8oUzr8cH1Ey:active {
+    color: var(--md-sys-color-on-surface-variant);
+    background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface) var(--layer-action-active));
+}
+body ._2saJTAocZ9TnYXTGvnqUMC {
+    color: var(--md-sys-color-outline);
+}
+body .offline .nOdcT-MoOaXGePXLyPe0H {
+    color: var(--md-sys-color-on-surface-variant);
 }
 /* - CHECKOUT - */
 body.checkout {
