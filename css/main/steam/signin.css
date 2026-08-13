@@ -23,7 +23,7 @@
     right: 0px;
     width: 64px;
     height: 64px;
-    transform: translate(30%, 180%);
+    /* transform: translate(30%, 180%); */
 }
 ._1mt2mPMVEDfpOhhWePy9hc:focus .IfVUbt19eXIqaAuGh2i63, ._1mt2mPMVEDfpOhhWePy9hc:hover .IfVUbt19eXIqaAuGh2i63 {
     transform: unset;
@@ -32,5 +32,5 @@
     pointer-events: none;
     position: absolute;
     top: 0;
-    transform: translate(-95%, 30%);
+    transform: translate(-95%, 100%);
 }
