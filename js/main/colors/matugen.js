@@ -8,19 +8,27 @@ const FALLBACK_URL = "https://millennium.host/v1/themes/Material-Theme/css/main/
 
 let link_url = PRIMARY_URL;
 
-const cssLink = document.createElement('link');
-cssLink.rel = 'stylesheet';
+const styleTag = document.createElement('style');
+document.head.appendChild(styleTag);
 
-cssLink.onerror = () => {
-  console.debug(logText, logCss, `Failed to load ${link_url}, switching to another URL...`);
-  link_url === PRIMARY_URL ? link_url = FALLBACK_URL : link_url = PRIMARY_URL;
-  cssLink.href = link_url;
-  cssLink.onerror = null;
-};
+async function refresh() {
+  try {
+    const res = await fetch(link_url);
+    const text = await res.text();
 
-cssLink.href = link_url;
-document.head.appendChild(cssLink);
+    if (!res.ok || text.trim().toLowerCase().startsWith('<html') || text.includes('File Not Found')) {
+      const newUrl = link_url === PRIMARY_URL ? FALLBACK_URL : PRIMARY_URL;
+      console.debug(logText, logCss, `${link_url} returned "File Not Found", switching to ${newUrl}`);
+      link_url = newUrl;
+      return;
+    }
 
-setInterval(() => {
-  cssLink.href = link_url;
-}, 1500);
+    styleTag.textContent = text;
+  } catch (e) {
+    console.debug(logText, logCss, `Failed to fetch ${link_url}, switching to another URL...`);
+    link_url = link_url === PRIMARY_URL ? FALLBACK_URL : PRIMARY_URL;
+  }
+}
+
+refresh();
+setInterval(refresh, 1500);
