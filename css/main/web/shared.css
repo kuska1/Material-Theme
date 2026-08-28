@@ -335,19 +335,9 @@ body .kAl-kvSpQRM-.qhO1q0--Jxo-.Y0BqhPMsT9c-.iUEmwVRQDxI-._9fpFHkyl3os- .UszZC-h
 
 /* Text Area */
 body ._3wPcWGmcqJzbUXHRTPYsXa,
-body ._3wPcWGmcqJzbUXHRTPYsXa:hover {
-    border-top-left-radius: var(--corner-radius-extra-small);
-    border-top-right-radius: var(--corner-radius-extra-small);
-    border-bottom-left-radius: var(--corner-radius-none);
-    border-bottom-right-radius: var(--corner-radius-none);
-    box-shadow: unset;
-    border-top: unset;
-    border-left: unset;
-    border-right: unset;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-}
-body ._3wPcWGmcqJzbUXHRTPYsXa:focus {
+body ._3wPcWGmcqJzbUXHRTPYsXa:hover,
+body .vsYKgPb-InpQZyJ4AoP2m .DialogInput_Wrapper>input.DialogInput,
+body .vsYKgPb-InpQZyJ4AoP2m .DialogInput_Wrapper>input.DialogInput:hover {
     border-top-left-radius: var(--corner-radius-extra-small);
     border-top-right-radius: var(--corner-radius-extra-small);
     border-bottom-left-radius: var(--corner-radius-none);
@@ -358,4 +348,35 @@ body ._3wPcWGmcqJzbUXHRTPYsXa:focus {
     border-right: unset;
     border-bottom-width: 2px;
     border-bottom-style: solid;
+}
+body ._3wPcWGmcqJzbUXHRTPYsXa:focus,
+body .vsYKgPb-InpQZyJ4AoP2m .DialogInput_Wrapper>input.DialogInput:focus {
+    border-top-left-radius: var(--corner-radius-extra-small);
+    border-top-right-radius: var(--corner-radius-extra-small);
+    border-bottom-left-radius: var(--corner-radius-none);
+    border-bottom-right-radius: var(--corner-radius-none);
+    box-shadow: unset;
+    border-top: unset;
+    border-left: unset;
+    border-right: unset;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
+
+/* Chips */
+body .J7mtzI88wAE- .xocgTD9wQ3w- .Vy3rNuKLunU- {
+    border-radius: var(--corner-radius-extra-small);
+    border-style: solid;
+    border-width: 1px;
+}
+body .PE-3oq-yIvg- .JY4lwsRhvTg- .Vy3rNuKLunU-,
+body .PE-3oq-yIvg- ._9JnnSUDfcOw- .U3ndjc3qoW8-,
+body .awGgT3ZKumU- .Panel .cDJOlrqyRq8- {
+    border-radius: var(--corner-radius-extra-small);
+    border-style: none;
+}
+/* Tooltip */
+body .thT7nQQQA-w- .oQJ4ZJN3E6g- {
+    border-radius: var(--corner-radius-extra-small);
+    box-shadow: var(--elevated-shadow);
 }

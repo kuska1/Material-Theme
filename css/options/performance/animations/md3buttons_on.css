@@ -55,6 +55,15 @@ body .carousel_container .carousel_thumbs > div {
         all 350ms var(--animation-standart-slow-effects) !important;
 }
 
+body.r0DFA3TwTH8- .smdxg72XyCE- .PzuczM6OUSY-,
+body.r0DFA3TwTH8- .smdxg72XyCE- .PzuczM6OUSY- svg {
+    transition:
+        border-radius 350ms var(--animation-expressive-fast-spatial),
+        color 150ms var(--animation-expressive-fast-effects),
+        background 150ms var(--animation-expressive-fast-effects),
+        transform 350ms var(--animation-standart-fast-spatial) !important;
+}
+
 /* big picture */
 ._2KhPXikozxMpbIRo_6jPxW, .B40DvkTvaDfC6yoDIOGa7 /* keyboard */ {
     transition:

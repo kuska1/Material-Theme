@@ -1,0 +1,23 @@
+/* App Bar / Top & Bottom */
+._3Z7VQ1IMk4E3HsHvrkLNgo, .RGNMWtyj73_-WdhflrmuY ._2CmrnGY-Amtd83ScJkFvx2, ._3vCzSrrXZzZjVJFZNg9SGu {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-surface-container) var(--md-setting-background-opacity)) !important; 
+}
+/* URL Bar */
+._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-surface-container) var(--md-setting-background-opacity)) !important; 
+}
+/* Library Sidebar / Left */
+._3x1HklzyDs4TEjACrRO2tB, ._1ENHEsrSLcTRtPQFl1F-wL._1DvwQt0JN-Ogp_4tVZdkzX {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-surface-container) var(--md-setting-background-opacity)) !important; 
+}
+/* Library Main / Right */
+._2gSXCB6PbOlMxslr8hm6dm, ._2Dd4T78PcCTUVgOtDGFY5j {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-surface) var(--md-setting-background-opacity)) !important;
+}
+._3BFcmjAaMyP6GTPwc0VyWi {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-surface-container) var(--md-setting-background-opacity)) !important;
+}
+/* Web Pages */
+html body {
+    background: color-mix(in srgb, transparent, var(--md-sys-color-surface) var(--md-setting-background-opacity)) !important;
+}

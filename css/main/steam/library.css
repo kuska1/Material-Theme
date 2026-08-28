@@ -1606,13 +1606,16 @@ html[lang="ja"] .MillenniumThemes_AccentColorField ._1W1to_azoBRG95oNAFpf9Q::aft
     word-break: keep-all;
     text-transform: uppercase;
 }
-.MillenniumDesktopSidebar_EditorContent .Ripple.Effect:nth-child(3) ._3jMlJm4PQCA8SfNlUR99Fo::after {
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div[data-condition="Ripple Effect"] ._2VcTlXFC64Jtg9gvtT6cmY > .FieldLabel::after,
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div[data-condition="Background Opacity Slider"] ._2VcTlXFC64Jtg9gvtT6cmY > .FieldLabel::after {
     content: "Beta";
 }
-.MillenniumDesktopSidebar_EditorContent .Hide.Activity.Posting:nth-child(4) ._3jMlJm4PQCA8SfNlUR99Fo::after,
-.MillenniumDesktopSidebar_EditorContent .Blur.Matured.Content:nth-child(4) ._3jMlJm4PQCA8SfNlUR99Fo::after,
-.MillenniumDesktopSidebar_EditorContent .Hide.Broadcasting.Containers:nth-child(5) ._3jMlJm4PQCA8SfNlUR99Fo::after {
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div[data-condition="Background Opacity Toggle"] ._2VcTlXFC64Jtg9gvtT6cmY > .FieldLabel::after {
     content: "New";
+}
+.MillenniumDesktopSidebar_EditorContent .DialogBody:has(> div[data-condition="Background Opacity Toggle"] .Toggle[aria-checked="false"]) div[data-condition="Background Opacity Slider"] {
+    opacity: 0.5;
+    pointer-events: none;
 }
 
 /* Fix */

@@ -125,6 +125,10 @@
 ._1bGewp3tfzqAF6fVTFFUOz .UkR3sY319PuaUNuUWks2K ._2m_orETo6AghzAnc0sISCt {
     gap: 4px;
 }
+/* Floating confirmation */
+._3cXgxM5dBuTxGOOYw0lxsP {
+    border-radius: var(--corner-radius-extra-small);
+}
 /* Plugins Support / Extendium */
 .extensions-bar-container .extensions-bar,
 .extensions-bar-container .extensions-bar:hover {

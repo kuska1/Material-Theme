@@ -7,6 +7,10 @@
     padding: 4px;
     box-shadow: var(--elevated-shadow) !important;
 }
+/* Beta */
+._24BN2A3khkLXilnwdxCSHL {
+    border-radius: var(--corner-radius-extra-small);
+}
 
 body.DesktopUI .PP7LM0Ow1K5qkR8WElLpt {
     min-width: unset !important;

@@ -20,16 +20,12 @@
 /* Community/Powered */
 .player_avatar img,
 .avatarMedium img,
-.playerAvatar img, .friend_block_holder .friend_block_avatar img, .friend_activity .friend_block_avatar img,
+.playerAvatar picture > img, .playerAvatar > img:not(.Frame):not(._2nPONxDUmK4rQXzK4Y3vG2), .friend_block_holder .friend_block_avatar img, .friend_activity .friend_block_avatar img,
 .friendBlock .playerAvatar, .commentthread_comment_avatar,
 .grouppage_friendsingroup .friendavatar,
 .avatarIcon img,
 /* Mini-Profile */
 .miniprofile_playersection .playersection_avatar img,
-/* Disable Round Avatars with Cosmetic Border */
-.playerAvatarAutoSizeInner:has(.profile_avatar_frame) img,
-.miniprofile_playersection:has(.playersection_avatar_frame) .playersection_avatar img,
-.playerAvatar:has(.profile_avatar_frame) img,
 /* Online Fix */
 .playerAvatar, .friend_block_holder .friend_block_avatar, .friend_activity .friend_block_avatar,
 /* Notifications */
@@ -53,8 +49,10 @@ body ._29CGQrIvjYllKwVQKe8d8R img {
 
 
 /* Disable Round Avatars with Cosmetic Border */
+.avatarHolder:has(._2nPONxDUmK4rQXzK4Y3vG2) .avatar,
 .avatarHolder:has(.avatarFrame) .avatar,
 .playerAvatar:has(.profile_avatar_frame) img,
+.playerAvatar:has(.Frame) > img:not(.Frame),
 .miniprofile_playersection:has(.playersection_avatar_frame) .playersection_avatar img,
 .t1-DQ4KhiQ0-._4-VIszWOyjU-:has(img.CdtBH5cDo-Q-) img.YbrTGQJwy1w- {
 	border-radius: var(--corner-radius-small) !important;
