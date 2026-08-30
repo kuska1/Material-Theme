@@ -21,10 +21,11 @@ body .xa7nOX-adjA- {
 
 /* Custom Tooltip for Theme Settings */
 .DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumItem_Version::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48::before {
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div .FieldLabelRow::before,
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div .FieldLabelRow .FieldLabel::before,
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div .FieldDescription::before,
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div .FieldDescription .Bold::before,
+.DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .FieldChildrenInner .tool-tip-source::before {
     position: absolute;
     /* top: -20px; */
     /* bottom: -10%; */
@@ -46,10 +47,11 @@ body .xa7nOX-adjA- {
     pointer-events: none;
 }
 .DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumItem_Version:hover::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY:hover::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo:hover::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q:hover::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:hover::before {
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div .FieldLabelRow:hover::before,
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div .FieldLabelRow .FieldLabel:hover::before,
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div .FieldDescription:hover::before,
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div .FieldDescription .Bold:hover::before,
+.DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .FieldChildrenInner .tool-tip-source:hover::before {
     opacity: 1;
 }
 
@@ -61,15 +63,21 @@ body .xa7nOX-adjA- {
     transform: translate(-20%, -125%) !important;
 }
 
-.MillenniumDesktopSidebar_EditorContent .Color:nth-child(2) ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:nth-of-type(2)::before {
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div[data-condition="Color"] .FieldDescription .Bold:nth-of-type(2)::before {
     content: "...\\Steam\\millenium\\themes\\Material-Theme\\matugentemplate.css";
 }
 
-.MillenniumDesktopSidebar_EditorContent .Color:nth-child(2) ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48:nth-of-type(4)::before {
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div[data-condition="Color"] .FieldDescription .Bold:nth-of-type(4)::before {
     content: "Theme Settings -> Colors -> Custom Accent Color";
 }
+html[lang="uk"] .MillenniumDesktopSidebar_EditorContent .DialogBody > div[data-condition="Color"] .FieldDescription .Bold:nth-of-type(4)::before {
+    content: "Налаштування теми -> Кольори -> Custom Accent Color";
+}
+html[lang="ru"] .MillenniumDesktopSidebar_EditorContent .DialogBody > div[data-condition="Color"] .FieldDescription .Bold:nth-of-type(4)::before {
+    content: "Настройки темы -> Цвета -> Custom Accent Color";
+}
 
-.MillenniumDesktopSidebar_EditorContent .Font:nth-child(4) ._1W1to_azoBRG95oNAFpf9Q::after {
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div[data-condition="Font"] .FieldDescription::after {
     content: "(?)";
     position: absolute;
     /* margin-left: 70px; */
@@ -77,10 +85,35 @@ body .xa7nOX-adjA- {
     font-size: 8px;
 }
 
-.MillenniumDesktopSidebar_EditorContent .Font:nth-child(4) ._1W1to_azoBRG95oNAFpf9Q::before {
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div[data-condition="Font"] .FieldDescription::before {
     content: "For \"Custom\" create \"customFont.css\" inside theme folder";
 }
+html[lang="uk"] .MillenniumDesktopSidebar_EditorContent .DialogBody > div[data-condition="Font"] .FieldDescription::before {
+    content: "Для \"Custom\" створіть \"customFont.css\" всередені папки теми";
+}
+html[lang="ru"] .MillenniumDesktopSidebar_EditorContent .DialogBody > div[data-condition="Font"] .FieldDescription::before {
+    content: "Для \"Custom\" создайте \"customFont.css\" внутри папки темы";
+}
+
 
 /* .MillenniumDesktopSidebar_EditorContent .Ripple.Effect:nth-child(3) ._3jMlJm4PQCA8SfNlUR99Fo::before {
     content: "Currently breaking lists";
 } */
+
+.DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .FieldChildrenInner .tool-tip-source::before {
+    max-width: unset;
+    right: unset;
+    left: unset;
+    margin-left: -6%;
+    text-align: center;
+}
+
+.DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .FieldChildrenInner .tool-tip-source:first-of-type::before {
+    content: "If you are unable to donate through Ko-fi, please use Patreon";
+}
+html[lang="uk"] .DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .FieldChildrenInner .tool-tip-source:first-of-type::before {
+    content: "Якщо вам не вдається задонатити через Ko-fi, будь ласка, скористайтеся Patreon";
+}
+html[lang="ru"] .DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .FieldChildrenInner .tool-tip-source:first-of-type::before {
+    content: "Если у вас не получается задонатить через Ko-fi, пожалуйста, воспользуйтесь Patreon";
+}

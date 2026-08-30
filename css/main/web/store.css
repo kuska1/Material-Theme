@@ -2567,6 +2567,10 @@ body input[type="text"].search_filter_suggest:focus {
     outline: unset;
 }
 /* - WISHLIST - */
+/* White box removal */
+.ewJx-kmPr-8-{
+    display: none;
+}
 /* Search */
 body .oetRs2-bpC8- ._4Es02s8Xf3s-,
 body.r0DFA3TwTH8- .DFhzzTUhoEs- .QoJP0e0vzFA- {

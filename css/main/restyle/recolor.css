@@ -225,6 +225,11 @@ body ._2W_HQa5Rhf-hHITgV5H0bu {
 ._3Vl2zkYPoCpw1q_1n28D3z {
     background: var(--md-sys-color-surface-container);
 }
+/* Warning / Error */
+.Warning,
+._2TZKvfpoXO3wkbwq7V_h0A._2attlRlKeWsdQsrTOCm2Ni {
+    color: var(--md-sys-color-error);
+}
 
 
 /* --- CHIPS --- */
@@ -557,11 +562,14 @@ body .DialogDropDown_CurrentDisplay {
 }
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play svg path, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause svg path {
     color: var(--md-sys-color-on-primary);
-    fill: var(--md-sys-color-on-primary);
+    fill: currentColor;
 }
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stream, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Connect, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Launch, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PlayMusic, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Play {
     color: var(--md-sys-color-on-primary);
     background: var(--md-sys-color-primary);
+}
+.DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop svg line {
+    stroke: currentColor;
 }
 /* Hover */
 .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Download:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Update:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PreLoad:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Resume:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Pause:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.BorrowApp:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Stop:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Cancel:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.Install:focus, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:hover, .DesktopUI .Z5iAXBkRFGnwpXsO8ANTl.PurchaseApp:focus {
@@ -1590,10 +1598,11 @@ body .millennium-custom-buttons:active {
 /* Base */
 .nevko_tooltip, #nevko-tooltip, /* Badges.js */
 .DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .MillenniumItem_Version::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._2VcTlXFC64Jtg9gvtT6cmY ._3jMlJm4PQCA8SfNlUR99Fo::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q::before,
-.MillenniumDesktopSidebar_EditorContent .eKmEXJCm_lgme24Fp_HWt ._1W1to_azoBRG95oNAFpf9Q ._3cln317VYhwhE1fSeMCG48::before, /* Custom Tooltip */
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div .FieldLabelRow::before,
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div .FieldLabelRow .FieldLabel::before,
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div .FieldDescription::before,
+.MillenniumDesktopSidebar_EditorContent .DialogBody > div .FieldDescription .Bold::before,
+.DialogContent_InnerWidth .MillenniumThemes_ThemeItem[data-theme-name="Material"] .FieldChildrenInner .tool-tip-source::before, /* Custom Tooltip */
 ._2FxbHJzYoH024ko7zqcJOf, /* Base */
 ._3XGRklQrZMakU2xaYB0cLD, /* Library */
 ._2iiN7AYnLFTRFRiuipiYJz, /* Friends */
@@ -10535,6 +10544,12 @@ body.VuAIAiWhjcg-,
 html body.r0DFA3TwTH8- {
     color: var(--md-sys-color-on-surface-variant);
     background: var(--md-sys-color-surface);
+}
+body .uTozs1Q00-o- {
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .uTozs1Q00-o- a.CG4558xZCQs-:hover {
+    color: var(--md-sys-color-on-surface);
 }
 body .G-xGsXlx-Sw- h2,
 body .KFyvA5BJClc- h2 {
