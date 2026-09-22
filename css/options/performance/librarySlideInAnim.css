@@ -1,0 +1,15 @@
+@keyframes md3LibrarySlideIn {
+    0% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+._2l416KfEtI4CL0mCUEmOBw {
+    animation:
+        md3LibrarySlideIn var(--animation-duration-medium3) var(--animation-expressive-fast-spatial) forwards;
+    /* animation-iteration-count: 1; */
+    will-change: transform;
+}

@@ -3,7 +3,7 @@
     "author": "kuska1",
     "description": "Theme based on Google's Material 3 Design.",
     "tags": ["Material", "Material You", "Material 3", "Material Design", "Monet", "Dynamic", "Accent", "Light", "Dark", "WIP"],
-    "version": "1.5.14",
+    "version": "1.5.15",
     "header_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
     "splash_image": "https://raw.githubusercontent.com/kuska1/Material-Theme/refs/heads/main/.github/banner.jpg",
 
@@ -934,6 +934,19 @@
                 "yes": {
                     "TargetCss": {
                         "affects": [".*"], "src": "css/options/performance/chatAnim.css"
+                    }
+                }
+            }
+        },
+        "Library Slide In Animation": {
+            "description": "Enable slide in animation in library.",
+            "default": "no",
+            "tab": "Performance",
+            "values": {
+                "no": {},
+                "yes": {
+                    "TargetCss": {
+                        "affects": [".*"], "src": "css/options/performance/librarySlideInAnim.css"
                     }
                 }
             }
