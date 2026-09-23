@@ -129,7 +129,7 @@ body:not(.DesktopUI) .playerAvatar,
 body:not(.DesktopUI) .playerAvatar img {
 	background: unset !important;
 }
-body:not(.DesktopUI) .playerAvatar {
+body:not(.DesktopUI) div:not(.member_block) > .playerAvatar {
 	position: relative;
 }
 body:not(.DesktopUI) .playerAvatar:not(:has(.avatarStatus))::before {
