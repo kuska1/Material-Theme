@@ -484,6 +484,14 @@
     border-top-left-radius: var(--corner-radius-medium);
     border-top-right-radius: var(--corner-radius-medium);
 }
+/* Steam's Achievements Icon Overflow */
+._2YS0EBJmY2Rvs07zZ90UIJ {
+    padding-inline-start: 46px;
+}
+/* Steam's Large Gap Fix */
+._2r4TK4BAuU-J4FuF_O7v_5 {
+    margin-bottom: 0px;
+}
 /* From your Steam library */
 .z8GYwNt_nbBZrf7OVjs-s {
     min-height: unset;

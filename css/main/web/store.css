@@ -206,7 +206,8 @@ body .cO0trRuLfzA- .JImNxATJ1xc->img{
 }
 body ._2lQxRlo1DQ1PN08TYTil2L,
 body .bWcsWKN3D84-,
-body .rsMD9WnTopA- {
+body .rsMD9WnTopA-,
+body ._1gsW0WuP7ZclL1_ScZlsvo ._2wlqkq-0fkggDE-Kll8Rwd {
     border-radius: var(--corner-radius-full);
 }
 /* Categories */
@@ -414,14 +415,19 @@ body .franchise_notice {
     box-shadow: unset;
 }
 /* Discounts & Events */
-body .carousel_container.spotlight .carousel_items {
+body .carousel_container.spotlight .carousel_items,
+body .h3XQjMcbeK9lnR6q53EsI .carousel__slider {
     border-radius: var(--corner-radius-medium);
 }
-body .home_capsule_banner {
+body .home_capsule_banner,
+body ._1gsW0WuP7ZclL1_ScZlsvo .znNVIhFP6KdJlUS2p2B7q {
     top: 6px;
     left: 6px;
     border-radius: var(--corner-radius-full);
     box-shadow: unset;
+}
+body ._1gsW0WuP7ZclL1_ScZlsvo ._25rFony2doWngaEeNrbITF {
+    border-radius: var(--corner-radius-medium);
 }
 body.v7 .carousel_container.spotlight .discount_block {
     margin-top: 6px;
@@ -433,6 +439,17 @@ body.v7 .carousel_container.spotlight .discount_block.discount_block_large .disc
 body.v7 .carousel_container.spotlight .discount_block.discount_block_large .bundle_base_discount {
     line-height: 22px;
     padding-block: 0px;
+}
+body ._2f_EIAuOVG5ZIzYb1sXJlw {
+    border-radius: var(--corner-radius-full);
+}
+body .h3XQjMcbeK9lnR6q53EsI .carousel__slider ._3dtnlw7cvJhAMGafZPipGv {
+    border-radius: var(--corner-radius-full);
+    top: 38px;
+    left: 4px;
+}
+body ._1gsW0WuP7ZclL1_ScZlsvo ._1-29ksrfQaORRCqN2AVf06 {
+    margin-top: 6px;
 }
 /* Season Sale */
 body .hero_capsule {
@@ -484,7 +501,8 @@ body ._3G65z75zOTQeHrXxszHO4b {
 }
 /* Your Personal Calendar */
 body ._1rLdYDrWbYRcVNpPlFd225 .uUNiI-Woa-IKlMTl8sNz4,
-body ._326_uhqq2I-hJwNRSqIZK4 .tqaXEuWN2wV5_8lmSkMng {
+body ._326_uhqq2I-hJwNRSqIZK4 .tqaXEuWN2wV5_8lmSkMng,
+body ._326_uhqq2I-hJwNRSqIZK4 .tqaXEuWN2wV5_8lmSkMng ._2nBfmktG8nbBOFnhjq6OS5 ._1Vtz51wGyJHD9wpoDFNZ8M {
     border-radius: var(--corner-radius-medium);
 }
 body ._1rLdYDrWbYRcVNpPlFd225 .uUNiI-Woa-IKlMTl8sNz4 ._2Tqn7YAJcleffVrwKeeky6 ._1V0RCs8QeHLs8oLOr0MdyK ._15wSFuv0rJYhA009HlKKE1,
@@ -493,7 +511,8 @@ body ._3JFqZ4-_gZl_CQKdNJFdg2 ._2A83UfRXWSLbHFYfDcch9W ._3GS5DCQb2y5KKnOB8rHEw5 
     border-radius: var(--corner-radius-medium);
 }
 body ._1rLdYDrWbYRcVNpPlFd225 .uUNiI-Woa-IKlMTl8sNz4 ._2T5aAmTJF2RJhrBpoIOfqW,
-body body .lX3GvxrkYaEqKJRpIhPsk {
+body ._326_uhqq2I-hJwNRSqIZK4 .tqaXEuWN2wV5_8lmSkMng ._1wt5Ne6MrJfPVdFz5fGlop,
+body .lX3GvxrkYaEqKJRpIhPsk {
     box-shadow: unset;
     border-radius: var(--corner-radius-extra-small);
 }
@@ -680,6 +699,8 @@ html body.widestore .game_header_image_ctn,
 html body ._29RD-6nVM1ZsiWWlkICHj_._3R7Y3WNTdNhOgbZ21bs9xD.Oh37M-rKB_EeqpigY-fF_,
 html body .glance_details img,
 html ._3LAiT6FD5iZnZ-uET79Wp5, html ._3LAiT6FD5iZnZ-uET79Wp5 video,
+html ._2KIVa7T6PMqAVvVKkwdVZO._2zBrte9SWvr4lSb3lAkNpR,
+html ._2KIVa7T6PMqAVvVKkwdVZO._2zBrte9SWvr4lSb3lAkNpR img,
 html ._29RD-6nVM1ZsiWWlkICHj_._3R7Y3WNTdNhOgbZ21bs9xD, html ._29RD-6nVM1ZsiWWlkICHj_._3R7Y3WNTdNhOgbZ21bs9xD img,
 html ._21pEuTVe17EOUzkHK8ZGnJ .deMuRscIE7upszCfACmbK, html ._21pEuTVe17EOUzkHK8ZGnJ .deMuRscIE7upszCfACmbK img,
 html ._21pEuTVe17EOUzkHK8ZGnJ .deMuRscIE7upszCfACmbK._3VIimult0z05qCgQN1CfPg::after,
@@ -808,8 +829,13 @@ html body .next_in_queue_area {
     width: fit-content;
 }
 /* Containers */
-body .rightcol.game_meta_data .block {
+body .rightcol.game_meta_data .block,
+body .lqD2vDqW515szC9Dt3o8c,
+html.DesktopUI body .lqD2vDqW515szC9Dt3o8c {
     border-radius: var(--corner-radius-medium);
+}
+body .M5YgSyrfvCXXY_XYhYzcl {
+    box-shadow: unset;
 }
 body .rightcol.game_meta_data .block.heading {
     background: transparent;
@@ -1412,6 +1438,39 @@ body ._24bEdzyRcz_FKDUqulljpX {
     border-radius: var(--corner-radius-medium);
     box-shadow: unset;
 }
+/* More Like This */
+body ._1W35jfl6uiYKf7Iwt3NNEz,
+body ._3ghuGooDVCn0gUuocEnV8B,
+body .S9g2oScKWNbE4BrExvI19,
+body .CapsuleImageCtn,
+body .CapsuleImageCtn > ._2xiNqpMzhZh4tVcBPD6z1W {
+    border-radius: var(--corner-radius-medium);
+}
+body ._1_ehE8jTqsTDnx5E7Sqjy7,
+body .CapsuleBottomBar,
+body .w775QgXXCtmtG8yzEp-2u,
+body .StoreSalePriceWidgetContainer {
+    background: transparent;
+    gap: 6px;
+}
+body ._1kSDZm0Cg9anUkTfWFtwdN,
+body .kauOU9QnW8Fs0QpxzTBph,
+body ._2KBGD_hHRCfMXm-DDYRbQX {
+    border-radius: var(--corner-radius-full);
+}
+body .w775QgXXCtmtG8yzEp-2u .kauOU9QnW8Fs0QpxzTBph {
+    text-shadow: unset;
+}
+body ._1Ss9w5OINDsfSBbOR7VWp9 {
+    border-radius: var(--corner-radius-full);
+    top: 4px;
+    left: 4px;
+}
+body ._2qnY9VZwgA2qx1ydmUlsUm {
+    border-radius: var(--corner-radius-full);
+    box-shadow: unset;
+}
+
 body .XIDYByW4BEOm-YiOiwGmO ._3-Zh-Ypvsn0buzyWGzuOQf .fL1BVr1TCO7p3NcU6YlxG {
     border-radius: var(--corner-radius-medium);
 }
