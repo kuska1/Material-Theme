@@ -181,12 +181,12 @@
                 "Default": {},
                 "Only Icon": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/options/toolbar/toolbarVisibility/onlyicon.css"
+                        "affects": ["^Steam$"], "src": "css/options/toolbar/toolbarVisibility/onlyIcon.css"
                     }
                 },
                 "Only Text": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/options/toolbar/titleVisibility/onlytext.css"
+                        "affects": ["^Steam$"], "src": "css/options/toolbar/toolbarVisibility/onlyText.css"
                     }
                 }
             }
@@ -521,7 +521,7 @@
         },
         "Remove Shiny Effect": {
             "description": "Remove shiny effect on game card hover.",
-            "default": "Yes",
+            "default": "yes",
             "tab": "Library",
             "values": {
                 "no": {},
@@ -550,7 +550,7 @@
                 },
                 "Card Scale": {
                     "TargetCss": {
-                        "affects": ["^Steam$"], "src": "css/options/library/animations/animCardScale.css"
+                        "affects": ["^Steam$"], "src": "css/options/library/animations/animcCardScale.css"
                     }
                 },
                 "Little Rotate": {
