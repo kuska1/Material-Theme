@@ -103,8 +103,20 @@ function rgbToHsl(r, g, b) {
 async function getAccentColorFromImage(img) {
   return new Promise((resolve, reject) => {
     if (!img.complete) {
-      img.onload = () => resolve(getAccentColorFromImage(img));
-      img.onerror = reject;
+      const cleanup = () => {
+        img.removeEventListener('load', onLoad);
+        img.removeEventListener('error', onError);
+      };
+      const onLoad = () => {
+        cleanup();
+        resolve(getAccentColorFromImage(img));
+      };
+      const onError = (event) => {
+        cleanup();
+        reject(event);
+      };
+      img.addEventListener('load', onLoad);
+      img.addEventListener('error', onError);
       return;
     }
 
@@ -240,20 +252,29 @@ async function generateAndApplyTheme(sourceArgb) {
 /**
  * Main update logic: checks for a game cover image first, then falls back to system color.
  */
+const blurredArtworkSelector = 'img.HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u';
+const originalArtworkSelector = '.QlR9EFwTdUNm_J5vx54_Z img.HNbe3eZf6H7dtJ042x1vM';
+const artworkSelector = `${blurredArtworkSelector}, ${originalArtworkSelector}`;
+const getArtworkImage = () => document.querySelector(blurredArtworkSelector)
+                          ?? document.querySelector(originalArtworkSelector);
+let themeUpdateId = 0;
+
 async function updateTheme() {
-  // Selector for game artwork: 1 - blur variant, 2 - original variant
-  const img = document.querySelector('img.HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u')
-           ?? document.querySelector('.QlR9EFwTdUNm_J5vx54_Z img.HNbe3eZf6H7dtJ042x1vM');
+  const updateId = ++themeUpdateId;
+  const img = getArtworkImage();
+  const imageSrc = img?.src;
   try {
     if (img && img.src && !img.src.includes('clear.png')) {
       console.debug(logText, logCss, `Found image ${img.src}.`);
-      enableDynamicTransitions();
       const color = await getAccentColorFromImage(img);
+      if (updateId !== themeUpdateId || img !== getArtworkImage() || img.src !== imageSrc) return;
+      enableDynamicTransitions();
       localStorage.setItem('material-dynamic-color', color.toString());
       await generateAndApplyTheme(color);
       return;
     }
   } catch (e) {
+    if (updateId !== themeUpdateId || img !== getArtworkImage() || img?.src !== imageSrc) return;
     console.warn(logText, logCss, 'Image-based color failed, falling back:', e);
   }
 
@@ -276,6 +297,8 @@ async function updateTheme() {
 // Debounce helper to prevent excessive calculations during UI updates
 let updateTimeout;
 function debounceUpdateTheme() {
+  // Invalidate pending image loads as soon as navigation is observed.
+  ++themeUpdateId;
   clearTimeout(updateTimeout);
   updateTimeout = setTimeout(updateTheme, 200);
 }
@@ -284,12 +307,16 @@ function debounceUpdateTheme() {
 const isLibraryPage = document.documentElement.classList.contains('Rp8QOGJ2DypeDniMnRBhr');
 
 if (isLibraryPage) {
-  // Watch for game artwork (cover images) being added to the DOM
+  // Watch for added artwork and source changes on reused image elements.
   const observer = new MutationObserver((mutations) => {
     for (const m of mutations) {
+      if (m.type === 'attributes' && m.target.matches(artworkSelector)) {
+        debounceUpdateTheme();
+        return;
+      }
       for (const node of m.addedNodes) {
         if (node.nodeType === 1) {
-          if (node.matches?.('.HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u') || node.querySelector?.('.HNbe3eZf6H7dtJ042x1vM.HSQWw9HUAP6jtA2OZjS-u')) {
+          if (node.matches?.(artworkSelector) || node.querySelector?.(artworkSelector)) {
             debounceUpdateTheme();
             return;
           }
@@ -297,7 +324,7 @@ if (isLibraryPage) {
       }
     }
   });
-  observer.observe(document.body, { childList: true, subtree: true });
+  observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ['src'] });
 
   // Watch for changes in the system accent color style node
   const styleNode = document.getElementById('RootColors');
