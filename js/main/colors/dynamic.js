@@ -7,7 +7,8 @@ import {
   SchemeNeutral,
   SchemeMonochrome,
   argbFromHex,
-  argbFromRgb
+  argbFromRgb,
+  Score
 } from './material-color-utils.js';
 
 const logText = '%c Material '
@@ -75,26 +76,33 @@ const argbToHexCustom = (argb) => {
  */
 const toKebabCase = (str) => str.replace(/[A-Z]/g, m => '-' + m.toLowerCase());
 
-/**
- * Converts RGB to HSL for vibrancy filtering during image color extraction.
- */
-function rgbToHsl(r, g, b) {
-  r /= 255, g /= 255, b /= 255;
-  const max = Math.max(r, g, b), min = Math.min(r, g, b);
-  let h, s, l = (max + min) / 2;
-
-  if (max === min) { h = s = 0; } 
-  else {
-    const d = max - min;
-    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
-    switch (max) {
-      case r: h = (g - b) / d + (g < b ? 6 : 0); break;
-      case g: h = (b - r) / d + 2; break;
-      case b: h = (r - g) / d + 4; break;
+function selectAccentColor(data) {
+  const histogram = new Map();
+  for (let i = 0; i < data.length; i += 4) {
+    // Match Material's image extraction: transparent edges do not vote for an accent.
+    if (data[i + 3] !== 255) continue;
+    const r = data[i], g = data[i + 1], b = data[i + 2];
+    // Four bits per channel group nearby shades into at most 4096 buckets.
+    const key = (r >> 4) << 8 | (g >> 4) << 4 | (b >> 4);
+    let bucket = histogram.get(key);
+    if (!bucket) {
+      bucket = { red: 0, green: 0, blue: 0, count: 0 };
+      histogram.set(key, bucket);
     }
-    h /= 6;
+    bucket.red += r;
+    bucket.green += g;
+    bucket.blue += b;
+    bucket.count++;
   }
-  return [h, s, l];
+
+  if (!histogram.size) return 0;
+  const colors = new Map();
+  for (const { red, green, blue, count } of histogram.values()) {
+    const color = argbFromRgb(Math.round(red / count), Math.round(green / count), Math.round(blue / count));
+    colors.set(color, count);
+  }
+  // Score uses hue population and chroma; zero leaves neutral artwork on the existing fallback path.
+  return Score.score(colors, { desired: 1, fallbackColorARGB: 0 })[0];
 }
 
 /**
@@ -120,41 +128,24 @@ async function getAccentColorFromImage(img) {
       return;
     }
 
+    if (!img.naturalWidth || !img.naturalHeight) return reject(new Error('Image dimensions error'));
+
     const canvas = document.createElement('canvas');
     const ctx = canvas.getContext('2d', { willReadFrequently: true });
     
-    // Downscale for performance
-    const newWidth = 100;
-    const newHeight = (img.naturalHeight / img.naturalWidth) * newWidth;
+    // Keep the existing 100px sampling budget on both axes, without upscaling small artwork.
+    const scale = Math.min(1, 100 / img.naturalWidth, 100 / img.naturalHeight);
+    const newWidth = Math.max(1, Math.round(img.naturalWidth * scale));
+    const newHeight = Math.max(1, Math.round(img.naturalHeight * scale));
     canvas.width = newWidth;
     canvas.height = newHeight;
-
-    if (canvas.width === 0 || canvas.height === 0) return reject('Image dimensions error');
 
     try {
       ctx.drawImage(img, 0, 0, newWidth, newHeight);
       const data = ctx.getImageData(0, 0, newWidth, newHeight).data;
-      const colorCount = {};
-      let max = 0, dominant = '';
-
-      for (let i = 0; i < data.length; i += 4) {
-        const r = data[i], g = data[i+1], b = data[i+2];
-        const [h, s, l] = rgbToHsl(r, g, b);
-
-        // Filter for vibrant, non-extreme colors (not too dark or too white)
-        if (s > 0.25 && l > 0.1 && l < 0.9) {
-          const color = `${r},${g},${b}`;
-          colorCount[color] = (colorCount[color] || 0) + 1;
-          if (colorCount[color] > max) { max = colorCount[color]; dominant = color; }
-        }
-      }
-
-      if (dominant) {
-        const [r, g, b] = dominant.split(',').map(Number);
-        resolve(argbFromRgb(r, g, b));
-      } else {
-        reject(logText, logCss, 'No vibrant color found in image');
-      }
+      const color = selectAccentColor(data);
+      if (color) resolve(color);
+      else reject(new Error('No suitable color found in image'));
     } catch (e) { reject(e); }
   });
 }
