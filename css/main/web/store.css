@@ -1092,6 +1092,18 @@ body .game_area_purchase_game_dropdown_right_panel {
     margin-top: 12px;
     text-align: right;
 }
+body [data-featuretarget="parentappwidget"] .Panel,
+body [data-featuretarget="parentappwidget"] img {
+    border-radius: var(--corner-radius-medium);
+}
+body [data-featuretarget="parentappwidget"] .tool-tip-source > div {
+    height: 32px;
+    padding: 0 15px;
+    font-size: 15px;
+    border: unset;
+    border-radius: var(--corner-radius-full);
+    box-shadow: unset;
+}
 body div.early_access_banner {
     border-radius: var(--corner-radius-medium);
 }
