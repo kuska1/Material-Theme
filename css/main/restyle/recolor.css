@@ -7223,6 +7223,26 @@ body .lqD2vDqW515szC9Dt3o8c,
 html.DesktopUI body .lqD2vDqW515szC9Dt3o8c ._1HTEiDPVrmM0RUnp3DzkXW {
     color: var(--md-sys-color-on-surface);
 }
+body [data-featuretarget="parentappwidget"] .Panel {
+    background: var(--md-sys-color-surface-container-low);
+}
+body [data-featuretarget="parentappwidget"] .Panel a {
+    color: var(--md-sys-color-on-surface);
+}
+body [data-featuretarget="parentappwidget"] .tool-tip-source > div:not([style]) {
+    color: var(--md-sys-color-on-primary);
+    background: var(--md-sys-color-primary);
+}
+body [data-featuretarget="parentappwidget"] .tool-tip-source > div:not([style]):hover {
+    color: var(--md-sys-color-on-primary);
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+body [data-featuretarget="parentappwidget"] .tool-tip-source > div:not([style]):active {
+    background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
+}
+body [data-featuretarget="parentappwidget"] div:has(> .StoreSalePriceWidgetContainer) {
+    background: var(--md-sys-color-surface-container-lowest);
+}
 body .friend_blocks_twoxtwo .friend_block_holder:hover {
     background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
 }
