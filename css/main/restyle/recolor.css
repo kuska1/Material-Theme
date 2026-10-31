@@ -6385,6 +6385,16 @@ html body.v7 .discount_prices .discount_original_price {
 html body.v7 .discount_prices .discount_original_price:before {
     border-bottom-color: var(--md-sys-color-outline);
 }
+html body .game_purchase_action_bg .discount_block .discount_prices .discount_final_price {
+    color: var(--md-sys-color-on-surface);
+}
+html body .game_purchase_action_bg .discount_block .discount_prices .discount_original_price {
+    color: var(--md-sys-color-outline);
+}
+html body .game_purchase_action_bg .discount_block .discount_prices .discount_original_price:before {
+    border-bottom-color: var(--md-sys-color-outline);
+    box-shadow: none;
+}
 /* Discounts & Events */
 body .carousel_container.spotlight .carousel_items,
 body .h3XQjMcbeK9lnR6q53EsI .carousel__slider {
@@ -6977,6 +6987,7 @@ body ._1i4ygMVdcBqF0ARYxp_tk5 svg:hover {
 }
 body .discount_block.no_discount .bundle_base_discount {
     color: var(--md-sys-color-outline);
+    background: var(--md-sys-color-surface-container-high);
     border-color: var(--md-sys-color-outline-variant);
 }
 body ._1DvsO7ezbpz3pIVBWOLOzF ._2LR-6h1uKQt4bj21r14zy5,

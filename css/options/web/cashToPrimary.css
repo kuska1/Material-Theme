@@ -12,6 +12,20 @@ html body ._1kSDZm0Cg9anUkTfWFtwdN {
     color: var(--md-sys-color-on-primary-container);
     background: var(--md-sys-color-primary-container);
 }
+html body .game_purchase_action_bg .discount_block.no_discount .bundle_base_discount {
+    color: var(--md-sys-color-on-primary-container);
+    background: var(--md-sys-color-primary-container);
+    border-right: none;
+}
+html body .game_purchase_action_bg .discount_block.game_purchase_discount:not(.no_discount) .bundle_base_discount {
+    color: var(--md-sys-color-on-primary-container);
+}
+html body .game_purchase_action_bg .discount_block.game_purchase_discount:not(.no_discount) .bundle_base_discount::before {
+    box-shadow: none;
+}
+html body .game_purchase_action_bg .discount_block.game_purchase_discount .discount_prices .discount_final_price {
+    color: var(--md-sys-color-primary);
+}
 html body .discount_final_price,
 html body ._1g0B-RjwkUV0_MDURgy3Bi ._3j4dI1yA7cRfCvK8h406OB,
 html body .steamdb_prices_top b,
