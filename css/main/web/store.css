@@ -1104,6 +1104,24 @@ body [data-featuretarget="parentappwidget"] .tool-tip-source > div {
     border-radius: var(--corner-radius-full);
     box-shadow: unset;
 }
+body [data-featuretarget="parentappwidget"] div:has(> .StoreSalePriceWidgetContainer) {
+    align-self: flex-end;
+    align-items: center;
+    height: 32px;
+    padding: 2px;
+    border-radius: var(--corner-radius-full);
+}
+body [data-featuretarget="parentappwidget"] .StoreSalePriceWidgetContainer {
+    height: 32px;
+}
+body [data-featuretarget="parentappwidget"] .StoreSalePriceWidgetContainer:not(.Discounted) > div {
+    padding: 0 14px;
+}
+body [data-featuretarget="parentappwidget"] .StoreSaleDiscountBox {
+    height: 32px;
+    padding: 0 10px;
+    border-radius: var(--corner-radius-full);
+}
 body div.early_access_banner {
     border-radius: var(--corner-radius-medium);
 }

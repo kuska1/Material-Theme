@@ -7240,6 +7240,9 @@ body [data-featuretarget="parentappwidget"] .tool-tip-source > div:hover {
 body [data-featuretarget="parentappwidget"] .tool-tip-source > div:active {
     background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-active));
 }
+body [data-featuretarget="parentappwidget"] div:has(> .StoreSalePriceWidgetContainer) {
+    background: var(--md-sys-color-surface-container-lowest);
+}
 body .friend_blocks_twoxtwo .friend_block_holder:hover {
     background: color-mix(in srgb, transparent, var(--md-sys-color-on-surface) var(--layer-action-hover));
 }
