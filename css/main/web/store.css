@@ -625,6 +625,10 @@ body .bundle_base_discount,
 body .tab_item_discount .discount_pct {
     border-radius: var(--corner-radius-full);
 }
+body .game_purchase_action_bg .btn_medium,
+body .game_purchase_action_bg .btn_medium > span {
+    border-radius: var(--corner-radius-full);
+}
 body .game_purchase_action_bg .game_purchase_discount .discount_prices {
     background: transparent;
     padding-inline: 0px;
