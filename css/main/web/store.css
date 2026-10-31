@@ -1096,7 +1096,7 @@ body [data-featuretarget="parentappwidget"] .Panel,
 body [data-featuretarget="parentappwidget"] img {
     border-radius: var(--corner-radius-medium);
 }
-body [data-featuretarget="parentappwidget"] .tool-tip-source > div {
+body [data-featuretarget="parentappwidget"] .tool-tip-source > div:not([style]) {
     height: 32px;
     padding: 0 15px;
     font-size: 15px;
