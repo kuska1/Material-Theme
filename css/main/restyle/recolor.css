@@ -7696,8 +7696,12 @@ body .game_area_purchase_game.demo_above_purchase {
     background: var(--md-sys-color-primary-container);
 }
 body .game_area_purchase_game.demo_above_purchase h1,
+body .game_area_purchase_game.demo_above_purchase h2.title.title,
 body .game_area_purchase_game.demo_above_purchase span {
     color: var(--md-sys-color-on-primary-container);
+}
+body .game_area_purchase_game.demo_above_purchase a.steamdb_link span {
+    color: inherit;
 }
 body .game_area_purchase_game.demo_above_purchase a {
     color: var(--md-sys-color-primary);
