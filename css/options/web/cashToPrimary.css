@@ -8,7 +8,9 @@ html body .zQsf8--y3pA-,
 html body.r0DFA3TwTH8- .PE-3oq-yIvg- ._6QzykeEsckc- .rsMD9WnTopA-,
 html body .rsMD9WnTopA-,
 html body ._1gsW0WuP7ZclL1_ScZlsvo ._2wlqkq-0fkggDE-Kll8Rwd,
-html body ._1kSDZm0Cg9anUkTfWFtwdN {
+html body ._1kSDZm0Cg9anUkTfWFtwdN,
+html body .I5xcEcLqHQE- .TSCZ-XXe31E-,
+html body .pnC74wQYjms- .nw-DtQ670Sc-:not(.lba8boUamz4-) {
     color: var(--md-sys-color-on-primary-container);
     background: var(--md-sys-color-primary-container);
 }
@@ -33,7 +35,8 @@ html body #package_savings_bar,
 html body .package_totals_row.highlight,
 html body .package_totals_row.highlight .price,
 html body .vP7JKd3U1Tk- ._90cZ1dqsBUk-,
-html body .payment_method_review_method_label {
+html body .payment_method_review_method_label,
+html body .kCttzIkwWw4- .cQ79XIQ7w-Y- .JBijjejcvmo- {
     color: var(--md-sys-color-primary);
 }
 html body .payment_method_review_row .edit_method {
