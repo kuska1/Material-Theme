@@ -12718,6 +12718,16 @@ html ._39oUCO1OuizVPwcnnv88no ._3cykd-VfN_xBxf3Qxriccm::before {
     color: var(--md-sys-color-on-surface);
 }
 
+/* Anonymous framerate data */
+body .v66w8s0IBeRURM9hD5nAw {
+    background: var(--md-sys-color-surface-container-low);
+    color: var(--md-sys-color-on-surface-variant);
+}
+body .v66w8s0IBeRURM9hD5nAw ._2T8UwmbZ9jJzntqjQU4czU,
+body .v66w8s0IBeRURM9hD5nAw ._1zb2MrzgdBlkpvIFIjM_t {
+    color: var(--md-sys-color-on-surface);
+}
+
 /* Test */
 /* .actual_persona_name:has(span.nevko-badge[data-description="Material Theme Donator"]) {
     color: var(--md-sys-color-primary);
