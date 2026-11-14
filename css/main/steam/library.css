@@ -2,6 +2,23 @@
 ._3pXasCUulX4jjqO79s4q_F {
     display: none !important;
 }
+/* Anonymous framerate data */
+body .v66w8s0IBeRURM9hD5nAw {
+    border: 0;
+    border-radius: var(--corner-radius-medium);
+    box-shadow: none;
+}
+/* Match the activity column when Steam places spotlights across both columns. */
+body ._11kuVRYZvWXn-3rBJ_6yL8:not(._3wbndu1paxHkciYr4rFJH5) > .v66w8s0IBeRURM9hD5nAw {
+    width: calc(67% - 28.6px);
+}
+body .NarrowWindow ._11kuVRYZvWXn-3rBJ_6yL8:not(._3wbndu1paxHkciYr4rFJH5) > .v66w8s0IBeRURM9hD5nAw {
+    width: calc(67% - 18.6px);
+}
+body .UltraNarrowRightPanel ._11kuVRYZvWXn-3rBJ_6yL8:not(._3wbndu1paxHkciYr4rFJH5) > .v66w8s0IBeRURM9hD5nAw {
+    width: 100%;
+}
+
 /* Divider */
 ._276E6ijBpjMA2_iTxNhhjc /* Resize */ {
     opacity: 0.5;
