@@ -1,4 +1,9 @@
 @import url(common.css);
+
+:root {
+    --md-settings-game-icon-radius: var(--corner-radius-extra-small);
+}
+
 ._1R9r2OBCxAmtuUVrgBEUBw:not(._3Ehhd5MxErV_bXQE4qVhzB):not(.ZsU8nIIpj8MJn0vzMzSp1) ._3d_bT685lnWotXxgzKW6am.yDr03475kalWBTwAE-Rnw:not(._2A3-t5PA7lv9_XsLyn10Zp._2PkdSkPEHTZqCS7c0Tx25X),
 ._2kzMb_F7UTOEdecAFftN-l,
 ._1GTWEgiW95vRIhUWfk6omo,

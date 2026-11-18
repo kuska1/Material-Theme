@@ -1,12 +1,15 @@
 /* iframe & miniprofiles */
 ._38FqIwZQKW6BlRyzN66pi6,
+body .AchievementTooltip,
+body .AchievementTooltipBody,
 ._2QPdq7GZ_03AD1ioPixVXW,
 .miniprofile_container,
 body ._1MWlWL7ZhPBM6BDFnIiZC- {
     box-shadow: var(--elevated-shadow);
     filter: unset;
 }
-._38FqIwZQKW6BlRyzN66pi6 ._2HshOjKxsMkk2uUtP5Sp8x {
+._38FqIwZQKW6BlRyzN66pi6 ._2HshOjKxsMkk2uUtP5Sp8x,
+body .BlurContainer {
     display: none;
 }
 ._1V52f_cM-aALy2XpzrJBIA ._22tloOR0Wp0KKLI9Bhcmm5 {
@@ -17,7 +20,8 @@ html.client_chat_frame.friendsui-container.HoverPopup body {
 }
 ._38FqIwZQKW6BlRyzN66pi6, ._38FqIwZQKW6BlRyzN66pi6 .rYBZBWnNW6m-N9vX0Chce,
 ._2QPdq7GZ_03AD1ioPixVXW,
-.miniprofile_container {
+.miniprofile_container,
+body .AchievementTooltipBody {
     border-radius: var(--corner-radius-small);
 }
 

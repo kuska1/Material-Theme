@@ -1,3 +1,7 @@
+:root {
+    --md-settings-groups-icon-radius: var(--corner-radius-full);
+}
+
 /* Store */
 .search_suggest .match_creator .match_img img,
 .recommended_creators_container .avatars a img,

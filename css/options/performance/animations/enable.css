@@ -11,3 +11,10 @@
 :root {
     --dynamic-color-transition-enabled: true;
 }
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        --market-shape-duration: var(--animation-duration-medium3);
+        --market-color-duration: var(--animation-duration-short3);
+    }
+}

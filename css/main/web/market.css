@@ -1,78 +1,1650 @@
-/* .item_market_action_button_edit:hover > span, .item_market_action_button_edit .item_market_action_button_preload {
-    background: unset !important;
-}
-#BG_top > .user_info {
-    border-radius: var(--corner-radius-medium) !important;
-} */
-/* Beta Note */
+/* Beta notice on the classic Market */
 body #marketBetaNoteCtn {
     border-radius: var(--corner-radius-small);
+    color: var(--md-sys-color-on-secondary-container);
+    background: var(--md-sys-color-secondary-container);
 }
-/* Items */
-body .JAg6-ldsh48-.bakqiaoQAlI-.trcXcSdC1tk- .vpiI2bS0S6s-,
-body .AyZ1e03AUA8- ._4z8cLxe3aDQ- {
+body :where(#marketBetaNoteCtn) .marketBetaNoteText {
+    color: var(--md-sys-color-on-secondary-container);
+}
+body #marketBetaNoteCtn .marketBetaNoteText a {
+    color: var(--md-sys-color-primary);
+}
+body #marketBetaNoteCtn .marketBetaNoteText a:hover {
+    color: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+}
+/* Part of V2 */
+/* Market Beta page chrome and controls */
+body.Mp6FkxWGdWs- {
+    background: var(--md-sys-color-surface);
+}
+:where(#CommunityTemplate:has(a[href="https://steamcommunity.com/market/"] ~ div span.MhcW6UA5-LA-)) {
+    /* Listing Results - Loading Scrim and Progress Indicator */
+    & .O6W7VFmW1Gk-:has(.gbiIXSGR7ao-) {
+        background: color-mix(in srgb, var(--md-sys-color-surface) 80%, transparent);
+
+        & .gbiIXSGR7ao- {
+            --spinner-color: var(--md-sys-color-primary);
+            --spinner-track-color: var(--md-sys-color-primary-container);
+        }
+    }
+
+    /* Market Beta search result cards */
+    & a[href*="/market/listings/"] > .BPTxiJF58z0- {
+        background-color: var(--md-sys-color-surface-container-low);
+        border-radius: var(--corner-radius-medium);
+    }
+    & a[href*="/market/listings/"] > .BPTxiJF58z0-:hover {
+        box-shadow: var(--elevated-shadow);
+    }
+    /* Steam provides the rarity color on the full-card overlay */
+    & a[href*="/market/listings/"] > .BPTxiJF58z0- > div > [style*="--item-color:"] {
+        background: var(--item-color);
+        border: none;
+        border-radius: var(--corner-radius-medium);
+        z-index: 0;
+    }
+    & a[href*="/market/listings/"] > .BPTxiJF58z0-:hover > div > [style*="--item-color:"],
+    & a.gpfocus[href*="/market/listings/"] > .BPTxiJF58z0- > div > [style*="--item-color:"] {
+        opacity: 0.3;
+    }
+    & a[href*="/market/listings/"] > .BPTxiJF58z0- .AShqAv8lMaM- {
+        background-color: var(--md-sys-color-inverse-surface);
+        border-radius: var(--corner-radius-full);
+        box-shadow: none;
+    }
+    & a[href*="/market/listings/"] > .BPTxiJF58z0- .AShqAv8lMaM- > span {
+        color: var(--md-sys-color-inverse-on-surface);
+    }
+
+    /* Navigation Progress */
+    & .t-LlQicBZjE- {
+        background-color: var(--md-sys-color-secondary-container);
+
+        &::after {
+            background-color: var(--md-sys-color-primary);
+            background-image: none;
+        }
+    }
+
+    & .MCrEfjh4wsk- {
+        background: var(--md-sys-color-surface);
+        --color-text-body-title: var(--md-sys-color-on-surface);
+        --color-text-body-subtitle: var(--md-sys-color-on-surface-variant);
+        --color-text-body-body: var(--md-sys-color-on-surface-variant);
+        --color-text-body-description: var(--md-sys-color-on-surface-variant);
+        --color-text-body-note: var(--md-sys-color-outline-variant);
+    }
+
+    & .FNhAUA3fabk- {
+        background: none;
+
+        /* Steam's decorative header artwork */
+        & > :is(.NukVMmfB1P8-, .Tt4H84pS8eY-, .oiatSS7oQoc-, .ZIwL9PunOoE-) {
+            display: none;
+        }
+    }
+
+    /* Market Header */
+    & .gXydmc2EKLk-,
+    & .gXydmc2EKLk-:has(.f4-Ngdme-HE-:hover) {
+        background: var(--md-sys-color-surface-container);
+        border-radius: var(--corner-radius-small);
+        box-shadow: none;
+
+        /* The visible title already links to the Market home */
+        & > .iNExQPvZ9a4- {
+            display: none;
+        }
+    }
+
+    & .gXydmc2EKLk- .f4-Ngdme-HE-:hover {
+        filter: none;
+    }
+
+    & .gXydmc2EKLk- > a[href="https://steamcommunity.com/market/"],
+    & .gXydmc2EKLk- span.MhcW6UA5-LA- {
+        color: var(--md-sys-color-on-surface);
+
+        &:hover {
+            color: var(--md-sys-color-primary);
+            & h1 {
+                color: var(--md-sys-color-primary);
+            }
+        }
+    }
+
+    & .gXydmc2EKLk- + div > :is(a, button)[data-accent-color="dull"] {
+        background: var(--md-sys-color-secondary-container);
+        color: var(--md-sys-color-on-secondary-container);
+        border-radius: var(--corner-radius-full);
+
+        &:hover {
+            background: color-mix(in srgb, var(--md-sys-color-secondary-container), currentColor var(--layer-action-hover));
+        }
+    }
+
+    /* Give Feedback / Exit Market Beta */
+    & .FXoyqcp7Qdg- .inqz7Zdx9Xg- {
+        background: var(--md-sys-color-secondary-container);
+        color: var(--md-sys-color-on-secondary-container);
+        border-radius: var(--corner-radius-full);
+        &:hover {
+            background: color-mix(in srgb, var(--md-sys-color-secondary-container), currentColor var(--layer-action-hover));
+            color: var(--md-sys-color-on-secondary-container);
+        }
+        &:active {
+            background: color-mix(in srgb, var(--md-sys-color-secondary-container), currentColor var(--layer-action-active));
+            color: var(--md-sys-color-on-secondary-container);
+        }
+    }
+
+    /* Keep the bottom of the sticky filters reachable in a short Steam window */
+    & .Lv9Zktkdcxg-:has([role="combobox"]) {
+        max-height: calc(100dvh - 16px);
+        overflow-y: auto;
+    }
+
+    /* Divider */
+    & [role="separator"] {
+        background-color: var(--md-sys-color-outline-variant);
+    }
+
+    & [role="listbox"][popover] .RUtZWmuOvVA- {
+        border-color: var(--md-sys-color-outline-variant);
+    }
+
+    & [role="separator"][aria-orientation="horizontal"] {
+        height: 1px;
+    }
+
+    /* Empty Results */
+    & .-RfAozBAXnc-:has(> .im1yqKy2APs-) {
+        background: var(--md-sys-color-surface-container-low);
+        color: var(--md-sys-color-on-surface-variant);
+        border: none;
+        border-radius: var(--corner-radius-medium);
+        box-shadow: none;
+
+        & > .im1yqKy2APs- {
+            color: inherit;
+        }
+    }
+
+    /* Search Fields */
+    & .wADIJe9yvFU-:has(input[type="text"]) {
+        background: var(--md-sys-color-surface-container-low);
+        border-radius: var(--corner-radius-small);
+        box-shadow: none;
+        color: var(--md-sys-color-on-surface-variant);
+
+        &:has(input[role="combobox"]) {
+            border-radius: var(--corner-radius-full);
+        }
+
+        &:focus-within {
+            outline: 1px solid var(--md-sys-color-primary);
+            outline-offset: -1px;
+        }
+
+        & .P5l1h4VfEfg- {
+            /* background: var(--md-sys-color-surface-container-high); */
+            --color-dull-6: var(--md-sys-color-surface-container-high);
+        }
+    }
+
+    /* Filled Filter Field */
+    & .UQqUC6sKvjE-:has(input[type="text"]) {
+        border-radius: var(--corner-radius-extra-small) var(--corner-radius-extra-small) 0 0;
+        box-shadow: inset 0 -1px var(--md-sys-color-on-surface-variant);
+
+        &:hover {
+            background: color-mix(in srgb, var(--md-sys-color-surface-container-low), var(--md-sys-color-on-surface) var(--layer-action-hover));
+        }
+
+        &:focus-within {
+            outline: none;
+            box-shadow: inset 0 -2px var(--md-sys-color-primary);
+        }
+    }
+
+    /* Outlined Price Fields */
+    & .OyasUwc2EeY- .wADIJe9yvFU-:has(input[type="text"]) {
+        background: transparent;
+        border-radius: var(--corner-radius-extra-small);
+        box-shadow: none;
+        outline: 1px solid var(--md-sys-color-outline);
+        outline-offset: -1px;
+
+        &:hover {
+            outline-color: var(--md-sys-color-on-surface);
+        }
+
+        &:focus-within {
+            outline: 2px solid var(--md-sys-color-primary);
+            outline-offset: -2px;
+        }
+    }
+
+    /* Checkbox */
+    & [role="checkbox"] > .IokSIloSPlA-,
+    & [role="checkbox"] > .IokSIloSPlA- .IokSIloSPlA- {
+        color: var(--md-sys-color-on-surface-variant);
+    }
+
+    & [role="checkbox"] > .KDP8ul6OEiY- {
+        box-sizing: border-box;
+        background: transparent;
+        border: 2px solid var(--md-sys-color-on-surface-variant);
+        border-radius: 2px;
+        color: var(--md-sys-color-on-primary);
+    }
+
+    & [role="checkbox"][aria-checked="true"] > .KDP8ul6OEiY- {
+        background: var(--md-sys-color-primary);
+        border-color: var(--md-sys-color-primary);
+
+        & svg {
+            color: inherit;
+        }
+    }
+
+    & [role="checkbox"]:not([aria-disabled="true"]):hover > .KDP8ul6OEiY- {
+        border-color: var(--md-sys-color-on-surface);
+    }
+
+    & [role="checkbox"][aria-checked="true"]:not([aria-disabled="true"]):hover > .KDP8ul6OEiY- {
+        background: color-mix(in srgb, var(--md-sys-color-primary), var(--md-sys-color-on-primary) var(--layer-action-hover));
+        border-color: var(--md-sys-color-primary);
+    }
+
+    & :is(.wADIJe9yvFU-, [role="listbox"][popover]) input[type="text"] {
+        color: var(--md-sys-color-on-surface);
+
+        &::placeholder {
+            color: var(--md-sys-color-on-surface-variant);
+        }
+    }
+
+    /* Game, Sort and Exterior Select */
+    & [role="combobox"].Fn08FaIrTv4- {
+        background: var(--md-sys-color-primary);
+        color: var(--md-sys-color-on-primary);
+        border-radius: var(--corner-radius-small);
+        box-shadow: none;
+
+        &[data-status="highlight"]:not(:focus-visible, .gpfocus) {
+            outline: none;
+        }
+
+        &:hover {
+            background: color-mix(in srgb, var(--md-sys-color-primary), currentColor var(--layer-action-hover));
+        }
+
+        & :is(.IokSIloSPlA-, svg) {
+            color: inherit;
+        }
+
+        & .wqHfbc-N9jI- > svg {
+            transition: rotate var(--market-shape-duration, 0s) var(--animation-expressive-fast-spatial);
+        }
+
+        &[aria-expanded="true"] .wqHfbc-N9jI- > svg {
+            rotate: 180deg;
+        }
+
+        & .P5l1h4VfEfg- {
+            background-color: var(--md-sys-color-outline-variant);
+            border-radius: var(--md-settings-game-icon-radius, 0);
+        }
+    }
+
+    /* Baseline Menu */
+    & [role="listbox"][popover] {
+        --color-text-body-title: var(--md-sys-color-on-surface);
+        --color-text-body-body: var(--md-sys-color-on-surface-variant);
+        min-inline-size: 112px;
+        padding-block: 8px;
+        background: var(--md-sys-color-surface-container);
+        color: var(--md-sys-color-on-surface);
+        border-radius: var(--corner-radius-extra-small);
+        box-shadow: var(--elevated-shadow);
+
+        & input[type="text"] {
+            background: var(--md-sys-color-surface-container-low);
+            border-radius: var(--corner-radius-extra-small);
+        }
+
+        & [role="option"] {
+            --market-option-fill: var(--md-sys-color-surface-container);
+            --market-option-ink: var(--md-sys-color-on-surface);
+            --market-option-state: 0%;
+            border-radius: 0;
+            color: var(--market-option-ink);
+            background: color-mix(in srgb, var(--market-option-fill), var(--md-sys-color-on-surface) var(--market-option-state));
+
+            & .IokSIloSPlA- {
+                color: inherit;
+            }
+
+            &[aria-disabled="true"] {
+                opacity: 0.38;
+            }
+
+            &:is([data-selected="true"], [aria-selected="true"]) {
+                --market-option-fill: var(--md-sys-color-secondary-container);
+                --market-option-ink: var(--md-sys-color-on-secondary-container);
+            }
+
+            &:not([aria-disabled="true"]):hover {
+                --market-option-state: var(--layer-action-hover);
+            }
+
+            &:not([aria-disabled="true"])[data-focused="true"] {
+                --market-option-state: var(--layer-action-hover);
+            }
+
+            &:not([aria-disabled="true"]):active {
+                --market-option-state: var(--layer-action-active);
+            }
+
+            &:focus-visible {
+                outline: 3px solid var(--md-sys-color-secondary);
+                outline-offset: -3px;
+            }
+        }
+
+        & .P5l1h4VfEfg- {
+            background-color: var(--md-sys-color-outline-variant);
+            border-radius: var(--md-settings-game-icon-radius, 0);
+        }
+    }
+
+    /* Game Search */
+    & [role="listbox"][popover] .wADIJe9yvFU-:has(input[autocomplete="off"]) {
+        background: var(--md-sys-color-surface-container-high);
+        border-radius: var(--corner-radius-full);
+        padding-inline: 16px;
+
+        & input[autocomplete="off"] {
+            background: transparent;
+            border-radius: 0;
+        }
+    }
+
+    & img[src*="/community_assets/images/apps/"] {
+        border-radius: var(--md-settings-game-icon-radius, 0);
+    }
+
+    /* The item type switch has two tabs. The listing chart reuses the tab class */
+    & [tabindex]:has(> div > div > .L5RG2a-Ajh8-:nth-child(2 of .L5RG2a-Ajh8-):nth-last-child(1 of .L5RG2a-Ajh8-)) {
+        padding: 0;
+        background: transparent;
+        box-shadow: none;
+
+        & > div > div {
+            gap: 2px;
+
+            /* Each tab paints its own selection and animates its own shape */
+            & > .n-gwDQrkkUM- {
+                display: none;
+            }
+        }
+
+        & .L5RG2a-Ajh8- {
+            --market-control-fill: var(--md-sys-color-surface-container-high);
+            --market-tab-outer-radius: var(--corner-radius-full);
+            --market-tab-inner-radius: var(--corner-radius-extra-large);
+            min-height: 32px;
+            border-radius: var(--market-tab-outer-radius);
+
+            &:active {
+                --market-tab-inner-radius: var(--corner-radius-medium);
+            }
+
+            &[data-selected="true"] {
+                --market-control-fill: var(--md-sys-color-primary);
+                --market-control-ink: var(--md-sys-color-on-primary);
+                --market-tab-outer-radius: var(--corner-radius-large);
+                --market-tab-inner-radius: var(--corner-radius-large);
+
+                &:active {
+                    --market-tab-inner-radius: var(--corner-radius-extra-small);
+                }
+            }
+
+            &:nth-child(1 of .L5RG2a-Ajh8-) {
+                border-top-right-radius: var(--market-tab-inner-radius);
+                border-bottom-right-radius: var(--market-tab-inner-radius);
+            }
+
+            &:nth-child(2 of .L5RG2a-Ajh8-) {
+                border-top-left-radius: var(--market-tab-inner-radius);
+                border-bottom-left-radius: var(--market-tab-inner-radius);
+            }
+        }
+    }
+
+    /* Category Toggle Buttons */
+    & .SvIguXACM5w-[role="button"][data-active="false"],
+    & [role="combobox"][aria-autocomplete="none"][data-active="false"] > .h96Rv1M1OcY- {
+        --market-control-fill: var(--md-sys-color-secondary-container);
+        --market-control-ink: var(--md-sys-color-on-secondary-container);
+    }
+
+    /* Reset Search - Tonal Button */
+    & .Lv9Zktkdcxg-:has(:is([role="combobox"], input)) button.sFeQogRji0A- {
+        --market-control-fill: var(--md-sys-color-secondary-container);
+        --market-control-ink: var(--md-sys-color-on-secondary-container);
+        border-radius: var(--corner-radius-full);
+        box-shadow: none;
+    }
+
+    /* Steam Item Type - Toggle Cards */
+    & .CDvHbFA-ong-[role="button"] {
+        --market-control-ink: var(--md-sys-color-on-surface);
+        border-radius: var(--corner-radius-extra-small);
+        box-shadow: none;
+
+        &:first-child {
+            border-top-left-radius: var(--corner-radius-medium);
+            border-top-right-radius: var(--corner-radius-medium);
+        }
+
+        &:last-child {
+            border-bottom-left-radius: var(--corner-radius-medium);
+            border-bottom-right-radius: var(--corner-radius-medium);
+        }
+
+        &[aria-pressed="true"] {
+            --market-control-fill: var(--md-sys-color-primary-container);
+            --market-control-ink: var(--md-sys-color-on-primary-container);
+            border-radius: var(--corner-radius-medium);
+        }
+
+        &:not(:focus-visible, .gpfocus) {
+            outline: none;
+        }
+
+        & :is(.IokSIloSPlA-, svg) {
+            color: inherit;
+        }
+    }
+
+    /* StatTrak Selected State */
+    & .HGQJU2trIjI- > button[data-accent-color="accent"] {
+        --market-control-fill: var(--md-sys-color-primary);
+        --market-control-ink: var(--md-sys-color-on-primary);
+    }
+
+    /* Selected Filter Chips */
+    & .yXbd0191s9A- > button[type="button"] {
+        --market-control-fill: var(--md-sys-color-secondary-container);
+        --market-control-ink: var(--md-sys-color-on-secondary-container);
+        box-sizing: border-box;
+        height: 32px;
+        min-height: 32px;
+        padding-block: 4px;
+        border-radius: var(--corner-radius-small);
+        box-shadow: none;
+    }
+
+    /* StatTrak Select */
+    & .HGQJU2trIjI-:has(> button:nth-child(3):last-child) {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 2px;
+        padding: 0;
+        background: none;
+
+        & > button {
+            min-inline-size: 0;
+            padding-inline: 8px;
+            border-radius: var(--corner-radius-small);
+        }
+
+        & > button:first-child {
+            border-top-left-radius: var(--corner-radius-full);
+            border-bottom-left-radius: var(--corner-radius-full);
+            border-top-right-radius: var(--corner-radius-large);
+            border-bottom-right-radius: var(--corner-radius-large);
+        }
+
+        & > button:last-child {
+            border-top-right-radius: var(--corner-radius-full);   
+            border-bottom-right-radius: var(--corner-radius-full);
+            border-top-left-radius: var(--corner-radius-large);
+            border-bottom-left-radius: var(--corner-radius-large);
+        }
+
+        & > button[data-accent-color="accent"] {
+            border-radius: var(--corner-radius-full);
+        }
+    }
+
+    & :is(.QFIvh9bCMN0-, .Qq7p5DMAeUw-, ._7nBh3BZ8VvY-, .SvIguXACM5w-)[data-active="true"],
+    & [role="combobox"][data-active="true"] > .h96Rv1M1OcY- {
+        --market-control-fill: var(--md-sys-color-primary-container);
+        --market-control-ink: var(--md-sys-color-on-primary-container);
+    }
+
+    & :is(
+        .L5RG2a-Ajh8-:where(div:has(> .L5RG2a-Ajh8-:nth-child(2 of .L5RG2a-Ajh8-):nth-last-child(1 of .L5RG2a-Ajh8-)) > *),
+        .QFIvh9bCMN0-[data-active],
+        .Qq7p5DMAeUw-,
+        ._7nBh3BZ8VvY-:not(:has(.recharts-wrapper)),
+        .SvIguXACM5w-[role="button"][data-active],
+        [role="combobox"][data-active] > .h96Rv1M1OcY-,
+        .yXbd0191s9A- > button[type="button"],
+        .HGQJU2trIjI-:has(> button:nth-child(3):last-child) > button,
+        .Lv9Zktkdcxg-:has(:is([role="combobox"], input)) button.sFeQogRji0A-,
+        .CDvHbFA-ong-[role="button"]
+    ) {
+        --market-state-opacity: 0%;
+        background-color: color-mix(in srgb, var(--market-control-fill, var(--md-sys-color-surface-variant)), currentColor var(--market-state-opacity));
+        color: var(--market-control-ink, var(--md-sys-color-on-surface-variant));
+        transition:
+            border-radius var(--market-shape-duration, 0s) var(--animation-expressive-fast-spatial),
+            background-color var(--market-color-duration, 0s) var(--animation-expressive-fast-effects),
+            color var(--market-color-duration, 0s) var(--animation-expressive-fast-effects);
+
+        &:hover {
+            --market-state-opacity: var(--layer-action-hover);
+        }
+
+        &:active {
+            --market-state-opacity: var(--layer-action-active);
+        }
+    }
+
+    & :is(.QFIvh9bCMN0-[data-active], .Qq7p5DMAeUw-, .SvIguXACM5w-, .h96Rv1M1OcY-) :is(.IokSIloSPlA-, svg) {
+        color: inherit;
+    }
+
+    /* Weapon Type Select */
+    & .QFIvh9bCMN0-[data-active] {
+        border-radius: var(--corner-radius-full) var(--corner-radius-small) var(--corner-radius-small) var(--corner-radius-full);
+        box-shadow: none;
+    }
+
+    & .Qq7p5DMAeUw- {
+        border-radius: var(--corner-radius-small) var(--corner-radius-full) var(--corner-radius-full) var(--corner-radius-small);
+        box-shadow: none;
+    }
+
+    & .QFIvh9bCMN0-[data-active]:not(:only-child):active {
+        border-top-right-radius: var(--corner-radius-large);
+        border-bottom-right-radius: var(--corner-radius-large);
+    }
+
+    & [role="combobox"][aria-expanded="false"] > .Qq7p5DMAeUw-:active {
+        border-top-left-radius: var(--corner-radius-large);
+        border-bottom-left-radius: var(--corner-radius-large);
+    }
+
+    & :is(.QFIvh9bCMN0-[data-active]:only-child, .QFIvh9bCMN0-[data-active="true"], ._7nBh3BZ8VvY-:not(:has(.recharts-wrapper))),
+    & .SvIguXACM5w-[role="button"][data-active],
+    & [role="combobox"][aria-expanded="true"] > .Qq7p5DMAeUw- {
+        border-radius: var(--corner-radius-full);
+    }
+
+    /* Selected Category Toggle */
+    & .SvIguXACM5w-[role="button"][data-active] {
+        box-shadow: none;
+    }
+
+    & .SvIguXACM5w-[role="button"][data-active="true"] {
+        border-radius: var(--corner-radius-small);
+    }
+
+    & .SvIguXACM5w-[role="button"][data-active="true"]:active {
+        border-radius: var(--corner-radius-extra-small);
+    }
+
+    & .SvIguXACM5w-[role="button"]:not(:focus-visible, .gpfocus)::after {
+        outline: none;
+    }
+
+    /* Collection and Other Select */
+    & [role="combobox"][data-active] > .h96Rv1M1OcY- {
+        border-radius: var(--corner-radius-small);
+    }
+
+    & [role="combobox"][aria-autocomplete="none"][data-active] > .h96Rv1M1OcY-,
+    & dialog [role="combobox"][data-active="false"] > .h96Rv1M1OcY- {
+        border-radius: var(--corner-radius-full);
+    }
+
+    & [role="combobox"][aria-autocomplete="none"][data-active="true"] > .h96Rv1M1OcY- {
+        border-radius: var(--corner-radius-small);
+    }
+
+    & .QFIvh9bCMN0-[data-active="true"]:not(:only-child):active {
+        border-top-right-radius: var(--corner-radius-extra-large);
+        border-bottom-right-radius: var(--corner-radius-extra-large);
+    }
+
+    & .Qq7p5DMAeUw- > svg {
+        transition: rotate var(--market-shape-duration, 0s) var(--animation-expressive-fast-spatial);
+    }
+
+    & [role="combobox"][aria-expanded="true"] > .Qq7p5DMAeUw- > svg {
+        rotate: 180deg;
+    }
+
+    /* Steam draws a second outline around the whole split control */
+    & [role="combobox"]:has(> :is(.Qq7p5DMAeUw-, .h96Rv1M1OcY-)):not(:focus-visible, .gpfocus)::after {
+        outline: none;
+    }
+    /* Range Slider */
+    & .SlFAAH-6wXs- {
+        height: 10px;
+        background-color: var(--md-sys-color-surface-variant);
+        border-radius: var(--corner-radius-full);
+    }
+
+    & .SlFAAH-6wXs- > div {
+        height: 100%;
+        background-color: var(--md-sys-color-primary);
+        border-radius: inherit;
+    }
+
+    /* Range Handle - transparent borders preserve the 20px drag target */
+    & .JGS-lBdcrUY- > [role="slider"] {
+        box-sizing: content-box;
+        width: 6px;
+        height: 30px;
+        top: -6px;
+        border: solid transparent;
+        border-width: 0 0;
+        background: var(--md-sys-color-primary);
+        background-clip: padding-box;
+        border-radius: var(--corner-radius-full);
+        box-shadow: none;
+    }
+
+    /* Track gaps only on the sides of the handle */
+    & .JGS-lBdcrUY- > [role="slider"]::before,
+    & .JGS-lBdcrUY- > [role="slider"]::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 4px;
+        background: var(--md-sys-color-surface);
+        pointer-events: none;
+    }
+
+    & .JGS-lBdcrUY- > [role="slider"]::before {
+        left: -4px;
+    }
+
+    & .JGS-lBdcrUY- > [role="slider"]::after {
+        right: -4px;
+    }
+}
+
+/* Market Beta Advanced Search. The trigger and dialog are siblings */
+:where(#CommunityTemplate div:has(> a[href="https://steamcommunity.com/market/"])) span.MhcW6UA5-LA- + dialog {
     border-radius: var(--corner-radius-medium);
+    box-shadow: var(--elevated-shadow);
+    & > div {
+        background: var(--md-sys-color-surface);
+        color: var(--md-sys-color-on-surface-variant);
+        border-radius: var(--corner-radius-medium);
+        box-shadow: var(--elevated-shadow);
+    }
+
+    & > div::before {
+        background: none;
+    }
+
+    /* Recently Played Game Covers */
+    & .gQMGYdmsmQo- > [role="button"],
+    & .gQMGYdmsmQo- > [role="button"] > img {
+        border-radius: var(--corner-radius-medium);
+    }
+    /* Loading Cover */
+    & .gQMGYdmsmQo- > .RgOQ2zp5-Og- {
+        background: var(--md-sys-color-outline-variant);
+        border-radius: var(--corner-radius-medium);
+    }
+
+    /* No Market Filters */
+    & .l8XYhW0hUbA- {
+        background: var(--md-sys-color-surface-container-low);
+        border: none;
+        border-radius: var(--corner-radius-medium);
+        padding: 16px;
+    }
+
+    /* Search Actions - Filled Search and Text Reset */
+    & div:has(> button[type="submit"]) > button {
+        --market-action-fill: transparent;
+        --market-action-ink: var(--md-sys-color-primary);
+        border-radius: var(--corner-radius-full);
+        box-shadow: none;
+
+        &[type="submit"] {
+            --market-action-fill: var(--md-sys-color-primary);
+            --market-action-ink: var(--md-sys-color-on-primary);
+        }
+
+        &:enabled {
+            background: var(--market-action-fill);
+            color: var(--market-action-ink);
+
+            &:hover {
+                background: color-mix(in srgb, var(--market-action-fill), currentColor var(--layer-action-hover));
+            }
+
+            &:active {
+                background: color-mix(in srgb, var(--market-action-fill), currentColor var(--layer-action-active));
+            }
+        }
+
+        &:disabled {
+            opacity: 1;
+            background: transparent;
+            color: color-mix(in srgb, var(--md-sys-color-on-surface) 38%, transparent);
+
+            &[type="submit"] {
+                background: color-mix(in srgb, var(--md-sys-color-on-surface) 12%, transparent);
+            }
+        }
+    }
 }
-body .G-NVF2dxX0c-._6jM5vEPv3WM- .JAg6-ldsh48-.bakqiaoQAlI-.trcXcSdC1tk- .ykNywW4cg64- .AyZ1e03AUA8-.YS7QvJ2AUrM-.EY25wcMPP7Y-.AXepu8oo9RE- .vpiI2bS0S6s-.vpiI2bS0S6s- {
+
+/* Item Listing - scoped by the item description rather than shared utility classes */
+:where(#CommunityTemplate:has(.Nn2r0kiUlfE- h2)) {
+    /* Selling - My Listings */
+    & div:has(> .CKA4hzEc1lY- > ._2GVSg8ucdBQ-) {
+        background: transparent;
+    }
+
+    & .CKA4hzEc1lY-:has(> ._2GVSg8ucdBQ-) {
+        --color-text-body-title: var(--md-sys-color-on-surface);
+        --color-text-body-subtitle: var(--md-sys-color-on-surface-variant);
+        --color-text-body-note: var(--md-sys-color-on-surface-variant);
+        background: var(--md-sys-color-surface-container-low);
+        color: var(--md-sys-color-on-surface);
+        border: none;
+        border-radius: var(--corner-radius-large);
+        padding: 16px;
+
+        /* Column Headers and Listing Rows */
+        & > ._2GVSg8ucdBQ- > .p9g1PKkM3Ww- {
+            background: transparent;
+        }
+
+        & .ucEF73mqM1M- {
+            background: var(--md-sys-color-surface-container-high);
+            border-radius: var(--corner-radius-medium);
+
+            & img { border-radius: var(--corner-radius-small); }
+        }
+
+        /* Cancel Listing - Tonal Button */
+        & button[data-accent-color="dull"] {
+            background: var(--md-sys-color-secondary-container);
+            color: var(--md-sys-color-on-secondary-container);
+            border: none;
+            border-radius: var(--corner-radius-full);
+            box-shadow: none;
+            min-height: 36px;
+            padding: 8px 16px;
+            transition: background-color var(--market-color-duration, 0s) var(--animation-expressive-fast-effects);
+
+            &:hover {
+                background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-hover));
+            }
+
+            &:active {
+                background: color-mix(in srgb, var(--md-sys-color-secondary-container), var(--md-sys-color-on-secondary-container) var(--layer-action-active));
+            }
+
+            &:is(:focus-visible, .gpfocus) {
+                outline: 2px solid var(--md-sys-color-primary);
+                outline-offset: 2px;
+            }
+
+            &:disabled {
+                background: color-mix(in srgb, var(--md-sys-color-on-surface) 12%, transparent);
+                color: color-mix(in srgb, var(--md-sys-color-on-surface) 38%, transparent);
+            }
+        }
+    }
+
+    /* Description Read More Fade - same mask as the Store autocollapse */
+    & .BPTxiJF58z0-:has(.Nn2r0kiUlfE-) {
+        --market-description-fade: var(--md-sys-color-surface-container-high);
+
+        & .BPTxiJF58z0-.tNCLz4rNyo4- {
+            background: transparent;
+        }
+    }
+
+    & .MLQK2SbHPJw-:has(.Nn2r0kiUlfE-):has(+ .BzGyPMSERKc- .ku8rdka7UQE-) {
+        /* position: relative; */
+
+        &::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-color: var(--market-description-fade, var(--md-sys-color-surface-container-low));
+            -webkit-mask-image: linear-gradient(to top, #000 0%, #000 25px, transparent 150px, transparent 100%);
+            mask-image: linear-gradient(to top, #000 0%, #000 25px, transparent 150px, transparent 100%);
+            border-bottom-left-radius: var(--corner-radius-large);
+            border-bottom-right-radius: var(--corner-radius-large);
+            pointer-events: none;
+            user-select: none;
+        }
+    }
+
+    /* Keep Steam's fade spacer so the Show More control stays in place */
+    & .BzGyPMSERKc-:has(.ku8rdka7UQE-) > .PiDrpFUJIpU- {
+        display: none;
+        background: none;
+    }
+
+    /* Listing Filter Fields */
+    & .OyasUwc2EeY- .wADIJe9yvFU-:has(input[type="text"]),
+    & .UQqUC6sKvjE-.wADIJe9yvFU-:has(input[type="text"]) {
+        background: var(--md-sys-color-surface-container-high);
+        &:hover {
+            background: color-mix(in srgb, var(--md-sys-color-surface-container-high), var(--md-sys-color-on-surface) var(--layer-action-hover));
+        }
+    }
+
+    & .OyasUwc2EeY- .UQqUC6sKvjE-.wADIJe9yvFU-:has(input[type="text"]) {
+        background: var(--md-sys-color-surface-container-low);
+        &:hover {
+            background: color-mix(in srgb, var(--md-sys-color-surface-container-low), var(--md-sys-color-on-surface) var(--layer-action-hover));
+        }
+    }
+
+    /* Range Slider */
+    & .JGS-lBdcrUY- > [role="slider"]::before,
+    & .JGS-lBdcrUY- > [role="slider"]::after {
+        background: var(--md-sys-color-surface-container-low);
+    }
+
+    /* Listing Cards - the rarity overlay spans the entire card */
+    & .C-0M0HTDB9k- .yLiBlmqdKqY-[style*="--item-color:"] {
+        background: var(--item-color);
+        border: none;
+        border-radius: var(--corner-radius-medium);
+        opacity: 0.4;
+        z-index: 0;
+    }
+
+    & .C-0M0HTDB9k-:hover {
+        box-shadow: var(--elevated-shadow);
+
+        & .yLiBlmqdKqY-[style*="--item-color:"] {
+            opacity: 0.3;
+        }
+    }
+
+    /* Category - four connected toggle buttons */
+    & .HGQJU2trIjI-:has(> button:nth-child(4):last-child) {
+        background: transparent;
+        padding: 0;
+        gap: 2px;
+
+        & > button {
+            --market-category-fill: var(--md-sys-color-secondary-container);
+            --market-category-ink: var(--md-sys-color-on-secondary-container);
+            background: var(--market-category-fill);
+            color: var(--market-category-ink);
+            border-radius: var(--corner-radius-full);
+            box-shadow: none;
+            transition: border-radius var(--market-shape-duration, 0s) var(--animation-expressive-fast-spatial),
+                background-color var(--market-color-duration, 0s) var(--animation-expressive-fast-effects);
+
+            /* &:nth-child(1) {
+                border-top-left-radius: var(--corner-radius-full);
+            }
+            &:nth-child(2) {
+                border-top-right-radius: var(--corner-radius-full);
+            }
+            &:nth-child(3) {
+                border-bottom-left-radius: var(--corner-radius-full);
+            }
+            &:nth-child(4) {
+                border-bottom-right-radius: var(--corner-radius-full);
+            } */
+
+            &[data-accent-color="accent"] {
+                --market-category-fill: var(--md-sys-color-secondary);
+                --market-category-ink: var(--md-sys-color-on-secondary);
+                border-radius: var(--corner-radius-small);
+            }
+
+            &:hover {
+                background: color-mix(in srgb, var(--market-category-fill), currentColor var(--layer-action-hover));
+            }
+
+            &:active {
+                border-radius: var(--corner-radius-extra-small);
+                background: color-mix(in srgb, var(--market-category-fill), currentColor var(--layer-action-active));
+            }
+
+            &:not(:focus-visible, .gpfocus)::after {
+                outline: none;
+            }
+        }
+    }
+
+    /* Exterior Toggle Cards - preserve Steam's colored price labels */
+    & .j5hLl0uc0ew-[data-selected] {
+        --market-exterior-fill: var(--md-sys-color-surface-container);
+        background: var(--market-exterior-fill);
+        border-top-left-radius: var(--corner-radius-small);
+        border-top-right-radius: var(--corner-radius-small);
+        box-shadow: none;
+        transition: border-radius var(--market-shape-duration, 0s) var(--animation-expressive-fast-spatial),
+            background-color var(--market-color-duration, 0s) var(--animation-expressive-fast-effects);
+
+        &[data-selected="true"] {
+            /* --market-exterior-fill: var(--md-sys-color-primary-container);
+            border-radius: var(--corner-radius-large); */
+            background: color-mix(in srgb, var(--market-exterior-fill), var(--tab-tag-color, var(--md-sys-color-primary)) var(--layer-action-hover));
+        }
+
+        &:hover {
+            background: color-mix(in srgb, var(--market-exterior-fill), var(--md-sys-color-on-surface) var(--layer-action-hover));
+        }
+
+        &:active {
+            border-radius: var(--corner-radius-extra-small);
+            background: color-mix(in srgb, var(--market-exterior-fill), var(--md-sys-color-on-surface) var(--layer-action-active));
+        }
+
+        & > .OWksInE-UIo- {
+            --charts-background: var(--md-sys-color-surface-container-low);
+            background: linear-gradient(90deg, var(--charts-background), var(--tab-tag-color) 40%, var(--tab-tag-color) 60%, var(--charts-background));
+        }
+    }
+
+    & .j5hLl0uc0ew- .KY4I1XHH9WA- {
+        border-top-left-radius: var(--corner-radius-small);
+        border-top-right-radius: var(--corner-radius-small);
+    }
+
+    /* StatTrak and Souvenir Switches - retain Steam's hit area and thumb movement */
+    & [role="switch"].jA4kFrjtkac- {
+        & > .XWjEvL39Yi4- {
+            box-sizing: border-box;
+            background: var(--md-sys-color-surface-container-highest);
+            border: 2px solid var(--md-sys-color-outline);
+            border-radius: var(--corner-radius-full);
+
+            &::before {
+                background: var(--md-sys-color-primary);
+            }
+        }
+
+        & > .Tcizn-cHysY- {
+            width: 16px;
+            height: 16px;
+            margin: 3px;
+            background: var(--md-sys-color-outline);
+            box-shadow: none;
+        }
+
+        &[aria-checked="true"] > .XWjEvL39Yi4- {
+            background: var(--md-sys-color-primary);
+            border-color: var(--md-sys-color-primary);
+        }
+
+        &[aria-checked="true"] > .Tcizn-cHysY- {
+            background: var(--md-sys-color-on-primary);
+        }
+
+        &:hover > .Tcizn-cHysY- {
+            box-shadow: 0 0 0 4px color-mix(in srgb, var(--md-sys-color-primary) var(--layer-action-hover), transparent);
+        }
+    }
+
+    /* Item Details and Order Cards */
+    & .rS274Gvanvg- > div:has(.Nn2r0kiUlfE-) {
+        background: var(--md-sys-color-surface-container-low);
+        border-radius: var(--corner-radius-medium);
+        box-shadow: none;
+    }
+    & .BPTxiJF58z0- {
+        background: var(--md-sys-color-surface-container-high);
+        border-radius: var(--corner-radius-medium);
+        box-shadow: none;
+        --color-dull-11: var(--md-sys-color-on-surface-variant);
+        & button.fkz-MePtKwI-[data-accent-color="green"] {
+            background: var(--md-sys-color-inverse-surface);
+            color: var(--md-sys-color-inverse-on-surface);
+            border-radius: var(--corner-radius-full);
+            box-shadow: none;
+
+            &:enabled:hover {
+                background: color-mix(in srgb, var(--md-sys-color-inverse-surface), currentColor var(--layer-action-hover));
+            }
+
+            &:enabled:active {
+                background: color-mix(in srgb, var(--md-sys-color-inverse-surface), currentColor var(--layer-action-active));
+            }
+        }
+    }
+
+    /* My Listing */
+    & span.IokSIloSPlA-[style*="--text-color: var(--color-accent-9)"] {
+        --color-accent-9: var(--md-sys-color-primary);
+    }
+
+    /* Buy and Place Order Buttons */
+    & button[data-accent-color="green"],
+    & button[data-accent-color="blue"],
+    & .BPTxiJF58z0- button[data-accent-color="dull"] {
+        background: var(--md-sys-color-primary);
+        color: var(--md-sys-color-on-primary);
+        border-radius: var(--corner-radius-full);
+        box-shadow: none;
+
+        &:enabled:hover {
+            background: color-mix(in srgb, var(--md-sys-color-primary), currentColor var(--layer-action-hover));
+        }
+
+        &:enabled:active {
+            background: color-mix(in srgb, var(--md-sys-color-primary), currentColor var(--layer-action-active));
+        }
+    }
+
+    /* Price History */
+    & ._7nBh3BZ8VvY-:has(.recharts-wrapper) {
+        background: var(--md-sys-color-surface-container-low);
+        border-radius: var(--corner-radius-medium);
+    }
+
+    /* Price History Period Buttons */
+    & .PgQLUbneMyk- {
+        background: transparent;
+        box-shadow: none;
+
+        & .UO1--Z7W-a8- {
+            background: transparent;
+            gap: 2px;
+        }
+
+        & .n-gwDQrkkUM- {
+            display: none;
+        }
+
+        & .L5RG2a-Ajh8- {
+            --market-period-fill: var(--md-sys-color-surface-container-high);
+            --market-period-color: var(--md-sys-color-on-surface);
+            background: var(--market-period-fill);
+            color: var(--market-period-color);
+            border-radius: var(--corner-radius-small);
+
+            &[data-selected="true"] {
+                --market-period-fill: var(--md-sys-color-primary);
+                --market-period-color: var(--md-sys-color-on-primary);
+                border-radius: var(--corner-radius-full);
+            }
+
+            &[data-selected="false"]:first-child {
+                border-top-left-radius: var(--corner-radius-full);
+                border-bottom-left-radius: var(--corner-radius-full);
+                border-top-right-radius: var(--corner-radius-extra-large);
+                border-bottom-right-radius: var(--corner-radius-extra-large);
+                &:active {
+                    border-top-left-radius: var(--corner-radius-full);
+                    border-bottom-left-radius: var(--corner-radius-full);
+                    border-top-right-radius: var(--corner-radius-small);
+                    border-bottom-right-radius: var(--corner-radius-small);
+                }
+            }
+
+            &[data-selected="false"]:nth-last-child(1 of .L5RG2a-Ajh8-) {
+                border-top-right-radius: var(--corner-radius-full);
+                border-bottom-right-radius: var(--corner-radius-full);
+                border-top-left-radius: var(--corner-radius-extra-large);
+                border-bottom-left-radius: var(--corner-radius-extra-large);
+                &:active {
+                    border-top-right-radius: var(--corner-radius-full);
+                    border-bottom-right-radius: var(--corner-radius-full);
+                    border-top-left-radius: var(--corner-radius-small);
+                    border-bottom-left-radius: var(--corner-radius-small);
+                }
+            }
+
+            &:hover {
+                background: color-mix(in srgb, var(--market-period-fill), currentColor var(--layer-action-hover));
+            }
+
+            &:active {
+                border-radius: var(--corner-radius-extra-small);
+                background: color-mix(in srgb, var(--market-period-fill), currentColor var(--layer-action-active));
+            }
+        }
+    }
+
+    & .kuTJDaZGbhc-:has(.recharts-wrapper) {
+        background: var(--md-sys-color-surface-container);
+        border-radius: var(--corner-radius-medium);
+    }
+
+    /* History Range - selected Filter Chip */
+    & ._7nBh3BZ8VvY-:has(.recharts-wrapper) .rFurYHdyDxI- > div > button:has(> .VVwUDw-BQqg-) {
+        background: var(--md-sys-color-secondary-container);
+        color: var(--md-sys-color-on-secondary-container);
+        height: 32px;
+        min-height: 32px;
+        border-radius: var(--corner-radius-small);
+        box-shadow: none;
+
+        & > :is(span, svg) { color: inherit; }
+
+        &:hover {
+            background: color-mix(in srgb, var(--md-sys-color-secondary-container), currentColor var(--layer-action-hover));
+        }
+
+        &:active {
+            background: color-mix(in srgb, var(--md-sys-color-secondary-container), currentColor var(--layer-action-active));
+        }
+    }
+
+    /* History Tooltip - keep Steam's typography and positioning */
+    & .recharts-tooltip-wrapper > [data-elevation] {
+        --color-text-body-title: var(--md-sys-color-on-surface);
+        background: var(--md-sys-color-surface-container-high);
+        color: var(--md-sys-color-on-surface);
+        border-radius: var(--corner-radius-medium);
+        box-shadow: var(--elevated-shadow);
+    }
+
+    /* History Volume and Selection*/
+    & .recharts-bar-rectangle > path:not([fill]) {
+        fill: var(--md-sys-color-secondary);
+    }
+
+    & .recharts-reference-area-rect:not([fill]) {
+        fill: var(--md-sys-color-primary);
+        fill-opacity: 0.16;
+    }
+
+    & .recharts-active-dot circle:not([fill]) {
+        fill: var(--md-sys-color-primary);
+        stroke: var(--md-sys-color-on-primary);
+    }
+
+    & .recharts-tooltip-cursor {
+        stroke: var(--md-sys-color-outline-variant);
+    }
+
+    & .recharts-cartesian-axis :is(line, .recharts-cartesian-axis-line),
+    & .recharts-cartesian-grid line {
+        stroke: var(--md-sys-color-outline-variant);
+    }
+
+    & .recharts-cartesian-axis text:not([fill]) {
+        fill: var(--md-sys-color-outline);
+    }
+
+    & .recharts-layer > path[stroke*="#"] {
+        stroke: var(--md-sys-color-primary)
+    }
+
+    /* & .recharts-cartesian-axis text:not([style*="color:"]).recharts-label[fill="var(--color-green-8)"],
+    & .recharts-cartesian-axis text:not([style*="color:"]).recharts-label[fill="var(--color-green-9)"]  {
+        fill: var(--md-sys-color-primary);
+    }
+
+    & .recharts-cartesian-axis text:not([style*="color:"]).recharts-label[fill="var(--color-blue-8)"],
+    & .recharts-cartesian-axis text:not([style*="color:"]).recharts-label[fill="var(--color-blue-9)"]  {
+        fill: var(--md-sys-color-tertiary);
+    } */
+}
+/* Commodity Listing - shared order books instead of individual listings */
+:where(#CommunityTemplate:has(table.APEAY0rnAbo-, .kuTJDaZGbhc- > .yXwEBVt-iw4-)) {
+    /* Commodity Notice */
+    & .kuTJDaZGbhc-:has(> .yXwEBVt-iw4-) {
+        background: var(--md-sys-color-surface-container-low);
+        border-radius: var(--corner-radius-medium);
+    }
+
+    /* Show More Description */
+    & .SxMdVrGe9aY-:has(> .ku8rdka7UQE-) {
+        background: var(--md-sys-color-secondary-container);
+        color: var(--md-sys-color-on-secondary-container);
+        border-radius: var(--corner-radius-full);
+
+        & > .ku8rdka7UQE- { color: inherit; }
+
+        &:hover {
+            background: color-mix(in srgb, var(--md-sys-color-secondary-container), currentColor var(--layer-action-hover));
+        }
+
+        &:active {
+            background: color-mix(in srgb, var(--md-sys-color-secondary-container), currentColor var(--layer-action-active));
+        }
+    }
+
+    /* Buy and Sell Order Cards */
+    & .yXbd0191s9A-:has(> .ekE5QEU9qis- + .ekE5QEU9qis-) > .ekE5QEU9qis- {
+        background: var(--md-sys-color-surface-container);
+        border-radius: var(--corner-radius-medium);
+
+        /* Commodity Actions - Filled Buy and Tonal Sell */
+        & > :is(button, a):is([data-accent-color="green"], [data-accent-color="blue"]) {
+            --commodity-action-fill: var(--md-sys-color-primary);
+            --commodity-action-ink: var(--md-sys-color-on-primary);
+            background: var(--commodity-action-fill);
+            color: var(--commodity-action-ink);
+            border-radius: var(--corner-radius-full);
+            box-shadow: none;
+
+            &[data-accent-color="blue"] {
+                --commodity-action-fill: var(--md-sys-color-secondary-container);
+                --commodity-action-ink: var(--md-sys-color-on-secondary-container);
+            }
+
+            &:not(:disabled):hover {
+                background: color-mix(in srgb, var(--commodity-action-fill), currentColor var(--layer-action-hover));
+            }
+
+            &:not(:disabled):active {
+                background: color-mix(in srgb, var(--commodity-action-fill), currentColor var(--layer-action-active));
+            }
+        }
+    }
+
+    /* Order Book Table - retain Steam's compact rows and typography */
+    & table.APEAY0rnAbo- {
+        border: none;
+        border-collapse: collapse;
+        color: var(--md-sys-color-on-surface);
+
+        & :is(th, td) {
+            border: none;
+            background: transparent;
+        }
+
+        & thead {
+            color: var(--md-sys-color-on-surface-variant);
+            border-bottom: 1px solid var(--md-sys-color-outline-variant);
+        }
+
+        & tbody tr:nth-child(odd) {
+            background: var(--md-sys-color-surface-container-high);
+        }
+
+        & tbody tr:nth-child(even) {
+            background: var(--md-sys-color-surface-container);
+        }
+
+        & .JqPNuuugB1c- {
+            animation: 1s AppearAnimation;
+        }
+
+        @keyframes AppearAnimation {
+            5%, 20% {
+                color: var(--md-sys-color-on-surface);
+            }
+            100% {
+                color: currentColor;
+            }
+        }
+    }
+
+    /* Cumulative Order Chart - semantic series, independent of rarity colors */
+    & .recharts-area-area[fill="var(--color-blue-8)"] { fill: var(--md-sys-color-primary); }
+    & .recharts-area-curve[stroke="var(--color-blue-9)"] { stroke: var(--md-sys-color-primary); }
+    & .recharts-area-area[fill="var(--color-green-8)"] { fill: var(--md-sys-color-tertiary); }
+    & .recharts-area-curve[stroke="var(--color-green-9)"] { stroke: var(--md-sys-color-tertiary); }
+    & .recharts-line-curve[stroke="var(--color-green-9)"] { stroke: var(--md-sys-color-primary); }
+
+    /* Possible Contents Cards */
+    & a[href*="/market/listings/"] > .BPTxiJF58z0- {
+        background: var(--md-sys-color-surface-container-high);
+        border-radius: var(--corner-radius-medium);
+
+        &:hover {
+            background: color-mix(in srgb, var(--md-sys-color-surface-container-high), currentColor var(--layer-action-hover));
+            box-shadow: var(--elevated-shadow);
+        }
+
+        & > ._2kqXkcIx-zE- {
+            background: var(--item-color-mixed);
+            border-radius: var(--corner-radius-medium);
+            border-style: none;
+        }
+    }
+
+    /* Buy Order and Inventory Picker Dialogs */
+    & dialog:has(form .kWN4eyLc82I-) > div,
+    & dialog:has(iframe[src*="/inventory/?modal=1&market=1"]) > div {
+        --color-text-body-title: var(--md-sys-color-on-surface);
+        --color-text-body-subtitle: var(--md-sys-color-on-surface);
+        --color-text-body-body: var(--md-sys-color-on-surface-variant);
+        background: var(--md-sys-color-surface-container-high);
+        color: var(--md-sys-color-on-surface);
+        border-radius: var(--corner-radius-extra-large);
+        box-shadow: var(--elevated-shadow);
+
+        &::before { background: none; }
+    }
+
+    /* Buy Order Fields */
+    & dialog form .kWN4eyLc82I-:has(input) {
+        background: transparent;
+        color: var(--md-sys-color-on-surface);
+        border-radius: var(--corner-radius-extra-small);
+        box-shadow: none;
+        outline: 1px solid var(--md-sys-color-outline);
+        outline-offset: -1px;
+
+        &:focus-within { outline: 2px solid var(--md-sys-color-primary); }
+    }
+
+    /* Add Funds / Submit Order Action */
+    & dialog:has(form .kWN4eyLc82I-) :is(a, button)[data-accent-color="green"] {
+        background: var(--md-sys-color-primary);
+        color: var(--md-sys-color-on-primary);
+        border-radius: var(--corner-radius-full);
+        box-shadow: none;
+
+        &:hover {
+            background: color-mix(in srgb, var(--md-sys-color-primary), currentColor var(--layer-action-hover));
+        }
+
+        &:active {
+            background: color-mix(in srgb, var(--md-sys-color-primary), currentColor var(--layer-action-active));
+        }
+    }
+}
+
+/* Inspect in Game - Tonal; Buy - Filled */
+:where(#CommunityTemplate) .yXbd0191s9A- > a:is([href^="steam://run/"], [href^="steam://rungame/"]),
+:where(#CommunityTemplate) dialog:has([data-elevation="3"] > .RUtZWmuOvVA-) :is(a[href^="steam://run/"], button[data-accent-color="green"]) {
+    --market-item-action-fill: var(--md-sys-color-secondary-container);
+    --market-item-action-ink: var(--md-sys-color-on-secondary-container);
+    background: var(--market-item-action-fill);
+    color: var(--market-item-action-ink);
     border-radius: var(--corner-radius-full);
-    box-shadow: unset;
+    box-shadow: none;
+
+    &[data-accent-color="green"] {
+        --market-item-action-fill: var(--md-sys-color-primary);
+        --market-item-action-ink: var(--md-sys-color-on-primary);
+    }
+
+    &:hover {
+        background: color-mix(in srgb, var(--market-item-action-fill), currentColor var(--layer-action-hover));
+    }
+
+    &:active {
+        background: color-mix(in srgb, var(--market-item-action-fill), currentColor var(--layer-action-active));
+    }
 }
-body .AXepu8oo9RE-.RGNh19we3Yo-.HmiEjCDqdZs-.lWNIGdpQpu0-.EY25wcMPP7Y-.vpiI2bS0S6s-.YS7QvJ2AUrM-.bakqiaoQAlI-.trcXcSdC1tk-.AyZ1e03AUA8- {
-    box-shadow: unset;
+
+/* Individual Listing Dialog - Steam's gallery and neighbouring-listing carousel */
+:where(#CommunityTemplate) dialog:has([data-elevation="3"] > .RUtZWmuOvVA-) {
+    /* Item Dialog Surface */
+    & [data-elevation="3"]:has(> .RUtZWmuOvVA-) {
+        --color-text-body-title: var(--md-sys-color-on-surface);
+        --color-text-body-subtitle: var(--md-sys-color-on-surface);
+        --color-text-body-body: var(--md-sys-color-on-surface-variant);
+        --color-text-body-description: var(--md-sys-color-on-surface-variant);
+        background: var(--md-sys-color-surface-container-high);
+        color: var(--md-sys-color-on-surface-variant);
+        border-radius: var(--corner-radius-extra-large);
+        overflow: hidden;
+        box-shadow: var(--elevated-shadow);
+
+        & > .ekE5QEU9qis- {
+            background: var(--md-sys-color-surface-container-high);
+
+            & > h2 { padding-inline-end: 32px; }
+        }
+
+        /* No Images Label */
+        & .RZnhXOOlOQo- {
+            /* background: var(--md-sys-color-secondary-container); */
+            color: var(--md-sys-color-on-secondary-container);
+            border-radius: var(--corner-radius-small);
+            --color-dull-11: var(--md-sys-color-secondary-container);
+            & > span {
+                --color-text-body-description: var(--md-sys-color-on-secondary-container);
+            }
+        }
+    }
+
+    /* Image Gallery */
+    & .RUtZWmuOvVA- {
+        background: var(--md-sys-color-surface-container-low);
+    }
+
+    & .oEO0SxyReAE- {
+        border-radius: var(--corner-radius-medium);
+        overflow: hidden;
+    }
+
+    /* Gallery Thumbnails */
+    & .RUtZWmuOvVA- > .wxJDuaKleHc- {
+        box-sizing: border-box;
+        padding: 8px;
+        gap: 8px;
+        background: var(--md-sys-color-surface-container-low);
+    }
+
+    & .Xz4pvEOFh0o- {
+        background: var(--md-sys-color-surface-container);
+        border-radius: var(--corner-radius-small);
+        outline: none;
+        transition: border-radius var(--market-shape-duration, 0s) var(--animation-expressive-fast-spatial),
+            background-color var(--market-color-duration, 0s) var(--animation-expressive-fast-effects);
+
+        &.p9br-GQWd0U- {
+            border-radius: var(--corner-radius-large);
+            outline: 2px solid var(--md-sys-color-primary);
+            outline-offset: -2px;
+        }
+
+        &:hover {
+            background: color-mix(in srgb, var(--md-sys-color-surface-container), var(--md-sys-color-on-surface) var(--layer-action-hover));
+        }
+
+        &:active { border-radius: var(--corner-radius-extra-small); }
+
+        &:is(:focus-visible, .gpfocus) {
+            outline: 2px solid var(--md-sys-color-primary);
+            outline-offset: -2px;
+        }
+
+        & > .oEO0SxyReAE- { border-radius: inherit; }
+    }
+
+    /* Close and Zoom Icon Buttons */
+    & :is(.p1A9ehO7yF0-, .RlFS0YD8Kcs-) {
+        display: grid;
+        place-items: center;
+        width: 32px;
+        height: 32px;
+        background: var(--md-sys-color-surface-container-highest);
+        color: var(--md-sys-color-on-surface-variant);
+        border-radius: var(--corner-radius-full);
+        z-index: 1;
+
+        &:hover {
+            background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), currentColor var(--layer-action-hover));
+        }
+
+        &:active {
+            background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), currentColor var(--layer-action-active));
+        }
+
+        & > svg {
+            color: var(--md-sys-color-on-surface);
+            filter: unset;
+        }
+    }
+
+    /* Accessory Filled Cards - Stickers and Charms */
+    & .ekE5QEU9qis- > div:has(> a[href^="https://steamcommunity.com/market/listings/"] > ._6a7OqoYm0ek-) {
+        gap: 4px;
+
+        & > a:has(> ._6a7OqoYm0ek-) {
+            border-radius: var(--corner-radius-extra-small);
+            color: var(--md-sys-color-on-surface);
+
+            /* Group Corners - both ends apply to a single accessory */
+            &:nth-child(1 of a:has(> ._6a7OqoYm0ek-)) {
+                border-top-left-radius: var(--corner-radius-medium);
+                border-top-right-radius: var(--corner-radius-medium);
+            }
+
+            &:nth-last-child(1 of a:has(> ._6a7OqoYm0ek-)) {
+                border-bottom-left-radius: var(--corner-radius-medium);
+                border-bottom-right-radius: var(--corner-radius-medium);
+            }
+
+            & > ._6a7OqoYm0ek- {
+                --color-text-body-note: var(--md-sys-color-on-surface-variant);
+                background: var(--md-sys-color-surface-container-highest);
+                color: var(--md-sys-color-on-surface);
+                border: none;
+                border-radius: inherit;
+                box-shadow: none;
+                transition: background-color var(--market-color-duration, 0s) var(--animation-expressive-fast-effects);
+            }
+
+            &:hover > ._6a7OqoYm0ek- {
+                background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-hover));
+            }
+
+            &:active > ._6a7OqoYm0ek- {
+                background: color-mix(in srgb, var(--md-sys-color-surface-container-highest), var(--md-sys-color-on-surface) var(--layer-action-active));
+            }
+
+            &:is(:focus-visible, .gpfocus) {
+                outline: 2px solid var(--md-sys-color-primary);
+                outline-offset: 2px;
+            }
+        }
+    }
+
+    /* Game Icon and Divider */
+    & img.o3YIdqVW6EM- { border-radius: var(--md-settings-game-icon-radius, 0); }
+    & [role="separator"] { background: var(--md-sys-color-outline-variant); }
 }
-body .AXepu8oo9RE-.RGNh19we3Yo-.HmiEjCDqdZs-.lWNIGdpQpu0-.EY25wcMPP7Y-.vpiI2bS0S6s-.YS7QvJ2AUrM-.bakqiaoQAlI-.trcXcSdC1tk-.AyZ1e03AUA8-:hover {
-    box-shadow: var(--elevated-shadow);
+
+/* Experimental Carousel */
+:where(#CommunityTemplate) dialog:has([data-elevation="3"] > .RUtZWmuOvVA-) {
+    & .RUtZWmuOvVA- > .wxJDuaKleHc-:has(> .Xz4pvEOFh0o-:nth-child(4):last-child) {
+        display: grid;
+        width: 100%;
+        grid-template-columns: minmax(128px, 2.2fr) minmax(64px, 1fr) minmax(64px, 1fr) minmax(48px, 0.65fr);
+        justify-content: stretch;
+        justify-items: stretch;
+        padding: 8px 16px;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        transition: grid-template-columns var(--market-shape-duration, 0s) var(--animation-expressive-fast-spatial);
+
+        &:has(> .Xz4pvEOFh0o-:nth-child(2).p9br-GQWd0U-) {
+            grid-template-columns: minmax(64px, 1fr) minmax(128px, 2.2fr) minmax(64px, 1fr) minmax(48px, 0.65fr);
+        }
+
+        &:has(> .Xz4pvEOFh0o-:nth-child(3).p9br-GQWd0U-) {
+            grid-template-columns: minmax(48px, 0.65fr) minmax(64px, 1fr) minmax(128px, 2.2fr) minmax(64px, 1fr);
+        }
+
+        &:has(> .Xz4pvEOFh0o-:nth-child(4).p9br-GQWd0U-) {
+            grid-template-columns: minmax(48px, 0.65fr) minmax(64px, 1fr) minmax(64px, 1fr) minmax(128px, 2.2fr);
+        }
+
+        & > .Xz4pvEOFh0o- {
+            width: auto;
+            min-width: 0;
+            max-width: none;
+            border-radius: var(--corner-radius-extra-large);
+            scroll-snap-align: center;
+
+            & > .oEO0SxyReAE- {
+                width: 100%;
+                height: 100%;
+                max-width: none;
+                border-radius: inherit;
+                grid-template-rows: minmax(0, 1fr);
+                grid-template-columns: minmax(0, 1fr);
+
+                & > img {
+                    width: 100%;
+                    height: 100%;
+                    min-width: 0;
+                    min-height: 0;
+                    object-fit: cover;
+                    object-position: center;
+
+                    /* Steam's separate scene background, below the item render */
+                    &[src*="/community_assets/assets/market/"] {
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
 }
-body .AyZ1e03AUA8-:hover {
-    box-shadow: var(--elevated-shadow);
-}
-/* Header */
-body .FSFHMPmlpAk-,
-body .FSFHMPmlpAk-:has(.yNWWAgC1vwU-:hover) {
-    border-radius: var(--corner-radius-small);
-    box-shadow: unset;
-    padding: 12px 24px;
-}
-body .FSFHMPmlpAk- .rAeUUQEFUWU- img,
-body .k1kLxw7k7a8- .bDpsAUaVkhE- img,
-body .k1kLxw7k7a8- .USa7N94Rn-M- img {
-    display: none;
-}
-body .yNWWAgC1vwU-:hover {
-    filter: unset;
-}
-body .HDXo8DVlUxI-.lWNIGdpQpu0-.bG2NtC5tCTc-.eWU2vcvOOE0-.eVF7fbj4R8w-.H69XtSaDens-._6FH0jMPoxT0-.tcHFAQleIx8-._9fpFHkyl3os- {
-    border-radius: var(--corner-radius-full);
-}
-/* Containers */
-body .XcepvoS0yX0- {
-    border-radius: var(--corner-radius-small);
-    border-style: none;
-}
-body .czYTDqZppFY-._-4jX74On8NE-.vpiI2bS0S6s-.HDXo8DVlUxI-._9fpFHkyl3os-,
-body .AXepu8oo9RE-.HmiEjCDqdZs-.vpiI2bS0S6s-.O86colydcoQ-.iRapBRRENfU-._9fpFHkyl3os-,
-body .-LpHO9q7i8g-.HmiEjCDqdZs-.vpiI2bS0S6s-.WlnQdqsCe5s-._9fpFHkyl3os-,
-body .-LpHO9q7i8g-.Ib31k7HnTLs-.vpiI2bS0S6s-._6jM5vEPv3WM-,
-body .AXepu8oo9RE-.HmiEjCDqdZs-.vpiI2bS0S6s-.iRapBRRENfU-.Y0BqhPMsT9c-._9fpFHkyl3os-,
-body .qdgHaAqLaa0-.RGNh19we3Yo-.vpiI2bS0S6s-.iRapBRRENfU-.HDXo8DVlUxI-.Y0BqhPMsT9c-._9fpFHkyl3os- {
-    border-radius: var(--corner-radius-medium);
-}
-body .rWB03W-1bvI-.vpiI2bS0S6s-._6jM5vEPv3WM- {
-    border-top-left-radius: var(--corner-radius-large);
-    border-top-right-radius: var(--corner-radius-large);
-}
-/* Exterior */
-body ._957OoQ-ltZQ-.SFr79GMTc3I-.lWNIGdpQpu0-.G-NVF2dxX0c-.PUN3cA5Szi8-._9fpFHkyl3os- {
-    border-radius: var(--corner-radius-none);
-}
-/* Img */
-body ._4u7fLJJzsRY- {
-    border-radius: var(--corner-radius-small);
-}
-body .OhV7pj6UKkE- img:hover {
-    filter: unset;
-    box-shadow: var(--elevated-shadow);
-}
-body .hBhqQbQsMCE-._9fpFHkyl3os- .dFoiuQNGt-c-.lWNIGdpQpu0-.WFJk5tr0xtQ- {
-    margin-right: -4px;
+
+/* Fullscreen Item Images - Previous / Next Icon Buttons */
+:where(#CommunityTemplate) dialog.vrVtCUKAZVI-:has(> .nhq4Qsb9lfI- .oEO0SxyReAE-) {
+    & > :is(.EvR2lEzcQkU-, .pCeLTUsGEdU-) {
+        box-sizing: border-box;
+        width: 48px;
+        height: 48px;
+        padding: 0;
+        border: none;
+        border-radius: var(--corner-radius-full);
+        background: var(--md-sys-color-surface-container-high);
+        color: var(--md-sys-color-on-surface);
+        box-shadow: var(--elevated-shadow);
+        opacity: 1;
+
+        /* CSS chevron follows the theme color instead of Steam's white SVG */
+        &::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 12px;
+            height: 12px;
+            border: solid currentColor;
+            border-width: 0 2px 2px 0;
+            transform: translate(-50%, -50%) rotate(-45deg);
+            pointer-events: none;
+        }
+
+        &:hover {
+            background: color-mix(in srgb, var(--md-sys-color-surface-container-high), currentColor var(--layer-action-hover));
+        }
+
+        &:active {
+            background: color-mix(in srgb, var(--md-sys-color-surface-container-high), currentColor var(--layer-action-active));
+        }
+
+        &:focus-visible {
+            outline: 2px solid var(--md-sys-color-primary);
+            outline-offset: 3px;
+        }
+    }
+
+    & > .EvR2lEzcQkU- {
+        inset-inline-start: 16px;
+        inset-inline-end: auto;
+
+        &::before { transform: translate(-50%, -50%) rotate(135deg); }
+    }
+
+    & > .pCeLTUsGEdU- {
+        inset-inline-start: auto;
+        inset-inline-end: 16px;
+    }
 }

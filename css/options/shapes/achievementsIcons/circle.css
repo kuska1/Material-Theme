@@ -1,9 +1,15 @@
+:root {
+    --md-settings-achievements-icon-radius: var(--corner-radius-full);
+}
+
 /* Library */
 ._2V2sHETNfa62yMoDwSF3_t,
 ._2aVnDeExEHiUFX0zwr_BTO,
 ._1j_gja8bHXjiS-BeSQk8hb ._2gISWIeEzZ9PNuAzVuMaWd,
 ._1ABm6sfuqiZZDSL9z8mW1a,
 ._2gISWIeEzZ9PNuAzVuMaWd ._1-H7tKj_QcGHLUbx5wVsGg,
+.M5YgSyrfvCXXY_XYhYzcl,
+:where(._2lajVjbyrA4lq9xF0X4NQW),
 /* Store */
 .communitylink_achievement,
 a.communitylink_achievement.communitylink_achivement_plusmore,

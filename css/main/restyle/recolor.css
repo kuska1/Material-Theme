@@ -366,7 +366,7 @@ body .r-IB7hJgZPM-::after {
 
 /* Active Track */
 ._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B, /* Basic */
-._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6, ._3Rm36_oeAhvIg6ZYP9l1Jj, ._1OIatPEED_bSmd_CNyMv7C ._3Rm36_oeAhvIg6ZYP9l1Jj /* Achievements */
+._25YVDTaClw6Y2COPsU0UaV ._1FnTqlsi2_-TJf1d5apoS6, ._3Rm36_oeAhvIg6ZYP9l1Jj, ._1OIatPEED_bSmd_CNyMv7C ._3Rm36_oeAhvIg6ZYP9l1Jj, ._3WOeX9PHv29FSw4EKlG77h, /* Achievements */
 ._3szjUMH5QeRwtXAsLRcWt9._3DjdoQj5NoknowwV5t5JPN::after, /* Downloading Status */
 .kX-tIJx4a9vKVuUkKJARv .mA39Hqv8LacDppegb_Q_Z, ._1f7qD1HD8b01m7JUphBILr, /* Downloading On Game */
 body .profile_showcase_selector .achievement_progress_bar_ctn .progress_bar, /* Edit Profile */
@@ -376,7 +376,7 @@ body .profile_showcase_selector .achievement_progress_bar_ctn .progress_bar, /* 
 /* Inactive Track */
 ._2Dptk9e7W_k4zYB5wfRTcp .Qeg4qAFIMLaYd3mHOBndS, ._1-nHjRywUoX7Mpyc6JOPaQ, /* Basic */
 ._1EubJAK9z7JtdGks5M2f8t, /* Storage */
-._25YVDTaClw6Y2COPsU0UaV, ._3ns9185LizH61StaAXuAp6, ._1OIatPEED_bSmd_CNyMv7C, /* Achievements */
+._25YVDTaClw6Y2COPsU0UaV, ._3ns9185LizH61StaAXuAp6, ._1OIatPEED_bSmd_CNyMv7C, ._1i6AhxSEgz1FAUyiEt1Xsk, /* Achievements */
 ._2_FomluqqgQ2Hx8ON3AVep .wi0pDywRgOCxhG7OqQNaA, /* Downloading Status */
 .kX-tIJx4a9vKVuUkKJARv, ._2IEorvaTnkOBZw3PEDXZoB, /* Downloading On Game */
 ._1SyggnJY6qbRSmbZpkK3-H ._1vMU1vG5ZtLihr3mfXUymR, /* Downloads */
@@ -3422,9 +3422,11 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
 ._1ABm6sfuqiZZDSL9z8mW1a,
 ._2gISWIeEzZ9PNuAzVuMaWd ._1-H7tKj_QcGHLUbx5wVsGg,
 ._3JepbxeEa0I4l8TnG9DeT5, ._2EspjUGvVbAC5UqXtS_G8F,
-._1RyQjjzvhNOsPWZlCWFgFR {
+._1RyQjjzvhNOsPWZlCWFgFR,
+:where(._1x6gylcu6acqj_bRoqrFHf) {
     color: var(--md-sys-color-primary-fixed);
-    background: var(--md-sys-color-on-primary-fixed)
+    background: var(--md-sys-color-on-primary-fixed);
+    border-style: none;
 }
 /* X added to wishlist */
 .UVeN0kaD3zv1feMj_mMw5 .QCKBqF2k_sRLcXJ5qQIEl .Gy1Y7lb4Y47vK8odzSru2 {
@@ -3515,7 +3517,8 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
     color: var(--md-sys-color-outline);
 }
 /* iframe */
-._38FqIwZQKW6BlRyzN66pi6 .rYBZBWnNW6m-N9vX0Chce {
+._38FqIwZQKW6BlRyzN66pi6 .rYBZBWnNW6m-N9vX0Chce,
+body .AchievementIconBackground {
     background: var(--md-sys-color-surface-container-high);
 }
 ._38FqIwZQKW6BlRyzN66pi6 {
@@ -3525,6 +3528,20 @@ a._2HnDgHQT_3ehcs4WgskKG5 {
     color: var(--md-sys-color-outline);
 }
 /* Achievements Fix */
+body :where(.AchievementTooltip) {
+    --color-text-body-title: var(--md-sys-color-on-surface);
+    --color-text-body-description: var(--md-sys-color-on-surface-variant);
+    --color-text-body-subtitle: var(--md-sys-color-outline);
+    --color-amber-9: var(--md-sys-color-primary);
+    & .AchievementTooltipBody,
+    & .AchievementIconBackground {
+        background: var(--md-sys-color-surface-container-high) !important;
+        & > .UnlockInfo {
+            background: var(--md-sys-color-surface-container-low);
+        }
+    }
+    
+}
 ._37Lk82ESPo7El4__sqZgOV ._2KA0p5xYePYygXUbjjsPzA {
     color: var(--md-sys-color-on-surface-variant);
     background: var(--md-sys-color-surface-container-low);
